@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/filtershow_done" android:background="@drawable/filtershow_button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save" android:drawableLeft="@drawable/menu_save_photo" android:drawablePadding="8.0dip" android:textAllCaps="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

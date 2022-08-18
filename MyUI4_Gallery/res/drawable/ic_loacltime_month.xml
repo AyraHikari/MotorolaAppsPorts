@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/localtime_button" android:pathData="M19.2,3L4.8,3C3.81,3 3,3.81 3,4.8L3,19.2C3,20.19 3.81,21 4.8,21L19.2,21C20.19,21 21,20.19 21,19.2L21,4.8C21,3.81 20.19,3 19.2,3ZM8.4,19.2L4.8,19.2L4.8,15.6L8.4,15.6L8.4,19.2ZM8.4,13.8L4.8,13.8L4.8,10.2L8.4,10.2L8.4,13.8ZM8.4,8.4L4.8,8.4L4.8,4.8L8.4,4.8L8.4,8.4ZM13.8,19.2L10.2,19.2L10.2,15.6L13.8,15.6L13.8,19.2ZM13.8,13.8L10.2,13.8L10.2,10.2L13.8,10.2L13.8,13.8ZM13.8,8.4L10.2,8.4L10.2,4.8L13.8,4.8L13.8,8.4ZM19.2,19.2L15.6,19.2L15.6,15.6L19.2,15.6L19.2,19.2ZM19.2,13.8L15.6,13.8L15.6,10.2L19.2,10.2L19.2,13.8ZM19.2,8.4L15.6,8.4L15.6,4.8L19.2,4.8L19.2,8.4Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

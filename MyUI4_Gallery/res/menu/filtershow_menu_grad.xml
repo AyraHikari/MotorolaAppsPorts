@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/editor_grad_brightness" android:title="@string/editor_grad_brightness" />
+    <item android:id="@id/editor_grad_saturation" android:title="@string/editor_grad_saturation" />
+    <item android:id="@id/editor_grad_contrast" android:title="@string/editor_grad_contrast" />
+</menu>

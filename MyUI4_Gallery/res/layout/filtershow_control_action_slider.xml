@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="start|center" android:id="@id/leftActionButton" android:background="@drawable/filtershow_button_background" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/filtershow_addpoint" android:scaleType="centerInside" android:layout_weight="0.0" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/controlValueSeekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FilterShowSlider" />
+    <ImageButton android:layout_gravity="end|center" android:id="@id/rightActionButton" android:background="@drawable/filtershow_button_background" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_trash_holo_light" android:scaleType="centerInside" android:layout_weight="0.0" />
+</LinearLayout>

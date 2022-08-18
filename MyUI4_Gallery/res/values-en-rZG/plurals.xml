@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">ေရြးခ်ယ္ထားသည္မ်ားကို ဖ်က္ပစ္မည္လား။</item>
+        <item quantity="one">ေရြးခ်ယ္ထားသည္ကို ဖ်က္ပစ္မည္လား။</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d ခုကို စကန္ဖတ္ထားသည္</item>
+        <item quantity="zero">%1$d ခုကို စကန္ဖတ္ထားသည္</item>
+        <item quantity="one">%1$d ခုကို စကန္ဖတ္ထားသည္</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d ခုေ႐ြးခ်ယ္ခဲ့သည္</item>
+        <item quantity="zero">%1$d ခုေ႐ြးခ်ယ္ခဲ့သည္</item>
+        <item quantity="one">%1$d ခုေ႐ြးခ်ယ္ခဲ့သည္</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">ေအာ့ဖ္လိုင္း အသုံးျပဳနိင္ေသာ အဲလ္ဘမ္မ်ားး ျပဳလုပ္ျခင္း။</item>
+        <item quantity="one">ေအာ့ဖ္လိုင္း အသုံးျပဳနိင္ေသာ အဲလ္ဘမ္ ျပဳလုပ္ျခင္း။</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="zero">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="one">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="zero">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="one">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="zero">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+        <item quantity="one">%1$d ခုေရြးခ်ယ္ထားသည္</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">ဓာတ္ပုံ %1$d ပုံ</item>
+        <item quantity="one">ဓာတ္ပုံ %1$d ပုံ</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">ဓာတ္ပုံ %1$d ပုံ ေရြးခ်ယ္ခဲ့သည္</item>
+        <item quantity="zero">ဓာတ္ပုံ %1$d ပုံ ေရြးခ်ယ္ခဲ့သည္</item>
+        <item quantity="one">ဓာတ္ပုံ %1$d ပုံ ေရြးခ်ယ္ခဲ့သည္</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d စကၠန္႔</item>
+        <item quantity="one">1 စကၠန္႔</item>
+    </plurals>
+</resources>

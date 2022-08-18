@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottom_tab_bar" android:background="@color/bottom_tab_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tab_time" android:background="@drawable/action_back_backgound" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/albumset_images_second_margin_top" android:layout_weight="1.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="@dimen/albumset_slot_width_gap">
+            <ImageView android:id="@id/tab_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/tab_photo_normal" android:scaleType="centerInside" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/tab_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appwidget_title" style="@style/TabBottomTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tab_albumset" android:background="@drawable/action_back_backgound" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/albumset_images_second_margin_top" android:layout_weight="1.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginEnd="@dimen/albumset_slot_width_gap">
+            <ImageView android:id="@id/tab_albumset_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/tab_albumset_normal" android:scaleType="centerInside" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/tab_albumset_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_all_albums" style="@style/TabBottomTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.66700006dip" />
+</RelativeLayout>

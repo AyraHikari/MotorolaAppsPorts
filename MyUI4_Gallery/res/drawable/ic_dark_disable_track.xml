@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="22.0dip" android:width="69.0dip" android:alpha="0.3" android:viewportWidth="56.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/switch_button_disable_color_zui" android:pathData="M14,0L42,0C49.732,-0 56,6.268 56,14C56,21.732 49.732,28 42,28L14,28C6.268,28 -0,21.732 0,14C-0,6.268 6.268,-0 14,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/switch_round_disable_color_zui" android:pathData="M14,4C19.5228,4 24,8.4772 24,14C24,19.5228 19.5228,24 14,24C8.4772,24 4,19.5228 4,14C4,8.4772 8.4772,4 14,4Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

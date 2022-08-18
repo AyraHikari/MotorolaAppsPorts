@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_width="fill_parent" android:layout_height="74.0dip" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/aspect_panel_vertical" android:background="@color/filtershow_categoryview_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_mirror_vertical_imageview_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_mirror_horizontal_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_mirror_vertical_textview_id" android:text="@string/mirror" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_rotation_vertical_imageview_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_rotation_image_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_rotation_vertical_textview_id" android:text="@string/rotate" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_original_vertical_imageview_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_crop_image_vertical_original_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_original_vertical_textview_id" android:text="@string/filtershow_crop_original" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_freedom_vertical_imageview_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_crop_image_vertical_freedom_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_freedom_vertical_textview_id" android:text="@string/filtershow_crop_freedom" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_1to1_vertical_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_crop_image_1to1_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_1to1_vertical_textview_id" android:text="@string/filtershow_crop_1to1" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_3to4_vertical_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_crop_image_vertical_3to4_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_3to4_vertical_textview_id" android:text="@string/filtershow_crop_3to4" style="@style/CropTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+            <ImageView android:id="@id/aspect_9to16_vertical_id" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/filtershow_crop_image_vertical_9to16_selector" android:scaleType="centerInside" />
+            <TextView android:id="@id/aspect_9to16_vertical_textview_id" android:text="@string/filtershow_crop_9to16" style="@style/CropTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/cp_grid_button01" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button2" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button03" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button04" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button05" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/Button06" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button07" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button08" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button09" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button10" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/Button11" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button12" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button13" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button14" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button15" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/Button16" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button17" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button18" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button19" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/button20" android:background="@drawable/filtershow_color_picker_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+    <Button android:id="@id/filtershow_cp_custom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/color_pick_select" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/curves_popupmenu">
+        <item android:id="@id/color_border_menu_corner_size" android:title="@string/color_border_corner_size" />
+        <item android:id="@id/color_border_menu_size" android:title="@string/color_border_size" />
+        <item android:id="@id/color_border_menu_color" android:title="@string/color_border_color" />
+        <item android:id="@id/color_border_menu_clear" android:title="@string/color_border_clear" />
+    </group>
+</menu>

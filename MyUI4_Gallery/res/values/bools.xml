@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_carboard_mode">false</bool>
+    <bool name="enable_depth_editor">false</bool>
+    <bool name="is_enabled_recognition_menu">true</bool>
+    <bool name="m3_sys_typescale_body_large_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_body_medium_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_body_small_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_display_large_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_display_medium_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_display_small_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_headline_large_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_headline_medium_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_headline_small_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_label_large_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_label_medium_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_label_small_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_title_large_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_title_medium_text_all_caps">false</bool>
+    <bool name="m3_sys_typescale_title_small_text_all_caps">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="only_use_portrait">true</bool>
+    <bool name="rotation_always">false</bool>
+    <bool name="zui_use_light_statusbar">true</bool>
+</resources>

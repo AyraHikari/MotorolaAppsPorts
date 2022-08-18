@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categorytrack_effect_height">101.0dip</dimen>
+    <dimen name="categorytrack_height">70.0dip</dimen>
+    <dimen name="categorytrack_width">58.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">100.0dip</dimen>
+    <dimen name="filter_iconview_top">14.0dip</dimen>
+    <dimen name="look_iconview_top">26.0dip</dimen>
+    <dimen name="look_left">0.0px</dimen>
+    <dimen name="micro_video_layout_margin_right">120.0dip</dimen>
+    <dimen name="seektext_margin">-7.0dip</dimen>
+    <dimen name="trash_count_margin_arraw">50.0dip</dimen>
+    <dimen name="trash_count_x">720.0dip</dimen>
+</resources>

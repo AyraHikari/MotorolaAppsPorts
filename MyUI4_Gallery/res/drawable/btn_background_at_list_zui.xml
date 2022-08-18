@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="23.0dip" />
+            <solid android:color="@color/button_background_disabled_zui" />
+            <padding android:left="@dimen/button_padding_at_list_horizontal_zui" android:top="@dimen/button_padding_at_list_vertical_zui" android:right="@dimen/button_padding_at_list_horizontal_zui" android:bottom="@dimen/button_padding_at_list_vertical_zui" />
+            <stroke android:width="@dimen/divider_width_zui" android:color="#ffe0e0e0" android:dashGap="0.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="23.0dip" />
+            <solid android:color="@color/button_background_pressed_zui" />
+            <padding android:left="@dimen/button_padding_at_list_horizontal_zui" android:top="@dimen/button_padding_at_list_vertical_zui" android:right="@dimen/button_padding_at_list_horizontal_zui" android:bottom="@dimen/button_padding_at_list_vertical_zui" />
+            <stroke android:width="@dimen/divider_width_zui" android:color="#ffe0e0e0" android:dashGap="0.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="23.0dip" />
+            <solid android:color="@color/button_background_zui" />
+            <padding android:left="@dimen/button_padding_at_list_horizontal_zui" android:top="@dimen/button_padding_at_list_vertical_zui" android:right="@dimen/button_padding_at_list_horizontal_zui" android:bottom="@dimen/button_padding_at_list_vertical_zui" />
+            <stroke android:width="@dimen/divider_width_zui" android:color="#ffe0e0e0" android:dashGap="0.0dip" />
+        </shape>
+    </item>
+</selector>

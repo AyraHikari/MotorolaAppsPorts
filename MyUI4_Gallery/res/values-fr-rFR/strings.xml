@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">"Plus d'options"</string>
+    <string name="app_name">ZuiSdk</string>
+    <string name="back_button_label">Retour</string>
+    <string name="capital_off">« Arrêt »</string>
+    <string name="capital_on">ON</string>
+    <string name="date_picker_dialog_x_title">%4$s, %3$s %2$s %1$s</string>
+    <string name="keyboardviewx_done">TERMINÉ</string>
+    <string name="listview_x_title_items_selected">%1$s éléments</string>
+    <string name="listview_x_title_main">%1$s éléments sont sélectionnés</string>
+    <string name="listview_x_title_no_item_selected">Sélectionner</string>
+    <string name="listview_x_title_one_item_selected">1 élément</string>
+    <string name="listview_x_title_select_all">Tout sélectionner</string>
+    <string name="listview_x_title_unselect_all">Tout désélectionner</string>
+    <string name="loading">Chargement…</string>
+    <string name="message_dialog_paired_message_separator">:</string>
+    <string name="next_button_label">Suivant</string>
+    <string name="skip_button_label">Ignorer</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Terminé</string>
+    <string name="time_picker_dialog_x_midnight">minuit</string>
+    <string name="time_picker_dialog_x_noon">midi</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+    <string name="zui_identity">zui</string>
+</resources>

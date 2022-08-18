@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Padamkan item dipilih?</item>
+        <item quantity="one">Padamkan item dipilih?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d item diimbas</item>
+        <item quantity="zero">%1$d item diimbas</item>
+        <item quantity="one">%1$d item diimbas</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d item dipilih</item>
+        <item quantity="zero">%1$d item dipilih</item>
+        <item quantity="one">%1$d item dipilih</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Membuat album tersedia di luar talian.</item>
+        <item quantity="one">Membuat album tersedia di luar talian.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d pemberitahuan baharu</item>
+        <item quantity="one">%d pemberitahuan baharu</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d foto</item>
+        <item quantity="one">%1$d foto</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$d foto dipilih</item>
+        <item quantity="zero">%1$d foto dipilih</item>
+        <item quantity="one">%1$d foto dipilih</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+</resources>

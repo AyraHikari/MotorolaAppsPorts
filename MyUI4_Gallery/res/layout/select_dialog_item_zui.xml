@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_dialog_list_item_zui" android:textColor="?dialogListItemTextColor" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/text1" android:paddingTop="?listItemVerticalPadding" android:paddingBottom="?listItemVerticalPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/dialog_list_padding_zui" android:paddingEnd="@dimen/dialog_list_padding_zui"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

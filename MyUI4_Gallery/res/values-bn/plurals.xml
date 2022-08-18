@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">নির্বাচিত আইটেমগুলি মুছবেন?</item>
+        <item quantity="one">নির্বাচিত আইটেমটি মুছবেন?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$dটি আইটেম স্ক্যান করা হয়েছে</item>
+        <item quantity="zero">%1$dটি আইটেম স্ক্যান করা হয়েছে</item>
+        <item quantity="one">%1$dটি আইটেম স্ক্যান করা হয়েছে</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$dটি আইটেম নির্বাচিত হয়েছে</item>
+        <item quantity="zero">%1$dটি আইটেম নির্বাচিত হয়েছে</item>
+        <item quantity="one">%1$dটি আইটেম নির্বাচিত হয়েছে</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">অফলাইনে অ্যালবামগুলিকে উপলভ্য করুন।</item>
+        <item quantity="one">অফলাইনে অ্যালবাম উপলভ্য করুন।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d নির্বাচিত</item>
+        <item quantity="zero">%1$d নির্বাচিত</item>
+        <item quantity="one">%1$d নির্বাচিত</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d নির্বাচিত</item>
+        <item quantity="zero">%1$d নির্বাচিত</item>
+        <item quantity="one">%1$d নির্বাচিত</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d নির্বাচিত</item>
+        <item quantity="zero">%1$d নির্বাচিত</item>
+        <item quantity="one">%1$d নির্বাচিত</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$dটি ফটো</item>
+        <item quantity="one">%1$dটি ফটো</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$dটি ফটো নির্বাচিত হয়েছে</item>
+        <item quantity="zero">%1$dটি ফটো নির্বাচিত হয়েছে</item>
+        <item quantity="one">%1$dটি ফটো নির্বাচিত হয়েছে</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d সেকেন্ড</item>
+        <item quantity="one">1 সেকেন্ড</item>
+    </plurals>
+</resources>

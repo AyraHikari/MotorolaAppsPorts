@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/grunge_popupmenu">
+        <item android:id="@id/editor_chan_sat_main" android:title="@string/editor_chan_sat_main" />
+        <item android:id="@id/editor_chan_sat_red" android:title="@string/editor_chan_sat_red" />
+        <item android:id="@id/editor_chan_sat_yellow" android:title="@string/editor_chan_sat_yellow" />
+        <item android:id="@id/editor_chan_sat_green" android:title="@string/editor_chan_sat_green" />
+        <item android:id="@id/editor_chan_sat_cyan" android:title="@string/editor_chan_sat_cyan" />
+        <item android:id="@id/editor_chan_sat_blue" android:title="@string/editor_chan_sat_blue" />
+        <item android:id="@id/editor_chan_sat_magenta" android:title="@string/editor_chan_sat_magenta" />
+    </group>
+</menu>

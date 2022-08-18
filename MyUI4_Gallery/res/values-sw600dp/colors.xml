@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_divider_zui">#ffe5e5e5</color>
+    <color name="keyboardviewx_bg_color">#ffd7dbdf</color>
+    <color name="keyboardviewx_capslock_press_bg_color">#ff969ba3</color>
+    <color name="keyboardviewx_key_bg_dark_color">#ffadb2ba</color>
+    <color name="keyboardviewx_key_normal_bg_color">#ffffffff</color>
+    <color name="keyboardviewx_key_press_bg_color">#ffadb2ba</color>
+    <color name="keyboardviewx_key_press_bg_dark_color">#ff969ba3</color>
+    <color name="keyboardviewx_text_normal_color">#ff191919</color>
+    <color name="listview_divider_zui">#ffe5e5e5</color>
+</resources>

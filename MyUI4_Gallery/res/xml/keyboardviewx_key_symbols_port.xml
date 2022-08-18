@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="30.0dip" android:keyHeight="40.0dip" android:horizontalGap="5.299988dip" android:verticalGap="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:keyboard="http://schemas.android.com/apk/res-auto">
+    <Row android:horizontalGap="5.299988dip">
+        <Key android:codes="94" android:keyEdgeFlags="left" android:keyLabel="^" />
+        <Key android:codes="92" android:keyLabel="\\" />
+        <Key android:codes="124" android:keyLabel="|" />
+        <Key android:codes="60" android:keyLabel="&lt;" />
+        <Key android:codes="62" android:keyLabel=">" />
+        <Key android:codes="162" android:keyLabel="¢" />
+        <Key android:codes="163" android:keyLabel="£" />
+        <Key android:codes="8364" android:keyLabel="€" />
+        <Key android:codes="165" android:keyLabel="¥" />
+        <Key android:codes="8369" android:keyEdgeFlags="right" android:keyLabel="₱" />
+    </Row>
+    <Row>
+        <Key android:codes="91" android:keyEdgeFlags="left" android:keyLabel="[" />
+        <Key android:codes="93" android:keyLabel="]" />
+        <Key android:codes="123" android:keyLabel="{" />
+        <Key android:codes="125" android:keyLabel="}" />
+        <Key android:codes="35" android:keyLabel="\#" />
+        <Key android:codes="37" android:keyLabel="%" />
+        <Key android:codes="43" android:keyLabel="+" />
+        <Key android:codes="61" android:keyLabel="=" />
+        <Key android:codes="126" android:keyLabel="~" />
+        <Key android:codes="95" android:keyEdgeFlags="right" android:keyLabel="_" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="23.0dip" android:codes="45" android:keyEdgeFlags="left" android:keyLabel="-" />
+        <Key android:codes="47" android:keyLabel="/" />
+        <Key android:codes="58" android:keyLabel=":" />
+        <Key android:codes="59" android:keyLabel=";" />
+        <Key android:codes="40" android:keyLabel="(" />
+        <Key android:codes="41" android:keyLabel=")" />
+        <Key android:codes="36" android:keyLabel="$" />
+        <Key android:codes="38" android:keyLabel="&amp;" />
+        <Key android:codes="34" android:keyEdgeFlags="right" android:keyLabel="&quot;" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="48.0dip" android:codes="46" android:keyEdgeFlags="left" android:keyLabel="." />
+        <Key android:codes="44" android:keyLabel="," />
+        <Key android:codes="63" android:keyLabel="\?" />
+        <Key android:codes="33" android:keyLabel="!" />
+        <Key android:codes="42" android:keyLabel="*" />
+        <Key android:codes="64" android:keyLabel="\@" />
+        <Key android:codes="96" android:keyLabel="`" />
+        <Key android:codes="39" android:keyLabel="'" />
+        <Key android:keyWidth="48.0dip" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/keyboardviewx_btn_keyboard_delete" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="65.0dip" android:codes="-2" android:keyEdgeFlags="left" android:keyLabel="ABC" />
+        <Key android:keyWidth="186.0dip" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/keyboardviewx_white_space_big" />
+        <Key android:keyWidth="85.0dip" android:codes="-4" android:keyEdgeFlags="right" android:keyLabel="@string/keyboardviewx_done" />
+    </Row>
+</Keyboard>

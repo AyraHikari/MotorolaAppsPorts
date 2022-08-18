@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/photopage_back_up_container" android:layout_width="@dimen/action_bar_icon_container_width" android:layout_height="fill_parent" android:onClick="onClick">
+        <ImageView android:id="@id/photopage_back_up" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_arrow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:layout_gravity="center" android:id="@id/time_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" style="@style/TabTitleTextStyle" />
+        <TextView android:layout_gravity="center" android:id="@id/time_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" style="@style/TabSubTitleTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/all_photo_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <TextView android:textColor="@color/top_bar_text_selector" android:id="@id/all_photo" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_photo_to_gallery" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/continue_select_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <TextView android:id="@id/continue_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photopage_bottom_controls_select_text" style="@style/TextButtonNormalStyle" />
+    </LinearLayout>
+    <View android:background="@color/tab_devider_color" android:layout_width="fill_parent" android:layout_height="0.66700006dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/user_face_drawable" android:drawable="@drawable/progressbar_bg_zui" android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+    <item>
+        <rotate android:drawable="@drawable/progressbar_rotate_zui" android:fromDegrees="0.0" android:toDegrees="1080.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+    </item>
+</layer-list>

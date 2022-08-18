@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/filtershow_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="top" android:id="@id/state_panel_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/category_panel_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/filter_show_main_panel_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:background="#ff000000" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/filter_show_main_panel_height">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/crop_image" android:background="@drawable/filtershow_crop_image_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/looks_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/looks_image" android:background="@drawable/filtershow_looks_image_selector" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/borderButton" android:background="@drawable/ic_photoeditor_border" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/geometryButton" android:background="@drawable/filtershow_mainpanel_crop_image_selector" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/highEditButton_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/highEditButton" android:background="@drawable/filtershow_high_edit_selector" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/rotation_Image" android:background="@drawable/filtershow_rotation_image_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/mosac_Image" android:background="@drawable/filtershow_mosac_image_selector" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/adddraw_Image" android:background="@drawable/mainpanel_setpen_selector" android:clickable="true" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/draw_Image" android:background="@drawable/filtershow_mosac_image_selector" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|left" android:id="@id/del_image" android:background="@drawable/bottom_delete_selector_shot" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="15.0dip" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/share_image" android:background="@drawable/bottom_share_selector_shot" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="15.0dip" />
+    </FrameLayout>
+</LinearLayout>

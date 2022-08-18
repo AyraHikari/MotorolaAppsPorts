@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/progress_dialog_x_horizontal_padding_top_land" android:paddingBottom="@dimen/progress_dialog_x_horizontal_padding_bottom_land" android:layout_width="@dimen/progress_dialog_x_width" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="31.0dip" android:paddingEnd="31.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/text_title_dialog_zui" android:layout_gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <zui.widget.ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_dialog_x_horizontal_text_margin_top_land" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+</RelativeLayout>

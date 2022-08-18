@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="#12000000" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" />
+    <zui.widget.Switch android:id="@android:id/switch_widget" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/preference_switch_offset_zui" />
+</LinearLayout>

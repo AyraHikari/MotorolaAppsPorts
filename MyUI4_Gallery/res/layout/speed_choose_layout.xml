@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speed1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:text="@string/rate1" style="@style/SpeedTextStyle" />
+        <ImageView style="@style/SpeedIndicatorStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speed2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:text="@string/rate2" style="@style/SpeedTextStyle" />
+        <ImageView style="@style/SpeedIndicatorStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speed3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:text="@string/rate3" style="@style/SpeedTextStyle" />
+        <ImageView style="@style/SpeedIndicatorStyle" />
+    </LinearLayout>
+</LinearLayout>

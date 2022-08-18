@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="12.0dip" android:layout_marginStart="-4.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="48.0dip" android:maxHeight="48.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="?listItemVerticalPadding" android:paddingBottom="?listItemVerticalPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="24.0dip">
+        <Button android:textSize="12.0sp" android:textColor="@color/btn_text_color_default_zui" android:id="@id/button" android:background="@drawable/btn_background_at_list_zui" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

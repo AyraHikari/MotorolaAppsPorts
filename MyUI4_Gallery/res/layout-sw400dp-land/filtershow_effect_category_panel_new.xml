@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/filtershow_mainpanel_background" android:layout_width="58.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.motorola.cn.gallery.filtershow.category.CustomScrollView android:id="@id/scroll_effect" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.motorola.cn.gallery.filtershow.category.CategoryTrack android:gravity="center" android:orientation="vertical" android:id="@id/listItems_effect" android:layout_width="58.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerPadding="0.0dip" />
+    </com.motorola.cn.gallery.filtershow.category.CustomScrollView>
+    <com.motorola.cn.gallery.filtershow.category.IconView android:id="@id/addButton_effect" android:layout_width="@dimen/category_panel_effect_height" android:layout_height="@dimen/category_panel_effect_height" android:src="@drawable/filtershow_add" />
+</LinearLayout>

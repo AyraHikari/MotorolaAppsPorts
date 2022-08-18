@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/filtershow_color_back_pressed" android:tint="@color/filtershow_categoryview_text_selected"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

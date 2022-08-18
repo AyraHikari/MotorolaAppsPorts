@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/alphabetic_index_bar_hint_text_size" android:textColor="@color/alphabetic_index_bar_hint_text_color" android:gravity="center" android:layout_gravity="center" android:id="@android:id/text1" android:background="@drawable/alphabetic_index_bar_hint_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

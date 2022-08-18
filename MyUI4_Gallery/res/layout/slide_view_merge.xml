@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/slideview_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listview_x_check_margin" android:checked="false" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/slideview_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/slideview_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <RelativeLayout android:layout_gravity="end" android:id="@id/holder" android:background="@color/listview_x_left_menu_background" android:clickable="true" android:layout_width="@dimen/listview_x_left_menu_width" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/listview_x_left_menu_text_size" android:textColor="@color/listview_x_left_menu_text" android:layout_gravity="center" android:id="@id/slideview_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:gravity="bottom" android:id="@id/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width_zui" android:src="?android:listDivider" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+    </RelativeLayout>
+</LinearLayout>

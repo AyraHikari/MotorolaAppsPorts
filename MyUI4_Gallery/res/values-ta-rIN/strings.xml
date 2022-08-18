@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="listview_x_title_items_selected">%1$s உருப்படிகள்</string>
+    <string name="listview_x_title_main">%1$s உருப்படிகள் தேர்ந்தெடுக்கப்பட்டுள்ளது</string>
+    <string name="listview_x_title_no_item_selected">தேர்ந்தெடு</string>
+    <string name="listview_x_title_one_item_selected">1 உருப்படி</string>
+    <string name="listview_x_title_select_all">அனைத்து</string>
+    <string name="listview_x_title_unselect_all">தேர்வுநீக்கு</string>
+    <string name="time_picker_dialog_x_am">மு.ப</string>
+    <string name="time_picker_dialog_x_complete">முடிந்தது</string>
+    <string name="time_picker_dialog_x_midnight">நள்ளிரவு</string>
+    <string name="time_picker_dialog_x_noon">நண்பகல்</string>
+    <string name="time_picker_dialog_x_pm">பி.ப</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

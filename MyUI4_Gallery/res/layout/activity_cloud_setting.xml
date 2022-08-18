@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_status" android:background="@color/tab_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:background="@color/tab_background_color" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_back" android:background="@drawable/action_back_backgound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/arrow_spacing" android:src="@drawable/ic_back_arrow_back_24" android:tint="@color/tab_title_text_color" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/tab_title_text_color" android:layout_gravity="center_vertical" android:id="@id/setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/local_time_album_time_lable_margin_left" android:text="@string/cloud_gallery_setting" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/main_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

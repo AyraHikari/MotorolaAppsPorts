@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Fixed">Fixed</string>
+    <string name="HDR10">HDR</string>
+    <string name="HDR10Plus">HDR Plus</string>
+    <string name="Import">Import</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about">About</string>
+    <string name="accessibility_back_to_first_level">Close setting controls</string>
+    <string name="accessibility_camera_picker">Front and back camera switch</string>
+    <string name="accessibility_decrement">Decrease %1$s</string>
+    <string name="accessibility_increment">Increase %1$s</string>
+    <string name="accessibility_mode_picker">Camera, video, or panorama selector</string>
+    <string name="accessibility_pause_video">Pause video</string>
+    <string name="accessibility_play_video">Play video</string>
+    <string name="accessibility_reload_video">Reload video</string>
+    <string name="accessibility_review_thumbnail">Most recent photo</string>
+    <string name="accessibility_second_level_indicators">More setting controls</string>
+    <string name="accessibility_time_bar">Video player time bar</string>
+    <string name="accessibility_zoom_control">Zoom control</string>
+    <string name="action_menu_overflow_description">More options</string>
+    <string name="add">Add</string>
+    <string name="add_account">Add account</string>
+    <string name="add_favorites">Add to Favorites</string>
+    <string name="add_image_to_group_album">%1$d photo(s) added to the album</string>
+    <string name="add_image_video_to_group_album">(%1$d)added</string>
+    <string name="add_to_favo_succ">Added to Favorites</string>
+    <string name="add_to_group_album">Add to (%1s)</string>
+    <string name="add_video_to_group_album">%1$d video(s) added to the album</string>
+    <string name="album_add_error_message">%1$d characters maximum</string>
+    <string name="album_add_title">New album</string>
+    <string name="album_add_to_folder">Add to</string>
+    <string name="album_is_adding_to_group">Adding to album ...</string>
+    <string name="album_is_removing_from_group">Removing from the album ...</string>
+    <string name="album_more_title">Others</string>
+    <string name="album_move_to_more">"Move to\" Other  "</string>
+    <string name="album_new_folder">Creating a new album</string>
+    <string name="album_new_folder_nextstep">Next</string>
+    <string name="album_please_select_group">This is a local folder, please select an album.</string>
+    <string name="album_remove">Remove</string>
+    <string name="album_remove_from_more">"Move from\" Other  "</string>
+    <string name="album_set_add_group_hint">New Album Title</string>
+    <string name="album_set_add_group_toast">The name cannot contain \\:*?|/ &lt;></string>
+    <string name="albums">Albums</string>
+    <string name="albums_wechat">WeChat</string>
+    <string name="albumset_rename">Rename</string>
+    <string name="albumset_rename_hint">Please enter a new name</string>
+    <string name="all_photo_to_gallery">All Photos</string>
+    <string name="all_video_to_gallery">All Videos</string>
+    <string name="aperture">Aperture</string>
+    <string name="app_name">Photos</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply_effect">Apply</string>
+    <string name="appwidget_empty_text">No photos.</string>
+    <string name="appwidget_title">Photo gallery</string>
+    <string name="aspect">Aspect</string>
+    <string name="aspect16to9_effect">16:9</string>
+    <string name="aspect1to1_effect">1:1</string>
+    <string name="aspect3to4_effect">3:4</string>
+    <string name="aspect4to3_effect">4:3</string>
+    <string name="aspect5to7_effect">5:7</string>
+    <string name="aspect7to5_effect">7:5</string>
+    <string name="aspect9to16_effect">9:16</string>
+    <string name="aspectNone_effect">None</string>
+    <string name="aspectOriginal_effect">@string/original</string>
+    <string name="auto">Auto</string>
+    <string name="back">Return</string>
+    <string name="back_button_label">Back</string>
+    <string name="bg_replacement_message">"Set your device down.
+Step out of view for a moment."</string>
+    <string name="blur_level">Blur Level</string>
+    <string name="borders">Borders</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bwfilter">BW Filter</string>
+    <string name="caching_label">Caching…</string>
+    <string name="camera_label">Camera</string>
+    <string name="camera_mode_hdr">HDR</string>
+    <string name="camera_setas_wallpaper">Wallpaper</string>
+    <string name="cancel">Cancel</string>
+    <string name="canel_selectall">Uncheck All</string>
+    <string name="cannot_add_to_albums">The same album does not support adding operations</string>
+    <string name="cannot_edit_original">Cannot edit original</string>
+    <string name="cannot_load_image">Cannot load the image!</string>
+    <string name="capital_off">OFF</string>
+    <string name="capital_on">ON</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="circle_menu_item_image">circle menu item icon</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="click_import">Touch here to import</string>
+    <string name="close">Close</string>
+    <string name="cloud_auto_sync_setting_summary">Turn on，auto sync to LeCloud</string>
+    <string name="cloud_auto_sync_setting_title">Sync to cloud</string>
+    <string name="cloud_autosync_off_download_original">"Auto sync turned off，won't download original photo"</string>
+    <string name="cloud_backup">On</string>
+    <string name="cloud_download_original">Download original photo</string>
+    <string name="cloud_duplicate_name_album">Album name already exists</string>
+    <string name="cloud_gallery_setting">Settings</string>
+    <string name="cloud_loading_finished">Uploaded Just Now</string>
+    <string name="cloud_loading_items">loading Cloud photos</string>
+    <string name="cloud_loading_n_items">loading Cloud photos %1$d</string>
+    <string name="cloud_no_local_space_download_original">Your phone is low on space，free up phone space</string>
+    <string name="cloud_no_space_summary">Insufficient Cloud storage, please upgrade</string>
+    <string name="cloud_no_space_title">Insufficient Cloud storage</string>
+    <string name="cloud_no_space_title1">"Insufficient cloud storage,  "</string>
+    <string name="cloud_no_space_title2">UPGRADE</string>
+    <string name="cloud_not_in_wlan_download_original">Cannot download original photo without Wi-Fi。”</string>
+    <string name="cloud_select_autosync_album">Select the albums on your phone that you want to sync</string>
+    <string name="cloud_select_move_way">Move or copy?</string>
+    <string name="cloud_sync_on_summary">Sync to the cloud，so you can access them on any of your device</string>
+    <string name="cloud_sync_on_title">Sync photos &amp; videos to the cloud</string>
+    <string name="cloud_title">cloud</string>
+    <string name="cloud_uploading_file">Updating</string>
+    <string name="cloud_uploading_finished">Uploaded Complete</string>
+    <string name="cloud_uploading_n_file">Updating %1$d</string>
+    <string name="cloud_wlan_setting_check">Turn off auto sync on Wi-Fi or mobile data?</string>
+    <string name="cloud_wlan_setting_summary">Turned off，auto sync on WiFi or mobile data</string>
+    <string name="cloud_wlan_setting_title">Auto sync on WiFi only</string>
+    <string name="cloudsync_auto_switch_tips">When LeCloud is turned on, photos are automatically synced to the cloud</string>
+    <string name="cloudsync_switch_status_close">Automatic sync function is turned off</string>
+    <string name="cloudsync_switch_status_notlogin">You are not logged in</string>
+    <string name="color_border_clear">Clear</string>
+    <string name="color_border_color">Color</string>
+    <string name="color_border_corner_size">Corner Size</string>
+    <string name="color_border_size">Thickness</string>
+    <string name="color_pick_select">Choose custom color</string>
+    <string name="color_pick_title">Select Color</string>
+    <string name="compare_original">Compare</string>
+    <string name="complete">OK</string>
+    <string name="computer_dele_info">deleting information is being calculated</string>
+    <string name="confirm">Confirm</string>
+    <string name="continuous_shot_count">CS (%1d photos)</string>
+    <string name="contrast">Contrast</string>
+    <string name="copy_success">Success</string>
+    <string name="crop">Crop</string>
+    <string name="crop_label">Crop picture</string>
+    <string name="crop_save">Save</string>
+    <string name="crop_save_text">OK</string>
+    <string name="crop_saved">Cropped image saved to %s.</string>
+    <string name="crop_video">Saving video ....</string>
+    <string name="cta_grant">Grant permission</string>
+    <string name="cta_leave">Leave</string>
+    <string name="cta_message_contents">"Access internet 
+ Read &amp; Write storage"</string>
+    <string name="cta_message_title">"Photos needs the following 
+ permissions:"</string>
+    <string name="current_photo_count">%1$s/%2$s</string>
+    <string name="curvesRGB">Curves</string>
+    <string name="curves_channel_blue">Blue</string>
+    <string name="curves_channel_green">Green</string>
+    <string name="curves_channel_red">Red</string>
+    <string name="curves_channel_rgb">RGB</string>
+    <string name="custom_album">New Folder</string>
+    <string name="custom_border">Custom</string>
+    <string name="cutout">Cutout</string>
+    <string name="data_too_large">Cannot be saved due to system limited.</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="day" />
+    <string name="debug_cancel">Cancel</string>
+    <string name="debug_sure">sure</string>
+    <string name="debugging">debug</string>
+    <string name="default_video_duration">00:00</string>
+    <string name="del">Delete</string>
+    <string name="delete">Delete</string>
+    <string name="delete_button_description">Delete</string>
+    <string name="delete_image_video">Delete %1$d item(s)?</string>
+    <string name="delete_image_video_with_other_album">Delete %1$d item(s). Confirmation will remove the item(s) from other albums.</string>
+    <string name="delete_more_continue_folder">Delete %1$d set(s) of CS?</string>
+    <string name="delete_more_continue_folder_image">Delete %1$d set(s) of CS and %2$d photo(s)?</string>
+    <string name="delete_more_continue_folder_image_video">Delete %1$d set(s) of CS, %2$d photo(s), and %3$d video(s)?</string>
+    <string name="delete_more_continue_folder_video">Delete %1$d set(s) of CS and %2$d video(s)?</string>
+    <string name="delete_more_continue_folder_with_other_album">Delete %1$d set(s) of CS? Confirmation will also remove the CS from other albums.</string>
+    <string name="delete_more_folder">Delete %1$d album(s)?</string>
+    <string name="delete_more_folder_with_other_album">Delete %1$d album(s)? Confirmation will also delete some contents from other albums.</string>
+    <string name="delete_more_image">Delete %1$d photo(s)?</string>
+    <string name="delete_more_image_with_other_album">Delete the %1$d photo(s)? Confirmation will also delete these photos from other albums.</string>
+    <string name="delete_more_video">Delete %1$d video(s)?</string>
+    <string name="delete_more_video_with_other_album">Delete %1$d video(s)? Confirmation will also remove the video(s) from other albums.</string>
+    <string name="delete_one_continue_folder">Delete this group continuous shooting?</string>
+    <string name="delete_one_continue_folder_image">Delete this set of CS and %1$d photo(s)?</string>
+    <string name="delete_one_continue_folder_image_video">Delete this set of CS, %1$d photo(s), and %2$d video(s)?</string>
+    <string name="delete_one_continue_folder_video">Delete selected items?</string>
+    <string name="delete_one_continue_folder_with_other_album">Delete this set of CS? Confirmation will also remove this CS from the other albums.</string>
+    <string name="delete_one_folder">Delete\"%1$s\"?</string>
+    <string name="delete_one_folder_with_other_album">Delete the album \"%1$s\"? Confirmation will also delete some contents from other albums.</string>
+    <string name="delete_one_image">Delete photo?</string>
+    <string name="delete_one_image_with_other_album">Delete this photo? Confirmation will also remove this photo from other albums.</string>
+    <string name="delete_one_video">Delete video?</string>
+    <string name="delete_one_video_with_other_album">Delete this video? Confirmation will also remove this video from other albums.</string>
+    <string name="delete_with_other_album">Confirmation will also remove the item(s) from other albums.</string>
+    <string name="deleted">Deleted</string>
+    <string name="description">Description</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="details">Details</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_title">%1$d of %2$d items:</string>
+    <string name="disable_video_snapshot_hint">Video snapshot is disabled when special effects are on.</string>
+    <string name="done">Done</string>
+    <string name="double_click_scale_ratio">Double click Scale Ratio debugging</string>
+    <string name="download_failure">Could not download photo. Network unavailable.</string>
+    <string name="downsample">Downsample</string>
+    <string name="draw_clear">Clear</string>
+    <string name="draw_color">Color</string>
+    <string name="draw_hue">Hue</string>
+    <string name="draw_saturation">Saturation</string>
+    <string name="draw_size">Size</string>
+    <string name="draw_size_accept">OK</string>
+    <string name="draw_size_title">Select Size</string>
+    <string name="draw_style">Style</string>
+    <string name="draw_style_brush_marker">Spatter</string>
+    <string name="draw_style_brush_spatter">Marker</string>
+    <string name="draw_style_line">Lines</string>
+    <string name="draw_text">draw</string>
+    <string name="draw_value">Brightness</string>
+    <string name="duration">Duration</string>
+    <string name="edge">Edges</string>
+    <string name="edit">Edit</string>
+    <string name="edit_button_description">Edit</string>
+    <string name="edit_pen_text">Pen</string>
+    <string name="editor_chan_sat_blue">Blue</string>
+    <string name="editor_chan_sat_cyan">Cyan</string>
+    <string name="editor_chan_sat_green">Green</string>
+    <string name="editor_chan_sat_magenta">Magenta</string>
+    <string name="editor_chan_sat_main">Main</string>
+    <string name="editor_chan_sat_red">Red</string>
+    <string name="editor_chan_sat_yellow">Yellow</string>
+    <string name="editor_chooser_title">Edit using</string>
+    <string name="editor_grad_brightness">Brightness</string>
+    <string name="editor_grad_contrast">Contrast</string>
+    <string name="editor_grad_new">new</string>
+    <string name="editor_grad_saturation">Saturation</string>
+    <string name="editor_grad_style">Style</string>
+    <string name="empty">" "</string>
+    <string name="empty_album">O images/videos available.</string>
+    <string name="empty_photo">No image</string>
+    <string name="empty_video">No video</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exit">OK</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="export_flattened">Export Flattened Image</string>
+    <string name="export_image">Export</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="exposure">Exposure</string>
+    <string name="exposure_time">Exposure time</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fail_to_load">"Couldn't load"</string>
+    <string name="fail_to_load_image">"Couldn't load the image"</string>
+    <string name="ffx_bleach">Bleach</string>
+    <string name="ffx_blue_crush">Blue</string>
+    <string name="ffx_bw_contrast">B/W</string>
+    <string name="ffx_instant">Instant</string>
+    <string name="ffx_original">Original</string>
+    <string name="ffx_punch">Punch</string>
+    <string name="ffx_vintage">Vintage</string>
+    <string name="ffx_washout">Latte</string>
+    <string name="ffx_washout_color">Litho</string>
+    <string name="ffx_x_process">X Process</string>
+    <string name="file_not_exist">File does not exist!</string>
+    <string name="file_size">File size</string>
+    <string name="filtershow_add_button_looks">Preset</string>
+    <string name="filtershow_add_button_versions">Version</string>
+    <string name="filtershow_crop_16to9">16:9</string>
+    <string name="filtershow_crop_1to1">1:1</string>
+    <string name="filtershow_crop_3to4">3:4</string>
+    <string name="filtershow_crop_4to3">4:3</string>
+    <string name="filtershow_crop_9to16">9:16</string>
+    <string name="filtershow_crop_freedom">Free</string>
+    <string name="filtershow_crop_original">Original</string>
+    <string name="filtershow_exif_aperture">Aperture</string>
+    <string name="filtershow_exif_copyright">Copyright</string>
+    <string name="filtershow_exif_date">Date taken</string>
+    <string name="filtershow_exif_exposure_time">Exposure Time</string>
+    <string name="filtershow_exif_f_stop">F Stop</string>
+    <string name="filtershow_exif_focal_length">Focal Length</string>
+    <string name="filtershow_exif_iso">ISO</string>
+    <string name="filtershow_exif_model">Model</string>
+    <string name="filtershow_exif_subject_distance">Subject Distance</string>
+    <string name="filtershow_manage_preset">Manage user presets</string>
+    <string name="filtershow_new_preset">New Preset</string>
+    <string name="filtershow_notification_label">Saving Image</string>
+    <string name="filtershow_notification_message">Processing...</string>
+    <string name="filtershow_preset_name">Preset Name</string>
+    <string name="filtershow_redo">Redo</string>
+    <string name="filtershow_save_preset">Save current preset</string>
+    <string name="filtershow_saving_image">Saving picture to %1$s …</string>
+    <string name="filtershow_show_info_panel">Information</string>
+    <string name="filtershow_show_info_panel_exif">EXIF Data</string>
+    <string name="filtershow_show_info_panel_histogram">Histogram</string>
+    <string name="filtershow_show_info_panel_name">Image Name</string>
+    <string name="filtershow_show_info_panel_size">Image Size</string>
+    <string name="filtershow_undo">Undo</string>
+    <string name="filtershow_unsupported_image">Editing is not supported for this image</string>
+    <string name="filtershow_version_current">Current</string>
+    <string name="filtershow_version_original">Original</string>
+    <string name="flash">Flash</string>
+    <string name="flash_off">No flash</string>
+    <string name="flash_on">Flash fired</string>
+    <string name="focal_length">Focal Length</string>
+    <string name="folder_camera">Camera</string>
+    <string name="folder_cloudsync">Cloud Album</string>
+    <string name="folder_download">Download</string>
+    <string name="folder_edited_online_photos">Edited Online Photos</string>
+    <string name="folder_favorite">Favorites</string>
+    <string name="folder_imported">Imported</string>
+    <string name="folder_more">More</string>
+    <string name="folder_pano">Panorama</string>
+    <string name="folder_screens_recorder">screenrecorder</string>
+    <string name="folder_screenshot">Screenshot</string>
+    <string name="folder_selfgraph">Self-timer</string>
+    <string name="folder_video">Video</string>
+    <string name="foler_highlight">Highlight</string>
+    <string name="free_space_format">%s free</string>
+    <string name="gadget_title">Picture frame</string>
+    <string name="gallery_app_name">Photos</string>
+    <string name="gallery_title_after_pm">pm</string>
+    <string name="gallery_title_am">am</string>
+    <string name="gallery_title_before_am">am</string>
+    <string name="gallery_title_noon">pm</string>
+    <string name="gallery_title_pm">pm</string>
+    <string name="gif_error">Parsing error!</string>
+    <string name="grad">Graduated</string>
+    <string name="group_by">Group by</string>
+    <string name="group_by_album">By album</string>
+    <string name="group_by_faces">By people</string>
+    <string name="group_by_location">By location</string>
+    <string name="group_by_size">By size</string>
+    <string name="group_by_tags">By tags</string>
+    <string name="group_by_time">By time</string>
+    <string name="height">Height</string>
+    <string name="help">Help</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_imagestate_panel">Hide Applied Effects</string>
+    <string name="highlight_recovery">Highlights</string>
+    <string name="history">History</string>
+    <string name="history_original">@string/original</string>
+    <string name="hue">Hue</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="imageDraw">Draw</string>
+    <string name="imageState">Applied Effects</string>
+    <string name="image_favorite_item">Favorite</string>
+    <string name="import_complete">Import complete</string>
+    <string name="import_fail">Import unsuccessful</string>
+    <string name="ingest_empty_device">There is no content available for importing on this device.</string>
+    <string name="ingest_import">@string/Import</string>
+    <string name="ingest_import_complete">@string/import_complete</string>
+    <string name="ingest_importing">Importing...</string>
+    <string name="ingest_no_device">There is no MTP device connected</string>
+    <string name="ingest_scanning">Scanning content...</string>
+    <string name="ingest_scanning_done">Scanning done</string>
+    <string name="ingest_sorting">Sorting...</string>
+    <string name="ingest_switch_photo_fullscreen">@string/switch_photo_fullscreen</string>
+    <string name="ingest_switch_photo_grid">@string/switch_photo_grid</string>
+    <string name="insufficient_user_space">Insufficient user space</string>
+    <string name="iso">ISO</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="keep_all">Save all</string>
+    <string name="keep_select">Only save selected photos</string>
+    <string name="keyboardviewx_done">Done</string>
+    <string name="kmeans">Posterize</string>
+    <string name="layer_editor_content">"Use the editor to replace a photo's background with colors, preloaded images, or other photos from your library"</string>
+    <string name="layer_editor_title">Add Background</string>
+    <string name="leyun_state_security">Leyun has no read and write permissions, please open and try again</string>
+    <string name="listview_x_title_items_selected">%1$s items</string>
+    <string name="listview_x_title_main">%1$s items are selected</string>
+    <string name="listview_x_title_no_item_selected">Select</string>
+    <string name="listview_x_title_one_item_selected">1 item</string>
+    <string name="listview_x_title_select_all">Select All</string>
+    <string name="listview_x_title_unselect_all">Deselect All</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_account">Loading account…</string>
+    <string name="loading_best_frame">loading %1$d%%</string>
+    <string name="loading_image">Loading image…</string>
+    <string name="loading_video">Loading video…</string>
+    <string name="location">Location</string>
+    <string name="locations">Locations</string>
+    <string name="m3_ref_typeface_brand_display_regular">sans-serif</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_typescale_body_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_body_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_body_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_label_large_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_label_medium_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_label_small_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_title_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_title_medium_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_title_small_font">sans-serif-medium</string>
+    <string name="make_available_offline">Make available offline</string>
+    <string name="maker">Maker</string>
+    <string name="manual">Manual</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="message_dialog_paired_message_separator">:</string>
+    <string name="mimetype">MIME type</string>
+    <string name="mirror">Mirror</string>
+    <string name="mirrorHorizontal">Horizontal</string>
+    <string name="mirrorVertical">Vertical</string>
+    <string name="model">Model</string>
+    <string name="month">/</string>
+    <string name="mosaic">Mosaics</string>
+    <string name="mosaic_color_back">back</string>
+    <string name="mosaic_eraser_text">Eraser</string>
+    <string name="mosaic_pen_text">Pen</string>
+    <string name="mosaic_text">mosaic</string>
+    <string name="move_to_parent_folder">Move to</string>
+    <string name="movie_view_label">Video player</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="multiface_crop_help">Touch a face to begin.</string>
+    <string name="mute_action">Mute</string>
+    <string name="muting">Muting</string>
+    <string name="negative">Negative</string>
+    <string name="next_button_label">Next</string>
+    <string name="no_albums">No album</string>
+    <string name="no_albums_alert">No albums available.</string>
+    <string name="no_connectivity">"Some locations couldn't be identified due to network problems."</string>
+    <string name="no_external_storage">No external storage available</string>
+    <string name="no_external_storage_title">No Storage</string>
+    <string name="no_location">No location</string>
+    <string name="no_photos">No photos or videos</string>
+    <string name="no_such_item">"Couldn't find item."</string>
+    <string name="no_thumbnail">No thumbnail</string>
+    <string name="none">None</string>
+    <string name="not_support_add_to_group">Unable to add</string>
+    <string name="ok">Turn off</string>
+    <string name="only_select">Single select</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="orientation">Orientation</string>
+    <string name="original">Original</string>
+    <string name="original_picture_text">@string/original</string>
+    <string name="other_album">Others</string>
+    <string name="other_types">Other types</string>
+    <string name="pano_progress_text">Rendering panorama</string>
+    <string name="pano_review_saving_indication_str">Saving…</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path">Path</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="people">People</string>
+    <string name="permission_message">"Storage permission must be enabled to use photo Editor.
+ Please go to the permissions settings in App Info to re-enable this app."</string>
+    <string name="permission_title">Permissions required</string>
+    <string name="phone_menu_recognition">Document correction</string>
+    <string name="photo_count">%1d CS</string>
+    <string name="photopage_bottom_controls_select_text">Filter</string>
+    <string name="photos_editor_content">Add filters, adjust colors, crop and rotate</string>
+    <string name="photos_editor_title">Photos Editor</string>
+    <string name="pic_not_support_edit">This picture does not support edit</string>
+    <string name="picasa_posts">Posts</string>
+    <string name="please_select">Select items</string>
+    <string name="please_wait">Please wait</string>
+    <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
+    <string name="pref_camera_picturesize_entry_1_3mp">1.3M pixels</string>
+    <string name="pref_camera_picturesize_entry_1mp">1M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp">2M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp_wide">2M pixels (16:9)</string>
+    <string name="pref_camera_picturesize_entry_3mp">3M pixels</string>
+    <string name="pref_camera_picturesize_entry_4mp">4M pixels</string>
+    <string name="pref_camera_picturesize_entry_5mp">5M pixels</string>
+    <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
+    <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
+    <string name="pref_camera_picturesize_entry_vga">VGA</string>
+    <string name="pref_camera_recordlocation_title">Store location</string>
+    <string name="pref_key_motionless_threshold">pref_key_motionless_threshold</string>
+    <string name="pref_key_save_input_images">pref_key_save_input_images</string>
+    <string name="pref_key_save_output_type">pref_key_save_output_type</string>
+    <string name="pref_key_sensor_correction_type">pref_key_sensor_correction_type</string>
+    <string name="pref_key_sensor_correction_value_0">pref_key_sensor_correction_value_0</string>
+    <string name="pref_key_sensor_correction_value_1">pref_key_sensor_correction_value_1</string>
+    <string name="pref_key_sensor_correction_value_2">pref_key_sensor_correction_value_2</string>
+    <string name="pref_key_use_ae_lock">pref_key_use_ae_lock</string>
+    <string name="pref_key_use_awb_lock">pref_key_use_awb_lock</string>
+    <string name="pref_key_use_brightness_correction">pref_key_use_brightness_correction</string>
+    <string name="pref_key_use_preview_image">pref_key_use_previe_image</string>
+    <string name="pref_key_use_sensor_alignment_when_failed">pref_key_use_sensor_when_failed</string>
+    <string name="pref_key_use_sensor_threshold">pref_key_use_sensor_threshold</string>
+    <string name="pref_key_zsl_mode_type">pref_key_zsl_mode</string>
+    <string name="pref_video_high_frame_rate_120_fps">120fps</string>
+    <string name="pref_video_high_frame_rate_240_fps">240fps</string>
+    <string name="pref_video_high_frame_rate_960_fps">960fps</string>
+    <string name="pref_video_quality_default">5</string>
+    <string name="print_image">Print</string>
+    <string name="process_caching_requests">Processing caching requests</string>
+    <string name="processing_thumbnail">Processing</string>
+    <string name="publish_wb">New Weibo</string>
+    <string name="quality">Quality</string>
+    <string name="rate1">120fps</string>
+    <string name="rate2">240fps</string>
+    <string name="rate3">960fps</string>
+    <string name="recovery_trash_error">File restoration failed</string>
+    <string name="recovery_trash_success">File restored successfully</string>
+    <string name="redeye">Red Eye</string>
+    <string name="remove_favorites">Unfavorite</string>
+    <string name="remove_to_favo_succ">Removed from Favorites</string>
+    <string name="rename">Rename</string>
+    <string name="rename_fail">Renamed fail</string>
+    <string name="rename_succ">Renamed success</string>
+    <string name="reset">Reset</string>
+    <string name="reset_effect">Reset</string>
+    <string name="resume_playing_message">Resume playing from %s ?</string>
+    <string name="resume_playing_restart">Start over</string>
+    <string name="resume_playing_resume">Resume playing</string>
+    <string name="resume_playing_title">Resume video</string>
+    <string name="review_cancel">CANCEL</string>
+    <string name="review_ok">DONE</string>
+    <string name="rotate">Rotate</string>
+    <string name="rotateLeft">Left</string>
+    <string name="rotateRight">Right</string>
+    <string name="saturation">Saturation</string>
+    <string name="save">Save</string>
+    <string name="save_all">Save all</string>
+    <string name="save_and_cover">Overwrite the original video</string>
+    <string name="save_and_exit">Cancel</string>
+    <string name="save_and_processing">Saving...</string>
+    <string name="save_as_new">Save as a new video</string>
+    <string name="save_before_exit">Do you want to save before exiting?</string>
+    <string name="save_best_selected_video_successful">Image saved</string>
+    <string name="save_confirmation">Do you want to save other %1d photo(s) in this set of CS?</string>
+    <string name="save_error">"Couldn't save cropped image."</string>
+    <string name="save_image_to_pictures_successful">Image saved to Pictures</string>
+    <string name="save_into">Saving video to %1$s …</string>
+    <string name="save_pic">Save current image</string>
+    <string name="save_select_all">Only save %1d selected photo(s)</string>
+    <string name="save_video_failed">Failed to save video</string>
+    <string name="save_video_successful">Video saved successfully</string>
+    <string name="saving_image">Saving picture…</string>
+    <string name="scroll_bar_day">12日</string>
+    <string name="scroll_bar_month">11月</string>
+    <string name="scroll_bar_year">2016年/</string>
+    <string name="search_menu_title">Search</string>
+    <string name="second">s</string>
+    <string name="select">Select</string>
+    <string name="select_album">Select album</string>
+    <string name="select_all">Select all</string>
+    <string name="select_collect">Select Favorites</string>
+    <string name="select_finish">Completed</string>
+    <string name="select_group">Select group</string>
+    <string name="select_image">Select photo</string>
+    <string name="select_item">Select item</string>
+    <string name="select_output_settings">The exported image will be a copy, without the history.</string>
+    <string name="select_share_tip">Too many photos selected, can not be shared.</string>
+    <string name="select_video">Select video</string>
+    <string name="selected_continues_folder">%1$d CS selected</string>
+    <string name="selected_image_video">(%1$d)</string>
+    <string name="selected_num">%1$d</string>
+    <string name="selected_photo">%1$d photo(s) selected</string>
+    <string name="selected_video">(%1$d)</string>
+    <string name="separator">separator</string>
+    <string name="sequence_in_set">%1$d of %2$d items:</string>
+    <string name="set_as">Set as</string>
+    <string name="set_image">Set photo as</string>
+    <string name="set_label_all_albums">All albums</string>
+    <string name="set_label_local_albums">Local albums</string>
+    <string name="set_label_mtp_devices">MTP devices</string>
+    <string name="set_label_picasa_albums">Picasa albums</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="setting_wallpaper">Setting wallpaper</string>
+    <string name="settings">Settings</string>
+    <string name="settings_auto_sync_off_toast">Auto sync turn off</string>
+    <string name="settings_hidden_album_category">Hidden album</string>
+    <string name="settings_hidden_album_title">Select the album to hide</string>
+    <string name="shadow_recovery">Shadows</string>
+    <string name="share">Share</string>
+    <string name="shareto_friend_timeline">PengYouQuan</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="show_all">Images &amp; videos</string>
+    <string name="show_images_only">Images only</string>
+    <string name="show_imagestate_panel">Show Applied Effects</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="show_videos_only">Videos only</string>
+    <string name="simple_edit">Simple Edit</string>
+    <string name="size">Size</string>
+    <string name="size_above">%1$s or above</string>
+    <string name="size_below">%1$s or below</string>
+    <string name="size_between">%1$s to %2$s</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="slideshow_dream_name">Slideshow</string>
+    <string name="smart_album">App Albums</string>
+    <string name="speed">Speed</string>
+    <string name="split_screen_not_support">not support split screen</string>
+    <string name="splite">Splite</string>
+    <string name="state_panel_original">Original</string>
+    <string name="state_panel_result">Result</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_no_space_text">No enough space</string>
+    <string name="straighten">Straighten</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="switch_photo_filmstrip">Filmstrip view</string>
+    <string name="switch_photo_fullscreen">Fullscreen view</string>
+    <string name="switch_photo_grid">Grid view</string>
+    <string name="switch_to_camera">Switch to Camera</string>
+    <string name="sync_album_error">"Couldn't download the photos in this album. Retry later."</string>
+    <string name="sync_picasa_albums">Refresh</string>
+    <string name="system_album">System albums</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_albumset_add_title">Add %1$d photo(s) to the album</string>
+    <string name="tab_all_albums">All albums</string>
+    <string name="tab_photos">Camera</string>
+    <string name="tags">Tags</string>
+    <string name="this_month">This month</string>
+    <string name="this_week">This week</string>
+    <string name="this_year">This year</string>
+    <string name="time">Time</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Done</string>
+    <string name="time_picker_dialog_x_midnight">midnight</string>
+    <string name="time_picker_dialog_x_noon">noon</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+    <string name="times">Times</string>
+    <string name="tinyplanet">Tiny Planet</string>
+    <string name="title">Title</string>
+    <string name="title_activity_filter_show">Photo Editor</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="today">Today</string>
+    <string name="trash_cancel">Cancel</string>
+    <string name="trash_day">day</string>
+    <string name="trash_delete">Delete</string>
+    <string name="trash_delete_ing_file">DeleteIng file...</string>
+    <string name="trash_list_title">Photos and videos will show the number of days remaining before being deleted, and will be permanently deleted afterwards</string>
+    <string name="trash_permanent_delete">After deletion,local and cloud images will be permanently deleted and cannot be retrieved.</string>
+    <string name="trash_restore">Restore</string>
+    <string name="trash_restoring_file">Restoring file...</string>
+    <string name="trash_title">Deleted files</string>
+    <string name="trim_bar_time_left">Current remaining time</string>
+    <string name="trim_label">Trim video</string>
+    <string name="trim_limit_notifiy">You can edit only videos longer than 1 second</string>
+    <string name="trim_too_short">Can not trim : target video is too short</string>
+    <string name="trimming">Trimming</string>
+    <string name="undo">UNDO</string>
+    <string name="unit_mm">mm</string>
+    <string name="unknown">Unknown</string>
+    <string name="unsaved">Cancel edits?</string>
+    <string name="untagged">Untagged</string>
+    <string name="update_continue">Continue</string>
+    <string name="update_is_updating">Gallery is updating</string>
+    <string name="update_storage_warning">Not enough storage, some photos may lost if update continued.</string>
+    <string name="update_update_later">Update later</string>
+    <string name="update_update_success">Update successful</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="vibrance">Vibrance</string>
+    <string name="video_err">"Can't play video."</string>
+    <string name="video_mute_err">"Can't mute video."</string>
+    <string name="video_not_exit">Video not exist.</string>
+    <string name="video_player_error">can not play rigth now</string>
+    <string name="video_trim_text_crop">Crop</string>
+    <string name="video_trim_text_filter">Filter</string>
+    <string name="video_wallpaper_reach_duration_limit">Video exceeds 15 seconds, please select other video</string>
+    <string name="video_wallpaper_reach_ratio_limit">Beyond the aspect ratio, please select other video</string>
+    <string name="video_wallpaper_reach_size_limit">Video exceeds 30M, please select other video</string>
+    <string name="video_width_height_ratio_down_limit">1.78</string>
+    <string name="video_width_height_ratio_up_limit">2.17</string>
+    <string name="view_button_description">View</string>
+    <string name="vignette">Vignette</string>
+    <string name="vignette_contrast">Contrast</string>
+    <string name="vignette_exposure">Exposure</string>
+    <string name="vignette_falloff">Falloff</string>
+    <string name="vignette_main">Vignette</string>
+    <string name="vignette_saturation">Saturation</string>
+    <string name="vue_edit">VUE</string>
+    <string name="wallpaper">Setting wallpaper…</string>
+    <string name="wb_guide">Welcome to use weibo 360 panoramic picture sharing, this mode shares the image, viewers can use the spherical mode to view.</string>
+    <string name="wb_guide_confirm">Next</string>
+    <string name="wb_network_connect_failed">Network connection failed</string>
+    <string name="wb_network_disconnect">Please checked the network and click again to reload.</string>
+    <string name="wb_not_install">Weibo not installed</string>
+    <string name="wb_send">Send</string>
+    <string name="wb_send_retry">re-upload</string>
+    <string name="wb_stop_upload_content">File is being uploaded, whether to interrupt the upload?</string>
+    <string name="wb_stop_upload_negitive">Stop</string>
+    <string name="wb_stop_upload_positive">Continue uploading</string>
+    <string name="wb_stop_upload_title">Interrupt upload?</string>
+    <string name="wb_topic">"\#I'm using the moto 360 camera#"</string>
+    <string name="wb_upload_complete">Upload complete</string>
+    <string name="wb_upload_failed">Upload failed</string>
+    <string name="wbalance">Autocolor</string>
+    <string name="weixin_cancle">Cancel</string>
+    <string name="weixin_godown">Download</string>
+    <string name="weixin_shop_down">Wechat is not installed, please download in App Store.</string>
+    <string name="weixin_shop_tip">Kindly Reminder</string>
+    <string name="weixin_video_folder_name">weixinvideo</string>
+    <string name="white_balance">White balance</string>
+    <string name="widget_type">Choose images</string>
+    <string name="widget_type_album">Choose an album</string>
+    <string name="widget_type_photo">Choose an image</string>
+    <string name="widget_type_shuffle">Shuffle all images</string>
+    <string name="width">Width</string>
+    <string name="x">x</string>
+    <string name="year">/</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="zoom_in_max_scale_ratio">Picture enlarge to maximum scale debugging</string>
+    <string name="zui_identity">zui</string>
+    <item type="string" name="APKTOOL_DUMMY_4" />
+    <item type="string" name="APKTOOL_DUMMY_5" />
+    <item type="string" name="APKTOOL_DUMMY_6" />
+    <item type="string" name="APKTOOL_DUMMY_23" />
+    <item type="string" name="APKTOOL_DUMMY_26" />
+    <item type="string" name="APKTOOL_DUMMY_27" />
+    <item type="string" name="APKTOOL_DUMMY_29" />
+    <item type="string" name="APKTOOL_DUMMY_2b" />
+    <item type="string" name="APKTOOL_DUMMY_2c" />
+    <item type="string" name="APKTOOL_DUMMY_2d" />
+    <item type="string" name="APKTOOL_DUMMY_2e" />
+    <item type="string" name="APKTOOL_DUMMY_2f" />
+    <item type="string" name="APKTOOL_DUMMY_34" />
+    <item type="string" name="APKTOOL_DUMMY_35" />
+    <item type="string" name="APKTOOL_DUMMY_36" />
+    <item type="string" name="APKTOOL_DUMMY_39" />
+    <item type="string" name="APKTOOL_DUMMY_3a" />
+    <item type="string" name="APKTOOL_DUMMY_3b" />
+    <item type="string" name="APKTOOL_DUMMY_3c" />
+    <item type="string" name="APKTOOL_DUMMY_3d" />
+    <item type="string" name="APKTOOL_DUMMY_3e" />
+    <item type="string" name="APKTOOL_DUMMY_3f" />
+    <item type="string" name="APKTOOL_DUMMY_41" />
+    <item type="string" name="APKTOOL_DUMMY_44" />
+    <item type="string" name="APKTOOL_DUMMY_4d" />
+    <item type="string" name="APKTOOL_DUMMY_75" />
+    <item type="string" name="APKTOOL_DUMMY_76" />
+    <item type="string" name="APKTOOL_DUMMY_77" />
+    <item type="string" name="APKTOOL_DUMMY_78" />
+    <item type="string" name="APKTOOL_DUMMY_79" />
+    <item type="string" name="APKTOOL_DUMMY_7a" />
+    <item type="string" name="APKTOOL_DUMMY_7b" />
+    <item type="string" name="APKTOOL_DUMMY_81" />
+    <item type="string" name="APKTOOL_DUMMY_82" />
+    <item type="string" name="APKTOOL_DUMMY_83" />
+    <item type="string" name="APKTOOL_DUMMY_86" />
+    <item type="string" name="APKTOOL_DUMMY_87" />
+    <item type="string" name="APKTOOL_DUMMY_88" />
+    <item type="string" name="APKTOOL_DUMMY_89" />
+    <item type="string" name="APKTOOL_DUMMY_8a" />
+    <item type="string" name="APKTOOL_DUMMY_8b" />
+    <item type="string" name="APKTOOL_DUMMY_8d" />
+    <item type="string" name="APKTOOL_DUMMY_8e" />
+    <item type="string" name="APKTOOL_DUMMY_8f" />
+    <item type="string" name="APKTOOL_DUMMY_91" />
+    <item type="string" name="APKTOOL_DUMMY_92" />
+    <item type="string" name="APKTOOL_DUMMY_93" />
+    <item type="string" name="APKTOOL_DUMMY_94" />
+    <item type="string" name="APKTOOL_DUMMY_95" />
+    <item type="string" name="APKTOOL_DUMMY_98" />
+    <item type="string" name="APKTOOL_DUMMY_9b" />
+    <item type="string" name="APKTOOL_DUMMY_a0" />
+    <item type="string" name="APKTOOL_DUMMY_a1" />
+    <item type="string" name="APKTOOL_DUMMY_a7" />
+    <item type="string" name="APKTOOL_DUMMY_aa" />
+    <item type="string" name="APKTOOL_DUMMY_d4" />
+    <item type="string" name="APKTOOL_DUMMY_d6" />
+    <item type="string" name="APKTOOL_DUMMY_d9" />
+    <item type="string" name="APKTOOL_DUMMY_da" />
+    <item type="string" name="APKTOOL_DUMMY_db" />
+    <item type="string" name="APKTOOL_DUMMY_dc" />
+    <item type="string" name="APKTOOL_DUMMY_dd" />
+    <item type="string" name="APKTOOL_DUMMY_df" />
+    <item type="string" name="APKTOOL_DUMMY_e5" />
+    <item type="string" name="APKTOOL_DUMMY_11d" />
+    <item type="string" name="APKTOOL_DUMMY_11e" />
+    <item type="string" name="APKTOOL_DUMMY_11f" />
+    <item type="string" name="APKTOOL_DUMMY_122" />
+    <item type="string" name="APKTOOL_DUMMY_138" />
+    <item type="string" name="APKTOOL_DUMMY_146" />
+    <item type="string" name="APKTOOL_DUMMY_147" />
+    <item type="string" name="APKTOOL_DUMMY_148" />
+    <item type="string" name="APKTOOL_DUMMY_149" />
+    <item type="string" name="APKTOOL_DUMMY_14a" />
+    <item type="string" name="APKTOOL_DUMMY_14b" />
+    <item type="string" name="APKTOOL_DUMMY_14c" />
+    <item type="string" name="APKTOOL_DUMMY_14d" />
+    <item type="string" name="APKTOOL_DUMMY_14e" />
+    <item type="string" name="APKTOOL_DUMMY_14f" />
+    <item type="string" name="APKTOOL_DUMMY_150" />
+    <item type="string" name="APKTOOL_DUMMY_151" />
+    <item type="string" name="APKTOOL_DUMMY_152" />
+    <item type="string" name="APKTOOL_DUMMY_15e" />
+    <item type="string" name="APKTOOL_DUMMY_15f" />
+    <item type="string" name="APKTOOL_DUMMY_160" />
+    <item type="string" name="APKTOOL_DUMMY_161" />
+    <item type="string" name="APKTOOL_DUMMY_162" />
+    <item type="string" name="APKTOOL_DUMMY_164" />
+    <item type="string" name="APKTOOL_DUMMY_175" />
+    <item type="string" name="APKTOOL_DUMMY_176" />
+    <item type="string" name="APKTOOL_DUMMY_177" />
+    <item type="string" name="APKTOOL_DUMMY_178" />
+    <item type="string" name="APKTOOL_DUMMY_179" />
+    <item type="string" name="APKTOOL_DUMMY_17a" />
+    <item type="string" name="APKTOOL_DUMMY_17b" />
+    <item type="string" name="APKTOOL_DUMMY_17c" />
+    <item type="string" name="APKTOOL_DUMMY_17d" />
+    <item type="string" name="APKTOOL_DUMMY_1a1" />
+    <item type="string" name="APKTOOL_DUMMY_1a2" />
+    <item type="string" name="APKTOOL_DUMMY_1a3" />
+    <item type="string" name="APKTOOL_DUMMY_1a4" />
+    <item type="string" name="APKTOOL_DUMMY_1a5" />
+    <item type="string" name="APKTOOL_DUMMY_1a6" />
+    <item type="string" name="APKTOOL_DUMMY_1a7" />
+    <item type="string" name="APKTOOL_DUMMY_1a8" />
+    <item type="string" name="APKTOOL_DUMMY_1aa" />
+    <item type="string" name="APKTOOL_DUMMY_1ac" />
+    <item type="string" name="APKTOOL_DUMMY_1ae" />
+    <item type="string" name="APKTOOL_DUMMY_1be" />
+    <item type="string" name="APKTOOL_DUMMY_1c8" />
+    <item type="string" name="APKTOOL_DUMMY_1c9" />
+    <item type="string" name="APKTOOL_DUMMY_1d1" />
+    <item type="string" name="APKTOOL_DUMMY_1d2" />
+    <item type="string" name="APKTOOL_DUMMY_1d3" />
+    <item type="string" name="APKTOOL_DUMMY_1d4" />
+    <item type="string" name="APKTOOL_DUMMY_1d5" />
+    <item type="string" name="APKTOOL_DUMMY_1d6" />
+    <item type="string" name="APKTOOL_DUMMY_1d7" />
+    <item type="string" name="APKTOOL_DUMMY_1d8" />
+    <item type="string" name="APKTOOL_DUMMY_1d9" />
+    <item type="string" name="APKTOOL_DUMMY_1da" />
+    <item type="string" name="APKTOOL_DUMMY_1db" />
+    <item type="string" name="APKTOOL_DUMMY_1dc" />
+    <item type="string" name="APKTOOL_DUMMY_1dd" />
+    <item type="string" name="APKTOOL_DUMMY_1de" />
+    <item type="string" name="APKTOOL_DUMMY_1df" />
+    <item type="string" name="APKTOOL_DUMMY_1e0" />
+    <item type="string" name="APKTOOL_DUMMY_1e1" />
+    <item type="string" name="APKTOOL_DUMMY_1e2" />
+    <item type="string" name="APKTOOL_DUMMY_1f1" />
+    <item type="string" name="APKTOOL_DUMMY_213" />
+    <item type="string" name="APKTOOL_DUMMY_214" />
+    <item type="string" name="APKTOOL_DUMMY_231" />
+    <item type="string" name="APKTOOL_DUMMY_232" />
+    <item type="string" name="APKTOOL_DUMMY_233" />
+    <item type="string" name="APKTOOL_DUMMY_234" />
+    <item type="string" name="APKTOOL_DUMMY_235" />
+    <item type="string" name="APKTOOL_DUMMY_236" />
+    <item type="string" name="APKTOOL_DUMMY_237" />
+    <item type="string" name="APKTOOL_DUMMY_24c" />
+    <item type="string" name="APKTOOL_DUMMY_24d" />
+    <item type="string" name="APKTOOL_DUMMY_24e" />
+    <item type="string" name="APKTOOL_DUMMY_24f" />
+    <item type="string" name="APKTOOL_DUMMY_251" />
+    <item type="string" name="APKTOOL_DUMMY_252" />
+    <item type="string" name="APKTOOL_DUMMY_25a" />
+    <item type="string" name="APKTOOL_DUMMY_25b" />
+    <item type="string" name="APKTOOL_DUMMY_25c" />
+    <item type="string" name="APKTOOL_DUMMY_25d" />
+    <item type="string" name="APKTOOL_DUMMY_25e" />
+    <item type="string" name="APKTOOL_DUMMY_25f" />
+    <item type="string" name="APKTOOL_DUMMY_260" />
+    <item type="string" name="APKTOOL_DUMMY_261" />
+    <item type="string" name="APKTOOL_DUMMY_262" />
+    <item type="string" name="APKTOOL_DUMMY_263" />
+    <item type="string" name="APKTOOL_DUMMY_264" />
+    <item type="string" name="APKTOOL_DUMMY_265" />
+    <item type="string" name="APKTOOL_DUMMY_266" />
+    <item type="string" name="APKTOOL_DUMMY_267" />
+    <item type="string" name="APKTOOL_DUMMY_268" />
+    <item type="string" name="APKTOOL_DUMMY_269" />
+    <item type="string" name="APKTOOL_DUMMY_26a" />
+    <item type="string" name="APKTOOL_DUMMY_26b" />
+    <item type="string" name="APKTOOL_DUMMY_26c" />
+    <item type="string" name="APKTOOL_DUMMY_26d" />
+    <item type="string" name="APKTOOL_DUMMY_270" />
+    <item type="string" name="APKTOOL_DUMMY_2a8" />
+    <item type="string" name="APKTOOL_DUMMY_2ac" />
+    <item type="string" name="APKTOOL_DUMMY_2b6" />
+    <item type="string" name="APKTOOL_DUMMY_2b7" />
+    <item type="string" name="APKTOOL_DUMMY_2b8" />
+    <item type="string" name="APKTOOL_DUMMY_2b9" />
+    <item type="string" name="APKTOOL_DUMMY_2ba" />
+    <item type="string" name="APKTOOL_DUMMY_2bc" />
+    <item type="string" name="APKTOOL_DUMMY_2be" />
+    <item type="string" name="APKTOOL_DUMMY_2bf" />
+    <item type="string" name="APKTOOL_DUMMY_2ca" />
+    <item type="string" name="APKTOOL_DUMMY_2cb" />
+    <item type="string" name="APKTOOL_DUMMY_2cd" />
+    <item type="string" name="APKTOOL_DUMMY_2ce" />
+    <item type="string" name="APKTOOL_DUMMY_2cf" />
+    <item type="string" name="APKTOOL_DUMMY_2d3" />
+    <item type="string" name="APKTOOL_DUMMY_2d8" />
+    <item type="string" name="APKTOOL_DUMMY_2d9" />
+    <item type="string" name="APKTOOL_DUMMY_2da" />
+    <item type="string" name="APKTOOL_DUMMY_2db" />
+    <item type="string" name="APKTOOL_DUMMY_2dc" />
+    <item type="string" name="APKTOOL_DUMMY_2dd" />
+    <item type="string" name="APKTOOL_DUMMY_2de" />
+    <item type="string" name="APKTOOL_DUMMY_2df" />
+    <item type="string" name="APKTOOL_DUMMY_2e0" />
+    <item type="string" name="APKTOOL_DUMMY_2e1" />
+    <item type="string" name="APKTOOL_DUMMY_2e2" />
+    <item type="string" name="APKTOOL_DUMMY_2e3" />
+    <item type="string" name="APKTOOL_DUMMY_2e4" />
+    <item type="string" name="APKTOOL_DUMMY_2e5" />
+    <item type="string" name="APKTOOL_DUMMY_2e6" />
+    <item type="string" name="APKTOOL_DUMMY_2e7" />
+    <item type="string" name="APKTOOL_DUMMY_2e8" />
+    <item type="string" name="APKTOOL_DUMMY_2e9" />
+    <item type="string" name="APKTOOL_DUMMY_2ea" />
+    <item type="string" name="APKTOOL_DUMMY_2eb" />
+    <item type="string" name="APKTOOL_DUMMY_2ec" />
+    <item type="string" name="APKTOOL_DUMMY_2ed" />
+    <item type="string" name="APKTOOL_DUMMY_2ee" />
+    <item type="string" name="APKTOOL_DUMMY_2ef" />
+    <item type="string" name="APKTOOL_DUMMY_2f0" />
+    <item type="string" name="APKTOOL_DUMMY_2f1" />
+    <item type="string" name="APKTOOL_DUMMY_2f2" />
+    <item type="string" name="APKTOOL_DUMMY_2f3" />
+    <item type="string" name="APKTOOL_DUMMY_2f4" />
+    <item type="string" name="APKTOOL_DUMMY_2f5" />
+    <item type="string" name="APKTOOL_DUMMY_2f6" />
+    <item type="string" name="APKTOOL_DUMMY_300" />
+    <item type="string" name="APKTOOL_DUMMY_301" />
+    <item type="string" name="APKTOOL_DUMMY_303" />
+    <item type="string" name="APKTOOL_DUMMY_305" />
+    <item type="string" name="APKTOOL_DUMMY_307" />
+    <item type="string" name="APKTOOL_DUMMY_308" />
+    <item type="string" name="APKTOOL_DUMMY_309" />
+    <item type="string" name="APKTOOL_DUMMY_30a" />
+    <item type="string" name="APKTOOL_DUMMY_30b" />
+    <item type="string" name="APKTOOL_DUMMY_30c" />
+    <item type="string" name="APKTOOL_DUMMY_30d" />
+    <item type="string" name="APKTOOL_DUMMY_30e" />
+    <item type="string" name="APKTOOL_DUMMY_30f" />
+    <item type="string" name="APKTOOL_DUMMY_310" />
+    <item type="string" name="APKTOOL_DUMMY_311" />
+    <item type="string" name="APKTOOL_DUMMY_312" />
+    <item type="string" name="APKTOOL_DUMMY_313" />
+    <item type="string" name="APKTOOL_DUMMY_314" />
+    <item type="string" name="APKTOOL_DUMMY_315" />
+    <item type="string" name="APKTOOL_DUMMY_316" />
+    <item type="string" name="APKTOOL_DUMMY_317" />
+    <item type="string" name="APKTOOL_DUMMY_318" />
+    <item type="string" name="APKTOOL_DUMMY_319" />
+    <item type="string" name="APKTOOL_DUMMY_31a" />
+    <item type="string" name="APKTOOL_DUMMY_31b" />
+    <item type="string" name="APKTOOL_DUMMY_31c" />
+    <item type="string" name="APKTOOL_DUMMY_31d" />
+    <item type="string" name="APKTOOL_DUMMY_31e" />
+    <item type="string" name="APKTOOL_DUMMY_31f" />
+    <item type="string" name="APKTOOL_DUMMY_320" />
+    <item type="string" name="APKTOOL_DUMMY_321" />
+    <item type="string" name="APKTOOL_DUMMY_322" />
+    <item type="string" name="APKTOOL_DUMMY_323" />
+    <item type="string" name="APKTOOL_DUMMY_324" />
+    <item type="string" name="APKTOOL_DUMMY_325" />
+    <item type="string" name="APKTOOL_DUMMY_326" />
+    <item type="string" name="APKTOOL_DUMMY_327" />
+    <item type="string" name="APKTOOL_DUMMY_328" />
+    <item type="string" name="APKTOOL_DUMMY_329" />
+    <item type="string" name="APKTOOL_DUMMY_32a" />
+    <item type="string" name="APKTOOL_DUMMY_32b" />
+    <item type="string" name="APKTOOL_DUMMY_32c" />
+    <item type="string" name="APKTOOL_DUMMY_32d" />
+    <item type="string" name="APKTOOL_DUMMY_32e" />
+    <item type="string" name="APKTOOL_DUMMY_33d" />
+    <item type="string" name="APKTOOL_DUMMY_33e" />
+    <item type="string" name="APKTOOL_DUMMY_33f" />
+    <item type="string" name="APKTOOL_DUMMY_340" />
+    <item type="string" name="APKTOOL_DUMMY_341" />
+    <item type="string" name="APKTOOL_DUMMY_345" />
+    <item type="string" name="APKTOOL_DUMMY_347" />
+    <item type="string" name="APKTOOL_DUMMY_348" />
+    <item type="string" name="APKTOOL_DUMMY_349" />
+    <item type="string" name="APKTOOL_DUMMY_34a" />
+    <item type="string" name="APKTOOL_DUMMY_34b" />
+    <item type="string" name="APKTOOL_DUMMY_34c" />
+    <item type="string" name="APKTOOL_DUMMY_34d" />
+    <item type="string" name="APKTOOL_DUMMY_34e" />
+    <item type="string" name="APKTOOL_DUMMY_34f" />
+    <item type="string" name="APKTOOL_DUMMY_350" />
+    <item type="string" name="APKTOOL_DUMMY_351" />
+    <item type="string" name="APKTOOL_DUMMY_352" />
+    <item type="string" name="APKTOOL_DUMMY_353" />
+    <item type="string" name="APKTOOL_DUMMY_354" />
+    <item type="string" name="APKTOOL_DUMMY_355" />
+    <item type="string" name="APKTOOL_DUMMY_356" />
+    <item type="string" name="APKTOOL_DUMMY_357" />
+    <item type="string" name="APKTOOL_DUMMY_358" />
+    <item type="string" name="APKTOOL_DUMMY_359" />
+    <item type="string" name="APKTOOL_DUMMY_35a" />
+    <item type="string" name="APKTOOL_DUMMY_35b" />
+    <item type="string" name="APKTOOL_DUMMY_35c" />
+    <item type="string" name="APKTOOL_DUMMY_35d" />
+    <item type="string" name="APKTOOL_DUMMY_35e" />
+    <item type="string" name="APKTOOL_DUMMY_35f" />
+    <item type="string" name="APKTOOL_DUMMY_360" />
+    <item type="string" name="APKTOOL_DUMMY_361" />
+    <item type="string" name="APKTOOL_DUMMY_362" />
+    <item type="string" name="APKTOOL_DUMMY_363" />
+    <item type="string" name="APKTOOL_DUMMY_364" />
+    <item type="string" name="APKTOOL_DUMMY_365" />
+    <item type="string" name="APKTOOL_DUMMY_366" />
+    <item type="string" name="APKTOOL_DUMMY_367" />
+    <item type="string" name="APKTOOL_DUMMY_368" />
+    <item type="string" name="APKTOOL_DUMMY_369" />
+    <item type="string" name="APKTOOL_DUMMY_36a" />
+    <item type="string" name="APKTOOL_DUMMY_36b" />
+    <item type="string" name="APKTOOL_DUMMY_36c" />
+    <item type="string" name="APKTOOL_DUMMY_36d" />
+    <item type="string" name="APKTOOL_DUMMY_36e" />
+    <item type="string" name="APKTOOL_DUMMY_36f" />
+    <item type="string" name="APKTOOL_DUMMY_370" />
+    <item type="string" name="APKTOOL_DUMMY_371" />
+    <item type="string" name="APKTOOL_DUMMY_372" />
+    <item type="string" name="APKTOOL_DUMMY_373" />
+    <item type="string" name="APKTOOL_DUMMY_374" />
+    <item type="string" name="APKTOOL_DUMMY_375" />
+    <item type="string" name="APKTOOL_DUMMY_376" />
+    <item type="string" name="APKTOOL_DUMMY_377" />
+    <item type="string" name="APKTOOL_DUMMY_378" />
+    <item type="string" name="APKTOOL_DUMMY_379" />
+    <item type="string" name="APKTOOL_DUMMY_37a" />
+    <item type="string" name="APKTOOL_DUMMY_37b" />
+    <item type="string" name="APKTOOL_DUMMY_37c" />
+    <item type="string" name="APKTOOL_DUMMY_37d" />
+    <item type="string" name="APKTOOL_DUMMY_37e" />
+    <item type="string" name="APKTOOL_DUMMY_37f" />
+    <item type="string" name="APKTOOL_DUMMY_380" />
+    <item type="string" name="APKTOOL_DUMMY_381" />
+    <item type="string" name="APKTOOL_DUMMY_384" />
+    <item type="string" name="APKTOOL_DUMMY_38b" />
+    <item type="string" name="APKTOOL_DUMMY_38c" />
+    <item type="string" name="APKTOOL_DUMMY_38d" />
+    <item type="string" name="APKTOOL_DUMMY_391" />
+    <item type="string" name="APKTOOL_DUMMY_392" />
+    <item type="string" name="APKTOOL_DUMMY_393" />
+    <item type="string" name="APKTOOL_DUMMY_394" />
+    <item type="string" name="APKTOOL_DUMMY_395" />
+    <item type="string" name="APKTOOL_DUMMY_3a1" />
+    <item type="string" name="APKTOOL_DUMMY_3a7" />
+    <item type="string" name="APKTOOL_DUMMY_3a8" />
+    <item type="string" name="APKTOOL_DUMMY_3bb" />
+    <item type="string" name="APKTOOL_DUMMY_3d4" />
+    <item type="string" name="APKTOOL_DUMMY_3da" />
+    <item type="string" name="APKTOOL_DUMMY_3db" />
+    <item type="string" name="APKTOOL_DUMMY_3dd" />
+    <item type="string" name="APKTOOL_DUMMY_3de" />
+    <item type="string" name="APKTOOL_DUMMY_3df" />
+    <item type="string" name="APKTOOL_DUMMY_3e0" />
+    <item type="string" name="APKTOOL_DUMMY_3e1" />
+    <item type="string" name="APKTOOL_DUMMY_3e2" />
+    <item type="string" name="APKTOOL_DUMMY_3e3" />
+    <item type="string" name="APKTOOL_DUMMY_3e4" />
+    <item type="string" name="APKTOOL_DUMMY_3e5" />
+    <item type="string" name="APKTOOL_DUMMY_3e6" />
+    <item type="string" name="APKTOOL_DUMMY_3e7" />
+    <item type="string" name="APKTOOL_DUMMY_3e8" />
+    <item type="string" name="APKTOOL_DUMMY_3e9" />
+    <item type="string" name="APKTOOL_DUMMY_3ea" />
+    <item type="string" name="APKTOOL_DUMMY_3eb" />
+    <item type="string" name="APKTOOL_DUMMY_3ec" />
+    <item type="string" name="APKTOOL_DUMMY_3f0" />
+    <item type="string" name="APKTOOL_DUMMY_3f1" />
+    <item type="string" name="APKTOOL_DUMMY_3f4" />
+    <item type="string" name="APKTOOL_DUMMY_3f7" />
+    <item type="string" name="APKTOOL_DUMMY_3f8" />
+    <item type="string" name="APKTOOL_DUMMY_3f9" />
+    <item type="string" name="APKTOOL_DUMMY_3fa" />
+    <item type="string" name="APKTOOL_DUMMY_40b" />
+    <item type="string" name="APKTOOL_DUMMY_40f" />
+    <item type="string" name="APKTOOL_DUMMY_413" />
+    <item type="string" name="APKTOOL_DUMMY_414" />
+    <item type="string" name="APKTOOL_DUMMY_416" />
+    <item type="string" name="APKTOOL_DUMMY_417" />
+    <item type="string" name="APKTOOL_DUMMY_418" />
+    <item type="string" name="APKTOOL_DUMMY_419" />
+    <item type="string" name="APKTOOL_DUMMY_41a" />
+    <item type="string" name="APKTOOL_DUMMY_41b" />
+    <item type="string" name="APKTOOL_DUMMY_41c" />
+    <item type="string" name="APKTOOL_DUMMY_41d" />
+    <item type="string" name="APKTOOL_DUMMY_41f" />
+    <item type="string" name="APKTOOL_DUMMY_42d" />
+    <item type="string" name="APKTOOL_DUMMY_432" />
+    <item type="string" name="APKTOOL_DUMMY_433" />
+    <item type="string" name="APKTOOL_DUMMY_434" />
+    <item type="string" name="APKTOOL_DUMMY_435" />
+    <item type="string" name="APKTOOL_DUMMY_436" />
+    <item type="string" name="APKTOOL_DUMMY_43d" />
+    <item type="string" name="APKTOOL_DUMMY_43e" />
+    <item type="string" name="APKTOOL_DUMMY_43f" />
+    <item type="string" name="APKTOOL_DUMMY_441" />
+    <item type="string" name="APKTOOL_DUMMY_442" />
+    <item type="string" name="APKTOOL_DUMMY_448" />
+    <item type="string" name="APKTOOL_DUMMY_449" />
+    <item type="string" name="APKTOOL_DUMMY_44c" />
+    <item type="string" name="APKTOOL_DUMMY_454" />
+    <item type="string" name="APKTOOL_DUMMY_45a" />
+    <item type="string" name="APKTOOL_DUMMY_465" />
+    <item type="string" name="APKTOOL_DUMMY_466" />
+    <item type="string" name="APKTOOL_DUMMY_467" />
+    <item type="string" name="APKTOOL_DUMMY_468" />
+    <item type="string" name="APKTOOL_DUMMY_469" />
+    <item type="string" name="APKTOOL_DUMMY_46a" />
+    <item type="string" name="APKTOOL_DUMMY_46b" />
+    <item type="string" name="APKTOOL_DUMMY_46c" />
+    <item type="string" name="APKTOOL_DUMMY_470" />
+    <item type="string" name="APKTOOL_DUMMY_471" />
+    <item type="string" name="APKTOOL_DUMMY_472" />
+    <item type="string" name="APKTOOL_DUMMY_473" />
+    <item type="string" name="APKTOOL_DUMMY_478" />
+    <item type="string" name="APKTOOL_DUMMY_479" />
+    <item type="string" name="APKTOOL_DUMMY_47a" />
+    <item type="string" name="APKTOOL_DUMMY_47b" />
+    <item type="string" name="APKTOOL_DUMMY_48b" />
+    <item type="string" name="APKTOOL_DUMMY_49d" />
+    <item type="string" name="APKTOOL_DUMMY_49f" />
+    <item type="string" name="APKTOOL_DUMMY_4a2" />
+</resources>

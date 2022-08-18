@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_preference_category_title_zui" android:textColor="@color/preference_category_text_zui" android:gravity="center_vertical" android:id="@android:id/title" android:background="@color/preference_category_bg_zui" android:paddingTop="@dimen/preference_category_text_padding_zui_horizontal" android:paddingBottom="@dimen/preference_category_text_padding_zui_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/getcontent_bottom_bar" android:background="@color/photo_page_bottom_tab_color" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:baselineAligned="false" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/tab_text_selector" android:id="@id/getcontent_text_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="@style/TextButtonNormalStyle" />
+</LinearLayout>

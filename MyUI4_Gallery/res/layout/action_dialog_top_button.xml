@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:background="@drawable/dialog_background_zui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:id="@id/icon" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@null" android:scaleType="fitCenter" android:layout_marginEnd="0.0dip" />
+            <zui.widget.TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/alertTitle" android:paddingTop="?dialogTitleVerticalPadding" android:paddingBottom="?dialogTitleVerticalPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textAlignment="center" style="@style/TextAppearance.Zui.DialogWindowTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/titleDivider" android:background="@color/dialog_divider_zui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width_zui" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <zui.widget.TextView android:ellipsize="end" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" style="@style/TextAppearance.Zui.Subhead" />
+                <Space android:id="@id/textSpacerNoButtons" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/dialog_divider_zui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width_zui" />
+            <FrameLayout android:id="@id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" style="?android:buttonBarStyle">
+        <Button android:id="@android:id/button3" android:paddingTop="?dialogButtonbarVerticalPadding" android:paddingBottom="?dialogButtonbarVerticalPadding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Zui.Button.ButtonBar.AlertDialog" />
+        <Button android:id="@android:id/button2" android:paddingTop="?dialogButtonbarVerticalPadding" android:paddingBottom="?dialogButtonbarVerticalPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Zui.Button.ButtonBar.AlertDialog" />
+        <View android:id="@id/button_divider" android:background="@color/dialog_divider_zui" android:layout_width="@dimen/divider_width_zui" android:layout_height="fill_parent" />
+        <Button android:id="@android:id/button1" android:paddingTop="?dialogButtonbarVerticalPadding" android:paddingBottom="?dialogButtonbarVerticalPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Zui.Button.ButtonBar.AlertDialog" />
+    </LinearLayout>
+</LinearLayout>

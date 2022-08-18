@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="albumset_slot_height">250.0dip</dimen>
+    <dimen name="albumset_slot_width">175.0dip</dimen>
+</resources>

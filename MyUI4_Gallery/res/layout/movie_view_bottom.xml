@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/movie_activity_action_bar_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@drawable/movie_bottom_bg" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/movie_bottom_view_text_size" android:textColor="@color/movie_bottom_view_text_color" android:gravity="center_vertical" android:id="@id/text_cutrrent" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@null" android:includeFontPadding="false" />
+        <SeekBar android:id="@id/seekbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progressDrawable="@drawable/white_seekbar" android:thumb="@drawable/white_seekbar_thumb" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/movie_bottom_view_text_size" android:textColor="@color/movie_bottom_view_text_color" android:gravity="center_vertical" android:id="@id/text_total" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@null" android:includeFontPadding="false" />
+        <ImageView android:id="@id/mute_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_voice_open" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate android:interpolator="@android:anim/accelerate_interpolator" android:duration="300" android:fromDegrees="90.0" android:toDegrees="0.0" android:pivotX="79.99999%" android:pivotY="100.0%"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/decelerate_interpolator" android:duration="90" android:fromDegrees="0.0" android:toDegrees="-15.0" android:pivotX="20.000004%" android:pivotY="100.0%" android:startOffset="300"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/accelerate_interpolator" android:duration="70" android:fromDegrees="0.0" android:toDegrees="15.0" android:pivotX="20.000004%" android:pivotY="100.0%" android:startOffset="390"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/decelerate_interpolator" android:duration="50" android:fromDegrees="0.0" android:toDegrees="8.0" android:pivotX="79.99999%" android:pivotY="100.0%" android:startOffset="460"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/accelerate_interpolator" android:duration="35" android:fromDegrees="0.0" android:toDegrees="-8.0" android:pivotX="79.99999%" android:pivotY="100.0%" android:startOffset="510"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/decelerate_interpolator" android:duration="20" android:fromDegrees="0.0" android:toDegrees="-3.0" android:pivotX="20.000004%" android:pivotY="100.0%" android:startOffset="545"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <rotate android:interpolator="@android:anim/accelerate_interpolator" android:duration="10" android:fromDegrees="0.0" android:toDegrees="3.0" android:pivotX="20.000004%" android:pivotY="100.0%" android:startOffset="565"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</set>

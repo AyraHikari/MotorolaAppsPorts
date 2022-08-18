@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/actionbar_icon_size" android:width="@dimen/actionbar_icon_size" android:viewportWidth="84.0" android:viewportHeight="84.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/ic_clear_default" android:pathData="M4.4,22.6l17,17l17,-17c0.8,-0.8 2,-0.8 2.8,0c0.8,0.8 0.8,2 0,2.8l-17,17l17,17c0.8,0.8 0.8,2 0,2.8s-2,0.8 -2.8,0l-17,-17l-17,17c-0.8,0.8 -2,0.8 -2.8,0s-0.8,-2 0,-2.8l17,-17l-17,-17c-0.8,-0.8 -0.8,-2 0,-2.8C2.4,21.8 3.6,21.8 4.4,22.6z" android:fillType="evenOdd" />
+</vector>

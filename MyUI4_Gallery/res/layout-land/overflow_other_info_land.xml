@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/overflow_other_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/overflow_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="82.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/ic_location" />
+        <TextView android:layout_gravity="center" android:id="@id/overflow_address" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@null" style="@style/TextUseMarqueeRepeatStyleTv" />
+    </LinearLayout>
+    <TextView android:id="@id/overflow_continue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@null" android:layout_marginEnd="66.0dip" android:layout_alignParentEnd="true" style="@style/TextUseMarqueeRepeatStyleTv" />
+</RelativeLayout>

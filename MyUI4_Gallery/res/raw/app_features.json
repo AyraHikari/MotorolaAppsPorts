@@ -1,0 +1,165 @@
+{
+    "devices": [
+    {
+          "device": "berlin",
+          "features": [
+              {"feature": "TRASH"}
+          ]
+    },
+
+    {
+        "device": "pstar",
+        "features": [
+            {"feature": "TRASH"}
+        ]
+    },
+
+        // Yukon21 PRC
+    {
+        "device": "xpeng",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"}
+        ]
+    },
+
+        // Croprus 5G CMCC
+    {
+        "device": "cypfq",
+        "features": [
+            {"feature": "TRASH"},
+          {"feature": "VIDEOEDIT"}
+        ]
+    },
+
+        // Corfu 5G PRC
+    {
+        "device": "corfur",
+        "features": [
+            {"feature": "TRASH"},
+          {"feature": "VIDEOEDIT"}
+        ]
+    },
+
+    // Rogue PRC
+    {
+        "device": "hiphic",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"}
+        ]
+    },
+
+    // Tahoe  PRC
+    {
+        "device": "nio",
+        "features": [
+            {"feature": "TRASH"}
+        ]
+    },
+    // Rhodep PRC
+    {
+        "device": "rhodep",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"}
+        ]
+    },
+
+    // Rhode5G  PRC
+    {
+        "device": "rhodep",
+        "features": [
+            {"feature": "TRASH"}
+        ]
+    },
+
+    // Rogue CUD
+    {
+        "device": "hiphid",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"}
+        ]
+    },
+
+    // Ibiza PRC
+    {
+        "device": "ibiza",
+        "features": [
+            {"feature": "TRASH"}
+        ]
+    },
+
+    // tundra
+    {
+        "device": "tundra",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"},
+            {"feature": "HIDDENALBUM"}
+        ]
+    },
+    // maven 8450
+    {
+        "device": "li",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"},
+            {"feature": "HIDDENALBUM"}
+        ]
+    },
+    // maven 8475
+    {
+        "device": "oneli",
+        "features": [
+            {"feature": "TRASH"},
+            {"feature": "VIDEOEDIT"},
+            {"feature": "VIDEOHDR"},
+            {"feature": "VIDEOFILTER"},
+            {"feature": "HIDDENALBUM"}
+        ]
+    },
+        // Frontier
+        {
+            "device": "eqs",
+            "features": [
+                {"feature": "TRASH"},
+                {"feature": "VIDEOEDIT"},
+                {"feature": "VIDEOHDR"},
+                {"feature": "VIDEOFILTER"},
+                {"feature": "HIDDENALBUM"}
+            ]
+        },
+        // Project Name
+//        {
+//            "device": "rhodep",
+//            "features": [
+//                {"feature": "TRASH"},
+//                {"feature": "VIDEOEDIT"},
+//                {"feature": "VIDEOHDR"}
+//            ]
+//        },
+
+
+        // DO Not Modify the EXAMPLE here!!!
+        // Please use above blank item for your project.
+    {
+        "device": "EXAMPLE",
+        "features": [
+            {"feature": "EXAMPLE", "api": "1", "region": "us,br", "min-ram" : 2500}
+        ]
+    }
+    ]
+}

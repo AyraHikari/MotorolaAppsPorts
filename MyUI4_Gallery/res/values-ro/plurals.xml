@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Ștergeți articolele selectate?</item>
+        <item quantity="one">Ștergeți articolul selectat?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d elemente scanate</item>
+        <item quantity="zero">%1$d elemente scanate</item>
+        <item quantity="one">%1$d element scanat</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d elemente selectate</item>
+        <item quantity="zero">%1$d elemente selectate</item>
+        <item quantity="one">%1$d element selectat</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Disponibilitatea albumelor offline.</item>
+        <item quantity="one">Disponibilitatea unui album offline</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="zero">%1$d selectat</item>
+        <item quantity="one">%1$d selectat</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="zero">%1$d selectat</item>
+        <item quantity="one">%1$d selectat</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="zero">%1$d selectat</item>
+        <item quantity="one">%1$d selectat</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d fotografii</item>
+        <item quantity="one">%1$d fotografie</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">„%1$d fotografii selectată(e)”</item>
+        <item quantity="zero">„%1$d fotografii selectată(e)”</item>
+        <item quantity="one">„%1$d fotografii selectată(e)”</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d secunde</item>
+        <item quantity="one">1 secundă</item>
+    </plurals>
+</resources>

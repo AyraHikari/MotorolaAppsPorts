@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Ali želite izbrisati izbrane elemente?</item>
+        <item quantity="one">Ali želite izbrisati izbran element?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Št. pregledanih elementov: %1$d</item>
+        <item quantity="zero">Št. pregledanih elementov: %1$d</item>
+        <item quantity="one">%1$d pregledan element</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Št. izbranih elementov: %1$d</item>
+        <item quantity="zero">Št. izbranih elementov: %1$d</item>
+        <item quantity="one">%1$d izbran element</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Omogočanje albumov brez povezave.</item>
+        <item quantity="one">Omogočanje albuma brez povezave.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Št. izbranih: %1$d</item>
+        <item quantity="zero">Št. izbranih: %1$d</item>
+        <item quantity="one">Št. izbranih: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Št. izbranih: %1$d</item>
+        <item quantity="zero">Št. izbranih: %1$d</item>
+        <item quantity="one">Št. izbranih: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Št. izbranih: %1$d</item>
+        <item quantity="zero">Št. izbranih: %1$d</item>
+        <item quantity="one">Št. izbranih: %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">Št. fotografij: %1$d</item>
+        <item quantity="one">%1$d fotografija</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">»Št. izbranih fotografij: %1$d«</item>
+        <item quantity="zero">»Št. izbranih fotografij: %1$d«</item>
+        <item quantity="one">»Št. izbranih fotografij: %1$d«</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d sek</item>
+        <item quantity="one">1 sek</item>
+    </plurals>
+</resources>

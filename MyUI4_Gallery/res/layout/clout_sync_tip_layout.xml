@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cloud_sync_tips" android:background="@drawable/cloud_tip_bg" android:visibility="gone" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:layout_above="@id/footer" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/sync_main_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="#ff579dff" android:id="@id/sync_main_right_icon_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip" android:text="@string/cloud_backup" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/cta_message_title_color" android:id="@id/sync_main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" android:text="@string/cloudsync_auto_switch_tips" android:layout_toLeftOf="@id/sync_main_right_icon_text" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/sync_main_close_icon" android:background="@drawable/cloud_tip_close_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:id="@id/no_space_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/cta_message_title_color" android:id="@id/no_space_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/cloud_no_space_title1" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff579dff" android:id="@id/no_space_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_no_space_title2" />
+            <ImageView android:id="@id/no_space_close_icon" android:background="@drawable/cloud_tip_close_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/cta_message_title_color" android:layout_gravity="center_horizontal" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="正在下载6张照片、1个视频" />
+            <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="-3.0dip" android:layout_marginRight="25.0dip" style="?android:progressBarStyleHorizontal" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/sync_result_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/cta_message_title_color" android:id="@id/sync_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云服务已同步完成" android:drawableLeft="@drawable/sync_down_icon" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

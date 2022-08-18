@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/profile_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:maxLines="1" />
+    </LinearLayout>
+    <FrameLayout android:id="@*android:id/linear" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <zui.widget.ListViewX android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:category="normal" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@*android:id/internal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

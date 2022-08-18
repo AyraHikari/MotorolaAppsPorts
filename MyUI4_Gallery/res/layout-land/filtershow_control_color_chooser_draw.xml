@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/filtershow_categoryview_background" android:paddingRight="36.0dip" android:layout_width="94.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/color_Layout" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="@dimen/layout_padding_20" android:layout_marginStart="0.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/color_btn" android:background="@drawable/filtershow_color_back_normal_svg" android:layout_width="32.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/filtershow_textselector" android:gravity="center" android:id="@id/color_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:text="@string/draw_color" />
+    </LinearLayout>
+    <com.motorola.cn.gallery.filtershow.colorpicker.ColorHueViewDraw android:id="@id/ColorHueView" android:layout_width="265.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

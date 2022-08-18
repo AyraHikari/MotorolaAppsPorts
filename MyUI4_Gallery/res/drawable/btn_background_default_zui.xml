@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:left="-4.0px" android:right="-4.0px" android:bottom="-4.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/button_background_disabled_zui" />
+                    <padding android:left="@dimen/button_padding_horizontal_zui" android:top="@dimen/button_padding_vertical_zui" android:right="@dimen/button_padding_horizontal_zui" android:bottom="@dimen/button_padding_vertical_zui" />
+                    <stroke android:width="@dimen/divider_width_zui" android:color="@color/button_rect_stroke_disabled_zui" android:dashGap="0.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="-4.0px" android:right="-4.0px" android:bottom="-4.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/button_background_pressed_zui" />
+                    <padding android:left="@dimen/button_padding_horizontal_zui" android:top="@dimen/button_padding_vertical_zui" android:right="@dimen/button_padding_horizontal_zui" android:bottom="@dimen/button_padding_vertical_zui" />
+                    <stroke android:width="@dimen/divider_width_zui" android:color="@color/button_rect_stroke_pressed_zui" android:dashGap="0.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true" android:state_pressed="false">
+        <layer-list>
+            <item android:left="-4.0px" android:right="-4.0px" android:bottom="-4.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/button_background_focus_not_pressed_zui" />
+                    <padding android:left="@dimen/button_padding_horizontal_zui" android:top="@dimen/button_padding_vertical_zui" android:right="@dimen/button_padding_horizontal_zui" android:bottom="@dimen/button_padding_vertical_zui" />
+                    <stroke android:width="@dimen/divider_width_zui" android:color="@color/button_rect_stroke_pressed_zui" android:dashGap="0.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:left="-4.0px" android:right="-4.0px" android:bottom="-4.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/button_background_zui" />
+                    <padding android:left="@dimen/button_padding_horizontal_zui" android:top="@dimen/button_padding_vertical_zui" android:right="@dimen/button_padding_horizontal_zui" android:bottom="@dimen/button_padding_vertical_zui" />
+                    <stroke android:width="@dimen/divider_width_zui" android:color="@color/button_rect_stroke_zui" android:dashGap="0.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

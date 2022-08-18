@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionmode_text_size">22.0sp</dimen>
+    <dimen name="actionmode_text_size_small">16.0sp</dimen>
+    <dimen name="albumset_count_font_size">14.0sp</dimen>
+    <dimen name="albumset_round_cornor_size">23.0dip</dimen>
+    <dimen name="albumset_slot_height">180.0dip</dimen>
+    <dimen name="albumset_title_font_size">16.0sp</dimen>
+    <dimen name="category_panel_effect_text_size">14.0sp</dimen>
+    <dimen name="categorytrack_effect_width">107.0dip</dimen>
+    <dimen name="categorytrack_width">70.0dip</dimen>
+    <dimen name="control_textArea_left">-55.0px</dimen>
+    <dimen name="draw_seek_bar_slider_width">250.0dip</dimen>
+    <dimen name="effect_icon_view_size">40.0dip</dimen>
+    <dimen name="local_time_album_location_font_size">14.0sp</dimen>
+    <dimen name="local_time_album_location_font_size_land">15.0dip</dimen>
+    <dimen name="local_time_album_title_font_size_land">18.0dip</dimen>
+    <dimen name="look_left">10.0px</dimen>
+    <dimen name="mainpanel_icon_size">40.0dip</dimen>
+    <dimen name="mosic_seekbar">0.0px</dimen>
+    <dimen name="move_playing_actionbar_height">75.0dip</dimen>
+    <dimen name="save_right">110.0dip</dimen>
+    <dimen name="tab_height">70.0dip</dimen>
+    <dimen name="tab_text_size">14.0sp</dimen>
+    <dimen name="title_right_text_size">16.0sp</dimen>
+    <dimen name="trash_count_margin_arraw">50.0dip</dimen>
+    <dimen name="trash_count_x">320.0dip</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_normal_background_pressed_zui" />
+            <stroke android:width="@dimen/button_normal_stroke_height_zui" android:color="@color/button_normal_rect_stroke_pressed_zui" />
+            <corners android:radius="@dimen/button_big_radius_zui" />
+            <padding android:left="@dimen/button_big_padding_horizontal_zui" android:right="@dimen/button_big_padding_horizontal_zui" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_normal_background_disabled_zui" />
+            <corners android:radius="@dimen/button_big_radius_zui" />
+            <padding android:left="@dimen/button_big_padding_horizontal_zui" android:right="@dimen/button_big_padding_horizontal_zui" />
+            <stroke android:width="@dimen/button_normal_stroke_height_zui" android:color="@color/button_normal_rect_stroke_disabled_zui" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_normal_background_focus_not_pressed_zui" />
+            <corners android:radius="@dimen/button_big_radius_zui" />
+            <padding android:left="@dimen/button_big_padding_horizontal_zui" android:right="@dimen/button_big_padding_horizontal_zui" />
+            <stroke android:width="@dimen/button_normal_stroke_height_zui" android:color="@color/button_normal_rect_stroke_zui" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button_normal_background_zui" />
+            <corners android:radius="@dimen/button_big_radius_zui" />
+            <padding android:left="@dimen/button_big_padding_horizontal_zui" android:right="@dimen/button_big_padding_horizontal_zui" />
+            <stroke android:width="@dimen/button_normal_stroke_height_zui" android:color="@color/button_normal_rect_stroke_zui" />
+        </shape>
+    </item>
+</selector>

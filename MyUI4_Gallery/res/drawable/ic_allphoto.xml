@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/text_title_dialog_zui" android:pathData="M12,20L20,20L20,12L12,12L12,20ZM20,10L12,10C10.9,10 10,10.9 10,12L10,20C10,21.1 10.9,22 12,22L20,22C21.1,22 22,21.1 22,20L22,12C22,10.9 21.1,10 20,10L20,10ZM18,6L8,6C6.9,6 6,6.9 6,8L6,18L8,18L8,8L18,8L18,6ZM14,2L4,2C2.9,2 2,2.9 2,4L2,14L4,14L4,4L14,4L14,2Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

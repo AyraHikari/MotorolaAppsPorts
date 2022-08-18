@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/slow_movie_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.morpho.utils.VideoPlay.VideoPlayerView android:id="@id/VideoPlayerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/pic_preview_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/player_title_bar" android:background="@drawable/player_bar_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/player_back" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back_arrow" />
+            <ImageView android:id="@id/right_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/player_backbt_selector" android:layout_alignParentRight="true" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/right_view" android:layout_toRightOf="@id/player_back">
+                <TextView android:textSize="@dimen/movie_title_view_text_size" android:textColor="@color/movie_title_view_text_color" android:id="@id/player_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

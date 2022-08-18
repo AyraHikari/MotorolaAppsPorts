@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/curves_popupmenu">
+        <item android:id="@id/draw_menu_style" android:title="@string/draw_style" />
+        <item android:id="@id/draw_menu_size" android:title="@string/draw_size" />
+        <item android:id="@id/draw_menu_color" android:title="@string/draw_color" />
+        <item android:id="@id/draw_menu_clear" android:title="@string/draw_clear" />
+    </group>
+</menu>

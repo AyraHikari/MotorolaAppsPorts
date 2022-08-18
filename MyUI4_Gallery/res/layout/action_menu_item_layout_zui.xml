@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ActionMenuItemView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="?android:actionMenuTextColor" android:gravity="center" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/Widget.Zui.ActionButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

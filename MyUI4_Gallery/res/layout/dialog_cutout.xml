@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/cutout_title_layout_height" android:layout_marginTop="24.0dip">
+        <TextView android:textSize="@dimen/editor_chooser_title" android:textColor="@color/editor_chooser_color" android:id="@id/tv_dialog_cutout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/cutout" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/layout_margin_5" />
+    <TextView android:textSize="@dimen/editor_chooser_title" android:textColor="@color/editor_chooser_color" android:id="@id/tv_dialog_cutout_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/layer_editor_content" android:paddingStart="@dimen/layout_padding_25" android:paddingEnd="@dimen/layout_padding_25" />
+    <Button android:textSize="@dimen/editor_chooser_content" android:textColor="@color/albumset_label_text_color" android:layout_gravity="end|center" android:id="@id/bt_dialog_cutout" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/cutout_button_ok_height" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/complete" android:layout_marginEnd="24.0dip" />
+</LinearLayout>

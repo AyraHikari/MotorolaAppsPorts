@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Eliminar os itens selecionados?</item>
+        <item quantity="one">Eliminar o item selecionado?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d itens digitalizados</item>
+        <item quantity="zero">%1$d itens digitalizados</item>
+        <item quantity="one">%1$d item digitalizado</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d itens selecionados</item>
+        <item quantity="zero">%1$d itens selecionados</item>
+        <item quantity="one">%1$d item selecionado</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Tornar álbuns disponíveis offline.</item>
+        <item quantity="one">Tornar álbum disponível offline.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d selecionado(s)</item>
+        <item quantity="zero">%1$d selecionado(s)</item>
+        <item quantity="one">%1$d selecionado(s)</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d selecionado(s)</item>
+        <item quantity="zero">%1$d selecionado(s)</item>
+        <item quantity="one">%1$d selecionado(s)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d selecionado(s)</item>
+        <item quantity="zero">%1$d selecionado(s)</item>
+        <item quantity="one">%1$d selecionado(s)</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d fotos</item>
+        <item quantity="one">%1$d foto</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$d foto(s) selecionada(s)</item>
+        <item quantity="zero">%1$d foto(s) selecionada(s)</item>
+        <item quantity="one">%1$d foto(s) selecionada(s)</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+</resources>

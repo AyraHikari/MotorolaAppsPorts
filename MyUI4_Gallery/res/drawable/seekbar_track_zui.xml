@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:tint="@color/seekbar_track_background_zui" android:shape="rectangle">
+            <size android:height="@dimen/seekbar_track_background_height_zui" />
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/seekbar_track_radius_zui" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="@color/seekbar_track_secondary_progress_zui" android:shape="rectangle">
+                <size android:height="@dimen/seekbar_track_progress_height_zui" />
+                <solid android:color="@android:color/white" />
+                <corners android:radius="@dimen/seekbar_track_radius_zui" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false">
+                    <shape android:tint="@android:color/transparent" android:shape="rectangle">
+                        <size android:height="@dimen/seekbar_track_progress_height_zui" />
+                        <solid android:color="@android:color/white" />
+                        <corners android:radius="@dimen/seekbar_track_radius_zui" />
+                    </shape>
+                </item>
+                <item>
+                    <shape android:tint="@color/seekbar_track_progress_zui" android:shape="rectangle">
+                        <size android:height="@dimen/seekbar_track_progress_height_zui" />
+                        <solid android:color="@android:color/white" />
+                        <corners android:radius="@dimen/seekbar_track_radius_zui" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

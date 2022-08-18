@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/trash_bottom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textStyle="bold" android:id="@id/recover" android:text="@string/trash_restore" android:layout_weight="1.0" android:layout_marginEnd="@dimen/trash_title_image_left" style="@style/TrashButtonStyle" />
+    <Button android:textStyle="bold" android:id="@id/delete" android:text="@string/trash_delete" android:layout_weight="1.0" android:layout_marginStart="@dimen/trash_title_image_left" style="@style/TrashButtonStyle" />
+</LinearLayout>

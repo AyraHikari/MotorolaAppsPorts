@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Διαγραφή επιλεγμένων αντικειμένων;</item>
+        <item quantity="one">Διαγραφή επιλεγμένου αντικειμένου;</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Σαρώθηκαν %1$d στοιχεία</item>
+        <item quantity="zero">Σαρώθηκαν %1$d στοιχεία</item>
+        <item quantity="one">Σαρώθηκε %1$d στοιχείο</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Επιλέχτηκαν %1$d στοιχεία</item>
+        <item quantity="zero">Επιλέχτηκαν %1$d στοιχεία</item>
+        <item quantity="one">Επιλέχτηκε %1$d στοιχείο</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Τα άλμπουμ γίνονται διαθέσιμα χωρίς σύνδεση.</item>
+        <item quantity="one">Το άλμπουμ γίνεται διαθέσιμο χωρίς σύνδεση.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Επιλέχθ. %1$d</item>
+        <item quantity="zero">Επιλέχθ. %1$d</item>
+        <item quantity="one">Επιλέχθ. %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Επιλέχθ. %1$d</item>
+        <item quantity="zero">Επιλέχθ. %1$d</item>
+        <item quantity="one">Επιλέχθ. %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Επιλέχθ. %1$d</item>
+        <item quantity="zero">Επιλέχθ. %1$d</item>
+        <item quantity="one">Επιλέχθ. %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d φωτογραφίες</item>
+        <item quantity="one">%1$d φωτογραφία</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">Επιλέχθ. %1$d φωτογραφίας(ών)</item>
+        <item quantity="zero">Επιλέχθ. %1$d φωτογραφίας(ών)</item>
+        <item quantity="one">Επιλέχθ. %1$d φωτογραφίας(ών)</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+</resources>

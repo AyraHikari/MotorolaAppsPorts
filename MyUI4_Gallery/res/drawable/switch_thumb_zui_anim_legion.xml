@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:id="@id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/switch_thumb_disabled_off_zui_legion" />
+    </item>
+    <item android:state_enabled="false" android:state_checked="true" android:id="@id/on">
+        <nine-patch android:gravity="center" android:src="@drawable/switch_thumb_disabled_on_zui_legion" />
+    </item>
+    <item android:state_checked="true" android:id="@id/on">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_to_on_mtrl_zui_00022_legion" />
+    </item>
+    <item android:id="@id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_to_on_mtrl_zui_00000_legion" />
+    </item>
+</animated-selector>

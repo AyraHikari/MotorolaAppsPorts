@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">More options</string>
+    <string name="back_button_label">Back</string>
+    <string name="capital_off">OFF</string>
+    <string name="capital_on">ON</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">Done</string>
+    <string name="listview_x_title_items_selected">%1$s items</string>
+    <string name="listview_x_title_main">%1$s items are selected</string>
+    <string name="listview_x_title_no_item_selected">Select</string>
+    <string name="listview_x_title_one_item_selected">1 item</string>
+    <string name="listview_x_title_select_all">Select All</string>
+    <string name="listview_x_title_unselect_all">Deselect All</string>
+    <string name="loading">Loading…</string>
+    <string name="next_button_label">Next</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Done</string>
+    <string name="time_picker_dialog_x_midnight">midnight</string>
+    <string name="time_picker_dialog_x_noon">noon</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/primary_text_default_zui" android:state_activated="true" android:alpha="@dimen/activated_alpha_zui" />
+    <item android:color="@color/primary_text_default_zui" />
+</selector>

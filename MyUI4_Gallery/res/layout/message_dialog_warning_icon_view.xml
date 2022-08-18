@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="?dialogTitleVerticalPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?dialogTitleVerticalPadding" android:scaleType="centerInside" />
+    <zui.widget.TextView android:textSize="18.0sp" android:textColor="?android:titleTextColor" android:gravity="center" android:id="@id/message" android:paddingTop="21.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <zui.widget.TextView android:textSize="13.0sp" android:textColor="?android:subtitleTextColor" android:gravity="center" android:id="@id/iconHint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+</LinearLayout>

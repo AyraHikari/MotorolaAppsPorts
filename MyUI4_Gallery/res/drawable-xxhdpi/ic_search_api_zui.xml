@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/actionbar_icon_size" android:width="@dimen/actionbar_icon_size" android:viewportWidth="84.0" android:viewportHeight="84.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/ic_search_api" android:pathData="M60.1,57.3L60.1,57.3l5.1,4.1c0.9,0.7,1,2,0.3,2.8c-0.7,0.8-1.8,1-2.7,0.4l-0.1-0.1l-5-4 c-0.9-0.7-1-2-0.3-2.8C58.1,56.9,59.3,56.8,60.1,57.3z M40,21c11.6,0,21,9.4,21,21s-9.4,21-21,21s-21-9.4-21-21S28.4,21,40,21z M40,25c-9.4,0-17,7.6-17,17s7.6,17,17,17s17-7.6,17-17S49.4,25,40,25z" />
+</vector>

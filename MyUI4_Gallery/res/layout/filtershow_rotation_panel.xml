@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/rotation_panel_id" android:background="@color/filtershow_categoryview_background" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/rotation_mirror_id" android:background="@drawable/filtershow_mirror_horizontal_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/aspect_1to1_vertical_textview_id" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:text="@string/mirrorHorizontal" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/rotation_mirror_updown_id" android:background="@drawable/filtershow_mirror_vertical_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:text="@string/mirrorVertical" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/rotation_ccw_id" android:background="@drawable/filtershow_rotate_left_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:text="@string/rotateLeft" />
+    </LinearLayout>
+    <LinearLayout android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="center_vertical" android:background="#ff363636" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/rotation_cw_id" android:background="@drawable/filtershow_rotate_right_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="4.0dip" android:text="@string/rotateRight" />
+    </LinearLayout>
+</LinearLayout>

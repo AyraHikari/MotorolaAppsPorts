@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:gravity="center" android:id="@id/numberpicker_input" android:background="@drawable/bottom_bar_item_bg" android:layout_width="@dimen/number_picker_x_cover_width" android:layout_height="@dimen/number_picker_x_cover_height" class="android.widget.TextView" />
+</merge>

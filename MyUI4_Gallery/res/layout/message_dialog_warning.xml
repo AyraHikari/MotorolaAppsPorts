@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?dialogTitleVerticalPadding" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <zui.widget.TextView android:gravity="start|center|top" android:layout_gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Zui.Subhead" />
+        </LinearLayout>
+    </ScrollView>
+    <CheckBox android:textSize="13.0sp" android:textColor="@color/message_dialog_checkbox_text_color" android:id="@android:id/checkbox" android:paddingLeft="@dimen/message_dialog_check_box_text_padding_zui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?dialogTitleVerticalPadding" android:layout_marginBottom="?dialogTitleVerticalPadding" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+</LinearLayout>

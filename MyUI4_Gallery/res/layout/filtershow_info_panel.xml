@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_main_toolbar" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="340.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:textColor="#80ffffff" android:gravity="start" android:layout_gravity="start" android:id="@id/imageName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:textAppearanceSmall" />
+                <TextView android:textStyle="bold" android:textColor="#80ffffff" android:gravity="end" android:layout_gravity="end" android:id="@id/imageSize" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" style="?android:textAppearanceSmall" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <ImageView android:id="@id/imageThumbnail" android:background="@null" android:layout_width="0.0dip" android:layout_height="196.0dip" android:layout_marginRight="16.0dip" android:scaleType="centerCrop" android:layout_weight="0.3" />
+                <com.motorola.cn.gallery.filtershow.info.HistogramView android:id="@id/histogramView" android:layout_width="0.0dip" android:layout_height="196.0dip" android:layout_margin="0.0dip" android:layout_weight="0.7" />
+            </LinearLayout>
+            <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="start" android:id="@id/exifLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/filtershow_show_info_panel_exif" style="?android:textAppearanceLarge" />
+            <TextView android:layout_gravity="start" android:id="@id/exifData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

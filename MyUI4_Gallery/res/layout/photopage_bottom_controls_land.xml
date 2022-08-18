@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/photopage_bottom_controls" android:background="@drawable/photopage_navigation_bg" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="62.0dip" android:baselineAligned="false" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/photo_page_bottom_devider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.66700006dip" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/photo_bottom_edit_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/edit_view" android:background="@drawable/bottom_edit_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/photo_bottom_share_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/share_view" android:background="@drawable/bottom_share_selector_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/favorite_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/favorite_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/photo_bottom_delete_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/delete_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_delete_selector_white" android:contentDescription="@null" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/delete_anim_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/delete_anim_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photo_bottom_delete_01" android:contentDescription="@null" />
+                <ImageView android:id="@id/delete_anim_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photo_bottom_delete_02" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/photo_bottom_print_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/print_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_print_selector" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/photo_bottom_more_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/more_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_more_selector" android:contentDescription="@null" />
+            <ImageView android:id="@id/set_as" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

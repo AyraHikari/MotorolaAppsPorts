@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/dialog_shape_corner" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="14.0dip">
+                <ImageView android:layout_width="20.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_s_cta_icon" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:textColor="@color/cta_message_title_color" android:gravity="center|top" android:id="@id/tv_cta_message_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/cta_message_title" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cta_message_contents_color" android:gravity="center|top" android:id="@id/tv_cta_message_contents" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:text="@string/cta_message_contents" />
+            <View android:background="@color/cta_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="14.0sp" android:textColor="@color/cta_button_color" android:gravity="center" android:id="@id/tv_cta_grant" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/cta_grant" />
+                <View android:background="@color/cta_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <Button android:textSize="14.0sp" android:textColor="@color/cta_button_color" android:gravity="center" android:id="@id/tv_cta_leave" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/cta_leave" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/edit_title_bar_height">
+        <LinearLayout android:id="@id/back_container" style="@style/VideoEditActionBarLayoutStyle">
+            <TextView android:textSize="@dimen/video_trim_text_size" android:textStyle="bold" android:textColor="@color/accent1_200" android:text="@string/back" style="@style/ActionBarTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/trimbar_title" android:visibility="invisible" android:layout_centerHorizontal="true" style="@style/VideoEditActionBarLayoutStyle">
+            <TextView android:textColor="@color/trim_video_title_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trim_bar_time_left" />
+            <TextView android:textSize="@dimen/trim_bar_title_time_text_size" android:textColor="@color/video_time" android:id="@id/left_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/done_container" android:layout_alignParentRight="true" style="@style/VideoEditActionBarLayoutStyle">
+            <TextView android:textSize="@dimen/video_trim_text_size" android:textStyle="bold" android:text="@string/done" android:layout_marginEnd="@dimen/video_edit_finish_text_margin_end" style="@style/ActionBarTextStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/video_edit_filter_video_margin_top" android:layout_weight="1.0" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/pic_preview_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/pic_preview_back" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/pic_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/play_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/play_icon_image" android:background="@drawable/ic_movie_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/speed_choose_bar" android:background="@drawable/speed_choose_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/circle_bar_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <include layout="@layout/speed_choose_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottombar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/layout_margin_10" android:layout_alignParentRight="true">
+        <include layout="@layout/operation_bar_layou" />
+    </LinearLayout>
+</RelativeLayout>

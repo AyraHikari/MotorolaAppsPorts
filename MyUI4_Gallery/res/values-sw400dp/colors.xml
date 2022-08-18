@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="effect_seek_bar_slider_color_normal">#ff7ed0ff</color>
+    <color name="filtershow_categoryview_text_selected">#ff7ed0ff</color>
+    <color name="filtershow_crop_image_text_selected_color">#ff7ed0ff</color>
+</resources>

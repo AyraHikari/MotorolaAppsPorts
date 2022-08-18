@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categorytrack_width">58.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">200.0dip</dimen>
+    <dimen name="filter_iconview_top">12.0dip</dimen>
+    <dimen name="look_left">0.0px</dimen>
+    <dimen name="seektext_margin">-7.0dip</dimen>
+    <dimen name="videofilteritem_top">22.0dip</dimen>
+    <dimen name="slow_bar_space_height">25.0dip</dimen>
+</resources>

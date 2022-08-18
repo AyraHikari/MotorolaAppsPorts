@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">Lisävaihtoehdot</string>
+    <string name="back_button_label">Takaisin</string>
+    <string name="capital_off">OFF</string>
+    <string name="capital_on">ON</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">Valmis</string>
+    <string name="listview_x_title_items_selected">%1$s kohdetta</string>
+    <string name="listview_x_title_main">%1$s kohdetta valittu</string>
+    <string name="listview_x_title_no_item_selected">Valitse</string>
+    <string name="listview_x_title_one_item_selected">1 kohde</string>
+    <string name="listview_x_title_select_all">Valitse kaikki</string>
+    <string name="listview_x_title_unselect_all">Kumoa kaikkien valinta</string>
+    <string name="loading">Ladataan…</string>
+    <string name="next_button_label">Seuraava</string>
+    <string name="skip_button_label">Ohita</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Valmis</string>
+    <string name="time_picker_dialog_x_midnight">keskiyö</string>
+    <string name="time_picker_dialog_x_noon">keskipäivä</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

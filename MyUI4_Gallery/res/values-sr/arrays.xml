@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="datePickerXMonth">
+        <item>januar</item>
+        <item>februar</item>
+        <item>mart</item>
+        <item>april</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>juli</item>
+        <item>avgust</item>
+        <item>septembar</item>
+        <item>oktobar</item>
+        <item>novembar</item>
+        <item>decembar</item>
+    </string-array>
+    <string-array name="datePickerXWeek">
+        <item>ned.</item>
+        <item>pon.</item>
+        <item>uto.</item>
+        <item>sre.</item>
+        <item>čet.</item>
+        <item>pet.</item>
+        <item>sub.</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>nedelja</item>
+        <item>ponedeljak</item>
+        <item>utorak</item>
+        <item>sreda</item>
+        <item>četvrtak</item>
+        <item>petak</item>
+        <item>subota</item>
+    </string-array>
+</resources>

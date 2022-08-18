@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="1.0dip" />
+    <stroke android:width="2.0px" android:color="@color/dash_divider_zui" android:dashWidth="2.0px" android:dashGap="4.0px" />
+</shape>

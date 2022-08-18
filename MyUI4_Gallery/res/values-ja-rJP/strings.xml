@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">詳細オプション</string>
+    <string name="back_button_label">戻る</string>
+    <string name="capital_off">オフ</string>
+    <string name="capital_on">オン</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">終了</string>
+    <string name="listview_x_title_items_selected">%1$sアイテム</string>
+    <string name="listview_x_title_main">%1$s個のアイテムが選択されています</string>
+    <string name="listview_x_title_no_item_selected">選択</string>
+    <string name="listview_x_title_one_item_selected">1アイテム</string>
+    <string name="listview_x_title_select_all">すべて選択</string>
+    <string name="listview_x_title_unselect_all">すべての選択を解除</string>
+    <string name="loading">…を読み込んでいます</string>
+    <string name="next_button_label">次へ</string>
+    <string name="skip_button_label">スキップ</string>
+    <string name="time_picker_dialog_x_am">午前</string>
+    <string name="time_picker_dialog_x_complete">終了</string>
+    <string name="time_picker_dialog_x_midnight">真夜中</string>
+    <string name="time_picker_dialog_x_noon">正午</string>
+    <string name="time_picker_dialog_x_pm">午後</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

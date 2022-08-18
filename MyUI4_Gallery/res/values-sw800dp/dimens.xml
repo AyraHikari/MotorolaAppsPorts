@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categorytrack_width">70.0dip</dimen>
+    <dimen name="debug_left_space">0.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">590.0dip</dimen>
+    <dimen name="local_time_album_location_font_size_land">15.0sp</dimen>
+    <dimen name="look_left">10.0px</dimen>
+    <dimen name="seektext_margin">0.0dip</dimen>
+    <dimen name="trash_background_color_margin_right">80.0dip</dimen>
+    <dimen name="trash_count_margin_arraw">40.0dip</dimen>
+    <dimen name="trash_count_x">320.0dip</dimen>
+    <dimen name="trash_cover_height">48.0dip</dimen>
+    <dimen name="trash_item_duration_size">7.0sp</dimen>
+    <dimen name="trash_item_video_bottom">4.0dip</dimen>
+    <dimen name="trash_item_video_size">20.0dip</dimen>
+    <dimen name="trash_list_title_height">60.0dip</dimen>
+    <dimen name="trash_status_bar">56.0dip</dimen>
+    <dimen name="trash_title_image_left">30.0dip</dimen>
+    <dimen name="trash_item_interval">1.2999878dip</dimen>
+</resources>

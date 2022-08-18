@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_000_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_001_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_002_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_003_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_004_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_005_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_006_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_007_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_008_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_009_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_010_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_011_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_012_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_013_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_014_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_015_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_016_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_017_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_018_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_019_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_020_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_021_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_022_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_023_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_024_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_025_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_026_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_027_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_028_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_029_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_030_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_031_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_032_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_033_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_034_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_035_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_036_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_037_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_038_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_039_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_040_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_041_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_042_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_043_legion" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_044_legion" />
+</animation-list>

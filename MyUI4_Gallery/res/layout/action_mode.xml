@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_mode_title_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/selection_cancel_container" style="@style/TitleBarLeftContainerStyle">
+        <ImageView android:id="@id/selection_cancel" android:background="@drawable/action_back_backgound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cancel" android:layout_marginStart="@dimen/actionmode_marginstart_dimen" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_toStartOf="@id/selection_select_all_container" android:layout_toEndOf="@id/selection_cancel_container">
+        <TextView android:textSize="@dimen/actionmode_text_size" android:textColor="@color/actionmode_title_color" android:ellipsize="end" android:id="@id/selection_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/actionmode_selectall_text_marginend" style="@style/TabTitleTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/selection_select_all_container" style="@style/TitleBarRightContainerStyle">
+        <TextView android:textStyle="bold" android:textColor="@color/right_text_color" android:id="@id/selection_select_all" android:background="@drawable/action_back_backgound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_all" android:maxLines="1" android:layout_marginEnd="@dimen/actionmode_selectall_text_marginend" style="@style/ActionModeTextButtonStyle" />
+    </LinearLayout>
+    <View android:background="@color/tab_devider_color" android:layout_width="fill_parent" android:layout_height="@dimen/split_line_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

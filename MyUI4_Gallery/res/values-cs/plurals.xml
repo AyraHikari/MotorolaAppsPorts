@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Odstranit vybrané položky?</item>
+        <item quantity="one">Odstranit vybranou položku?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Prohledáno %1$d položek</item>
+        <item quantity="zero">Prohledáno %1$d položek</item>
+        <item quantity="one">Prohledána %1$d položka</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Vybráno %1$d položek</item>
+        <item quantity="zero">Vybráno %1$d položek</item>
+        <item quantity="one">Vybrána %1$d položka</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Probíhá zpřístupňování alb offline.</item>
+        <item quantity="one">Probíhá zpřístupňování alba offline.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Vybráno %1$d</item>
+        <item quantity="zero">Vybráno %1$d</item>
+        <item quantity="one">Vybráno %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Vybráno %1$d</item>
+        <item quantity="zero">Vybráno %1$d</item>
+        <item quantity="one">Vybráno %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Vybráno %1$d</item>
+        <item quantity="zero">Vybráno %1$d</item>
+        <item quantity="one">Vybráno %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d fotografií</item>
+        <item quantity="one">%1$d fotografie</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">„Vybráno %1$d fotografií“</item>
+        <item quantity="zero">„Vybráno %1$d fotografií“</item>
+        <item quantity="one">„Vybráno %1$d fotografií“</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+</resources>

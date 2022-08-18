@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+            <solid android:color="@color/trash_button_shape_color" />
+            <size android:width="140.0dip" />
+            <size android:height="40.0dip" />
+            <corners android:radius="28.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/selection_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/cancel" android:singleLine="true" android:layout_centerVertical="true" style="@style/TextButtonNormalStyle" />
+    <TextView android:id="@id/select_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_select" android:singleLine="true" android:layout_centerInParent="true" style="@style/TabTitleTextStyle" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/red" android:id="@id/selection_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/select_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/tab_devider_color" android:layout_width="fill_parent" android:layout_height="0.66700006dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

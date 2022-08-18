@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gallery_root" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/processing_layout_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/layout_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/gl_root_group" />
+        <FrameLayout android:id="@id/header" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_area_height" android:layout_alignParentTop="true">
+            <com.motorola.cn.gallery.selfwidget.RotateImageView android:layout_gravity="center|right" android:id="@id/rotationIcon" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="18.0dip" />
+            <FrameLayout android:id="@id/titlebar_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/actionmode_layout_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/overflow_layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="88.0dip" />
+        <com.motorola.cn.gallery.ui.TalkBackViewHelper android:id="@id/talkback_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" android:layout_below="@id/header" />
+        <ImageView android:id="@id/feature_open_tips" android:background="@drawable/intelligent_rotated_taost" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/header" android:layout_alignParentRight="true" />
+        <include layout="@layout/clout_sync_tip_layout" />
+        <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layout_alignParentBottom="true">
+            <FrameLayout android:id="@id/bottombar_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/actionmode_bottom_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.motorola.cn.gallery.ui.CustomScrollBarView android:id="@id/custom_scrollbar" android:background="@color/transparent" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_below="@id/header" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

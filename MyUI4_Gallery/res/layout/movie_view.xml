@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/movie_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.cn.gallery.app.SupportScaleVadeoView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/pic_preview_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/pic_preview_back" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/pic_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/player_title_bar" android:background="@android:color/black" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/move_playing_actionbar_height">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/right_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/player_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back_arrow" android:paddingStart="10.0dip" android:paddingEnd="12.0dip" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" android:layout_toEndOf="@id/player_back">
+                <TextView android:textSize="@dimen/movie_title_view_text_size" android:textColor="@color/movie_title_view_text_color" android:id="@id/player_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">Flere muligheder</string>
+    <string name="back_button_label">Tilbage</string>
+    <string name="capital_off">FRA</string>
+    <string name="capital_on">TIL</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">Udført</string>
+    <string name="listview_x_title_items_selected">%1$s elementer</string>
+    <string name="listview_x_title_main">%1$s elementer er valgt</string>
+    <string name="listview_x_title_no_item_selected">Vælg</string>
+    <string name="listview_x_title_one_item_selected">1 element</string>
+    <string name="listview_x_title_select_all">Vælg alle</string>
+    <string name="listview_x_title_unselect_all">Fravælg alle</string>
+    <string name="loading">Indlæser…</string>
+    <string name="next_button_label">Næste</string>
+    <string name="skip_button_label">Spring over</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Færdig</string>
+    <string name="time_picker_dialog_x_midnight">midnat</string>
+    <string name="time_picker_dialog_x_noon">middag</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

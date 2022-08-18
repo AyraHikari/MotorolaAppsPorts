@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_arrow_margin_left">3.0dip</dimen>
+    <dimen name="action_bar_arrow_margin_right">-3.0dip</dimen>
+    <dimen name="action_bar_icon_padding_left">0.0dip</dimen>
+    <dimen name="action_bar_icon_padding_right">5.0dip</dimen>
+    <dimen name="action_button_padding_horizontal">13.0dip</dimen>
+    <dimen name="effect_icon_size">72.0dip</dimen>
+    <dimen name="effect_label_margin_top">3.0dip</dimen>
+    <dimen name="effect_label_text_size">11.5sp</dimen>
+    <dimen name="effect_label_width">100.0dip</dimen>
+    <dimen name="effect_padding_horizontal">1.0dip</dimen>
+    <dimen name="effect_tool_panel_padding_bottom">8.0dip</dimen>
+    <dimen name="effect_tool_panel_padding_top">3.0dip</dimen>
+    <dimen name="effects_container_padding">8.0dip</dimen>
+    <dimen name="effects_menu_container_width">320.0dip</dimen>
+    <dimen name="seekbar_height">43.0dip</dimen>
+    <dimen name="seekbar_padding_horizontal">30.0dip</dimen>
+    <dimen name="seekbar_padding_vertical">8.0dip</dimen>
+    <dimen name="seekbar_width">350.0dip</dimen>
+</resources>

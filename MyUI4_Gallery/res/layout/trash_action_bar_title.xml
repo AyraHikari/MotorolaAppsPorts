@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_click" android:background="@drawable/ic_back_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/trash_title_image_left" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/trash_title_text_color" android:id="@id/delet_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_centerHorizontal="true" android:paddingVertical="@dimen/layout_margin_5" />
+</RelativeLayout>

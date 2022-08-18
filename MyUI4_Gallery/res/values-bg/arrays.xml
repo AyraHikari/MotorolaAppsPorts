@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="datePickerXMonth">
+        <item>Януари</item>
+        <item>Февруари</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Май</item>
+        <item>Юни</item>
+        <item>Юли</item>
+        <item>Август</item>
+        <item>Септември</item>
+        <item>Октомври</item>
+        <item>Ноември</item>
+        <item>Декември</item>
+    </string-array>
+    <string-array name="datePickerXWeek">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Четв</item>
+        <item>Пет</item>
+        <item>Съб</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>Неделя</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Сряда</item>
+        <item>Четвъртък</item>
+        <item>Петък</item>
+        <item>Събота</item>
+    </string-array>
+</resources>

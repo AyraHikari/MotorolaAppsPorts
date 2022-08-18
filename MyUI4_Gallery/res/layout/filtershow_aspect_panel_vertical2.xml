@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/aspect_panel_horizontal" android:background="@color/filtershow_categoryview_background" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_mirror_horizontal_imageview_id" android:background="@drawable/filtershow_mirror_horizontal_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_mirror_horizontal_textview_id" android:text="@string/mirror" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_rotation_horizontal_imageview_id" android:background="@drawable/filtershow_rotation_image_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_rotation_horizontal_textview_id" android:text="@string/filtershow_crop_original" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_original_horizontal_imageview_id" android:background="@drawable/filtershow_crop_image_vertical_original_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_original_horizontal_textview_id" android:text="@string/filtershow_crop_original" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_freedom_horizontal_imageview_id" android:background="@drawable/filtershow_crop_image_vertical_freedom_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_freedom_horizontal_textview_id" android:text="@string/filtershow_crop_freedom" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_1to1_horizontal_id" android:background="@drawable/filtershow_crop_image_1to1_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_1to1_horizontal_textview_id" android:text="@string/filtershow_crop_1to1" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_4to3_horizontal_id" android:background="@drawable/filtershow_crop_image_vertical_3to4_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_4to3_horizontal_textview_id" android:text="@string/filtershow_crop_4to3" style="@style/CropTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip">
+        <ImageView android:id="@id/aspect_16to9_horizontal_id" android:background="@drawable/filtershow_crop_image_horizontal_16to9_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" />
+        <TextView android:id="@id/aspect_16to9_horizontal_textview_id" android:text="@string/filtershow_crop_16to9" style="@style/CropTextStyle" />
+    </LinearLayout>
+</LinearLayout>

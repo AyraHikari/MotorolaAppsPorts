@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/trash_action_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/trash_status_bar" android:paddingStart="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/action_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/trash_title_image_left" android:src="@drawable/ic_multiselect" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/Widget.Gallery.ImageButton" />
+    <ImageView android:id="@id/image_click" android:background="@drawable/action_back_backgound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_arrow_back_24" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/trash_title_size" android:textColor="@color/trash_title_color" android:gravity="center|left" android:id="@id/deleteCount" android:layout_width="wrap_content" android:layout_height="@dimen/trash_status_bar" android:text="@string/trash_title" android:paddingStart="@dimen/trash_title_image_left" android:layout_toStartOf="@id/check_all" android:layout_toEndOf="@id/image_click" />
+    <TextView android:textSize="@dimen/actionmode_text_size_small" android:textStyle="bold" android:textColor="@color/trash_select_all" android:gravity="center" android:id="@id/check_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/trash_status_bar" android:layout_marginRight="20.0dip" android:text="@string/select_all" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <size android:width="44.0dip" />
+            <size android:height="44.0dip" />
+            <solid android:color="@color/add_to_bg_selected" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <size android:width="44.0dip" />
+            <size android:height="44.0dip" />
+            <solid android:color="@color/add_to_bg" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+</selector>

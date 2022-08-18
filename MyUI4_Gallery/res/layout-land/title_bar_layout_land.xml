@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_bar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_bar_left_container" style="@style/TitleBarLeftContainerStyle">
+        <ImageButton android:id="@id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="0.0dip" style="@style/Widget.Gallery.ImageButton" />
+        <TextView android:textColor="@color/top_bar_text_selector" android:id="@id/left_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextButtonNormalStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/title_bar_center_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="0.0dip" android:layout_marginEnd="60.0dip" android:layout_toStartOf="@id/title_bar_right_container" android:layout_toEndOf="@id/title_bar_left_container">
+        <TextView android:textSize="@dimen/title_main_text_size" android:ellipsize="marquee" android:gravity="start" android:id="@id/title_bar_center_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/TabTitleTextStyle" />
+        <TextView android:layout_gravity="start" android:id="@id/title_bar_center_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:maxLines="1" style="@style/TabSubTitleTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/title_bar_right_container" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" style="@style/TitleBarRightContainerStyle">
+        <ImageButton android:id="@id/right_switch_and_new_folder_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="26.0dip" android:layout_marginEnd="20.0dip" style="@style/Widget.Gallery.ImageButton" />
+        <ImageView android:id="@id/right_select_image" android:background="@drawable/ic_multiselect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="20.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layer_right_container" android:background="@drawable/action_back_backgound" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:id="@id/iv_cutout_icon" android:layout_width="@dimen/cutout_content_icon_size" android:layout_height="@dimen/cutout_content_icon_size" android:layout_margin="@dimen/layout_margin_5" android:src="@drawable/ic_mode_cutout" />
+            <TextView android:id="@id/tv_cutout_content" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_margin_5" android:text="@null" style="@style/TextUseMarqueeRepeatStyleTv" />
+        </LinearLayout>
+        <ImageButton android:id="@id/right_setting_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_setting" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Gallery.ImageButton" />
+        <TextView android:textColor="@color/right_text_color" android:id="@id/right_text" android:background="@drawable/action_back_backgound" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:maxLines="1" android:layout_marginStart="8.0dip" android:layout_marginEnd="14.0dip" style="@style/TextButtonNormalStyle" />
+        <TextView android:textSize="@dimen/video_trim_text_size" android:textColor="@color/top_bar_text_selector_white" android:id="@id/continue_done_text" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:maxLines="1" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/microvideo_bar_container" android:visibility="gone" style="@style/TitleBarRightContainerStyle">
+        <TextView android:textColor="@color/white" android:id="@id/micro_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextButtonNormalStyle" />
+        <com.motorola.cn.gallery.ui.microvideo.CustomCircleView android:id="@id/microPlayBtn" android:padding="@dimen/micro_video_icon_pading" android:layout_width="@dimen/albumset_empty_overlay_width" android:layout_height="@dimen/albumset_empty_overlay_width" android:src="@drawable/play" />
+    </LinearLayout>
+    <View android:background="@color/tab_devider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.66700006dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

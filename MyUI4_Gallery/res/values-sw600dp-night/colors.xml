@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_divider_zui">#1fe0e0f0</color>
+    <color name="keyboardviewx_bg_color">#ff212124</color>
+    <color name="keyboardviewx_capslock_press_bg_color">#ff060608</color>
+    <color name="keyboardviewx_confirm_key_text_normal_color">#ffcecedc</color>
+    <color name="keyboardviewx_confirm_key_text_press_color">#ffcecedc</color>
+    <color name="keyboardviewx_key_bg_dark_color">#ff2e2e31</color>
+    <color name="keyboardviewx_key_confirm_normal_bg_color">#ff2e2e31</color>
+    <color name="keyboardviewx_key_confirm_press_bg_color">#ff060608</color>
+    <color name="keyboardviewx_key_normal_bg_color">#ff505056</color>
+    <color name="keyboardviewx_key_press_bg_color">#ff868690</color>
+    <color name="keyboardviewx_key_press_bg_dark_color">#ff060608</color>
+    <color name="keyboardviewx_text_normal_color">#ffd1d1e0</color>
+    <color name="keyboardviewx_text_press_color">#ffd1d1e0</color>
+    <color name="listview_divider_zui">#29e0e0f0</color>
+</resources>

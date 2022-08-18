@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/primarySeekBar_fs" android:background="@color/filtershow_categoryview_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FilterShowSlider" />
+</LinearLayout>

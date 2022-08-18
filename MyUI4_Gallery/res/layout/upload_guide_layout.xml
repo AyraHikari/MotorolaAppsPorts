@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_area_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/weibo_guide_image_cancel" android:background="@drawable/wb_upload_cancel_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="158.0dip">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/weibo_guide_image_logo_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wb_upload_icon_background" />
+            <ImageView android:layout_gravity="center" android:id="@id/weibo_guide_image_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wb_upload_icon" />
+        </FrameLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:id="@id/weibo_guide_text" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:text="@string/wb_guide" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/weibo_guide_moto_logo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="82.0dip" android:src="@drawable/moto_logo" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/weibo_guide_next_View" android:background="@drawable/wb_guide_next_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layout_alignParentBottom="true">
+        <View android:background="@color/bottom_tab_devider_color" android:layout_width="fill_parent" android:layout_height="0.66700006dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:id="@id/weibo_guide_next_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wb_guide_confirm" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

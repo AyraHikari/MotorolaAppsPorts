@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="left" android:id="@id/controlName" android:layout_marginLeft="8.0dip" />
+    <TextView android:textStyle="bold" android:layout_gravity="right" android:id="@id/controlValue" android:layout_marginRight="8.0dip" />
+    <SeekBar android:layout_gravity="fill_horizontal" android:id="@id/controlValueSeekBar" android:layout_width="fill_parent" android:layout_column="0" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+</GridLayout>

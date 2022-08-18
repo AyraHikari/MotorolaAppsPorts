@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="vertical" android:background="@color/trash_list_title_color" android:layout_width="fill_parent" android:layout_height="@dimen/trash_list_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/trash_list_title_text_color" android:gravity="center_vertical" android:paddingTop="@dimen/trash_line_top_margin" android:paddingBottom="@dimen/trash_line_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trash_list_title" android:paddingStart="24.0dip" />
+    <View android:background="@color/trash_driver_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/albumset_slot_cover_gap" />
+</LinearLayout>

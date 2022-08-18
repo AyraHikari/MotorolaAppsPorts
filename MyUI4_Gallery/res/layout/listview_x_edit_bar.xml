@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/parentPanel" android:background="@color/title_background_zui" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <LinearLayout android:layout_gravity="start|center" android:id="@id/titlePanel" android:layout_width="wrap_content" android:layout_height="@dimen/action_bar_default_height_zui" android:layout_alignParentStart="true">
+            <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/listviewx_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_clear_zui" />
+            <TextView android:textSize="@dimen/listview_x_edit_title_text_size" android:textColor="@color/listview_x_edit_title_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/listviewx_edit_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/action_bar_title_margin_end_zui" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/listview_x_edit_title_option_text_size" android:textColor="@color/listview_x_edit_title_option_text_zui" android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/listviewx_select_all" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/listview_x_title_select_all" android:singleLine="true" android:layout_toEndOf="@id/titlePanel" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_control_play" android:maxLevel="1" />
+    <item android:drawable="@drawable/stop_chosen" android:maxLevel="2" />
+</level-list>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Изтриване на избраните елементи?</item>
+        <item quantity="one">Изтриване на избрания елемент?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Сканирани %1$d елемента</item>
+        <item quantity="zero">Сканирани %1$d елемента</item>
+        <item quantity="one">Сканиран %1$d елемент</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Избрани %1$d елемента</item>
+        <item quantity="zero">Избрани %1$d елемента</item>
+        <item quantity="one">Избран %1$d елемент</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Албумите ще са налични офлайн.</item>
+        <item quantity="one">Албумът ще е наличен офлайн.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d избрано/и</item>
+        <item quantity="zero">%1$d избрано/и</item>
+        <item quantity="one">%1$d избрано/и</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d избрано/и</item>
+        <item quantity="zero">%1$d избрано/и</item>
+        <item quantity="one">%1$d избрано/и</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d избрано/и</item>
+        <item quantity="zero">%1$d избрано/и</item>
+        <item quantity="one">%1$d избрано/и</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d снимки</item>
+        <item quantity="one">%1$d снимка</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">Избрана(и) %1$d снимка(и)</item>
+        <item quantity="zero">Избрана(и) %1$d снимка(и)</item>
+        <item quantity="one">Избрана(и) %1$d снимка(и)</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">1 секундa</item>
+    </plurals>
+</resources>

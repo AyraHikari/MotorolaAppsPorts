@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Izbrisati izabrane stavke?</item>
+        <item quantity="one">Izbrisati izabranu stavku?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Skenirano stavki: %1$d</item>
+        <item quantity="zero">Skenirano stavki: %1$d</item>
+        <item quantity="one">Skenirano stavki: %1$d</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Izabrano stavki: %1$d</item>
+        <item quantity="zero">Izabrano stavki: %1$d</item>
+        <item quantity="one">Izabrano stavki: %1$d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Omogućava se dostupnost albuma van mreže.</item>
+        <item quantity="one">Omogućava se dostupnost albuma van mreže.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Izabrano: %1$d</item>
+        <item quantity="zero">Izabrano: %1$d</item>
+        <item quantity="one">Izabrano: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Izabrano: %1$d</item>
+        <item quantity="zero">Izabrano: %1$d</item>
+        <item quantity="one">Izabrano: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Izabrano: %1$d</item>
+        <item quantity="zero">Izabrano: %1$d</item>
+        <item quantity="one">Izabrano: %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">Fotografija: %1$d</item>
+        <item quantity="one">Fotografija: %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">„Izabrano fotografija: %1$d“</item>
+        <item quantity="zero">„Izabrano fotografija: %1$d“</item>
+        <item quantity="one">„Izabrano fotografija: %1$d“</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">sekundi: %d</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+</resources>

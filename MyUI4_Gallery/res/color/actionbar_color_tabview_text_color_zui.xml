@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/primary_colorab_text_default_zui" />
+    <item android:color="@color/primary_colorab_text_default_zui" />
+</selector>

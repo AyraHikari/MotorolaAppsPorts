@@ -1,0 +1,261 @@
+.class public final Lg/i0/p/c/k0/m/k0;
+.super Lg/i0/p/c/k0/m/n;
+.source ""
+
+# interfaces
+.implements Lg/i0/p/c/k0/m/e1;
+
+
+# instance fields
+.field private final f:Lg/i0/p/c/k0/m/i0;
+
+.field private final g:Lg/i0/p/c/k0/m/b0;
+
+
+# direct methods
+.method public constructor <init>(Lg/i0/p/c/k0/m/i0;Lg/i0/p/c/k0/m/b0;)V
+    .locals 1
+
+    const-string v0, "delegate"
+
+    invoke-static {p1, v0}, Lg/f0/d/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "enhancement"
+
+    invoke-static {p2, v0}, Lg/f0/d/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lg/i0/p/c/k0/m/n;-><init>()V
+
+    iput-object p1, p0, Lg/i0/p/c/k0/m/k0;->f:Lg/i0/p/c/k0/m/i0;
+
+    iput-object p2, p0, Lg/i0/p/c/k0/m/k0;->g:Lg/i0/p/c/k0/m/b0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public I0()Lg/i0/p/c/k0/m/h1;
+    .locals 1
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->f1()Lg/i0/p/c/k0/m/i0;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic Y0(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/b0;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->i1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/k0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public a0()Lg/i0/p/c/k0/m/b0;
+    .locals 1
+
+    iget-object v0, p0, Lg/i0/p/c/k0/m/k0;->g:Lg/i0/p/c/k0/m/b0;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic a1(Z)Lg/i0/p/c/k0/m/h1;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->d1(Z)Lg/i0/p/c/k0/m/i0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic b1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/h1;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->i1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/k0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic c1(Lg/i0/p/c/k0/b/c1/g;)Lg/i0/p/c/k0/m/h1;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->e1(Lg/i0/p/c/k0/b/c1/g;)Lg/i0/p/c/k0/m/i0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public d1(Z)Lg/i0/p/c/k0/m/i0;
+    .locals 2
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->I0()Lg/i0/p/c/k0/m/h1;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lg/i0/p/c/k0/m/h1;->a1(Z)Lg/i0/p/c/k0/m/h1;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->a0()Lg/i0/p/c/k0/m/b0;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lg/i0/p/c/k0/m/b0;->Z0()Lg/i0/p/c/k0/m/h1;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p1}, Lg/i0/p/c/k0/m/h1;->a1(Z)Lg/i0/p/c/k0/m/h1;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lg/i0/p/c/k0/m/f1;->d(Lg/i0/p/c/k0/m/h1;Lg/i0/p/c/k0/m/b0;)Lg/i0/p/c/k0/m/h1;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    check-cast p1, Lg/i0/p/c/k0/m/i0;
+
+    return-object p1
+
+    :cond_0
+    new-instance p1, Lg/u;
+
+    const-string v0, "null cannot be cast to non-null type org.jetbrains.kotlin.types.SimpleType"
+
+    invoke-direct {p1, v0}, Lg/u;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public e1(Lg/i0/p/c/k0/b/c1/g;)Lg/i0/p/c/k0/m/i0;
+    .locals 1
+
+    const-string v0, "newAnnotations"
+
+    invoke-static {p1, v0}, Lg/f0/d/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->I0()Lg/i0/p/c/k0/m/h1;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lg/i0/p/c/k0/m/h1;->c1(Lg/i0/p/c/k0/b/c1/g;)Lg/i0/p/c/k0/m/h1;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->a0()Lg/i0/p/c/k0/m/b0;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lg/i0/p/c/k0/m/f1;->d(Lg/i0/p/c/k0/m/h1;Lg/i0/p/c/k0/m/b0;)Lg/i0/p/c/k0/m/h1;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    check-cast p1, Lg/i0/p/c/k0/m/i0;
+
+    return-object p1
+
+    :cond_0
+    new-instance p1, Lg/u;
+
+    const-string v0, "null cannot be cast to non-null type org.jetbrains.kotlin.types.SimpleType"
+
+    invoke-direct {p1, v0}, Lg/u;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected f1()Lg/i0/p/c/k0/m/i0;
+    .locals 1
+
+    iget-object v0, p0, Lg/i0/p/c/k0/m/k0;->f:Lg/i0/p/c/k0/m/i0;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic g1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/i0;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->i1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/k0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic h1(Lg/i0/p/c/k0/m/i0;)Lg/i0/p/c/k0/m/n;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lg/i0/p/c/k0/m/k0;->j1(Lg/i0/p/c/k0/m/i0;)Lg/i0/p/c/k0/m/k0;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public i1(Lg/i0/p/c/k0/m/k1/i;)Lg/i0/p/c/k0/m/k0;
+    .locals 3
+
+    const-string v0, "kotlinTypeRefiner"
+
+    invoke-static {p1, v0}, Lg/f0/d/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lg/i0/p/c/k0/m/k0;
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->f1()Lg/i0/p/c/k0/m/i0;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Lg/i0/p/c/k0/m/k1/i;->g(Lg/i0/p/c/k0/m/b0;)Lg/i0/p/c/k0/m/b0;
+
+    if-eqz v1, :cond_0
+
+    check-cast v1, Lg/i0/p/c/k0/m/i0;
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->a0()Lg/i0/p/c/k0/m/b0;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v2}, Lg/i0/p/c/k0/m/k1/i;->g(Lg/i0/p/c/k0/m/b0;)Lg/i0/p/c/k0/m/b0;
+
+    invoke-direct {v0, v1, v2}, Lg/i0/p/c/k0/m/k0;-><init>(Lg/i0/p/c/k0/m/i0;Lg/i0/p/c/k0/m/b0;)V
+
+    return-object v0
+
+    :cond_0
+    new-instance p1, Lg/u;
+
+    const-string v0, "null cannot be cast to non-null type org.jetbrains.kotlin.types.SimpleType"
+
+    invoke-direct {p1, v0}, Lg/u;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public j1(Lg/i0/p/c/k0/m/i0;)Lg/i0/p/c/k0/m/k0;
+    .locals 2
+
+    const-string v0, "delegate"
+
+    invoke-static {p1, v0}, Lg/f0/d/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lg/i0/p/c/k0/m/k0;
+
+    invoke-virtual {p0}, Lg/i0/p/c/k0/m/k0;->a0()Lg/i0/p/c/k0/m/b0;
+
+    move-result-object v1
+
+    invoke-direct {v0, p1, v1}, Lg/i0/p/c/k0/m/k0;-><init>(Lg/i0/p/c/k0/m/i0;Lg/i0/p/c/k0/m/b0;)V
+
+    return-object v0
+.end method

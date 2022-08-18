@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/preview_main_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.motorola.cn.gallery.trash.TrashDetailViewPager android:id="@id/preview_viewpager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/photopage_head_bg" android:layout_width="fill_parent" android:layout_height="@dimen/trash_title_area_height" android:layout_alignParentTop="true" />
+    <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/trash_action_bar_title" />
+    <include android:id="@id/trash_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/trash_bottom_height" android:layout_marginBottom="43.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/trash_bottom_bar_left_right_marin" android:layout_marginEnd="@dimen/trash_bottom_bar_left_right_marin" layout="@layout/trash_bottom_bar" />
+</RelativeLayout>

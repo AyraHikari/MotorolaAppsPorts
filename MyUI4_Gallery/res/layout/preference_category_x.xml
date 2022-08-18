@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/preference_category_x_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_category_x_upper_text_size" android:textColor="@color/preference_category_x_upper_text" android:ellipsize="end" android:gravity="start|center|top" android:id="@android:id/summary" android:paddingTop="0.0dip" android:paddingBottom="@dimen/preference_summary_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/preference_category_x_lower_text_size" android:textColor="@color/preference_category_x_lower_text" android:gravity="start|center|top" android:id="@android:id/title" android:paddingTop="@dimen/preference_category_text_padding_zui" android:paddingBottom="@dimen/preference_category_text_padding_zui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <View android:id="@id/titleDivider" android:background="@drawable/dash_divider_preference" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_marginTop="30.0dip" android:layerType="software" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@drawable/dash_divider_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layerType="software" />
+</LinearLayout>

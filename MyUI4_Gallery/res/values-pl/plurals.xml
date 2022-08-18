@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Usunąć wybrane elementy?</item>
+        <item quantity="one">Usunąć wybraną pozycję?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">Liczba zeskanowanych elementów: %1$d</item>
+        <item quantity="zero">Liczba zeskanowanych elementów: %1$d</item>
+        <item quantity="one">Zeskanowano %1$d element</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">Liczba wybranych elementów: %1$d</item>
+        <item quantity="zero">Liczba wybranych elementów: %1$d</item>
+        <item quantity="one">Wybrano %1$d element</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Udostępnianie albumów offline.</item>
+        <item quantity="one">Udostępnianie albumu offline.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Wybrano %1$d</item>
+        <item quantity="zero">Wybrano %1$d</item>
+        <item quantity="one">Wybrano %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Wybrano %1$d</item>
+        <item quantity="zero">Wybrano %1$d</item>
+        <item quantity="one">Wybrano %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Wybrano %1$d</item>
+        <item quantity="zero">Wybrano %1$d</item>
+        <item quantity="one">Wybrano %1$d</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">Liczba zdjęć: %1$d</item>
+        <item quantity="one">%1$d zdjęcie</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">Liczba wybranych zdjęć: %1$d</item>
+        <item quantity="zero">Liczba wybranych zdjęć: %1$d</item>
+        <item quantity="one">Liczba wybranych zdjęć: %1$d</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/keyboardviewx_key_press_bg_color" />
+            <corners android:radius="@dimen/keyboardviewx_rectangle_radius_corner_land" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/keyboardviewx_key_normal_bg_color" />
+            <corners android:radius="@dimen/keyboardviewx_rectangle_radius_corner_land" />
+        </shape>
+    </item>
+</selector>

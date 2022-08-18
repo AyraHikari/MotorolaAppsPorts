@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="datePickerXMonth">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်လ</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </string-array>
+    <string-array name="datePickerXWeek">
+        <item>တနင်္ဂနွေ</item>
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>တနင်္ဂနွေ</item>
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+    </string-array>
+</resources>

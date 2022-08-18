@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/trash_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" layout="@layout/trash_action_bar" />
+    <include android:id="@id/trash_action_bar_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/trash_title_image_left" android:layout_below="@id/trash_action_bar" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" layout="@layout/trash_list_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/trash_bottom_bar" android:layout_below="@id/trash_action_bar_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+    <include android:id="@id/trash_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/trash_bottom_height" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" layout="@layout/trash_bottom_bar" />
+    <include android:visibility="gone" layout="@layout/trash_not_photo" />
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alphabetic_index_bar_horizontal_values">
+        <item>A</item>
+        <item>•</item>
+        <item>D</item>
+        <item>•</item>
+        <item>G</item>
+        <item>•</item>
+        <item>J</item>
+        <item>•</item>
+        <item>M</item>
+        <item>•</item>
+        <item>P</item>
+        <item>•</item>
+        <item>S</item>
+        <item>•</item>
+        <item>V</item>
+        <item>•</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabetic_index_bar_values">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="datePickerXMonth">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="datePickerXWeek">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <array name="filtershow_effect_editor">
+        <item>@drawable/filtershow_effect_wbalance_svg</item>
+        <item>@drawable/filtershow_effect_exposure_svg</item>
+        <item>@drawable/filtershow_effect_contrast_svg</item>
+        <item>@drawable/filtershow_effect_shadow_svg</item>
+        <item>@drawable/filtershow_effect_highlight_svg</item>
+        <item>@drawable/filtershow_effect_vibrance_svg</item>
+        <item>@drawable/filtershow_effect_curves_svg</item>
+    </array>
+    <array name="filtershow_effect_editor_selected">
+        <item>@drawable/filtershow_effect_wbalance_selected_svg</item>
+        <item>@drawable/filtershow_effect_exposure_selected_svg</item>
+        <item>@drawable/filtershow_effect_contrast_selected_svg</item>
+        <item>@drawable/filtershow_effect_shadow_selected_svg</item>
+        <item>@drawable/filtershow_effect_highlight_selected_svg</item>
+        <item>@drawable/filtershow_effect_vibrance_selected_svg</item>
+        <item>@drawable/filtershow_effect_curves_selected_svg</item>
+    </array>
+    <string-array name="motorola_special_type">
+        <item>com.motorola.camera.SpecialType.Depth</item>
+        <item>com.motorola.camera.SpecialType.Image360Type</item>
+        <item>com.motorola.camera.SpecialType.Video360Type</item>
+    </string-array>
+    <string-array name="select_move_ways">
+        <item>Move</item>
+        <item>Copy</item>
+    </string-array>
+    <string-array name="video_edit_save_menu">
+        <item>@string/save_and_cover</item>
+        <item>@string/save_as_new</item>
+    </string-array>
+    <string-array name="video_filtername">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>BW Classic</item>
+        <item>BW Vivid</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

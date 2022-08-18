@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categorytrack_width">58.0dip</dimen>
+    <dimen name="debug_left_space">40.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">200.0dip</dimen>
+    <dimen name="look_left">0.0px</dimen>
+    <dimen name="seektext_margin">-7.0dip</dimen>
+    <dimen name="trash_background_color_margin_right">100.0dip</dimen>
+    <dimen name="trash_count_x">720.0dip</dimen>
+    <dimen name="trash_cover_height">92.0dip</dimen>
+    <dimen name="trash_status_bar">52.0dip</dimen>
+    <dimen name="controller_space_height">120.0dip</dimen>
+</resources>

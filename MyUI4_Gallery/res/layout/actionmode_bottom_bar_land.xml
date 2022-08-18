@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottom_actionmode_bar" android:background="@color/action_mode_bottom_bar_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/share_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_share" android:background="@drawable/add_to_shape" android:layout_width="@dimen/add_to_button_length" android:layout_height="@dimen/add_to_button_length" android:src="@drawable/bottom_share_selection" android:scaleType="centerInside" android:text="@string/share" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/actionmode_text_size_small" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_add_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/albumset_add_icon" android:text="@string/album_add_to_folder" android:layout_marginStart="130.32999dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_marginStart="130.32999dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/delete_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/delete_layout_margin">
+            <ImageView android:id="@id/btn_delete" android:background="@drawable/add_to_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_delete_selection" android:scaleType="centerInside" android:text="@string/delete" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_remove" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_remove_from_more" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_img_remove" android:background="@drawable/add_to_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_delete_selection" android:scaleType="centerInside" />
+            <ImageView android:id="@id/btn_delete_anim_02" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_bottom_delete_02" android:layout_alignBottom="@id/btn_delete" />
+            <ImageView android:id="@id/btn_delete_anim_01" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_bottom_delete_01" android:layout_above="@id/btn_delete_anim_02" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/tab_text_selector" android:gravity="center" android:id="@id/txt_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

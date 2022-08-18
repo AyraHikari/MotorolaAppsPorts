@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <GridLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2" android:columnOrderPreserved="false" android:useDefaultMargins="true" android:alignmentMode="alignBounds">
+            <TextView android:textStyle="bold" android:layout_gravity="center|left" android:visibility="gone" android:layout_marginLeft="8.0dip" android:text="@string/vignette_exposure" />
+            <TextView android:layout_gravity="center|right" android:id="@id/exposureValue" android:visibility="gone" android:layout_marginRight="16.0dip" />
+            <SeekBar android:id="@id/exposureSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+            <TextView android:textStyle="bold" android:layout_gravity="center|left" android:layout_marginLeft="8.0dip" android:text="@string/vignette_saturation" />
+            <TextView android:layout_gravity="center|right" android:id="@id/saturationValue" android:layout_marginRight="16.0dip" />
+            <SeekBar android:id="@id/saturationSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+            <TextView android:textStyle="bold" android:layout_gravity="center|left" android:layout_marginLeft="8.0dip" android:text="@string/vignette_contrast" />
+            <TextView android:layout_gravity="center|right" android:id="@id/contrastValue" android:layout_marginRight="16.0dip" />
+            <SeekBar android:id="@id/contrastSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+            <TextView android:textStyle="bold" android:layout_gravity="center|left" android:layout_marginLeft="8.0dip" android:text="@string/vignette_falloff" />
+            <TextView android:layout_gravity="center|right" android:id="@id/falloffValue" android:layout_marginRight="16.0dip" />
+            <SeekBar android:id="@id/falloffSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+        </GridLayout>
+    </ScrollView>
+    <GridLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="128.0dip" android:layout_weight="1.0" android:columnCount="2" android:columnOrderPreserved="false" android:useDefaultMargins="true" android:alignmentMode="alignBounds">
+        <TextView android:layout_gravity="center|left" android:layout_marginLeft="8.0dip" android:text="@string/vignette_main" />
+        <TextView android:layout_gravity="center|right" android:id="@id/mainVignetteValue" android:layout_marginRight="16.0dip" />
+        <SeekBar android:id="@id/mainVignetteSeekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="2" style="@style/FilterShowSlider" />
+    </GridLayout>
+</LinearLayout>

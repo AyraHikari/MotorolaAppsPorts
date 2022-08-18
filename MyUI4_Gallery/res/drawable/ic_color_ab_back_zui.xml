@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/ic_color_home_back_pressed_zui" android:insetLeft="16.0dip" android:insetRight="0.0dip" />
+    </item>
+    <item>
+        <inset android:drawable="@drawable/ic_color_home_back_normal_zui" android:insetLeft="16.0dip" android:insetRight="0.0dip" />
+    </item>
+</selector>

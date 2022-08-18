@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerVertical" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="7.0dip" android:text="@string/select_output_settings" />
+    <GridLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="5" android:columnOrderPreserved="false" android:useDefaultMargins="true" android:alignmentMode="alignBounds">
+        <TextView android:layout_gravity="start|center" android:layout_marginLeft="8.0dip" android:text="@string/size" />
+        <EditText android:layout_gravity="center|right" android:id="@id/editableWidth" android:layout_width="100.0dip" android:inputType="number" />
+        <TextView android:layout_gravity="center" android:text="@string/x" />
+        <EditText android:layout_gravity="center|left" android:id="@id/editableHeight" android:layout_width="100.0dip" android:inputType="number" />
+        <TextView android:layout_gravity="end|center" android:id="@id/estimadedSize" android:layout_marginRight="8.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_columnSpan="5">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="@string/quality" />
+            <SeekBar android:layout_gravity="center" android:id="@id/qualitySeekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:max="100" android:progress="100" android:minWidth="250.0dip" android:layout_weight="1.0" android:layout_columnSpan="3" />
+            <TextView android:layout_gravity="end|center" android:id="@id/qualityTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        </LinearLayout>
+    </GridLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" style="?android:buttonBarStyle">
+        <Button android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/done" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/done" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

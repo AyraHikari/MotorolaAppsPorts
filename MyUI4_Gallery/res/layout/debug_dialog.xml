@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <zui.widget.SeekBar android:id="@id/debug_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/debug_ratio_value_color" android:gravity="center" android:id="@id/tv_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">ตัวเลือกเพิ่มเติม</string>
+    <string name="back_button_label">ย้อนกลับ</string>
+    <string name="capital_off">ปิด</string>
+    <string name="capital_on">เปิด</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">เสร็จสิ้น</string>
+    <string name="listview_x_title_items_selected">%1$s รายการ</string>
+    <string name="listview_x_title_main">เลือกไว้ %1$s รายการ</string>
+    <string name="listview_x_title_no_item_selected">เลือก</string>
+    <string name="listview_x_title_one_item_selected">1 รายการ</string>
+    <string name="listview_x_title_select_all">เลือกทั้งหมด</string>
+    <string name="listview_x_title_unselect_all">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="loading">กำลังโหลด…</string>
+    <string name="next_button_label">ถัดไป</string>
+    <string name="skip_button_label">ข้าม</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">เสร็จแล้ว</string>
+    <string name="time_picker_dialog_x_midnight">เที่ยงคืน</string>
+    <string name="time_picker_dialog_x_noon">เที่ยงวัน</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

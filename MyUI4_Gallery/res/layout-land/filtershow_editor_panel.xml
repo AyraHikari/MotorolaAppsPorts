@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/controlArea" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/primarySeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FilterShowSlider" />
+        </LinearLayout>
+        <include layout="@layout/filtershow_image_curves_editor_layout" /> android:id="@+id/crop_mirror_draw_mosaic_edit" <FrameLayout android:id="@id/state_child_panel_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/editor_panel_bottombar" android:background="@color/filtershow_mainpanel_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <ImageButton android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center|top" android:id="@id/cancelFilter" android:background="@android:color/transparent" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="28.0dip" android:src="@drawable/ic_menu_cancel" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffafafa" android:gravity="center" android:layout_gravity="center" android:id="@id/edit_title" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/crop" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/crop_mirror_draw_mosaic_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_horizontal" android:id="@id/crop_image_LinearLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="69.0dip">
+                    <ImageView android:id="@id/crop_image_editor" android:background="@drawable/filtershow_crop_image_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/rotation_Image_LinearLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="38.0dip">
+                    <ImageView android:id="@id/rotation_Image_editor" android:background="@drawable/filtershow_rotation_image_selector" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                </LinearLayout>
+                <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/draw_mosaic_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:gravity="center" android:id="@id/mosaic_edit" android:background="@drawable/filtershow_mosac_edit_image_selector" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:button="@null" android:layout_weight="0.1" android:layout_marginStart="69.0dip" />
+                    <RadioButton android:gravity="center_vertical" android:id="@id/draw_edit" android:background="@drawable/filtershow_draw_image_selector" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:button="@null" android:layout_weight="0.1" android:layout_marginStart="38.0dip" />
+                </RadioGroup>
+            </LinearLayout>
+            <ImageView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/filtershow_vertical_bar" />
+            <LinearLayout android:orientation="vertical" android:id="@id/panelAccessoryViewList" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.motorola.cn.gallery.filtershow.editors.SwapButton android:textSize="18.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/applyEffect" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/apply_effect" android:textAllCaps="true" android:drawableEnd="@drawable/filtershow_menu_marker_rtl" />
+            </LinearLayout>
+            <ImageView android:visibility="gone" android:layout_width="2.0dip" android:layout_height="fill_parent" android:src="@drawable/filtershow_vertical_bar" />
+            <ImageButton android:textSize="18.0dip" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/applyFilter" android:background="@android:color/transparent" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="28.0dip" android:src="@drawable/ic_menu_done" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/state_panel_container_high" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

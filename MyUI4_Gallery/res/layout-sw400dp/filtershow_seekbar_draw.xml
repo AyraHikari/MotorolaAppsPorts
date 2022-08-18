@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/top" android:background="@color/filtershow_categoryview_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/color_Layout_seekbar" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="5.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/color_btn_seekbar" android:background="@drawable/filtershow_color_chose" android:layout_width="fill_parent" android:layout_height="@dimen/mainpanel_icon_size" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/filtershow_textselector" android:gravity="center" android:id="@id/color_text_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/draw_color" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/pen_Layout_draw" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="11.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/mosaic_btn" android:background="@drawable/filtershow_mosac_setpen_selector" android:layout_width="fill_parent" android:layout_height="@dimen/mainpanel_icon_size" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/filtershow_textselector" android:gravity="center" android:id="@id/pen_text_draw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/mosaic_pen_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/seekbar_Layout_draw" android:visibility="gone" android:layout_width="@dimen/draw_seek_bar_slider_width" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginStart="14.0dip">
+        <com.motorola.cn.gallery.filtershow.controller.DrawSeekBarImage android:layout_gravity="center" android:id="@id/primarySeekBar_draw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/erasea_Layout_draw" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="14.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/eraser_btn_draw" android:background="@drawable/filtershow_mosac_eraser_selector" android:layout_width="fill_parent" android:layout_height="@dimen/mainpanel_icon_size" />
+        <TextView android:textSize="9.0sp" android:textColor="@drawable/filtershow_textselector" android:gravity="center" android:id="@id/eraser_text_draw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/mosaic_eraser_text" />
+    </LinearLayout>
+</LinearLayout>

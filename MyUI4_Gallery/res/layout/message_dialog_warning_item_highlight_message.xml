@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/message_dialog_paired_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="?android:subtitleTextColor" android:gravity="start|center|top" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textColor="?android:titleTextColor" android:ellipsize="end" android:gravity="start|center|top" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxLines="3" />
+</LinearLayout>

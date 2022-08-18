@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/keyboard_white_space_height_size" android:width="@dimen/keyboard_white_space_width_size" android:viewportWidth="300.0" android:viewportHeight="84.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/keyboard_white_space_big" android:pathData="M 40.5 53.5 L 40.5 67.3 L 260.5 67.3 L 260.5 53.5 L 265.5 53.5 L 265.5 72.3 L 35.5 72.3 L 35.5 53.5 Z" />
+</vector>

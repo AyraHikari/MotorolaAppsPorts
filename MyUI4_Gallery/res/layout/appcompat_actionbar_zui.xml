@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zui.appcompat.widget.ZuiAppcompatToolbar android:id="@id/toolbar" android:background="@drawable/actionbar_background_zui" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:elevation="0.0dip" style="?android:toolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

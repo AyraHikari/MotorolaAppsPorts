@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@*android:id/header_text_secondary_divider" android:background="?android:windowBackground" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preferences_left_pane_weight" style="@*android:style/PreferenceHeaderPanel.Material">
+            <zui.widget.ListViewX android:listPreferredItemHeight="48.0dip" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_weight="1.0" android:category="normal" style="@style/PreferenceHeaderList.Zui" />
+            <FrameLayout android:id="@*android:id/listMode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@*android:id/prefs" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="@integer/preferences_right_pane_weight" style="?preferencePanelStyle">
+            <include layout="@*android:layout/breadcrumbs_in_fragment_material" />
+            <android.preference.PreferenceFrameLayout android:id="@*android:id/pre23" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@*android:id/button_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:id="@*android:id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/back_button_label" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <Button android:id="@*android:id/singleTop" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/skip_button_label" />
+            <Button android:id="@*android:id/next" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/next_button_label" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

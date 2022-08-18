@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.motorola.cn.gallery" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <permission android:name="com.motorola.cn.gallery.permission.WRITE_GALLERY_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.motorola.cn.gallery.permission.READ_GALLERY_DATA" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.lenovo.leos.cloud.sync.ALBUM_PERMISSION"/>
+    <uses-permission android:name="com.zui.cloudservice.ALBUM_PERMISSION"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="com.zui.safecenter.permission.READ_LESAFE_DATA"/>
+    <uses-permission android:name="com.zui.safecenter.permission.WRITE_LESAFE_DATA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="com.zui.xlog.service"/>
+    <uses-permission android:name="android.permission.GAT_TASKS"/>
+    <uses-permission android:name="com.motorola.cn.gallery.permission.WRITE_GALLERY_DATA"/>
+    <uses-permission android:name="com.motorola.cn.gallery.permission.READ_GALLERY_DATA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.lenovo.leos.cloud.sync.OPTION_QUERY"/>
+    <uses-permission android:name="com.zui.cloudservice.OPTION_QUERY"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <meta-data android:name="com.motorola.allow_activities_on_small_external_display" android:value="false"/>
+    <queries>
+        <package android:name="com.motorola.camera3"/>
+        <package android:name="com.zui.safecenter"/>
+    </queries>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:largeHeap="true" android:name="com.motorola.cn.gallery.app.GalleryAppImpl" android:requestLegacyExternalStorage="true" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/Theme.Gallery">
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:name="com.motorola.cn.gallery.app.GalleryActivity" android:resizeableActivity="true" android:screenOrientation="sensor" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_GALLERY"/>
+                <category android:name="com.zui.launcher.intent.category.ZUI_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="zui.launcher.key" android:value="zuigallery"/>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/bmp"/>
+                <data android:mimeType="image/jpeg"/>
+                <data android:mimeType="image/gif"/>
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/webp"/>
+                <data android:mimeType="image/x-ms-bmp"/>
+                <data android:mimeType="image/vnd.wap.wbmp"/>
+                <data android:mimeType="application/vnd.google.panorama360+jpg"/>
+                <data android:mimeType="image/x-adobe-dng"/>
+                <data android:mimeType="image/x-canon-cr2"/>
+                <data android:mimeType="image/x-nikon-nef"/>
+                <data android:mimeType="image/x-nikon-nrw"/>
+                <data android:mimeType="image/x-sony-arw"/>
+                <data android:mimeType="image/x-panasonic-rw2"/>
+                <data android:mimeType="image/x-olympus-orf"/>
+                <data android:mimeType="image/x-fuji-raf"/>
+                <data android:mimeType="image/x-pentax-pef"/>
+                <data android:mimeType="image/x-samsung-srw"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:name="com.cooliris.media.Gallery" android:resizeableActivity="true" android:targetActivity="com.motorola.cn.gallery.app.GalleryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@drawable/gallery_video_icn" android:label="@string/movie_view_label" android:name="com.motorola.cn.gallery.app.MovieActivity" android:resizeableActivity="true" android:screenOrientation="behind" android:theme="@style/Theme.Gallery.Movie">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.motorola.cn.gallery.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ftp"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.VOB"/>
+                <data android:pathPattern=".*\\.vob"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.motorola.cn.gallery.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="audio/mpegurl"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/x-mpegurl"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.motorola.cn.gallery" android:grantUriPermissions="true" android:name="com.motorola.cn.gallery.filtershow.provider.SharedImageProvider" android:readPermission="com.motorola.cn.gallery.filtershow.permission.READ" android:writePermission="com.motorola.cn.gallery.filtershow.permission.WRITE"/>
+        <provider android:authorities="com.motorola.cn.gallery.provider.galleryprovider" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:name="com.motorola.cn.gallery.provider.GalleryProvider"/>
+        <service android:name="com.motorola.cn.gallery.filtershow.pipeline.ProcessingService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/title_activity_filter_show" android:name="com.motorola.cn.gallery.filtershow.FilterShowActivity" android:resizeableActivity="true" android:taskAffinity="com.motorola.cn.gallery.filtershow.FilterShowActivity" android:theme="@style/Theme.FilterShow">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="screenshot_launcher_edit"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:name="com.motorola.cn.gallery.ui.mosaic.MosaicActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.motorola.cn.gallery.app.gif.GifPlayerActivity" android:screenOrientation="behind" android:theme="@style/Theme.Gallery.Gif"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/crop" android:name="com.motorola.cn.gallery.filtershow.crop.CropActivity" android:resizeableActivity="true" android:theme="@style/Theme.Crop">
+            <intent-filter android:label="@string/crop_label">
+                <action android:name="com.android.camera.action.CROP"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.motorola.cn.gallery.app.NormalVideoTrimActivity" android:theme="@style/Theme.Gallery.VideoEdit"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.motorola.cn.gallery.app.SingleMovieActivity" android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"/>
+        <activity android:name="com.motorola.cn.gallery.app.PermissionsActivity" android:resizeableActivity="true" android:theme="@style/Theme.FilterShow"/>
+        <activity android:name="com.motorola.cn.gallery.cloud.CloudSettingActivity" android:resizeableActivity="true" android:screenOrientation="behind" android:theme="@style/CloudSettingActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.motorola.cn.gallery.trash.LenovoTrashListActivity" android:resizeableActivity="false" android:theme="@style/TrashListActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.motorola.cn.gallery.trash.LenovoTrashDetailActivity" android:resizeableActivity="false" android:theme="@style/TrashDetailActivityStyle"/>
+        <activity android:name="com.motorola.cn.gallery.trash.LenovoTrashContinousListActivity" android:resizeableActivity="true" android:theme="@style/TrashDetailActivityStyle"/>
+        <activity android:name="com.motorola.cn.gallery.cloud.DebugActivity" android:resizeableActivity="true" android:theme="@style/CloudSettingActivityStyle"/>
+        <activity android:name="com.motorola.cn.gallery.cloud.HiddenAlbumSettingActivity" android:resizeableActivity="true" android:theme="@style/CloudSettingActivityStyle"/>
+        <activity android:name="com.motorola.cn.gallery.cloud.SettingActivity" android:resizeableActivity="true" android:theme="@style/CloudSettingActivityStyle"/>
+        <service android:exported="false" android:name="com.motorola.cn.gallery.app.BatchService"/>
+        <provider android:authorities="com.motorola.cn.gallery.provider" android:exported="true" android:name="com.motorola.cn.gallery.database.GalleryProvider2" android:readPermission="com.motorola.cn.gallery.permission.READ_GALLERY_DATA" android:writePermission="com.motorola.cn.gallery.permission.WRITE_GALLERY_DATA"/>
+        <service android:exported="false" android:name="com.motorola.cn.gallery.app.service.GalleryPreLoadService">
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.service.start"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.service.stop"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.service.task"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.motorola.cn.gallery.app.service.GalleryBootReceiver">
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.app.service.GalleryBootReceiverd.hardware.action.NEW_PICTURE"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.motorola.cn.gallery.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <receiver android:exported="true" android:name="com.motorola.cn.gallery.app.CameraShotNewPictureReceiver" android:permission="com.motorola.cn.gallery.permission.READ_GALLERY_DATA">
+            <intent-filter>
+                <action android:name="com.motorola.cn.gallery.FORCE_UPDATE_CAMERA_ALBUM"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="rx_activity_result2.HolderActivity" android:theme="@style/Theme.Transparent"/>
+        <provider android:authorities="com.motorola.cn.gallery.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+    </application>
+</manifest>

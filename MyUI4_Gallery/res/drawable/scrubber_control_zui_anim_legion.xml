@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_pressed="true">
+        <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_disable_legion" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_disable_legion" />
+    </item>
+    <item android:state_focused="true" android:state_pressed="false">
+        <bitmap android:gravity="center" android:src="@drawable/scrubber_control_focus_mtrl_zui_legion" />
+    </item>
+    <item android:state_pressed="true" android:id="@id/pressed">
+        <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_008_legion" />
+    </item>
+    <item android:id="@id/not_pressed">
+        <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_000_legion" />
+    </item>
+    <transition android:toId="@id/pressed" android:fromId="@id/not_pressed" android:reversible="true">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_000_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_001_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_002_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_003_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_004_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_005_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_006_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_007_legion" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:gravity="center" android:src="@drawable/scrubber_control_to_pressed_mtrl_zui_008_legion" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

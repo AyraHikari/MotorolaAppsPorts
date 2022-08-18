@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/grunge_popupmenu">
+        <item android:id="@id/editor_vignette_main" android:title="@string/vignette_main" />
+        <item android:id="@id/editor_vignette_falloff" android:title="@string/vignette_falloff" />
+        <item android:id="@id/editor_vignette_contrast" android:title="@string/vignette_contrast" />
+        <item android:id="@id/editor_vignette_saturation" android:title="@string/vignette_saturation" />
+        <item android:id="@id/editor_vignette_exposure" android:visible="false" android:title="@string/vignette_exposure" />
+    </group>
+</menu>

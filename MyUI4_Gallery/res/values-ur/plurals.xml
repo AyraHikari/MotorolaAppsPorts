@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">منتخب شدہ اشیاء حذف کریں؟</item>
+        <item quantity="one">منتخب شدہ شےحذف کریں؟</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d اشیاء اسکین شدہ</item>
+        <item quantity="zero">%1$d اشیاء اسکین شدہ</item>
+        <item quantity="one">%1$d شے اسکین شدہ</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d اشیاء منتخب شدہ</item>
+        <item quantity="zero">%1$d اشیاء منتخب شدہ</item>
+        <item quantity="one">%1$d شے منتخب شدہ</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">البمز آف لائن دستیاب بنائیں۔</item>
+        <item quantity="one">البم آف لائن دستیب بنائیں۔</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d منتخب شدہ</item>
+        <item quantity="zero">%1$d منتخب شدہ</item>
+        <item quantity="one">%1$d منتخب شدہ</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d منتخب شدہ</item>
+        <item quantity="zero">%1$d منتخب شدہ</item>
+        <item quantity="one">%1$d منتخب شدہ</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d منتخب شدہ</item>
+        <item quantity="zero">%1$d منتخب شدہ</item>
+        <item quantity="one">%1$d منتخب شدہ</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d تصاویر</item>
+        <item quantity="one">%1$d تصویر</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">’’%1$d تصویر(تصاویر) منتخب شدہ‘‘</item>
+        <item quantity="zero">’’%1$d تصویر(تصاویر) منتخب شدہ‘‘</item>
+        <item quantity="one">’’%1$d تصویر(تصاویر) منتخب شدہ‘‘</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d لمحات</item>
+        <item quantity="one">1 سیکنڈ</item>
+    </plurals>
+</resources>

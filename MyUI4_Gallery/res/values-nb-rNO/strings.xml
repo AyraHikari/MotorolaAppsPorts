@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_menu_overflow_description">Flere alternativer</string>
+    <string name="back_button_label">Tilbake</string>
+    <string name="capital_off">AV</string>
+    <string name="capital_on">PÅ</string>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="keyboardviewx_done">Ferdig</string>
+    <string name="listview_x_title_items_selected">%1$s elementer</string>
+    <string name="listview_x_title_main">%1$s elementer valgt</string>
+    <string name="listview_x_title_no_item_selected">Velg</string>
+    <string name="listview_x_title_one_item_selected">1 element</string>
+    <string name="listview_x_title_select_all">Velg alle</string>
+    <string name="listview_x_title_unselect_all">Velg bort alle</string>
+    <string name="loading">Laster inn…</string>
+    <string name="next_button_label">Neste</string>
+    <string name="skip_button_label">Hopp over</string>
+    <string name="time_picker_dialog_x_am">AM</string>
+    <string name="time_picker_dialog_x_complete">Ferdig</string>
+    <string name="time_picker_dialog_x_midnight">midnatt</string>
+    <string name="time_picker_dialog_x_noon">mid på dagen</string>
+    <string name="time_picker_dialog_x_pm">PM</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

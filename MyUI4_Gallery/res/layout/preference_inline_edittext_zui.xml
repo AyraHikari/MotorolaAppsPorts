@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/preference_item_background_zui" android:focusable="true" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/list_selector_zui" android:paddingTop="?listItemVerticalPadding" android:paddingBottom="?listItemVerticalPadding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="25.0dip">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="@integer/inline_edittext_preference_text_weight" />
+        <EditText android:id="@id/editor" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="@integer/inline_edittext_preference_edit_weight" android:layout_centerVertical="true" android:inputType="textNoSuggestions" style="?android:textViewStyle" />
+    </LinearLayout>
+    <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" android:maxWidth="48.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

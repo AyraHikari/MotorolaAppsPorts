@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_picker_dialog_x_title">%4$s, %2$s %3$s, %1$s</string>
+    <string name="listview_x_title_items_selected">%1$s आइटम</string>
+    <string name="listview_x_title_main">%1$s आइटम चुने गए</string>
+    <string name="listview_x_title_no_item_selected">चुनें</string>
+    <string name="listview_x_title_one_item_selected">1 आइटम</string>
+    <string name="listview_x_title_select_all">सभी चुनें</string>
+    <string name="listview_x_title_unselect_all">सभी का चयन हटाएँ</string>
+    <string name="time_picker_dialog_x_am">पूर्वाह्न</string>
+    <string name="time_picker_dialog_x_complete">संपन्न</string>
+    <string name="time_picker_dialog_x_midnight">मध्यरात्रि</string>
+    <string name="time_picker_dialog_x_noon">दोपहर</string>
+    <string name="time_picker_dialog_x_pm">अपराह्न</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

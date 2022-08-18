@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">ลบรายการที่เลือก?</item>
+        <item quantity="one">ลบรายการที่เลือก?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">สแกนแล้ว %1$d รายการ</item>
+        <item quantity="zero">สแกนแล้ว %1$d รายการ</item>
+        <item quantity="one">สแกนแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">เลือกแล้ว %1$d รายการ</item>
+        <item quantity="zero">เลือกแล้ว %1$d รายการ</item>
+        <item quantity="one">เลือกแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">การทำให้อัลบั้มพร้อมใช้งานขณะออฟไลน์</item>
+        <item quantity="one">การทำให้อัลบั้มพร้อมใช้งานขณะออฟไลน์</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d ที่เลือก</item>
+        <item quantity="zero">%1$d ที่เลือก</item>
+        <item quantity="one">%1$d ที่เลือก</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d ที่เลือก</item>
+        <item quantity="zero">%1$d ที่เลือก</item>
+        <item quantity="one">%1$d ที่เลือก</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d ที่เลือก</item>
+        <item quantity="zero">%1$d ที่เลือก</item>
+        <item quantity="one">%1$d ที่เลือก</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d ภาพ</item>
+        <item quantity="one">%1$d ภาพ</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">เลือกแล้ว %1$d ภาพ</item>
+        <item quantity="zero">เลือกแล้ว %1$d ภาพ</item>
+        <item quantity="one">เลือกแล้ว %1$d ภาพ</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">1 วินาที</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/background_main_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/RelativeLayout1" android:background="@color/background_main_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.motorola.cn.gallery.filtershow.colorpicker.ColorCompareView android:id="@id/btnSelect" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="0.0dip" />
+        <com.motorola.cn.gallery.filtershow.colorpicker.ColorSVRectView android:id="@id/colorRectView" android:layout_width="fill_parent" android:layout_height="256.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="1.0dip" />
+        <com.motorola.cn.gallery.filtershow.colorpicker.ColorHueView android:id="@id/ColorHueView" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="0.0dip" />
+        <com.motorola.cn.gallery.filtershow.colorpicker.ColorOpacityView android:id="@id/colorOpacityView" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="24.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip">
+            <ImageButton android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center|left" android:id="@id/cancelColorPick" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_cancel_holo_light" android:layout_weight="0.1" />
+            <ImageView android:layout_width="2.0dip" android:layout_height="fill_parent" android:src="@drawable/filtershow_vertical_bar" />
+            <ImageButton android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center|right" android:id="@id/applyColorPick" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_done_holo_light" android:layout_weight="0.1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

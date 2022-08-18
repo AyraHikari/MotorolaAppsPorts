@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/keyboard_delete_size" android:width="@dimen/keyboard_delete_size" android:viewportWidth="84.0" android:viewportHeight="84.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/keyboard_delete_default" android:pathData="M67.8,18c4.4,0,8,3.6,8,8l0,0v33c0,4.4-3.6,8-8,8l0,0H31.3c-2.1,0-4.2-0.8-5.7-2.4l0,0 L9.1,48c-3-3-3.1-7.9-0.2-11.1l0,0l0.2-0.2l0,0l0,0l16.5-16.4c1.5-1.5,3.5-2.3,5.6-2.3l0,0H67.8z M67.8,22H31.3 c-1.1,0-2.1,0.4-2.8,1.2l0,0L12,39.5l-0.1,0.2c-1.5,1.6-1.4,4,0.1,5.5l0,0l16.5,16.6c0.8,0.8,1.8,1.2,2.8,1.2l0,0h36.5 c2.2,0,4-1.8,4-4l0,0V26C71.8,23.8,70,22,67.8,22L67.8,22z M58.8,32.5c0.7,0.7,0.8,1.9,0.1,2.7l-0.1,0.1l-7.5,7.5l7.5,7.5 c0.8,0.8,0.8,2,0,2.8c-0.7,0.7-1.9,0.8-2.7,0.1L56,53.1l-7.5-7.5l-7.5,7.5c-0.8,0.8-2,0.8-2.8,0c-0.7-0.7-0.8-1.9-0.1-2.7l0.1-0.1 l7.5-7.5l-7.5-7.5c-0.8-0.8-0.8-2,0-2.8c0.7-0.7,1.9-0.8,2.7-0.1l0.1,0.1l7.5,7.5l7.5-7.5C56.8,31.7,58.1,31.7,58.8,32.5z" />
+</vector>
