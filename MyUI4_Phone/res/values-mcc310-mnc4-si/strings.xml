@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">නොසලකන්න</string>
+    <string name="notification_dialing">අමතමින්</string>
+    <string name="tab_history">මෑත</string>
+</resources>

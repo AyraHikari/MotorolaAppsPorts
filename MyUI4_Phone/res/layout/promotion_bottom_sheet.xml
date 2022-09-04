@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:colorBackgroundFloating" android:paddingTop="24.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="24.0dip" android:elevation="8.0dip" app:behavior_hideable="true" app:behavior_skipCollapsed="true" app:layout_behavior="@string/bottom_sheet_behavior" app:layout_insetEdge="bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/promotion_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:tint="?colorIcon" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="32.0dip">
+            <TextView android:id="@id/promotion_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Header2" />
+            <TextView android:id="@id/promotion_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:lineSpacingMultiplier="1.5" style="@style/Dialer.TextAppearance.Secondary" />
+            <Button android:textSize="16.0sp" android:layout_gravity="end" android:id="@id/ok_got_it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/ok_got_it" android:fontFamily="sans-serif-medium" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

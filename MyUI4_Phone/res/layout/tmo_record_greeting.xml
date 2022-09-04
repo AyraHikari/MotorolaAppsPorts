@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <com.android.dialer.voicemail.settings.RecordButton android:id="@id/record_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="192.0dip" android:width="192.0dip" />
+        <TextView android:textAppearance="@style/Dialer.TextAppearance.Primary" android:gravity="center_horizontal" android:id="@id/record_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:text="@string/tap_to_record" />
+        <TextView android:textAppearance="@style/Dialer.TextAppearance.Primary" android:gravity="center_horizontal" android:id="@id/timer_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?android:buttonBarStyle">
+        <Button android:id="@id/redo_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/redo_button_text" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@id/save_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save_button_text" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

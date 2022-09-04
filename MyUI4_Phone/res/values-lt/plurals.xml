@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minučių</item>
+        <item quantity="one">minutė</item>
+        <item quantity="few">minutės</item>
+        <item quantity="many">minutės</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 skambučių, paskutinis yra atsakytas skambutis nuo ^2</item>
+        <item quantity="one">^1 skambutis, paskutinis yra atsakytas skambutis nuo ^2</item>
+        <item quantity="few">^1 skambučiai, paskutinis yra atsakytas skambutis nuo ^2</item>
+        <item quantity="many">^1 skambučio, paskutinis yra atsakytas skambutis nuo ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 skambučių, paskutinis yra užblokuotas skambutis nuo ^2</item>
+        <item quantity="one">^1 skambutis, paskutinis yra užblokuotas skambutis nuo ^2</item>
+        <item quantity="few">^1 skambučiai, paskutinis yra užblokuotas skambutis nuo ^2</item>
+        <item quantity="many">^1 skambučio, paskutinis yra užblokuotas skambutis nuo ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 skambučių, paskutinis yra praleistas skambutis nuo ^2</item>
+        <item quantity="one">^1 skambutis, paskutinis yra praleistas skambutis nuo ^2</item>
+        <item quantity="few">^1 skambučiai, paskutinis yra praleistas skambutis nuo ^2</item>
+        <item quantity="many">^1 skambučio, paskutinis yra praleistas skambutis nuo ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 skambučių, paskutinis yra siunčiamasis skambutis, skirtas ^2</item>
+        <item quantity="one">^1 skambutis, paskutinis yra siunčiamasis skambutis, skirtas ^2</item>
+        <item quantity="few">^1 skambučiai, paskutinis yra siunčiamasis skambutis, skirtas ^2</item>
+        <item quantity="many">^1 skambučio, paskutinis yra siunčiamasis skambutis, skirtas ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekundžių</item>
+        <item quantity="one">sekundė</item>
+        <item quantity="few">sekundės</item>
+        <item quantity="many">sekundės</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Ištrinti šiuos balso pašto pranešimus? &lt;/b></item>
+        <item quantity="one">&lt;b>Ištrinti šiuos balso pašto pranešimus? &lt;/b></item>
+        <item quantity="few">&lt;b>Ištrinti šiuos balso pašto pranešimus? &lt;/b></item>
+        <item quantity="many">&lt;b>Ištrinti šiuos balso pašto pranešimus? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d balso pašto pranešimų</item>
+        <item quantity="one">%1$d balso pašto pranešimas</item>
+        <item quantity="few">%1$d balso pašto pranešimai</item>
+        <item quantity="many">%1$d balso pašto pranešimo</item>
+    </plurals>
+</resources>

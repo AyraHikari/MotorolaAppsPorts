@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/prc_settings_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/prc_settings_item_text_size" android:textColor="@color/prc_Digits_text_color" android:gravity="left" android:id="@id/item_tv" android:paddingLeft="@dimen/prc_wide_title_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

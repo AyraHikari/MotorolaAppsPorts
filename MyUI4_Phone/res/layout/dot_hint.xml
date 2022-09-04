@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/answer_hint_container" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/answer_hint_large" android:layout_width="@dimen/hint_large_begin_size" android:layout_height="@dimen/hint_large_begin_size" android:src="@drawable/answer_hint_large" android:alpha="0.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/answer_hint_mid" android:layout_width="@dimen/hint_mid_begin_size" android:layout_height="@dimen/hint_mid_begin_size" android:src="@drawable/answer_hint_mid" android:alpha="0.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/answer_hint_small" android:layout_width="@dimen/hint_small_begin_size" android:layout_height="@dimen/hint_small_begin_size" android:src="@drawable/answer_hint_small" android:alpha="0.0" />
+</FrameLayout>

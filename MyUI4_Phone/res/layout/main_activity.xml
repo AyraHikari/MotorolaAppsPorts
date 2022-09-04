@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_above="@id/bottom_nav_bar" android:layout_below="@id/appbar_layout" android:animateLayoutChanges="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/main_search_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/promotion_bottom_sheet" layout="@layout/promotion_bottom_sheet" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:elevation="0.0dip">
+        <include android:id="@id/toolbar" layout="@layout/toolbar_layout" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/bottom_nav_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/bottom_nav_bar_layout" />
+    <FrameLayout android:id="@id/activity_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/contact_tile_drag_shadow_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </FrameLayout>
+</RelativeLayout>

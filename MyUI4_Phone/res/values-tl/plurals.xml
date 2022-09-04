@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">na minuto</item>
+        <item quantity="one">minuto</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 na tawag, ang pinakabago ay isang nasagot na tawag mula kay ^2</item>
+        <item quantity="one">^1 tawag, ang pinakabago ay isang nasagot na tawag mula kay ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 na tawag, ang pinakabago ay isang na-block na tawag mula kay ^2</item>
+        <item quantity="one">^1 tawag, ang pinakabago ay isang na-block na tawag mula kay ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 na tawag, ang pinakabago ay isang hindi nasagot na tawag mula kay ^2</item>
+        <item quantity="one">^1 tawag, ang pinakabago ay isang hindi nasagot na tawag mula kay ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 na tawag, ang pinakabago ay isang papalabas na tawag kay ^2</item>
+        <item quantity="one">^1 tawag, ang pinakabago ay isang papalabas na tawag kay ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">na segundo</item>
+        <item quantity="one">segundo</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>I-delete ang mga voicemail na ito? &lt;/b></item>
+        <item quantity="one">&lt;b>I-delete ang mga voicemail na ito? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">seg</item>
+        <item quantity="one">seg</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d na Voicemail "</item>
+        <item quantity="one">" %1$d Voicemail "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Tab ng %1$s. %2$d na hindi pa nababasang item. "</item>
+        <item quantity="one">" Tab ng %1$s. %2$d hindi pa nababasang item. "</item>
+    </plurals>
+</resources>

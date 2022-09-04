@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_alert_dialog_window_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/prc_greeting_dialog_hight"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/prc_greeting_dialog_title_hight"
+            android:layout_marginTop="@dimen/prc_greeting_dialog_title_margin_top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/prc_greeting_dialog_title_margin_left"
+                android:layout_marginRight="@dimen/prc_greeting_dialog_title_margin_right"
+                android:gravity="center_vertical"
+                android:text="@string/prc_voicemail_dialog_record_a_greeting"
+                android:textColor="@color/prc_record_select_color_normal"
+                android:textSize="@dimen/prc_greeting_dialog_title_text_size" />
+
+            <ImageView
+                android:id="@+id/dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/prc_greeting_add_image_margin"
+                android:src="@drawable/ic_icon_voicem_clear"
+                android:tint="@color/prc_record_greeting_dialog_close_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/audio_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/play_gif_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/prc_greeting_dialog_title_hight"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/prc_greeting_dialog_title_margin_left"
+                        android:layout_marginRight="@dimen/prc_greeting_dialog_title_margin_left"
+                        android:scaleType="fitXY" />
+
+                    <com.prc.voicemail.dialer.greetings.PrcAudioView
+                        android:id="@+id/audio_view"
+                        android:layout_width="@dimen/prc_greeting_dialog_audioview_hight"
+                        android:layout_height="@dimen/prc_greeting_dialog_audioview_hight"
+                        android:layout_centerInParent="true" />
+
+                    <ImageView
+                        android:id="@+id/back_five"
+                        android:layout_width="@dimen/prc_greeting_dialog_back_size"
+                        android:layout_height="@dimen/prc_greeting_dialog_back_size"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/prc_greeting_dialog_back_padding"
+                        android:layout_marginRight="@dimen/prc_greeting_dialog_back_forward_marging"
+                        android:layout_toLeftOf="@+id/audio_view"
+                        android:src="@drawable/prc_voicm_replay_five"
+                        android:tint="@color/prc_record_greeting_dialog_close_color"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/forward_five"
+                        android:layout_width="@dimen/prc_greeting_dialog_back_size"
+                        android:layout_height="@dimen/prc_greeting_dialog_back_size"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/prc_greeting_dialog_back_forward_marging"
+                        android:padding="@dimen/prc_greeting_dialog_back_padding"
+                        android:layout_toRightOf="@+id/audio_view"
+                        android:src="@drawable/prc_voicm_forward_five"
+                        android:tint="@color/prc_record_greeting_dialog_close_color"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/play_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/prc_greeting_dialog_title_margin_top"
+                        android:text="@string/prc_voicemail_dialog_record_tap_to_record"
+                        android:textColor="@color/prc_record_select_color_normal"
+                        android:textSize="@dimen/prc_greeting_dialog_duration_text_size" />
+
+                    <TextView
+                        android:id="@+id/total_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/prc_greeting_dialog_title_margin_top"
+                        android:textColor="@color/prc_record_select_color_normal"
+                        android:textSize="@dimen/prc_greeting_dialog_duration_text_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/maximum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/audio_container"
+                android:layout_centerHorizontal="true"
+                android:text="@string/prc_voicemail_dialog_record_max_min"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/save_redo_ontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/redo"
+                android:layout_width="0px"
+                android:layout_height="@dimen/prc_greeting_dialog_save_hight"
+                android:layout_marginRight="@dimen/prc_greeting_dialog_save_margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/prc_audio_button_redo_bg"
+                android:gravity="center"
+                android:text="@string/prc_voicemail_dialog_record_redo"
+                android:textColor="@color/prc_button_text_redo_color"
+                android:textSize="@dimen/prc_greeting_dialog_save_text_size" />
+
+            <TextView
+                android:id="@+id/save"
+                android:layout_width="0px"
+                android:layout_height="@dimen/prc_greeting_dialog_save_hight"
+                android:layout_weight="1"
+                android:background="@drawable/prc_audio_button_save_bg"
+                android:gravity="center"
+                android:text="@string/prc_voicemail_dialog_record_save"
+                android:textColor="@color/prc_button_text_save_color"
+                android:textSize="@dimen/prc_greeting_dialog_save_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

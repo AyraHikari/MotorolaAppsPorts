@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:id="@id/manage_conference" android:visibility="gone" android:layout_width="@dimen/videocall_button_size" android:layout_height="@dimen/videocall_button_size" android:layout_marginBottom="@dimen/videocall_button_spacing" android:src="@drawable/quantum_ic_group_vd_theme_24" android:contentDescription="@string/a11y_description_incall_label_manage_content" style="@style/Incall.Button.VideoCall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

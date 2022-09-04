@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minute</item>
+        <item quantity="one">minuut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 oproepe, die nuutste is ’n geantwoorde oproep van ^2</item>
+        <item quantity="one">^1 het oproep van ^2 geantwoord</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 oproepe, die nuutste is ’n geblokkeerde oproep van ^2</item>
+        <item quantity="one">^1 geblokkeerde oproep van ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 oproepe, die nuutste is ’n gemiste oproep van ^2</item>
+        <item quantity="one">^1 gemiste oproep van ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 oproepe, die nuutste is ’n uitgaande oproep aan ^2</item>
+        <item quantity="one">^1 uitgaande oproep aan ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekondes</item>
+        <item quantity="one">sekonde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vee hierdie stemboodskappe uit? &lt;/b></item>
+        <item quantity="one">&lt;b>Vee hierdie stemboodskap uit? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuwe kennisgewings</item>
+        <item quantity="one">%d nuwe kennisgewing</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Stemboodskappe</item>
+        <item quantity="one">Stemboodskap</item>
+    </plurals>
+</resources>

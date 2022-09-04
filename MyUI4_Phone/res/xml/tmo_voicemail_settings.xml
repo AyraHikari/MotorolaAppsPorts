@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/voicemail_autodownload_title" android:key="@string/voicemail_autodownload_key" android:summary="@string/autodownload_summary" />" <Preference android:title="@string/voicemail_transcription_title" android:key="@string/voicemail_transcription_key" />
+    <Preference android:title="@string/voicemail_changepin_title" android:key="@string/voicemail_changepin_key" />
+    <Preference android:title="@string/voicemail_tmo_greetings_title" android:key="@string/voicemail_tmo_greetings_key" />
+    <Preference android:title="@string/pref_tmo_vvm_tutorial_title" android:key="@string/pref_tmo_vvm_tutorial_key" />
+    <Preference android:title="@string/tmo_vvm_test_config_title" android:key="@string/tmo_vvm_test_config_key" android:summary="@string/tmo_vvm_test_config_summary" />" </PreferenceScreen>

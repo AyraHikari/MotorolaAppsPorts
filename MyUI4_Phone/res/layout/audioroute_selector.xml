@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/audioroute_speaker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/audioroute_speaker" android:drawableStart="@drawable/quantum_ic_volume_up_grey600_24" android:textAlignment="viewStart" style="@style/AudioRouteItem" />
+    <TextView android:id="@id/audioroute_earpiece" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/audioroute_phone" android:drawableStart="@drawable/quantum_ic_phone_in_talk_vd_theme_24" android:textAlignment="viewStart" style="@style/AudioRouteItem" />
+    <TextView android:id="@id/audioroute_headset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/audioroute_headset" android:drawableStart="@drawable/quantum_ic_headset_grey600_24" android:textAlignment="viewStart" style="@style/AudioRouteItem" />
+</LinearLayout>

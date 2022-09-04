@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:colorSecondary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_image" android:paddingLeft="@dimen/prc_voicemail_tips_title_margin_top" android:layout_width="@dimen/prc_voicemail_tips_img_height" android:layout_height="@dimen/prc_voicemail_tips_img_height" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:paddingRight="@dimen/prc_voicemail_tips_title_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/prc_text_primary_color" android:gravity="center" android:id="@id/tv_tipsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/prc_voicemail_tips_title_margin_bottom" android:layout_above="@id/tv_content" style="@style/Prc_Voicemail_Guide_Title" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_height="wrap_content" style="@style/Prc_Voicemail_Guide_Content" />
+    </LinearLayout>
+</LinearLayout>

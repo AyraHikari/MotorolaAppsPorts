@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rtt_recycler_view" android:paddingTop="56.0dip" android:paddingBottom="70.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/rtt_banner" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="4.0dip">
+        <EditText android:textSize="16.0sp" android:textColor="#dd000000" android:textColorHint="#ff757575" android:id="@id/rtt_chat_input" android:background="@drawable/input_bubble_background" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="53.0dip" android:hint="@string/rtt_input_hint" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSend" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <ImageButton android:layout_gravity="bottom" android:id="@id/rtt_chat_submit_button" android:background="@drawable/input_bubble_background" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="53.0dip" android:src="@drawable/quantum_ic_done_vd_theme_24" android:tint="@color/submit_button_color" android:contentDescription="@string/content_description_rtt_check_button" android:backgroundTint="@color/submit_button_background_color" android:backgroundTintMode="multiply" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/incall_dialpad_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

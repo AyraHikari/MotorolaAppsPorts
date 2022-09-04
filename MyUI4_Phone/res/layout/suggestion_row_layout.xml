@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.widget.ContactPhotoView android:id="@id/avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toStartOf="@id/overflow" android:layout_toEndOf="@id/avatar">
+        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary" />
+        <TextView android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary" />
+    </LinearLayout>
+    <ImageView android:id="@id/overflow" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/quantum_ic_more_vert_white_24" android:scaleType="center" android:tint="?colorIcon" android:layout_centerVertical="true" android:contentDescription="@string/content_description_overflow" android:layout_alignParentEnd="true" />
+</RelativeLayout>

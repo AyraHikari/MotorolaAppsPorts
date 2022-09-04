@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:id="@id/text_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/att_welcomevt_header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_above="@id/checkbox_dontshow" android:layout_below="@id/text_header">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_video" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_videocall_capable_24dp" android:tint="@color/att_welcome_video_color" android:tintMode="src_atop" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:id="@id/tv_welcome_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/att_welcomevt_text" />
+        </LinearLayout>
+    </ScrollView>
+    <CheckBox android:textColor="?android:textColorPrimary" android:id="@id/checkbox_dontshow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:checked="true" android:text="@string/dont_show_again" android:layout_above="@id/bottom_buttons_bar" />
+    <LinearLayout android:id="@id/bottom_buttons_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <Button android:textColor="?colorAccent" android:id="@id/button_servicedetails" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_details" />
+        <Button android:textColor="?colorAccent" android:id="@id/button_ok" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" />
+    </LinearLayout>
+</RelativeLayout>

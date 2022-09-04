@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">മിനിറ്റ്</item>
+        <item quantity="one">മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 കോളുകൾ, ഏറ്റവും പുതിയത് ^2-ൽ നിന്ന് മറുപടി നൽകിയ കോളാണ്</item>
+        <item quantity="one">^2-ൽ നിന്ന് ^1 മറുപടി നൽകിയ കോൾ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 കോളുകൾ, ഏറ്റവും പുതിയത് ^2-ൽ നിന്നുള്ള ബ്ലോക്ക് ചെയ്‌ത കോൾ</item>
+        <item quantity="one">^2-ൽ നിന്നുള്ള ^1 ബ്ലോക്ക് ചെയ്‌ത കോൾ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 കോളുകൾ, ഏറ്റവും പുതിയത് ^2-ൽ നിന്നുള്ള മിസ്‌ഡ് കോളാണ്</item>
+        <item quantity="one">^2-ൽ നിന്ന് ^1 മിസ്‌ഡ് കോൾ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 കോളുകൾ, ഏറ്റവും പുതിയത് ^2-ലേക്കുള്ള ഔട്ട്‌ഗോയിംഗ് കോളാണ്</item>
+        <item quantity="one">^2-ലേക്ക് ^1 ഔട്ട്‌ഗോയിംഗ് കോൾ</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">സെക്കൻഡ്</item>
+        <item quantity="one">സെക്കൻഡ്</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ഈ വോയ്‌സ്‌മെയിലുകൾ ഇല്ലാതാക്കണോ? &lt;/b></item>
+        <item quantity="one">&lt;b>ഈ വോയ്‌സ്‌മെയിൽ ഇല്ലാതാക്കണോ? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d വോയ്‌സ്‌മെയിലുകൾ</item>
+        <item quantity="one">വോയ്‌സ്‌മെയിൽ</item>
+    </plurals>
+</resources>

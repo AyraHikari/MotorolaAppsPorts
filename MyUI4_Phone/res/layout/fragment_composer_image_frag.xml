@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/answer_message_margin_start_end" android:paddingEnd="@dimen/answer_message_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/answer_message_container" android:background="@drawable/answer_data_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/answer_message_contents_margin_top" android:layout_marginBottom="@dimen/answer_data_elevation" android:layout_alignTop="@id/answer_message_avatar" android:elevation="@dimen/answer_data_elevation" android:outlineProvider="background">
+        <ImageView android:id="@id/answer_message_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/answer_message_frag" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:elevation="@dimen/answer_data_elevation" />
+    <ImageView android:id="@id/answer_message_avatar" android:layout_width="@dimen/answer_message_avatar_size" android:layout_height="@dimen/answer_message_avatar_size" android:layout_centerHorizontal="true" android:elevation="@dimen/answer_avatar_elevation" />
+</RelativeLayout>

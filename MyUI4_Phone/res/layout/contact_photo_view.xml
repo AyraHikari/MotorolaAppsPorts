@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:focusable="false" android:layout_width="56.0dip" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:layout_gravity="center" android:id="@id/quick_contact_photo" android:padding="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/contact_badge_container" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="2.0dip" android:importantForAccessibility="noHideDescendants" android:layout_marginEnd="2.0dip">
+        <ImageView android:id="@id/contact_badge_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/contact_photo_badge_background" />
+        <ImageView android:layout_gravity="center" android:id="@id/video_call_badge" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/quantum_ic_videocam_vd_white_24" />
+        <ImageView android:layout_gravity="center" android:id="@id/rtt_call_badge" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/quantum_ic_rtt_vd_theme_24" android:tint="?android:colorBackground" />
+    </FrameLayout>
+</FrameLayout>

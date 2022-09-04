@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/suggestion_action_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?colorDividerLine" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:id="@id/send_message_action" style="@style/CallLogActionStyle">
+        <ImageView android:src="@drawable/prc_ic_send_message" style="@style/CallLogActionIconStyle" />
+        <TextView android:text="@string/call_log_action_send_message" style="@style/CallLogActionTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/add_favorite_action" style="@style/CallLogActionStyle">
+        <ImageView android:src="@drawable/prc_ic_star_vd_theme_24" style="@style/CallLogActionIconStyle" />
+        <TextView android:text="@string/suggested_contact_bottom_sheet_add_favorite_option" style="@style/CallLogActionTextStyle" />
+    </LinearLayout>
+</LinearLayout>

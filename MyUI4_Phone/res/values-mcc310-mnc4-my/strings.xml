@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">လျစ်လျူရှု</string>
+    <string name="notification_dialing">ခေါ်ဆိုမှု</string>
+    <string name="tab_history">လတ္တေလာ အသံုုးျပဳမႈမ်ား</string>
+</resources>

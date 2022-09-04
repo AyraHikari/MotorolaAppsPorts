@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/call_composer_contact_photo_border_thickness" android:color="?android:colorBackground" />
+    <padding android:left="@dimen/call_composer_contact_photo_border_thickness" android:top="@dimen/call_composer_contact_photo_border_thickness" android:right="@dimen/call_composer_contact_photo_border_thickness" android:bottom="@dimen/call_composer_contact_photo_border_thickness" />
+</shape>

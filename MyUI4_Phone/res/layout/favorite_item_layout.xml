@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/avatar_container" android:paddingBottom="4.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/favorite_item_avatar_size" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:minWidth="@dimen/favorite_item_avatar_min_height_size">
+        <QuickContactBadge android:layout_gravity="bottom|center" android:id="@id/avatar" android:clickable="false" android:layout_width="@dimen/favorite_item_avatar_size" android:layout_height="@dimen/favorite_item_avatar_size" />
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/video_call_container" android:layout_width="@dimen/favorite_item_call_container_size" android:layout_height="@dimen/favorite_item_call_container_size">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/favorite_icon" />
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/favorite_item_call_img_size" android:layout_height="@dimen/favorite_item_call_img_size" android:src="@drawable/quantum_ic_videocam_vd_white_24" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/default_channel_icon_container" android:background="@drawable/oval_background" android:visibility="gone" android:layout_width="@dimen/favorite_item_call_container_size" android:layout_height="@dimen/favorite_item_call_container_size">
+            <ImageView android:layout_gravity="center" android:id="@id/default_channel_id" android:layout_width="@dimen/favorite_item_call_img_size" android:layout_height="@dimen/favorite_item_call_img_size" android:src="@drawable/prc_ic_favourites_call_16" android:tint="?colorIcon" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textColor="@color/prc_text_primary_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="1.0dip" android:fontFamily="sans-serif-medium" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/Dialer.TextAppearance.Primary" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/phone_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/Dialer.TextAppearance.Secondary2" />
+</LinearLayout>

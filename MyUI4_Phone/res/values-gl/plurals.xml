@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minutos</item>
+        <item quantity="one">minuto</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 chamadas. A última é unha chamada respondida de ^2</item>
+        <item quantity="one">^1 chamada respondida de ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 chamadas. A última é unha chamada bloqueada de ^2</item>
+        <item quantity="one">^1 chamada bloqueada de ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 chamadas. A última é unha chamada perdida de ^2</item>
+        <item quantity="one">^1 chamada perdida de ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 chamadas. A última é unha chamada saínte a ^2</item>
+        <item quantity="one">^1 chamada saínte a ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">segundos</item>
+        <item quantity="one">segundo</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Queres eliminar estes correos de voz? &lt;/b></item>
+        <item quantity="one">&lt;b>Queres eliminar este correo de voz? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacións novas</item>
+        <item quantity="one">%d notificación nova</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d correos de voz</item>
+        <item quantity="one">Correo de voz</item>
+    </plurals>
+</resources>

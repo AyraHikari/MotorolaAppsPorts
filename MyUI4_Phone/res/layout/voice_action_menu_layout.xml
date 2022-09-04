@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/rtt_menu_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center|right" android:id="@id/menu_btn" android:background="@drawable/btn_dialpad_key" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="@dimen/dialpad_overflow_margin" android:src="@drawable/quantum_ic_more_vert_vd_theme_24" android:scaleType="fitXY" android:tint="?colorIcon" android:contentDescription="@string/content_description_overflow" />
+</FrameLayout>

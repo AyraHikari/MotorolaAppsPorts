@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dtmf_tone_length_entries">
+        <item>सामान्य</item>
+        <item>लामो</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/prc_switch_track_thumb_height" />
+    <corners android:radius="@dimen/prc_switch_track_thumb_radius" />
+    <gradient android:startColor="@color/prc_turn_on_track_color" android:endColor="@color/prc_turn_on_track_color" />
+</shape>

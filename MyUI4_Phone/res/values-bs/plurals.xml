@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minuta</item>
+        <item quantity="one">minuta</item>
+        <item quantity="few">minute</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 poziva. Posljednji poziv je prihvaćeni poziv od osobe ^2</item>
+        <item quantity="one">^1 poziv. Posljednji poziv je prihvaćeni poziv od osobe ^2</item>
+        <item quantity="few">^1 poziva. Posljednji poziv je prihvaćeni poziv od osobe ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 poziva. Posljednji poziv je blokirani poziv od osobe ^2</item>
+        <item quantity="one">^1 poziv. Posljednji poziv je blokirani poziv od osobe ^2</item>
+        <item quantity="few">^1 poziva. Posljednji poziv je blokirani poziv od osobe ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 poziva. Posljednji poziv je propušteni poziv od osobe ^2</item>
+        <item quantity="one">^1 poziv. Posljednji poziv je propušteni poziv od osobe ^2</item>
+        <item quantity="few">^1 poziva. Posljednji poziv je propušteni poziv od osobe ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 poziva. Posljednji poziv je odlazni poziv upućen osobi ^2</item>
+        <item quantity="one">^1 poziv. Posljednji poziv je odlazni poziv upućen osobi ^2</item>
+        <item quantity="few">^1 poziva. Posljednji poziv je odlazni poziv upućen osobi ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekundi</item>
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekunde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Izbrisati ove govorne poruke? &lt;/b></item>
+        <item quantity="one">&lt;b>Izbrisati ove govorne poruke? &lt;/b></item>
+        <item quantity="few">&lt;b>Izbrisati ove govorne poruke? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavještenja</item>
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Poruka govorne pošte</item>
+        <item quantity="one">%1$d Poruka govorne pošte</item>
+        <item quantity="few">%1$d Poruke govorne pošte</item>
+    </plurals>
+</resources>

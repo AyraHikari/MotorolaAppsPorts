@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="feature_show_videocall_welcome_msg">false</bool>
+    <bool name="longer_caller_name_supported">true</bool>
+    <bool name="show_hd_icon">false</bool>
+</resources>

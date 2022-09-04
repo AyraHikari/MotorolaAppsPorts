@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_contact_puck_size_no_photo">72.0dip</dimen>
+    <dimen name="answer_contact_puck_size_photo">88.0dip</dimen>
+    <dimen name="answer_swipe_dead_zone_top">150.0dip</dimen>
+    <dimen name="bottom_row_icon_size">24.0dip</dimen>
+    <dimen name="dialpad_separator_height">1.0dip</dimen>
+    <dimen name="dialpad_space_above_keys">14.0dip</dimen>
+    <dimen name="dialpad_space_below_keys">8.0dip</dimen>
+    <dimen name="end_call_button_margin_bottom">36.0dip</dimen>
+    <dimen name="end_call_button_margin_top">16.0dip</dimen>
+    <dimen name="incall_avatar_size">86.0dip</dimen>
+    <item type="dimen" name="incall_dialpad_digits_adjustable_height">@dimen/dialpad_digits_height</item>
+    <item type="dimen" name="incall_dialpad_digits_adjustable_text_size">@dimen/dialpad_digits_text_size</item>
+    <item type="dimen" name="incall_dialpad_key_number_margin_bottom">@dimen/dialpad_key_number_default_margin_bottom</item>
+    <item type="dimen" name="incall_dialpad_key_numbers_size">@dimen/dialpad_key_numbers_default_size</item>
+    <dimen name="incall_labeled_button_icon_size">36.0dip</dimen>
+    <dimen name="incall_labeled_button_size">64.0dip</dimen>
+    <dimen name="incall_namerow_margin_bottom">8.0dip</dimen>
+    <dimen name="incall_namerow_margin_top">24.0dip</dimen>
+    <dimen name="incall_textappearance_large_size">36.0sp</dimen>
+    <dimen name="incall_textappearance_size">18.0sp</dimen>
+    <dimen name="incall_window_margin_top">70.0dip</dimen>
+    <dimen name="incoming_namerow_margin_bottom">8.0dip</dimen>
+    <dimen name="incoming_puck_offset">42.0dip</dimen>
+    <dimen name="incoming_swipe_button_size">56.0dip</dimen>
+    <dimen name="incoming_swipe_to_answer_text_margin_bottom">18.0dip</dimen>
+    <dimen name="incoming_swipe_to_reject_tex_margin_bottom">20.0dip</dimen>
+    <dimen name="incoming_toprow_margin_bottom">8.0dip</dimen>
+    <dimen name="incomingcall_window_margin_top">30.0dip</dimen>
+    <dimen name="moto_verified_caller_text_padding_top">40.0dip</dimen>
+    <dimen name="onhold_banner_padding">16.0dip</dimen>
+    <dimen name="return_to_call_initial_offset_y">120.0dip</dimen>
+    <dimen name="search_number_margin_top">30.0dip</dimen>
+    <dimen name="textappearance1_hint_size">14.0sp</dimen>
+    <dimen name="incall_bottom_margin_top">4.0dip</dimen>
+</resources>

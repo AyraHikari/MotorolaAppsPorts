@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/directory_header" android:background="?contact_browser_background" android:paddingLeft="?list_item_padding_left" android:paddingTop="@dimen/directory_header_extra_top_padding" android:paddingRight="?list_item_padding_right" android:paddingBottom="@dimen/directory_header_extra_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_section_divider_min_height" android:paddingStart="?list_item_padding_left" android:paddingEnd="?list_item_padding_right" style="@style/DirectoryHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/DirectoryHeaderStyle" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+    <TextView android:textAppearance="@style/DirectoryHeaderStyle" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="8.0dip" />
+    <TextView android:textAppearance="@style/DirectoryHeaderStyle" android:gravity="end" android:id="@id/count" android:paddingTop="1.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

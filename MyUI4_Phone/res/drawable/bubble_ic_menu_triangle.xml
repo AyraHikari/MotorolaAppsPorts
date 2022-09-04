@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/bubble_triangle_height" android:width="@dimen/bubble_triangle_width" android:viewportWidth="361.0" android:viewportHeight="181.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?android:colorBackground" android:pathData="M180.5 0.5L0 181H361L180.5 0.5Z" />
+</vector>

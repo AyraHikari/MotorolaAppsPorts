@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">րոպե</item>
+        <item quantity="one">minutes</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 զանգ, որոնցից վերջինը ընդունված զանգ է ^2-ից</item>
+        <item quantity="one">^1 ընդունված զանգ ^2-ից</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 զանգ, որոնցից վերջինը արգելափակված զանգ է ^2-ից</item>
+        <item quantity="one">^1 արգելափակված զանգ ^2-ից</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 զանգ, որոնցից վերջինը բաց թողնված զանգ է ^2-ից</item>
+        <item quantity="one">^1 բաց թողնված զանգ ^2-ից</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 զանգ, որոնցից վերջինը ելքային զանգ է ^2-ին</item>
+        <item quantity="one">^1 ելքային զանգ ^2-ին</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">վայրկյան</item>
+        <item quantity="one">seconds</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Ջնջե՞լ այս ձայնային հաղորդագրությունները &lt;/b></item>
+        <item quantity="one">&lt;b>Delete these voicemails? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d նոր ծանուցում</item>
+        <item quantity="one">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ձայնային փոստ</item>
+        <item quantity="one">%1$d ձայնային փոստ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">минута</item>
+        <item quantity="one">минут</item>
+        <item quantity="few">минута</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 позива, последњи је прихваћени позив од: ^2</item>
+        <item quantity="one">^1 позив, последњи је прихваћени позив од: ^2</item>
+        <item quantity="few">^1 позива, последњи је прихваћени позив од: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 позива, последњи је блокирани позив од: ^2</item>
+        <item quantity="one">^1 позив, последњи је блокирани позив од: ^2</item>
+        <item quantity="few">^1 позива, последњи је блокирани позив од: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 позива, последњи је пропуштени позив од: ^2</item>
+        <item quantity="one">^1 позив, последњи је пропуштени позив од: ^2</item>
+        <item quantity="few">^1 позива, последњи је пропуштени позив од: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 позива, последњи је одлазни позив за: ^2</item>
+        <item quantity="one">^1 позив, последњи је одлазни позив за: ^2</item>
+        <item quantity="few">^1 позива, последњи је одлазни позив за: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунди</item>
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунде</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Желите ли да избришете ове говорне поруке? &lt;/b></item>
+        <item quantity="one">&lt;b>Желите ли да избришете ове говорне поруке? &lt;/b></item>
+        <item quantity="few">&lt;b>Желите ли да избришете ове говорне поруке? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">мин</item>
+        <item quantity="one">мин</item>
+        <item quantity="few">мин</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">сек</item>
+        <item quantity="one">сек</item>
+        <item quantity="few">сек</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d говорних порука "</item>
+        <item quantity="one">" %1$d говорна порука "</item>
+        <item quantity="few">" %1$d говорне поруке "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Картица %1$s. %2$d непрочитаних ставки. "</item>
+        <item quantity="one">" Картица %1$s. %2$d непрочитана ставка. "</item>
+        <item quantity="few">" Картица %1$s. %2$d непрочитане ставке. "</item>
+    </plurals>
+</resources>

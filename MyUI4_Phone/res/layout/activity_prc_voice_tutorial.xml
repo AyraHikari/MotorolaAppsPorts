@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:layout_gravity="center_horizontal" android:id="@id/viewPager" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/dismiss" android:layout_width="@dimen/prc_greeting_dialog_title_hight" android:layout_height="wrap_content" android:layout_marginTop="@dimen/remove_text_size" android:src="@drawable/ic_icon_voicem_clear" android:tint="@color/prc_record_greeting_dialog_close_color" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/remove_text_size" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <Button android:textStyle="bold" android:textColor="@color/prc_voicemail_back_text_color" android:id="@id/btn_back" android:background="@drawable/prc_shape_voice_white_28" android:layout_width="wrap_content" android:layout_height="@dimen/prc_tutorial_button_height" android:layout_marginLeft="20.0dip" android:text="@string/prc_voicemail_back" android:layout_centerVertical="true" android:textAllCaps="false" style="@style/Prc_Voicemail_Guide_Content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <Button android:textStyle="bold" android:textColor="@color/prc_voice_white" android:id="@id/btn_next" android:background="@drawable/prc_shape_voice_blue_28" android:layout_width="wrap_content" android:layout_height="@dimen/prc_tutorial_button_height" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/prc_voicemail_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" style="?android:borderlessButtonStyle" />
+    </RelativeLayout>
+</RelativeLayout>

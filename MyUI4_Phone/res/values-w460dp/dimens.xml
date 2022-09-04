@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="videocall_button_padding">18.0dip</dimen>
+    <dimen name="videocall_button_size">72.0dip</dimen>
+    <dimen name="videocall_button_spacing">16.0dip</dimen>
+    <dimen name="videocall_preview_height">88.0dip</dimen>
+    <dimen name="videocall_preview_long">116.0dip</dimen>
+    <dimen name="videocall_preview_width">88.0dip</dimen>
+</resources>

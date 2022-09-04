@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/voicemail_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/voicemail_notifications_preference_title" android:key="@string/voicemail_notifications_key" />
+    <Preference android:title="@string/voicemail_change_greeting_preference_title" android:key="@string/voicemail_change_greeting_key" />
+    <SwitchPreference android:title="@string/voicemail_visual_voicemail_switch_title" android:key="@string/voicemail_visual_voicemail_key" />" <SwitchPreference android:title="@string/voicemail_visual_voicemail_auto_archive_switch_title" android:key="@string/voicemail_visual_voicemail_archive_key" android:dependency="@string/voicemail_visual_voicemail_key" />" <com.android.dialer.common.preference.SwitchPreferenceWithClickableSummary android:title="@string/voicemail_visual_voicemail_transcription_switch_title" android:key="@string/voicemail_visual_voicemail_transcription_key" android:dependency="@string/voicemail_visual_voicemail_key" app:urlToOpen="@string/transcription_learn_more_url" />
+    <com.android.dialer.common.preference.SwitchPreferenceWithClickableSummary android:title="@string/voicemail_visual_voicemail_donation_switch_title" android:key="@string/voicemail_visual_voicemail_donation_key" android:dependency="@string/voicemail_visual_voicemail_transcription_key" app:urlToOpen="@string/donation_learn_more_url" />
+    <Preference android:title="@string/voicemail_change_pin_preference_title" android:key="@string/voicemail_change_pin_key" />
+    <PreferenceScreen android:title="@string/voicemail_advanced_settings_title" android:key="@string/voicemail_advanced_settings_key" />
+</PreferenceScreen>

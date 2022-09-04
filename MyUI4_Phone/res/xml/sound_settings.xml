@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.app.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="@string/ringtone_preference_key" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
+    <SwitchPreference android:persistent="false" android:title="@string/vibrate_on_ring_title" android:key="@string/vibrate_on_preference_key" android:defaultValue="false" />
+    <SwitchPreference android:persistent="false" android:title="@string/dtmf_tone_enable_title" android:key="@string/play_dtmf_preference_key" android:defaultValue="true" />
+    <ListPreference android:entries="@array/dtmf_tone_length_entries" android:title="@string/dtmf_tone_length_title" android:key="@string/dtmf_tone_length_preference_key" android:entryValues="@array/dtmf_tone_length_entry_values" />
+</PreferenceScreen>

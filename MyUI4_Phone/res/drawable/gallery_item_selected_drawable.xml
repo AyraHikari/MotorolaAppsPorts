@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="?android:colorPrimary" />
+            <solid android:color="?android:colorBackground" />
+            <size android:height="@dimen/gallery_check_size" android:width="@dimen/gallery_check_size" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/quantum_ic_check_black_24" android:tint="?android:colorPrimary" />
+    </item>
+</layer-list>

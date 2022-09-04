@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/ic_sim_change_white" android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_00" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_01" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_02" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_03" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_04" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_05" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_06" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_07" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_08" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_09" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_10" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_11" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_12" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_13" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_14" />
+    <item android:duration="33" android:drawable="@drawable/ic_sim_change_white_00" />
+</animation-list>

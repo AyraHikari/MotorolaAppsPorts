@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minutt</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 anrop, det nyeste er et besvart anrop fra ^2</item>
+        <item quantity="one">^1 besvart anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 anrop, det nyeste er et blokkert anrop fra ^2</item>
+        <item quantity="one">^1 blokkert anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 anrop, det nyeste er et tapt anrop fra ^2</item>
+        <item quantity="one">^1 tapt anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 anrop, det nyeste er et utgående anrop til ^2</item>
+        <item quantity="one">^1 utgående anrop til ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekunder</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vil du slette disse talemeldingene? &lt;/b></item>
+        <item quantity="one">&lt;b>Vil du slette denne talemeldingen? &lt;/b></item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d talemeldinger</item>
+        <item quantity="one">talemelding</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip">
+        <QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/quick_contact_photo" android:focusable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/contact_information" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toEndOf="@id/quick_contact_photo">
+            <com.android.dialer.widget.BidiTextView android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+            <com.android.dialer.widget.BidiTextView android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

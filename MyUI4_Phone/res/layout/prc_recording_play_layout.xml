@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.dialer.app.conversationhistorycalldetails.PrcAudioPlayerView android:orientation="vertical" android:id="@id/audio_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/space" android:layout_width="@dimen/conversation_history_recording_play_space" android:layout_height="wrap_content" />
+    <SeekBar android:id="@id/seekbar" android:paddingTop="@dimen/conversation_history_audio_time_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/prc_seekbar_default" android:thumbOffset="@dimen/conversation_history_seekbar_thumb_offset" android:paddingStart="@dimen/conversation_history_recording_play_space" android:paddingEnd="@dimen/conversation_history_audio_time_margin" android:splitTrack="false" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_history_audio_time_margin" android:layout_toRightOf="@id/space" android:layout_below="@id/seekbar">
+        <TextView android:textColor="@color/prc_text_Third_color" android:id="@id/audio_play_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary" />
+        <TextView android:textColor="@color/prc_text_Third_color" android:id="@id/audio_total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/Dialer.TextAppearance.Secondary" />
+        <TextView android:textSize="@dimen/select_all_text_size" android:textColor="@color/prc_record_select_icon_color" android:gravity="center" android:id="@id/audio_count" android:background="@drawable/prc_audio_count_bg" android:layout_width="wrap_content" android:layout_height="@dimen/prc_audio_count_height" android:layout_below="@id/audio_total_time" android:layout_centerHorizontal="true" android:paddingStart="@dimen/promo_card_title_padding" android:paddingEnd="@dimen/promo_card_title_padding" />
+    </RelativeLayout>
+</com.motorola.dialer.app.conversationhistorycalldetails.PrcAudioPlayerView>

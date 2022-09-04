@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">хвіліны</item>
+        <item quantity="one">хвіліна</item>
+        <item quantity="few">хвіліны</item>
+        <item quantity="many">хвілін</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 выкліку, апошні – прыняты выклік ад абанента ^2</item>
+        <item quantity="one">^1 выклік, апошні – прыняты выклік ад абанента ^2</item>
+        <item quantity="few">^1 выклікі, апошні – прыняты выклік ад абанента ^2</item>
+        <item quantity="many">^1 выклікаў, апошні – прыняты выклік ад абанента ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 выкліку, апошні – заблакіраваны выклік ад абанента ^2</item>
+        <item quantity="one">^1 выклік, апошні – заблакіраваны выклік ад абанента ^2</item>
+        <item quantity="few">^1 выклікі, апошні – заблакіраваны выклік ад абанента ^2</item>
+        <item quantity="many">^1 выклікаў, апошні – заблакіраваны выклік ад абанента ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 выкліку, апошні – прапушчаны выклік ад абанента ^2</item>
+        <item quantity="one">^1 выклік, апошні – прапушчаны выклік ад абанента ^2</item>
+        <item quantity="few">^1 выклікі, апошні – прапушчаны выклік ад абанента ^2</item>
+        <item quantity="many">^1 выклікаў, апошні – прапушчаны выклік ад абанента ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 выкліку, апошні – выходны выклік абаненту ^2</item>
+        <item quantity="one">^1 выклік, апошні – выходны выклік абаненту ^2</item>
+        <item quantity="few">^1 выклікі, апошні – выходны выклік абаненту ^2</item>
+        <item quantity="many">^1 выклікаў, апошні – выходны выклік абаненту ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунды</item>
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунды</item>
+        <item quantity="many">секунд</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Выдаліць гэтыя паведамленні галасавой пошты? &lt;/b></item>
+        <item quantity="one">&lt;b>Выдаліць гэтыя паведамленні галасавой пошты? &lt;/b></item>
+        <item quantity="few">&lt;b>Выдаліць гэтыя паведамленні галасавой пошты? &lt;/b></item>
+        <item quantity="many">&lt;b>Выдаліць гэтыя паведамленні галасавой пошты? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Паведамлення галасавой пошты</item>
+        <item quantity="one">%1$d Паведамленне галасавой пошты</item>
+        <item quantity="few">%1$d Паведамленні галасавой пошты</item>
+        <item quantity="many">%1$d Паведамленняў галасавой пошты</item>
+    </plurals>
+</resources>

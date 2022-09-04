@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/collapsing_action_bar_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_switch_bg" android:background="@drawable/prc_shape_voice_mail_30" android:layout_width="fill_parent" android:layout_height="@dimen/prc_voice_switch_height" android:layout_marginTop="@dimen/bubble_safe_margin_x" android:layout_marginStart="@dimen/bubble_safe_margin_x" android:layout_marginEnd="@dimen/bubble_safe_margin_x">
+                <TextView android:textSize="@dimen/prc_voicemail_switch_text_size" android:textColor="@color/prc_voice_state_text_color" android:id="@id/text_wideTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/secondary_positioning_bar_width" android:text="@string/prc_use_moto_voicemail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <Switch android:id="@id/voice_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bubble_safe_margin_x" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

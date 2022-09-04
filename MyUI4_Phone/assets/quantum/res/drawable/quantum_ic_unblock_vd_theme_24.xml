@@ -1,0 +1,27 @@
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!-- A custom-made "unblock" icon for Dialer -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal">
+  <path
+      android:fillColor="@android:color/white"
+      android:pathData="M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.48,22 2,17.52 2,12C2,6.48 6.48,2 12,2ZM12,4C7.584,4 4,7.584 4,12C4,16.416 7.584,20 12,20C16.416,20 20,16.416 20,12C20,7.584 16.416,4 12,4ZM16.5,6.086L17.914,7.5L16.5,8.914L15.086,7.5L16.5,6.086ZM13.5,9.086L14.914,10.5L13.5,11.914L12.086,10.5L13.5,9.086ZM10.5,12.086L11.914,13.5L10.5,14.914L9.086,13.5L10.5,12.086ZM7.5,15.086L8.914,16.5L7.5,17.914L6.086,16.5L7.5,15.086Z"/>
+</vector>

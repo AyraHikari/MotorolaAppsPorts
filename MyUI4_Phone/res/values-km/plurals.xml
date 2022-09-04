@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">នាទី</item>
+        <item quantity="one">នាទី</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">ការហៅ​ទូរសព្ទ ^1 ដង ចុងក្រោយ​បំផុត គឺ​ការហៅ​ដែល​បាន​ឆ្លើយ​ពី ^2</item>
+        <item quantity="one">ការហៅ​​បាន​ឆ្លើយ ^1 ដងពី ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">ការហៅ​ទូរសព្ទ ^1 ដង ចុងក្រោយ​បំផុត គឺ​ជា​ការហៅ​ដែល​បាន​ទប់ស្កាត់​ពី ^2</item>
+        <item quantity="one">ការហៅ​បាន​ទប់ស្កាត់ ^1 ដងពី ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">ការហៅ​ទូរសព្ទ ^1 ដង ចុងក្រោយ​បំផុត គឺ​ការហៅ​ដែល​ខកខាន​ពី ^2</item>
+        <item quantity="one">ខកខាន​ទទួលការហៅទូរសព្ទ ^1 ដងពី ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">ការហៅ​ទូរសព្ទ ^1 ដង ចុងក្រោយ​បំផុត គឺ​ជា​ការហៅ​ចេញ​ទៅ​កាន់ ^2</item>
+        <item quantity="one">ការហៅ​ចេញ ^1 ទៅ​កាន់ ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">វិនាទី</item>
+        <item quantity="one">វិនាទី</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>លុប​សារ​ជា​សំឡេង​ទាំងនេះ? &lt;/b></item>
+        <item quantity="one">&lt;b>លុប​សារ​ជា​សំឡេង​នេះ? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">នាទី​</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">វិនាទី​</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"សារជាសម្លេង %1$d "</item>
+        <item quantity="one">សារជាសម្លេង</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">"ផ្ទាំង %1$s។ ធាតុមិនទាន់​អាន %2$d "</item>
+    </plurals>
+</resources>

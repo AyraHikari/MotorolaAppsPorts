@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">무시</string>
+    <string name="notification_dialing">전화</string>
+    <string name="tab_history">최근 사용</string>
+</resources>

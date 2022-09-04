@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">ನಿಮಿಷಗಳು</item>
+        <item quantity="one">ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚೆಗೆ ಉತ್ತರಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚೆಗೆ ಉತ್ತರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚೆಗೆ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚೆಗೆ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚಿನ ಮಿಸ್ಡ್‌ ಕಾಲ್‌</item>
+        <item quantity="one">^1 ಕರೆಗಳು, ^2 ಅವರಿಂದ ಇತ್ತೀಚಿನ ಮಿಸ್ಡ್‌ ಕಾಲ್‌</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 ಕರೆಗಳು, ^2 ಅವರಿಗೆ ಇತ್ತೀಚೆಗೆ ಹೋರಹೋಗುವ ಕರೆಯಾಗಿವೆ</item>
+        <item quantity="one">^1 ಕರೆಗಳು, ^2 ಅವರಿಗೆ ಇತ್ತೀಚೆಗೆ ಹೋರಹೋಗುವ ಕರೆಯಾಗಿವೆ</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">ಸೆಕೆಂಡ್‌ಗಳು</item>
+        <item quantity="one">ಸೆಕೆಂಡ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ಈ ಧ್ವನಿಮೇಲ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ? &lt;/b></item>
+        <item quantity="one">&lt;b>ಈ ಧ್ವನಿಮೇಲ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ಧ್ವನಿಮೇಲ್‌ಗಳು</item>
+        <item quantity="one">%1$d ಧ್ವನಿಮೇಲ್‌ಗಳು</item>
+    </plurals>
+</resources>

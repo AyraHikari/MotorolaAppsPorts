@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_content_rl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/prc_greeting_add_image_margin" android:src="@drawable/prc_ic_greeting_add" android:tint="@color/prc_record_greeting_dialog_close_color" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_size" android:textColor="@color/prc_text_primary_color" android:gravity="center|left" android:id="@id/item_title_tv" android:paddingLeft="@dimen/prc_greeting_add_text_margin_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/prc_voicemail_text_margin_left" android:text="@string/prc_voicemail_Record_add" />
+        <TextView android:gravity="center|left" android:id="@id/item_summery_tv" android:paddingLeft="@dimen/prc_greeting_add_text_margin_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/prc_voicemail_text_margin_left" android:text="@string/prc_voicemail_Record_max_tips" style="@style/Prc_Voicemail_Guide_Content" />
+    </LinearLayout>
+</RelativeLayout>

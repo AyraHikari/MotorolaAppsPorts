@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_history_lt" android:id="@id/menu_history" android:title="@string/action_menu_call_history_description" />
+    <item android:id="@id/menu_clear_frequents" android:title="@string/menu_clear_frequents" />
+    <item android:id="@id/menu_call_settings" android:title="@string/dialer_settings_label" />
+    <item android:id="@id/menu_simulator_submenu" android:title="@string/simulator_submenu_label" />
+</menu>

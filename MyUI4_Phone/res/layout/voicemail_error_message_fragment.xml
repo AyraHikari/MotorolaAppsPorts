@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center_vertical" android:orientation="vertical" android:id="@id/error_card" style="@style/CallLogCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/error_card_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="@dimen/alert_main_padding" android:paddingBottom="@dimen/alert_main_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_main_padding" android:paddingEnd="@dimen/alert_main_padding">
+            <ImageView android:layout_gravity="top" android:id="@id/voicemail_promo_card_icon" android:layout_width="@dimen/voicemail_promo_card_icon_size" android:layout_height="@dimen/voicemail_promo_card_icon_size" android:src="@drawable/ic_voicemail_error_24px" android:importantForAccessibility="no" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/voicemail_promo_card_main_padding">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/error_card_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/voicemail_promo_card_title_padding" style="@style/Dialer.TextAppearance.Header2" />
+                <TextView android:id="@id/error_card_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/voicemail_promo_card_line_spacing" style="@style/Dialer.TextAppearance.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:paddingTop="@dimen/voicemail_promo_card_action_vertical_padding" android:paddingBottom="@dimen/voicemail_promo_card_action_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/voicemail_promo_card_action_end_padding">
+            <TextView android:id="@id/secondary_action_raised" android:background="@drawable/background_rounded_corners" android:clickable="true" android:nextFocusForward="@id/secondary_action" android:paddingEnd="@dimen/alert_action_between_padding" android:layout_marginEnd="8.0dip" style="@style/RaisedErrorActionStyle" />
+            <TextView android:id="@id/secondary_action" android:background="@drawable/background_rounded_corners" android:nextFocusForward="@id/primary_action" android:paddingEnd="@dimen/voicemail_promo_card_action_between_padding" style="@style/ErrorActionStyle" />
+            <TextView android:id="@id/primary_action" android:background="@drawable/background_rounded_corners" android:nextFocusForward="@id/primary_action_raised" style="@style/ErrorActionStyle" />
+            <TextView android:id="@id/primary_action_raised" android:background="@drawable/background_rounded_corners" android:clickable="true" android:nextFocusForward="@id/promo_card" style="@style/RaisedErrorActionStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

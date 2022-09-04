@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical" >
+     <CheckBox
+         android:id="@+id/cb_isShow"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/prc_greeting_add_image_margin"
+         android:layout_marginLeft="@dimen/prc_voicemail_box_margin_left"
+         android:text="@string/prc_voicemail_show_again"
+         />
+ </LinearLayout>

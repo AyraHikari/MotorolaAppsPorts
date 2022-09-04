@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="180.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/audioroute_back" android:text="@string/rtt_button_back" android:drawableStart="@drawable/quantum_ic_arrow_back_vd_theme_24" style="@style/RttButton" />
+    <View android:background="@color/dialer_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/audioroute_bluetooth" android:text="@string/audioroute_bluetooth" android:drawableStart="@drawable/quantum_ic_bluetooth_audio_vd_theme_24" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/audioroute_speaker" android:text="@string/audioroute_speaker" android:drawableStart="@drawable/quantum_ic_volume_up_vd_theme_24" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/audioroute_earpiece" android:text="@string/audioroute_phone" android:drawableStart="@drawable/quantum_ic_phone_in_talk_vd_theme_24" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/audioroute_headset" android:text="@string/audioroute_headset" android:drawableStart="@drawable/quantum_ic_headset_vd_theme_24" style="@style/RttButton" />
+</LinearLayout>

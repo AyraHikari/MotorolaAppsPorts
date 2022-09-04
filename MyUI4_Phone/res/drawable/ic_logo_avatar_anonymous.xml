@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/product_logo_avatar_anonymous_white_color_120" android:tint="?android:colorBackground" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

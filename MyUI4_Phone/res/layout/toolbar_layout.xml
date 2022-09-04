@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.main.impl.toolbar.MainToolbar android:background="@color/prc_default_view_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.dialer.main.impl.toolbar.SearchBarView android:id="@id/search_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/search_bar_margin" android:minHeight="@dimen/collapsed_search_bar_height">
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_box_collapsed" android:background="?colorBackgroundDialpad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/expanded_search_bar" />
+        </com.android.dialer.main.impl.toolbar.SearchBarView>
+        <com.android.dialer.app.list.RemoveView android:layout_gravity="center_vertical" android:id="@id/remove_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/search_bar_margin" android:contentDescription="@string/main_remove_contact" android:importantForAccessibility="no">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/remove_view_content" android:background="?android:colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/remove_view_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/quantum_ic_close_vd_theme_24" android:tint="?android:textColorPrimary" />
+                <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/remove_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_remove_contact" />
+            </LinearLayout>
+        </com.android.dialer.app.list.RemoveView>
+        <ImageButton android:layout_gravity="end|center" android:id="@id/main_options_menu_button" android:background="@drawable/btn_dialpad_key_delete" android:padding="@dimen/search_bar_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_more_vert_vd_theme_24" android:scaleType="center" android:tint="?colorIcon" android:contentDescription="@string/action_menu_overflow_description" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/prc_text_primary_color" android:layout_gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="" />
+    </FrameLayout>
+</com.android.dialer.main.impl.toolbar.MainToolbar>

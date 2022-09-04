@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_min_height" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/photo" android:padding="@dimen/search_photo_padding" android:clickable="false" android:layout_width="@dimen/search_row_height" android:layout_height="@dimen/search_row_height" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contact_info_container_margin" android:layout_toStartOf="@id/call_to_action" android:layout_toEndOf="@id/photo">
+        <com.android.dialer.widget.BidiTextView android:textColor="@color/prc_text_primary_color" android:gravity="start|center" android:id="@id/primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="@style/Dialer.TextAppearance.Primary" />
+        <com.android.dialer.widget.BidiTextView android:gravity="start|center" android:id="@id/secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="@style/Dialer.TextAppearance.Secondary" />
+    </LinearLayout>
+    <ImageView android:id="@id/call_to_action" android:padding="@dimen/call_to_action_padding" android:visibility="gone" android:layout_width="@dimen/search_row_height" android:layout_height="@dimen/search_row_height" android:scaleType="center" android:tint="?colorIcon" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/work_icon" android:padding="@dimen/call_to_action_padding" android:visibility="gone" android:layout_width="@dimen/search_row_height" android:layout_height="@dimen/search_row_height" android:src="@drawable/ic_work_profile" android:scaleType="centerInside" android:tint="?colorIcon" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

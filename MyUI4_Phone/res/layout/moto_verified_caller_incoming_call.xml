@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:paddingTop="@dimen/moto_verified_caller_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:textColor="@color/verified_caller_text_color" android:id="@id/verified_caller" android:paddingBottom="@dimen/moto_verified_caller_text_padding_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verified_caller" android:drawablePadding="8.0dip" />
+</LinearLayout>

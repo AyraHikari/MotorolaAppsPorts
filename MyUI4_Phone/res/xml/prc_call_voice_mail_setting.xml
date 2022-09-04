@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/prc_auto_answer_when_to_turn_on" android:key="when_to_turn_on" android:order="1" />
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/prc_auto_answer_who_can_leave_voice_mail" android:key="who_can_leave" android:order="3" />
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/prc_auto_answer_voice_mail_greeting" android:key="voicemail_greeting" android:order="5" />
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/prc_auto_answer_voice_mail_duration" android:key="voicemail_duration" android:order="6" />
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/prc_auto_answer_delay_auto_answer" android:key="delay_auto_answer" android:order="7" />
+    <com.android.dialer.app.prcrecording.views.PrcVoicemailTipsPreference android:icon="@drawable/prc_ic_voicemail_tips_info" android:persistent="false" android:key="PrcVoicemailTipsPreference" android:summary="@string/prc_voicemail_setting_single_tips" android:order="8" />
+</PreferenceScreen>

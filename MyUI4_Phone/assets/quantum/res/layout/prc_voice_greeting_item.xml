@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_content_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/prc_greeting_add_text_margin_left"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginTop="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginEnd="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginBottom="@dimen/prc_greeting_add_image_margin" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/prc_voicemail_text_margin_left"
+            android:layout_marginTop="@dimen/prc_greeting_summery_margin_top"
+            android:layout_toLeftOf="@+id/play_imageView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/prc_greeting_add_text_margin_left"
+                android:gravity="left|center"
+                android:textColor="@color/prc_text_primary_color"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:id="@+id/item_summery_tv"
+                style="@style/Prc_Voicemail_Guide_Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/prc_greeting_add_text_margin_left"
+                android:layout_marginTop="@dimen/prc_greeting_summery_margin_top" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/play_imageView"
+            android:layout_width="@dimen/prc_greeting_play_size"
+            android:layout_height="@dimen/prc_greeting_play_size"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_actionMore" />
+
+
+        <ImageView
+            android:id="@+id/iv_actionMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginTop="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginEnd="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginBottom="@dimen/prc_greeting_add_image_margin"
+            android:src="@drawable/prc_ic_voice_more_action"
+            android:tint="@color/prc_record_greeting_dialog_close_color" />
+
+    </RelativeLayout>
+
+</LinearLayout>

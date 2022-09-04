@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_avatar_size">100.0dip</dimen>
+    <dimen name="answer_importance_margin_bottom">8.0dip</dimen>
+    <dimen name="two_button_bottom_padding">60.0dip</dimen>
+</resources>

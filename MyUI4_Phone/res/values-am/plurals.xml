@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">ደቂቃዎች</item>
+        <item quantity="one">ደቂቃዎች</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 ጥሪዎች፣ የቅርብ ጊዜው ከ ^2 የተመለሰ ጥሪ ነው</item>
+        <item quantity="one">^1 ጥሪዎች፣ የቅርብ ጊዜው ከ ^2 የተመለሰ ጥሪ ነው</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 ጥሪዎች፣ የቅርብ ጊዜው የታገደ ጥሪ ከ ^2 ነው</item>
+        <item quantity="one">^1 ጥሪዎች፣ የቅርብ ጊዜው የታገደ ጥሪ ከ ^2 ነው</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 ጥሪዎች፣ የቅርብ ጊዜ ከ^2 ያመለጠ ጥሪ ነው</item>
+        <item quantity="one">^1 ጥሪዎች፣ የቅርብ ጊዜው ከ ^2 ያመለጠ ጥሪ ነው</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 ጥሪዎች፣ የቅርብ ጊዜው ወጪ ጥሪ ወደ ^2 ነው</item>
+        <item quantity="one">^1 ጥሪዎች፣ የቅርብ ጊዜው ወጪ ጥሪ ወደ ^2 ነው</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">ሰከንዶች</item>
+        <item quantity="one">ሰከንዶች</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>እነዚህ የድምፅ መልዕክቶች ይሰረዙ? &lt;/b></item>
+        <item quantity="one">&lt;b>እነዚህ የድምፅ መልዕክቶች ይሰረዙ? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d የድምፅ መልዕክቶች</item>
+        <item quantity="one">%1$d የድምፅ መልዕክቶች</item>
+    </plurals>
+</resources>

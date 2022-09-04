@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">минут</item>
+        <item quantity="one">минут</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 қоңырау, соңғы ^2 шалған қоңырауға жауап берілген</item>
+        <item quantity="one">^2 шалған ^1 қоңырауға жауап берілген</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 қоңырау, соңғы ^2 шалған қоңырау бөгелген</item>
+        <item quantity="one">^2 шалған ^1 қоңырау бөгелген</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 қоңырау, соңғы ^2 шалған қоңырау қабылданбаған</item>
+        <item quantity="one">^2 шалған ^1 қоңырау</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 қоңырау, соңғы шығыс қоңырауын қабылдаушы: ^2</item>
+        <item quantity="one">^1 шығыс қоңырауын қабылдаушы: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунд</item>
+        <item quantity="one">секунд</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Осы дауыстық хабарларды жою қажет пе? &lt;/b></item>
+        <item quantity="one">&lt;b>Осы дауыстық хабарды жою қажет пе? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңа хабарландыру</item>
+        <item quantity="one">%d жаңа хабарландыру</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d дауыстық хабар</item>
+        <item quantity="one">Дауыстық хабар</item>
+    </plurals>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/pill_stroke">
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="0.0dip" android:right="1.0dip" android:bottom="0.0dip" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#102c3558" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="0.0dip" android:right="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#202c3558" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#382c3558" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="1.0dip" />
+            <solid android:color="#582c3558" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/pill_background" />
+</layer-list>

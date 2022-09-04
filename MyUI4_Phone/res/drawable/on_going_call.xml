@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_01" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_02" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_03" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_04" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_05" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_06" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_07" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_08" />
+    <item android:duration="200" android:drawable="@drawable/ic_ongoing_phone_24px_09" />
+</animation-list>

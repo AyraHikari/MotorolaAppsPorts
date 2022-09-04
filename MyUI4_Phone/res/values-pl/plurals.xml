@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minuty</item>
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">Połączenia: ^1, ostatnie to połączenie odebrane od ^2</item>
+        <item quantity="one">^1 połączenie odebrane od ^2</item>
+        <item quantity="few">Połączenia: ^1, ostatnie to połączenie odebrane od ^2</item>
+        <item quantity="many">Połączenia: ^1, ostatnie to połączenie odebrane od ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">Połączenia: ^1, ostatnie to połączenie zablokowane od ^2</item>
+        <item quantity="one">^1 połączenie zablokowane od ^2</item>
+        <item quantity="few">Połączenia: ^1, ostatnie to połączenie zablokowane od ^2</item>
+        <item quantity="many">Połączenia: ^1, ostatnie to połączenie zablokowane od ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">Połączenia: ^1, ostatnie to połączenie nieodebrane od ^2</item>
+        <item quantity="one">^1 połączenie nieodebrane od ^2</item>
+        <item quantity="few">Połączenia: ^1, ostatnie to połączenie nieodebrane od ^2</item>
+        <item quantity="many">Połączenia: ^1, ostatnie to połączenie nieodebrane od ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">Połączenia: ^1, ostatnie to połączenie wychodzące do ^2</item>
+        <item quantity="one">^1 połączenie wychodzące do ^2</item>
+        <item quantity="few">Połączenia: ^1, ostatnie to połączenie wychodzące do ^2</item>
+        <item quantity="many">Połączenia: ^1, ostatnie to połączenie wychodzące do ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekundy</item>
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekundy</item>
+        <item quantity="many">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Usunąć te wiadomości głosowe? &lt;/b></item>
+        <item quantity="one">&lt;b>Usunąć tę wiadomość głosową? &lt;/b></item>
+        <item quantity="few">&lt;b>Usunąć te wiadomości głosowe? &lt;/b></item>
+        <item quantity="many">&lt;b>Usunąć te wiadomości głosowe? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+        <item quantity="few">min</item>
+        <item quantity="many">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">s</item>
+        <item quantity="one">s</item>
+        <item quantity="few">s</item>
+        <item quantity="many">s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" Wiadomości głosowe: %1$d "</item>
+        <item quantity="one">Wiadomość głosowa</item>
+        <item quantity="few">" %1$d wiadomości głosowe "</item>
+        <item quantity="many">" %1$d wiadomości głosowych "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Karta %1$s. %2$d nieprzeczytanego elementu. "</item>
+        <item quantity="one">" Karta %1$s. %2$d nieprzeczytany element. "</item>
+        <item quantity="few">" Karta %1$s. %2$d nieprzeczytane elementy. "</item>
+        <item quantity="many">" Karta %1$s. %2$d nieprzeczytanych elementów. "</item>
+    </plurals>
+</resources>

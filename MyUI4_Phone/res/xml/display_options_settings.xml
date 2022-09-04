@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="display_option_settings_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/contact_sort_order_entries" android:title="@string/display_options_sort_list_by" android:key="@string/display_options_sort_list_by_key" android:summary="%s" android:defaultValue="@string/display_options_sort_by_given_name_value" android:dialogTitle="@string/display_options_sort_list_by" android:entryValues="@array/contact_sort_order_values" />
+    <ListPreference android:entries="@array/contact_display_order_entries" android:title="@string/display_options_view_names_as" android:key="@string/display_options_view_names_as_key" android:summary="%s" android:defaultValue="@string/display_options_view_given_name_first_value" android:dialogTitle="@string/display_options_view_names_as" android:entryValues="@array/contact_display_order_values" />
+    <ListPreference android:entries="@array/dialer_theme_entries" android:title="@string/dialer_theme_title" android:key="@string/display_options_dialer_theme_preference" android:summary="@string/dialer_theme_summary" android:defaultValue="@string/dialer_theme_system_default_value" android:dialogTitle="@string/dialer_theme_dialog_title" android:entryValues="@array/dialer_theme_entries_values" />
+</PreferenceScreen>

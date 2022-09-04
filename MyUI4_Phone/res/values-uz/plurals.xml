@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">daqiqa</item>
+        <item quantity="one">daqiqa</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^2: ^1 ta chaqiruv. Oxirgisiga javob berildi.</item>
+        <item quantity="one">^2: ^1 ta javob berilgan chaqiruv</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^2: ^1 ta chaqiruv. Oxirgisi bloklandi.</item>
+        <item quantity="one">^2: ^1 ta bloklangan chaqiruv</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^2: ^1 ta chaqiruv. Oxirgisi javobsiz.</item>
+        <item quantity="one">^2: ^1 ta javobsiz chaqiruv</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^2: ^1 ta chaqiruv. Oxirigisi chiquvchi.</item>
+        <item quantity="one">^2: ^1 ta chiquvchi chaqiruv</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">soniya</item>
+        <item quantity="one">soniya</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Bu ovozli xabarlar o‘chirib tashlansinmi? &lt;/b></item>
+        <item quantity="one">&lt;b>Bu ovozli xabar o‘chirib tashlansinmi? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ta ovozli xabar</item>
+        <item quantity="one">Ovozli xabar</item>
+    </plurals>
+</resources>

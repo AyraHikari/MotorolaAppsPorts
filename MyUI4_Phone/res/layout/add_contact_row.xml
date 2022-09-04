@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/click_target" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/row_top_bottom_padding" android:paddingBottom="@dimen/row_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="@dimen/row_start_padding" android:layout_marginStart="@dimen/header_width" android:layout_marginEnd="@dimen/row_end_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo" android:layout_width="@dimen/photo_size" android:layout_height="@dimen/photo_size" android:src="@drawable/quantum_ic_person_add_white_24" android:scaleType="center" android:tint="?android:colorAccent" />
+    <TextView android:gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_contacts_empty_add_contact_action" android:paddingStart="@dimen/text_padding_start" android:paddingEnd="@dimen/text_padding_end" style="@style/Dialer.TextAppearance.Secondary.Inverse" />
+</LinearLayout>

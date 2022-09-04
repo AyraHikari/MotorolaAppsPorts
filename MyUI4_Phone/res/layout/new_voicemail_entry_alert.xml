@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/voicemail_alert_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="@dimen/alert_main_padding" android:paddingBottom="@dimen/alert_main_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_main_padding" android:paddingEnd="@dimen/alert_main_padding">
+        <ImageView android:layout_gravity="top" android:id="@id/voicemail_alert_icon" android:layout_width="@dimen/voicemail_promo_card_icon_size" android:layout_height="@dimen/voicemail_promo_card_icon_size" android:src="@drawable/ic_voicemail_error_24px" android:importantForAccessibility="no" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/voicemail_promo_card_main_padding">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/voicemail_alert_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/voicemail_promo_card_title_padding" android:text="Voicemail Alert" style="@style/Dialer.TextAppearance.Header2" />
+            <TextView android:id="@id/voicemail_alert_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This is a voicemail alert message." android:lineSpacingExtra="@dimen/voicemail_promo_card_line_spacing" style="@style/Dialer.TextAppearance.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/voicemail_alert_button" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <Button android:textColor="?android:colorPrimary" android:id="@id/voicemail_alert_secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TosButtonStyle" />
+        <Button android:textColor="?android:colorPrimary" android:id="@id/voicemail_alert_primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TosButtonStyle" />
+    </LinearLayout>
+    <View android:background="#12000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

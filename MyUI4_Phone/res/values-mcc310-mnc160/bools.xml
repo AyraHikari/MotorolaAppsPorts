@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="forbid_native_vvm">true</bool>
+    <bool name="ftr_6478_tmo_nvvm">true</bool>
+</resources>

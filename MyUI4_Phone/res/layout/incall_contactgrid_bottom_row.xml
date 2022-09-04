@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/contactgrid_workIcon" android:src="@drawable/quantum_ic_enterprise_vd_theme_24" style="@style/BottomRowIcon" />
+    <ImageView android:id="@id/contactgrid_hdIcon" android:visibility="gone" style="@style/BottomRowIcon" />
+    <ImageView android:id="@id/contactgrid_forwardIcon" android:src="@drawable/quantum_ic_forward_vd_theme_24" style="@style/BottomRowIcon" />
+    <TextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:id="@id/contactgrid_forwardNumber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageView android:id="@id/contactgrid_spamIcon" android:src="@drawable/quantum_ic_report_vd_theme_24" style="@style/BottomRowIcon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/contactgrid_bottom_text_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dual_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:tint="@color/prc_incall_grid_text_color" android:tintMode="src_in" />
+        <com.android.dialer.widget.BidiTextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/contactgrid_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/contactgrid_bottom_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <Chronometer android:textAppearance="@style/Dialer.Incall.TextAppearance" android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/contactgrid_bottom_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

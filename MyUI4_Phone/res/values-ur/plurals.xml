@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">منٹس</item>
+        <item quantity="one">منٹ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے جواب دی گئی کال ہے</item>
+        <item quantity="one">^2 کی جانب سے ^1 جواب دی گئی کالز</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے مسدود کردہ کال ہے</item>
+        <item quantity="one">^2 کی جانب سے ^1 مسدود کردہ کال</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کی جانب سے چھوٹی ہوئی کال ہے</item>
+        <item quantity="one">^2 کی جانب سے ^1 چھوٹی ہوئی کال</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 کالز، تازہ ترین ^2 کو باہر جانے والی کال ہے</item>
+        <item quantity="one">^2 کو باہر جانے والی ^1 کال</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">سیکنڈز</item>
+        <item quantity="one">سیکنڈ</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ان صوتی میلز کو حذف کریں؟ &lt;/b></item>
+        <item quantity="one">&lt;b>اس صوتی میل کو حذف کریں؟ &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">منٹ</item>
+        <item quantity="one">منٹ</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">سیکنڈ</item>
+        <item quantity="one">سیکنڈ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d صوتی میلز "</item>
+        <item quantity="one">صوتی میل</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s ٹیب۔ %2$d بغیر پڑھی ہوئی آئٹمز۔ "</item>
+        <item quantity="one">" %1$s ٹیب۔ %2$d بغیر پڑھی ہوئی آئٹم۔ "</item>
+    </plurals>
+</resources>

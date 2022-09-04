@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">මිනිත්තු</item>
+        <item quantity="one">මිනිත්තු</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් පිළිතුරු දුන් ඇමතුමකි</item>
+        <item quantity="one">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් පිළිතුරු දුන් ඇමතුමකි</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් අවහිර කළ ඇමතුමකි</item>
+        <item quantity="one">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් අවහිර කළ ඇමතුමකි</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් මගහැරුණු ඇමතුමකි</item>
+        <item quantity="one">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙතින් මගහැරුණු ඇමතුමකි</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙත යන ඇමතුමකි</item>
+        <item quantity="one">ඇමතුම් ^1කි, නවතම එක වන්නේ ^2 වෙත යන ඇමතුමකි</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">තත්පර</item>
+        <item quantity="one">තත්පර</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>මෙම හඬ තැපැල් මකන්නද? &lt;/b></item>
+        <item quantity="one">&lt;b>මෙම හඬ තැපැල් මකන්නද? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">විනා</item>
+        <item quantity="one">විනා</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">තත්</item>
+        <item quantity="one">තත්</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"හඬ තැපැල් %1$d "</item>
+        <item quantity="one">"හඬ තැපැල් %1$d "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s ටැබය. නොකියවූ අයිතම %2$d. "</item>
+        <item quantity="one">" %1$s ටැබය. නොකියවූ අයිතම %2$d. "</item>
+    </plurals>
+</resources>

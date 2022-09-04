@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minutit</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 kõnet, viimane on vastatud kõne kasutajalt ^2</item>
+        <item quantity="one">^1 vastatud kõne kasutajalt ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 kõnet, viimane on blokeeritud kõne kasutajalt ^2</item>
+        <item quantity="one">^1 blokeeritud kõne kasutajalt ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 kõnet, viimane on vastamata kõne kasutajalt ^2</item>
+        <item quantity="one">^1 vastamata kõne kasutajalt ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 kõnet, viimane on väljuv kõne kasutajale ^2</item>
+        <item quantity="one">^1 väljuv kõne kasutajale ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekundit</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Kas kustutada need kõnepostisõnumid? &lt;/b></item>
+        <item quantity="one">&lt;b>Kas kustutada see kõnepostisõnum? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uut märguannet</item>
+        <item quantity="one">%d uus märguanne</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d kõneposti teadet</item>
+        <item quantity="one">Kõneposti teade</item>
+    </plurals>
+</resources>

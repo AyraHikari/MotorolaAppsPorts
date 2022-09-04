@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_icon_voicemail_actived" />
+    <item android:state_selected="false" android:drawable="@drawable/quantum_ic_voicemail_vd_theme_24" />
+</selector>

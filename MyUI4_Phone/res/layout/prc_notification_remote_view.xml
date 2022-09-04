@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="160.0dip" android:paddingStart="@dimen/call_come_notify_left_padding" android:paddingEnd="@dimen/call_come_notify_right_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_come_notify_top_margin">
+        <ImageView android:textColor="@color/settings_text_color_primary" android:id="@id/iv_smallIcon" android:layout_width="@dimen/call_come_notify_small_icon_size" android:layout_height="@dimen/call_come_notify_small_icon_size" android:src="@drawable/prc_ic_notify_incoming_call" android:tint="@color/bubble_highlight_item" />
+        <TextView android:textSize="@dimen/call_come_notify_text_tertiary_size" android:textColor="@color/prc_text_secondary_color" android:id="@id/tv_smallType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/call_come_notify_inner_margin_size" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/call_come_notify_content_height_size" android:layout_marginTop="@dimen/call_come_notify_top_margin">
+        <ImageView android:id="@id/iv_avatar" android:layout_width="@dimen/call_come_notify_avatar_size" android:layout_height="@dimen/call_come_notify_avatar_size" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/iv_avatar">
+            <TextView android:textSize="@dimen/call_come_notify_text_primary_size" android:textStyle="bold" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:id="@id/tv_caller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/call_come_notify_text_secondary_size" android:textColor="@color/prc_text_secondary_color" android:id="@id/tv_callerLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_caller" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/remote_action_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

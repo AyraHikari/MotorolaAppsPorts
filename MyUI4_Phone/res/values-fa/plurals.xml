@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">دقیقه</item>
+        <item quantity="one">دقیقه</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 تماس، آخرین مورد تماس پاسخ داده شده‌ای از ^2 است</item>
+        <item quantity="one">^1 تماس، آخرین مورد تماس پاسخ داده شده‌ای از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 تماس، آخرین مورد تماس مسدودشده‌ای از ^2 است</item>
+        <item quantity="one">^1 تماس، آخرین مورد تماس مسدودشده‌ای از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 تماس، آخرین مورد تماس بی‌پاسخی از ^2 است</item>
+        <item quantity="one">^1 تماس، آخرین مورد تماس بی‌پاسخی از ^2 است</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 تماس، آخرین مورد تماسی خروجی با ^2 است</item>
+        <item quantity="one">^1 تماس، آخرین مورد تماسی خروجی با ^2 است</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">ثانیه</item>
+        <item quantity="one">ثانیه</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>این پست‌های صوتی حذف شوند؟ &lt;/b></item>
+        <item quantity="one">&lt;b>این پست‌های صوتی حذف شوند؟ &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">دقیقه</item>
+        <item quantity="one">دقیقه</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">ثانیه</item>
+        <item quantity="one">ثانیه</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d پست صوتی "</item>
+        <item quantity="one">" %1$d پست صوتی "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" برگه «%1$s». %2$d مورد خوانده‌نشده. "</item>
+        <item quantity="one">" برگه «%1$s». %2$d مورد خوانده‌نشده. "</item>
+    </plurals>
+</resources>

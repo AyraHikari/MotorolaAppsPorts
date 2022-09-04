@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/rtt_banner_height" android:elevation="3.0dip">
+        <ImageButton android:id="@id/rtt_end_call_button" android:background="@android:color/transparent" android:padding="@dimen/rtt_banner_button_padding" android:layout_width="@dimen/rtt_banner_height" android:layout_height="@dimen/rtt_banner_height" android:src="@drawable/quantum_ic_call_end_vd_theme_24" android:scaleType="fitXY" android:tint="@color/dialer_end_call_button_color" android:contentDescription="@string/incall_content_description_end_call" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+        <ImageView android:id="@id/rtt_vad" android:paddingBottom="2.0dip" android:visibility="@integer/rtt_audio_indication_visibility" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/ic_inactive_signal" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dip" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/rtt_name_or_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+            <Chronometer android:textSize="14.0dip" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:id="@id/rtt_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <ImageButton android:id="@id/rtt_overflow_button" android:background="@android:color/transparent" android:padding="@dimen/rtt_banner_button_padding" android:layout_width="@dimen/rtt_banner_height" android:layout_height="@dimen/rtt_banner_height" android:src="@drawable/quantum_ic_more_vert_vd_theme_24" android:scaleType="fitXY" android:tint="?android:textColorPrimary" android:contentDescription="@string/content_description_overflow" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/rtt_on_hold_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="?android:colorPrimary" android:gravity="center_vertical" android:id="@id/rtt_status_banner" android:background="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</LinearLayout>

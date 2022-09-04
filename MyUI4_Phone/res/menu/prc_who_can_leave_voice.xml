@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/anyone" android:orderInCategory="1" android:title="@string/prc_menu_anyone" />
+    <item android:id="@id/all_contact" android:orderInCategory="1" android:title="@string/prc_menu_all_contacts" />
+    <item android:id="@id/custom" android:orderInCategory="1" android:title="@string/prc_menu_custom" />
+</menu>

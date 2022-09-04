@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:minHeight="?attr/listPreferredItemHeightSmall"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <com.android.internal.widget.PreferenceImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginLeft="@dimen/prc_greeting_add_image_margin"
+            android:src="@drawable/prc_ic_voicemail_tips_info"
+            android:tint="@color/prc_record_greeting_dialog_close_color" />
+
+
+        <TextView
+            android:id="@+id/summary"
+            style="@style/Prc_Voicemail_Guide_Content_Secondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/prc_greeting_add_image_margin"
+            android:paddingRight="@dimen/prc_greeting_add_image_margin"
+            android:layout_marginTop="@dimen/prc_greeting_add_text_margin_left"
+            android:layout_marginBottom="@dimen/prc_greeting_add_text_margin_left"
+            android:ellipsize="end"
+            android:text="@string/prc_voicemail_setting_single_tips" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

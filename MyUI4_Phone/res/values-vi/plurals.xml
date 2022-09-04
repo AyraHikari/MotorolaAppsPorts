@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">phút</item>
+        <item quantity="one">phút</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 cuộc gọi, cuộc gọi gần đây nhất là cuộc gọi đã nhận từ ^2</item>
+        <item quantity="one">^1 cuộc gọi đã nhận từ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 cuộc gọi, cuộc gọi gần đây nhất là cuộc gọi đã chặn từ ^2</item>
+        <item quantity="one">^1 cuộc gọi đã chặn từ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 cuộc gọi, cuộc gọi gần đây nhất là cuộc gọi nhỡ từ ^2</item>
+        <item quantity="one">^1 cuộc gọi nhỡ từ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 cuộc gọi, cuộc gọi gần đây nhất là cuộc gọi đi tới ^2</item>
+        <item quantity="one">^1 cuộc gọi đi tới ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">giây</item>
+        <item quantity="one">giây</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Xóa các thư thoại này? &lt;/b></item>
+        <item quantity="one">&lt;b>Xóa thư thoại này? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">giây</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d thông báo mới</item>
+        <item quantity="one">%d thông báo mới</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d Thư thoại "</item>
+        <item quantity="one">Thư thoại</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Tab %1$s. %2$d mục chưa đọc. "</item>
+    </plurals>
+</resources>

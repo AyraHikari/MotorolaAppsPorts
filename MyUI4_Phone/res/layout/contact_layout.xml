@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_layout_root" android:background="#ffffffff" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.widget.ContactPhotoView android:id="@id/contact_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.dialer.widget.BidiTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+        <com.android.dialer.widget.BidiTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/empty_list_view_image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:gravity="center|top" android:id="@id/empty_list_view_message" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/empty_list_view_action" android:background="?android:selectableItemBackground" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextActionStyle" />
+    <Space android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</merge>

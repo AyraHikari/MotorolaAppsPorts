@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divider">
+        <LinearLayout android:orientation="vertical" android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <View android:id="@id/divider" android:background="#12000000" android:layout_width="fill_parent" android:layout_height="@dimen/message_divider_height" android:layout_above="@id/edittext_container" />
+    <RelativeLayout android:id="@id/edittext_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <EditText android:textSize="@dimen/message_item_text_size" android:textColor="?android:textColorPrimary" android:textColorHint="?android:textColorHint" android:id="@id/custom_message" android:background="?android:colorBackground" android:padding="@dimen/textview_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/custom_message_hint" android:inputType="textCapSentences|textShortMessage" android:imeOptions="actionSend|flagNoExtractUi" android:textCursorDrawable="@drawable/edittext_custom_cursor" android:layout_toStartOf="@id/count_and_send_container" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/count_and_send_container" android:layout_width="@dimen/send_container_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/textview_item_padding" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/send_message" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_send_white_24" android:tint="@color/dialer_tint_state" />
+            <TextView android:textSize="@dimen/message_remaining_char_text_size" android:textColor="?android:textColorHint" android:id="@id/remaining_characters" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

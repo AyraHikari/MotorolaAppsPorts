@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:cardElevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingTop="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:id="@id/permission_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/business_asset" android:layout_marginEnd="16.0dip" />
+        <TextView android:id="@id/permission_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/search_location_permission" android:lineSpacingMultiplier="1.2" android:layout_toEndOf="@id/permission_image" style="@style/Dialer.TextAppearance.Primary" />
+        <Button android:textColor="?colorTextOnUnthemedDarkBackground" android:id="@id/location_permission_allow" android:background="?android:colorAccent" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_marginTop="18.0dip" android:text="@string/nearby_places_allow" android:layout_below="@id/permission_text" android:layout_alignParentEnd="true" />
+        <Button android:textColor="?android:textColorSecondaryInverse" android:id="@id/location_permission_dismiss" android:background="?android:selectableItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_marginTop="18.0dip" android:text="@string/nearby_places_dismiss" android:layout_below="@id/permission_text" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/location_permission_allow" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

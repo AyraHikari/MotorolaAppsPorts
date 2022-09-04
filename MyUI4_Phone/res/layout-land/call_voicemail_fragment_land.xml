@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/call_log_fragment_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:id="@id/multi_select_select_all_view_content" android:background="?android:colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/select_all_view_icon" android:paddingLeft="@dimen/select_all_icon_padding" android:paddingRight="@dimen/select_all_icon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_baseline_radio_button_unchecked_24px" android:contentDescription="@string/select_all" />
+        <TextView android:textSize="@dimen/select_all_text_size" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:id="@id/select_all_view_text" android:paddingLeft="@dimen/select_all_text_left_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/select_all" android:textAllCaps="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/modal_message_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/call_log_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingTop="-4.0dip" android:paddingBottom="@dimen/floating_action_button_list_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.android.dialer.widget.EmptyContentView android:layout_gravity="center" android:id="@id/empty_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/search_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.dialer.widget.DialerFloatingActionButton android:theme="@style/PrcFloatActionButton" android:layout_gravity="end|bottom|center" android:id="@id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/main_floating_action_button_margin_right" android:layout_marginBottom="16.0dip" android:src="@drawable/prc_home_calllog_keyboard_icon" android:contentDescription="@string/dialpad_button_content_description" />
+    </FrameLayout>
+    <View android:background="@color/prc_line_black_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    <FrameLayout android:id="@id/dialpad_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="10.0dip" />
+</LinearLayout>

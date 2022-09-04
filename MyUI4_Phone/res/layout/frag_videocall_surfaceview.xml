@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/videocall_video_remote" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <TextView android:textAppearance="@style/Dialer.Incall.TextAppearance" android:gravity="center" android:id="@id/videocall_remote_video_off" android:padding="64.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/videocall_remote_video_off" android:drawableTop="@drawable/quantum_ic_videocam_off_white_36" android:drawablePadding="8.0dip" android:layout_centerInParent="true" android:accessibilityTraversalBefore="@id/videocall_speaker_button" android:drawableTint="?colorIcon" />
+    <View android:id="@id/videocall_fullscreen_background" android:background="@color/videocall_overlay_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/videocall_preview_root" style="@style/VideoPreviewHolder">
+        <SurfaceView android:id="@id/videocall_video_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/videocall_video_preview_off_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_videocam_off_vd_theme_24" android:scaleType="center" android:tint="?colorIcon" android:importantForAccessibility="no" android:tintMode="src_in" />
+    </FrameLayout>
+    <ImageView android:id="@id/videocall_video_preview_mute_overlay" android:background="@drawable/videocall_background_circle_white" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="-8.0dip" android:src="@drawable/quantum_ic_mic_off_vd_theme_24" android:scaleType="center" android:tint="@android:color/black" android:layout_alignBottom="@id/videocall_preview_root" android:contentDescription="@string/incall_content_description_muted" android:layout_marginEnd="-8.0dip" android:layout_alignEnd="@id/videocall_preview_root" />
+    <View android:id="@id/videocall_green_screen_background" android:background="@color/videocall_overlay_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/videocall_controls_surfaceview" />
+    <FrameLayout android:layout_gravity="top" android:id="@id/videocall_on_hold_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

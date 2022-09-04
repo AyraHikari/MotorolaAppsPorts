@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/build_version_label" android:key="@string/build_version_key" />
+    <Preference android:persistent="false" android:title="@string/licenseActivityLabel" android:key="@string/open_source_licenses_key" android:summary="@string/open_source_license_detail_label" />
+</PreferenceScreen>

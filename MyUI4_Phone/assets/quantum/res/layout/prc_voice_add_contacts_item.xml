@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/suggested_contact_row"
+    android:background="?android:attr/selectableItemBackground"
+    style="@style/CallLogCardStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Primary area containing the contact badge and caller information -->
+        <LinearLayout
+            android:id="@+id/primary_action_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/call_log_start_margin"
+            android:paddingEnd="@dimen/call_log_outer_margin"
+            android:paddingTop="@dimen/call_log_vertical_padding"
+            android:paddingBottom="@dimen/call_log_vertical_padding"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:focusable="true"
+            android:nextFocusRight="@+id/call_back_action"
+            android:nextFocusLeft="@+id/suggestion_avatar">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top">
+
+                <com.android.dialer.widget.ContactPhotoView
+                    android:id="@+id/suggestion_avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="2dp"
+                    android:nextFocusRight="@id/primary_action_view"
+                    android:focusable="true"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/suggestion_contact_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/call_log_list_item_info_margin_start">
+
+                <com.android.dialer.widget.BidiTextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/call_log_name_margin_bottom"
+                    android:layout_marginEnd="@dimen/call_log_icon_margin"
+                    android:textColor="@color/prc_text_primary_color"
+                    style="@style/Dialer.TextAppearance.Primary.Ellipsize"/>
+
+                <TextView
+                    android:id="@+id/type_and_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/call_log_icon_margin"
+                    android:layout_gravity="center_vertical"
+                    style="Dialer.TextAppearance.Tertiary.Ellipsize"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/primary_action_button"
+                android:layout_width="@dimen/call_log_list_item_primary_action_dimen"
+                android:layout_height="@dimen/call_log_list_item_primary_action_dimen"
+                android:layout_gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="center"
+                android:tint="?colorIcon"
+                android:src="@drawable/prc_record_contact_delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

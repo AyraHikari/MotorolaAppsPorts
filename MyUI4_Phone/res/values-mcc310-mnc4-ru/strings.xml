@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">Сброс</string>
+    <string name="notification_dialing">ВЫЗОВ</string>
+    <string name="tab_history">Недавнее</string>
+</resources>

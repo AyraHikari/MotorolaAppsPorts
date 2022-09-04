@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minutt</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 anrop – det siste er et besvart anrop fra ^2</item>
+        <item quantity="one">^1 besvart anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 anrop – det siste er et blokkert anrop fra ^2</item>
+        <item quantity="one">^1 blokkert anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 anrop – det siste er et tapt anrop fra ^2</item>
+        <item quantity="one">^1 tapt anrop fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 anrop – det siste er et utgående anrop til ^2</item>
+        <item quantity="one">^1 utgående anrop til ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekunder</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vil du slette disse talemeldingene? &lt;/b></item>
+        <item quantity="one">&lt;b>Vil du slette denne talemeldingen? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">sekund</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"%1$d talemeldinger "</item>
+        <item quantity="one">talemelding</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s-fanen. %2$d uleste elementer. "</item>
+        <item quantity="one">" %1$s-fanen. %2$d ulest element. "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minute</item>
+        <item quantity="one">minute</item>
+        <item quantity="two">minute</item>
+        <item quantity="few">minute</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 klicev, zadnji od njih je sprejet dohodni klic stika ^2</item>
+        <item quantity="one">^1 klic, zadnji od njih je sprejet dohodni klic stika ^2</item>
+        <item quantity="two">^1 klica, zadnji od njih je sprejet dohodni klic stika ^2</item>
+        <item quantity="few">^1 klici, zadnji od njih je sprejet dohodni klic stika ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 klicev, zadnji od njih je blokiran dohodni klic stika ^2</item>
+        <item quantity="one">^1 klic, zadnji od njih je blokiran dohodni klic stika ^2</item>
+        <item quantity="two">^1 klica, zadnji od njih je blokiran dohodni klic stika ^2</item>
+        <item quantity="few">^1 klici, zadnji od njih je blokiran dohodni klic stika ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 klicev, zadnji od njih je neodgovorjen dohodni klic stika ^2</item>
+        <item quantity="one">^1 klic, zadnji od njih je neodgovorjen dohodni klic stika ^2</item>
+        <item quantity="two">^1 klica, zadnji od njih je neodgovorjen dohodni klic stika ^2</item>
+        <item quantity="few">^1 klici, zadnji od njih je neodgovorjen dohodni klic stika ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 klicev, zadnji od njih je odhodni klic stika ^2</item>
+        <item quantity="one">^1 klic, zadnji od njih je odhodni klic stika ^2</item>
+        <item quantity="two">^1 klica, zadnji od njih je odhodni klic stika ^2</item>
+        <item quantity="few">^1 klici, zadnji od njih je odhodni klic stika ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekunde</item>
+        <item quantity="one">sekunde</item>
+        <item quantity="two">sekunde</item>
+        <item quantity="few">sekunde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Želite izbrisati ta sporočila v odzivniku? &lt;/b></item>
+        <item quantity="one">&lt;b>Želite izbrisati ta sporočila v odzivniku? &lt;/b></item>
+        <item quantity="two">&lt;b>Želite izbrisati ta sporočila v odzivniku? &lt;/b></item>
+        <item quantity="few">&lt;b>Želite izbrisati ta sporočila v odzivniku? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+        <item quantity="two">min</item>
+        <item quantity="few">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">s</item>
+        <item quantity="one">s</item>
+        <item quantity="two">s</item>
+        <item quantity="few">s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d sporočil v odzivniku "</item>
+        <item quantity="one">" %1$d sporočilo v odzivniku "</item>
+        <item quantity="two">" %1$d sporočili v odzivniku "</item>
+        <item quantity="few">" %1$d sporočila v odzivniku "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Zavihek »%1$s«. %2$d neprebranih elementov. "</item>
+        <item quantity="one">" Zavihek »%1$s«. %2$d neprebran element. "</item>
+        <item quantity="two">" Zavihek »%1$s«. %2$d neprebrana elementa. "</item>
+        <item quantity="few">" Zavihek »%1$s«. %2$d neprebrani elementi. "</item>
+    </plurals>
+</resources>

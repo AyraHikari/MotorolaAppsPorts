@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_checked="true" android:drawable="@drawable/smallwindow_videocall_button_checked" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="@android:color/white">
+            <item android:gravity="center" android:id="@android:id/mask">
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/white" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/account_filter_header_container" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/list_header_extra_top_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contact_browser_list_header_left_margin" android:layout_marginEnd="@dimen/contact_browser_list_header_right_margin">
+        <TextView android:id="@id/account_filter_header" android:paddingLeft="@dimen/contact_browser_list_item_text_indent" android:paddingStart="@dimen/contact_browser_list_item_text_indent" style="@style/ContactListSeparatorTextViewStyle" />
+    </FrameLayout>
+</FrameLayout>

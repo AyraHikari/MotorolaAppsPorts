@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?android:colorAccent" />
+    <size android:height="@dimen/fast_scroller_container_size" android:width="@dimen/fast_scroller_container_size" />
+    <corners android:topLeftRadius="@dimen/fast_scroller_container_corner_radius" android:topRightRadius="@dimen/fast_scroller_container_corner_radius" android:bottomLeftRadius="@dimen/fast_scroller_bottom_left_corner_radius" android:bottomRightRadius="@dimen/fast_scroller_bottom_right_corner_radius" />
+</shape>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minuten</item>
+        <item quantity="one">minuut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 oproepen, de laatste is een beantwoorde oproep van ^2</item>
+        <item quantity="one">^1 beantwoorde oproep van ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 oproepen, de laatste is een geblokkeerde oproep van ^2</item>
+        <item quantity="one">^1 geblokkeerde oproep van ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 oproepen, de laatste is een gemiste oproep van ^2</item>
+        <item quantity="one">^1 gemiste oproep van ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 oproepen, de laatste is een uitgaande oproep naar ^2</item>
+        <item quantity="one">^1 uitgaande oproep naar ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">seconden</item>
+        <item quantity="one">seconde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Deze voicemails verwijderen? &lt;/b></item>
+        <item quantity="one">&lt;b>Deze voicemail verwijderen? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min.</item>
+        <item quantity="one">min.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">sec.</item>
+        <item quantity="one">sec.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d voicemails "</item>
+        <item quantity="one">Voicemail</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">"Tabblad %1$s. %2$d ongelezen items. "</item>
+        <item quantity="one">"Tabblad %1$s. %2$d ongelezen item. "</item>
+    </plurals>
+</resources>

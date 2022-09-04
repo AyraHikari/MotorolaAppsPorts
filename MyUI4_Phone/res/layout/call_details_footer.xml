@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dialer_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/ec_divider_top_bottom_margin" android:layout_marginBottom="@dimen/ec_divider_top_bottom_margin" />
+    <TextView android:id="@id/call_detail_action_copy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:tint="?colorIcon" android:text="@string/call_details_copy_number" android:drawableStart="@drawable/quantum_ic_content_copy_vd_theme_24" style="@style/CallDetailsActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_edit_before_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:tint="?colorIcon" android:text="@string/call_details_edit_number" android:drawableStart="@drawable/quantum_ic_edit_baseline_vd_theme_24" style="@style/CallDetailsActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_report_caller_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:tint="?colorIcon" android:text="@string/call_details_report_call_id" android:drawableStart="@drawable/quantum_ic_report_vd_theme_24" style="@style/CallDetailsActionItemStyle" />
+    <TextView android:id="@id/call_detail_action_delete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:tint="?colorIcon" android:text="@string/delete" android:drawableStart="@drawable/quantum_ic_delete_vd_theme_24" style="@style/CallDetailsActionItemStyle" />
+</LinearLayout>

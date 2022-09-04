@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rtt_upgrade_info_text">RTT is being requested from %s</string>
+    <string name="upgrade_mo_oneway">One-way camera</string>
+    <string name="upgrade_mo_resume">Show me</string>
+    <string name="upgrade_mo_twoway">Camera</string>
+    <string name="upgrade_mo_voice">Voice only</string>
+</resources>

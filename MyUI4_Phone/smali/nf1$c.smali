@@ -1,0 +1,51 @@
+.class public Lnf1$c;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnf1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "c"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lxf1;Z)Lrf1;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<R:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lxf1<",
+            "TR;>;Z)",
+            "Lrf1<",
+            "TR;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p0, Lrf1;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, p1, p2, v0}, Lrf1;-><init>(Lxf1;ZZ)V
+
+    return-object p0
+.end method

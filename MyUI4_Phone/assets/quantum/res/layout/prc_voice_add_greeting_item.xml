@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_content_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/prc_greeting_add_image_margin"
+        android:src="@drawable/prc_ic_greeting_add"
+        android:tint="@color/prc_record_greeting_dialog_close_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/prc_voicemail_text_margin_left"
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/prc_greeting_add_text_margin_left"
+            android:text="@string/prc_voicemail_Record_add"
+            android:textColor="@color/prc_text_primary_color"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/item_summery_tv"
+            style="@style/Prc_Voicemail_Guide_Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/prc_voicemail_text_margin_left"
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/prc_greeting_add_text_margin_left"
+            android:text="@string/prc_voicemail_Record_max_tips" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

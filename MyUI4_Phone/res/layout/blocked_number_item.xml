@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/caller_information" android:background="@android:color/white" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/blocked_number_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/quick_contact_photo" android:focusable="true" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_marginTop="@dimen/blocked_number_top_margin" android:layout_marginBottom="@dimen/blocked_number_bottom_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/blocked_number_horizontal_margin">
+        <TextView android:id="@id/caller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+        <TextView android:id="@id/caller_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+    </LinearLayout>
+    <ImageView android:id="@id/delete_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/blocked_number_delete_icon_size" android:layout_height="@dimen/blocked_number_delete_icon_size" android:src="@drawable/ic_remove" android:scaleType="center" android:tint="?colorIcon" android:contentDescription="@string/description_blocked_number_list_delete" android:layout_marginEnd="24.0dip" />
+</LinearLayout>

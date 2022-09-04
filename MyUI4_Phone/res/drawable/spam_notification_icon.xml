@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/incall_call_spam_background_color" />
+            <size android:height="@android:dimen/notification_large_icon_height" android:width="@android:dimen/notification_large_icon_width" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/quantum_ic_report_white_36" />
+</layer-list>

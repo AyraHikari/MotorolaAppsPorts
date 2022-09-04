@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/call_setting_mark_unkown_number_title" android:key="pref_mark_number" android:summary="@string/call_setting_mark_unkown_number_summary" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/antispam_classify" />
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/antispam_classify_real_estate_agency" android:key="xui_harass_real_estate_agency_pref_key" />
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/antispam_classify_sell" android:key="xui_harass_sell_pref_key" />
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/antispam_classify_call" android:key="xui_harass_call_pref_key" />
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/antispam_classify_bilk_call" android:key="xui_harass_bilk_call_pref_key" />
+    <com.android.dialer.app.settings.PrcCallsettingSwitchPerference android:title="@string/antispam_classify_insurance" android:key="xui_insurance_call_pref_key" />
+    <PreferenceCategory android:title="@string/block_number_header" />
+    <Preference android:icon="@null" android:title="@string/manage_blocked_numbers_label" android:key="blockedNumbers" />
+</PreferenceScreen>

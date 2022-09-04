@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/textview_item_padding" android:layout_marginRight="@dimen/textview_item_padding" android:layout_marginBottom="@dimen/search_bar_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/search_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/search_box_collapsed" android:background="@drawable/search_bar_background_rounded_corners" android:layout_width="fill_parent" android:layout_height="@dimen/collapsed_search_bar_height" android:layout_margin="2.0dip" android:layout_centerVertical="true" android:elevation="0.0dip">
+            <ImageView android:id="@id/search_magnifying_glass" android:layout_width="@dimen/expanded_search_bar_height" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_search_vd_theme_24" android:scaleType="center" android:tint="?colorIcon" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+            <TextView android:textSize="@dimen/message_item_text_size" android:textColor="@color/prc_search_hearder_text" android:gravity="center|left" android:id="@id/search_box_start_search" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dialer_hint_find_contact" android:layout_toRightOf="@id/search_magnifying_glass" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

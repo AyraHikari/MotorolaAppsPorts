@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_bg" android:paddingLeft="@dimen/sms_padding_horizontal" android:paddingRight="@dimen/sms_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/prc_select_sim_min_width_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/prc_select_sim_pop_height_size">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/sim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/sim_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:id="@id/sim_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/space" android:background="?android:textColorTertiary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

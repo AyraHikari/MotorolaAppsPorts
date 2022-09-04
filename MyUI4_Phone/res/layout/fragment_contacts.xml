@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingTop="@dimen/home_recyclerview_padding_top" android:paddingBottom="@dimen/floating_action_button_list_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.prc.contact.common.widget.PrcSideBarView android:layout_gravity="right" android:id="@id/app_perms_sidebarview" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/sidebar_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sidebar_margin_top" android:layout_marginRight="@dimen/sidebar_margin_right" android:layout_marginBottom="@dimen/sidebar_margin_left" android:layout_alignParentRight="true" />
+    <com.android.dialer.contactsfragment.FastScroller android:id="@id/fast_scroller" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="48.0sp" android:textColor="?android:colorPrimary" android:gravity="center" android:id="@id/fast_scroller_container" android:background="@drawable/fast_scroller_container_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fast_scroller_scroll_bar" />
+        <ImageView android:id="@id/fast_scroller_scroll_bar" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/fast_scroller_scroll_bar" android:layout_alignParentRight="true" />
+    </com.android.dialer.contactsfragment.FastScroller>
+    <include layout="@layout/header" />
+    <com.android.dialer.widget.EmptyContentView android:layout_gravity="center" android:id="@id/empty_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.dialer.widget.DialerFloatingActionButton android:theme="@style/PrcFloatActionButton" android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/main_floating_action_button_margin_right" android:layout_marginBottom="16.0dip" android:src="@drawable/prc_home_contact_add_icon" android:contentDescription="@string/dialpad_button_content_description" />
+    <FrameLayout android:id="@id/search_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

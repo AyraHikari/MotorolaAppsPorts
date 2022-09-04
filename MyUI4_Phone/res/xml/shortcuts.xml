@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_add_contact" android:enabled="true" android:shortcutId="dialer-shortcut-add-contact" android:shortcutShortLabel="@string/dialer_shortcut_add_contact_short" android:shortcutLongLabel="@string/dialer_shortcut_add_contact_long">
+        <intent android:action="android.intent.action.INSERT" android:data="content://com.android.contacts/contacts" />
+    </shortcut>
+</shortcuts>

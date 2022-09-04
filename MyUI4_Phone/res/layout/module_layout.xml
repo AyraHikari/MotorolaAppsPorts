@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/module_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/module_image" android:layout_width="@dimen/contact_actions_image_size" android:layout_height="@dimen/contact_actions_image_size" android:scaleType="center" android:importantForAccessibility="no" android:layout_marginStart="@dimen/contact_actions_image_margin" android:layout_marginEnd="@dimen/contact_actions_image_margin" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/module_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+</LinearLayout>

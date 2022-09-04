@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">मिनेट</item>
+        <item quantity="one">मिनेट</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 कलहरू, पछिल्लो कल ^2 को जवाफस्वरूप दिइएको कल हो</item>
+        <item quantity="one">^2 को जवाफस्वरूप दिइएको ^1 कल</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 कलहरू, पछिल्लो कल ^2 ले रोक लगाएको कल हो</item>
+        <item quantity="one">^2 ले रोक लगाएको ^1 कल</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 कलहरू, पछिल्लो कल ^2 को छुटेको कल हो</item>
+        <item quantity="one">^2 को ^1 छुटेको कल</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 कलहरू, पछिल्लो कल ^2 ले गरेको बहिर्गमन कल हो</item>
+        <item quantity="one">^2 ले गरेको ^1 बहिर्गमन कल</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">सेकेन्ड</item>
+        <item quantity="one">सेकेन्ड</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>यी भ्वाइस मेलहरू मेट्ने हो? &lt;/b></item>
+        <item quantity="one">&lt;b>यो भ्वाइस मेल मेट्ने हो? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नयाँ सूचनाहरू</item>
+        <item quantity="one">%d नयाँ सूचना</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d भ्वाइसमेलहरू</item>
+        <item quantity="one">भ्वाइसमेल</item>
+    </plurals>
+</resources>

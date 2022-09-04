@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/answer_message_margin_start_end" android:paddingEnd="@dimen/answer_message_margin_start_end" android:elevation="@dimen/answer_data_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/spam_container_background" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="204.0dip" android:outlineProvider="background">
+        <ImageView android:id="@id/spam_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:src="@drawable/quantum_ic_image_white_24" android:tint="?colorIcon" />
+        <TextView android:id="@id/spam_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spam_photo_text" style="@style/Dialer.TextAppearance.Secondary2" />
+    </LinearLayout>
+</FrameLayout>

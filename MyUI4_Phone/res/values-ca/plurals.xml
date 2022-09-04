@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minuts</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">"^1 trucades; l'última és una trucada resposta de: ^2"</item>
+        <item quantity="one">^1 trucada resposta de: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">"^1 trucades; l'última és una trucada bloquejada de: ^2"</item>
+        <item quantity="one">^1 trucada bloquejada de: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">"^1 trucades; l'última és una trucada perduda de: ^2"</item>
+        <item quantity="one">^1 trucada perduda de: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">"^1 trucades; l'última és una trucada sortint feta a ^2"</item>
+        <item quantity="one">^1 trucada sortint feta a ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">segons</item>
+        <item quantity="one">segon</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vols suprimir aquests missatges de veu? &lt;/b></item>
+        <item quantity="one">&lt;b>Vols suprimir aquest missatge de veu? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">s</item>
+        <item quantity="one">s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d bústies de veu "</item>
+        <item quantity="one">Bústia de veu</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">"Pestanya %1$s: %2$d elements no llegits "</item>
+        <item quantity="one">"Pestanya %1$s: %2$d element no llegit "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/promo_card_start_padding"
+        android:addStatesFromChildren="true"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/call_subject_dialog_margin"
+        android:paddingTop="@dimen/call_subject_dialog_margin"
+        android:paddingRight="@dimen/call_subject_dialog_margin">
+
+        <EditText
+            android:id="@+id/et_fileName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/call_subject_dialog_contact_photo_size" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/call_subject_dialog_margin"
+        android:paddingRight="@dimen/call_subject_dialog_margin">
+
+        <TextView
+            android:id="@+id/tv_textCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

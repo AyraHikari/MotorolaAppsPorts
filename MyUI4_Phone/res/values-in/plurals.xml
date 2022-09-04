@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">menit</item>
+        <item quantity="one">menit</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 panggilan, yang terakhir panggilan terjawab dari ^2</item>
+        <item quantity="one">^1 panggilan terjawab dari ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 panggilan, yang terakhir panggilan diblokir dari ^2</item>
+        <item quantity="one">^1 panggilan yang diblokir dari ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 panggilan, yang terakhir panggilan tak terjawab dari ^2</item>
+        <item quantity="one">^1 panggilan tak terjawab dari ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 panggilan, yang terakhir panggilan keluar ke ^2</item>
+        <item quantity="one">^1 panggilan keluar ke ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">detik</item>
+        <item quantity="one">detik</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Hapus pesan suara ini? &lt;/b></item>
+        <item quantity="one">&lt;b>Hapus pesan suara ini? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">mnt</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">dtk</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d Pesan suara "</item>
+        <item quantity="one">Pesan suara</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Tab %1$s. %2$d item belum dibaca. "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">mínútur</item>
+        <item quantity="one">mínúta</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 símtöl, það nýjasta er svarað símtal frá ^2</item>
+        <item quantity="one">^1 símtal, það nýjasta er ósvarað símtal frá ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 símtöl, það nýjasta er símtal frá ^2 sem lokað var á</item>
+        <item quantity="one">^1 símtal, það nýjasta er símtal frá ^2 sem lokað var á</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 símtöl, það nýjasta er ósvarað símtal frá ^2</item>
+        <item quantity="one">^1 símtal, það nýjasta er ósvarað símtal frá ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 símtöl, það nýjasta er hringt símtal til ^2</item>
+        <item quantity="one">^1 símtal, það nýjasta er hringt símtal til ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekúndur</item>
+        <item quantity="one">sekúnda</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Eyða þessum talhólfsskilaboðum? &lt;/b></item>
+        <item quantity="one">&lt;b>Eyða þessum talhólfsskilaboðum? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nýjar tilkynningar</item>
+        <item quantity="one">%d ný tilkynning</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d talhólfsskilaboð</item>
+        <item quantity="one">%1$d talhólfsskilaboð</item>
+    </plurals>
+</resources>

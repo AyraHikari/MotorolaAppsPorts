@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/att_servicedetails_header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="30.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:id="@id/tv_service_details_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/att_servicedetails_text" />
+    </ScrollView>
+    <Button android:textColor="?colorAccent" android:layout_gravity="right" android:id="@id/button_ok" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@android:string/ok" />
+</LinearLayout>

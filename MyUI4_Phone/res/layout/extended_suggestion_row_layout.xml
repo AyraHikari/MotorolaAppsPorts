@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/suggested_contact_row" android:background="?android:selectableItemBackground" style="@style/CallLogCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:paddingTop="@dimen/call_log_vertical_padding" android:paddingBottom="@dimen/call_log_vertical_padding" android:focusable="true" android:nextFocusLeft="@id/suggestion_avatar" android:nextFocusRight="@id/call_back_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/call_log_start_margin" android:paddingEnd="@dimen/call_log_outer_margin">
+            <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.dialer.widget.ContactPhotoView android:id="@id/suggestion_avatar" android:paddingTop="2.0dip" android:focusable="true" android:nextFocusRight="@id/primary_action_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/suggestion_contact_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/call_log_list_item_info_margin_start">
+                <com.android.dialer.widget.BidiTextView android:textColor="@color/prc_text_primary_color" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/call_log_name_margin_bottom" android:layout_marginEnd="@dimen/call_log_icon_margin" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/type_and_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/call_log_icon_margin" style="Dialer.TextAppearance.Tertiary.Ellipsize" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/primary_action_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/call_log_list_item_primary_action_dimen" android:layout_height="@dimen/call_log_list_item_primary_action_dimen" android:src="@drawable/quantum_ic_call_white_24" android:scaleType="center" android:tint="?colorIcon" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/suggested_entry_actions_stub" android:layout="@layout/suggested_list_item_actions" android:inflatedId="@id/suggested_entry_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

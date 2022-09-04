@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/prc_incall_windowpop_bg_color" />
+    <corners android:topLeftRadius="@dimen/windowpop_bg_shape_radius" android:topRightRadius="@dimen/windowpop_bg_shape_radius" android:bottomLeftRadius="@dimen/windowpop_bg_shape_radius" android:bottomRightRadius="@dimen/windowpop_bg_shape_radius" />
+</shape>

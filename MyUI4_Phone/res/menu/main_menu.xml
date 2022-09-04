@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_call_history" android:title="@string/main_menu_call_history" app:showAsAction="collapseActionView" />
+    <item android:id="@id/clear_frequents" android:visible="false" android:title="@string/main_menu_clear_frequents" app:showAsAction="collapseActionView" />
+    <item android:id="@id/settings" android:title="@string/settings" app:showAsAction="collapseActionView" />
+    <item android:id="@id/menu_simulator_submenu" android:visible="false" android:title="@string/nui_simulator_submenu_label" app:showAsAction="collapseActionView" />
+    <item android:id="@id/menu_voicemail_refresh" android:visible="false" android:title="@string/voicemail_refresh_menu" app:showAsAction="collapseActionView" />
+    <item android:id="@id/menu_voicemail_select" android:visible="false" android:title="@string/voicemail_select" app:showAsAction="collapseActionView" />
+    <item android:id="@id/menu_voicemail_select_all" android:visible="false" android:title="@string/voicemail_select_all" app:showAsAction="collapseActionView" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_composer_view_pager_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/message_urgent" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="8.0dip" android:text="@string/urgent" style="@style/message_composer_textview" />
+    <TextView android:id="@id/message_chat" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/want_to_chat" style="@style/message_composer_textview" />
+    <TextView android:id="@id/message_question" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginBottom="8.0dip" android:text="@string/quick_question" style="@style/message_composer_textview" />
+    <View android:background="@color/call_composer_divider" android:layout_width="fill_parent" android:layout_height="@dimen/message_composer_divider_height" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/message_compose_item_text_size" android:textColor="?android:textColorPrimary" android:textColorHint="?android:textColorHint" android:id="@id/custom_message" android:background="?android:colorBackground" android:paddingTop="@dimen/message_composer_item_padding" android:paddingBottom="64.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/message_composer_custom_message_hint" android:inputType="textCapSentences|textShortMessage" android:imeOptions="actionSend|flagNoExtractUi" android:textCursorDrawable="@drawable/searchedittext_custom_cursor" android:paddingStart="@dimen/message_composer_item_padding" android:paddingEnd="@dimen/message_composer_item_padding" android:layout_toStartOf="@id/remaining_characters" />
+        <TextView android:textSize="@dimen/message_compose_remaining_char_text_size" android:textColor="?android:textColorHint" android:id="@id/remaining_characters" android:paddingBottom="@dimen/call_composer_media_bar_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/message_composer_item_padding" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

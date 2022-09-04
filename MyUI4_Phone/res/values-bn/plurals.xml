@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">মিনিট</item>
+        <item quantity="one">মিনিট</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1টি কল, শেষ কলটি ^2-এর, যেটির উত্তর দিয়েছেন</item>
+        <item quantity="one">^1টি কল, শেষ কলটি ^2-এর, যেটির উত্তর দিয়েছেন</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1টি কল, শেষ কলটি ^2-এর, যেটি আপনি ব্লক করেছেন</item>
+        <item quantity="one">^1টি কল, শেষ কলটি ^2-এর, যেটি আপনি ব্লক করেছেন</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1টি কল, শেষ কলটি ^2-এর, যেটি মিস করেছেন</item>
+        <item quantity="one">^1টি কল, শেষ কলটি ^2-এর, যেটি মিস করেছেন</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1টি কল করেছেন, শেষ কলটি ^2-কে</item>
+        <item quantity="one">^1টি কল করেছেন, শেষ কলটি ^2-কে</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">সেকেন্ড</item>
+        <item quantity="one">সেকেন্ড</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>এই ভয়েসমেলগুলি মুছবেন? &lt;/b></item>
+        <item quantity="one">&lt;b>এই ভয়েসমেলগুলি মুছবেন? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">মি</item>
+        <item quantity="one">মি</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">সেকেন্ড</item>
+        <item quantity="one">সেকেন্ড</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$dটি ভয়েসমেল "</item>
+        <item quantity="one">" %1$dটি ভয়েসমেল "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s ট্যাব৷ %2$dটি অপঠিত আইটেম৷ "</item>
+        <item quantity="one">" %1$s ট্যাব৷ %2$dটি অপঠিত আইটেম৷ "</item>
+    </plurals>
+</resources>

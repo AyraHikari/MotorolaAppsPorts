@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">Ignorovať</string>
+    <string name="notification_dialing">Volám</string>
+    <string name="tab_history">Nedávne</string>
+</resources>

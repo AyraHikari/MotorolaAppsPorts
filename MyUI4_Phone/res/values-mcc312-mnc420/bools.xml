@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="motorola_hidden_menu_enabled">true</bool>
+    <bool name="motorola_sprint_hd_codec">true</bool>
+</resources>

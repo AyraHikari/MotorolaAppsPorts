@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/bottom_alert_dialog_window_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/search_collapsed_text_size" android:textColor="@color/contacts_add_text_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/prc_audio_dialog_item_height" android:text="@string/prc_audio_select" android:layout_marginStart="@dimen/blocked_number_top_margin" android:layout_marginEnd="@dimen/blocked_number_top_margin" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.callcomposer.GalleryGridItemView android:padding="@dimen/gallery_item_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:background="@drawable/gallery_grid_item_view_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:outlineProvider="background" />
+    <FrameLayout android:id="@id/checkbox" android:background="@drawable/gallery_grid_checkbox_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:outlineProvider="background">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/gallery_check_size" android:layout_height="@dimen/gallery_check_size" android:src="@drawable/gallery_item_selected_drawable" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/gallery" android:background="@drawable/gallery_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_photo_library_white_24" android:scaleType="center" android:outlineProvider="background" />
+</com.android.dialer.callcomposer.GalleryGridItemView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lists_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height_large" android:elevation="@dimen/tab_elevation" />
+        <com.android.contacts.common.list.ViewPagerTabs android:layout_gravity="top" android:orientation="horizontal" android:id="@id/lists_pager_header" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:textAllCaps="true" android:elevation="@dimen/tab_elevation" style="@style/DialtactsActionBarTabTextStyle" />
+        <com.android.dialer.app.list.DialerViewPager android:id="@id/lists_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.android.dialer.app.list.RemoveView android:id="@id/remove_view" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layout_marginTop="@dimen/action_bar_height_large" android:contentDescription="@string/remove_contact" android:importantForAccessibility="no">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/remove_view_content" android:background="?android:colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/remove_view_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_remove" android:tint="?colorTextOnUnthemedDarkBackground" />
+            <TextView android:textColor="?colorTextOnUnthemedDarkBackground" android:id="@id/remove_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove_contact" style="@style/Dialer.TextAppearance.Primary" />
+        </LinearLayout>
+    </com.android.dialer.app.list.RemoveView>
+</FrameLayout>

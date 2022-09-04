@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/dismiss"
+        android:layout_width="@dimen/prc_greeting_dialog_title_hight"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/remove_text_size"
+        android:layout_marginEnd="@dimen/remove_text_size"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_icon_voicem_clear"
+        android:tint="@color/prc_record_greeting_dialog_close_color" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/Prc_Voicemail_Guide_Content"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/prc_tutorial_button_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/prc_shape_voice_white_28"
+            android:text="@string/prc_voicemail_back"
+            android:textAllCaps="false"
+            android:textColor="@color/prc_voicemail_back_text_color"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/prc_tutorial_button_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/prc_shape_voice_blue_28"
+            android:text="@string/prc_voicemail_next"
+            android:textAllCaps="false"
+            android:textColor="@color/prc_voice_white"
+            style="?android:attr/borderlessButtonStyle"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

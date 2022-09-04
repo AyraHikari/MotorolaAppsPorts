@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 opkald, det seneste er et besvaret opkald fra ^2</item>
+        <item quantity="one">^1 besvaret opkald fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 opkald, det seneste er et blokeret opkald fra ^2</item>
+        <item quantity="one">^1 blokeret opkald fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 opkald, det seneste er et ubesvaret opkald fra ^2</item>
+        <item quantity="one">^1 ubesvaret opkald fra ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 opkald, det seneste er et udgående opkald til ^2</item>
+        <item quantity="one">^1 udgående opkald til ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekunder</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vil du slette disse talebeskeder? &lt;/b></item>
+        <item quantity="one">&lt;b>Vil du slette denne talebesked? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min.</item>
+        <item quantity="one">min.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">sek.</item>
+        <item quantity="one">sek.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"%1$d talebeskeder "</item>
+        <item quantity="one">"%1$d talebeskeder "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Fanen %1$s. %2$d ulæste elementer. "</item>
+        <item quantity="one">" Fanen %1$s. %2$d ulæst element. "</item>
+    </plurals>
+</resources>

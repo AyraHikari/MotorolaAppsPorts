@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/default_account_checkbox_layout" android:padding="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="0.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="72.0dip" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center" android:id="@id/default_account_checkbox_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" /> /> </FrameLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/default_account_checkbox_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/set_default_account" android:layout_weight="1.0" android:textAlignment="viewStart" />
+</LinearLayout>

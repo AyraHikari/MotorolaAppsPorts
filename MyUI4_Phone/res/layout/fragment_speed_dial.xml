@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/speed_dial_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/speed_dial_recycler_view" android:background="@android:color/transparent" android:paddingTop="@dimen/home_recyclerview_padding_top" android:paddingBottom="@dimen/floating_action_button_list_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.dialer.widget.EmptyContentView android:layout_gravity="center" android:id="@id/speed_dial_empty_content_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.dialer.widget.DialerFloatingActionButton android:theme="@style/PrcFloatActionButton" android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/main_floating_action_button_margin_right" android:layout_marginBottom="16.0dip" android:src="@drawable/prc_home_speed_add_icon" android:contentDescription="@string/dialpad_button_content_description" />
+</FrameLayout>

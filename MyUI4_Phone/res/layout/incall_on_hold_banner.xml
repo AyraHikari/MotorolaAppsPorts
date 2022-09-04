@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?banner_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/onhold_banner_padding" android:paddingBottom="@dimen/onhold_banner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <ImageView android:id="@id/hold_phone_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_phone_paused_vd_theme_24" android:tint="@android:color/white" android:contentDescription="@null" />
+        <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/hold_contact_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="24.0dip" style="@style/Dialer.Incall.TextAppearance" />
+        <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incall_on_hold" style="@style/Dialer.Incall.TextAppearance" />
+    </LinearLayout>
+</FrameLayout>

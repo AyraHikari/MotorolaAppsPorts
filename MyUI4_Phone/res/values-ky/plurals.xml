@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">мүнөттөр</item>
+        <item quantity="one">мүнөт</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 чалуу, акыркы жооп берилген чалуу: ^2</item>
+        <item quantity="one">^2 абонентинен ^1 чалууга жооп берилди</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 чалуу, акыркы бөгөттөлгөн чалуу: ^2</item>
+        <item quantity="one">^1 бөгөттөлгөн чалуу: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 чалуу, акыркы жолу ^2 чалганда жооп берилген жок</item>
+        <item quantity="one">^2 абонентинен ^1 чалууга жооп берилген жок</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 чалуу, акыркы чыгуучу чалуу: ^2</item>
+        <item quantity="one">^1 чыгуучу чалуу: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секундалар</item>
+        <item quantity="one">секунда</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Бул үн почталар жок кылынсынбы? &lt;/b></item>
+        <item quantity="one">&lt;b>Бул үн почта жок кылынсынбы? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңы билдирме</item>
+        <item quantity="one">%d жаңы билдирме</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Үн каты</item>
+        <item quantity="one">Үн каты</item>
+    </plurals>
+</resources>

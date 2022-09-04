@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <set>
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator" android:duration="45" android:valueFrom="1" android:valueTo="0.9" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator" android:duration="45" android:valueFrom="1" android:valueTo="0.9" android:propertyName="scaleY" />
+    </set>
+    <set>
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator2" android:duration="120" android:valueFrom="0.9" android:valueTo="1.2" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator2" android:duration="120" android:valueFrom="0.9" android:valueTo="1.2" android:propertyName="scaleY" />
+    </set>
+    <set>
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator2" android:duration="120" android:valueFrom="1.2" android:valueTo="1" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@anim/hd_scale_interpolator2" android:duration="120" android:valueFrom="1.2" android:valueTo="1" android:propertyName="scaleY" />
+    </set>
+</set>

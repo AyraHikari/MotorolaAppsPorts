@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Motorola Mobility Confidential Restricted
+Not for distribution, use or publication without explicit written permission
+from Motorola Mobility.
+Copyright (C) 2019 Motorola Mobility, Inc. All Rights Reserved
+-->
+<!-- MOTO Code Begin IKSWP-82148 - Added new hangup icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="24dp"
+    android:viewportWidth="32.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal">
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="M16,9C14.4,9 12.85,9.25 11.4,9.72L11.4,12.82C11.4,13.21 11.17,13.56 10.84,13.72C9.86,14.21 8.97,14.84 8.18,15.57C8,15.75 7.75,15.85 7.48,15.85C7.2,15.85 6.95,15.74 6.77,15.56L4.29,13.08C4.11,12.91 4,12.66 4,12.38C4,12.1 4.11,11.85 4.29,11.67C7.34,8.78 11.46,7 16,7C20.54,7 24.66,8.78 27.71,11.67C27.89,11.85 28,12.1 28,12.38C28,12.66 27.89,12.91 27.71,13.09L25.23,15.57C25.05,15.75 24.8,15.86 24.52,15.86C24.25,15.86 24,15.75 23.82,15.58C23.03,14.84 22.13,14.22 21.15,13.73C20.82,13.57 20.59,13.23 20.59,12.83L20.59,9.73C19.15,9.25 17.6,9 16,9Z" />
+</vector>
+<!-- MOTO Code End IKSWP-82148 -->

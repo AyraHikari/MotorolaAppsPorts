@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/remote_action" android:background="@drawable/shape_bg_btn_black_23" android:layout_width="0.0dip" android:layout_height="@dimen/call_come_notify_button_height_size" android:layout_weight="1.0" android:layout_marginEnd="@dimen/call_come_notify_inner_margin_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/remote_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/call_come_notify_inner_margin_size" />
+        <TextView android:textSize="@dimen/call_come_notify_text_primary_size" android:id="@id/remote_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

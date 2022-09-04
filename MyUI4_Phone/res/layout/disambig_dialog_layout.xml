@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/disambig_dialog_title" android:background="?android:colorBackgroundFloating" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/speed_dial_disambig_dialog_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" android:elevation="1.0dip" style="@style/Dialer.TextAppearance.Header2" />
+    <com.android.dialer.widget.MaxHeightScrollView android:id="@id/disambig_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="168.0dip" app:maxHeight="256.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/communication_avenue_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.android.dialer.widget.MaxHeightScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/remember_this_choice_container" android:background="?android:colorBackgroundFloating" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:elevation="4.0dip">
+        <CheckBox android:textSize="14.0sp" android:id="@id/remember_this_choice_checkbox" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/speed_dial_remember_this_choice" style="@style/DialerCheckboxStyle" />
+    </FrameLayout>
+</LinearLayout>

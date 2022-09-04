@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorSecondary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingTop="@dimen/tab_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_image" android:layout_width="@dimen/prc_voicemail_tips_img_height" android:layout_height="@dimen/prc_voicemail_tips_img_height" android:layout_marginTop="@dimen/prc_voicemail_img_margin_top" />
+            <TextView android:textColor="@color/prc_text_primary_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_tipsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/prc_voicemail_tips_title_margin_top" android:layout_marginBottom="@dimen/prc_voicemail_tips_title_margin_bottom" android:layout_centerHorizontal="true" style="@style/Prc_Voicemail_Guide_Title" />
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:scrollbars="vertical" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/prc_voice_guide_text_magin_bottom" style="@style/Prc_Voicemail_Guide_Content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

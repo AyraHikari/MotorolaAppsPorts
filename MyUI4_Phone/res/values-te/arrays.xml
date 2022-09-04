@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dtmf_tone_length_entries">
+        <item>సాధారణం</item>
+        <item>ఎక్కువ నిడివి</item>
+    </string-array>
+</resources>

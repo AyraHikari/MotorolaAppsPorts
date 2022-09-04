@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/onekey_dial_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res-auto">
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_2" android:key="prf_speed_dial_key_2" android:dialogTitle="@string/speed_dial_key_2" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_3" android:key="prf_speed_dial_key_3" android:dialogTitle="@string/speed_dial_key_3" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_4" android:key="prf_speed_dial_key_4" android:dialogTitle="@string/speed_dial_key_4" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_5" android:key="prf_speed_dial_key_5" android:dialogTitle="@string/speed_dial_key_5" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_6" android:key="prf_speed_dial_key_6" android:dialogTitle="@string/speed_dial_key_6" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_7" android:key="prf_speed_dial_key_7" android:dialogTitle="@string/speed_dial_key_7" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_8" android:key="prf_speed_dial_key_8" android:dialogTitle="@string/speed_dial_key_8" />
+    <com.android.dialer.onekeydial.PrcEditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/speed_dial_key_9" android:key="prf_speed_dial_key_9" android:dialogTitle="@string/speed_dial_key_9" />
+</PreferenceScreen>

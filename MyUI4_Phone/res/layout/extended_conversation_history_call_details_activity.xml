@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:cardElevation="1.0dip">
+        <com.motorola.dialer.app.conversationhistorycalldetails.ExtendedConversationHistoryCallDetailsToolbar android:id="@id/toolbar" android:background="@color/prc_default_view_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStartWithNavigation="0.0dip" />
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="?android:colorBackground" android:paddingBottom="32.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <include layout="@layout/conversation_history_bottom_action_container" />
+</LinearLayout>

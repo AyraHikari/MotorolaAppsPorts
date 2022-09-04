@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.dialer.dialpadview.DialpadFragment$DialpadSlidingRelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/spacer" android:background="#00000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+        <View android:id="@id/spacerShadow" android:background="@drawable/shadow_fade_left" android:layout_width="@dimen/shadow_length" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/dialpad_view" />
+            <ListView android:id="@id/dialpadChooser" android:background="?android:colorBackgroundFloating" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Space android:id="@id/dialpad_floating_action_button_margin_bottom" android:layout_width="@dimen/floating_action_button_margin_bottom" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+            <com.android.dialer.dialpadview.PrcDialButton android:id="@id/dialpad_floating_action_button" android:background="@drawable/prc_home_dialpad_sim_card_bg" android:visibility="invisible" android:layout_width="@dimen/prc_dialpad_single_call_button_wight_size" android:layout_height="@dimen/prc_dialpad_single_call_button_height_size" android:layout_above="@id/dialpad_floating_action_button_margin_bottom" android:layout_centerHorizontal="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:tag="icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prc_ic_phone_single" android:tint="@color/prc_sim_lable_icon_color" app:backgroundTint="@color/dialer_call_green" app:colorControlNormal="?colorIconOnUnthemedDarkBackground" />
+                    <TextView android:tag="text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" style="@style/dialpadSimText" />
+                </LinearLayout>
+            </com.android.dialer.dialpadview.PrcDialButton>
+        </RelativeLayout>
+    </LinearLayout>
+</view>

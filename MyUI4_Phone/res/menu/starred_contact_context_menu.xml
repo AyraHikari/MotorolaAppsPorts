@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="false" android:id="@id/starred_contact_context_menu_title" android:title="" />
+    <item android:icon="@drawable/quantum_ic_phone_vd_theme_24" android:id="@id/voice_call_container" android:title="@string/contact_menu_voice_call" android:iconTint="?colorIcon" />
+    <item android:icon="@drawable/quantum_ic_videocam_vd_theme_24" android:id="@id/video_call_container" android:title="@string/contact_menu_video_call" android:iconTint="?colorIcon" />
+    <item android:icon="@drawable/quantum_ic_message_vd_theme_24" android:id="@id/send_message_container" android:title="@string/contact_menu_message" android:iconTint="?colorIcon" />
+    <item android:icon="@drawable/quantum_ic_close_vd_theme_24" android:id="@id/remove_container" android:title="@string/contact_menu_remove" android:iconTint="?colorIcon" />
+    <item android:icon="@drawable/context_menu_contact_icon" android:id="@id/contact_info_container" android:title="@string/contact_menu_contact_info" android:iconTint="#ffffffff" />
+</menu>

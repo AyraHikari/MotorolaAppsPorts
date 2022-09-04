@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!-- A custom-made "report" icon for Dialer -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportHeight="40.0"
+    android:viewportWidth="40.0">
+  <path
+      android:fillColor="#D50000"
+      android:fillType="nonZero"
+      android:pathData="M27.87,1L39,12.13L39,27.87L27.87,39L12.13,39L1,27.87L1,12.13L12.13,1L27.87,1Z"
+      android:strokeColor="#00000000"
+      android:strokeWidth="1"/>
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillType="evenOdd"
+      android:pathData="M20,30.6C18.56,30.6 17.4,29.44 17.4,28C17.4,26.56 18.56,25.4 20,25.4C21.44,25.4 22.6,26.56 22.6,28C22.6,29.44 21.44,30.6 20,30.6ZM22,22L18,22L18,10L22,10L22,22Z"
+      android:strokeColor="#00000000"
+      android:strokeWidth="1"/>
+</vector>

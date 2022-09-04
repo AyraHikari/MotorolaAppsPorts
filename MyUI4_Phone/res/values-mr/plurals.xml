@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">मिनिटे</item>
+        <item quantity="one">मिनिट</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 कॉल, सर्वात नवीन ^2 चा उत्तर दिलेला कॉल</item>
+        <item quantity="one">^1 कॉल, सर्वात नवीन ^2 चा उत्तर दिलेला कॉल</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 कॉल, आत्ता ^2 चे ब्लॉक केलेले कॉल</item>
+        <item quantity="one">^1 कॉल, सर्वात नवीन ^2 चा ब्लॉक केलेला कॉल</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 कॉल, सर्वात नवीन ^2 चा सुटलेला कॉल आहे</item>
+        <item quantity="one">^1 कॉल, सर्वात नवीन ^2 चा सुटलेला कॉल आहे</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 कॉल, सर्वात नवीन ^2 ला केलेला आउटगोइंग कॉल</item>
+        <item quantity="one">^1 कॉल, सर्वात नवीन ^2 ला केलेला आउटगोइंग कॉल</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">सेकंद</item>
+        <item quantity="one">सेकंद</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>हे व्हॉइसमेल हटवायचे? &lt;/b></item>
+        <item quantity="one">&lt;b>हा व्हॉइसमेल हटवायचा? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">मिनिट</item>
+        <item quantity="one">मिनिट</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">सेकंद</item>
+        <item quantity="one">सेकंद</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नवीन सूचना</item>
+        <item quantity="one">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d व्हॉइसमेल "</item>
+        <item quantity="one">" %1$d व्हॉइसमेल "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s टॅब. %2$d न वाचलेले आयटम. "</item>
+        <item quantity="one">" %1$s टॅब. %2$d न वाचलेला आयटम. "</item>
+    </plurals>
+</resources>

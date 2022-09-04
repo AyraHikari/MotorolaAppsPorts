@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">amaminithi</item>
+        <item quantity="one">amaminithi</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 amakholi, okwakamuva ikholi ephenduliwe kusukela ku-^2</item>
+        <item quantity="one">^1 amakholi, okwakamuva ikholi ephenduliwe kusukela ku-^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 amakholi, okwakamuva ikholi evinjelwe kusukela ku-^2</item>
+        <item quantity="one">^1 amakholi, okwakamuva ikholi evinjelwe kusukela ku-^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 amakholi, okwakamuva ikholi ekuphuthile kusukela ku-^2</item>
+        <item quantity="one">^1 amakholi, okwakamuva ikholi ekuphuthile kusukela ku-^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 amakholi, okwakamuva ikholi ephumayo eya ku-^2</item>
+        <item quantity="one">^1 amakholi, okwakamuva ikholi ephumayo eya ku-^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">amasekhondi</item>
+        <item quantity="one">amasekhondi</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Sula lawa mavoyisimeyili? &lt;/b></item>
+        <item quantity="one">&lt;b>Sula lawa mavoyisimeyili? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d izaziso ezintsha</item>
+        <item quantity="one">%d izaziso ezintsha</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Amavoyisimeyili</item>
+        <item quantity="one">%1$d Amavoyisimeyili</item>
+    </plurals>
+</resources>

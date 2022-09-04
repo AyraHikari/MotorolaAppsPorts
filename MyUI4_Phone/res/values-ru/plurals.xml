@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">минуты</item>
+        <item quantity="one">минута</item>
+        <item quantity="few">минуты</item>
+        <item quantity="many">минут</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">Вызовов: ^1, последний – принятый вызов от ^2</item>
+        <item quantity="one">^1 принятый вызов от ^2</item>
+        <item quantity="few">Вызовов: ^1, последний – принятый вызов от ^2</item>
+        <item quantity="many">Вызовов: ^1, последний – принятый вызов от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">Вызовов: ^1, последний – заблокированный вызов от ^2</item>
+        <item quantity="one">^1 заблокированный вызов от ^2</item>
+        <item quantity="few">Вызовов: ^1, последний – заблокированный вызов от ^2</item>
+        <item quantity="many">Вызовов: ^1, последний – заблокированный вызов от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">Вызовов: ^1, последний – пропущенный от ^2</item>
+        <item quantity="one">^1 пропущенный вызов от ^2</item>
+        <item quantity="few">Вызовов: ^1, последний – пропущенный от ^2</item>
+        <item quantity="many">Вызовов: ^1, последний – пропущенный от ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">Вызовов: ^1, последний – исходящий вызов абоненту ^2</item>
+        <item quantity="one">^1 исходящий вызов абоненту ^2</item>
+        <item quantity="few">Вызовов: ^1, последний – исходящий вызов абоненту ^2</item>
+        <item quantity="many">Вызовов: ^1, последний – исходящий вызов абоненту ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунды</item>
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунды</item>
+        <item quantity="many">секунд</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Удалить эти голосовые сообщения? &lt;/b></item>
+        <item quantity="one">&lt;b>Удалить эти голосовые сообщения? &lt;/b></item>
+        <item quantity="few">&lt;b>Удалить эти голосовые сообщения? &lt;/b></item>
+        <item quantity="many">&lt;b>Удалить эти голосовые сообщения? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">мин.</item>
+        <item quantity="one">мин.</item>
+        <item quantity="few">мин.</item>
+        <item quantity="many">мин.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">сек.</item>
+        <item quantity="one">сек.</item>
+        <item quantity="few">сек.</item>
+        <item quantity="many">сек.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d голосового сообщения "</item>
+        <item quantity="one">" %1$d голосовое сообщение "</item>
+        <item quantity="few">" %1$d голосовых сообщения "</item>
+        <item quantity="many">" %1$d голосовых сообщений "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">"Вкладка %1$s. %2$d непрочитанного элемента. "</item>
+        <item quantity="one">"Вкладка %1$s. %2$d непрочитанный элемент. "</item>
+        <item quantity="few">"Вкладка %1$s. %2$d непрочитанных элемента. "</item>
+        <item quantity="many">"Вкладка %1$s. %2$d непрочитанных элементов. "</item>
+    </plurals>
+</resources>

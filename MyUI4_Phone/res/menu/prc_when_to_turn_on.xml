@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/always" android:orderInCategory="1" android:title="@string/prc_menu_always" />
+    <item android:id="@id/custom" android:orderInCategory="1" android:title="@string/prc_menu_custom" />
+</menu>

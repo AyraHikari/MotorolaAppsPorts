@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/psuedo_black_screen_overlay" android:background="@drawable/anti_background" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true">
+        <ImageView android:layout_gravity="bottom" android:id="@id/iv_black_screen_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/anti_prompt_cn" android:scaleType="fitEnd" />
+    </FrameLayout>
+    <TextView android:textColor="#99ffffff" android:id="@id/debug_info" android:background="#33000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+</FrameLayout>

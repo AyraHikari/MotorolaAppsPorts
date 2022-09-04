@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.autoresizetext.AutoResizeTextView android:textAppearance="@style/Dialer.Incall.TextAppearance.Large" android:ellipsize="start" android:id="@id/contactgrid_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incall_namerow_margin_top" android:singleLine="true" app:autoResizeText_minTextSize="@dimen/incall_textappearance_large_size" />
+    <include android:id="@id/contactgrid_top_row" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/incall_contactgrid_top_row" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/incall_contactgrid_bottom_row" />
+    <Space android:layout_width="@dimen/incall_avatar_size" android:layout_height="@dimen/incall_avatar_size" />
+</LinearLayout>

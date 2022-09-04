@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hideShowPreview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/videocall_button_spacing" android:layout_above="@id/videocall_switch_controls" android:layout_alignStart="@id/videocall_switch_controls" android:layout_alignEnd="@id/videocall_switch_controls"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.video.impl.CheckableImageButton android:id="@id/hideShowPreviewIcon" android:visibility="gone" android:layout_width="@dimen/videocall_button_size" android:layout_height="@dimen/videocall_button_size" android:src="@drawable/hide_preview_video" app:contentDescriptionChecked="@string/incall_content_description_speaker" app:contentDescriptionUnchecked="@string/incall_content_description_earpiece" style="@style/Incall.Button.VideoCall" />
+</FrameLayout>

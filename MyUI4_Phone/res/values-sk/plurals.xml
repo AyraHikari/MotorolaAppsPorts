@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minút</item>
+        <item quantity="one">minúta</item>
+        <item quantity="few">minúty</item>
+        <item quantity="many">minúty</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 hovorov, posledný je prijatý hovor od kontaktu ^2</item>
+        <item quantity="one">^1 prijatý hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, posledný je prijatý hovor od kontaktu ^2</item>
+        <item quantity="many">^1 calls, the latest is an answered call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 hovorov, posledný je blokovaný hovor od kontaktu ^2</item>
+        <item quantity="one">^1 blokovaný hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, posledný je blokovaný hovor od kontaktu ^2</item>
+        <item quantity="many">^1 calls, the latest is a blocked call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 hovorov, posledný je zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="one">^1 zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="few">^1 hovory, posledný je zmeškaný hovor od kontaktu ^2</item>
+        <item quantity="many">^1 calls, the latest is a missed call from ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 hovorov, posledný je odchádzajúci hovor s kontaktom ^2</item>
+        <item quantity="one">^1 odchádzajúci hovor s kontaktom ^2</item>
+        <item quantity="few">^1 hovory, posledný je odchádzajúci hovor s kontaktom ^2</item>
+        <item quantity="many">^1 calls, the latest is an outgoing call to ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekúnd</item>
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekundy</item>
+        <item quantity="many">sekundy</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Chcete odstrániť tieto hlasové správy? &lt;/b></item>
+        <item quantity="one">&lt;b>Chcete odstrániť túto hlasovú správu? &lt;/b></item>
+        <item quantity="few">&lt;b>Chcete odstrániť tieto hlasové správy? &lt;/b></item>
+        <item quantity="many">&lt;b>Chcete odstrániť tieto hlasové správy? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min.</item>
+        <item quantity="one">min.</item>
+        <item quantity="few">min.</item>
+        <item quantity="many">min.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">s</item>
+        <item quantity="one">s</item>
+        <item quantity="few">s</item>
+        <item quantity="many">s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d odkazov v hlasovej schránke "</item>
+        <item quantity="one">Odkaz v hlasovej schránke</item>
+        <item quantity="few">" %1$d odkazy v hlasovej schránke "</item>
+        <item quantity="many">" %1$d odkazu v hlasovej schránke "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Karta %1$s. %2$d neprečítaných položiek. "</item>
+        <item quantity="one">" Karta %1$s. %2$d neprečítaná položka. "</item>
+        <item quantity="few">" Karta %1$s. %2$d neprečítané položky. "</item>
+        <item quantity="many">" Karta %1$s. %2$d neprečítanej položky. "</item>
+    </plurals>
+</resources>

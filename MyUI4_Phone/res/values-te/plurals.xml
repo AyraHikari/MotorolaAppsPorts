@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">నిమిషాలు</item>
+        <item quantity="one">నిమిషం</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^2 నుండి ^1 కాల్‌లు, తాజాది సమాధానం ఇచ్చిన కాల్</item>
+        <item quantity="one">^2 నుండి ^1 సమాధానం ఇచ్చిన కాల్</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^2 నుండి ^1 కాల్‌లు, తాజాది బ్లాక్ చేయబడిన కాల్</item>
+        <item quantity="one">^2 నుండి ^1 బ్లాక్ చేయబడిన కాల్</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^2 నుండి ^1 కాల్‌లు, తాజాది మిస్డ్ కాల్</item>
+        <item quantity="one">^2 నుండి ^1 మిస్డ్ కాల్</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^2కు ^1 కాల్‌లు, తాజాది అవుట్‌గోయింగ్ కాల్‌లు</item>
+        <item quantity="one">^2కు ^1 అవుట్‌గోయింగ్ కాల్</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">సెకన్లు</item>
+        <item quantity="one">సెకను</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ఈ వాయిస్ మెయిల్‌లను తొలగించాలా? &lt;/b></item>
+        <item quantity="one">&lt;b>ఈ వాయిస్ మెయిల్‌ను తొలగించాలా? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d వాయిస్ మెయిల్‌లు</item>
+        <item quantity="one">వాయిస్ మెయిల్</item>
+    </plurals>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">分</item>
+        <item quantity="one">分</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 件の通話、最後の通話は ^2 さんからの着信</item>
+        <item quantity="one">^2 さんからの ^1 件の着信</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 件の通話、最後の通話は ^2 さんから発信されてブロックされた着信</item>
+        <item quantity="one">^2 さんから発信されてブロックされた ^1 件の着信</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 件の通話、最後の通話は ^2 さんからの不在着信</item>
+        <item quantity="one">^2 さんからの ^1 件の不在着信</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 件の通話、最後の通話は ^2 さん宛の発信</item>
+        <item quantity="one">^2 さん宛の ^1 件の発信</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">秒</item>
+        <item quantity="one">秒</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>これらのボイスメールを削除しますか？&lt;/b></item>
+        <item quantity="one">&lt;b>このボイスメールを削除しますか？&lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d件のボイスメール</item>
+        <item quantity="one">1件のボイスメール</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s タブ。%2$d 件の未読項目。"</item>
+    </plurals>
+</resources>

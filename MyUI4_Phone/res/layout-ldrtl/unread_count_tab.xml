@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/item_background_material_borderless_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/tab_unread_count_text_size" android:textColor="?android:colorAccent" android:id="@id/count" android:background="@drawable/unread_count_background" android:paddingLeft="@dimen/tab_unread_count_text_padding" android:paddingRight="@dimen/tab_unread_count_text_padding" android:layout_width="wrap_content" android:layout_height="@dimen/tab_unread_count_background_size" android:layout_marginTop="@dimen/tab_unread_count_margin_top" android:minWidth="@dimen/tab_unread_count_background_size" android:importantForAccessibility="no" android:fontFamily="sans-serif-medium" android:textAlignment="center" android:layoutDirection="locale" android:layout_marginStart="@dimen/tab_unread_count_margin_left" android:layout_toStartOf="@id/icon" />
+</RelativeLayout>

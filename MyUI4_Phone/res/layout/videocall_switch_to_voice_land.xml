@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/videocall_switch_to_voice_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_toLeftOf="@id/videocall_switch_controls" android:layout_alignParentTop="true" android:layout_marginStart="36.0dip" android:layout_marginEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/videocall_switch_to_voice_button" android:visibility="gone" android:layout_width="@dimen/moto_videocall_button_size_land" android:layout_height="@dimen/moto_videocall_button_size_land" android:src="@drawable/ic_videocall_switch_voicecall_24dp" app:contentDescription="@string/switch_to_voice" style="@style/Incall.Button.VideoCall" />
+</FrameLayout>

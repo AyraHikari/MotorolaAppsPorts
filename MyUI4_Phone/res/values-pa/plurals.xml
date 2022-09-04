@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">ਮਿੰਟ</item>
+        <item quantity="one">ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 ਕਾਲਾਂ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਕਾਲ ਦਾ ਜਵਾਬ ਦਿੱਤਾ ਗਿਆ</item>
+        <item quantity="one">^1 ਕਾਲ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਕਾਲ ਦਾ ਜਵਾਬ ਦਿੱਤਾ ਗਿਆ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 ਕਾਲਾਂ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਕਾਲ ਬਲਾਕ ਕੀਤੀ ਗਈ</item>
+        <item quantity="one">^1 ਕਾਲ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਕਾਲ ਬਲਾਕ ਕੀਤੀ ਗਈ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 ਕਾਲਾਂ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਖੁੰਝੀ ਹੋਈ ਕਾਲ ਹੈ</item>
+        <item quantity="one">^1 ਕਾਲ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਦੀ ਇੱਕ ਖੁੰਝੀ ਹੋਈ ਕਾਲ ਹੈ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 ਕਾਲਾਂ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਨੂੰ ਇੱਕ ਆਊਟਗੋਇੰਗ ਕਾਲ ਕੀਤੀ ਗਈ</item>
+        <item quantity="one">^1 ਕਾਲ, ਨਵੀਨਤਮ ਵਾਲੀ ^2 ਨੂੰ ਇੱਕ ਆਊਟਗੋਇੰਗ ਕਾਲ ਕੀਤੀ ਗਈ</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">ਸਕਿੰਟ</item>
+        <item quantity="one">ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ਕੀ ਇਹਨਾਂ ਵੌਇਸਮੇਲਾਂ ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ? &lt;/b></item>
+        <item quantity="one">&lt;b>ਕੀ ਇਸ ਵੌਇਸਮੇਲ ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
+        <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ਵੌਇਸਮੇਲਾਂ</item>
+        <item quantity="one">%1$d ਵੌਇਸਮੇਲਾਂ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_contact_name_min_size">32.0sp</dimen>
+    <dimen name="answer_contact_name_text_size">36.0sp</dimen>
+    <dimen name="answer_contact_puck_size_no_photo">60.0dip</dimen>
+    <dimen name="answer_contact_puck_size_photo">60.0dip</dimen>
+    <dimen name="end_call_button_margin_bottom_cli">8.0dip</dimen>
+    <dimen name="end_call_button_margin_top">2.0dip</dimen>
+    <dimen name="incall_end_call_button_size">60.0dip</dimen>
+    <dimen name="incall_labeled_button_size">48.0dip</dimen>
+    <dimen name="incall_textappearance_large_size">20.0sp</dimen>
+    <dimen name="incall_textappearance_size">14.0sp</dimen>
+    <dimen name="incall_window_margin_top">8.0dip</dimen>
+    <dimen name="incoming_call_puck_container_margin_bottom">10.0dip</dimen>
+    <dimen name="incoming_puck_offset">25.0dip</dimen>
+    <dimen name="incoming_swipe_to_answer_text_margin_bottom">10.0dip</dimen>
+    <dimen name="incoming_swipe_to_reject_tex_margin_bottom">5.0dip</dimen>
+    <dimen name="moto_verified_caller_text_padding_top">100.0dip</dimen>
+    <dimen name="nm_contact_id_animate_height">32.0dip</dimen>
+    <dimen name="sms_padding_vertical">16.0dip</dimen>
+    <dimen name="textappearance1_hint_size">14.0dip</dimen>
+</resources>

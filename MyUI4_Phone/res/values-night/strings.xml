@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voicemail_gif_file">file:///android_asset/voicemail/voicemail_dark.gif</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="record_cache" path="Music/Sound_recorder" />
+    <cache-path name="my_cache" />
+    <files-path name="voicemails" path="voicemails/" />
+</paths>

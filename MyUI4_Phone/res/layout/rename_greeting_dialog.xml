@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/call_subject_dialog_margin" android:paddingTop="@dimen/call_subject_dialog_margin" android:paddingRight="@dimen/call_subject_dialog_margin" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_start_padding" android:baselineAligned="false">
+        <EditText android:id="@id/et_fileName" android:layout_width="fill_parent" android:layout_height="@dimen/call_subject_dialog_contact_photo_size" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/call_subject_dialog_margin" android:paddingRight="@dimen/call_subject_dialog_margin" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <TextView android:id="@id/tv_textCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <TextView android:gravity="right" android:layout_gravity="right" android:id="@id/tv_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

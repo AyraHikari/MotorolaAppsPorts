@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_image" android:paddingLeft="@dimen/prc_voicemail_tips_title_margin_top" android:layout_width="@dimen/prc_voicemail_tips_img_height" android:layout_height="@dimen/prc_voicemail_tips_img_height" android:src="@drawable/prc_ic_visual_voicemail" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:paddingRight="@dimen/prc_voicemail_tips_title_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textColor="@color/prc_text_primary_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_tipsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/prc_voicemail_tips_title_margin_top" android:layout_marginBottom="@dimen/prc_voicemail_tips_title_margin_bottom" android:text="@string/prc_voicemail_off_tips_title" android:layout_centerHorizontal="true" style="@style/Prc_Voicemail_Guide_Title" />
+                <TextView android:textColor="@color/prc_text_secondary_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_content" android:layout_height="wrap_content" android:text="@string/prc_voicemail_off_tips_content" style="@style/Prc_Voicemail_Guide_Content" />
+                <Button android:textStyle="bold" android:textColor="@color/prc_default_view_bg" android:layout_gravity="center" android:id="@id/btn_showMore" android:background="@drawable/prc_shape_voice_blue_28" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/prc_voice_mail_learn_more" android:textAllCaps="false" style="?android:borderlessButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/prc_voicemail_tips_view" />
+    </LinearLayout>
+</ScrollView>

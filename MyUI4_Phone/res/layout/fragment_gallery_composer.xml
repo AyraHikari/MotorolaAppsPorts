@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?android:colorBackground" android:paddingBottom="@dimen/call_composer_media_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/gallery_grid_view" android:paddingLeft="@dimen/gallery_item_padding" android:paddingTop="@dimen/gallery_item_padding" android:paddingRight="@dimen/gallery_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="@integer/gallery_composer_grid_view_rows" />
+    <include android:id="@id/permission_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/permission_view" />
+</FrameLayout>

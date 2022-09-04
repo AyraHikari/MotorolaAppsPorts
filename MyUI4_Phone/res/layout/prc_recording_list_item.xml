@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/file_container" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/button_horizontal_padding" android:minHeight="@dimen/prc_recording_list_item_content_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.android.incallui.autoresizetext.AutoResizeTextView android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/prc_recording_list_item_content_margin_right" app:autoResizeText_minTextSize="16.0sp" app:autoResizeText_resizeStepUnit="unitSp" style="@style/Dialer.TextAppearance.SubHeader" />
+            <TextView android:id="@id/file_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary" />
+        </LinearLayout>
+        <ImageView android:id="@id/record_play" android:background="@drawable/calllog_waterfloat_bg_40dp" android:padding="@dimen/button_horizontal_padding" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prc_audio_play_bg" android:scaleType="center" android:tint="?colorIcon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/play_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/seekbar" android:paddingTop="@dimen/conversation_history_seekbar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/prc_seekbar_default" android:thumbOffset="@dimen/conversation_history_seekbar_thumb_offset" android:paddingStart="@dimen/button_horizontal_padding" android:paddingEnd="@dimen/button_horizontal_padding" android:splitTrack="false" />
+        <TextView android:id="@id/audio_play_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/button_horizontal_padding" android:layout_below="@id/seekbar" style="@style/Dialer.TextAppearance.Secondary" />
+        <TextView android:id="@id/audio_total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/button_horizontal_padding" android:layout_below="@id/seekbar" android:layout_alignParentRight="true" style="@style/Dialer.TextAppearance.Secondary" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?android:colorBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/permission_icon" android:layout_width="@dimen/permission_image_size" android:layout_height="@dimen/permission_image_size" android:layout_margin="@dimen/permission_item_margin" />
+    <TextView android:id="@id/permission_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/permission_item_margin" style="@style/Dialer.TextAppearance.Header2" />
+    <TextView android:theme="@style/Theme.AppCompat.Light" android:textSize="@dimen/allow_permission_text_size" android:textColor="?android:colorPrimary" android:gravity="center" android:id="@id/allow" android:background="?android:selectableItemBackground" android:padding="@dimen/permission_allow_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/min_touch_target_size" android:minHeight="@dimen/min_touch_target_size" android:text="@string/allow" android:textAllCaps="true" />
+</LinearLayout>

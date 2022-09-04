@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background" android:background="@color/call_composer_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/call_composer_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/contact_bar" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/call_composer_contact_container_elevation">
+            <LinearLayout android:orientation="vertical" android:background="?android:colorPrimary" android:paddingTop="@dimen/call_composer_contact_container_padding_top" android:paddingBottom="@dimen/call_composer_contact_container_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_composer_contact_container_margin_top" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <TextView android:textSize="@dimen/call_composer_name_text_size" android:textColor="?android:textColorSecondaryInverse" android:ellipsize="end" android:gravity="center" android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <com.android.dialer.widget.BidiTextView android:textColor="?android:textColorPrimaryInverse" android:gravity="center" android:id="@id/phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Primary" />
+            </LinearLayout>
+            <QuickContactBadge android:id="@id/contact_photo" android:background="@drawable/call_composer_contact_border" android:layout_width="@dimen/call_composer_contact_photo_size" android:layout_height="@dimen/call_composer_contact_photo_size" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.dialer.widget.LockableViewPager android:id="@id/call_composer_view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/call_composer_view_pager_height" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/call_composer_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/media_actions" android:background="?android:colorPrimaryDark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/call_composer_media_bar_height">
+            <ImageView android:id="@id/call_composer_camera" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/call_composer_media_actions_width" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_camera_alt_white_24" android:scaleType="center" android:contentDescription="@string/description_call_composer_camera" />
+            <ImageView android:id="@id/call_composer_photo" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/call_composer_media_actions_width" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_photo_white_24" android:scaleType="center" android:contentDescription="@string/description_call_composer_photo" />
+            <ImageView android:id="@id/call_composer_message" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/call_composer_media_actions_width" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_message_white_24" android:scaleType="center" android:contentDescription="@string/description_call_composer_message" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/send_and_call_button" android:background="@color/compose_and_call_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/call_composer_media_bar_height">
+            <TextView android:textColor="?android:textColorPrimaryInverse" android:layout_gravity="center" android:id="@id/send_and_call_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_and_call" android:drawablePadding="@dimen/send_and_call_drawable_padding" android:textAllCaps="true" android:drawableStart="@drawable/quantum_ic_call_white_18" style="@style/Dialer.TextAppearance.Header2" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.android.dialer.widget.DialerToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

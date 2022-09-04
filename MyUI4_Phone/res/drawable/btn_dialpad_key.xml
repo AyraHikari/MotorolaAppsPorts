@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="30.0dip">
+                    <solid android:color="@color/dialpad_key_button_background_pressed" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

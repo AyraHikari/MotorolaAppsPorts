@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dtmf_tone_length_entries">
+        <item>标准</item>
+        <item>长</item>
+    </string-array>
+</resources>

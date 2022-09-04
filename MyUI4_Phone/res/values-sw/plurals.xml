@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">Dakika</item>
+        <item quantity="one">Dakika</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">Simu ^1, ya hivi punde ni simu kutoka kwa ^2 ambayo ilijibiwa</item>
+        <item quantity="one">Simu ^1 kutoka kwa ^2 ilijibiwa</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">Simu ^1, ya hivi punde ni simu kutoka kwa ^2 ambayo imezuiwa</item>
+        <item quantity="one">Simu ^1 iliyozuiwa kutoka kwa ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">Simu ^1, ya hivi punde ni simu kutoka kwa ^2 ambayo haikujibiwa</item>
+        <item quantity="one">Simu ^1 kutoka kwa ^2 haikujibiwa</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">Simu ^1, ya hivi punde ni simu aliyopigiwa ^2</item>
+        <item quantity="one">Simu ^1 aliyopigiwa ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">Sekunde</item>
+        <item quantity="one">Sekunde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Je, unataka kufuta kila ujumbe wa sauti ulioonyeshwa? &lt;/b></item>
+        <item quantity="one">&lt;b>Je, unataka kufuta ujumbe huu wa sauti? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Ujumbe %1$d wa sauti</item>
+        <item quantity="one">Ujumbe wa sauti</item>
+    </plurals>
+</resources>

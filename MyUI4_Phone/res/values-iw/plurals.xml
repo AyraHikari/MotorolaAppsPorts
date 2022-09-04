@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">דקות</item>
+        <item quantity="one">דקה</item>
+        <item quantity="two">דקות</item>
+        <item quantity="many">דקות</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 שיחות. השיחה האחרונה נענתה. מקור השיחה: ^2</item>
+        <item quantity="one">שיחה אחת (^1) נענתה. מקור השיחה: ^2</item>
+        <item quantity="two">^1 שיחות. השיחה האחרונה נענתה. מקור השיחה: ^2</item>
+        <item quantity="many">^1 שיחות. השיחה האחרונה נענתה. מקור השיחה: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 שיחות. השיחה האחרונה נחסמה. מקור השיחה: ^2</item>
+        <item quantity="one">שיחה אחת (^1) נחסמה. מקור השיחה: ^2</item>
+        <item quantity="two">^1 שיחות. השיחה האחרונה נחסמה. מקור השיחה: ^2</item>
+        <item quantity="many">^1 שיחות. השיחה האחרונה נחסמה. מקור השיחה: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 שיחות. השיחה האחרונה לא נענתה. מקור השיחה: ^2</item>
+        <item quantity="one">שיחה אחת (^1) לא נענתה. מקור השיחה: ^2</item>
+        <item quantity="two">^1 שיחות. השיחה האחרונה לא נענתה. מקור השיחה: ^2</item>
+        <item quantity="many">^1 שיחות. השיחה האחרונה לא נענתה. מקור השיחה: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 שיחות. השיחה האחרונה הייתה שיחה יוצאת. יעד השיחה: ^2</item>
+        <item quantity="one">שיחה יוצאת אחת (^1). יעד השיחה: ^2</item>
+        <item quantity="two">^1 שיחות. השיחה האחרונה הייתה שיחה יוצאת. יעד השיחה: ^2</item>
+        <item quantity="many">^1 שיחות. השיחה האחרונה הייתה שיחה יוצאת. יעד השיחה: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">שניות</item>
+        <item quantity="one">שנייה</item>
+        <item quantity="two">שניות</item>
+        <item quantity="many">שניות</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>האם למחוק את ההודעות הקוליות האלה? &lt;/b></item>
+        <item quantity="one">&lt;b>האם למחוק את ההודעה הקולית הזו? &lt;/b></item>
+        <item quantity="two">&lt;b>האם למחוק את ההודעות הקוליות האלה? &lt;/b></item>
+        <item quantity="many">&lt;b>האם למחוק את ההודעות הקוליות האלה? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">מינ</item>
+        <item quantity="one">מינ</item>
+        <item quantity="two">מינ</item>
+        <item quantity="many">מינ</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">שנ</item>
+        <item quantity="one">שנ</item>
+        <item quantity="two">שנ</item>
+        <item quantity="many">שנ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d הודעות דואר קולי "</item>
+        <item quantity="one">הודעת דואר קולי</item>
+        <item quantity="two">" %1$d הודעות דואר קולי "</item>
+        <item quantity="many">" %1$d הודעות דואר קולי "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">"הכרטיסייה %1$s. %2$d פריטים שלא נקראו. "</item>
+        <item quantity="one">"הכרטיסייה %1$s. %2$d פריט שלא נקרא. "</item>
+        <item quantity="two">"הכרטיסייה %1$s. %2$d פריטים שלא נקראו. "</item>
+        <item quantity="many">"הכרטיסייה %1$s. %2$d פריטים שלא נקראו. "</item>
+    </plurals>
+</resources>

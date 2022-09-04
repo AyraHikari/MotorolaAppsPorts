@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">நிமிடங்கள்</item>
+        <item quantity="one">நிமிடம்</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 அழைப்புகள், சமீபத்திய அழைப்பானது ^2 இடமிருந்து வந்த பதிலளித்த அழைப்பு</item>
+        <item quantity="one">^2 இடமிருந்து வந்த ^1 பதிலளித்த அழைப்பு</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 அழைப்புகள், சமீபத்திய அழைப்பானது ^2 இடமிருந்து தடுக்கப்பட்ட அழைப்பு</item>
+        <item quantity="one">^2 இடமிருந்து வந்த ^1 தடுக்கப்பட்ட அழைப்பு</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 தவறிய அழைப்புகள், ^2 இடமிருந்து வந்த சமீபத்திய தவறிய அழைப்பு</item>
+        <item quantity="one">^2 இடமிருந்து வந்த ^1 தவறிய அழைப்பு</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 அழைப்புகள், சமீபத்திய அழைப்பானது ^2க்கான வெளிச்செல்லும் அழைப்பு</item>
+        <item quantity="one">^2க்கான ^1 வெளிச்செல்லும் அழைப்பு</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">வினாடிகள்</item>
+        <item quantity="one">வினாடி</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>இந்தக் குரலஞ்சல்களை நீக்கவா? &lt;/b></item>
+        <item quantity="one">&lt;b>இந்தக் குரலஞ்சலை நீக்கவா? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">நிமிடம்</item>
+        <item quantity="one">நிமிடம்</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">வினாடி</item>
+        <item quantity="one">வினாடி</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d குரலஞ்சல்கள் "</item>
+        <item quantity="one">குரலஞ்சல்</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s தாவல். படிக்காதவை (%2$d). "</item>
+        <item quantity="one">" %1$s தாவல். படிக்காதது (%2$d). "</item>
+    </plurals>
+</resources>

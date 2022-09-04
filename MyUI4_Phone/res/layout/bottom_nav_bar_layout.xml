@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.main.impl.bottomnav.BottomNavBar android:orientation="horizontal" android:background="@color/alert_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/call_log_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/bottom_nav_item" />
+    <include android:id="@id/contacts_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/bottom_nav_item" />
+    <include android:id="@id/speed_dial_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/bottom_nav_item" />
+    <include android:id="@id/voicemail_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/bottom_nav_item" />
+</com.android.dialer.main.impl.bottomnav.BottomNavBar>

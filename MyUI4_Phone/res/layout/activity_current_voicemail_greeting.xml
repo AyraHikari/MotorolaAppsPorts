@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <com.android.dialer.widget.DialerToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/voicemail_change_greeting_preference_title" />
+        <View android:background="@color/dialer_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="7.0dip">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/change_greeting_button" android:background="?android:colorBackground" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_circles_add_googblue_48dp" android:scaleType="centerCrop" android:foregroundGravity="center_vertical" android:layout_marginStart="16.0dip" style="@android:style/Widget.Material.Light.ImageButton" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/textView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/current_voicemail_greeting_record_instruction" android:layout_weight="1.0" android:layout_marginStart="17.0dip" style="@style/Dialer.TextAppearance.Primary" />
+        </LinearLayout>
+        <View android:background="@color/dialer_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/current_voicemail_greeting_recording_display" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="72.0dip">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/play_button" android:background="?android:colorBackground" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_play_circle_filled_googblue_48dp" android:scaleType="centerCrop" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_marginStart="16.0dip" style="@android:style/Widget.Material.Light.ImageButton" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+                <TextView android:id="@id/current_voicemail_greeting_recording_title_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/current_voicemail_greeting_recording_title" style="@style/Dialer.TextAppearance.Primary" />
+                <TextView android:id="@id/playback_progress_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/dialer_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</RelativeLayout>

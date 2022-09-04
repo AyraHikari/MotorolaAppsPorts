@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">perc</item>
+        <item quantity="one">perc</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 hívás, a legutóbbi egy fogadott hívás a következőtől: ^2</item>
+        <item quantity="one">^1 fogadott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 hívás, a legutóbbi egy letiltott hívás a következőtől: ^2</item>
+        <item quantity="one">^1 letiltott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 hívás, a legutóbbi egy nem fogadott hívás a következőtől: ^2</item>
+        <item quantity="one">^1 nem fogadott hívás a következőtől: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 hívás, a legutóbbi egy kimenő hívás a következőnek: ^2</item>
+        <item quantity="one">^1 kimenő hívás a következőnek: ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">másodperc</item>
+        <item quantity="one">másodperc</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Törli ezeket a hangpostaüzeneteket? &lt;/b></item>
+        <item quantity="one">&lt;b>Törli ezt a hangpostaüzenetet? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">perc</item>
+        <item quantity="one">perc</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">mp</item>
+        <item quantity="one">mp</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d hangpostaüzenet "</item>
+        <item quantity="one">Hangpostaüzenet</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s lap. %2$d olvasatlan elem. "</item>
+        <item quantity="one">" %1$s lap. %2$d olvasatlan elem. "</item>
+    </plurals>
+</resources>

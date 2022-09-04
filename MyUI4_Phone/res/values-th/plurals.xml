@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">นาที</item>
+        <item quantity="one">นาที</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 สาย และสายที่ได้รับล่าสุดคือสายจาก ^2</item>
+        <item quantity="one">^1 สายที่ได้รับจาก ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 สาย และสายที่บล็อกล่าสุดคือสายจาก ^2</item>
+        <item quantity="one">^1 สายที่บล็อกจาก ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 สาย และสายที่ไม่ได้รับล่าสุดคือสายจาก ^2</item>
+        <item quantity="one">^1 สายที่ไม่ได้รับจาก ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 สาย และสายที่โทรออกล่าสุดคือสายจาก ^2</item>
+        <item quantity="one">^1 สายโทรออกไปยัง ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">วินาที</item>
+        <item quantity="one">วินาที</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ลบข้อความเสียงเหล่านี้ไหม &lt;/b></item>
+        <item quantity="one">&lt;b>ลบข้อความเสียงนี้ไหม &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">นาที</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">วินาที</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d ข้อความเสียง "</item>
+        <item quantity="one">ข้อความเสียง</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" แท็บ %1$s ยังไม่อ่าน %2$d รายการ "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/favorite_remove_view" android:background="?android:colorPrimary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/expanded_search_bar_height" android:contentDescription="@string/speed_dial_remove_favorites" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/remove_view_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/quantum_ic_close_vd_theme_24" android:tint="?colorIconOnUnthemedDarkBackground" />
+    <TextView android:textSize="16.0sp" android:textColor="?colorTextOnUnthemedDarkBackground" android:id="@id/remove_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speed_dial_remove_favorites" />
+</LinearLayout>

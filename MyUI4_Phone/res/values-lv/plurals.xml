@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minūtes</item>
+        <item quantity="zero">minūšu</item>
+        <item quantity="one">minūte</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 zvani; pēdējais zvans ir atbildēts zvans no lietotāja ^2</item>
+        <item quantity="zero">^1 zvanu; pēdējais zvans ir atbildēts zvans no lietotāja ^2</item>
+        <item quantity="one">^1 zvans; pēdējais zvans ir atbildēts zvans no lietotāja ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 zvani; pēdējais zvans ir bloķēts zvans no lietotāja ^2</item>
+        <item quantity="zero">^1 zvanu; pēdējais zvans ir bloķēts zvans no lietotāja ^2</item>
+        <item quantity="one">^1 zvans; pēdējais zvans ir bloķēts zvans no lietotāja ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 zvani; pēdējais zvans ir neatbildēts zvans no lietotāja ^2</item>
+        <item quantity="zero">^1 zvanu; pēdējais zvans ir neatbildēts zvans no lietotāja ^2</item>
+        <item quantity="one">^1 zvans; pēdējais zvans ir neatbildēts zvans no lietotāja ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 zvani; pēdējais zvans ir izejošs zvans lietotājam ^2</item>
+        <item quantity="zero">^1 zvanu; pēdējais zvans ir izejošs zvans lietotājam ^2</item>
+        <item quantity="one">^1 zvans; pēdējais zvans ir izejošs zvans lietotājam ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekundes</item>
+        <item quantity="zero">sekunžu</item>
+        <item quantity="one">sekunde</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Vai dzēst šos balss pasta ziņojumus? &lt;/b></item>
+        <item quantity="zero">&lt;b>Vai dzēst šos balss pasta ziņojumus? &lt;/b></item>
+        <item quantity="one">&lt;b>Vai dzēst šos balss pasta ziņojumus? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d balss pasta ziņojumi</item>
+        <item quantity="zero">%1$d balss pasta ziņojumi</item>
+        <item quantity="one">%1$d balss pasta ziņojums</item>
+    </plurals>
+</resources>

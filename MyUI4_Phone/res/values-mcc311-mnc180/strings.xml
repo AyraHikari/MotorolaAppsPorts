@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_not_placed_over_wifi">Call cannot be placed over Wi-Fi, connecting over cellular network. Voice and data rates may apply.</string>
+    <string name="call_not_transitioned_to_wifi">Call cannot be transitioned to Wi-Fi and will continue over cellular network.</string>
+    <string name="no_cellular_connection_msg">Cellular coverage required to continue video calls. Turn on Wi-Fi Calling to make video calls over Wi-Fi.</string>
+    <string name="vt_downgraded_to_voice">Video unavailable. Connected as voice.</string>
+</resources>

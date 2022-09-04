@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">ນາທີ</item>
+        <item quantity="one">ນາ​ທີ</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 ສາຍ, ສາຍຫຼ້າສຸດແມ່ນສາຍທີ່ຮັບຈາກ ^2</item>
+        <item quantity="one">^1 ສາຍທີ່ຮັບຈາກ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 ສາຍ, ສາຍຫຼ້າສຸດແມ່ນສາຍທີ່ບລັອກຈາກ ^2</item>
+        <item quantity="one">^1 ສາຍທີ່ບລັອກຈາກ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 ສາຍ, ສາຍຫຼ້າສຸດແມ່ນສາຍບໍ່ໄດ້ຮັບຈາກ ^2</item>
+        <item quantity="one">^1 ສາຍບໍ່ໄດ້ຮັບຈາກ ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 ສາຍ, ສາຍຫຼ້າສຸດແມ່ນສາຍທີ່ໂທອອກຫາ ^2</item>
+        <item quantity="one">^1 ສາຍໂທອອກຫາ ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">ວິນາທີ</item>
+        <item quantity="one">ວິນາທີ</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ລຶບຂໍ້ຄວາມສຽງເຫຼົ່ານີ້ບໍ? &lt;/b></item>
+        <item quantity="one">&lt;b>ລຶບຂໍ້ຄວາມສຽງນີ້ບໍ? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ຂໍ້ຄວາມສຽງ</item>
+        <item quantity="one">ຂໍ້ຄວາມສຽງ</item>
+    </plurals>
+</resources>

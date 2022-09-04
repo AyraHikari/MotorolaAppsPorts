@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="180.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/menu_mute" android:text="@string/incall_label_mute" android:drawableStart="@drawable/quantum_ic_mic_off_vd_theme_24" app:contentDescriptionChecked="@string/incall_content_description_muted" app:contentDescriptionUnchecked="@string/incall_content_description_unmuted" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/menu_speaker" android:text="@string/incall_label_speaker" android:drawableStart="@drawable/quantum_ic_volume_up_vd_theme_24" app:contentDescriptionChecked="@string/incall_content_description_speaker" app:contentDescriptionUnchecked="@string/incall_content_description_earpiece" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/menu_keypad" android:text="@string/incall_label_dialpad" android:drawableStart="@drawable/quantum_ic_dialpad_vd_theme_24" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/menu_add_call" android:text="@string/incall_label_add_call" android:drawableStart="@drawable/quantum_ic_add_call_vd_theme_24" style="@style/RttButton" />
+    <com.android.incallui.rtt.impl.RttCheckableButton android:id="@id/menu_swap_call" android:visibility="gone" android:text="@string/incall_label_swap" android:drawableStart="@drawable/quantum_ic_swap_calls_vd_theme_24" style="@style/RttButton" />
+</LinearLayout>

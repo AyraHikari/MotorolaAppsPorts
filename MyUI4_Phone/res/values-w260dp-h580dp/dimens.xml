@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="incall_button_vertical_padding">16.0dip</dimen>
+    <dimen name="incall_labeled_button_size">64.0dip</dimen>
+    <dimen name="tools_button_height">92.0dip</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="att_servicedetails_header">AT&amp;T Video Call Service Details</string>
+    <string name="att_servicedetails_text">To use AT&amp;T Video Call, all parties must be AT&amp;T customers with video call-capable devices, located in AT&amp;T HD Voice coverage, and have Video Call set up on their account. Each Video Call uses both voice and data. The voice portion of the call counts as voice minutes, and the video portion counts as data under your wireless rate plan. Once you have started a Video Call, it will seamlessly switch to Wi-Fi if your device has access to the Internet through its Wi-Fi connection. To continue a video call on Wi-Fi you must still remain connected to the AT&amp;T wireless network. No voice or data charges apply to Video Call over Wi-Fi. The Video Call icon tells you when you are able to make a video call. Other AT&amp;T subscribers can see if you are capable of receiving video calls. You can disable AT&amp;T Video Call in Call Settings on your device. For more information and restrictions, visit <a href="http://www.att.com/videocall">www.att.com/videocall</a>.</string>
+    <string name="att_welcomevt_header">Your phone supports AT&amp;T Video Call</string>
+    <string name="att_welcomevt_text"><b>Video calls are charged differently than standard voice calls</b>"
+\u0009• The voice portion uses your plan's voice minutes 
+\u0009• The video portion uses your plan's data bucket 
+
+Video Call works if all parties: 
+\u0009• Are AT&amp;T postpaid customers 
+\u0009• Have Video Call set up on their account 
+\u0009• Have Video Call-capable devices 
+\u0009• Are in AT&amp;T HD Voice coverage 
+
+Video Calls must start on the AT&amp;T wireless network and will automatically switch to Wi-Fi if available. No voice/data charges apply over Wi-Fi. 
+
+For more information and restrictions, visit "<a href="http://www.att.com/videocall">www.att.com/videocall</a>.</string>
+    <string name="bullet">•</string>
+    <string name="call_incoming_swipe_or_open_to_answer">Flip open or swipe up to answer</string>
+    <string name="call_incoming_will_disconnect_cli">Answering the call will end your video call</string>
+    <string name="call_log_action_rtt_call">RTT call</string>
+    <string name="dont_show_again">Do not show again</string>
+    <string name="rtt_call_desc">Real Time Text calling</string>
+    <string name="rtt_call_desc_with_name">Real Time Text calling ^1</string>
+    <string name="service_details">Service Details</string>
+    <string name="welcome_video_dialog_msg_footer"><a href="https://support.t-mobile.com/docs/DOC-23574">LEARN MORE</a></string>
+    <string name="welcome_video_dialog_msg_header">"We all love to hear that familiar voice at the end of the line, but talking face-to-face is so much better! Here's what you should know to get your real-time connections going:"</string>
+    <string name="welcome_video_dialog_msg_pt1">"You'll need to be on 4G LTE or a Wi-Fi connection"</string>
+    <string name="welcome_video_dialog_msg_pt2">"The device you're calling must also be video calling compatible"</string>
+    <string name="welcome_video_dialog_msg_pt3">Video calls use your high speed data</string>
+    <string name="welcome_video_dialog_msg_pt4">You can also upgrade a voice call to a video call</string>
+    <string name="welcome_video_dialog_title">Welcome to the new Video Calling Dialler.</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">минути</item>
+        <item quantity="one">минути</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 повици. Последниот е одговорен повик од ^2</item>
+        <item quantity="one">^1 повик. Последниот е одговорен повик од ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 повици. Последниот е блокиран повик од ^2</item>
+        <item quantity="one">^1 повик. Последниот е блокиран повик од ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 повици. Последниот е пропуштен повик од ^2</item>
+        <item quantity="one">^1 повик. Последниот е пропуштен повик од ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 повици. Последниот е појдовен повик до ^2</item>
+        <item quantity="one">^1 повик. Последниот е појдовен повик до ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунди</item>
+        <item quantity="one">секунди</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Да се избришат говорните пораки? &lt;/b></item>
+        <item quantity="one">&lt;b>Да се избришат говорните пораки? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">мин.</item>
+        <item quantity="one">мин.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">сек.</item>
+        <item quantity="one">сек.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известувања</item>
+        <item quantity="one">%d ново известување</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d говорни пораки "</item>
+        <item quantity="one">" %1$d говорна порака "</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" Картичка %1$s. %2$d непрочитани ставки. "</item>
+        <item quantity="one">" Картичка %1$s. %2$d непрочитана ставка. "</item>
+    </plurals>
+</resources>

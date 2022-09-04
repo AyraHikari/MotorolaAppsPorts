@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">এড়ান</string>
+    <string name="notification_dialing">কল করা হচ্ছে</string>
+    <string name="tab_history">সাম্প্রতিকগুলি</string>
+</resources>

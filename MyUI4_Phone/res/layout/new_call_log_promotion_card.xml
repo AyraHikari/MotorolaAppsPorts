@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="24.0dip">
+        <ImageView android:id="@id/new_call_log_promotion_card_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:importantForAccessibility="no" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <TextView android:id="@id/new_call_log_promotion_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/Dialer.TextAppearance.Header2" />
+            <TextView android:id="@id/new_call_log_promotion_card_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:lineSpacingExtra="8.0dip" style="@style/Dialer.TextAppearance.Secondary" />
+            <Button android:textSize="14.0sp" android:layout_gravity="end" android:id="@id/new_call_log_promotion_card_ok" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="2.0dip" android:text="@string/ok_got_it" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffdbdbdb" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+</LinearLayout>

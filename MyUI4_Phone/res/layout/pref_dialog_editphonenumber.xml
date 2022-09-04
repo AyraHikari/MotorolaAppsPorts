@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/call_subject_dialog_margin" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_start_padding" android:baselineAligned="false">
+        <TextView android:textSize="@dimen/toolbar_title_text_size" android:textColor="@color/prc_text_primary_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/promo_card_start_padding" android:layout_marginBottom="@dimen/promo_card_start_padding" />
+        <RelativeLayout android:paddingRight="@dimen/call_subject_dialog_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/xeditpreference_edittext_id" android:paddingRight="@dimen/call_subject_dialog_contact_photo_size" android:paddingBottom="@dimen/search_box_text_left_margin" android:layout_width="fill_parent" android:layout_height="@dimen/call_subject_dialog_contact_photo_size" android:hint="@string/rtt_input_hint" />
+            <ImageView android:id="@id/select_contact" android:background="@drawable/calllog_waterfloat_bg_40dp" android:padding="@dimen/pref_dialog_icon_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pref_dialog_icon_top_margin" android:layout_marginRight="@dimen/pref_dialog_icon_top_margin" android:src="@drawable/prc_ic_dial_person_add" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/selectContact" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/select_all_text_size" android:textColor="?colorAccent" android:id="@id/cancel" android:padding="@dimen/call_come_notify_small_icon_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel_button" android:layout_marginEnd="@dimen/call_come_notify_small_icon_size" />
+            <TextView android:textSize="@dimen/select_all_text_size" android:textColor="?colorAccent" android:id="@id/ok" android:padding="@dimen/call_come_notify_small_icon_size" android:paddingRight="@dimen/call_subject_dialog_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/call_come_notify_small_icon_size" android:text="@string/ok_button" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.dialer.app.prcrecording.views.PrcSwitchPrefernce android:persistent="false" android:title="@string/call_setting_call_recoder_notify_title" android:key="call_setting_preference_call_recoder_notify" android:defaultValue="true" />
+    <com.android.dialer.app.prcrecording.views.PrcTitleAndSummaryPreference android:persistent="false" android:title="@string/recorded_calls" android:key="to_record_file" />
+    <PreferenceCategory android:title="@string/auto_recording" android:key="@string/auto_recording" app:iconSpaceReserved="false" />
+    <com.android.dialer.app.prcrecording.views.PrcCheckBoxPrefenence android:title="@string/recording_off" android:key="autorecord_toggle" />
+    <com.android.dialer.app.prcrecording.views.PrcCheckBoxPrefenence android:title="@string/auto_record_all" android:key="autorecord_toggle_everyone" />
+    <com.android.dialer.app.prcrecording.views.PrcCheckBoxPrefenence android:title="@string/recording_select" android:key="autorecord_custom" />
+</PreferenceScreen>

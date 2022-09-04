@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">분</item>
+        <item quantity="one">분</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1개의 통화, 마지막 받은 전화는 ^2에서 걸려옴</item>
+        <item quantity="one">^2에서 걸려온 ^1 받은 전화</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1개의 통화, 마지막 차단 통화는 ^2에서 걸려옴</item>
+        <item quantity="one">^2에서 걸려온 ^1 차단 전화</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1개의 통화, 마지막 부재중 전화는 ^2에서 걸려옴</item>
+        <item quantity="one">^2에서 걸려온 ^1 부재중 전화</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1개의 통화, 마지막 발신 전화는 ^2(으)로 걸림</item>
+        <item quantity="one">^2(으)로의 ^1 발신 전화</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">초</item>
+        <item quantity="one">초</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>이 음성사서함을 삭제하시겠습니까? &lt;/b></item>
+        <item quantity="one">&lt;b>이 음성사서함을 삭제하시겠습니까? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">분</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">초</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">음성메일 %1$d개</item>
+        <item quantity="one">음성메일</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s 탭. 읽지 않은 항목 %2$d개 "</item>
+    </plurals>
+</resources>

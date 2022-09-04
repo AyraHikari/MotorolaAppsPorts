@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/verified_caller_text_color" android:id="@id/verified_caller" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verified_caller" android:layout_marginStart="@dimen/photo_text_margin" style="@style/Dialer.TextAppearance.Secondary.Ellipsize"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

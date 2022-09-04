@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/windowpopshape_corner" android:layout_width="@dimen/windowpop_width_size" android:layout_height="@dimen/windowpop_height_size" android:layout_marginTop="@dimen/windowpop_margin_top" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/windowpop_decline" android:background="@drawable/prc_ic_notify_call_end" android:layout_width="@dimen/windowpop_img_size" android:layout_height="@dimen/windowpop_img_size" android:tint="@color/notification_action_dismiss" android:contentDescription="@null" android:layout_marginStart="@dimen/windowpop_img_margin_size" android:layout_marginEnd="@dimen/windowpop_img_margin_size" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/windowpop_name_text_size" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/windowpop_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/windowpop_text_margin_top">
+            <TextView android:textSize="@dimen/notifier_num_text_size" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:id="@id/windowpop_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/notifier_num_text_size" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:id="@id/windowpop_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <LinearLayout android:id="@id/timer_banner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                <Chronometer android:textSize="@dimen/notifier_num_text_size" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:id="@id/windowpop_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/windowpop_answer" android:background="@drawable/prc_ic_notify_comingcall_large" android:layout_width="@dimen/windowpop_img_size" android:layout_height="@dimen/windowpop_img_size" android:tint="@color/notification_action_accept" android:contentDescription="@null" android:layout_marginStart="@dimen/windowpop_img_margin_size" android:layout_marginEnd="@dimen/windowpop_img_margin_size" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">минут</item>
+        <item quantity="one">минут</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 дуудлага, хамгийн сүүлийнх нь ^2-с ирсэн авсан дуудлага</item>
+        <item quantity="one">^2-с ирсэн авсан ^1 дуудлага</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 дуудлага, хамгийн сүүлийнх нь ^2-с ирсэн блоклосон дуудлага</item>
+        <item quantity="one">^2-с ирсэн блоклосон ^1 дуудлага</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 дуудлага, хамгийн сүүлийнх нь ^2-с ирсэн аваагүй дуудлага</item>
+        <item quantity="one">^2-с ирсэн аваагүй ^1 дуудлага</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 дуудлага, хамгийн сүүлийнх нь ^2 руу залгасан дуудлага</item>
+        <item quantity="one">^2 руу залгасан ^1 дуудлага</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">секунд</item>
+        <item quantity="one">секунд</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Эдгээр дуут шууданг устгах уу? &lt;/b></item>
+        <item quantity="one">&lt;b>Энэ дуут шууданг устгах уу? &lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Дуут шуудан</item>
+        <item quantity="one">Дуут шуудан</item>
+    </plurals>
+</resources>

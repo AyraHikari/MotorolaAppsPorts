@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="two_button_button_size">64.0dip</dimen>
+    <dimen name="two_button_label_padding">16.0dip</dimen>
+</resources>

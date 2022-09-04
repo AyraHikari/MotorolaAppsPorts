@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="75.0dip" android:width="300.0dip" />
+    <solid android:color="@color/bubble_end_call_background" />
+    <corners android:bottomLeftRadius="@dimen/bubble_menu_corner_radius" android:bottomRightRadius="@dimen/bubble_menu_corner_radius" />
+</shape>

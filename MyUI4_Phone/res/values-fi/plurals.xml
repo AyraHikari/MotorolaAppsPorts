@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">minuuttia</item>
+        <item quantity="one">minuutti</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">^1 puhelua, viimeisin vastattu puhelu numerosta ^2</item>
+        <item quantity="one">^1 vastattu puhelu numerosta ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">^1 puhelua, viimeisin estetty puhelu numerosta ^2</item>
+        <item quantity="one">^1 estetty puhelu numerosta ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">^1 puhelua, viimeisin vastaamaton puhelu numerosta ^2</item>
+        <item quantity="one">^1 vastaamaton puhelu numerosta ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">^1 puhelua, viimeisin lähtevä puhelu numeroon ^2</item>
+        <item quantity="one">^1 lähtevä puhelu numeroon ^2</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">sekuntia</item>
+        <item quantity="one">sekunti</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Poistetaanko nämä vastaajaviestit? &lt;/b></item>
+        <item quantity="one">&lt;b>Poistetaanko tämä vastaajaviesti? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">s</item>
+        <item quantity="one">s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d vastaajaviestiä "</item>
+        <item quantity="one">Vastaajaviesti</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s-välilehti. %2$d lukematonta kohdetta. "</item>
+        <item quantity="one">" %1$s-välilehti. %2$d lukematon kohde. "</item>
+    </plurals>
+</resources>

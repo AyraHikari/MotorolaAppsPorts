@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.widget.ContactPhotoView android:id="@id/contact_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/menu_button" android:layout_toEndOf="@id/contact_photo_view">
+        <TextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:lineSpacingMultiplier="1.5" android:layout_marginEnd="6.0dip" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_voicemail_vd_theme_24" android:tint="?android:colorPrimary" android:importantForAccessibility="no" android:tintMode="multiply" />
+            <TextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.4" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/voicemail_transcription_text_size" android:layout_gravity="center_vertical" android:id="@id/transcription_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Dialer.TextAppearance.Primary" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/transcription_branding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voicemail_transcription_branding_text" style="@style/Dialer.TextAppearance.Secondary" />
+        <com.android.dialer.voicemail.listui.NewVoicemailMediaPlayerView android:id="@id/new_voicemail_media_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/menu_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="56.0dip" android:layout_height="72.0dip" android:src="@drawable/quantum_ic_more_vert_vd_theme_24" android:scaleType="center" android:tint="?colorIcon" android:contentDescription="@string/a11y_voicemail_entry_expand_menu" android:layout_alignParentEnd="true" />
+</RelativeLayout>

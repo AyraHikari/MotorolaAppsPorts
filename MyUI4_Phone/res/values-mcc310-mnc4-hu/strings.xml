@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">Mellőzés</string>
+    <string name="notification_dialing">Hívás</string>
+    <string name="tab_history">Legutóbbiak</string>
+</resources>

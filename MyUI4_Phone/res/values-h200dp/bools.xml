@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="two_button_show_button_labels">true</bool>
+</resources>

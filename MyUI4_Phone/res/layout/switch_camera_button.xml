@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.video.impl.CheckableImageButton android:id="@id/videocall_switch_video" android:src="@drawable/front_back_switch_button_animation" android:scaleType="center" android:contentDescription="@string/incall_content_description_swap_video" style="@style/Incall.Button.VideoCall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

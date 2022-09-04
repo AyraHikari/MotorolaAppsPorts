@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/notification_large_icon" android:layout_alignParentStart="true">
+        <TextView android:ellipsize="end" android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="3.0dip" style="@style/TextAppearance.Compat.Notification.Title" />
+        <TextView android:ellipsize="end" android:id="@id/notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="3.0dip" style="@style/TextAppearance.Compat.Notification" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/verified_caller_text_color" android:ellipsize="end" android:id="@id/verified_caller_tv" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verified_caller" android:lines="1" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/notification_large_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

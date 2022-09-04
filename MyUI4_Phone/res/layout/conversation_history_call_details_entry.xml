@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/swipeableContainer" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+        <com.android.dialer.calllogutils.CallTypeIconsView android:id="@id/call_direction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:useLargeIcons="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/entry_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/call_container" android:layout_toEndOf="@id/call_direction">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/call_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_weight="1.0" android:layout_marginEnd="6.0dip" style="@style/Dialer.TextAppearance.SubHeader" />
+                <ImageView android:id="@id/wifi_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="18.0sp" android:src="@drawable/quantum_ic_signal_wifi_4_bar_vd_theme_24" android:tint="?colorIcon" android:importantForAccessibility="no" android:layout_marginEnd="4.0dip" />
+                <ImageView android:id="@id/hd_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="18.0sp" android:src="@drawable/quantum_ic_hd_vd_theme_24" android:tint="?colorIcon" android:importantForAccessibility="no" android:layout_marginEnd="4.0dip" />
+                <ImageView android:id="@id/assisted_dial_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="18.0sp" android:src="@drawable/quantum_ic_language_vd_theme_24" android:tint="?colorIcon" android:importantForAccessibility="no" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+            <TextView android:id="@id/call_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/Dialer.TextAppearance.Secondary" />
+            <TextView android:id="@id/call_details_entry_phone_account" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+            <TextView android:id="@id/rtt_transcript" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+            <TextView android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/call_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/record_play" android:background="@drawable/calllog_waterfloat_bg_40dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prc_audio_play_bg" android:scaleType="center" android:tint="?colorIcon" android:paddingStart="@dimen/button_horizontal_padding" android:paddingEnd="@dimen/button_horizontal_padding" />
+            <TextView android:gravity="right" android:id="@id/call_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/record_play" android:layout_marginEnd="@dimen/select_all_text_left_padding" style="@style/Dialer.TextAppearance.Secondary2.Ellipsize" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/swipeableContainer" layout="@layout/prc_recording_play_layout" />
+</RelativeLayout>

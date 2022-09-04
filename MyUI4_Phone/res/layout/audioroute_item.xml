@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableStart="@drawable/quantum_ic_bluetooth_audio_vd_theme_24" android:textAlignment="viewStart" style="@style/AudioRouteItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

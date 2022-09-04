@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@id/hd_attempting" android:drawable="@drawable/avd_hd_attempting" android:state_activated="false" />
+    <item android:id="@id/hd_enabled" android:drawable="@drawable/quantum_ic_hd_vd_theme_24" android:state_activated="true" />
+    <transition android:toId="@id/hd_enabled" android:fromId="@id/hd_attempting">
+        <animated-vector android:drawable="@drawable/vd_hd_attempting">
+            <target android:name="hdMask" android:animation="@drawable/$asd_hd_icon__0" />
+            <target android:name="hdRoot" android:animation="@drawable/$asd_hd_icon__1" />
+            <target android:name="root" android:animation="@drawable/$asd_hd_icon__2" />
+        </animated-vector>
+    </transition>
+</animated-selector>

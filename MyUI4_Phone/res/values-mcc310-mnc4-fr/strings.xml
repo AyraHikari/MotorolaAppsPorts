@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">Ignorer</string>
+    <string name="notification_dialing">Appel en cours</string>
+    <string name="tab_history">Récents</string>
+</resources>

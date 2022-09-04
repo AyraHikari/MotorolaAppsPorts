@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/call_log_day_group_padding_top" android:paddingBottom="@dimen/call_log_day_group_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/speed_dial_header_text_size" android:id="@id/speed_dial_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/Dialer.TextAppearance.Secondary" />
+    <Button android:textColor="?android:textColorSecondaryInverse" android:id="@id/speed_dial_add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speed_dial_add_button_text" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Borderless" />
+</RelativeLayout>

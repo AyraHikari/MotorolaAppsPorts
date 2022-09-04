@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:tint="?colorControlNormal" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="progressRoot" android:translateX="12.0" android:translateY="12.0">
+        <path android:name="progressBar" android:fillColor="#00000000" android:pathData="M0, 0 m 0, -11 a 11,11 0 1,1 0,22 a 11,11 0 1,1 0,-22" android:strokeColor="@android:color/white" android:strokeWidth="2.0" android:trimPathStart="0.0" android:trimPathEnd="0.0" android:trimPathOffset="0.0" android:strokeLineCap="square" android:strokeLineJoin="miter" />
+    </group>
+    <group android:name="hdRoot" android:pivotX="12.0" android:pivotY="12.0">
+        <clip-path android:name="hdMask" android:pathData="M12, 12 m 0, -9 a 9,9 0 1,1 0,18 a 9,9 0 1,1 0,-18" />
+        <path android:name="hd" android:fillColor="@android:color/white" android:pathData="M19,3L5,3c-1.11,0 -2,0.9 -2,2v14c0,1.1 0.89,2 2,2h14c1.1,0 2,-0.9 2,-2L21,5c0,-1.1 -0.9,-2 -2,-2zM11,15L9.5,15v-2h-2v2L6,15L6,9h1.5v2.5h2L9.5,9L11,9v6zM13,9h4c0.55,0 1,0.45 1,1v4c0,0.55 -0.45,1 -1,1h-4L13,9zM14.5,13.5h2v-3h-2v3z" />
+    </group>
+</vector>

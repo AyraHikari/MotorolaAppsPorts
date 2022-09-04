@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_contact_name_text_size">54.0sp</dimen>
+</resources>

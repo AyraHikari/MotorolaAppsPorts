@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_checked="true" android:drawable="@drawable/incall_button_background_checked" />
+            <item android:drawable="@drawable/incall_button_background_unchecked" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="@color/incall_button_ripple">
+            <item android:gravity="center" android:id="@android:id/mask">
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/white" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

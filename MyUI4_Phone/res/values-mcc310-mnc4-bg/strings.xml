@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_action_dismiss">Игнориране</string>
+    <string name="notification_dialing">Обаждане</string>
+    <string name="tab_history">Скорошни</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:layout_marginStart="@dimen/row_start_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/header" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/click_target" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/row_top_bottom_padding" android:paddingBottom="@dimen/row_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/row_start_padding" android:layout_marginEnd="@dimen/row_end_margin">
+        <QuickContactBadge android:id="@id/photo" android:clickable="false" android:layout_width="@dimen/photo_size" android:layout_height="@dimen/photo_size" />
+        <com.android.dialer.widget.BidiTextView android:textSize="@dimen/text_size" android:textColor="@color/prc_text_primary_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="sans-serif" android:paddingStart="@dimen/text_padding_start" android:paddingEnd="@dimen/text_padding_end" />
+    </LinearLayout>
+</FrameLayout>

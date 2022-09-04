@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/new_call_log_entry_root" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.widget.ContactPhotoView android:id="@id/contact_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:importantForAccessibility="noHideDescendants" android:layout_toStartOf="@id/call_button" android:layout_toEndOf="@id/contact_photo_view">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.dialer.widget.BidiTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingMultiplier="1.5" android:layout_marginEnd="6.0dip" style="@style/Dialer.TextAppearance.Primary.Ellipsize" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/hd_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_hd_vd_theme_24" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/wifi_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_signal_wifi_4_bar_vd_theme_24" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/assisted_dial_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/quantum_ic_language_vd_theme_24" android:importantForAccessibility="no" />
+            <TextView android:id="@id/call_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" android:layout_marginEnd="6.0dip" style="@style/Dialer.TextAppearance.Primary" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/call_type_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:importantForAccessibility="no" />
+            <TextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.4" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+        </LinearLayout>
+        <TextView android:id="@id/phone_account" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Dialer.TextAppearance.Secondary.Ellipsize" />
+    </LinearLayout>
+    <ImageView android:id="@id/call_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="56.0dip" android:layout_height="72.0dip" android:scaleType="center" android:tint="?colorIcon" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">dəqiqə</item>
+        <item quantity="one">dəqiqə</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">Sonuncu, ^2 tərəfindən cavab verilmiş zəng olmaqla, ^1 zəng</item>
+        <item quantity="one">^2 tərəfindən ^1 cavab verilmiş zəng</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">Sonuncu, ^2 tərəfindən blok edilmiş zəng olmaqla, ^1 zəng</item>
+        <item quantity="one">^2 tərəfindən ^1 blok edilmiş zəng</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">Sonuncu, ^2 adlı istifadəçidən buraxılmış zəng olmaqla, ^1 zəng</item>
+        <item quantity="one">^1 buraxılmış zəng: ^2</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">Sonuncu, ^2 adlı istifadəçiyə gedən zəng olmaqla, ^1 zəng</item>
+        <item quantity="one">^1 ^2 adlı istifadəçiyə gedən zəng</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">saniyə</item>
+        <item quantity="one">saniyə</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>Bu səsli e-məktub silinsin? &lt;/b></item>
+        <item quantity="one">&lt;b>Bu səsli e-məktub silinsin? &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">dəq.</item>
+        <item quantity="one">dəq.</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">sn</item>
+        <item quantity="one">sn</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildiriş</item>
+        <item quantity="one">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">" %1$d Səsli poçt "</item>
+        <item quantity="one">Səsli poçt</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s tabel. %2$d oxunmamış element. "</item>
+        <item quantity="one">" %1$s tabel. %2$d oxunmamış element. "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.dialpadview.DialpadKeyButton android:id="@id/pound" style="@style/DialpadKeyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/dialpad_key_layout" style="@style/DialpadKeyInternalLayoutStyle">
+        <com.android.dialer.dialpadview.DialpadTextView android:id="@id/dialpad_key_number" style="@style/DialpadKeyPoundStyle" />
+    </LinearLayout>
+</com.android.dialer.dialpadview.DialpadKeyButton>

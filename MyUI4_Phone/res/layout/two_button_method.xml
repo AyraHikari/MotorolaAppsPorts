@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/two_button_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:alpha="0.0" android:accessibilityLiveRegion="polite" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:paddingBottom="@dimen/two_button_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/incall_call_button_elevation" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="88.0dip">
+            <ImageButton android:id="@id/two_button_decline_button" android:layout_width="@dimen/two_button_button_size" android:layout_height="@dimen/two_button_button_size" android:src="@drawable/quantum_ic_call_end_white_24" android:contentDescription="@string/a11y_call_incoming_decline_description" style="@style/Answer.Button.Decline" />
+            <TextView android:textSize="@dimen/two_button_label_size" android:textColor="#ffffffff" android:id="@id/two_button_decline_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/two_button_label_padding" android:text="@string/call_incoming_decline" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/incall_call_button_elevation" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/two_button_answer_button" android:layout_width="@dimen/two_button_button_size" android:layout_height="@dimen/two_button_button_size" android:src="@drawable/quantum_ic_call_white_24" android:contentDescription="@string/a11y_call_incoming_answer_description" style="@style/Answer.Button.Answer" />
+            <TextView android:textSize="@dimen/two_button_label_size" android:textColor="#ffffffff" android:id="@id/two_button_answer_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/two_button_label_padding" android:text="@string/call_incoming_answer" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

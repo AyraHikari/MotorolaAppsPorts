@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:id="@id/call_details_button_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/call_back_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/call_details_button_rtt" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/call_back_button_size" android:layout_height="@dimen/call_back_button_size" android:src="@drawable/quantum_ic_rtt_vd_theme_24" android:scaleType="center" android:tint="?colorIcon" android:layout_centerVertical="true" android:contentDescription="@string/call" />
+    <ImageView android:id="@id/call_details_button_video" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/call_back_button_size" android:layout_height="@dimen/call_back_button_size" android:src="@drawable/quantum_ic_videocam_vd_theme_24" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/call" />
+</LinearLayout>

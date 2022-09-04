@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/assisted_dialing_setting_title" android:key="@string/assisted_dialing_setting_toggle_key" android:summary="@string/assisted_dialing_setting_summary" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/assisted_dialing_setting_cc_category_title">
+        <ListPreference android:entries="@array/assisted_dialing_cc_entries" android:title="@string/assisted_dialing_setting_cc_title" android:key="@string/assisted_dialing_setting_cc_key" android:summary="@string/assisted_dialing_setting_cc_default_summary_fallback" android:dependency="@string/assisted_dialing_setting_toggle_key" android:defaultValue="" android:entryValues="@array/assisted_dialing_cc_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textStyle="bold" android:textColor="?android:colorAccent" android:gravity="center" android:id="@id/header" android:layout_width="@dimen/vzw_ims_header_width" android:layout_height="@dimen/row_height" style="@style/Dialer.TextAppearance.Header2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

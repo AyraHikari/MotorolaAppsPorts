@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="48.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="48.0dip" android:paddingEnd="48.0dip">
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" android:gravity="center" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:accessibilityLiveRegion="polite" />
+        <TextView android:gravity="center" android:id="@id/hintText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" />
+        <TextView android:textColor="@android:color/holo_red_dark" android:gravity="center" android:id="@id/errorText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" />
+        <EditText android:textSize="24.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/pin_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberPassword" android:imeOptions="actionNext|flagNoExtractUi" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/change_pin_cancel_label" android:layout_weight="1.0" />
+        <Button android:id="@id/next_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/change_pin_continue_label" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

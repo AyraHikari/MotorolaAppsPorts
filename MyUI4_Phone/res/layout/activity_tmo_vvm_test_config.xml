@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_staging_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="18.0sp" android:id="@id/tv_staging_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Enable Staging server" android:layout_weight="1.0" />
+                <Switch android:id="@id/switch_staging" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button android:id="@id/btn_get_vsp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get VvmServiceProfile" />
+            <Button android:id="@id/btn_activation_task" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Run Activation Task" />
+            <Button android:id="@id/btn_test_v2t_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TuRN ON V2T" />
+            <Button android:id="@id/btn_test_v2t_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Turn OFF V2T" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

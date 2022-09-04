@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="25.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="25.0dip" android:paddingEnd="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/details" />
+    <CheckBox android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/always_warn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/always_warn" android:buttonTint="?android:colorPrimary" />
+</LinearLayout>

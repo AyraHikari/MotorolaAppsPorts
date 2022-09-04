@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_minutes">
+        <item quantity="other">မိနစ်</item>
+        <item quantity="one">မိနစ်</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_answered_call">
+        <item quantity="other">ခေါ်ဆိုမှု ^1 ခု၊ နောက်ဆုံးတစ်ခုသည် ^2 ၏ ခေါ်ဆိုချက်ကို ဖြေကြားထားခြင်း ဖြစ်သည်</item>
+        <item quantity="one">^2 ၏ ခေါ်ဆိုမှုကို ဖြေကြားမှု ^1 ခု</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_blocked_call">
+        <item quantity="other">ခေါ်ဆိုမှု ^1ခု၊ နောက်ဆုံးတစ်ခုသည် ^2 ထံမှ ပိတ်ထားသောခေါ်ဆိုမှု ဖြစ်သည်</item>
+        <item quantity="one">^2 ထံမှ ပိတ်ထားသော ခေါ်ဆိုမှု ^1 ခု</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_missed_call">
+        <item quantity="other">ခေါ်ဆိုမှု ^1 ခု၊ နောက်ဆုံးတစ်ခုသည် ^2 ထံမှ လွတ်သွားသောခေါ်ဆိုမှုဖြစ်သည်</item>
+        <item quantity="one">^2 ထံမှ လွတ်သွား ခေါ်ဆိုမှု ^1 ခု</item>
+    </plurals>
+    <plurals name="a11y_new_call_log_entry_outgoing_call">
+        <item quantity="other">ခေါ်ဆိုမှု ^1 ခု၊ နောက်ဆုံးတစ်ခုသည် ^2 သို့ အထွက်ခေါ်ဆိုမှုဖြစ်သည်</item>
+        <item quantity="one">^2 သို့ အထွက်ခေါ်ဆိုမှု ^1 ခု</item>
+    </plurals>
+    <plurals name="a11y_seconds">
+        <item quantity="other">စက္ကန့်</item>
+        <item quantity="one">စက္ကန့်</item>
+    </plurals>
+    <plurals name="delete_voicemails_confirmation_dialog_title">
+        <item quantity="other">&lt;b>ဤအသံမေးလ်များကို ဖျက်မလား။ &lt;/b></item>
+        <item quantity="one">&lt;b>ဤအသံမေးလ်ကို ဖျက်မလား။ &lt;/b></item>
+    </plurals>
+    <plurals name="moto_call_details_minutes_abbreviation">
+        <item quantity="other">မိနစ်</item>
+    </plurals>
+    <plurals name="moto_call_details_seconds_abbreviation">
+        <item quantity="other">စက္ကန့်</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"%1$d အသံမေးလ်များ "</item>
+        <item quantity="one">အသံမေးလ်</item>
+    </plurals>
+    <plurals name="tab_title_with_unread_items">
+        <item quantity="other">" %1$s တဘ်။ မဖတ်ရသေးသည့် အရာ %2$d ခု။ "</item>
+    </plurals>
+</resources>
