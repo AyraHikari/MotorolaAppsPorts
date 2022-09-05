@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%s من الساعات</item>
+        <item quantity="zero">%s من الساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان (%s)</item>
+        <item quantity="few">%s ساعات</item>
+        <item quantity="many">%s ساعة</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d-</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">-</item>
+        <item quantity="two">%d-</item>
+        <item quantity="few">%d-</item>
+        <item quantity="many">%d-</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d+</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">+</item>
+        <item quantity="two">%d+</item>
+        <item quantity="few">%d+</item>
+        <item quantity="many">%d+</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%s من الدقائق</item>
+        <item quantity="zero">%s من الدقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان (%s)</item>
+        <item quantity="few">%s دقائق</item>
+        <item quantity="many">%s دقيقة</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%s ثانية</item>
+        <item quantity="zero">%s ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان (%s)</item>
+        <item quantity="few">%s ثوانٍ</item>
+        <item quantity="many">%s ثانية</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+</resources>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>アラームを今から1分未満に設定しました。</item>
+        <item>アラームは今から%1$sに設定されています。</item>
+        <item>アラームは今から%2$sに設定されています。</item>
+        <item>%1$sと%2$sにアラームを設定しました。</item>
+        <item>アラームを今から%3$sに設定します。</item>
+        <item>アラームは%1$sと%3$sに設定されています。</item>
+        <item>アラームは%2$sと%3$sに設定されています。</item>
+        <item>今から%1$s, %2$s,と%3$sにアラームを設定します。</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>15 分</item>
+        <item>20 分</item>
+        <item>25 分</item>
+        <item>30 分</item>
+        <item>決して～ない</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <array name="city_ids" />
+    <string-array name="clock_style_entries">
+        <item>アナログ</item>
+        <item>デジタル</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>アナログ</item>
+        <item>デジタル</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>例えば。 休日の情報をダウンロードし、電話が鳴っているときに地元の天気を表示する</item>
+        <item>着信時にローカル天気を表示するには、位置情報が必要です。</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>モバイルネットワークにアクセスします</item>
+        <item>アクセス場所</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>午前</item>
+        <item>午後</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>終了</item>
+        <item>スヌーズ</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>標準</item>
+        <item>タブレット</item>
+        <item>キューブイン（CubeIn）</item>
+        <item>キューブアウト（CubeOut）</item>
+        <item>フリップバーティカル（FlipVertical）</item>
+        <item>フリップホリゾンタル（FlipHorizontal）</item>
+        <item>スタック</item>
+        <item>ズームイン</item>
+        <item>ズームアウト</item>
+        <item>ロテートアップ（RotateUp）</item>
+        <item>ロテートダウン（RotateDown）</item>
+        <item>アコーディオン（Accordion）</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>一度</item>
+        <item>毎日</item>
+        <item>就業日（休日はオフ）</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>一度</item>
+        <item>毎日</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>未設定</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>15 分</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>残り1分未満</item>
+        <item>残り%1$s</item>
+        <item>残り%2$s</item>
+        <item>残り%1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>リング</item>
+        <item>振動</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>マーシャル諸島</item>
+        <item>ミッドウェイアイランド</item>
+        <item>ハワイ</item>
+        <item>アラスカ</item>
+        <item>太平洋時間</item>
+        <item>ティファナ</item>
+        <item>アリゾナ</item>
+        <item>チワワ</item>
+        <item>山岳時間</item>
+        <item>中米</item>
+        <item>中央時間</item>
+        <item>メキシコシティ</item>
+        <item>サスカチュワン</item>
+        <item>ボゴタ</item>
+        <item>東部時間</item>
+        <item>ベネズエラ</item>
+        <item>大西洋時間（バルバドス）</item>
+        <item>大西洋時間（カナダ）</item>
+        <item>マナウス</item>
+        <item>サンティアゴ</item>
+        <item>ニューファンドランド</item>
+        <item>ブラジリア</item>
+        <item>ブエノスアイレス</item>
+        <item>グリーンランド</item>
+        <item>モンテビデオ</item>
+        <item>中部大西洋</item>
+        <item>アゾレス</item>
+        <item>カーボベルデ諸島</item>
+        <item>カサブランカ</item>
+        <item>ロンドン、ダブリン</item>
+        <item>アムステルダム、ベルリン</item>
+        <item>ベオグラード</item>
+        <item>ブリュッセル</item>
+        <item>サラエボ</item>
+        <item>ウィントフック</item>
+        <item>西アフリカ時間</item>
+        <item>アンマン、ヨルダン</item>
+        <item>アテネ、イスタンブール</item>
+        <item>ベイルート、レバノン</item>
+        <item>カイロ</item>
+        <item>ヘルシンキ</item>
+        <item>エルサレム</item>
+        <item>ミンスク</item>
+        <item>ハラレ</item>
+        <item>バグダッド</item>
+        <item>モスクワ</item>
+        <item>クウェイト</item>
+        <item>ナイロビ</item>
+        <item>テヘラン</item>
+        <item>バクー</item>
+        <item>トビリシ</item>
+        <item>エレバン</item>
+        <item>ドバイ</item>
+        <item>カブール</item>
+        <item>イスラマバード/カラチ</item>
+        <item>オラル</item>
+        <item>エカテリンブルク</item>
+        <item>コルカタ</item>
+        <item>スリランカ</item>
+        <item>カトマンズ</item>
+        <item>アスタナ</item>
+        <item>ヤンゴン</item>
+        <item>クラスノヤルスク</item>
+        <item>バンコク</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>イルクーツク</item>
+        <item>クアラルンプール</item>
+        <item>パース</item>
+        <item>台北</item>
+        <item>ソウル</item>
+        <item>東京、大阪</item>
+        <item>ヤクーツク</item>
+        <item>アデレード</item>
+        <item>ダーウィン</item>
+        <item>ブリスベン</item>
+        <item>ホバート</item>
+        <item>シドニー、キャンベラ</item>
+        <item>ウラジオストク</item>
+        <item>グアム</item>
+        <item>マガダン</item>
+        <item>オークランド</item>
+        <item>フィジー</item>
+        <item>トンガ</item>
+        <item>ジャカルタ</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>太平洋マジュロ</item>
+        <item>太平洋/ミッドウェー</item>
+        <item>太平洋/ホノルル</item>
+        <item>アメリカ/アンカレッジ</item>
+        <item>アメリカ/ロサンゼルス</item>
+        <item>アメリカ/ティフアナ</item>
+        <item>アメリカ/フェニックス</item>
+        <item>アメリカ/チワワ</item>
+        <item>アメリカ/デンバー</item>
+        <item>アメリカ/コスタ＿リカ</item>
+        <item>アメリカ/シカゴ</item>
+        <item>アメリカ/メキシコ_シティ</item>
+        <item>アメリカ/レジャイナ</item>
+        <item>アメリカ/ボゴタ</item>
+        <item>アメリカ/ニュー＿ヨーク</item>
+        <item>アメリカ/カラカス</item>
+        <item>アメリカ/バルバドス</item>
+        <item>アメリカ/ハリファックス</item>
+        <item>アメリカ/マナウス</item>
+        <item>アメリカ/サンチャゴ</item>
+        <item>アメリカ/セント＿ジョーンズ</item>
+        <item>アメリカ/サン＿パウロ</item>
+        <item>アメリカ/アルゼンチン/ブエノス＿アイレス</item>
+        <item>アメリカ/ヌーク</item>
+        <item>アメリカ/モンテビデオ</item>
+        <item>アメリカ/サウス＿ジョージア</item>
+        <item>大西洋/アゾレス</item>
+        <item>大西洋/カーボベルデ</item>
+        <item>アフリカ/カサブランカ</item>
+        <item>ヨーロッパ/ロンドン</item>
+        <item>ヨーロッパ/アムステルダム</item>
+        <item>ヨーロッパ/ベオグラード</item>
+        <item>ヨーロッパ/ブラッセル</item>
+        <item>ヨーロッパ/サラエボ</item>
+        <item>アフリカ/ウィントフ-ク</item>
+        <item>アフリカ/ブラザヴィル</item>
+        <item>アジア/アンマン</item>
+        <item>ヨーロッパ/アテネ</item>
+        <item>アジア/ベイルート</item>
+        <item>アフリカ/カイロ</item>
+        <item>ヨーロッパ/ヘルシンキ</item>
+        <item>アジア/エルサレム</item>
+        <item>ヨーロッパ/ミンスク</item>
+        <item>アフリカ/ハラレ</item>
+        <item>アジア/バグダッド</item>
+        <item>ヨーロッパ/モスクワ</item>
+        <item>アジア/クウェート</item>
+        <item>アフリカ/ナイロビ</item>
+        <item>アジア/テヘラン</item>
+        <item>アジア/バクー</item>
+        <item>アジア/トビリシ</item>
+        <item>アジア/エレバン</item>
+        <item>アジア/ドバイ</item>
+        <item>アジア/カブール</item>
+        <item>アジア/カラチ</item>
+        <item>アジア/オーラル</item>
+        <item>アジア/エカテリンブルグ</item>
+        <item>アジア/カルカッタ</item>
+        <item>アジア/コロンボ</item>
+        <item>アジア/カトマンズ</item>
+        <item>アジア/アルマトイ</item>
+        <item>アジア/ラングーン</item>
+        <item>アジア/クラスノヤルスク</item>
+        <item>アジア/バンコク</item>
+        <item>アジア/上海</item>
+        <item>アジア/香＿港</item>
+        <item>アジア/イルクーツク</item>
+        <item>アジア/クアラ＿ルンプール</item>
+        <item>オーストラリア/パース</item>
+        <item>アジア/台北</item>
+        <item>アジア/ソール</item>
+        <item>アジア/東京</item>
+        <item>アジア/ヤクーツク</item>
+        <item>オーストラリア/アデレード</item>
+        <item>オーストラリア/ダーウィン</item>
+        <item>オーストラリア/ブリスベン</item>
+        <item>オーストラリア/ホバート</item>
+        <item>オーストラリア/シドニー</item>
+        <item>アジア/ウラジオストク</item>
+        <item>太平洋/グアム</item>
+        <item>アジア/マガダン</item>
+        <item>太平洋/オークランド</item>
+        <item>太平洋/フィジー</item>
+        <item>太平洋/トンガタプ島</item>
+        <item>アジア/ジャカルタ</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>スヌーズ</item>
+        <item>終了</item>
+        <item>何もしない</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>ソフト</item>
+        <item>正常</item>
+        <item>ラウド</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+</resources>

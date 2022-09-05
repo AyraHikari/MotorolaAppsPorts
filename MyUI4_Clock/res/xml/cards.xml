@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+    <plugin action="com.motorola.plugin.action.WORLDCLOCK" implementorPluginClass="com.motorola.plugin.WorldClockPlugin" label="@string/menu_clock" prototypePluginClass="com.motorola.plugins.WorldClockPlugin" />
+</plugins>

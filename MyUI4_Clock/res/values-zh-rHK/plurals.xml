@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">1 小時</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">晚 %d 小時</item>
+        <item quantity="one">晚 %d 小時</item>
+    </plurals>
+    <plurals name="Nhours_description_after_screen">
+        <item quantity="other">-%d 小時</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">早 %d 小時</item>
+        <item quantity="one">早 %d 小時</item>
+    </plurals>
+    <plurals name="Nhours_description_before_screen">
+        <item quantity="other">+%d 小時</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">1 秒</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 個新通知</item>
+        <item quantity="one">%d 個新通知</item>
+    </plurals>
+</resources>

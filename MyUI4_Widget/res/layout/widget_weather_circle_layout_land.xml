@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layout_3_circle" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_1" android:background="@drawable/widget_weather_ripple_bg_circle" android:layout_width="0.0dip" android:layout_height="@dimen/widget_adapt_48dp" android:layout_weight="1.0" android:layout_marginEnd="@dimen/widget_adapt_6dp" android:paddingHorizontal="@dimen/plugin_margin_8">
+        <ImageView android:layout_width="@dimen/widget_adapt_20dp" android:layout_height="@dimen/widget_adapt_20dp" android:src="@drawable/ic_widget_weather_humidity" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/widget_weather_accent_color" android:id="@id/today_humidity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text14" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_2" android:background="@drawable/widget_weather_ripple_bg_circle" android:layout_width="0.0dip" android:layout_height="@dimen/widget_adapt_48dp" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/widget_adapt_6dp" android:paddingHorizontal="@dimen/plugin_margin_8">
+        <ImageView android:layout_width="@dimen/widget_adapt_20dp" android:layout_height="@dimen/widget_adapt_20dp" android:src="@drawable/ic_widget_weather_precipitation" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/widget_weather_accent_color" android:id="@id/today_precipitation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text14" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_0" android:background="@drawable/widget_weather_ripple_bg_circle" android:layout_width="0.0dip" android:layout_height="@dimen/widget_adapt_48dp" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_adapt_6dp" android:paddingHorizontal="@dimen/plugin_margin_8">
+        <ImageView android:id="@id/wind_or_aqi" android:layout_width="@dimen/widget_adapt_20dp" android:layout_height="@dimen/widget_adapt_20dp" android:src="@drawable/ic_widget_weather_wind_speed" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/widget_weather_accent_color" android:id="@id/today_wind_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text14" />
+    </LinearLayout>
+</LinearLayout>

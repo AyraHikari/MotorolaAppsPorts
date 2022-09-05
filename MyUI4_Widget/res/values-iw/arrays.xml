@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>שעה אחת</item>
+        <item>שעתיים</item>
+        <item>3 שעות</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>שעה ומזג אוויר</item>
+        <item>מזג אוויר</item>
+        <item>שעה</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>פרנהייט</item>
+        <item>צלזיוס</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>איי מרשל</item>
+        <item>האי מידוויי</item>
+        <item>הוואי</item>
+        <item>אלסקה</item>
+        <item>שעון החוף המערבי</item>
+        <item>טיחואנה</item>
+        <item>אריזונה</item>
+        <item>"צ'יוואווה"</item>
+        <item>זמן הרים</item>
+        <item>מרכז אמריקה</item>
+        <item>אזור זמן מרכז</item>
+        <item>מקסיקו סיטי</item>
+        <item>"ססקצ'ואן"</item>
+        <item>בוגוטה</item>
+        <item>שעון החוף המזרחי</item>
+        <item>‏‏ונצואלה</item>
+        <item>אזור זמן אטלנטי (ברבדוס)</item>
+        <item>אזור זמן אטלנטי (קנדה)</item>
+        <item>מנאוס</item>
+        <item>סנטיאגו</item>
+        <item>ניופאונדלנד</item>
+        <item>ברזיליה</item>
+        <item>בואנוס איירס</item>
+        <item>גרינלנד</item>
+        <item>מונטווידאו</item>
+        <item>המרכז האטלנטי</item>
+        <item>האיים האזורים</item>
+        <item>איי כף ורדה</item>
+        <item>קזבלנקה</item>
+        <item>לונדון, דבלין</item>
+        <item>אמסטרדם, ברלין</item>
+        <item>בלגרד</item>
+        <item>בריסל</item>
+        <item>סרייבו</item>
+        <item>ווינדהוק</item>
+        <item>שעון מערב אפריקה</item>
+        <item>עמאן, ירדן</item>
+        <item>אתונה, איסטנבול</item>
+        <item>ביירות, לבנון</item>
+        <item>קהיר</item>
+        <item>הלסינקי</item>
+        <item>ירושלים</item>
+        <item>מינסק</item>
+        <item>הררה</item>
+        <item>בגדד</item>
+        <item>מוסקבה</item>
+        <item>כווית</item>
+        <item>ניירובי</item>
+        <item>טהרן</item>
+        <item>באקו</item>
+        <item>טביליסי</item>
+        <item>ירבאן</item>
+        <item>דובאי</item>
+        <item>קאבול</item>
+        <item>"איסלמבאד, קאראצ'י"</item>
+        <item>אורלסק</item>
+        <item>יקטרינבורג</item>
+        <item>כלכותה</item>
+        <item>סרי לנקה</item>
+        <item>קטמנדו</item>
+        <item>אסטנה</item>
+        <item>יאנגון</item>
+        <item>קרסנוירסק</item>
+        <item>בנגקוק</item>
+        <item>"בייג'ינג"</item>
+        <item>הונג קונג</item>
+        <item>אירקוצק</item>
+        <item>קואלה לומפור</item>
+        <item>"פרת'"</item>
+        <item>טאיפיי</item>
+        <item>סיאול</item>
+        <item>טוקיו, אוסקה</item>
+        <item>יקוטסק</item>
+        <item>אדלייד</item>
+        <item>דארווין</item>
+        <item>בריסביין</item>
+        <item>הובארט</item>
+        <item>סידני, קנברה</item>
+        <item>ולדיווסטוק</item>
+        <item>גואם</item>
+        <item>מגדן</item>
+        <item>אוקלנד</item>
+        <item>"פיג'י‬"</item>
+        <item>טונגה</item>
+        <item>"ג'קרטה"</item>
+    </string-array>
+</resources>

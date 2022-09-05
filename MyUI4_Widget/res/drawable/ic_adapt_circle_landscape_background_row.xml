@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="140.0dip" android:width="140.0dip" android:viewportWidth="140.0" android:viewportHeight="140.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_adapt_card_background_row" android:pathData="M70,70m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0" />
+</vector>

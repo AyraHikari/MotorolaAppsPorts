@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingTop="@dimen/lap_item_padding" android:paddingBottom="@dimen/lap_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/stop_watch_grayblack" android:gravity="center" android:id="@id/lap_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:paddingEnd="10.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/stop_watch_grayblack" android:gravity="center" android:id="@id/lap_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" />
+</LinearLayout>

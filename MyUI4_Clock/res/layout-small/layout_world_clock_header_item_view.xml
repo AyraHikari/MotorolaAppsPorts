@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/normal_content" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/world_clock_item_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+        <TextView android:textSize="@dimen/clock_list_item_title_size" android:textColor="@color/light_main_bottom_select" android:ellipsize="end" android:id="@id/edit_clock_list_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:maxWidth="@dimen/wc_list_city_name_max_width" android:singleLine="true" android:layout_marginStart="41.0dip" />
+        <TextView android:textSize="@dimen/clock_list_item_subtitle_size" android:textColor="@color/light_main_bottom_select" android:gravity="center|left" android:id="@id/edit_clock_list_day_before" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="今天" android:singleLine="true" android:layout_marginStart="46.0dip" />
+        <com.motorola.cn.deskclock.widget.DashLine android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="32.0dip" android:paddingStart="41.0dip" />
+    </LinearLayout>
+</merge>

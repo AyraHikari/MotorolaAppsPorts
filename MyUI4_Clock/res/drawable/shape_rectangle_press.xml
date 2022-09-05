@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_timer_play_btn" />
+    <corners android:radius="32.0dip" />
+    <size android:height="64.0dip" android:width="64.0dip" />
+</shape>

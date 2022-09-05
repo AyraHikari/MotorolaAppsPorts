@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/center_anchor" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_centerVertical="true" />
+    <TextView android:id="@id/space" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="@dimen/v_widget_click_area_padding_land" android:layout_below="@id/center_anchor" android:layout_marginStart="@dimen/v_widget_content_margin_land" />
+    <TextView android:id="@id/image_anchor" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_below="@id/space" />
+    <RelativeLayout android:id="@id/clock_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/image_anchor" android:layout_alignParentTop="true">
+        <TextClock android:gravity="center" android:id="@id/v_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/v_widget_clock_margin_bottom_land" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:format12Hour="h:mm" android:format24Hour="k:mm" style="@style/WhiteText.Light.vClock.Land" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/center_anchor" android:layout_alignParentBottom="true" android:paddingStart="@dimen/v_widget_content_margin_land" android:paddingEnd="@dimen/v_widget_content_margin_land">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:paddingTop="@dimen/v_widget_subtext_padding_top_land" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <include android:id="@id/weather_include" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/voyager_widget_weather_box_land" />
+            <TextClock android:gravity="center" android:id="@id/v_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/v_widget_sep_image_padding_land" android:paddingVertical="@dimen/v_widget_click_area_padding_land" style="@style/WhiteText.vDate.Land" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

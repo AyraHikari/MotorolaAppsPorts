@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.cn.deskclock.widget.DashLine android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:minHeight="@dimen/divider_height" android:paddingStart="@dimen/common_left_right_margin" android:paddingEnd="@dimen/common_left_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

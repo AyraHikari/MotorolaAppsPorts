@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Ορίστηκε αφύπνιση για λιγότερο από 1 λεπτό από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %1$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %2$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %1$s και %2$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %3$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %1$s και %3$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %2$s και %3$s από τώρα.</item>
+        <item>Ορίστηκε αφύπνιση για %1$s, %2$s και %3$s από τώρα.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Αναλογικό</item>
+        <item>Ψηφιακό</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>αναλογικό</item>
+        <item>ψηφιακό</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Σύνδεση στο Internet για εμφάνιση τοπικού καιρού κατά τον κουδουνισμό</item>
+        <item>Απαιτείται η θέση για εμφάνιση του τοπικού καιρού κατά τον κουδουνισμό.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Προσπέλαση δικτύου κινητής τηλεφωνίας</item>
+        <item>Προσπέλαση θέσης</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>ΠΜ</item>
+        <item>ΜΜ</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"Ιαν. "</item>
+        <item>"Φεβ. "</item>
+        <item>"Μαρ. "</item>
+        <item>"Απρ. "</item>
+        <item>Μάι.</item>
+        <item>"Ιούν. "</item>
+        <item>"Ιούλ. "</item>
+        <item>"Αύγ. "</item>
+        <item>"Σεπτ. "</item>
+        <item>"Οκτ. "</item>
+        <item>"Νοέ. "</item>
+        <item>"Δεκ. "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Κλείσιμο</item>
+        <item>Αναβολή</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Τυπικό</item>
+        <item>Tablet</item>
+        <item>Κύβος μέσα</item>
+        <item>Κύβος έξω</item>
+        <item>Αναστροφή κατακόρυφα</item>
+        <item>Αναστροφή οριζόντια</item>
+        <item>Στοίβαξη</item>
+        <item>Αύξηση ζουμ</item>
+        <item>Μείωση ζουμ</item>
+        <item>Περιστροφή επάνω</item>
+        <item>Περιστροφή κάτω</item>
+        <item>Ακορντεόν</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Μία φορά</item>
+        <item>Κάθε ημέρα</item>
+        <item>Εργάσιμες ημέρες (απενεργοποίηση τις αργίες)</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Μία φορά</item>
+        <item>Κάθε ημέρα</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Κυρ</item>
+        <item>Δευ</item>
+        <item>Τρι</item>
+        <item>Τετ</item>
+        <item>Πέμ</item>
+        <item>Παρ</item>
+        <item>Σάβ</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Ποτέ</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Απομένει λιγότερο από ένα λεπτό</item>
+        <item>Απομένουν %1$s</item>
+        <item>Απομένουν %2$s</item>
+        <item>Απομένουν %1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Κουδουνισμός</item>
+        <item>Δόνηση</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Νήσοι Μάρσαλ</item>
+        <item>Νήσος Μίντγουεϊ</item>
+        <item>Χαβάη</item>
+        <item>Αλάσκα</item>
+        <item>Ώρα Ειρηνικού</item>
+        <item>Τιχουάνα</item>
+        <item>Αριζόνα</item>
+        <item>Τσιουάουα</item>
+        <item>Ώρα Βραχωδών Ορέων</item>
+        <item>Κεντρική Αμερική</item>
+        <item>Κεντρική Ώρα</item>
+        <item>Μέξικο Σίτι</item>
+        <item>Σασκάτσιουαν</item>
+        <item>Μπογκοτά</item>
+        <item>Ανατολική Ώρα</item>
+        <item>Βενεζουέλα</item>
+        <item>Ώρα Ατλαντικού (Μπαρμπάντος)</item>
+        <item>Ώρα Ατλαντικού (Καναδάς)</item>
+        <item>Μανάους</item>
+        <item>Σαντιάγκο</item>
+        <item>Νέα Γη</item>
+        <item>Μπραζίλια</item>
+        <item>Μπουένος Άιρες</item>
+        <item>Γροιλανδία</item>
+        <item>Μοντεβιδέο</item>
+        <item>Μέσον Ατλαντικού</item>
+        <item>Αζόρες</item>
+        <item>Νήσοι Πράσινου Ακρωτηρίου</item>
+        <item>Καζαμπλάνκα</item>
+        <item>Λονδίνο, Δουβλίνο</item>
+        <item>Άμστερνταμ, Βερολίνο</item>
+        <item>Βελιγράδι</item>
+        <item>Βρυξέλλες</item>
+        <item>Σεράγεβο</item>
+        <item>Windhoek</item>
+        <item>Ώρα Δ. Αφρικής</item>
+        <item>Αμάν, Ιορδανία</item>
+        <item>Αθήνα, Κωνσταντινούπολη</item>
+        <item>Βηρυτός, Λίβανος</item>
+        <item>Κάιρο</item>
+        <item>Ελσίνκι</item>
+        <item>Ιερουσαλήμ</item>
+        <item>Μινσκ</item>
+        <item>Χαράρε</item>
+        <item>Βαγδάτη</item>
+        <item>Μόσχα</item>
+        <item>Κουβέιτ</item>
+        <item>Ναϊρόμπι</item>
+        <item>Τεχεράνη</item>
+        <item>Μπακού</item>
+        <item>Τμπίλισι</item>
+        <item>Γιερεβάν</item>
+        <item>Ντουμπάι</item>
+        <item>Καμπούλ</item>
+        <item>Ισλαμαμπάντ, Καράτσι</item>
+        <item>Ουράλια</item>
+        <item>Εκατερίνεμπουργκ</item>
+        <item>Καλκούτα</item>
+        <item>Σρι Λάνκα</item>
+        <item>Κατμαντού</item>
+        <item>Αστάνα</item>
+        <item>Γιανγκόν</item>
+        <item>Κρασνογιάρσκ</item>
+        <item>Μπανγκόκ</item>
+        <item>Πεκίνο</item>
+        <item>Χονγκ Κονγκ</item>
+        <item>Ιρκούτσκ</item>
+        <item>Κουάλα Λουμπούρ</item>
+        <item>Περθ</item>
+        <item>Ταϊπέι</item>
+        <item>Σεούλ</item>
+        <item>Τόκιο, Οζάκα</item>
+        <item>Γιακούτσκ</item>
+        <item>Αδελαΐδα</item>
+        <item>Ντάργουιν</item>
+        <item>Μπρισμπέιν</item>
+        <item>Χόμπαρτ</item>
+        <item>Σίδνεϊ, Καμπέρα</item>
+        <item>Βλαδιβοστόκ</item>
+        <item>Γκουάμ</item>
+        <item>Μαγκαντάν</item>
+        <item>Ώκλαντ</item>
+        <item>Φίτζι</item>
+        <item>Τόνγκα</item>
+        <item>Τζακάρτα</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Ειρηνικός/Μαζούρο</item>
+        <item>Ειρηνικός/Μίντγουεϊ</item>
+        <item>Ειρηνικός/Χονολουλού</item>
+        <item>Αμερική/Άνκορατζ</item>
+        <item>Αμερική/Λος Άντζελες</item>
+        <item>Αμερική/Τιχουάνα</item>
+        <item>Αμερική/Φοίνιξ</item>
+        <item>Αμερική/Τσιουάουα</item>
+        <item>Αμερική/Ντένβερ</item>
+        <item>Αμερική/Κόστα Ρίκα</item>
+        <item>Αμερική/Σικάγο</item>
+        <item>Αμερική/Μέξικο Σίτι</item>
+        <item>Αμερική/Ρετζίνα</item>
+        <item>Αμερική/Μπογκοτά</item>
+        <item>Αμερική/Νέα Υόρκη</item>
+        <item>Αμερική/Καράκας</item>
+        <item>Αμερική/Μπαρμπάντος</item>
+        <item>Αμερική/Χάλιφαξ</item>
+        <item>Αμερική/Μανάους</item>
+        <item>Αμερική/Σαντιάγκο</item>
+        <item>Αμερική/Σαιντ Τζονς</item>
+        <item>Αμερική/Σάο Πάολο</item>
+        <item>Αμερική/Αργεντινή/Μπουένος Άιρες</item>
+        <item>Αμερική/Γκότθαμπ</item>
+        <item>Αμερική/Μοντεβιδέο</item>
+        <item>Ατλαντικός/Νότια Γεωργία</item>
+        <item>Ατλαντικός/Αζόρες</item>
+        <item>Ατλαντικός/Πράσινο Ακρωτήριο</item>
+        <item>Αφρική/Καζαμπλάνκα</item>
+        <item>Ευρώπη/Λονδίνο</item>
+        <item>Ευρώπη/Άμστερνταμ</item>
+        <item>Ευρώπη/Βελιγράδι</item>
+        <item>Ευρώπη/Βρυξέλλες</item>
+        <item>Ευρώπη/Σεράγεβο</item>
+        <item>Αφρική/Windhoek</item>
+        <item>Αφρική/Μπραζαβίλ</item>
+        <item>Ασία/Αμμάν</item>
+        <item>Ευρώπη/Αθήνα</item>
+        <item>Ασία/Βηρυτός</item>
+        <item>Αφρική/Κάιρο</item>
+        <item>Ευρώπη/Ελσίνκι</item>
+        <item>Ασία/Ιερουσαλήμ</item>
+        <item>Ευρώπη/Μινσκ</item>
+        <item>Αφρική/Χαράρε</item>
+        <item>Ασία/Βαγδάτη</item>
+        <item>Ευρώπη/Μόσχα</item>
+        <item>Ασία/Κουβέιτ</item>
+        <item>Αφρική/Ναϊρόμπι</item>
+        <item>Ασία/Τεχεράνη</item>
+        <item>Ασία/Μπακού</item>
+        <item>Ασία/Τμπίλισι</item>
+        <item>Ασία/Γιερεβάν</item>
+        <item>Ασία/Ντουμπάι</item>
+        <item>Ασία/Καμπούλ</item>
+        <item>Ασία/Καράτσι</item>
+        <item>Ασία/Ουράλια</item>
+        <item>Ασία/Εκατερίνεμπουργκ</item>
+        <item>Ασία/Καλκούτα</item>
+        <item>Ασία/Κολόμπο</item>
+        <item>Ασία/Κατμαντού</item>
+        <item>Ασία/Αλμάτι</item>
+        <item>Ασία/Ρανγκούν</item>
+        <item>Ασία/Κρασνογιάρσκ</item>
+        <item>Ασία/Μπανγκόκ</item>
+        <item>Ασία/Σανγκάη</item>
+        <item>Ασία/Χονγκ Κονγκ</item>
+        <item>Ασία/Ιρκούτσκ</item>
+        <item>Ασία/Κουάλα Λουμπούρ</item>
+        <item>Αυστραλία/Περθ</item>
+        <item>Ασία/Ταϊπέι</item>
+        <item>Ασία/Σεούλ</item>
+        <item>Ασία/Τόκιο</item>
+        <item>Ασία/Γιακούτσκ</item>
+        <item>Αυστραλία/Αδελαΐδα</item>
+        <item>Αυστραλία/Ντάργουιν</item>
+        <item>Αυστραλία/Μπρισμπέιν</item>
+        <item>Αυστραλία/Χόμπαρτ</item>
+        <item>Αυστραλία/Σίδνεϊ</item>
+        <item>Ασία/Βλαδιβοστόκ</item>
+        <item>Ειρηνικός/Γκουάμ</item>
+        <item>Ασία/Μαγκαντάν</item>
+        <item>Ειρηνικός/Ώκλαντ</item>
+        <item>Ειρηνικός/Φίτζι</item>
+        <item>Ειρηνικός/Τονγκαταπού</item>
+        <item>Ασία/Τζακάρτα</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Αναβολή</item>
+        <item>Κλείσιμο</item>
+        <item>Να μην γίνει τίποτα</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Απαλό</item>
+        <item>Κανονικό</item>
+        <item>Δυνατό</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </string-array>
+</resources>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">அ=அபிட்ஜான்|Africa/Abidjan</string>
+    <string name="C10">த=தாகர்|Africa/Dakar</string>
+    <string name="C100">அ=அம்மான்|Asia/Amman</string>
+    <string name="C101">அ=அனடீர்|Asia/Anadyr</string>
+    <string name="C102">அ=அக்தூ|Asia/Aqtau</string>
+    <string name="C103">ப=பாக்தாத்|Asia/Baghdad</string>
+    <string name="C104">ப=பஹ்ரைன்|Asia/Bahrain</string>
+    <string name="C105">ப=பாகு|Asia/Baku</string>
+    <string name="C106">ப=பாங்காக்|Asia/Bangkok</string>
+    <string name="C107">ப=பெய்ரூட்|Asia/Beirut</string>
+    <string name="C108">க=கொல்கத்தா|Asia/Calcutta</string>
+    <string name="C109">ட=டமாஸ்கஸ்|Asia/Damascus</string>
+    <string name="C11">த=தார் ஸ் சலாம்|Africa/Dar_es_Salaam</string>
+    <string name="C110">ட=டாக்கா|Asia/Dhaka</string>
+    <string name="C111">த=துபாய்|Asia/Dubai</string>
+    <string name="C112">க=காஸா|Asia/Gaza</string>
+    <string name="C113">ஹ=ஹெப்ரன்|Asia/Hebron</string>
+    <string name="C114">ஹ=ஹோ சி மின்|Asia/Ho_Chi_Minh</string>
+    <string name="C115">ஹ=ஹாங்காங்:|Asia/Hong_Kong</string>
+    <string name="C117">ஜ=ஜகார்த்தா|Asia/Jakarta</string>
+    <string name="C118">ஜ=ஜெருசலேம்|Asia/Jerusalem</string>
+    <string name="C119">க=காபூல்|Asia/Kabul</string>
+    <string name="C12">ட=டிஜிபவ்டி|Africa/Djibouti</string>
+    <string name="C120">க=கராச்சி|Asia/Karachi</string>
+    <string name="C121">க=காத்மாண்டு|Asia/Kathmandu</string>
+    <string name="C122">க=கோலாலம்பூர்|Asia/Kuala_Lumpur</string>
+    <string name="C123">க=குவைத்|Asia/Kuwait</string>
+    <string name="C124">ம=மக்காவு|Asia/Macau</string>
+    <string name="C125">ம=மணிலா|Asia/Manila</string>
+    <string name="C126">ம=மஸ்கட்|Asia/Muscat</string>
+    <string name="C127">ஃ=ஃப்னோம் பென்|Asia/Phnom_Penh</string>
+    <string name="C128">ப=பியொங்யாங்:|Asia/Pyongyang</string>
+    <string name="C13">ஃ=ஃபிரீடவுன்|Africa/Freetown</string>
+    <string name="C130">ர=ரங்கூன்|Asia/Rangoon</string>
+    <string name="C131">ர=ரியாத்|Asia/Riyadh</string>
+    <string name="C133">ச=சியோல்|Asia/Seoul</string>
+    <string name="C134">ஷ=ஷாங்காய்:|Asia/Shanghai</string>
+    <string name="C135">ச=சிங்கப்பூர்|Asia/Singapore</string>
+    <string name="C136">த=தைபே:|Asia/Taipei</string>
+    <string name="C137">த=தெஹ்ரான்|Asia/Tehran</string>
+    <string name="C138">ட=டெல் அவீவ்|Asia/Tel_Aviv</string>
+    <string name="C139">ட=டோக்கியோ:|Asia/Tokyo</string>
+    <string name="C14">க=கபோரோன்|Africa/Gaborone</string>
+    <string name="C140">உ=உலான் பாட்டர்|Asia/Ulaanbaatar</string>
+    <string name="C141">ப=பெர்முடா|Atlantic/Bermuda</string>
+    <string name="C142">க=கேனரி|Atlantic/Canary</string>
+    <string name="C143">க=கேப் வெர்டி|Atlantic/Cape_Verde</string>
+    <string name="C144">ர=ரெய்க்யவிக்|Atlantic/Reykjavik</string>
+    <string name="C145">ஸ=ஸ்டேன்லி|Atlantic/Stanley</string>
+    <string name="C146">அ=அடிலெய்டு|Australia/Adelaide</string>
+    <string name="C147">ப=பிரிஸ்பேன்|Australia/Brisbane</string>
+    <string name="C148">க=கான்பெரா|Australia/Canberra</string>
+    <string name="C149">ட=டார்வின்|Australia/Darwin</string>
+    <string name="C15">ஹ=ஹராரே|Africa/Harare</string>
+    <string name="C150">ம=மெல்போர்ன்|Australia/Melbourne</string>
+    <string name="C151">ந=நியூ சவுத் வேல்ஸ்|Australia/NSW</string>
+    <string name="C152">ப=பெர்த்|Australia/Perth</string>
+    <string name="C153">க=குயின்ஸ்லாந்து|Australia/Queensland</string>
+    <string name="C154">ச=சிட்னி|Australia/Sydney</string>
+    <string name="C155">வ=விக்டோரியா|Australia/Victoria</string>
+    <string name="C156">ந=நியூஃபௌண்ட்லாண்ட்|Canada/Newfoundland</string>
+    <string name="C157">ச=சாஸ்கட்சுவான்|Canada/Saskatchewan</string>
+    <string name="C158">ஈ=ஈஸ்டர் தீவு|Chile/EasterIsland</string>
+    <string name="C159">ஆ=ஆம்ஸ்டர்டம்|Europe/Amsterdam</string>
+    <string name="C16">ஜ=ஜோகன்ஸ்பர்க்|Africa/Johannesburg</string>
+    <string name="C160">அ=அண்டோரா|Europe/Andorra</string>
+    <string name="C161">ஏ=ஏதேன்ஸ்|Europe/Athens</string>
+    <string name="C162">ப=பெல்ஃபாஸ்ட்|Europe/Belfast</string>
+    <string name="C163">ப=பெல்கிரேடு|Europe/Belgrade</string>
+    <string name="C164">ப=பெர்லின்|Europe/Berlin</string>
+    <string name="C165">ப=பிரடிஸ்லாவா|Europe/Bratislava</string>
+    <string name="C166">ப=ப்ரசல்ஸ்|Europe/Brussels</string>
+    <string name="C167">ப=புசாரெஸ்ட்|Europe/Bucharest</string>
+    <string name="C168">ப=புத்தபெஸ்ட்|Europe/Budapest</string>
+    <string name="C169">ச=சிசினவ்|Europe/Chisinau</string>
+    <string name="C17">க=கம்பாலா|Africa/Kampala</string>
+    <string name="C170">க=கோபன்ஹேகன்|Europe/Copenhagen</string>
+    <string name="C171">ட=டப்ளின்|Europe/Dublin</string>
+    <string name="C172">ஜ=ஜிப்ரால்டர்|Europe/Gibraltar</string>
+    <string name="C173">ஹ=ஹெல்சின்கி|Europe/Helsinki</string>
+    <string name="C174">ஐ=ஐஸ்லே ஆஃப் மேன்|Europe/Isle_of_Man</string>
+    <string name="C175">இ=இஸ்தான்புல்|Europe/Istanbul</string>
+    <string name="C176">க=க்யிவ்|Europe/Kiev</string>
+    <string name="C177">ல=லிஸ்பன்|Europe/Lisbon</string>
+    <string name="C178">ல=லண்டன்|Europe/London</string>
+    <string name="C179">ல=லக்சம்பர்க்|Europe/Luxembourg</string>
+    <string name="C18">க=கார்டோம்|Africa/Khartoum</string>
+    <string name="C180">ம=மாட்ரிட்|Europe/Madrid</string>
+    <string name="C181">ம=மால்டா|Europe/Malta</string>
+    <string name="C182">ம=மின்ஸ்க்|Europe/Minsk</string>
+    <string name="C183">ம=மொனாக்கோ|Europe/Monaco</string>
+    <string name="C184">ம=மாஸ்கோ|Europe/Moscow</string>
+    <string name="C185">ஓ=ஓஸ்லோ|Europe/Oslo</string>
+    <string name="C186">ப=பாரிஸ்|Europe/Paris</string>
+    <string name="C187">ப=பிராகா|Europe/Prague</string>
+    <string name="C188">ர=ரீகா|Europe/Riga</string>
+    <string name="C189">ர=ரோம்|Europe/Rome</string>
+    <string name="C19">க=கிகலி|Africa/Kigali</string>
+    <string name="C190">ச=சான் மாரினோ|Europe/San_Marino</string>
+    <string name="C191">ச=சராயோவோ|Europe/Sarajevo</string>
+    <string name="C192">ச=சிம்ஃபெரோபோல்|Europe/Simferopol</string>
+    <string name="C193">ஸ=ஸ்கோப்ஜே|Europe/Skopje</string>
+    <string name="C194">ச=சோஃபியா|Europe/Sofia</string>
+    <string name="C195">ஸ=ஸ்டாக்ஹோம்|Europe/Stockholm</string>
+    <string name="C196">த=தாலின்|Europe/Tallinn</string>
+    <string name="C197">வ=வாட்டிகன்|Europe/Vatican</string>
+    <string name="C198">வ=வியன்னா|Europe/Vienna</string>
+    <string name="C199">வ=வில்னியஸ்|Europe/Vilnius</string>
+    <string name="C2">அ=அக்ரா|Africa/Accra</string>
+    <string name="C20">க=கின்ஷசா|Africa/Kinshasa</string>
+    <string name="C200">வ=வார்சா|Europe/Warsaw</string>
+    <string name="C201">ச=சாகிரேப்|Europe/Zagreb</string>
+    <string name="C202">ச=சூரிச்|Europe/Zurich</string>
+    <string name="C203">ஆ=ஆண்டனநரிவோ|Indian/Antananarivo</string>
+    <string name="C204">ம=மாலத்தீவுகள்|Indian/Maldives</string>
+    <string name="C205">ம=மொரிஷியஸ்|Indian/Mauritius</string>
+    <string name="C206">ஆ=ஆக்லாந்து|Pacific/Auckland</string>
+    <string name="C207">ஔ=ஃபிஜி|Pacific/Fiji</string>
+    <string name="C208">க=குவாம்|Pacific/Guam</string>
+    <string name="C209">ஹ=ஹானலுலு|Pacific/Honolulu</string>
+    <string name="C21">ல=லாகோஸ்|Africa/Lagos</string>
+    <string name="C210">க=க்ரிதிமதி|Pacific/Kiritimati</string>
+    <string name="C211">ந=நவுமியா|Pacific/Noumea</string>
+    <string name="C214">ஆ=ஆன்டிகுவா|America/Antigua</string>
+    <string name="C215">ஆ=ஆஸ்டின்|America/Chicago</string>
+    <string name="C216">ப=பாஸ்டன்|America/New_York</string>
+    <string name="C217">க=கல்கேரி|America/Denver</string>
+    <string name="C218">க=கொலம்பஸ்|America/New_York</string>
+    <string name="C219">ட=டல்லாஸ்|America/Chicago</string>
+    <string name="C22">ம=மேஸெரூ|Africa/Maseru</string>
+    <string name="C220">ந=நாஷ்வில்|America/New_York</string>
+    <string name="C221">ம=மெம்பிஸ்|America/Chicago</string>
+    <string name="C222">ம=மியாமி|America/New_York</string>
+    <string name="C223">ம=மிநீயாபொலிஸ்|America/Chicago</string>
+    <string name="C224">ஒ=ஒட்டாவா|America/New_York</string>
+    <string name="C225">ப=பிலடெல்பியா|America/New_York</string>
+    <string name="C226">ப=போர்ட்லேண்ட்|America/Los_Angeles</string>
+    <string name="C227">ச=சான் டியாகோ|America/Los_Angeles</string>
+    <string name="C228">ச=சான் ஃபிரான்சிஸ்கோ|America/Los_Angeles</string>
+    <string name="C229">ச=சால்ட் லேக் சிட்டி|America/Denver</string>
+    <string name="C23">ம=மொகடிஷூ|Africa/Mogadishu</string>
+    <string name="C230">ச=சான் ஜோஸ்|America/Los_Angeles</string>
+    <string name="C231">ச=சான் சால்வடார்|America/Guatemala</string>
+    <string name="C232">ச=சியாட்டில்|America/Los_Angeles</string>
+    <string name="C233">ச=செயின்ட் லூயிஸ்|America/Chicago</string>
+    <string name="C234">வ=வாஷிங்டன் டி.சி.|America/New_York</string>
+    <string name="C235">ஹ=ஹூஸ்டன்|America/Chicago</string>
+    <string name="C236">ச=சான் ஆன்டொனியோ|America/Chicago</string>
+    <string name="C237">ஜ=ஜாக்சன்வில்லி|America/New_York</string>
+    <string name="C238">ப=பால்டிமோர்|America/New_York</string>
+    <string name="C239">ந=நாஷ்வில்லி|America/Chicago</string>
+    <string name="C24">ந=நைரோபி|Africa/Nairobi</string>
+    <string name="C240">ம=மில்வாக்கி|America/Chicago</string>
+    <string name="C241">ஓ=ஓக்லஹோமா நகரம்|America/Chicago</string>
+    <string name="C242">ல=லாஸ் வேகஸ்|America/Los_Angeles</string>
+    <string name="C243">ஆ=ஆல்புகெர்க்கி|America/Denver</string>
+    <string name="C244">ட=டஸ்கன்|MST</string>
+    <string name="C245">ச=சாக்ரமெண்டோ|America/Los_Angeles</string>
+    <string name="C246">அ=அட்லாண்டா|America/New_York</string>
+    <string name="C247">க=க்ளீவ்லேண்டு|America/New_York</string>
+    <string name="C248">ந=நியூ ஆர்லியன்ஸ்|America/Chicago</string>
+    <string name="C249">த=தம்பா|America/New_York</string>
+    <string name="C25">ச=சாவோ டோமே|Africa/Sao_Tome</string>
+    <string name="C250">ப=பிட்ஸ்பர்க்|America/New_York</string>
+    <string name="C251">ச=சின்சினாட்டி|America/New_York</string>
+    <string name="C252">ம=மவுன்டன் வியூ|America/Los_Angeles</string>
+    <string name="C253">ர=ரெனோ|America/Los_Angeles</string>
+    <string name="C254">ப=பிளாக் ராக் சிட்டி|America/Los_Angeles</string>
+    <string name="C255">த=தோஹா|Asia/Riyadh</string>
+    <string name="C256">ப=பெய்ஜிங்:|Asia/Shanghai</string>
+    <string name="C257">ம=மும்பை|Asia/Kolkata</string>
+    <string name="C258">ட=டில்லி|Asia/Kolkata</string>
+    <string name="C259">ஒ=ஒசாகா:|Asia/Tokyo</string>
+    <string name="C26">த=திம்புக்டு|Africa/Timbuktu</string>
+    <string name="C260">ல=லாகூர்|Asia/Karachi</string>
+    <string name="C261">ச=சனா|Asia/Riyadh</string>
+    <string name="C262">ப=பார்சிலோனா|Europe/Madrid</string>
+    <string name="C263">ம=முனிச்|Europe/Berlin</string>
+    <string name="C264">ம=மிலன்|Europe/Rome</string>
+    <string name="C265">ஃ=ஃபிராங்க்பர்ட்|Europe/Berlin</string>
+    <string name="C266">ஹ=ஹனோய்|Asia/Bangkok</string>
+    <string name="C267">அ=அங்காரா|Europe/Istanbul</string>
+    <string name="C268">ப=பெங்களூர்|Asia/Kolkata</string>
+    <string name="C269">ப=பிரேசிலியா|America/Sao_Paulo</string>
+    <string name="C27">த=திரிப்பொலி|Africa/Tripoli</string>
+    <string name="C270">க=கேப் டவுன்|Africa/Johannesburg</string>
+    <string name="C271">இ=இஸ்லாமாபாத்|Asia/Karachi</string>
+    <string name="C272">ர=ரியோ டி ஜெனிரோ|America/Sao_Paulo</string>
+    <string name="C273">அ=அன் ஆர்பர்|America/Detroit</string>
+    <string name="C274">ப=பவுல்டர்|America/Denver</string>
+    <string name="C275">க=கேம்பிரிட்ஜ்|America/New_York</string>
+    <string name="C276">க=கிர்க்லாந்து|America/Los_Angeles</string>
+    <string name="C277">ம=மேடிசன்|America/Chicago</string>
+    <string name="C278">க=குவாங்சோவ்:|Asia/Shanghai</string>
+    <string name="C279">ஹ=ஹைதராபாத்|Asia/Kolkata</string>
+    <string name="C28">த=துனிஸ்|Africa/Tunis</string>
+    <string name="C280">ர=ரெஸ்டன்|America/New_York</string>
+    <string name="C281">ப=பெலோ அரிசாஞ்ச்|America/Sao_Paulo</string>
+    <string name="C282">ச=சாண்டியாகோ|America/Santiago</string>
+    <string name="C283">ம=மொன்ரோவியா|Africa/Monrovia</string>
+    <string name="C284">க=கொழும்பு|Asia/Colombo</string>
+    <string name="C285">ச=சிஹூவாஹுவா|America/Chihuahua</string>
+    <string name="C286">ச=சால்வடார்|America/Sao_Paulo</string>
+    <string name="C287">க=குர்கான்|Asia/Kolkata</string>
+    <string name="C288">ம=மான்செஸ்டர்|Europe/London</string>
+    <string name="C29">அ=அங்கரேஜ்|America/Anchorage</string>
+    <string name="C290">ச=செயின்ட் பீட்டர்ஸ்பர்க்|Europe/Moscow</string>
+    <string name="C291">க=க்ரகொவ்|Europe/Warsaw</string>
+    <string name="C292">ர=ராக்லே|Europe/Warsaw</string>
+    <string name="C293">ஹ=ஹாம்பர்க்|Europe/Berlin</string>
+    <string name="C294">ஓ=ஓலூ|Europe/Bucharest</string>
+    <string name="C295">ஹ=ஹைஃபா|Asia/Jerusalem</string>
+    <string name="C296">ச=சான் யுவான்|America/Puerto_Rico</string>
+    <string name="C297">ட=டெக்யூஸிக்யால்பா|America/Tegucigalpa</string>
+    <string name="C298">ப=பரமரிபோ|America/Paramaribo</string>
+    <string name="C299">க=குய்டொ|America/Panama</string>
+    <string name="C3">அ=அடிஸ் அபாபா|Africa/Addis_Ababa</string>
+    <string name="C300">ல=லியூப்லியனா|Europe/Ljubljana</string>
+    <string name="C301">அ=அஸ்காபாத்|Asia/Ashgabat</string>
+    <string name="C302">அ=அஸ்மாரா|Africa/Asmara</string>
+    <string name="C303">ப=பண்டர் செரி பெகாவான்|Asia/Brunei</string>
+    <string name="C304">ப=பாங்கி|Africa/Bangui</string>
+    <string name="C305">ப=பஞ்சுல்|Africa/Banjul</string>
+    <string name="C306">ப=பிசுக்கெக்|Asia/Bishkek</string>
+    <string name="C307">ப=பிசாவு|Africa/Bissau</string>
+    <string name="C308">ப=புசும்புரா|Africa/Bujumbura</string>
+    <string name="C309">ட=டிலி|Asia/Dili</string>
+    <string name="C31">அ=அரூபா|America/Aruba</string>
+    <string name="C310">த=துசான்பே|Asia/Dushanbe</string>
+    <string name="C311">ப=புனாபுட்டி|Pacific/Funafuti</string>
+    <string name="C312">ஹ=ஹோனியாரா|Pacific/Guadalcanal</string>
+    <string name="C313">ஜ=ஜூபா|Africa/Juba</string>
+    <string name="C314">க=கிங்ஸ்டவுன்|America/St_Vincent</string>
+    <string name="C315">ல=லிப்ரவில்|Africa/Libreville</string>
+    <string name="C316">ல=லோம்|Africa/Lome</string>
+    <string name="C317">ல=லுவாண்டா|Africa/Luanda</string>
+    <string name="C318">ல=லுசாக்கா|Africa/Lusaka</string>
+    <string name="C319">ம=மாசூரோ|Pacific/Majuro</string>
+    <string name="C32">அ=அஸன்சியன்|America/Asuncion</string>
+    <string name="C320">ம=மலாபோ|Africa/Malabo</string>
+    <string name="C321">ம=மபூட்டோ|Africa/Maputo</string>
+    <string name="C322">இ=இம்பபான்|Africa/Mbabane</string>
+    <string name="C323">ம=மொரோனி|Indian/Comoro</string>
+    <string name="C324">ந=நிஜாமீனா|Africa/Ndjamena</string>
+    <string name="C325">ஜ=ஜெருல்மட்|Pacific/Palau</string>
+    <string name="C326">ந=நியாமி|Africa/Niamey</string>
+    <string name="C327">ந=நிக்கோசியா|Europe/Nicosia</string>
+    <string name="C328">ந=நுவாக்ஷோட்|Africa/Nouakchott</string>
+    <string name="C329">ந=நுக்குஅலோஃபா|Pacific/Tongatapu</string>
+    <string name="C33">ப=பார்படாஸ்|America/Barbados</string>
+    <string name="C330">க=குவாகடூகு|Africa/Ouagadougou</string>
+    <string name="C331">ப=பலிகீர்|Pacific/Noumea</string>
+    <string name="C332">ப=பிலிப்ஸ்பர்க்|America/Lower_Princes</string>
+    <string name="C333">ப=பாகோரிக்கா|Europe/Podgorica</string>
+    <string name="C334">ப=போர்ட் மோர்ஸ்பி|Pacific/Palau</string>
+    <string name="C335">ப=போர்ட் விலா|Pacific/Efate</string>
+    <string name="C336">ப=போர்டோ நோவோ|Africa/Porto-Novo</string>
+    <string name="C337">ப=பிரிஸ்டினா|Europe/Belgrade</string>
+    <string name="C338">ர=ரோசெவ்|America/Dominica</string>
+    <string name="C339">ட=டாஷ்கென்ட்|Asia/Tashkent</string>
+    <string name="C34">ப=பெலிஸ்|America/Belize</string>
+    <string name="C340">த=திபிலீசி|Asia/Tbilisi</string>
+    <string name="C341">த=திம்பு|Asia/Thimphu</string>
+    <string name="C342">ட=டிரானா|Europe/Tirane</string>
+    <string name="C343">வ=வடுஜ்|Europe/Vaduz</string>
+    <string name="C344">வ=வியஞ்சான்|Asia/Vientiane</string>
+    <string name="C345">வ=விந்தோக்|Africa/Windhoek</string>
+    <string name="C346">ய=யாவுண்டே|Africa/Douala</string>
+    <string name="C347">ய=யாரென் மாவட்டம்|Pacific/Nauru</string>
+    <string name="C348">ய=யெரேவான்|Asia/Yerevan</string>
+    <string name="C35">ப=பொகோட்டா|America/Bogota</string>
+    <string name="C36">ப=பியூனஸ் அயர்ஸ்|America/Buenos_Aires</string>
+    <string name="C37">க=கன்குன்|America/Cancun</string>
+    <string name="C38">க=கராகஸ்|America/Caracas</string>
+    <string name="C39">க=கேமன்|America/Cayman</string>
+    <string name="C4">அ=அல்கியர்ஸ்|Africa/Algiers</string>
+    <string name="C40">ச=சிகாகோ|America/Chicago</string>
+    <string name="C42">க=குராசோ|America/Curacao</string>
+    <string name="C43">ட=டவ்சன் கிரீக்|America/Dawson_Creek</string>
+    <string name="C44">ட=டென்வர்|America/Denver</string>
+    <string name="C45">ட=டெட்ராய்ட்|America/Detroit</string>
+    <string name="C46">ட=டொமினிகா|America/Dominica</string>
+    <string name="C47">எ=எட்மான்டான்|America/Edmonton</string>
+    <string name="C48">எ=எல் சால்வேடார்|America/El_Salvador</string>
+    <string name="C49">ஃ=ஃபோர்தலேசா|America/Fortaleza</string>
+    <string name="C5">ப=பிளான்டையர்|Africa/Blantyre</string>
+    <string name="C50">க=கிராண்ட் துர்க்|America/Grand_Turk</string>
+    <string name="C51">க=கிரேனடா|America/Grenada</string>
+    <string name="C52">க=கவுதமாலா நகரம்|America/Guatemala</string>
+    <string name="C53">க=கயானா|America/Guyana</string>
+    <string name="C54">ஹ=ஹலிஃபாக்ஸ்|America/Halifax</string>
+    <string name="C55">ஹ=ஹவானா|America/Havana</string>
+    <string name="C56">இ=இண்டியானாபோலிஸ்|America/Indiana/Indianapolis</string>
+    <string name="C57">ந=நாக்ஸ்|America/Indiana/Knox</string>
+    <string name="C58">ம=மரென்கோ|America/Indiana/Marengo</string>
+    <string name="C59">ப=பீட்டர்ஸ்பர்க்|America/Indiana/Petersburg</string>
+    <string name="C6">ப=பிராஸாவில்லி|Africa/Brazzaville</string>
+    <string name="C60">ட=டெல் சிட்டி|America/Indiana/Tell_City</string>
+    <string name="C61">வ=வேவே|America/Indiana/Vevay</string>
+    <string name="C62">வ=விண்செனேஸ்|America/Indiana/Vincennes</string>
+    <string name="C63">வ=வினாமேக்|America/Indiana/Winamac</string>
+    <string name="C64">க=கிங்ஸ்டன்|America/Jamaica</string>
+    <string name="C65">ந=நியூஸ்ட்ரா செனரோ லா பாஸ்|America/La_Paz</string>
+    <string name="C66">ல=லிமா|America/Lima</string>
+    <string name="C67">ல=லாஸ் ஏஞ்சல்ஸ்|America/Los_Angeles</string>
+    <string name="C68">ல=லூயிஸ்வெல்லி|America/Louisville</string>
+    <string name="C69">ம=மனாகுவா|America/Managua</string>
+    <string name="C7">க=கெய்ரோ|Africa/Cairo</string>
+    <string name="C70">ம=மார்டினிக்|America/Martinique</string>
+    <string name="C71">ம=மெண்டோசா|America/Mendoza</string>
+    <string name="C72">ம=மெட்லகட்லா|America/Metlakatla</string>
+    <string name="C73">ம=மெக்ஸிக்கோ சிட்டி|America/Mexico_City</string>
+    <string name="C74">ம=மான்ட்டேரே|America/Monterrey</string>
+    <string name="C75">ம=மங்கோலியா|America/Montevideo</string>
+    <string name="C76">ம=மாண்ட்ரீல்|America/Montreal</string>
+    <string name="C77">ந=நசாவூ|America/Nassau</string>
+    <string name="C78">ந=நியூயார்க்|America/New_York</string>
+    <string name="C79">ப=பியூலா|America/North_Dakota/Beulah</string>
+    <string name="C8">க=காஸாபிளான்கா|Africa/Casablanca</string>
+    <string name="C80">ச=சென்டர்|America/North_Dakota/Center</string>
+    <string name="C81">ந=நியூ சாலம்|America/North_Dakota/New_Salem</string>
+    <string name="C82">ப=பனாமா|America/Panama</string>
+    <string name="C83">ப=பீனிக்ஸ்|America/Phoenix</string>
+    <string name="C84">ப=போர்ட் ஆஃப் ஸ்பெயின்|America/Port_of_Spain</string>
+    <string name="C85">ப=போர்ட்-ஓ-பிரின்ஸ்|America/Port-au-Prince</string>
+    <string name="C86">ப=போர்டே ரிகோ|America/Puerto_Rico</string>
+    <string name="C87">ச=சாண்டோ டோமிங்கோ|America/Santo_Domingo</string>
+    <string name="C88">ச=சாவ் பாலோ|America/Sao_Paulo</string>
+    <string name="C89">ச=செயின்ட் ஜான்ஸ்|America/St_Johns</string>
+    <string name="C9">க=கோனக்ரே|Africa/Conakry</string>
+    <string name="C90">ச=செயின்ட் கீட்ஸ்|America/St_Kitts</string>
+    <string name="C91">ச=செயின்ட் லூசியா|America/St_Lucia</string>
+    <string name="C92">ச=செயின்ட் தாமஸ்|America/St_Thomas</string>
+    <string name="C93">ட=டிஜூவானா|America/Tijuana</string>
+    <string name="C94">ட=டொரன்டோ|America/Toronto</string>
+    <string name="C95">வ=வான்கூவர்|America/Vancouver</string>
+    <string name="C96">வ=வின்னிபெக்|America/Winnipeg</string>
+    <string name="C97">ச=சவுத் போல்:|Antarctica/South_Pole</string>
+    <string name="C98">ல=லாங்யெர்பியேன்|Arctic/Longyearbyen</string>
+    <string name="C99">அ=அல்மாதி|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">முகப்பிற்குச் செல்லும்</string>
+    <string name="abc_action_bar_up_description">மேலே செல்லும்</string>
+    <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
+    <string name="abc_action_mode_done">முடிந்தது</string>
+    <string name="abc_activity_chooser_view_see_all">அனைத்தையும் காட்டு</string>
+    <string name="abc_activitychooserview_choose_application">ஆப்ஸைத் தேர்வுசெய்க</string>
+    <string name="abc_capital_off">ஆஃப்</string>
+    <string name="abc_capital_on">ஆன்</string>
+    <string name="abc_menu_alt_shortcut_label">Alt மற்றும்</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl மற்றும்</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function மற்றும்</string>
+    <string name="abc_menu_meta_shortcut_label">Meta மற்றும்</string>
+    <string name="abc_menu_shift_shortcut_label">Shift மற்றும்</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym மற்றும்</string>
+    <string name="abc_prepend_shortcut_label">Menu மற்றும்</string>
+    <string name="abc_search_hint">தேடுக…</string>
+    <string name="abc_searchview_description_clear">வினவலை அழிக்கும்</string>
+    <string name="abc_searchview_description_query">தேடல் வினவல்</string>
+    <string name="abc_searchview_description_search">தேடும்</string>
+    <string name="abc_searchview_description_submit">வினவலைச் சமர்ப்பிக்கும்</string>
+    <string name="abc_searchview_description_voice">குரல் தேடல்</string>
+    <string name="abc_shareactionprovider_share_with">இதில் பகிர்</string>
+    <string name="abc_shareactionprovider_share_with_application">%s மூலம் பகிர்</string>
+    <string name="abc_toolbar_collapse_description">சுருக்கும்</string>
+    <string name="action_delete">நீக்கு</string>
+    <string name="action_left_edit">திருத்து</string>
+    <string name="add_remark">சேர்க்கப்பட்ட குறிப்புகள்</string>
+    <string name="alarm_afternoon">PM</string>
+    <string name="alarm_alert_snooze_set">%d நிமிடங்கள் உறங்குதல்.</string>
+    <string name="alarm_classic">அலாரம் கிளாசிக்</string>
+    <string name="alarm_flip_setting">ஃபிளிப் அமைப்பு</string>
+    <string name="alarm_is_set">%s க்கு அலாரம் அமைக்கப்பட்டது</string>
+    <string name="alarm_is_snoozed">%s அலாரம் 10 நிமிடங்களுக்கு ஸ்னூஸ் செய்யப்பட்டது</string>
+    <string name="alarm_missed_title">தவறிய அலாரம்</string>
+    <string name="alarm_morning">AM</string>
+    <string name="alarm_mute_ringing_switch">அமைதி முறையில் ரிங் செய்யவும்</string>
+    <string name="alarm_notif_title">வரவிருக்கும் அலாரம்</string>
+    <string name="alarm_reapt">மீண்டும் செய்</string>
+    <string name="alarm_reminder_tv">ரிங் ஆவதற்கு %6 நேரமே மீதமுள்ளது</string>
+    <string name="alarm_repeat">மீண்டும் செய்</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">இது மூடப்பட்ட பிறகு, மேலே ஸ்வைப் செய்வதன் மூலம் மட்டுமே அலாரத்தை ஆஃப் செய்ய முடியும்.</string>
+    <string name="alarm_setting_flip_close_alarm_title">அலாரமை நிறுத்துவதற்கு மேலே அல்லது கீழே நகர்த்தவும்</string>
+    <string name="alarm_settings">அலாரம்கள்</string>
+    <string name="alarm_shutdown_ringing_switch">ஃபோன் மூடப்பட்டிருக்கையில் ரிங் செய்யவும்</string>
+    <string name="alarm_time_activity">அலாரம் முடிந்தது</string>
+    <string name="alarm_time_after_now">%s மணிநேரங்கள் பின்னால்”</string>
+    <string name="alarm_time_before_now">%s மணிநேரங்கள் முன்னால்”</string>
+    <string name="alarm_time_equal_now">ஒரே நேரம்</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">அதிர்வு மாற்றம்</string>
+    <string name="alarm_volume_title">அலாரம் ஒலியளவு (டைமர்)</string>
+    <string name="alarm_week">தனிப்பயன்</string>
+    <string name="alert_dismiss_text">நிராகரி</string>
+    <string name="alert_remind_later">ஸ்னூஸிங்</string>
+    <string name="app_label">கடிகாரம்</string>
+    <string name="auto_silence_never">ஒருபோதுமில்லை</string>
+    <string name="auto_silence_summary">%d நிமிடங்கள்</string>
+    <string name="auto_silence_title">இதற்கு பின் சப்தமின்மை</string>
+    <string name="automatic_home_clock">தானியக்க முகப்பு கடிகாரம்</string>
+    <string name="automatic_home_clock_summary">வேறுபட்ட நேரமுள்ள ஒரு பகுதிக்கு பயணிக்கும்போது, முகப்பில் ஒரு கடிகாரத்தைச் சேர்க்கவும்</string>
+    <string name="bottomsheet_action_expand_halfway">பாதியளவு விரிவாக்கும்</string>
+    <string name="cancel_dialog">ரத்துசெய்</string>
+    <string name="character_counter_content_description">%2$d இல் %1$d எழுத்துகள் உள்ளிடப்பட்டுள்ளன</string>
+    <string name="character_counter_overflowed_content_description">%2$d இல் %1$d எழுத்து வரம்பு மீறப்பட்டது</string>
+    <string name="check_draw_overlay_permission">கடிகார பாப்அப் விண்டோவுக்கான அனுமதியை சரிபார்</string>
+    <string name="cities_activity_title">நகரங்களைச் சேர்</string>
+    <string name="city_count_over_limit">புதிய நகரத்தைச் சேர்ப்பதற்கு, முன்பே உள்ள ஒரு நகரத்தை நீங்கள் அகற்றவேண்டும்</string>
+    <string name="clear_text_end_icon_content_description">உரையை அழிக்கும்</string>
+    <string name="clock_settings">கடிகாரம்</string>
+    <string name="clock_style">ஸ்டைல்</string>
+    <string name="close_alarm_notif">அகற்று</string>
+    <string name="copy">நகலெடு</string>
+    <string name="cta_content_agree_go_on">ஒப்புக்கொள்கிறேன்</string>
+    <string name="cta_content_exit">வெளியேறு</string>
+    <string name="custom_volume">தனிப்பயன் ஒலியளவு</string>
+    <string name="custom_volume_silence">ரிங்டோன் அமைதியாக உள்ளது</string>
+    <string name="day">1 நாள்</string>
+    <string name="day_afternoon">PM</string>
+    <string name="day_concat">,</string>
+    <string name="day_dawn">AM</string>
+    <string name="day_evening">PM</string>
+    <string name="day_midnoon">PM</string>
+    <string name="day_morning">AM</string>
+    <string name="days">%s நாட்கள்</string>
+    <string name="days_of_week_day" />
+    <string name="default_label">அலாரம்</string>
+    <string name="default_ring_title">நியூ மார்னிங்</string>
+    <string name="delete_failed">நீக்குதல் தோல்வி</string>
+    <string name="delete_successfully">நீக்கப்பட்டது</string>
+    <string name="delete_world_clock_confirm_tips">%d நகரங்களை நீக்கவா?</string>
+    <string name="delete_world_clock_confirm_tips_one">நகரத்தை நீக்கவா?</string>
+    <string name="deselect">அனைத்தையும் தேர்வு நீக்கு</string>
+    <string name="display_once">மீண்டும் தூண்டவேண்டாம்</string>
+    <string name="down_holidays_suscess">விடுமுறை தரவு பதிவிறக்குதல் தோல்வியுற்றது, தயவுசெய்து மீட்டமைக்கவும்</string>
+    <string name="edit_alarm">அலாரம் திருத்தவும்</string>
+    <string name="edit_alarm_cancel">ரத்துசெய்</string>
+    <string name="edit_alarm_delete_cancel">ரத்துசெய்</string>
+    <string name="edit_alarm_delete_ok">நீக்கு</string>
+    <string name="edit_alarm_done">முடிந்தது</string>
+    <string name="edit_alarm_give_up_dialog">மாற்றங்களை அகற்றவா?</string>
+    <string name="edit_alarm_label_remind">அதிகபட்சம் 26 எழுத்துக்கள்</string>
+    <string name="edit_alarm_last_ring_tv">ஸ்னூஸ் காலஅளவு</string>
+    <string name="edit_alarm_no_label">லேபிள் ஏதுமில்லை</string>
+    <string name="edit_alarm_remark">குறிப்புகள்</string>
+    <string name="edit_alarm_sleep_mode">ஸ்னூஸ்</string>
+    <string name="edit_alarm_title">அலாரத்தை சேர்</string>
+    <string name="edit_alarm_vibe">ரிங் செய்கையில் அதிர்வுறு</string>
+    <string name="edit_alarm_volume_mode">ஒலியளவு</string>
+    <string name="edit_alarm_weather">பெல் ரிங்காகும்போது வானிலையை ஒளிபரப்பவும்</string>
+    <string name="edit_list_alarm_select">உருப்படியைத் தேர்ந்தெடு</string>
+    <string name="edit_list_alarm_selected_dialog">அலாரத்தை நீக்கவா?</string>
+    <string name="edit_list_alarm_selected_number">%d தேர்வு செய்யப்பட்டன</string>
+    <string name="edit_list_alarms_selected_dialog">%d அலாரங்களை நீக்கவா?</string>
+    <string name="empty_list_msg">முடிவுகள் ஏதும் கண்டறியப்படவில்லை</string>
+    <string name="end_snooze">ஸ்னூஸ் முடிந்தது</string>
+    <string name="error_icon_content_description">பிழை</string>
+    <string name="every_day">தினசரி</string>
+    <string name="expand_button_title">மேம்பட்டவை</string>
+    <string name="exposed_dropdown_menu_content_description">கீழ் தோன்றல் மெனுவைக் காட்டும் பட்டன்</string>
+    <string name="give_up_dialog">அகற்று</string>
+    <string name="holidays_info">வேலை நாட்கள்</string>
+    <string name="home_time_zone">வீட்டு நேர மண்டலம்</string>
+    <string name="home_time_zone_title">வீட்டு நேர மண்டலம்</string>
+    <string name="hour">1 மணிநேரம்</string>
+    <string name="hours">%s மணிநேரங்கள்</string>
+    <string name="icon_content_description">உரையாடல் ஐகான்</string>
+    <string name="invalid_time">தவறான நேரம் %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">தாவல்</string>
+    <string name="label">லேபிள்</string>
+    <string name="label_description">லேபிள்</string>
+    <string name="local">லோக்கல்</string>
+    <string name="lock_screen_weather_playing_text">வானிலை ரிங்டோன் இயங்குகிறது</string>
+    <string name="material_clock_toggle_content_description">AM அல்லது PMமைத் தேர்ந்தெடுக்க உதவும்</string>
+    <string name="material_hour_selection">மணிநேரத்தைத் தேர்ந்தெடுக்க உதவும்</string>
+    <string name="material_hour_suffix">%1$s மணி</string>
+    <string name="material_minute_selection">நிமிடத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="material_minute_suffix">%1$s நிமிடங்கள்</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">நேர உள்ளீட்டிற்காக, கடிகாரப் பயன்முறைக்கு மாற்றும்.</string>
+    <string name="material_timepicker_hour">மணிநேரம்</string>
+    <string name="material_timepicker_minute">நிமிடம்</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">நேரத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="material_timepicker_text_input_mode_description">உரை உள்ளீட்டிற்காக, கடிகாரப் பயன்முறைக்கு மாற்றும்.</string>
+    <string name="menu_alarm">அலாரம்</string>
+    <string name="menu_clock">கடிகாரம்</string>
+    <string name="menu_item_help">உதவி</string>
+    <string name="menu_item_night_mode">இரவுப் பயன்முறை</string>
+    <string name="menu_item_settings">அமைப்புகள்</string>
+    <string name="menu_item_sort_by_gmt_offset">நேரத்தின்படி வரிசையிடுக</string>
+    <string name="menu_stopwatch">ஸ்டாப்வாட்ச்</string>
+    <string name="menu_timer">டைமர்</string>
+    <string name="minute">1 நிமிடம்</string>
+    <string name="minute_unit">மீ</string>
+    <string name="minutes">%s நிமிடங்கள்</string>
+    <string name="missed_alarm_has_been_deleted">நீங்கள் தவறவிட்ட அலாரம் நீக்கப்பட்டுள்ளது</string>
+    <string name="mtrl_badge_numberless_content_description">புதிய அறிவிப்பு</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$sஐ அகற்று</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d+ புதிய அறிவிப்புகள்</string>
+    <string name="mtrl_picker_a11y_next_month">அடுத்த மாதத்தைக் காட்டு</string>
+    <string name="mtrl_picker_a11y_prev_month">முந்தைய மாதத்தைக் காட்டு</string>
+    <string name="mtrl_picker_announce_current_selection">தற்போதைய தேர்வு: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">தேதியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mtrl_picker_date_header_unselected">தேர்ந்தெடுக்கப்பட்ட தேதி</string>
+    <string name="mtrl_picker_day_of_week_column_header">நாட்களின் நெடுவரிசை: %1$s</string>
+    <string name="mtrl_picker_invalid_format">தவறான வடிவம்.</string>
+    <string name="mtrl_picker_invalid_format_example">உதாரணம்: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$sஐப் பயன்படுத்துக</string>
+    <string name="mtrl_picker_invalid_range">தவறான வரம்பு.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s ஆம் ஆண்டிற்குச் செல்லும்</string>
+    <string name="mtrl_picker_out_of_range">எல்லைக்கு வெளியே உள்ளது: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">தொடக்கத் தேதி – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – முடிவுத் தேதி</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">வரம்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mtrl_picker_range_header_unselected">தொடக்கத் தேதி - முடிவுத் தேதி</string>
+    <string name="mtrl_picker_save">சேமி</string>
+    <string name="mtrl_picker_text_input_date_hint">தேதி</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">முடிவுத் தேதி</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">தொடக்கத் தேதி</string>
+    <string name="mtrl_picker_text_input_day_abbr">நா</string>
+    <string name="mtrl_picker_text_input_month_abbr">மா</string>
+    <string name="mtrl_picker_text_input_year_abbr">ஆ</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">கேலெண்டர் உள்ளீட்டு முறைக்கு மாற்றும்</string>
+    <string name="mtrl_picker_toggle_to_day_selection">நாளைத் தேர்வுசெய்வதற்கு மாற்ற தட்டவும்</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">உரை உள்ளீட்டு முறைக்கு மாற்றும்</string>
+    <string name="mtrl_picker_toggle_to_year_selection">ஆண்டைத் தேர்வுசெய்வதற்கு மாற்ற தட்டவும்</string>
+    <string name="net_connect_prompt_title">அனுமதி பெறல்</string>
+    <string name="never">ஒருபோதுமில்லை</string>
+    <string name="next_alarm_description">அடுத்த அலாரம்: %s</string>
+    <string name="no_alarms">அலாரங்கள் இல்லை</string>
+    <string name="no_clock">உலகக் கடிகாரங்கள் இல்லை</string>
+    <string name="no_firing_alarms">ஃபயரிங் அலாரங்கள் எதுவுமில்லை</string>
+    <string name="no_holiday_data_prompt">வேலை நாட்கள் (முதல்முறைக்கு Wifi உடன் இணைக்கவும்)</string>
+    <string name="no_music">உள்ளக இசை ஏதுமில்லை</string>
+    <string name="no_record">உள்ளகப் பதிதல்கள் ஏதுமில்லை</string>
+    <string name="not_set">அமைக்கப்படவில்லை</string>
+    <string name="notification_channel_name">கடிகார அறிவிப்பு</string>
+    <string name="number_picker_hour">ம</string>
+    <string name="number_picker_minute">மீ</string>
+    <string name="number_picker_second">வி</string>
+    <string name="ok_dialog">சரி</string>
+    <string name="once">ஒருமுறை</string>
+    <string name="password_toggle_content_description">கடவுச்சொல்லைக் காட்டு</string>
+    <string name="pick_from_music">இசையிலிருந்து தேர்ந்தெடுக்கவும்</string>
+    <string name="pick_from_recorder">ரெக்கார்டரிலிருந்து தேர்ந்தெடுக்கவும்</string>
+    <string name="pick_from_ringtone">ரிங்டோனில் இருந்து தேர்வுசெய்க</string>
+    <string name="poweroff_alarm">அலாரத்தை ஆஃப் செய்யவும்</string>
+    <string name="poweroff_alarm_close_tips">அலாரம் அமைவு நேரம் 5 நிமிடங்களுக்கு மேல் இருந்தால், ஃபோன் அணைக்கப்பட்டிருந்தால் கூட அலாரம் அடிக்கும்.</string>
+    <string name="poweroff_alarm_open_tips">அலாரம் அமைவு நேரம் 5 நிமிடங்களுக்கு மேல் இருந்தால், ஃபோன் அணைக்கப்பட்டிருந்தால் கூட அலாரம் அடிக்கும்.</string>
+    <string name="poweroff_prompt_dlg_close">இதற்கு செல்க</string>
+    <string name="poweroff_prompt_dlg_msg">ஃபோன் மூடப்பட்டிருக்கையில் ரிங் செய்யவும். அலார அமைப்புகளில் நீங்கள் இந்த அம்சத்தை ஆஃப் செய்து கொள்ளலாம்</string>
+    <string name="poweroff_prompt_dlg_ok">சரி</string>
+    <string name="poweroff_prompt_dlg_title">அலாரம் ஆஃப் செய்தல் செயல்படுத்தப்பட்டுள்ளது</string>
+    <string name="preference_copied">\"%1$s\" கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது.</string>
+    <string name="repeat_public_weekdays">வேலை நாட்கள்</string>
+    <string name="ring_chose">ரிங்டோன்</string>
+    <string name="ringtone">ரிங்டோன்</string>
+    <string name="search_hint">நகரம்/நாடு</string>
+    <string name="search_local_music">உள்ளக இசையைத் தேடுக</string>
+    <string name="search_local_record">உள்ளக பதிவைத் தேடுக</string>
+    <string name="search_menu_title">தேடல்</string>
+    <string name="second_unit">வி</string>
+    <string name="select_all">அனைத்தையும் தேர்ந்தெடு</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="show_notif">அறிவிப்பு மையத்தில் வரவிருக்கும் அலாரங்களைக் காண்பிக்கவும்</string>
+    <string name="show_notif_open_tips">ரிங் ஆவதற்கு 2 மணிநேரம் முன்பாக, அலாரச் செய்திகள் அறிவிப்பு மையத்தில் காண்பிக்கப்படும்.</string>
+    <string name="silent_alarm">ஒலியற்ற</string>
+    <string name="silent_alarm_summary">ஒலியற்ற</string>
+    <string name="skip_alarm_next_time_normal">தவற விடப்பட்ட அலாரம் அடுத்த முறை ரிங் ஆகும்</string>
+    <string name="snooze_duration_title">ஸ்னூஸ் காலஅளவு</string>
+    <string name="snooze_interval_later">பின்னர்</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">அறிவிப்பை இயக்குவதற்கான ஸ்டாப்வாட்ச் சேவை.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">லேப்</string>
+    <string name="sw_notification_lap_number">லேப் %d</string>
+    <string name="sw_pause_button">இடை நிறுத்து</string>
+    <string name="sw_reset_button">மீட்டமை</string>
+    <string name="sw_resume_button">மீண்டும் துவங்கு</string>
+    <string name="sw_share_laps">லேப் நேரங்கள்:</string>
+    <string name="sw_share_main">எனது நேரம் %s</string>
+    <string name="sw_unit_digits">h m s</string>
+    <string name="swn_stopped">நிறுத்தப்பட்டது</string>
+    <string name="sync_alarm_from_server_completed">க்ளௌடு சேவை கடிகாரத் தரவை புதுப்பித்துள்ளது</string>
+    <string name="time_handle_text_degree_unit">மீ</string>
+    <string name="time_span_unit_hour">மணிநேரம்</string>
+    <string name="time_span_unit_minute">நிமிடம்</string>
+    <string name="time_span_unit_second">இரண்டாவது</string>
+    <string name="timer_am">AM</string>
+    <string name="timer_close">மூடு</string>
+    <string name="timer_dialog_btn_cancel">ரத்துசெய்</string>
+    <string name="timer_dialog_btn_start">துவங்கு</string>
+    <string name="timer_dialog_title">நேரம் அமை</string>
+    <string name="timer_fullscreen_prompt">நிறுத்துவதற்கு மேலே ஸ்லைட் செய்யவும்</string>
+    <string name="timer_fullscreen_summary_after">டைமர் முடிந்துவிட்டது</string>
+    <string name="timer_missed_title">தவறிய டைமர்</string>
+    <string name="timer_notification_label">டைமர்</string>
+    <string name="timer_picker_hour_unit">h</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">s</string>
+    <string name="timer_ring_dialog_title">ரிங் முறை</string>
+    <string name="timer_ring_service_desc">கடிகாரத்தில் அமைக்கப்பட்டுள்ள டைமர்களுக்கான ஒலி பிளேபேக் சேவை.</string>
+    <string name="timer_stopped">நேரம்காட்டி நிறுத்தப்பட்டது</string>
+    <string name="timing">டைமிங்</string>
+    <string name="title_local_music">லோக்கல்</string>
+    <string name="title_record">ஆடியோவைப் பதிவுசெய்</string>
+    <string name="title_ringstone">ரிங்டோன்</string>
+    <string name="touch_on_close">அலாரமை நிறுத்துவதற்கு மேலே ஸ்லைட் செய்யவும்</string>
+    <string name="touchupclose">அலாரமை நிறுத்துவதற்கு மேலே அல்லது கீழே நகர்த்தவும்</string>
+    <string name="update_holiday_summary">விடுமுறை தரவின் மீதுள்ள புதுப்பிப்புகளைக் கண்டறிக</string>
+    <string name="update_holiday_title">விடுமுறை தரவைப் புதுப்பிக்கவும்</string>
+    <string name="v7_preference_off">ஆஃப்</string>
+    <string name="v7_preference_on">ஆன்</string>
+    <string name="volume_button_setting_title">ஒலியளவு பொத்தான்கள்</string>
+    <string name="weather_key_rain">மழை</string>
+    <string name="weekly">வாராவாரம்</string>
+    <string name="world_time_today">இன்று</string>
+    <string name="world_time_tomorrow">நாளை</string>
+    <string name="world_time_yesterday">நேற்று</string>
+</resources>

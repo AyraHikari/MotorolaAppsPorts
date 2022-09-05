@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Heure et météo</item>
+        <item>Météo</item>
+        <item>Heure</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Îles Marshall</item>
+        <item>Midway</item>
+        <item>Honolulu</item>
+        <item>Alaska</item>
+        <item>Los Angeles</item>
+        <item>Tijuana</item>
+        <item>Phoenix</item>
+        <item>Chihuahua</item>
+        <item>Denver</item>
+        <item>San José (Costa Rica)</item>
+        <item>Chicago</item>
+        <item>Mexico</item>
+        <item>Regina (Canada)</item>
+        <item>Bogota</item>
+        <item>New York</item>
+        <item>Venezuela</item>
+        <item>La Barbade</item>
+        <item>Halifax</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terre-Neuve</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenland</item>
+        <item>Montevideo</item>
+        <item>Géorgie du Sud</item>
+        <item>Açores</item>
+        <item>Cap Vert</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublin</item>
+        <item>Paris, Rome, Berlin</item>
+        <item>Belgrade</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Brazzaville</item>
+        <item>Amman</item>
+        <item>Athènes</item>
+        <item>Beyrouth</item>
+        <item>Le Caire</item>
+        <item>Helsinki</item>
+        <item>Jérusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscou</item>
+        <item>Koweït</item>
+        <item>Nairobi</item>
+        <item>Téhéran</item>
+        <item>Bakou</item>
+        <item>Tbilissi</item>
+        <item>Erevan</item>
+        <item>Dubaï</item>
+        <item>Kaboul</item>
+        <item>Karâchi</item>
+        <item>Ouralsk</item>
+        <item>Ekaterinbourg</item>
+        <item>Calcutta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandou</item>
+        <item>Almaty</item>
+        <item>Rangoon</item>
+        <item>Krasnoïarsk</item>
+        <item>Bangkok</item>
+        <item>Pékin</item>
+        <item>Hong-Kong</item>
+        <item>Irkoutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Séoul</item>
+        <item>Tokyo</item>
+        <item>Iakoutsk</item>
+        <item>Adelaïde</item>
+        <item>Darwin (Centre australien)</item>
+        <item>Brisbane (Est australien)</item>
+        <item>Hobart</item>
+        <item>Sydney (Est australien)</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidji</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

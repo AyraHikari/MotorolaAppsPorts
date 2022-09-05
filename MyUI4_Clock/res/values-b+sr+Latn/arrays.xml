@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarm će zvoniti za manje od 1 minuta.</item>
+        <item>Alarm će zvoniti za %1$s.</item>
+        <item>Alarm će zvoniti za %2$s.</item>
+        <item>Alarm će zvoniti za %1$s i %2$s.</item>
+        <item>Alarm će zvoniti za %3$s.</item>
+        <item>Alarm će zvoniti za %1$s i %3$s.</item>
+        <item>Alarm će zvoniti za %2$s i %3$s.</item>
+        <item>Alarm će zvoniti za %1$s, %2$s i %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>15 minuta</item>
+        <item>20 minuta</item>
+        <item>25 minuta</item>
+        <item>30 minuta</item>
+        <item>Nikada</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5.</item>
+        <item>10.</item>
+        <item>15.</item>
+        <item>20.</item>
+        <item>25.</item>
+        <item>30.</item>
+        <item>-1.</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analogni</item>
+        <item>Digitalni</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analogni</item>
+        <item>digitalni</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Povežite na internet za prikaz lokalnog vremena tokom zvona</item>
+        <item>Lokacija je u obavezi da prikaže lokalno vreme tokom zvona</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Pristupi mobilnoj mreži</item>
+        <item>Pristupi lokaciji</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>Maj</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Avg.</item>
+        <item>Sep.</item>
+        <item>Okt.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Odbaci</item>
+        <item>Odloži</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standardna</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Okreni vertikalno</item>
+        <item>Okreni horizontalno</item>
+        <item>Naslagano</item>
+        <item>Uvećano</item>
+        <item>Umanjeno</item>
+        <item>Rotiraj nagore</item>
+        <item>Rotiraj nadole</item>
+        <item>Harmonika</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Jednom</item>
+        <item>Svakog dana</item>
+        <item>Radnim danima (isključeno tokom praznika)</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Jednom</item>
+        <item>Svakog dana</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>ned</item>
+        <item>pon</item>
+        <item>uto</item>
+        <item>sre</item>
+        <item>čet</item>
+        <item>pet</item>
+        <item>sub</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Nikad</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>15 minuta</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Preostao je manje od jedan minut</item>
+        <item>Preostalo je %1$s</item>
+        <item>Preostalo je %2$s</item>
+        <item>Preostalo je %1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Zvono</item>
+        <item>Vibracija</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Maršalska Ostrva</item>
+        <item>Midvej</item>
+        <item>Havaji</item>
+        <item>Aljaska</item>
+        <item>Pacifičko vreme</item>
+        <item>Tihuana</item>
+        <item>Arizona</item>
+        <item>Čivava</item>
+        <item>Planinsko vreme</item>
+        <item>Centralna Amerika</item>
+        <item>Centralno vreme</item>
+        <item>Meksiko siti</item>
+        <item>Saskačevan</item>
+        <item>Bogota</item>
+        <item>Istočno vreme</item>
+        <item>Venecuela</item>
+        <item>Atlantsko vreme (Barbados)</item>
+        <item>Atlantsko vreme (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santjago</item>
+        <item>Njifaundlend</item>
+        <item>Brazilija</item>
+        <item>Buenos Arijes</item>
+        <item>Grenland</item>
+        <item>Montevideo</item>
+        <item>Srednjeatlantsko</item>
+        <item>Azurska ostrva</item>
+        <item>Zelenortska ostrva</item>
+        <item>Kazablanka</item>
+        <item>London, Dablin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Brisel</item>
+        <item>Sarajevo</item>
+        <item>Vindhuk</item>
+        <item>Zapadnoafričko vreme</item>
+        <item>Aman, Jordan</item>
+        <item>Atina, Istanbul</item>
+        <item>Bejrut, Liban</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalim</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Najrobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islambad, Karači</item>
+        <item>Oral</item>
+        <item>Jekaterinburg</item>
+        <item>Kalkuta</item>
+        <item>Šri Lanka</item>
+        <item>Katmandu</item>
+        <item>Nur Sultan</item>
+        <item>Jangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Pert</item>
+        <item>Tajpej</item>
+        <item>Seul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darvin</item>
+        <item>Brizbejn</item>
+        <item>Hobart</item>
+        <item>Sidnej, Kanbera</item>
+        <item>Vladivostok</item>
+        <item>Gvam</item>
+        <item>Magadan</item>
+        <item>Oklend</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+        <item>Džakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacifik/Madžuro</item>
+        <item>Pacifik/Midvej</item>
+        <item>Pacifik/Honolulu</item>
+        <item>Amerika/Enkoridž</item>
+        <item>Amerika/Los_Anđeles</item>
+        <item>Amerika/Tihuana</item>
+        <item>Amerika/Feniks</item>
+        <item>Amerika/Čivava</item>
+        <item>Amerika/Denver</item>
+        <item>Amerika/Kosta_Rika</item>
+        <item>Amerika/Čikago</item>
+        <item>Amerika/Meksiko_Siti</item>
+        <item>Amerika/Redžajna</item>
+        <item>Amerika/Bogota</item>
+        <item>Amerika/Njujork</item>
+        <item>Amerika/Karakas</item>
+        <item>Amerika/Barbados</item>
+        <item>Amerika/Halifaks</item>
+        <item>Amerika/Manaus</item>
+        <item>Amerika/Santjago</item>
+        <item>Amerika/Sent_Džons</item>
+        <item>Amerika/Sao_Paulo</item>
+        <item>Amerika/Argentina/Buenos_Ajres</item>
+        <item>Amerika/Godhob</item>
+        <item>Amerika/Montevideo</item>
+        <item>Atlantik/Južna_Džordžija</item>
+        <item>Atlantik/Azorska_ostrva</item>
+        <item>Atlantik/Zelenortska_ostrva</item>
+        <item>Afrika/Kazablanka</item>
+        <item>Evropa/London</item>
+        <item>Evropa/Amsterdam</item>
+        <item>Evropa/Beograd</item>
+        <item>Evropa/Brisel</item>
+        <item>Evropa/Sarajevo</item>
+        <item>Afrika/Vindhuk</item>
+        <item>Afrika/Brazavil</item>
+        <item>Azija/Aman</item>
+        <item>Evropa/Atina</item>
+        <item>Azija/Bejrut</item>
+        <item>Afrika/Kairo</item>
+        <item>Evropa/Helsinki</item>
+        <item>Azija/Jerusalim</item>
+        <item>Evropa/Minsk</item>
+        <item>Afrika/Harare</item>
+        <item>Azija/Bagdad</item>
+        <item>Evropa/Moskva</item>
+        <item>Azija/Kuvajt</item>
+        <item>Afrika/Najrobi</item>
+        <item>Azija/Tehran</item>
+        <item>Azija/Baku</item>
+        <item>Azija/Tbilisi</item>
+        <item>Azija/Jerevan</item>
+        <item>Azija/Dubai</item>
+        <item>Azija/Kabul</item>
+        <item>Azija/Karači</item>
+        <item>Azija/Oral</item>
+        <item>Azija/Jekaterinburg</item>
+        <item>Azija/Kalkuta</item>
+        <item>Azija/Kolombo</item>
+        <item>Azija/Katmandu</item>
+        <item>Azija/Almati</item>
+        <item>Azija/Rangun</item>
+        <item>Azija/Krasnojarsk</item>
+        <item>Azija/Bangkok</item>
+        <item>Azija/Šanghaj</item>
+        <item>Azija/Hong_Kong</item>
+        <item>Azija/Irkutsk</item>
+        <item>Azija/Kuala_Lumpur</item>
+        <item>Australija/Pert</item>
+        <item>Azija/Tajpej</item>
+        <item>Azija/Seul</item>
+        <item>Azija/Tokio</item>
+        <item>Azija/Jakutsk</item>
+        <item>Australija/Adelaide</item>
+        <item>Australija/Darvin</item>
+        <item>Australija/Brizbejn</item>
+        <item>Australija/Hobart</item>
+        <item>Australija/Sidnej</item>
+        <item>Azija/Vladivostok</item>
+        <item>Pacifik/Gvam</item>
+        <item>Azija/Magadan</item>
+        <item>Pacifik/Okland</item>
+        <item>Pacifik/Fiđi</item>
+        <item>Pacifik/Tongatapu</item>
+        <item>Azija/Džakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Odloži</item>
+        <item>Odbaci</item>
+        <item>Ne radi ništa</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Tiho</item>
+        <item>Normalno</item>
+        <item>Glasno</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>nedeljom</item>
+        <item>ponedeljkom</item>
+        <item>utorkom</item>
+        <item>sredom</item>
+        <item>četvrtkom</item>
+        <item>petkom</item>
+        <item>subotom</item>
+    </string-array>
+</resources>

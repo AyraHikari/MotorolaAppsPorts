@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/arch_center" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_centerVertical="true" />
+    <TextView android:id="@id/arch_u_1" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginBottom="@dimen/b_u_1" android:layout_above="@id/arch_center" />
+    <TextView android:id="@id/arch_d_1" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/b_d_1" android:layout_below="@id/arch_center" />
+    <TextView android:id="@id/arch_d_1_2" android:background="#ff0000ff" android:layout_width="100.0dip" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/time_margin" android:layout_below="@id/arch_d_1" android:layout_centerHorizontal="true" />
+    <TextClock android:id="@id/date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_margin_bottom_14" android:maxWidth="@dimen/text_max_width_big" android:layout_above="@id/arch_u_1" android:layout_alignBottom="@id/arch_u_1" android:layout_centerHorizontal="true" android:format12Hour="EEEE, MMM d" android:format24Hour="EEEE, MMM d" style="@style/WhiteText.TEXT14" />
+    <TextClock android:id="@id/clock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/text_max_width_big" android:layout_above="@id/arch_d_1_2" android:layout_alignBottom="@id/arch_d_1_2" android:layout_centerHorizontal="true" android:format12Hour="HH:mm" android:format24Hour="HH:mm" style="@style/WhiteText.Light.NUMBER.56" />
+</RelativeLayout>

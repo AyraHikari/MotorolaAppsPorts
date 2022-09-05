@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>3 óra</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Idő és időjárás</item>
+        <item>Időjárás</item>
+        <item>Idő</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall-szigetek</item>
+        <item>Midway-szigetek</item>
+        <item>Hawaii</item>
+        <item>Alaszka</item>
+        <item>Csendes-óceáni idő</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hegyvidéki idő</item>
+        <item>Közép-amerikai idő</item>
+        <item>Amerikai középidő</item>
+        <item>Mexikóváros</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Keleti idő</item>
+        <item>Venezuela</item>
+        <item>Atlanti-óceáni idő (Barbados)</item>
+        <item>Atlanti-óceáni idő (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Új-Fundland</item>
+        <item>Brazíliaváros</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Közép-atlanti</item>
+        <item>Azori-szigetek</item>
+        <item>Zöld-foki-szigetek</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amszterdam, Berlin</item>
+        <item>Belgrád</item>
+        <item>Brüsszel</item>
+        <item>Szarajevó</item>
+        <item>Windhoek</item>
+        <item>Nyugat-afrikai idő</item>
+        <item>Ammán, Jordánia</item>
+        <item>Athén, Isztambul</item>
+        <item>Bejrút, Libanon</item>
+        <item>Kairó</item>
+        <item>Helsinki</item>
+        <item>Jeruzsálem</item>
+        <item>Minszk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moszkva</item>
+        <item>Kuvait</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbiliszi</item>
+        <item>Jereván</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Iszlámábád, Karacsi</item>
+        <item>Oral</item>
+        <item>Jekatyerinburg</item>
+        <item>Kolkata</item>
+        <item>Srí Lanka</item>
+        <item>Katmandu</item>
+        <item>Asztana</item>
+        <item>Rangun</item>
+        <item>Krasznojarszk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutszk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Tajpej</item>
+        <item>Szöul</item>
+        <item>Tokió, Oszaka</item>
+        <item>Jakutszk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vlagyivosztok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidzsi</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

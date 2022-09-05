@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">A=အဗစ်ဂျန်|Africa/Abidjan</string>
+    <string name="C10">D=ဒါကာ|Africa/Dakar</string>
+    <string name="C100">A=အာမန်|Asia/Amman</string>
+    <string name="C101">A=အဏ္ဏရာ|Asia/Anadyr</string>
+    <string name="C102">A=အခ်တောင်|Asia/Aqtau</string>
+    <string name="C103">B=ဘက်ဒက်|Asia/Baghdad</string>
+    <string name="C104">B=ဘာရိန်း|Asia/Bahrain</string>
+    <string name="C105">B=ဘာကူ|Asia/Baku</string>
+    <string name="C106">B=ဘန်ကောက်|Asia/Bangkok</string>
+    <string name="C107">B=ဘီရက်|Asia/Beirut</string>
+    <string name="C108">K=ကာလကတ္တားမြို့|Asia/Calcutta</string>
+    <string name="C109">D=ဒမက်စ်ကဒ်|Asia/Damascus</string>
+    <string name="C11">D=ဒါအက်စ္စလမ်|Africa/Dar_es_Salaam</string>
+    <string name="C110">D=ဒါကာ|Asia/Dhaka</string>
+    <string name="C111">D=ဒူဘိုင်း|Asia/Dubai</string>
+    <string name="C112">G=ဂါဇာ|Asia/Gaza</string>
+    <string name="C113">H=ဟေဗြွန်|Asia/Hebron</string>
+    <string name="C114">H=ဟိုချီမင်း|Asia/Ho_Chi_Minh</string>
+    <string name="C115">H=ဟောင်ကောင်:|Asia/Hong_Kong</string>
+    <string name="C117">J=ဂျကာတာ|Asia/Jakarta</string>
+    <string name="C118">J=ဂျေရုဆလင်|Asia/Jerusalem</string>
+    <string name="C119">K=ကဘူးလ်|Asia/Kabul</string>
+    <string name="C12">D=ဂျီဘူတီ|Africa/Djibouti</string>
+    <string name="C120">K=ခရာချီ|Asia/Karachi</string>
+    <string name="C121">K=ခက်မန်ဒူ|Asia/Kathmandu</string>
+    <string name="C122">K=ကွာလာလမ်ပူ|Asia/Kuala_Lumpur</string>
+    <string name="C123">K=ကူဝိတ်|Asia/Kuwait</string>
+    <string name="C124">M=မကာအို|Asia/Macau</string>
+    <string name="C125">M=မနီလာ|Asia/Manila</string>
+    <string name="C126">M=မုစ်ကက်|Asia/Muscat</string>
+    <string name="C127">P=ဖနွမ်းပင်|Asia/Phnom_Penh</string>
+    <string name="C128">P=ပြုံယမ်း:|Asia/Pyongyang</string>
+    <string name="C13">F=ဖရီးတောင်း|Africa/Freetown</string>
+    <string name="C130">R=ရန်ကုန်|Asia/Rangoon</string>
+    <string name="C131">R=ရိယာ့ဒ်|Asia/Riyadh</string>
+    <string name="C133">S=ဆိုးလ်|Asia/Seoul</string>
+    <string name="C134">S=ရှန်ဟိုင်း:|Asia/Shanghai</string>
+    <string name="C135">S=စင်္ကာပူ|Asia/Singapore</string>
+    <string name="C136">T=ထိုင်ပေ:|Asia/Taipei</string>
+    <string name="C137">T=တီဟီရန်|Asia/Tehran</string>
+    <string name="C138">T=တယ်လ်အေဗစ်|Asia/Tel_Aviv</string>
+    <string name="C139">T=တိုကျို:|Asia/Tokyo</string>
+    <string name="C14">G=ဂါဘိုရုမ်း|Africa/Gaborone</string>
+    <string name="C140">U=ဥလန်ဘာတာ|Asia/Ulaanbaatar</string>
+    <string name="C141">B=ဘာမြူဒါ|Atlantic/Bermuda</string>
+    <string name="C142">C=ကနေရီ|Atlantic/Canary</string>
+    <string name="C143">C=ကိပ်ဗာဒီ|Atlantic/Cape_Verde</string>
+    <string name="C144">R=ရက်ဂျာဗစ်|Atlantic/Reykjavik</string>
+    <string name="C145">S=စတန်လေ|Atlantic/Stanley</string>
+    <string name="C146">A=အက်ဒလိတ်|Australia/Adelaide</string>
+    <string name="C147">B=ဘရစ်စဘိန်း|Australia/Brisbane</string>
+    <string name="C148">C=ကန်ဘဲရား|Australia/Canberra</string>
+    <string name="C149">D=ဒါဝင်|Australia/Darwin</string>
+    <string name="C15">H=ဟေရဲ|Africa/Harare</string>
+    <string name="C150">M=မဲလ်ဘုန်း|Australia/Melbourne</string>
+    <string name="C151">N=နယူးဆောက်ဝေးလ်|Australia/NSW</string>
+    <string name="C152">P=ပါ့သ်|Australia/Perth</string>
+    <string name="C153">Q=ကွင်းစ်လန်း|Australia/Queensland</string>
+    <string name="C154">S=ဆစ်ဒနီ|Australia/Sydney</string>
+    <string name="C155">V=ဗစ်တိုးရီးယား|Australia/Victoria</string>
+    <string name="C156">N=နယူးဖောင်းဒ်လန်း|Canada/Newfoundland</string>
+    <string name="C157">S=ဆက်စ်ခက်ချဝမ်|Canada/Saskatchewan</string>
+    <string name="C158">E=အီစတာကျွန်း|Chile/EasterIsland</string>
+    <string name="C159">A=အမ်စတာဒမ်|Europe/Amsterdam</string>
+    <string name="C16">J=ဂျိုဟန်နက်စ်ဘတ်|Africa/Johannesburg</string>
+    <string name="C160">A=အင်ဒိုရာ|Europe/Andorra</string>
+    <string name="C161">A=အေသင်|Europe/Athens</string>
+    <string name="C162">B=ဘဲဖာ့စ်|Europe/Belfast</string>
+    <string name="C163">B=ဘဲလ်ဂရိတ်|Europe/Belgrade</string>
+    <string name="C164">B=ဘာလင်|Europe/Berlin</string>
+    <string name="C165">B=ဘရက်တစ်စ်လာဗာ|Europe/Bratislava</string>
+    <string name="C166">B=ဘရက်စ်ဆဲလ်|Europe/Brussels</string>
+    <string name="C167">B=ဘူချာရတ်|Europe/Bucharest</string>
+    <string name="C168">B=ဘူတာပတ်|Europe/Budapest</string>
+    <string name="C169">C=ချီစီနို|Europe/Chisinau</string>
+    <string name="C17">K=ကမ်ပါလာ|Africa/Kampala</string>
+    <string name="C170">C=ကိုပင်မ်ဟေဂင်မ်|Europe/Copenhagen</string>
+    <string name="C171">D=ဒပ်ဘလင်|Europe/Dublin</string>
+    <string name="C172">G=ဂျီဘရယ်လ်တာ|Europe/Gibraltar</string>
+    <string name="C173">H=ဟယ်လ်စင်ကီ|Europe/Helsinki</string>
+    <string name="C174">I=အိုင်းစ်လ်အော့ဖ်မန်း|Europe/Isle_of_Man</string>
+    <string name="C175">I=အစ္စတန်ဘူလ်|Europe/Istanbul</string>
+    <string name="C176">K=ကိယက်ဗ်|Europe/Kiev</string>
+    <string name="C177">L=လစ္စဘွန်း|Europe/Lisbon</string>
+    <string name="C178">L=လန်ဒန်|Europe/London</string>
+    <string name="C179">L=လူဇင်ဘတ်|Europe/Luxembourg</string>
+    <string name="C18">K=ခါတိုအန်|Africa/Khartoum</string>
+    <string name="C180">M=မက်ဒရစ်|Europe/Madrid</string>
+    <string name="C181">M=မောလ်တာ|Europe/Malta</string>
+    <string name="C182">M=မင့်စ်ခ်|Europe/Minsk</string>
+    <string name="C183">M=မိုနာကို|Europe/Monaco</string>
+    <string name="C184">M=မော်စကို|Europe/Moscow</string>
+    <string name="C185">O=အော်စလို|Europe/Oslo</string>
+    <string name="C186">P=ပဲရစ်|Europe/Paris</string>
+    <string name="C187">P=ပါရာဂွေး|Europe/Prague</string>
+    <string name="C188">R=ရီဂါ|Europe/Riga</string>
+    <string name="C189">R=ရောမ|Europe/Rome</string>
+    <string name="C19">K=ကစ်ဂလီ|Africa/Kigali</string>
+    <string name="C190">S=ဆန်မာရီနို|Europe/San_Marino</string>
+    <string name="C191">S=ဆာရာဂျီဗို|Europe/Sarajevo</string>
+    <string name="C192">S=ဆင်မ်ဗာရိုပိုလ်|Europe/Simferopol</string>
+    <string name="C193">S=စကိုပ်ဂျီ|Europe/Skopje</string>
+    <string name="C194">S=ဆိုဖီယာ|Europe/Sofia</string>
+    <string name="C195">S=စတော့ဟုမ်း|Europe/Stockholm</string>
+    <string name="C196">T=တယ်လ်လင်း|Europe/Tallinn</string>
+    <string name="C197">V=ဗာတီကန်|Europe/Vatican</string>
+    <string name="C198">V=ဗီယင်နာ|Europe/Vienna</string>
+    <string name="C199">V=ဗေလ်နီးယပ်|Europe/Vilnius</string>
+    <string name="C2">A=အက္ကရာ|Africa/Accra</string>
+    <string name="C20">K=ကင်ရှာဆာ|Africa/Kinshasa</string>
+    <string name="C200">W=ဝါဆော|Europe/Warsaw</string>
+    <string name="C201">Z=ဇာဂရပ်ဘ်|Europe/Zagreb</string>
+    <string name="C202">Z=ဇူးရစ်|Europe/Zurich</string>
+    <string name="C203">A=အန်တာနာနာရီဗို|Indian/Antananarivo</string>
+    <string name="C204">M=မော်လ်ဒိုက်|Indian/Maldives</string>
+    <string name="C205">M=မော်ရေးရှက်စ်|Indian/Mauritius</string>
+    <string name="C206">A=အော့ခ်လန်|Pacific/Auckland</string>
+    <string name="C207">F=ဖီဂျီ|Pacific/Fiji</string>
+    <string name="C208">G=ဂွမ်|Pacific/Guam</string>
+    <string name="C209">H=ဟိုနိုလူလူ|Pacific/Honolulu</string>
+    <string name="C21">L=လာဂို့စ်|Africa/Lagos</string>
+    <string name="C210">K=ခိရိတီမာတီ|Pacific/Kiritimati</string>
+    <string name="C211">N=နော်မီယာ|Pacific/Noumea</string>
+    <string name="C214">A=အန်တီဂွါ|America/Antigua</string>
+    <string name="C215">A=အော်စတင်|America/Chicago</string>
+    <string name="C216">B=ဘော်စတွန်|America/New_York</string>
+    <string name="C217">C=ကယ်လ်ဂေရီ|America/Denver</string>
+    <string name="C218">C=ကိုလမ်ဘတ်စ်|America/New_York</string>
+    <string name="C219">D=ဒဲလ်လပ်စ်|America/Chicago</string>
+    <string name="C22">M=မာဆဲရု|Africa/Maseru</string>
+    <string name="C220">K=နော့စ်ဗေလ်လီ|America/New_York</string>
+    <string name="C221">M=နောဖ|America/Chicago</string>
+    <string name="C222">M=မိုင်ယာမီ|America/New_York</string>
+    <string name="C223">M=မင်နီယာပိုလစ်စ်|America/Chicago</string>
+    <string name="C224">O=အော့ထာဝါ|America/New_York</string>
+    <string name="C225">P=ဖီလာဒဲလ်ဖီးယား|America/New_York</string>
+    <string name="C226">P=ပေါ့ထ်လန်|America/Los_Angeles</string>
+    <string name="C227">S=ဆန်ဒီယေဂို|America/Los_Angeles</string>
+    <string name="C228">S=ဆန်ဖရန်စစ္စကို|America/Los_Angeles</string>
+    <string name="C229">S က = ဆော့ထ်လိတ်ခ်မြို့ပြ|America/Denver</string>
+    <string name="C23">M=မိုဂါဒီရှု|Africa/Mogadishu</string>
+    <string name="C230">S=ဆန်ဂျိုစေး|America/Los_Angeles</string>
+    <string name="C231">S=ဆန်ဆယ်လ်ဗေဒေါ|America/Guatemala</string>
+    <string name="C232">S=ဆီယက်တဲလ်|America/Los_Angeles</string>
+    <string name="C233">S=စိန့်လူးဝစ်|America/Chicago</string>
+    <string name="C234">W=ဝါရှင်တန်ဒီစီ|America/New_York</string>
+    <string name="C235">H=ဟူစတန်|America/Chicago</string>
+    <string name="C236">S=ဆန်အန်တိုနီယို|America/Chicago</string>
+    <string name="C237">J=ဂျက်ခ်ဆွန်ဗေးလ်|America/New_York</string>
+    <string name="C238">B=ဘယ်လ်တီမိုး|America/New_York</string>
+    <string name="C239">N=နက်ရှ်ဗေးလ်|America/Chicago</string>
+    <string name="C24">N=နိုင်ရိုဘီ|Africa/Nairobi</string>
+    <string name="C240">M=မီလ်ဝေါင်ကီး|America/Chicago</string>
+    <string name="C241">O=အိုခလာဟိုးမ မြို့တော်|America/Chicago</string>
+    <string name="C242">L=လာ့စ်ဗီးဂက်စ်|America/Los_Angeles</string>
+    <string name="C243">A=အယ်လ်ဘူကူယာကူ|America/Denver</string>
+    <string name="C244">T=တာ့ဆန်|MST</string>
+    <string name="C245">S=ဆာခရာမန်တို|America/Los_Angeles</string>
+    <string name="C246">A=အတ္တလန်တာ|America/New_York</string>
+    <string name="C247">C=ကလဲဗီးလန်း|America/New_York</string>
+    <string name="C248">N=နယူးအော်လိန်း|America/Chicago</string>
+    <string name="C249">T=တမ်ပါ|America/New_York</string>
+    <string name="C25">S=ဆောဝ်တိုမီ|Africa/Sao_Tome</string>
+    <string name="C250">P=ပစ်ထ်စ်ဘာ့ဂ်|America/New_York</string>
+    <string name="C251">C=စင်စင်နာတီ|America/New_York</string>
+    <string name="C252">M=မောင်တိန်းဗြူး|America/Los_Angeles</string>
+    <string name="C253">R=ရီနို|America/Los_Angeles</string>
+    <string name="C254">B=ဘလက်ခ်ရော့ခ်မြို့တော်|America/Los_Angeles</string>
+    <string name="C255">D=ဒိုဟာ|Asia/Riyadh</string>
+    <string name="C256">B=ပေကျင်း:|Asia/Shanghai</string>
+    <string name="C257">M=မွမ်ဘိုင်း|Asia/Kolkata</string>
+    <string name="C258">D=ဒေလီ|Asia/Kolkata</string>
+    <string name="C259">O=အိုဆာကာ:|Asia/Tokyo</string>
+    <string name="C26">T=တင်မ်ဘူခ်တူ|Africa/Timbuktu</string>
+    <string name="C260">L=လာဟိုး|Asia/Karachi</string>
+    <string name="C261">S=ဆာနာအာ|Asia/Riyadh</string>
+    <string name="C262">B=ဘာစီလိုနာ|Europe/Madrid</string>
+    <string name="C263">M=မြူးနစ်|Europe/Berlin</string>
+    <string name="C264">M=မီလန်|Europe/Rome</string>
+    <string name="C265">F=ဖရန့်ခ်ဖာ့ထ်|Europe/Berlin</string>
+    <string name="C266">H=ဟနွိုင်း|Asia/Bangkok</string>
+    <string name="C267">A=အန်ကာရာ|Europe/Istanbul</string>
+    <string name="C268">B=ဘန်ဂါလို|Asia/Kolkata</string>
+    <string name="C269">B=ဘရာစီလီယာ|America/Sao_Paulo</string>
+    <string name="C27">T=ထရီပိုလီ|Africa/Tripoli</string>
+    <string name="C270">C=ကိပ်တောင်း|Africa/Johannesburg</string>
+    <string name="C271">I=အစ္စလာမ်မာဘတ်|Asia/Karachi</string>
+    <string name="C272">R=ရီယိုဒီဂျနေးရိုး|America/Sao_Paulo</string>
+    <string name="C273">A=အန်းအာဘော်|America/Detroit</string>
+    <string name="C274">B=ဘိုးလ်ဒါး|America/Denver</string>
+    <string name="C275">C=ကိန်းဘရစ်ချ်|America/New_York</string>
+    <string name="C276">K=ခရစ်ခ်လန်|America/Los_Angeles</string>
+    <string name="C277">M=မာဒီဆန်|America/Chicago</string>
+    <string name="C278">G=ကွမ်ကျိုး:|Asia/Shanghai</string>
+    <string name="C279">H=ဟိုက်ဒြာဘတ်|Asia/Kolkata</string>
+    <string name="C28">T=တူးနစ်စ်|Africa/Tunis</string>
+    <string name="C280">R=ရက်စ်တန်|America/New_York</string>
+    <string name="C281">B=ဘဲလ်လို ဟွန်ရီဇွန်တဲ|America/Sao_Paulo</string>
+    <string name="C282">S=ဆန်တီယေဂို|America/Santiago</string>
+    <string name="C283">M=မွန်ရိုးဗီးယား|Africa/Monrovia</string>
+    <string name="C284">C=ကိုလမ်ဘို|Asia/Colombo</string>
+    <string name="C285">C=ချီဟွားဟွား|America/Chihuahua</string>
+    <string name="C286">S=ဆယ်လ်ဗေဒေါ|America/Sao_Paulo</string>
+    <string name="C287">G=ဂါဂါအွန်|Asia/Kolkata</string>
+    <string name="C288">M=မန်ချက်စတာ|Europe/London</string>
+    <string name="C29">A=အန်ကာ့ရေ့ချ်|America/Anchorage</string>
+    <string name="C290">S=စိန့်ပီတာစဘတ်|Europe/Moscow</string>
+    <string name="C291">K=ခရက်ခ်ကောင်း|Europe/Warsaw</string>
+    <string name="C292">W=ဝရိုကလော|Europe/Warsaw</string>
+    <string name="C293">H=ဟမ်းဘာ့ဂ်|Europe/Berlin</string>
+    <string name="C294">O=အူလူ|Europe/Bucharest</string>
+    <string name="C295">H=ဟိုင်ဖာ|Asia/Jerusalem</string>
+    <string name="C296">S=ဆန်ဂျူအန်|America/Puerto_Rico</string>
+    <string name="C297">T=တဲဂူစီဂယ်လ်ပါ|America/Tegucigalpa</string>
+    <string name="C298">P=ပါရာမာရီဘို|America/Paramaribo</string>
+    <string name="C299">Q=ကွီတို|America/Panama</string>
+    <string name="C3">A=အက်ဒစ်အာဘာဘာ|Africa/Addis_Ababa</string>
+    <string name="C300">L=လဂျပ်ဘ်ဂျာနာ|Europe/Ljubljana</string>
+    <string name="C301">A=အက်ရှ်ဂါဘတ်|Asia/Ashgabat</string>
+    <string name="C302">A=အက်စ်မရာ|Africa/Asmara</string>
+    <string name="C303">B=ဘန်ဂါစီရီ ဘီဂါဝမ်|Asia/Brunei</string>
+    <string name="C304">B=ဘန်ဂွီ|Africa/Bangui</string>
+    <string name="C305">B=ဘန်ဂျူးလ်|Africa/Banjul</string>
+    <string name="C306">B=ဘစ်ရှ်ကက်ခ်|Asia/Bishkek</string>
+    <string name="C307">B=ဘီစော|Africa/Bissau</string>
+    <string name="C308">B=ဘူဂျွမ်ဘူရာ|Africa/Bujumbura</string>
+    <string name="C309">D=ဒီလီ|Asia/Dili</string>
+    <string name="C31">A=အာရူဘာ|America/Aruba</string>
+    <string name="C310">D=ဒူရှန်ဘီ|Asia/Dushanbe</string>
+    <string name="C311">F=ဖူနာဖူတီ|Pacific/Funafuti</string>
+    <string name="C312">H=ဟိုနီယာရာ|Pacific/Guadalcanal</string>
+    <string name="C313">J=ဂျုဘာ|Africa/Juba</string>
+    <string name="C314">K=ကင်းစ်တောင်း|America/St_Vincent</string>
+    <string name="C315">L=လစ်ဘရီဗီးလ်|Africa/Libreville</string>
+    <string name="C316">L=လုမ်း|Africa/Lome</string>
+    <string name="C317">L=လူအင်ဒါ|Africa/Luanda</string>
+    <string name="C318">L=လူစာကာ|Africa/Lusaka</string>
+    <string name="C319">M=မာဂျူရို|Pacific/Majuro</string>
+    <string name="C32">A=အော့စ်စီယွန်|America/Asuncion</string>
+    <string name="C320">M=မာလာဘို|Africa/Malabo</string>
+    <string name="C321">M=မာပူတို|Africa/Maputo</string>
+    <string name="C322">M=ဘာဘိန်း|Africa/Mbabane</string>
+    <string name="C323">M=မိုရိုနီ|Indian/Comoro</string>
+    <string name="C324">N=အန် ဂျမီနာ|Africa/Ndjamena</string>
+    <string name="C325">N=နန်ဂျာေရာမတ်|Pacific/Palau</string>
+    <string name="C326">N=နီယာမေ|Africa/Niamey</string>
+    <string name="C327">N=နီကိုစီယာ|Europe/Nicosia</string>
+    <string name="C328">N=နူအာချော့တ်|Africa/Nouakchott</string>
+    <string name="C329">N=နူကူ အလိုဖာ|Pacific/Tongatapu</string>
+    <string name="C33">B=ဘာဘေးဒိုး|America/Barbados</string>
+    <string name="C330">O=အူအာဂါဒူဂူ|Africa/Ouagadougou</string>
+    <string name="C331">P=ပါလီကာရ်|Pacific/Noumea</string>
+    <string name="C332">P=ဖီလစ်ဘဂ်|America/Lower_Princes</string>
+    <string name="C333">P=ပေါ့ဒ်ဂိုရီကာ|Europe/Podgorica</string>
+    <string name="C334">P=ပေါ့တ် မောရက်စ်ဘီ|Pacific/Palau</string>
+    <string name="C335">P=ပေါ့တ်ဗီလာ|Pacific/Efate</string>
+    <string name="C336">P=ပေါ့တိုနိုဗို|Africa/Porto-Novo</string>
+    <string name="C337">P=ပရစ္စတီးနား|Europe/Belgrade</string>
+    <string name="C338">R=ရူဇို|America/Dominica</string>
+    <string name="C339">T=တက်ရှ်ခန့်|Asia/Tashkent</string>
+    <string name="C34">B=ဘေလီဇ်|America/Belize</string>
+    <string name="C340">T=ဘီလီစီ|Asia/Tbilisi</string>
+    <string name="C341">T=တမ်ဖူ|Asia/Thimphu</string>
+    <string name="C342">T=တီရာနာ|Europe/Tirane</string>
+    <string name="C343">V=ဗာဒူဇ်|Europe/Vaduz</string>
+    <string name="C344">V=ဗီယန်ကျင်း|Asia/Vientiane</string>
+    <string name="C345">W=ဝင်းဟွတ်ခ်|Africa/Windhoek</string>
+    <string name="C346">Y=ရိုအန်ဒေး|Africa/Douala</string>
+    <string name="C347">Y=ယာရန် ခရိုင်|Pacific/Nauru</string>
+    <string name="C348">Y=ယီရဗန်|Asia/Yerevan</string>
+    <string name="C35">B=ဘိုဂိုတာ|America/Bogota</string>
+    <string name="C36">B=ဘူနိုအေးရီးစ်|America/Buenos_Aires</string>
+    <string name="C37">C=ကန်ကွန်|America/Cancun</string>
+    <string name="C38">C=ကာရာကက်စ်|America/Caracas</string>
+    <string name="C39">C=ကေမန်|America/Cayman</string>
+    <string name="C4">A=အယ်လ်ဂျီယာ|Africa/Algiers</string>
+    <string name="C40">C=ချီကာဂို|America/Chicago</string>
+    <string name="C42">C=ကူရာကော်|America/Curacao</string>
+    <string name="C43">D=ဒေါ်ဆန်ခရိခ်|America/Dawson_Creek</string>
+    <string name="C44">D=ဒန်းဗား|America/Denver</string>
+    <string name="C45">D=ဒက်ထရိုက်|America/Detroit</string>
+    <string name="C46">D=ဒိုမီနီကာ|America/Dominica</string>
+    <string name="C47">E=အက်ဒ်မွန်တွန်|America/Edmonton</string>
+    <string name="C48">E=အယ်လ်ဆယ်လ်ဗေဒေါ|America/El_Salvador</string>
+    <string name="C49">F=ဖော်တာလီဇာ|America/Fortaleza</string>
+    <string name="C5">B=ဘလန်တိုင်ယာ|Africa/Blantyre</string>
+    <string name="C50">G=ဂရန်း တာ့ခ်|America/Grand_Turk</string>
+    <string name="C51">G=ဂရီနေဒါ|America/Grenada</string>
+    <string name="C52">G=ဂွာတီမာလာမြို့|America/Guatemala</string>
+    <string name="C53">G=ဂိုင်ယာနာ|America/Guyana</string>
+    <string name="C54">H=ဟာလီဖက်စ်|America/Halifax</string>
+    <string name="C55">H=ဟာဗားနား|America/Havana</string>
+    <string name="C56">I=အင်ဒီယာနာပူးလစ်|America/Indiana/Indianapolis</string>
+    <string name="C57">K=နော့စ်|America/Indiana/Knox</string>
+    <string name="C58">M=မာရန်းဂိုး|America/Indiana/Marengo</string>
+    <string name="C59">P=ပီတာစဘတ်|America/Indiana/Petersburg</string>
+    <string name="C6">B=ဘရာဇာဗေးလ်|Africa/Brazzaville</string>
+    <string name="C60">T=တဲလ်မြို့တော်|America/Indiana/Tell_City</string>
+    <string name="C61">V=ဗီဗေး|America/Indiana/Vevay</string>
+    <string name="C62">V=ဗင်ဆန်းနက်စ်|America/Indiana/Vincennes</string>
+    <string name="C63">W=ဝင်းနမက်|America/Indiana/Winamac</string>
+    <string name="C64">K=ကင်းစတန်|America/Jamaica</string>
+    <string name="C65">N=နျူးစထရာစီနိုရာဒီလာပါ့ဇ်|America/La_Paz</string>
+    <string name="C66">L=လီမာ|America/Lima</string>
+    <string name="C67">L=လော့စ်အိန်ဂျလိစ်|America/Los_Angeles</string>
+    <string name="C68">L=လူးဝစ်ဗေးလ်|America/Louisville</string>
+    <string name="C69">M=မာနာဂွါ|America/Managua</string>
+    <string name="C7">C=ကိုင်ရို|Africa/Cairo</string>
+    <string name="C70">M=Mမာတီနစ်ခ်|America/Martinique</string>
+    <string name="C71">M=မန်ဒိုဇာ|America/Mendoza</string>
+    <string name="C72">M=မက်ထ်လာကက်ထ်လာ|America/Metlakatla</string>
+    <string name="C73">M=မက်ကစီကိုစီးတီး|America/Mexico_City</string>
+    <string name="C74">M=မွန်တာရေး|America/Monterrey</string>
+    <string name="C75">M=မွန်တီဗီဒီယို|America/Montevideo</string>
+    <string name="C76">M=မွန်ထရီယယ်လ်|America/Montreal</string>
+    <string name="C77">N=နာဆော|America/Nassau</string>
+    <string name="C78">N=နယူးရော့ခ်|America/New_York</string>
+    <string name="C79">B=ဗျူလာ|America/North_Dakota/Beulah</string>
+    <string name="C8">C=ကာဆာဘလန်ကာ|Africa/Casablanca</string>
+    <string name="C80">C=ဗဟို|America/North_Dakota/Center</string>
+    <string name="C81">N=နယူးဆလမ်|America/North_Dakota/New_Salem</string>
+    <string name="C82">P=ပနားမား|America/Panama</string>
+    <string name="C83">P=ဖီးနစ်|America/Phoenix</string>
+    <string name="C84">P=စပိန်၏ ဆိပ်ကမ်း|America/Port_of_Spain</string>
+    <string name="C85">P=ပေါ့ထ်အော့ပရင့်စ်|America/Port-au-Prince</string>
+    <string name="C86">P=ပူတိုရီကို|America/Puerto_Rico</string>
+    <string name="C87">S=ဆန်တိုဒိုမင်ဂို|America/Santo_Domingo</string>
+    <string name="C88">S=ဆာပိုလို|America/Sao_Paulo</string>
+    <string name="C89">S=စိန့်ဂျွန်|America/St_Johns</string>
+    <string name="C9">C=ကိုနာခရီ|Africa/Conakry</string>
+    <string name="C90">S=စိန့်ကစ်စ်|America/St_Kitts</string>
+    <string name="C91">S=စိန့်လူစီယာ|America/St_Lucia</string>
+    <string name="C92">S=စိန့်သောမတ်စ်|America/St_Thomas</string>
+    <string name="C93">T=တီဂျူအာနား|America/Tijuana</string>
+    <string name="C94">T=တိုရွန်တို|America/Toronto</string>
+    <string name="C95">V=ဗန်ကူးဗား|America/Vancouver</string>
+    <string name="C96">W=ဝင်းနီပက်|America/Winnipeg</string>
+    <string name="C97">S=တောင်ဝင်ရိုးစွန်း:|Antarctica/South_Pole</string>
+    <string name="C98">L=လောင်းန်ရီးယားဘျန်း|Arctic/Longyearbyen</string>
+    <string name="C99">A=အယ်လ်မာတီ|Asia/Almaty</string>
+    <string name="action_delete">ဖျက်မည်</string>
+    <string name="action_left_edit">တည်းဖြတ်ပါ</string>
+    <string name="add_remark">မှတ်စုများ ထည့်ခြင်း</string>
+    <string name="alarm_afternoon" />
+    <string name="alarm_alert_snooze_set">%d မိနစ်ကြာအောင် ခေတ္တမှေးခြင်း။</string>
+    <string name="alarm_classic">ပုံမှန်သတိပေးချက်</string>
+    <string name="alarm_flip_setting">လှန်သည့် ဆက်တင်</string>
+    <string name="alarm_is_set">%sအတွက် နှိုးစက် သတ်မှတ်ထားသည်</string>
+    <string name="alarm_is_snoozed">%s နှိုးစက်ကို 10 မိနစ်ကြာအောင် ခေတ္တပိတ်ထားသည်</string>
+    <string name="alarm_missed_title">လွတ်သွားသော နှိုးစက်</string>
+    <string name="alarm_morning" />
+    <string name="alarm_mute_ringing_switch">အသံတိတ် စနစ်တွင် အသံမြည်ပါ</string>
+    <string name="alarm_notif_title">လာမည့် နှိုးစက်</string>
+    <string name="alarm_reapt">ပြန်ကျော့မည်</string>
+    <string name="alarm_reminder_tv">မြည်ရန် %6 လို</string>
+    <string name="alarm_repeat">ပြန်ကျော့မည်</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">ယင်းကို ပိတ်လိုက်ပြီးနောက် နှိုးစက်ကို အပေါ်ဘက်သို့ ပွတ်ဆွဲခြင်းဖြင့်သာ ပိတ်နိုင်ပါသည်။</string>
+    <string name="alarm_setting_flip_close_alarm_title">နှိုးစက်ကို ရပ်ရန် အပေါ် သို့မဟုတ် အောက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="alarm_settings">နှိုးစက်များ</string>
+    <string name="alarm_shutdown_ringing_switch">ဖုန်းကို ပိတ်သည့်အခါ အသံမြည်ပါ</string>
+    <string name="alarm_time_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="alarm_time_activity">နှိုးစက် မြည်ပြီးပါပြီ</string>
+    <string name="alarm_time_after_now">%s နာရီ နောက်မှ</string>
+    <string name="alarm_time_before_now">%s နာရီ ကြို၍</string>
+    <string name="alarm_time_equal_now">တူညီသော အချိန်</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">တုန်ခါမှု ခလုတ်</string>
+    <string name="alarm_volume_title">နှိုးစက် အသံပမာဏ (တိုင်မာ)</string>
+    <string name="alarm_week">စိတ်ကြိုက်</string>
+    <string name="alert_dismiss_text">ဖယ်ရှားရန်</string>
+    <string name="alert_remind_later">ခေတ္တမှေးခြင်း</string>
+    <string name="app_label">နာရီ</string>
+    <string name="auto_silence_never">ဘယ်တော့မျှ</string>
+    <string name="auto_silence_summary">%d မိနစ်</string>
+    <string name="auto_silence_title">ပြီးနောက် အသံတိတ်</string>
+    <string name="automatic_home_clock">အလိုအလျောက် ပင်မနာရီ</string>
+    <string name="automatic_home_clock_summary">အချိန်မတူညီသည့် နေရာတွင် ခရီးသွားနေစဉ် အိမ်အတွက် နာရီတစ်ခု ထည့်ပါ</string>
+    <string name="cancel_dialog">ပယ်ဖျက်မည်</string>
+    <string name="check_draw_overlay_permission">နာရီ PopupWindow အတွက် ခွင့်ပြုချက်ကို စစ်ဆေးပါ</string>
+    <string name="cities_activity_title">မြို့တော်များ ထည့်ပါ</string>
+    <string name="city_count_over_limit">အသစ်တစ်ခု ထည့်ရန် မြို့တစ်ခုကို ဖယ်ရှားရမည်</string>
+    <string name="clock_24_hours_format">kk:mm</string>
+    <string name="clock_settings">နာရီ</string>
+    <string name="clock_style">ပုံစံ</string>
+    <string name="close_alarm_notif">ပိတ်ရန်</string>
+    <string name="cta_content_agree_go_on">သဘောတူသည်</string>
+    <string name="cta_content_exit">ထွက်ပါ</string>
+    <string name="custom_volume">စိတ်ကြိုက် အသံပမာဏ</string>
+    <string name="custom_volume_silence">ဖုန်းမြည်သံကို အသံပိတ်ထားသည်</string>
+    <string name="day">1 ရက်</string>
+    <string name="day_afternoon">ညနေ</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">နံနက်</string>
+    <string name="day_evening">ညနေ</string>
+    <string name="day_midnoon">ညနေ</string>
+    <string name="day_morning">နံနက်</string>
+    <string name="days">%s ရက်</string>
+    <string name="days_of_week_day" />
+    <string name="default_label">နှိုးစက်</string>
+    <string name="default_ring_title">နံနက်ခင်းသစ်</string>
+    <string name="delete_failed">ဖျက်ပစ်မှု မအောင်မြင်ခဲ့ပါ</string>
+    <string name="delete_successfully">ဖျက်ပစ်ပြီး</string>
+    <string name="delete_world_clock_confirm_tips">မြို့ %d မြို့ကို ဖျက်ပစ်မလား။</string>
+    <string name="delete_world_clock_confirm_tips_one">မြို့ကို ဖျက်ပစ်မလား။</string>
+    <string name="deselect">ရွေးချယ်မှုဖြုတ်ရန်</string>
+    <string name="display_once">ထပ်မံ မတုံ့ပြန်ပါနှင့်</string>
+    <string name="down_holidays_suscess">အားလပ်ရက် ဒေတာကို အောင်မြင်စွာ ဒေါင်းလုဒ်လုပ်ပြီးပါပြီ၊ ပြန်သတ်မှတ်ပေးပါ</string>
+    <string name="edit_alarm">နှိုးစက် တည်းဖြတ်ပါ</string>
+    <string name="edit_alarm_cancel">ပယ်ဖျက်မည်</string>
+    <string name="edit_alarm_delete_cancel">ပယ်ဖျက်မည်</string>
+    <string name="edit_alarm_delete_ok">ဖျက်မည်</string>
+    <string name="edit_alarm_done">ပြီးပြီ</string>
+    <string name="edit_alarm_give_up_dialog">ပြောင်းလဲမှုများကို ဖယ်ရှားမလား။</string>
+    <string name="edit_alarm_label_remind">အများဆုံး စာလုံးရေ 26 လုံး</string>
+    <string name="edit_alarm_last_ring_tv">ခေတ္တမှေးသည့် ကြာချိန်</string>
+    <string name="edit_alarm_no_label">လေဘယ်လ် မရှိပါ</string>
+    <string name="edit_alarm_remark">မှတ်စုများ</string>
+    <string name="edit_alarm_sleep_mode">ခဏမှေးရန်</string>
+    <string name="edit_alarm_title">နှိုးစက် ထည့်ပါ</string>
+    <string name="edit_alarm_vibe">ဖုန်းမြည်ချိန် တုန်ခါပါ</string>
+    <string name="edit_alarm_volume_mode">အသံအတိုးအကျယ်</string>
+    <string name="edit_alarm_weather">ဘဲလ်မြည်သည့်အခါ မိုးလေဝသ ကြေညာပါ</string>
+    <string name="edit_list_alarm_select">အိုင်တမ် ရွေးချယ်ပါ</string>
+    <string name="edit_list_alarm_selected_dialog">နှိုးစက်ကို ဖျက်မလား။</string>
+    <string name="edit_list_alarm_selected_number">%d ခု ရွေးချယ်ထားသည်</string>
+    <string name="edit_list_alarms_selected_dialog">နှိုးစက် %d ခုကို ဖျက်မလား။</string>
+    <string name="empty_list_msg">ရလဒ်များ မတွေ့ပါ</string>
+    <string name="end_snooze">ခေတ္တမှေးခြင်း ပြီးဆုံးပါပြီ</string>
+    <string name="every_day">နေ့စဉ်</string>
+    <string name="give_up_dialog">ဖယ်ရှားမည်</string>
+    <string name="holidays_info">အလုပ်ဖွင့်ရက်များ</string>
+    <string name="home_time_zone">အမြဲနေထိုင်ရာဒေသ စံတော်ချိန်</string>
+    <string name="home_time_zone_title">အမြဲနေထိုင်ရာဒေသ စံတော်ချိန်</string>
+    <string name="hour">1 နာရီ</string>
+    <string name="hours">%s နာရီ</string>
+    <string name="invalid_time">အချိန် မမှန်ကန်ပါ %1$d-%2$d %3$s</string>
+    <string name="label">အညွှန်း</string>
+    <string name="label_description">အညွှန်း</string>
+    <string name="local">ပြည်တွင်း</string>
+    <string name="lock_screen_weather_playing_text">မိုးလေဝသ မြည်သံ လာနေသည်</string>
+    <string name="menu_alarm">နှိုးစက်</string>
+    <string name="menu_clock">နာရီ</string>
+    <string name="menu_item_help">အကူအညီ</string>
+    <string name="menu_item_night_mode">ညသုံး စနစ်</string>
+    <string name="menu_item_settings">ဆက်တင်များ</string>
+    <string name="menu_item_sort_by_gmt_offset">အချိန်အလိုက် စီမည်</string>
+    <string name="menu_stopwatch">စံချိန်ယူနာရီ</string>
+    <string name="menu_timer">တိုင်မာ</string>
+    <string name="minute">“1 မိနစ်”</string>
+    <string name="minute_unit">မီတာ</string>
+    <string name="minutes">%s မိနစ်</string>
+    <string name="missed_alarm_has_been_deleted">လွတ်သွားသော နှိုးစက်ကို ဖျက်ထားပြီးပါပြီ</string>
+    <string name="net_connect_prompt_title">ခွင့်ပြုချက်ပေးရန် လှုံ့ဆော်မှု</string>
+    <string name="never">ဘယ်တော့မျှ</string>
+    <string name="next_alarm_description">နောက် နှိုးစက်တစ်ခု- %s</string>
+    <string name="no_alarms">နှိုးစက်များ မရှိပါ</string>
+    <string name="no_clock">ကမ္ဘာ့နာရီများ မရှိပါ</string>
+    <string name="no_firing_alarms">မည်သည့် နှိုးစက်မျှ မမြည်ပါ</string>
+    <string name="no_holiday_data_prompt">အလုပ်ဖွင့်ရက်များ(ပထမအကြိမ် Wifi နှင့် ချိတ်ဆက်ပါ)</string>
+    <string name="no_music">စက်ထဲတွင် သီချင်း မရှိပါ</string>
+    <string name="no_record">စက်ထဲတွင် အသံသွင်းဖိုင်များ မရှိပါ</string>
+    <string name="notification_channel_name">နာရီ အသိပေးချက်</string>
+    <string name="number_picker_hour">H</string>
+    <string name="number_picker_minute">မိနစ်</string>
+    <string name="number_picker_second">စက္ကန့်</string>
+    <string name="ok_dialog">အိုကေ</string>
+    <string name="once">တစ်ကြိမ်</string>
+    <string name="pick_from_music">သီချင်းထဲမှ ရွေးပါ</string>
+    <string name="pick_from_recorder">အသံဖမ်းစက်မှ ရွေးချယ်ပါ</string>
+    <string name="pick_from_ringtone">ဖုန်းမြည်သံမှ ရွေးချယ်ပါ</string>
+    <string name="poweroff_alarm">နှိုးစက်ကို ပါဝါပိတ်ပါ</string>
+    <string name="poweroff_alarm_close_tips">သတ်မှတ်ထားချိန်က 5 မိနစ်ကျော်လျှင် ဖုန်းကို ပိတ်ထားသည့်တိုင် နှိုးစက်များ မြည်ပါမည်။</string>
+    <string name="poweroff_alarm_open_tips">သတ်မှတ်ထားချိန်က 5 မိနစ်ကျော်လျှင် ဖုန်းကို ပိတ်ထားသည့်တိုင် နှိုးစက်များ မြည်ပါမည်။</string>
+    <string name="poweroff_prompt_dlg_close">ပိတ်သည်</string>
+    <string name="poweroff_prompt_dlg_msg">ဖုန်းကို ပိတ်ထားသည့်အခါ အသံမြည်ပါ။ သင်သည် လုပ်ဆောင်ချက်ကို နှိုးစက် ဆက်တင်များတွင် ပိတ်နိုင်သည်</string>
+    <string name="poweroff_prompt_dlg_ok">အိုကေ</string>
+    <string name="poweroff_prompt_dlg_title">ပါဝါပိတ်ရန် သတိပေးချက် ဖွင့်ထားသည်</string>
+    <string name="repeat_public_weekdays">အလုပ်ဖွင့်ရက်များ</string>
+    <string name="ring_chose">ဖုန်းမြည်သံ</string>
+    <string name="ringtone">ဖုန်းမြည်သံ</string>
+    <string name="search_hint">မြို့/နိုင်ငံ</string>
+    <string name="search_local_music">စက်ထဲတွင် သီချင်း ရှာပါ</string>
+    <string name="search_local_record">စက်ထဲရှိ အသံဖမ်းဖိုင်ကို ရှာပါ</string>
+    <string name="second_unit">စက္ကန့်</string>
+    <string name="select_all">အားလုံး ရွေးရန်</string>
+    <string name="settings">ဆက်တင်များ</string>
+    <string name="show_notif">လာမည့် နှိုးစက်များကို အသိပေးချက် စင်တာတွင် ပြသပါ</string>
+    <string name="show_notif_open_tips">နှိုးစက်များ အသံမမြည်မီ 2 နာရီအတွင်း နှိုးစက် မက်ဆေ့ချ်များကို အသိပေးချက် စင်တာတွင် ပြသပါမည်။</string>
+    <string name="silent_alarm">အသံတိတ်</string>
+    <string name="silent_alarm_summary">အသံတိတ်</string>
+    <string name="skip_alarm_next_time_normal">ကျော်လိုက်သော နှိုးစက်သည် နောက်တစ်ကြိမ် မြည်ပါမည်</string>
+    <string name="snooze_duration_title">ခေတ္တမှေးသည့် ကြာချိန်</string>
+    <string name="snooze_interval_later">နောက်မှ</string>
+    <string name="stopwatch_service_desc">အသိပေး အချက်ပြမှု လုပ်ဆောင်ရန် စံချိန်ယူနာရီ ဝန်ဆောင်မှု။</string>
+    <string name="sw_lap_button">တာတစ်ပတ်</string>
+    <string name="sw_notification_lap_number">တာ %dပတ်</string>
+    <string name="sw_pause_button">ခေတ္တရပ်ပါ</string>
+    <string name="sw_reset_button">ပြန်လည်သတ်မှတ်ပါ</string>
+    <string name="sw_resume_button">ပြန်ဆက်လုပ်ပါ</string>
+    <string name="sw_share_laps">တစ်ပတ် ပတ်ချိန်-</string>
+    <string name="sw_share_main">ကျွန်ုပ်၏ အချိန်မှာ %s ဖြစ်သည်</string>
+    <string name="sw_unit_digits">နာရီ မိနစ် စက္ကန့်</string>
+    <string name="swn_stopped">ရပ်သွားသည်</string>
+    <string name="sync_alarm_from_server_completed">Cloud ဝန်ဆောင်မှုသည် နာရီ ဒေတာကို အပ်ဒိတ်လုပ်ပြီးပါပြီ</string>
+    <string name="time_handle_text_degree_unit">မီတာ</string>
+    <string name="time_span_unit_hour">နာရီ</string>
+    <string name="time_span_unit_minute">မိနစ်</string>
+    <string name="time_span_unit_second">စက္ကန့်</string>
+    <string name="timer_am">နံနက်</string>
+    <string name="timer_close">ပိတ်ရန်</string>
+    <string name="timer_dialog_btn_cancel">ပယ်ဖျက်မည်</string>
+    <string name="timer_dialog_btn_start">စတင်ပါ</string>
+    <string name="timer_dialog_title">အချိန်သတ်မှတ်ပါ</string>
+    <string name="timer_fullscreen_prompt">ရပ်ရန် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="timer_fullscreen_summary_after">တိုင်မာ ပြီးသွားပါပြီ</string>
+    <string name="timer_missed_title">လွတ်သွားသော တိုင်မာ</string>
+    <string name="timer_notification_label">တိုင်မာ</string>
+    <string name="timer_picker_hour_unit">h</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">s</string>
+    <string name="timer_ring_dialog_title">မြည်သံ စနစ်</string>
+    <string name="timer_ring_service_desc">နာရီတွင် သတ်မှတ်ထားသော တိုင်မာများအတွက် အသံပြန်ဖွင့်သည့် ဝန်ဆောင်မှု။</string>
+    <string name="timer_stopped">တိုင်မာ ရပ်သွားသည်</string>
+    <string name="timing">အချိန်</string>
+    <string name="title_local_music">စက်တွင်း</string>
+    <string name="title_record">အသံဖမ်းရန်</string>
+    <string name="title_ringstone">ဖုန်းမြည်သံ</string>
+    <string name="touch_on_close">နှိုးစက်ရပ်ရန် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="touchupclose">နှိုးစက်ကို ရပ်ရန် အပေါ် သို့မဟုတ် အောက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="update_holiday_summary">အားလပ်ရက်ဒေတာများ အပ်ဒိတ်လုပ်နိုင်ကြောင်း ရှာဖွေတွေ့ရှိသည်</string>
+    <string name="update_holiday_title">သင့်အားလပ်ရက် ဒေတာကို အပ်ဒိတ်လုပ်ပါ</string>
+    <string name="volume_button_setting_title">အသံတိုးကျယ် ခလုတ်များ</string>
+    <string name="weather_key_rain">မိုး</string>
+    <string name="weekly" />
+    <string name="world_clock_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="world_time_today">ယနေ့</string>
+    <string name="world_time_tomorrow">မနက်ဖြန်</string>
+    <string name="world_time_yesterday">မနေ့က</string>
+</resources>

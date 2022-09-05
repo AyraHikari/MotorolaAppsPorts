@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="128.0dip" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="128.0dip" android:layout_height="128.0dip" android:paddingVertical="@dimen/plugin_margin_8">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_hourly" android:background="@drawable/plugin_bg_selectable_type_item" android:layout_width="128.0dip" android:layout_height="32.0dip" android:paddingHorizontal="@dimen/plugin_margin_16">
+            <ImageView android:id="@id/menu_button0" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_menu_check" android:layout_marginEnd="@dimen/plugin_margin_16" />
+            <TextView android:id="@id/menu_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_hour" style="@style/PopupMenuText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_daily" android:background="@drawable/plugin_bg_selectable_type_item" android:layout_width="128.0dip" android:layout_height="32.0dip" android:paddingHorizontal="@dimen/plugin_margin_16">
+            <ImageView android:id="@id/menu_button1" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_menu_check" android:layout_marginEnd="@dimen/plugin_margin_16" />
+            <TextView android:id="@id/menu_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_day" style="@style/PopupMenuText" />
+        </LinearLayout>
+        <View android:background="@color/plugin_menu_sep_h" android:layout_width="128.0dip" android:layout_height="1.0dip" android:layout_marginVertical="@dimen/plugin_margin_8" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_cities" android:background="@drawable/plugin_bg_selectable_item" android:layout_width="128.0dip" android:layout_height="32.0dip" android:paddingHorizontal="@dimen/plugin_margin_16">
+            <TextView android:id="@id/menu_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_cities" style="@style/PopupMenuText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

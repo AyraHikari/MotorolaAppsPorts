@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_prcalarm_back" />
+    <foreground>
+        <layer-list>
+            <item>
+                <rotate android:drawable="@drawable/ic_launcher_prcalarm_hour_front" android:fromDegrees="300.0" android:toDegrees="5330.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+            </item>
+            <item>
+                <rotate android:drawable="@drawable/ic_launcher_prcalarm_minute_front" android:fromDegrees="60.0" android:toDegrees="60060.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+            </item>
+            <item android:drawable="@mipmap/launcher_clock_top" />
+        </layer-list>
+    </foreground>
+</adaptive-icon>

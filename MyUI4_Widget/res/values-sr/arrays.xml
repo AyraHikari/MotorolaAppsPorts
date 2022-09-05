@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 сат</item>
+        <item>2 сата</item>
+        <item>3 сата</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Време и временска прогноза</item>
+        <item>Временска прогноза</item>
+        <item>Време</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Фаренхајт</item>
+        <item>Целзијус</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалска острва</item>
+        <item>Острво Мидвеј</item>
+        <item>Хаваји</item>
+        <item>Аљаска</item>
+        <item>Пацифичко стандардно време</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чивава</item>
+        <item>Планинско стандардно време</item>
+        <item>Централна Америка</item>
+        <item>Централно време</item>
+        <item>Мексико Сити</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Источно стандардно време</item>
+        <item>Венецуела</item>
+        <item>Атлантско време (Барбадос)</item>
+        <item>Атлантско време (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантјаго</item>
+        <item>Њуфаундленд</item>
+        <item>Бразилија</item>
+        <item>Буенос Ајрес</item>
+        <item>Гренланд</item>
+        <item>Монтевидео</item>
+        <item>Средњеатлантско време</item>
+        <item>Азорска острва</item>
+        <item>Зеленортска острва</item>
+        <item>Казабланка</item>
+        <item>Лондон, Даблин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Београд</item>
+        <item>Брисел</item>
+        <item>Сарајево</item>
+        <item>Виндхук</item>
+        <item>Западноафричко време</item>
+        <item>Аман, Јордан</item>
+        <item>Атина, Истанбул</item>
+        <item>Бејрут, Либан</item>
+        <item>Каиро</item>
+        <item>Хелсинки</item>
+        <item>Јерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувајт</item>
+        <item>Најроби</item>
+        <item>Техеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Јереван</item>
+        <item>Дубаи</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уралск</item>
+        <item>Јекатеринбург</item>
+        <item>Колката</item>
+        <item>Шри Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Јангон</item>
+        <item>Краснојарск</item>
+        <item>Бангкок</item>
+        <item>Пекинг</item>
+        <item>Хонгконг</item>
+        <item>Иркутск</item>
+        <item>Куала Лумпур</item>
+        <item>Перт</item>
+        <item>Тајпеј</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Јакутск</item>
+        <item>Аделејд</item>
+        <item>Дарвин</item>
+        <item>Брзибејн</item>
+        <item>Хобарт</item>
+        <item>Сиднеј, Канбера</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окланд</item>
+        <item>Фиџи</item>
+        <item>Тонга</item>
+        <item>Џакарта</item>
+    </string-array>
+</resources>

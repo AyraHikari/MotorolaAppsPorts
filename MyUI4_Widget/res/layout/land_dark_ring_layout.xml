@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/row2_widget_bg" android:layout_width="@dimen/widget_bg_size_land" android:layout_height="@dimen/widget_bg_size_land" android:src="@drawable/widget_bg_ring_dark" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/bat_progress_box" android:padding="@dimen/ring_progress_bar_padding_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/row2_widget_bg" android:layout_alignBottom="@id/row2_widget_bg" android:layout_alignStart="@id/row2_widget_bg" android:layout_alignEnd="@id/row2_widget_bg">
+        <ImageView android:id="@id/row2_battery_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <include android:id="@id/main_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/land_dark_ring_main_circle" />
+        <include android:id="@id/main_circle_turbo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/land_dark_ring_turbo_layout" />
+        <include android:id="@id/m_c_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/land_dark_ring_mc_layout" />
+    </RelativeLayout>
+</RelativeLayout>

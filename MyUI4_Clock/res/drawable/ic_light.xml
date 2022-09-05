@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M2.4618,6.1319L4.5831,8.2532L3.1689,9.6674L1.0476,7.5461L2.4618,6.1319ZM21.2421,6.0142L22.6563,7.4285L20.535,9.5498L19.1208,8.1356L21.2421,6.0142ZM13,3L13,7L11,7L11,3L13,3ZM12,17C10.8933,17 10,16.1067 10,15C10,13.8933 10.8933,13 12,13C13.1067,13 14,13.8933 14,15C14,16.1067 13.1067,17 12,17M12,9C7.9114,9 4.4143,11.4933 3,15C4.4143,18.5067 7.9114,21 12,21C16.0873,21 19.5857,18.5067 21,15C19.5857,11.4933 16.0873,9 12,9M12,11C14.8737,11 17.5411,12.5696 19,15C17.5411,17.432 14.8737,19 12,19C9.1263,19 6.4589,17.432 5,15C6.4589,12.5696 9.1263,11 12,11" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">7 劃=阿必尚|Africa/Abidjan| (科特迪瓦)</string>
+    <string name="C10">12 劃=達卡|Africa/Dakar| (塞內加爾)</string>
+    <string name="C100">6 劃=安曼|Asia/Amman| (約旦)</string>
+    <string name="C101">7 劃=阿納德爾|Asia/Anadyr| (俄羅斯)</string>
+    <string name="C102">7 劃=阿克陶|Asia/Aqtau| (哈薩克斯坦)</string>
+    <string name="C103">4 劃=巴格達|Asia/Baghdad| (伊拉克)</string>
+    <string name="C104">4 劃=巴林|Asia/Bahrain| (巴林)</string>
+    <string name="C105">4 劃=巴庫|Asia/Baku| (亞塞拜然)</string>
+    <string name="C106">11 劃=曼谷|Asia/Bangkok| (泰國)</string>
+    <string name="C107">7 劃=貝魯特|Asia/Beirut| (黎巴嫩)</string>
+    <string name="C108">5 劃=加爾各答|Asia/Calcutta| (印度)</string>
+    <string name="C109">3 劃=大馬士革|Asia/Damascus| (敘利亞)</string>
+    <string name="C11">12 劃=達萊撒蘭|Africa/Dar_es_Salaam| (坦尚尼亞)</string>
+    <string name="C110">12 劃=達卡|Asia/Dhaka| (孟加拉國)</string>
+    <string name="C111">7 劃=杜拜|Asia/Dubai| (阿拉伯聯合大公國)</string>
+    <string name="C112">5 劃=加薩|Asia/Gaza| (加薩走廊)</string>
+    <string name="C113">7 劃=希伯倫|Asia/Hebron| (巴勒斯坦)</string>
+    <string name="C114">9 劃=胡志明市|Asia/Ho_Chi_Minh| (越南)</string>
+    <string name="C115">9 劃=香港:|Asia/Hong_Kong| (中國)</string>
+    <string name="C117">12 劃=雅加達|Asia/Jakarta| (印度尼西亞)</string>
+    <string name="C118">9 劃=耶路撒冷|Asia/Jerusalem| (耶路撒冷)</string>
+    <string name="C119">12 劃=喀布爾|Asia/Kabul| (阿富汗)</string>
+    <string name="C12">6 劃=吉布地|Africa/Djibouti| (吉布地)</string>
+    <string name="C120">12 劃=喀拉蚩|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C121">5 劃=加德滿都|Asia/Kathmandu| (尼泊爾)</string>
+    <string name="C122">6 劃=吉隆坡|Asia/Kuala_Lumpur| (馬來西亞)</string>
+    <string name="C123">9 劃=科威特|Asia/Kuwait| (科威特)</string>
+    <string name="C124">16 劃=澳門|Asia/Macau| (中國)</string>
+    <string name="C125">10 劃=馬尼拉|Asia/Manila| (菲律賓)</string>
+    <string name="C126">10 劃=馬斯喀特|Asia/Muscat| (阿曼)</string>
+    <string name="C127">8 劃=金邊|Asia/Phnom_Penh| (柬埔寨)</string>
+    <string name="C128">5 劃=平壤:|Asia/Pyongyang| (朝鮮)</string>
+    <string name="C13">6 劃=自由城|Africa/Freetown| (塞拉利昂)</string>
+    <string name="C130">6 劃=仰光|Asia/Rangoon| (緬甸)</string>
+    <string name="C131">7 劃=利雅得|Asia/Riyadh| (沙特阿拉伯)</string>
+    <string name="C133">9 劃=首爾|Asia/Seoul| (韓國)</string>
+    <string name="C134">3 劃=上海:|Asia/Shanghai| (中國)</string>
+    <string name="C135">13 劃=新加坡|Asia/Singapore| (新加坡)</string>
+    <string name="C136">5 劃=台北:|Asia/Taipei| (中國)</string>
+    <string name="C137">15 劃=德黑蘭|Asia/Tehran| (伊朗)</string>
+    <string name="C138">10 劃=特拉維夫|Asia/Tel_Aviv| (以色列)</string>
+    <string name="C139">8 劃=東京:|Asia/Tokyo| (日本)</string>
+    <string name="C14">14 劃=嘉柏隆里|Africa/Gaborone| (博茨瓦納)</string>
+    <string name="C140">10 劃=庫倫|Asia/Ulaanbaatar| (蒙古國)</string>
+    <string name="C141">6 劃=百慕達|Atlantic/Bermuda| (百慕達)</string>
+    <string name="C142">5 劃=加納利|Atlantic/Canary| (西班牙)</string>
+    <string name="C143">14 劃=維德角|Atlantic/Cape_Verde| (維德角共和國)</string>
+    <string name="C144">13 劃=雷克雅未克|Atlantic/Reykjavik| (冰島)</string>
+    <string name="C145">5 劃=史坦萊|Atlantic/Stanley| (福克蘭群島)</string>
+    <string name="C146">7 劃=阿得雷德|Australia/Adelaide| (澳大利亞)</string>
+    <string name="C147">5 劃=布里斯本|Australia/Brisbane| (澳大利亞)</string>
+    <string name="C148">7 劃=坎培拉|Australia/Canberra| (澳大利亞)</string>
+    <string name="C149">12 劃=達爾文|Australia/Darwin| (澳大利亞)</string>
+    <string name="C15">9 劃=哈拉雷|Africa/Harare| (辛巴威)</string>
+    <string name="C150">15 劃=墨爾本|Australia/Melbourne| (澳大利亞)</string>
+    <string name="C151">13 劃=新南威爾斯|Australia/NSW| (澳大利亞)</string>
+    <string name="C152">7 劃=伯斯|Australia/Perth| (澳大利亞)</string>
+    <string name="C153">8 劃=昆士蘭|Australia/Queensland| (澳大利亞)</string>
+    <string name="C154">11 劃=雪梨|Australia/Sydney| (澳大利亞)</string>
+    <string name="C155">14 劃=維多利亞|Australia/Victoria| (澳大利亞)</string>
+    <string name="C156">10 劃=紐芬蘭|Canada/Newfoundland| (加拿大)</string>
+    <string name="C157">18 劃=薩克其萬|Canada/Saskatchewan| (加拿大)</string>
+    <string name="C158">12 劃=復活節島|Chile/EasterIsland| (荷蘭)</string>
+    <string name="C159">7 劃=阿姆斯特丹|Europe/Amsterdam| (荷蘭)</string>
+    <string name="C16">9 劃=約翰尼斯堡|Africa/Johannesburg| (南非)</string>
+    <string name="C160">6 劃=安道爾|Europe/Andorra| (安道爾)</string>
+    <string name="C161">12 劃=雅典|Europe/Athens| (希臘)</string>
+    <string name="C162">7 劃=貝爾法斯特|Europe/Belfast| (北愛爾蘭)</string>
+    <string name="C163">7 劃=貝爾格勒|Europe/Belgrade| (塞爾維亞)</string>
+    <string name="C164">9 劃=柏林|Europe/Berlin| (德國)</string>
+    <string name="C165">5 劃=布拉提斯拉瓦|Europe/Bratislava| (斯洛伐克)</string>
+    <string name="C166">5 劃=布魯塞爾|Europe/Brussels| (比利時)</string>
+    <string name="C167">5 劃=布加勒斯特|Europe/Bucharest| (羅馬尼亞)</string>
+    <string name="C168">5 劃=布達佩斯|Europe/Budapest| (匈牙利)</string>
+    <string name="C169">11 劃=基希訥烏|Europe/Chisinau| (摩爾多瓦)</string>
+    <string name="C17">7 劃=坎帕拉|Africa/Kampala| (烏干達)</string>
+    <string name="C170">10 劃=哥本哈根|Europe/Copenhagen| (丹麥)</string>
+    <string name="C171">9 劃=都柏林|Europe/Dublin| (愛爾蘭)</string>
+    <string name="C172">8 劃=直布羅陀|Europe/Gibraltar| (直布羅陀)</string>
+    <string name="C173">14 劃=赫爾辛基|Europe/Helsinki| (芬蘭)</string>
+    <string name="C174">11 劃=曼島|Europe/Isle_of_Man| (英國)</string>
+    <string name="C175">6 劃=伊斯坦堡|Europe/Istanbul| (土耳其)</string>
+    <string name="C176">11 劃=基輔|Europe/Kiev| (烏克蘭)</string>
+    <string name="C177">7 劃=里斯本|Europe/Lisbon| (葡萄牙)</string>
+    <string name="C178">10 劃=倫敦|Europe/London| (英國)</string>
+    <string name="C179">16 劃=盧森堡|Europe/Luxembourg| (盧森堡)</string>
+    <string name="C18">12 劃=喀土穆|Africa/Khartoum| (蘇丹)</string>
+    <string name="C180">10 劃=馬德里|Europe/Madrid| (西班牙)</string>
+    <string name="C181">10 劃=馬爾他|Europe/Malta| (馬爾他共和國)</string>
+    <string name="C182">8 劃=明斯克|Europe/Minsk| (白俄羅斯)</string>
+    <string name="C183">15 劃=摩納哥|Europe/Monaco| (摩納哥)</string>
+    <string name="C184">11 劃=莫斯科|Europe/Moscow| (俄羅斯)</string>
+    <string name="C185">13 劃=奧斯陸|Europe/Oslo| (挪威)</string>
+    <string name="C186">4 劃=巴黎|Europe/Paris| (法國)</string>
+    <string name="C187">5 劃=布拉格|Europe/Prague| (捷克共和國)</string>
+    <string name="C188">7 劃=里加|Europe/Riga| (拉脫維亞)</string>
+    <string name="C189">19 劃=羅馬|Europe/Rome| (義大利)</string>
+    <string name="C19">11 劃=基加利|Africa/Kigali| (盧安達)</string>
+    <string name="C190">13 劃=聖馬利諾|Europe/San_Marino| (聖馬利諾共和國)</string>
+    <string name="C191">13 劃=塞拉耶佛|Europe/Sarajevo| (波斯尼亞和黑塞哥維那)</string>
+    <string name="C192">7 劃=辛非洛浦|Europe/Simferopol| (烏克蘭)</string>
+    <string name="C193">5 劃=史高比耶|Europe/Skopje| (北馬其頓共和國)</string>
+    <string name="C194">10 劃=索非亞|Europe/Sofia| (保加利亞)</string>
+    <string name="C195">12 劃=斯德哥爾摩|Europe/Stockholm| (瑞典)</string>
+    <string name="C196">13 劃=塔林|Europe/Tallinn| (愛沙尼亞)</string>
+    <string name="C197">11 劃=梵帝崗|Europe/Vatican| (梵蒂岡)</string>
+    <string name="C198">14 劃=維也納|Europe/Vienna| (奧地利)</string>
+    <string name="C199">14 劃=維爾紐斯|Europe/Vilnius| (立陶宛)</string>
+    <string name="C2">7 劃=阿克拉|Africa/Accra| (迦納)</string>
+    <string name="C20">8 劃=金夏沙|Africa/Kinshasa| (剛果民主共和國)</string>
+    <string name="C200">12 劃=華沙|Europe/Warsaw| (波蘭)</string>
+    <string name="C201">18 劃=薩格勒布|Europe/Zagreb| (克羅地亞)</string>
+    <string name="C202">20 劃=蘇黎世|Europe/Zurich| (瑞士)</string>
+    <string name="C203">6 劃=安塔那那利佛|Indian/Antananarivo| (馬達加斯加)</string>
+    <string name="C204">10 劃=馬爾地夫|Indian/Maldives| (馬爾代夫)</string>
+    <string name="C205">15 劃=模里西斯|Indian/Mauritius| (模里西斯)</string>
+    <string name="C206">13 劃=奧克蘭|Pacific/Auckland| (紐西蘭)</string>
+    <string name="C207">12 劃=斐濟|Pacific/Fiji| (斐濟)</string>
+    <string name="C208">19 劃=關島|Pacific/Guam| (關島)</string>
+    <string name="C209">17 劃=檀香山|Pacific/Honolulu| (美國)</string>
+    <string name="C21">8 劃=拉哥斯|Africa/Lagos| (奈及利亞)</string>
+    <string name="C210">8 劃=刻里提馬提|Pacific/Kiritimati| (吉里巴斯)</string>
+    <string name="C211">16 劃=諾米亞|Pacific/Noumea| (新喀里多尼亞)</string>
+    <string name="C214">6 劃=安提瓜|America/Antigua| (安地卡及巴布達)</string>
+    <string name="C215">13 劃=奧斯汀|America/Chicago| (美國)</string>
+    <string name="C216">8 劃=波士頓|America/New_York| (美國)</string>
+    <string name="C217">5 劃=卡加利|America/Denver| (美國)</string>
+    <string name="C218">10 劃=哥倫布|America/New_York| (美國)</string>
+    <string name="C219">12 劃=達拉斯|America/Chicago| (美國)</string>
+    <string name="C22">10 劃=馬塞魯|Africa/Maseru| (賴索托)</string>
+    <string name="C220">16 劃=諾克斯維爾|America/New_York| (美國)</string>
+    <string name="C221">11 劃=曼非斯|America/Chicago| (美國)</string>
+    <string name="C222">16 劃=邁阿密|America/New_York| (美國)</string>
+    <string name="C223">8 劃=明尼亞波利斯|America/Chicago| (美國)</string>
+    <string name="C224">12 劃=渥太華|America/New_York| (加拿大)</string>
+    <string name="C225">12 劃=費城|America/New_York| (美國)</string>
+    <string name="C226">8 劃=波特蘭|America/Los_Angeles| (美國)</string>
+    <string name="C227">13 劃=聖地牙哥|America/Los_Angeles| (美國)</string>
+    <string name="C228">18 劃=舊金山|America/Los_Angeles| (美國)</string>
+    <string name="C229">24 劃=鹽湖城|America/Denver| (美國)</string>
+    <string name="C23">15 劃=摩加迪休|Africa/Mogadishu| (索馬利亞)</string>
+    <string name="C230">13 劃=聖荷西|America/Los_Angeles| (美國)</string>
+    <string name="C231">13 劃=聖薩爾瓦多|America/Guatemala| (美國)</string>
+    <string name="C232">6 劃=西雅圖|America/Los_Angeles| (美國)</string>
+    <string name="C233">13 劃=聖路易斯|America/Chicago| (美國)</string>
+    <string name="C234">12 劃=華盛頓特區|America/New_York| (美國)</string>
+    <string name="C235">6 劃=休士頓|America/Chicago| (美國)</string>
+    <string name="C236">13 劃=聖安東尼奧|America/Chicago| (美國)</string>
+    <string name="C237">12 劃=傑克遜維爾|America/New_York| (美國)</string>
+    <string name="C238">4 劃=巴爾的摩|America/New_York| (美國)</string>
+    <string name="C239">10 劃=納許維爾|America/Chicago| (美國)</string>
+    <string name="C24">8 劃=奈洛比|Africa/Nairobi| (肯尼亞)</string>
+    <string name="C240">11 劃=密爾瓦基|America/Chicago| (美國)</string>
+    <string name="C241">9 劃=俄克拉荷馬市|America/Chicago| (美國)</string>
+    <string name="C242">8 劃=拉斯維加斯|America/Los_Angeles| (美國)</string>
+    <string name="C243">7 劃=阿布奎基|America/Denver| (美國)</string>
+    <string name="C244">3 劃=土桑市|MST| (美國)</string>
+    <string name="C245">7 劃=沙加緬度|America/Los_Angeles| (美國)</string>
+    <string name="C246">8 劃=亞特蘭大|America/New_York| (美國)</string>
+    <string name="C247">7 劃=克里夫蘭|America/New_York| (美國)</string>
+    <string name="C248">10 劃=紐奧良|America/Chicago| (美國)</string>
+    <string name="C249">8 劃=坦帕|America/New_York| (美國)</string>
+    <string name="C25">13 劃=聖多美|Africa/Sao_Tome| (聖多美普林西比)</string>
+    <string name="C250">4 劃=匹茲堡|America/New_York| (美國)</string>
+    <string name="C251">7 劃=辛辛那提|America/New_York| (美國)</string>
+    <string name="C252">3 劃=山景市|America/Los_Angeles| (美國)</string>
+    <string name="C253">13 劃=雷諾|America/Los_Angeles| (美國)</string>
+    <string name="C254">12 劃=黑岩市|America/Los_Angeles| (美國)</string>
+    <string name="C255">6 劃=多哈|Asia/Riyadh| (卡塔爾)</string>
+    <string name="C256">5 劃=北京:|Asia/Shanghai| (中國)</string>
+    <string name="C257">8 劃=孟買|Asia/Kolkata| (印度)</string>
+    <string name="C258">15 劃=德里|Asia/Kolkata| (印度)</string>
+    <string name="C259">3 劃=大阪:|Asia/Tokyo| (日本)</string>
+    <string name="C26">7 劃=廷巴克圖|Africa/Timbuktu| (馬里)</string>
+    <string name="C260">8 劃=拉合爾|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C261">18 劃=薩那|Asia/Riyadh| (也門)</string>
+    <string name="C262">4 劃=巴塞隆納|Europe/Madrid| (西班牙)</string>
+    <string name="C263">15 劃=慕尼黑|Europe/Berlin| (德國)</string>
+    <string name="C264">6 劃=米蘭|Europe/Rome| (義大利)</string>
+    <string name="C265">8 劃=法蘭克福|Europe/Berlin| (德國)</string>
+    <string name="C266">8 劃=河內|Asia/Bangkok| (越南)</string>
+    <string name="C267">6 劃=安卡拉|Europe/Istanbul| (土耳其)</string>
+    <string name="C268">6 劃=班加羅爾|Asia/Kolkata| (印度)</string>
+    <string name="C269">4 劃=巴西利亞|America/Sao_Paulo| (巴西)</string>
+    <string name="C27">8 劃=的黎波里|Africa/Tripoli| (利比亞)</string>
+    <string name="C270">12 劃=開普敦|Africa/Johannesburg| (南非)</string>
+    <string name="C271">6 劃=伊斯蘭瑪巴德|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C272">7 劃=里約熱內盧|America/Sao_Paulo| (巴西)</string>
+    <string name="C273">6 劃=安娜堡|America/Detroit| (美國)</string>
+    <string name="C274">12 劃=博爾德|America/Denver| (美國)</string>
+    <string name="C275">15 劃=劍橋|America/New_York| (美國)</string>
+    <string name="C276">9 劃=科克蘭|America/Los_Angeles| (美國)</string>
+    <string name="C277">11 劃=麥迪遜|America/Chicago| (美國)</string>
+    <string name="C278">15 劃=廣州:|Asia/Shanghai| (中國)</string>
+    <string name="C279">10 劃=海得拉巴|Asia/Kolkata| (印度)</string>
+    <string name="C28">9 劃=突尼斯|Africa/Tunis| (突尼西亞共和國)</string>
+    <string name="C280">13 劃=雷斯頓|America/New_York| (美國)</string>
+    <string name="C281">9 劃=美景市|America/Sao_Paulo| (巴西)</string>
+    <string name="C282">13 劃=聖地牙哥|America/Santiago| (智利)</string>
+    <string name="C283">14 劃=蒙羅維亞|Africa/Monrovia| (利比里亞)</string>
+    <string name="C284">5 劃=可倫坡|Asia/Colombo| (斯里蘭卡)</string>
+    <string name="C285">8 劃=奇瓦瓦|America/Chihuahua| (墨西哥)</string>
+    <string name="C286">18 劃=薩爾瓦多|America/Sao_Paulo| (巴西)</string>
+    <string name="C287">5 劃=古爾岡|Asia/Kolkata| (印度)</string>
+    <string name="C288">11 劃=曼徹斯特|Europe/London| (英國)</string>
+    <string name="C29">6 劃=安克拉治|America/Anchorage| (美國)</string>
+    <string name="C290">13 劃=聖彼得堡|Europe/Moscow| (俄羅斯)</string>
+    <string name="C291">7 劃=克拉科夫|Europe/Warsaw| (波蘭)</string>
+    <string name="C292">5 劃=弗羅茨瓦夫|Europe/Warsaw| (波蘭)</string>
+    <string name="C293">14 劃=漢堡|Europe/Berlin| (德國)</string>
+    <string name="C294">13 劃=奧盧|Europe/Bucharest| (芬蘭)</string>
+    <string name="C295">10 劃=海法|Asia/Jerusalem| (以色列)</string>
+    <string name="C296">13 劃=聖胡安|America/Puerto_Rico| (阿根廷)</string>
+    <string name="C297">15 劃=德古斯加巴|America/Tegucigalpa| (洪都拉斯)</string>
+    <string name="C298">4 劃=巴拉馬利波|America/Paramaribo| (蘇利南)</string>
+    <string name="C299">11 劃=基多|America/Panama| (厄瓜多)</string>
+    <string name="C3">7 劃=阿迪斯阿貝巴|Africa/Addis_Ababa| (衣索比亞)</string>
+    <string name="C300">16 劃=盧比安納|Europe/Ljubljana| (斯洛維尼亞)</string>
+    <string name="C301">8 劃=阿什哈巴德|Asia/Ashgabat| (土库曼斯坦)</string>
+    <string name="C302">8 劃=阿斯瑪拉|Africa/Asmara| (厄立特里亞)</string>
+    <string name="C303">12 劃=斯里巴卡旺市|Asia/Brunei| (汶萊)</string>
+    <string name="C304">10 劃=班基|Africa/Bangui| (中非共和國)</string>
+    <string name="C305">10 劃=班竹|Africa/Banjul| (甘比亞)</string>
+    <string name="C306">4 劃=比斯凱克|Asia/Bishkek| (吉爾吉斯共和國)</string>
+    <string name="C307">4 劃=比索|Africa/Bissau| (幾內亞比索共和國)</string>
+    <string name="C308">5 劃=布松布拉|Africa/Bujumbura| (蒲隆地共和國)</string>
+    <string name="C309">9 劃=帝利|Asia/Dili| (東帝汶)</string>
+    <string name="C31">7 劃=阿魯巴|America/Aruba| (阿魯巴)</string>
+    <string name="C310">7 劃=杜尚貝|Asia/Dushanbe| (塔吉克)</string>
+    <string name="C311">12 劃=富納富提|Pacific/Funafuti| (圖瓦盧)</string>
+    <string name="C312">11 劃=荷尼阿拉|Pacific/Guadalcanal| (索羅門群島)</string>
+    <string name="C313">6 劃=朱巴|Africa/Juba| (南蘇丹共和國)</string>
+    <string name="C314">8 劃=金石城|America/St_Vincent| (牙買加)</string>
+    <string name="C315">6 劃=自由市|Africa/Libreville| (加彭)</string>
+    <string name="C316">9 劃=洛梅|Africa/Lome| (多哥共和國)</string>
+    <string name="C317">15 劃=魯安達|Africa/Luanda| (安哥拉)</string>
+    <string name="C318">13 劃=路沙卡|Africa/Lusaka| (尚比亞)</string>
+    <string name="C319">10 劃=馬久羅|Pacific/Majuro| (馬紹爾群島共和國)</string>
+    <string name="C32">8 劃=亞松森|America/Asuncion| (巴拉圭)</string>
+    <string name="C320">10 劃=馬拉博|Africa/Malabo| (赤道幾內亞)</string>
+    <string name="C321">10 劃=馬布多|Africa/Maputo| (斯威士蘭)</string>
+    <string name="C322">15 劃=墨巴本|Africa/Mbabane| (莫三比克)</string>
+    <string name="C323">11 劃=莫洛尼|Indian/Comoro| (葛摩)</string>
+    <string name="C324">10 劃=恩加美納|Africa/Ndjamena| (查德)</string>
+    <string name="C325">10 劃=恩吉魯穆德|Pacific/Palau| (帛琉)</string>
+    <string name="C326">5 劃=尼阿美|Africa/Niamey| (尼日共和國)</string>
+    <string name="C327">5 劃=尼柯西亞|Europe/Nicosia| (賽普勒斯)</string>
+    <string name="C328">16 劃=諾克少|Africa/Nouakchott| (毛里塔尼亞)</string>
+    <string name="C329">7 劃=努瓜婁發|Pacific/Tongatapu| (東加)</string>
+    <string name="C33">4 劃=巴貝多|America/Barbados| (巴貝多)</string>
+    <string name="C330">5 劃=瓦加杜古|Africa/Ouagadougou| (布吉納法索)</string>
+    <string name="C331">8 劃=帕里克爾|Pacific/Noumea| (密克罗尼西亚)</string>
+    <string name="C332">12 劃=菲利普斯堡|America/Lower_Princes| (荷屬聖馬丁)</string>
+    <string name="C333">8 劃=波德戈里察|Europe/Podgorica| (蒙特內哥羅)</string>
+    <string name="C334">11 劃=莫士比港|Pacific/Palau| (巴布亚新几内亚)</string>
+    <string name="C335">14 劃=維拉港|Pacific/Efate| (萬那杜共和國)</string>
+    <string name="C336">13 劃=新港|Africa/Porto-Novo| (貝南共和國)</string>
+    <string name="C337">12 劃=普里斯提納|Europe/Belgrade| (塞爾維亞)</string>
+    <string name="C338">19 劃=羅梭|America/Dominica| (毛里塔尼亞)</string>
+    <string name="C339">13 劃=塔什干|Asia/Tashkent| (烏茲別克)</string>
+    <string name="C34">7 劃=貝里斯|America/Belize| (貝里斯)</string>
+    <string name="C340">12 劃=提比里斯|Asia/Tbilisi| (喬治亞)</string>
+    <string name="C341">7 劃=辛布|Asia/Thimphu| (不丹)</string>
+    <string name="C342">6 劃=地拉那|Europe/Tirane| (阿爾巴尼亞)</string>
+    <string name="C343">5 劃=瓦都茲|Europe/Vaduz| (列支敦斯登)</string>
+    <string name="C344">5 劃=永珍|Asia/Vientiane| (寮國)</string>
+    <string name="C345">13 劃=溫荷克|Africa/Windhoek| (納米比亞)</string>
+    <string name="C346">12 劃=雅溫德|Africa/Douala| (喀麥隆)</string>
+    <string name="C347">8 劃=亞連區|Pacific/Nauru| (諾魯)</string>
+    <string name="C348">13 劃=葉里溫|Asia/Yerevan| (亞美尼亞共和國)</string>
+    <string name="C35">8 劃=波哥大|America/Bogota| (哥倫比亞)</string>
+    <string name="C36">5 劃=布宜諾斯艾利斯|America/Buenos_Aires| (阿根廷)</string>
+    <string name="C37">7 劃=坎昆|America/Cancun| (墨西哥)</string>
+    <string name="C38">5 劃=卡拉卡斯|America/Caracas| (委內瑞拉)</string>
+    <string name="C39">12 劃=開曼|America/Cayman| (開曼群島)</string>
+    <string name="C4">7 劃=阿爾及爾|Africa/Algiers| (阿爾及利亞)</string>
+    <string name="C40">10 劃=芝加哥|America/Chicago| (美國)</string>
+    <string name="C42">10 劃=庫拉索|America/Curacao| (庫拉索)</string>
+    <string name="C43">16 劃=道森克里克|America/Dawson_Creek| (加拿大)</string>
+    <string name="C44">4 劃=丹佛|America/Denver| (美國)</string>
+    <string name="C45">8 劃=底特律|America/Detroit| (美國)</string>
+    <string name="C46">6 劃=多米尼克|America/Dominica| (多米尼加)</string>
+    <string name="C47">13 劃=愛德蒙頓|America/Edmonton| (加拿大)</string>
+    <string name="C48">20 劃=薩爾瓦多|America/El_Salvador| (薩爾瓦多)</string>
+    <string name="C49">14 劃=福塔力沙|America/Fortaleza| (巴西)</string>
+    <string name="C5">5 劃=布藍泰爾|Africa/Blantyre| (馬拉威)</string>
+    <string name="C50">3 劃=大特克|America/Grand_Turk| (土克斯及開科斯群島)</string>
+    <string name="C51">10 劃=格瑞那達|America/Grenada| (格林納達)</string>
+    <string name="C52">5 劃=瓜地馬拉市|America/Guatemala| (瓜地馬拉)</string>
+    <string name="C53">16 劃=蓋亞那|America/Guyana| (蓋亞那)</string>
+    <string name="C54">9 劃=哈利法克斯|America/Halifax| (加拿大)</string>
+    <string name="C55">9 劃=哈瓦那|America/Havana| (古巴)</string>
+    <string name="C56">6 劃=印第安納波利斯|America/Indiana/Indianapolis| (美國)</string>
+    <string name="C57">16 劃=諾克斯|America/Indiana/Knox| (美國)</string>
+    <string name="C58">10 劃=馬倫戈|America/Indiana/Marengo| (美國)</string>
+    <string name="C59">13 劃=聖彼得堡|America/Indiana/Petersburg| (美國)</string>
+    <string name="C6">5 劃=布拉薩市|Africa/Brazzaville| (剛果共和國)</string>
+    <string name="C60">10 劃=泰爾市|America/Indiana/Tell_City| (美國)</string>
+    <string name="C61">12 劃=斐威|America/Indiana/Vevay| (美國)</string>
+    <string name="C62">13 劃=萬塞訥|America/Indiana/Vincennes| (美國)</string>
+    <string name="C63">9 劃=威納麥克|America/Indiana/Winamac| (美國)</string>
+    <string name="C64">8 劃=金斯頓|America/Jamaica| (牙買加)</string>
+    <string name="C65">8 劃=拉巴斯|America/La_Paz| (玻利維亞)</string>
+    <string name="C66">7 劃=利馬|America/Lima| (秘魯)</string>
+    <string name="C67">9 劃=洛杉磯|America/Los_Angeles| (美國)</string>
+    <string name="C68">13 劃=路易斯維爾|America/Louisville| (美國)</string>
+    <string name="C69">10 劃=馬拿瓜|America/Managua| (尼加拉瓜)</string>
+    <string name="C7">12 劃=開羅|Africa/Cairo| (埃及)</string>
+    <string name="C70">10 劃=馬丁尼克島|America/Martinique| (馬丁尼克)</string>
+    <string name="C71">8 劃=門多薩|America/Mendoza| (阿根廷)</string>
+    <string name="C72">11 劃=梅特拉卡特拉|America/Metlakatla| (美國)</string>
+    <string name="C73">15 劃=墨西哥市|America/Mexico_City| (墨西哥)</string>
+    <string name="C74">14 劃=蒙特雷|America/Monterrey| (墨西哥)</string>
+    <string name="C75">14 劃=蒙特維多|America/Montevideo| (烏拉圭)</string>
+    <string name="C76">14 劃=蒙特婁|America/Montreal| (加拿大)</string>
+    <string name="C77">10 劃=拿索|America/Nassau| (巴哈馬)</string>
+    <string name="C78">10 劃=紐約|America/New_York| (美國)</string>
+    <string name="C79">4 劃=比尤萊|America/North_Dakota/Beulah| (美國)</string>
+    <string name="C8">5 劃=卡薩布蘭加|Africa/Casablanca| (摩洛哥)</string>
+    <string name="C80">4 劃=中央市|America/North_Dakota/Center| (美國)</string>
+    <string name="C81">13 劃=新塞勒姆|America/North_Dakota/New_Salem| (美國)</string>
+    <string name="C82">4 劃=巴拿馬|America/Panama| (巴拿馬)</string>
+    <string name="C83">14 劃=鳳凰城|America/Phoenix| (美國)</string>
+    <string name="C84">6 劃=西班牙港|America/Port_of_Spain| (千里達和托巴哥)</string>
+    <string name="C85">4 劃=太子港|America/Port-au-Prince| (海地)</string>
+    <string name="C86">8 劃=波多黎各|America/Puerto_Rico| (美國)</string>
+    <string name="C87">13 劃=聖多明哥|America/Santo_Domingo| (多米尼加)</string>
+    <string name="C88">13 劃=聖保羅|America/Sao_Paulo| (美國)</string>
+    <string name="C89">13 劃=聖約翰|America/St_Johns| (加拿大)</string>
+    <string name="C9">9 劃=柯那克里|Africa/Conakry| (幾內亞)</string>
+    <string name="C90">13 劃=聖克里斯多福|America/St_Kitts| (聖基茨島)</string>
+    <string name="C91">13 劃=聖露西亞|America/St_Lucia| (聖露西亞)</string>
+    <string name="C92">13 劃=聖湯瑪斯|America/St_Thomas| (美屬維京群島)</string>
+    <string name="C93">12 劃=提華納|America/Tijuana| (墨西哥)</string>
+    <string name="C94">6 劃=多倫多|America/Toronto| (加拿大)</string>
+    <string name="C95">13 劃=溫哥華|America/Vancouver| (加拿大)</string>
+    <string name="C96">13 劃=溫尼伯|America/Winnipeg| (加拿大)</string>
+    <string name="C97">9 劃=南極:|Antarctica/South_Pole| (南極)</string>
+    <string name="C98">11 劃=隆意耳拜恩|Arctic/Longyearbyen| (挪威)</string>
+    <string name="C99">7 劃=阿爾馬提|Asia/Almaty| (哈薩克斯坦)</string>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="accept_permission_desc">已清楚了解本軟體權限使用聲明</string>
+    <string name="accept_privacy_permission_desc">已清楚了解本軟體所有隱私權使用政策</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_left_edit">編輯</string>
+    <string name="add_remark">新增備註</string>
+    <string name="agree_and_continue">同意並繼續</string>
+    <string name="alarm_afternoon">中午 12 :</string>
+    <string name="alarm_alert_snooze_set">" %d 分鐘後再響"</string>
+    <string name="alarm_classic">經典鈴聲</string>
+    <string name="alarm_flip_setting">翻轉設定</string>
+    <string name="alarm_is_set">已設定鬧鐘時間：%s</string>
+    <string name="alarm_is_snoozed">%s 的鬧鐘已延後 10 分鐘</string>
+    <string name="alarm_missed_title">錯過的鬧鐘</string>
+    <string name="alarm_morning">凌晨 12 :</string>
+    <string name="alarm_mute_ringing_switch">靜音響鈴</string>
+    <string name="alarm_notif_title">即將響起的鬧鐘,可提前關閉</string>
+    <string name="alarm_reapt">重複</string>
+    <string name="alarm_reminder_tv">距響鈴時間還有 %6</string>
+    <string name="alarm_repeat">重複</string>
+    <string name="alarm_ring">鬧鐘響</string>
+    <string name="alarm_setting_flip_close_alarm_intro">關閉後，僅支援向上滑動關閉鬧鐘。</string>
+    <string name="alarm_setting_flip_close_alarm_title">上下滑動均可關閉鬧鐘</string>
+    <string name="alarm_settings">鬧鐘</string>
+    <string name="alarm_shutdown_ringing_switch">關機響鈴</string>
+    <string name="alarm_time_activity">鬧鐘時間到</string>
+    <string name="alarm_time_after_now">晚%s小時</string>
+    <string name="alarm_time_before_now">早%s小時</string>
+    <string name="alarm_time_equal_now">與本地相同</string>
+    <string name="alarm_time_format">M月d日 E</string>
+    <string name="alarm_vibe_switch">響鈴震動開關</string>
+    <string name="alarm_volume_title">鬧鐘 (倒數計時) 音量</string>
+    <string name="alarm_week">自訂</string>
+    <string name="alert_dismiss_text">關閉</string>
+    <string name="alert_remind_close">關閉</string>
+    <string name="alert_remind_later">稍後提醒</string>
+    <string name="alert_remind_snooze">暫停</string>
+    <string name="app_label">時鐘</string>
+    <string name="auto_silence_never">永不</string>
+    <string name="auto_silence_summary">%d 分鐘</string>
+    <string name="auto_silence_title">鬧鈴時長</string>
+    <string name="automatic_home_clock">自動顯示居住地時間</string>
+    <string name="automatic_home_clock_summary">在其他時區旅行時顯示居住地時間</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="cancel_dialog">取消</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="check_draw_overlay_permission">檢查時鐘快顯示窗的權限</string>
+    <string name="cities_activity_title">新增城市</string>
+    <string name="city_count_over_limit">超過增加城市的上限，您需要刪除一個已有城市才能增加新的城市</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="clock_settings">時鐘</string>
+    <string name="clock_style">樣式</string>
+    <string name="close_alarm_notif">關閉鬧鐘</string>
+    <string name="copy">複製</string>
+    <string name="cta_content_agree_go_on">同意並繼續</string>
+    <string name="cta_content_exit">結束</string>
+    <string name="custom_volume">自訂音量</string>
+    <string name="custom_volume_silence">當前鈴聲為“無鈴聲”，無法試聽</string>
+    <string name="date_am">上午</string>
+    <string name="date_pm">下午</string>
+    <string name="day">1 天</string>
+    <string name="day_afternoon">下午</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">凌晨</string>
+    <string name="day_evening">晚上</string>
+    <string name="day_midnoon">中午</string>
+    <string name="day_morning">上午</string>
+    <string name="days">%s 天</string>
+    <string name="days_of_week_day">日</string>
+    <string name="default_label">鬧鐘</string>
+    <string name="default_ring_title">New Morning</string>
+    <string name="delete_failed">刪除失敗</string>
+    <string name="delete_successfully">刪除成功</string>
+    <string name="delete_world_clock_confirm_tips">確定要刪除這 %d 個城市嗎？</string>
+    <string name="delete_world_clock_confirm_tips_one">確定要刪除這個城市嗎？</string>
+    <string name="deselect">取消全選</string>
+    <string name="disagree">不同意</string>
+    <string name="display_once">不再提示</string>
+    <string name="down_holidays_suscess">節日/假日資料下載成功，請重新設定</string>
+    <string name="edit_alarm">編輯鬧鐘</string>
+    <string name="edit_alarm_cancel">取消</string>
+    <string name="edit_alarm_delete_cancel">取消</string>
+    <string name="edit_alarm_delete_ok">刪除</string>
+    <string name="edit_alarm_done">完成</string>
+    <string name="edit_alarm_give_up_dialog">編輯內容將被捨棄</string>
+    <string name="edit_alarm_label_remind">最多不能超過 13 個字或26個字符</string>
+    <string name="edit_alarm_last_ring_tv">提醒間隔</string>
+    <string name="edit_alarm_no_label">無</string>
+    <string name="edit_alarm_remark">備註</string>
+    <string name="edit_alarm_sleep_mode">稍後提醒</string>
+    <string name="edit_alarm_title">新增鬧鐘</string>
+    <string name="edit_alarm_vibe">響鈴時震動</string>
+    <string name="edit_alarm_volume_mode">鬧鐘音量</string>
+    <string name="edit_alarm_weather">響鈴時播報天氣</string>
+    <string name="edit_list_alarm_select">選擇項目</string>
+    <string name="edit_list_alarm_selected_dialog">確定要刪除這個鬧鐘嗎？</string>
+    <string name="edit_list_alarm_selected_number">已選擇 %d 項</string>
+    <string name="edit_list_alarms_selected_dialog">確定要刪除這 %d 個鬧鐘嗎？</string>
+    <string name="empty_list_msg">無搜尋結果</string>
+    <string name="end_snooze">小睡已結束</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="every_day">每天</string>
+    <string name="expand_button_title">進階</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="give_up_dialog">捨棄</string>
+    <string name="go_calendar">創建日曆</string>
+    <string name="holidays_info">法定工作日</string>
+    <string name="home_time_zone">居住地時區</string>
+    <string name="home_time_zone_title">居住地時區</string>
+    <string name="hour">1 小時</string>
+    <string name="hours">%s 小時</string>
+    <string name="http_error_text">伺服器異常</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="invalid_time">%3$s %1$d:%2$d 是無效的時間</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="label">鬧鐘用途</string>
+    <string name="label_description">標籤</string>
+    <string name="local">本地</string>
+    <string name="lock_screen_weather_playing_text">正在播放天氣鈴聲</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="menu_alarm">鬧鐘</string>
+    <string name="menu_clock">世界時鐘</string>
+    <string name="menu_item_help">說明</string>
+    <string name="menu_item_night_mode">夜間模式</string>
+    <string name="menu_item_settings">設定</string>
+    <string name="menu_item_sort_by_gmt_offset">按時間排序</string>
+    <string name="menu_stopwatch">碼錶</string>
+    <string name="menu_timer">倒數計時</string>
+    <string name="minute">1 分鐘</string>
+    <string name="minute_unit">分</string>
+    <string name="minutes">%s 分鐘</string>
+    <string name="missed_alarm_has_been_deleted">錯過的鬧鐘已刪除</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="net_connect_prompt_title">時鐘需要獲得以下權限</string>
+    <string name="never">永不</string>
+    <string name="next_alarm_description">下次鬧鐘時間：%s</string>
+    <string name="no_alarms">沒有鬧鐘</string>
+    <string name="no_clock">沒有世界時鐘</string>
+    <string name="no_firing_alarms">目前沒有鬧鐘正在響鈴</string>
+    <string name="no_holiday_data_prompt">法定工作日 (首次使用需連接網路)</string>
+    <string name="no_music">無本没有音樂</string>
+    <string name="no_permission_text">時鐘沒有取得手機狀態權限，會導致通話過程中鬧鐘音效和通話聲音重疊，是否授予該權限?</string>
+    <string name="no_record">無本没有錄音</string>
+    <string name="not_set">未設定</string>
+    <string name="notification_channel_name">時鐘通知</string>
+    <string name="number_picker_hour">小時</string>
+    <string name="number_picker_minute">分</string>
+    <string name="number_picker_second">秒</string>
+    <string name="ok_dialog">確定</string>
+    <string name="once">不重複</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="permission_access_location">取得訂位</string>
+    <string name="permission_access_network">網路</string>
+    <string name="permission_access_storage">讀取和寫入儲存空間</string>
+    <string name="permission_call_phone">撥打電話</string>
+    <string name="permission_desc_heder">根據您在使用我們應用程式過程中的不同服務或場景，可能需要您開啟相關權限：</string>
+    <string name="permission_header">使用者權限聲明</string>
+    <string name="permission_open_bluetooth">開啟藍牙</string>
+    <string name="permission_open_camera">開啟相機</string>
+    <string name="permission_open_mic">錄音</string>
+    <string name="permission_open_nfc">開啟 NFC</string>
+    <string name="permission_read_call_log">讀取通話記錄</string>
+    <string name="permission_read_contact">讀取聯絡人</string>
+    <string name="permission_read_mms">讀取多媒體訊息</string>
+    <string name="permission_read_sms">讀取 SMS</string>
+    <string name="permission_send_email">傳送郵件</string>
+    <string name="permission_send_mms">發送彩訊</string>
+    <string name="permission_send_sms">傳送 SMS 訊息</string>
+    <string name="permission_statement">上述權限均不會預設或強制開啟，我們會在您啟用相應功能或相關的應用程式場景中向您申請，您有權拒絕開啟，拒絕授權不會影響應用程式提供基本功能服務。</string>
+    <string name="permission_write_call_log">寫入和刪除通話記錄</string>
+    <string name="permission_write_contact">撰寫和刪除聯絡人</string>
+    <string name="permission_write_mms">寫入和刪除多媒體訊息</string>
+    <string name="permission_write_sms">撰寫和刪除 SMS</string>
+    <string name="pick_from_music">從音樂選擇鈴聲</string>
+    <string name="pick_from_recorder">從錄音選擇鈴聲</string>
+    <string name="pick_from_ringtone">從來電鈴聲中選擇</string>
+    <string name="poweroff_alarm">關機鬧鐘</string>
+    <string name="poweroff_alarm_close_tips">關機後鬧鐘正常響鈴並開機</string>
+    <string name="poweroff_alarm_open_tips">關機後鬧鐘正常響鈴並開機</string>
+    <string name="poweroff_prompt_dlg_close">去關閉</string>
+    <string name="poweroff_prompt_dlg_msg">關機後也會正常響鈴，可在鬧鐘設置中關閉該功能</string>
+    <string name="poweroff_prompt_dlg_ok">確定</string>
+    <string name="poweroff_prompt_dlg_title">關機鬧鐘已啟用</string>
+    <string name="preference_copied">已將「%1$s」複製到剪貼簿。</string>
+    <string name="privacy_content" formatted="false">"感謝您使用 %s！ 
+我們深知您對個人資訊和隱私權保護的重視，您可以透過閱讀%s詳細了解相關資訊。 我們將按照法律規定，竭誠保護您的個人資訊安全，為您提供更好的服務！"</string>
+    <string name="privacy_permission_header">隱私權和權限</string>
+    <string name="privacy_policy_file_link_title">《隱私權聲明檔案名稱》</string>
+    <string name="repeat_public_weekdays">法定工作日</string>
+    <string name="ring_chose">選擇鈴聲</string>
+    <string name="ringtone">鈴聲</string>
+    <string name="search_hint">搜尋城市或國家</string>
+    <string name="search_local_music">搜尋本地音樂</string>
+    <string name="search_local_record">搜尋本地錄音</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="second_unit">秒</string>
+    <string name="select_all">全選</string>
+    <string name="setting_dialog">去设置</string>
+    <string name="settings">鬧鐘設定</string>
+    <string name="show_notif">即將響鈴鬧鐘通知</string>
+    <string name="show_notif_open_tips">響鈴前通知中心提醒，可提前關閉鬧鐘</string>
+    <string name="silent_alarm">無</string>
+    <string name="silent_alarm_summary">無</string>
+    <string name="skip_alarm_next_time_normal">僅跳過本次鬧鐘，下次正常響鈴</string>
+    <string name="snooze_duration_title">暫停時長</string>
+    <string name="snooze_interval_later">後</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">使用碼錶服務執行通知功能</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="sw_lap_button">計次</string>
+    <string name="sw_notification_lap_number">第 %d 次</string>
+    <string name="sw_pause_button">暫停</string>
+    <string name="sw_reset_button">歸零</string>
+    <string name="sw_resume_button">繼續</string>
+    <string name="sw_share_laps">各圈時間：</string>
+    <string name="sw_share_main">我的時間：%s</string>
+    <string name="sw_unit_digits">小時分秒</string>
+    <string name="swn_stopped">已停止</string>
+    <string name="sync_alarm_from_server_completed">雲服務已成功更新時鐘數據</string>
+    <string name="time_handle_text_degree_unit">分</string>
+    <string name="time_span_unit_hour">小時</string>
+    <string name="time_span_unit_minute">分鐘</string>
+    <string name="time_span_unit_second">秒鐘</string>
+    <string name="timer_am">上午</string>
+    <string name="timer_close">關閉</string>
+    <string name="timer_common_countdown">常用倒數計時器</string>
+    <string name="timer_dialog_btn_cancel">取消</string>
+    <string name="timer_dialog_btn_start">開始計時</string>
+    <string name="timer_dialog_title">設置時間</string>
+    <string name="timer_egg">水煮蛋</string>
+    <string name="timer_focus">專注</string>
+    <string name="timer_fullscreen_prompt">滑動關閉計時器</string>
+    <string name="timer_fullscreen_summary_after">計時器結束</string>
+    <string name="timer_instant_noodles">泡麵</string>
+    <string name="timer_meditation">冥想</string>
+    <string name="timer_missed_title">錯過的倒數計時</string>
+    <string name="timer_notification_label">計時器</string>
+    <string name="timer_picker_hour_unit">時</string>
+    <string name="timer_picker_minute_unit">分</string>
+    <string name="timer_picker_second_unit">秒</string>
+    <string name="timer_ring_dialog_title">提醒方式</string>
+    <string name="timer_ring_service_desc">用於「時鐘」內已設倒數計時的音效播放服務</string>
+    <string name="timer_siesta">午睡</string>
+    <string name="timer_sport">運動</string>
+    <string name="timer_stopped">已暫停</string>
+    <string name="timer_toast">名稱不允許重複</string>
+    <string name="timer_up">時間到了</string>
+    <string name="timing">計時</string>
+    <string name="title_local_music">本機音樂</string>
+    <string name="title_record">錄音</string>
+    <string name="title_ringstone">來電鈴聲</string>
+    <string name="touch_on_close">滑動關閉鬧鐘</string>
+    <string name="touchupclose">向上或向下滑動關閉鬧鐘</string>
+    <string name="update_holiday_summary">偵測更新可用的節日/假日資料</string>
+    <string name="update_holiday_title">更新節日/假日資料</string>
+    <string name="v7_preference_off">關閉</string>
+    <string name="v7_preference_on">開啟</string>
+    <string name="volume_button_setting_title">音量按鈕</string>
+    <string name="weather_key_rain">雨</string>
+    <string name="weekly">每週</string>
+    <string name="world_time_today">今天</string>
+    <string name="world_time_tomorrow">明天</string>
+    <string name="world_time_yesterday">昨天</string>
+</resources>

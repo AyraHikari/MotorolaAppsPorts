@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:layout_gravity="center" android:id="@id/bottom_toolbar_list" android:background="#ff2e2e31" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/dialog_list_selector_zui" android:divider="@drawable/dialog_list_divider_zui" android:dividerHeight="2.0px" android:textAlignment="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

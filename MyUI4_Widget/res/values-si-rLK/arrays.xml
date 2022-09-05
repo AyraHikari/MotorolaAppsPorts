@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>පැය 1</item>
+        <item>පැය 2</item>
+        <item>පැය 3</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>වේලාව සහ කාලගුණය</item>
+        <item>කාලගුණය</item>
+        <item>වේලාව</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ෆැරන්හයිට්</item>
+        <item>සෙල්සියස්</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>මාර්ෂල් දූපත්</item>
+        <item>මිඩ්වේ දූපත</item>
+        <item>හවායි</item>
+        <item>ඇලස්කාව</item>
+        <item>පැසිෆික් වේලාව</item>
+        <item>ටිජුවානා</item>
+        <item>ඇරිසෝනා</item>
+        <item>චිහුවාහුවා</item>
+        <item>කඳුකර වේලාව</item>
+        <item>මධ්‍යම ඇමෙරිකාව</item>
+        <item>මධ්‍යම වේලාව</item>
+        <item>මෙක්සිකෝ නගරය</item>
+        <item>සස්කචේවාන්</item>
+        <item>බොගෝතා</item>
+        <item>නැගෙනහිර වේලාව</item>
+        <item>වෙනිසියුලාව</item>
+        <item>අත්ලාන්තික් වේලාව (බාබඩොස්)</item>
+        <item>අත්ලාන්තික් වේලාව (කැනඩා)</item>
+        <item>මානවුස්</item>
+        <item>සන්තියාගෝ</item>
+        <item>නිව්ෆවුන්ඩ්ලන්ඩ්</item>
+        <item>බ්‍රසිලියා</item>
+        <item>බුවනෝස් අයර්ස්</item>
+        <item>ග්‍රීන්ලන්තය</item>
+        <item>මොන්ටෙවීඩි‍යෝ</item>
+        <item>මධ්‍ය-අත්ලාන්තික්</item>
+        <item>අසෝර්ස්</item>
+        <item>කේප් වර්ඩ් දූපත්</item>
+        <item>කැසබ්ලන්කා</item>
+        <item>ලන්ඩන්, ඩබ්ලින්</item>
+        <item>ඇම්ස්ටර්ඩෑම්, බර්ලින්</item>
+        <item>බෙල්ග්රේඩ්</item>
+        <item>බ්‍රස්ල්ස්</item>
+        <item>සැරජේවෝ</item>
+        <item>වින්ඩ්හූක්</item>
+        <item>බටහිර අප්‍රිකා වේලාව</item>
+        <item>අම්මාන්, ජෝර්දානය</item>
+        <item>ඇතන්ස්, ඉස්තාන්බුල්</item>
+        <item>බීරූට්, ලෙබනනය</item>
+        <item>කයිරෝ</item>
+        <item>හෙල්සින්කි</item>
+        <item>ජෙරුසෙලම</item>
+        <item>මින්ස්ක්</item>
+        <item>හරාරෙ</item>
+        <item>බැග්ඩෑඩ්</item>
+        <item>මොස්කව්</item>
+        <item>කුවේට්</item>
+        <item>නයිරෝබි</item>
+        <item>ටෙහෙරාන්</item>
+        <item>බකු</item>
+        <item>ටිබිලිසි</item>
+        <item>යෙරෙවාන්</item>
+        <item>ඩුබායි</item>
+        <item>කාබුල්</item>
+        <item>ඉස්ලාමාබාද්, කරච්චි</item>
+        <item>උරාල්ස්ක්</item>
+        <item>ජිකැටරින්බර්ග්</item>
+        <item>කල්කටා</item>
+        <item>ශ්‍රී ලංකාව</item>
+        <item>කත්මන්ඩු</item>
+        <item>ඇස්ටානා</item>
+        <item>යන්ගොන්</item>
+        <item>ක්‍රස්නොයාර්ස්ක්</item>
+        <item>බෑංකොක්</item>
+        <item>බීජිං</item>
+        <item>හොං කොං</item>
+        <item>අර්කුත්ස්ක්</item>
+        <item>ක්වාලා ලම්පූර්</item>
+        <item>පර්ත්</item>
+        <item>තයිපෙයි</item>
+        <item>සෝල්</item>
+        <item>තෝකියෝ, ඔසාකා</item>
+        <item>යකුත්ස්ක්</item>
+        <item>ඇඩිලේඩ්</item>
+        <item>ඩාර්වින්</item>
+        <item>බ්‍රිස්බේන්</item>
+        <item>හොබාර්ට්</item>
+        <item>සිඩ්නි, කැන්බෙරා</item>
+        <item>ව්ලැදිවොස්තොක්</item>
+        <item>ගුවාම්</item>
+        <item>මැගඩන්</item>
+        <item>ඕක්ලන්ඩ්</item>
+        <item>ෆිජි</item>
+        <item>ටොන්ගා</item>
+        <item>ජකර්තා</item>
+    </string-array>
+</resources>

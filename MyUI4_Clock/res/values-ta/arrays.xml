@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>இப்போதிலிருந்து 1 நிமிடத்துக்கும் குறைவான நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %1$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %2$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %1$s மற்றும் %2$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %3$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %1$s மற்றும் %3$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %2$s மற்றும் %3$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+        <item>இப்போதிலிருந்து %1$s, %2$s, மற்றும் %3$s நேரத்துக்கு அலாரம் செட் செய்யப்பட்டுள்ளது.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>15 நிமிடங்கள்</item>
+        <item>20 நிமிடங்கள்</item>
+        <item>25 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+        <item>ஒருபோதும் இல்லை</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>அனலாக்</item>
+        <item>டிஜிட்டல்</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>அனலாக்</item>
+        <item>டிஜிட்டல்</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>பெல் ரிங்காகும்போது, உள்ளூர் வானிலையைக் காட்ட இன்டெர்நெட்டில் இணை</item>
+        <item>பெல் ரிங்காகும்போது ஒலிக்கும்போது, உள்ளூர் வானிலையைக் காட்டுவதற்கு இருப்பிடம் தேவை.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>மொபைல் நெட்வொர்க்கை அணுகு</item>
+        <item>இருப்பிடத்தை அணுகு</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>மு.ப.</item>
+        <item>பி.ப.</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>ஜன.</item>
+        <item>பிப்.</item>
+        <item>மார்.</item>
+        <item>ஏப்.</item>
+        <item>மே</item>
+        <item>ஜூன்.</item>
+        <item>ஜூலை.</item>
+        <item>ஆக.</item>
+        <item>செப்.</item>
+        <item>அக்.</item>
+        <item>நவ.</item>
+        <item>டிச.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>அகற்று</item>
+        <item>ஸ்னூஸ்</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>இயல்பானது</item>
+        <item>டேப்லெட்</item>
+        <item>கியூப்இன்</item>
+        <item>கியூப்அவுட்</item>
+        <item>செங்குத்தாகத் திருப்பு</item>
+        <item>கிடைமட்டமாகத் திருப்பு</item>
+        <item>ஸ்டேக்</item>
+        <item>ஸூம்இன்</item>
+        <item>ஸூம்அவுட்</item>
+        <item>ரொட்டேட்அப்</item>
+        <item>ரொட்டேட்டௌன்</item>
+        <item>அக்கார்டியான்</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>ஒருமுறை</item>
+        <item>தினசரி</item>
+        <item>வேலைநாட்கள் (விடுமுறை நாட்களில் அணை)</item>
+        <item>தனிப்பயன்</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>ஒருமுறை</item>
+        <item>தினசரி</item>
+        <item>தனிப்பயன்</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>ஞாயிறு</item>
+        <item>திங்கள்</item>
+        <item>செவ்வாய்</item>
+        <item>புதன்</item>
+        <item>வியாழன்</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>ஒருபோதும் இல்லை</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>15 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>ஒரு நிமிடத்துக்கும் குறைவாக உள்ளது</item>
+        <item>%1$s மீதமுள்ளது</item>
+        <item>%2$s மீதமுள்ளது</item>
+        <item>%1$s%2$s மீதமுள்ளது</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>வளையம்</item>
+        <item>அதிர்வுறு</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>மார்ஷல் தீவுகள்</item>
+        <item>மிட்வே தீவுகள்</item>
+        <item>ஹவாயி</item>
+        <item>அலாஸ்கா</item>
+        <item>பசிபிக் நேரம்</item>
+        <item>ஜுவானா</item>
+        <item>அரிசோனா</item>
+        <item>சிஹுவாஹுவா</item>
+        <item>மௌண்டென் டைம்</item>
+        <item>மத்திய அமெரிக்கா</item>
+        <item>சென்ட்ரல் டைம்</item>
+        <item>மெக்சிகோ சிட்டி</item>
+        <item>சஸ்காச்சிவான்</item>
+        <item>பொகோட்டா</item>
+        <item>ஈஸ்டர்ன் டைம்</item>
+        <item>வெனிசுலா</item>
+        <item>அட்லாண்டிக் நேரம் (பார்படாஸ்)</item>
+        <item>அட்லாண்டிக் நேரம் (கனடா)</item>
+        <item>மனாவ்ஸ்</item>
+        <item>சாண்டியாகோ</item>
+        <item>நியூஃபௌண்ட்லேண்ட்</item>
+        <item>பிரேஸிலியா</item>
+        <item>பியூனஸ் அயர்ஸ்</item>
+        <item>கிரீன்லாந்து</item>
+        <item>மாண்டெவீடியோ</item>
+        <item>மிட் அட்லாண்டிக்</item>
+        <item>அஸோரெஸ்</item>
+        <item>கேப் வெர்டே தீவுகள்</item>
+        <item>காஸாபிளாங்கா</item>
+        <item>லண்டன், டப்ளின்</item>
+        <item>ஆம்ஸ்டர்டேம், பெர்லின்</item>
+        <item>பெல்கிரேடு</item>
+        <item>பிரஸ்ஸல்ஸ்</item>
+        <item>சராயேவோ</item>
+        <item>விண்ட்ஹோக்</item>
+        <item>மேற்கு ஆப்பிரிக்க நேரம்</item>
+        <item>அம்மான், ஜோர்டான்</item>
+        <item>ஏதன்ஸ், இஸ்தான்புல்</item>
+        <item>பெய்ரூட், லெபனான்</item>
+        <item>கெய்ரோ</item>
+        <item>ஹெல்சிங்கி</item>
+        <item>ஜெரூசலேம்</item>
+        <item>மின்ஸ்க்</item>
+        <item>ஹராரே</item>
+        <item>பாக்தாத்</item>
+        <item>மாஸ்கோ</item>
+        <item>குவைத்</item>
+        <item>நைரோபி</item>
+        <item>டெஹ்ரான்</item>
+        <item>பக்கு</item>
+        <item>டிபிலிசி</item>
+        <item>யெரேவான்</item>
+        <item>துபாய்</item>
+        <item>காபூல்</item>
+        <item>இஸ்லாமாபாத், காராச்சி</item>
+        <item>ஓரல், கஜிகஸ்தான்</item>
+        <item>யெகாடெரின்பர்க்</item>
+        <item>கொல்கத்தா</item>
+        <item>ஸ்ரீலங்கா</item>
+        <item>காத்மாண்டு</item>
+        <item>ஆஸ்தனா</item>
+        <item>யங்கோன்</item>
+        <item>க்ரஸ்னாயர்ஸ்க்</item>
+        <item>பேங்காக்</item>
+        <item>பீஜிங்</item>
+        <item>ஹாங்காங்</item>
+        <item>இர்குட்ஸ்க்</item>
+        <item>கோலாலம்பூர்</item>
+        <item>பெர்த்</item>
+        <item>தாய்பே</item>
+        <item>சியோல்</item>
+        <item>டோக்கியோ, ஒசாகா</item>
+        <item>யகுட்ஸ்க்</item>
+        <item>அடிலெய்ட்</item>
+        <item>டார்வின்</item>
+        <item>பிரிஸ்பேன்</item>
+        <item>ஹோபார்ட்</item>
+        <item>சிட்னி, கான்பெர்ரா</item>
+        <item>விளாடிவோஸ்டோக்</item>
+        <item>குவாம்</item>
+        <item>மகடான்</item>
+        <item>ஆக்லாந்து</item>
+        <item>ஃபிஜி</item>
+        <item>டோங்கா</item>
+        <item>ஜகார்தா</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>பசிபிக்/மஜூரோ</item>
+        <item>பசிபிக்/மிட்வே</item>
+        <item>பசிபிக்/ஹோனோலுலு</item>
+        <item>அமெரிக்கா/அங்கரேஜ்</item>
+        <item>அமெரிக்கா/லாஸ் ஏஞ்சல்ஸ்</item>
+        <item>அமெரிக்கா/ஜுவானா</item>
+        <item>அமெரிக்கா/ஃபோனிக்ஸ்</item>
+        <item>அமெரிக்கா/சிஹுவாஹுவா</item>
+        <item>அமெரிக்கா/டென்வர்</item>
+        <item>அமெரிக்கா/கோஸ்டாரிகா</item>
+        <item>அமெரிக்கா/சிக்காகோ</item>
+        <item>அமெரிக்கா/மெக்சிகோ சிட்டி</item>
+        <item>அமெரிக்கா/ரெஜினா</item>
+        <item>அமெரிக்கா/போகோடா</item>
+        <item>அமெரிக்கா/நியுயார்க்</item>
+        <item>அமெரிக்கா/கெராகஸ்</item>
+        <item>அமெரிக்கா/பார்படாஸ்</item>
+        <item>அமெரிக்கா/ஹலிஃபேக்ஸ்</item>
+        <item>அமெரிக்கா/மனாவ்ஸ்</item>
+        <item>அமெரிக்கா/சாண்டியோகா</item>
+        <item>அமெரிக்கா/செய்ண்ட் ஜான்ஸ்</item>
+        <item>அமெரிக்கா/சாவ்பாவ்லோ</item>
+        <item>அமெரிக்கா/அர்ஜெண்டினா/பியூனஸ் அயர்ஸ்</item>
+        <item>அமெரிக்கா/காட்தப்</item>
+        <item>அமெரிக்கா/மாண்டெவீடியோ</item>
+        <item>அட்லாண்டிக்/தெற்கு ஜியார்ஜியா</item>
+        <item>அட்லாண்டிக்/அஸோரெஸ்</item>
+        <item>அட்லாண்டிக்/கேப் வெர்டே</item>
+        <item>ஆப்பிரிக்கா/காஸாபிளாங்கா</item>
+        <item>ஐரோப்பா/லண்டன்</item>
+        <item>ஐரோப்பா/ஆம்ஸ்டர்டேம்</item>
+        <item>ஐரோப்பா/பெல்கிரேடு</item>
+        <item>ஐரோப்பா/பிரஸ்ஸல்ஸ்</item>
+        <item>ஐரோப்பா/சராயேவோ</item>
+        <item>ஆப்பிரிக்கா/விண்ட்ஹோக்</item>
+        <item>ஆப்பிரிக்கா/பிராஸ்ஸாவில்</item>
+        <item>ஆசியா/அம்மான்</item>
+        <item>ஐரோப்பா/ஏதன்ஸ்</item>
+        <item>ஆசியா/பெய்ரூட்</item>
+        <item>ஆப்பிரிக்கா/கெய்ரோ</item>
+        <item>ஐரோப்பா/ஹெல்சிங்கி</item>
+        <item>ஆசியா/ஜெரூசலேம்</item>
+        <item>ஐரோப்பா/மின்ஸ்க்</item>
+        <item>ஆப்பிரிக்கா/ஹராரே</item>
+        <item>ஆசியா/பாக்தாத்</item>
+        <item>ஐரோப்பா/மாஸ்கோ</item>
+        <item>ஆசியா/குவைத்</item>
+        <item>ஆப்பிரிக்கா/நைரோபி</item>
+        <item>ஆசியா/டெஹ்ரான்</item>
+        <item>ஆசியா/பக்கு</item>
+        <item>ஆசியா/டிபிலிசி</item>
+        <item>ஆசியா/யெரேவான்</item>
+        <item>ஆசியா/துபாய்</item>
+        <item>ஆசியா/காபூல்</item>
+        <item>ஆசியா/கராச்சி</item>
+        <item>ஆசியா/ஓரல்</item>
+        <item>ஆசியா/யெகாடெரின்பர்க்</item>
+        <item>ஆசியா/கொல்கத்தா</item>
+        <item>ஆசியா/கொழும்பு</item>
+        <item>ஆசியா/காத்மாண்டு</item>
+        <item>ஆசியா/அல்மாடி</item>
+        <item>ஆசியா/ரங்கூன்</item>
+        <item>ஆசியா/க்ரஸ்னாயர்ஸ்க்</item>
+        <item>ஆசியா/பேங்காக்</item>
+        <item>ஆசியா/ஷாங்காய்</item>
+        <item>ஆசியா/ஹாங்காங்</item>
+        <item>ஆசியா/இர்குட்ஸ்க்</item>
+        <item>ஆசியா/கோலாலம்பூர்</item>
+        <item>அஸ்திரேலியா/பெர்த்</item>
+        <item>ஆசியா/தாய்பே</item>
+        <item>ஆசியா/சியோல்</item>
+        <item>ஆசியா/டோக்கியோ</item>
+        <item>ஆசியா/யகுட்ஸ்க்</item>
+        <item>அஸ்திரேலியா/அடிலெய்டு</item>
+        <item>அஸ்திரேலியா/டார்வின்</item>
+        <item>அஸ்திரேலியா/பிரிஸ்பேன்</item>
+        <item>அஸ்திரேலியா/ஹோபார்ட்</item>
+        <item>அஸ்திரேலியா/சிட்னி</item>
+        <item>ஆசியா/விளாடிவோஸ்டோக்</item>
+        <item>பசிபிக்/குவாம்</item>
+        <item>ஆசியா/மகடான்</item>
+        <item>பசிபிக்/ஆக்லாந்து</item>
+        <item>பசிபிக்/ஃபிஜீ</item>
+        <item>பசிபிக்/டோங்காடாபு</item>
+        <item>ஆசியா/ஜகார்தா</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ஸ்னூஸ்</item>
+        <item>அகற்று</item>
+        <item>எதுவும் செய்யாதே</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>மென்மை</item>
+        <item>நார்மல்</item>
+        <item>சத்தமாக</item>
+        <item>எல்லைப் பகுதி</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>ஞாயிற்றுக்கிழமை</item>
+        <item>திங்கட்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+    </string-array>
+</resources>

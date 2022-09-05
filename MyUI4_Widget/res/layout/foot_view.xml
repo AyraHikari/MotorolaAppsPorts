@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/layout_accuweather" android:clickable="true" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" android:layout_marginEnd="12.0dip" app:cardCornerRadius="30.0dip" app:cardElevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/accuweather" android:layout_width="@dimen/footer_button_w" android:layout_height="@dimen/footer_button_h" android:src="@drawable/ic_accu_logo" android:adjustViewBounds="true" android:tint="@color/detail_ripple_ic_color" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/layout_radar" android:clickable="true" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip" app:cardCornerRadius="30.0dip" app:cardElevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/radar_icon" android:layout_width="@dimen/footer_button_w" android:layout_height="@dimen/footer_button_h" android:src="@drawable/ic_radar_logo" android:adjustViewBounds="true" android:tint="@color/detail_ripple_ic_color" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

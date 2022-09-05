@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d časa</item>
+        <item quantity="one">1 sat</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d h unazad</item>
+        <item quantity="one">1 h unazad</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d h unapred</item>
+        <item quantity="one">1 h unapred</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d sekunde/i</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obaveštenja</item>
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+    </plurals>
+</resources>

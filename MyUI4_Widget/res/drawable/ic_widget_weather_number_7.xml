@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="58.0dip" android:width="44.0dip" android:viewportWidth="44.0" android:viewportHeight="58.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_weather_accent_color" android:pathData="M39.48,0.951C38.86,0.341 38.1,0.011 37.25,0.011L6.82,0.011C5.95,0.011 5.17,0.331 4.56,0.951C4.05,1.461 3.73,2.141 3.6,2.981L3.6,3.221C3.59,4.101 3.92,4.881 4.55,5.471C5.2,6.081 5.94,6.391 6.76,6.391L32.46,6.391L12.51,53.671C12.36,54.041 12.29,54.431 12.29,54.841C12.29,55.681 12.61,56.451 13.23,57.071C13.84,57.691 14.63,58.011 15.5,58.011C16.03,58.011 16.57,57.851 17.14,57.541C17.67,57.231 18.08,56.791 18.36,56.191L40.14,4.461C40.32,4.051 40.42,3.631 40.42,3.211C40.42,2.341 40.1,1.561 39.48,0.941L39.48,0.951Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

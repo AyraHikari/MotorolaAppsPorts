@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_weather_searchbar" android:showDividers="end" android:elevation="4.0dip">
+        <ImageView android:id="@id/img_back_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/plugin_ic_back_arrow" />
+        <SearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:imeOptions="actionSearch|flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/addLocationHint" android:searchIcon="@null" android:queryBackground="@android:color/transparent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_results" android:paddingTop="@dimen/cli_adapt_8dp" android:paddingBottom="@dimen/cli_adapt_8dp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/cli_adapt_24dp">
+        <TextView android:textSize="@dimen/cli_adapt_14dp" android:textColor="@color/plugin_cli_search_text_color_list" android:gravity="start|center" android:id="@id/result_string_view" android:background="@color/translucent_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/cli_adapt_48dp" android:fontFamily="sans-serif-medium" android:textAlignment="viewStart" />
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list_results" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

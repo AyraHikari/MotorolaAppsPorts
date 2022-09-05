@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/widget_weather_empty_card_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_88dp" android:paddingHorizontal="@dimen/widget_adapt_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_weather_widget_location" />
+    <TextView android:textColor="@color/widget_weather_accent_color" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_cities" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_adapt_8dp" style="@style/RobotoMediumFont.Text20" />
+    <ImageButton android:id="@id/btn_add_city" android:background="@drawable/widget_weather_add_btn_bg" android:layout_width="@dimen/widget_adapt_56dp" android:layout_height="@dimen/widget_adapt_56dp" android:src="@drawable/ic_widget_weather_add" />
+</LinearLayout>

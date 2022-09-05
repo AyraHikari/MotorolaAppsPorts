@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ชั่วโมง</item>
+        <item>2 ชั่วโมง</item>
+        <item>3 ชั่วโมง</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>เวลา &amp; พยากรณ์อากาศ</item>
+        <item>สภาพอากาศ</item>
+        <item>เวลา</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ฟาเรนไฮต์</item>
+        <item>เซลเซียส</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>หมู่เกาะมาร์แชลล์</item>
+        <item>เกาะมิดเวย์</item>
+        <item>ฮาวาย</item>
+        <item>อะแลสกา</item>
+        <item>เวลาแปซิฟิก</item>
+        <item>ตีฮัวนา</item>
+        <item>แอริโซนา</item>
+        <item>ชิวาวา</item>
+        <item>เวลาแถบภูเขา</item>
+        <item>อเมริกากลาง</item>
+        <item>เวลากลาง</item>
+        <item>เม็กซิโกซิตี</item>
+        <item>แคตเชวัน</item>
+        <item>โบโกตา</item>
+        <item>เวลาตะวันออก</item>
+        <item>เวเนซุเอลา</item>
+        <item>เวลาแอตแลนติก (บาร์เบโดส)</item>
+        <item>เวลาแอตแลนติก (แคนาดา)</item>
+        <item>มาเนาส์</item>
+        <item>ซันติอาโก</item>
+        <item>นิวฟันด์แลนด์</item>
+        <item>บราซีเลีย</item>
+        <item>บัวโนสไอเรส</item>
+        <item>กรีนแลนด์</item>
+        <item>มอนเตวิเดโอ</item>
+        <item>แอตแลนติกกลาง</item>
+        <item>อะโซร์ส</item>
+        <item>หมู่เกาะเคปเวิร์ด</item>
+        <item>คาซาบลังกา</item>
+        <item>ลอนดอน, ดับลิน</item>
+        <item>อัมสเตอร์ดัม</item>
+        <item>เบลเกรด</item>
+        <item>บรัสเซลส์</item>
+        <item>ซาราเยโว</item>
+        <item>วินด์ฮุก</item>
+        <item>เวลาแอฟริกาตะวันตก</item>
+        <item>อัมมาน, จอร์แดน</item>
+        <item>เอเธนส์, อิสตันบูล</item>
+        <item>เบรุต, เลบานอน</item>
+        <item>ไคโร</item>
+        <item>เฮลซิงกิ</item>
+        <item>เยรูซาเร็ม</item>
+        <item>มินสก์</item>
+        <item>ฮาราเร</item>
+        <item>แบกแดด</item>
+        <item>มอสโก</item>
+        <item>" คูเวต"</item>
+        <item>ไนโรบี</item>
+        <item>เตหะราน</item>
+        <item>บากู</item>
+        <item>ทบิลิซิ</item>
+        <item>เยเรวาน</item>
+        <item>ดูไบ</item>
+        <item>คาบูล</item>
+        <item>อิสลามาบัด, การาจี</item>
+        <item>ยูรัลสก์</item>
+        <item>เยคาเตรินบุร์ก</item>
+        <item>กัลกัตตา</item>
+        <item>ศรีลังกา</item>
+        <item>กาฐมาณฑุ</item>
+        <item>อัสตานา</item>
+        <item>ย่างกุ้ง</item>
+        <item>ครัสโนยาร์สก์</item>
+        <item>กรุงเทพ</item>
+        <item>ปักกิ่ง</item>
+        <item>ฮ่องกง</item>
+        <item>อีร์คุตสค์</item>
+        <item>กัวลาลัมเปอร์</item>
+        <item>เพิร์ธ</item>
+        <item>ไทเป</item>
+        <item>โซล</item>
+        <item>โตเกียว, โอซากะ</item>
+        <item>ยาคุตสค์</item>
+        <item>แอดิเลด</item>
+        <item>ดาร์วิน</item>
+        <item>บริสเบน</item>
+        <item>โฮบาร์ต</item>
+        <item>ซิดนีย์, แคนเบอร์รา</item>
+        <item>วลาดิโวสต็อก</item>
+        <item>กวม</item>
+        <item>มากาดาน</item>
+        <item>ออคแลนด์</item>
+        <item>ฟิจิ</item>
+        <item>ตองกา</item>
+        <item>จาการ์ตา</item>
+    </string-array>
+</resources>

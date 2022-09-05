@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/stopwatch_panel_container" android:visibility="gone" android:layout_width="@dimen/stop_watch_dial_size" android:layout_height="@dimen/stop_watch_dial_size" android:layout_marginTop="@dimen/stop_watch_panel_top_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/layout_stop_watch_panel" />
+    <com.motorola.cn.deskclock.stopwatch.CountingTimerView android:layout_gravity="center" android:id="@id/countingTimerView" android:layout_width="wrap_content" android:layout_height="75.0dip" android:layout_marginTop="@dimen/stop_watch_counter_time_top_margin" android:layout_centerHorizontal="true" app:count_timer_font_big_size="@dimen/big_font_size" app:count_timer_font_default_size="@dimen/middle_font_size" app:count_timer_font_small_size="@dimen/small_font_size" app:count_timer_vertical_space="2.0dip" app:count_timer_view_text_color="@color/clock_local" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView_laps" android:background="@color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:cacheColorHint="@null" android:divider="@null" android:layout_above="@id/layout_action" android:layout_below="@id/countingTimerView" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_action" android:paddingTop="@dimen/stop_watch_play_top_padding" android:paddingBottom="@dimen/alarm_add_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/rl_imageView_lap_reset" android:background="@drawable/shape_stop_watch_left_right_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/icon_play_margin">
+            <ImageView android:enabled="false" android:id="@id/imageView_lap_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_restart_disable" android:layout_centerInParent="true" android:contentDescription="@string/app_label" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_stop_watch" android:background="@drawable/stop_watch_middle_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/icon_play_margin">
+            <ImageView android:id="@id/imageView_start_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:layout_centerInParent="true" android:contentDescription="@string/app_label" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_imageView_new_lap" android:background="@drawable/shape_stop_watch_left_right_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:enabled="false" android:id="@id/imageView_new_lap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stopwatch_timer_disable" android:layout_centerInParent="true" android:contentDescription="@string/app_label" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

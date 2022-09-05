@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/center_anchor" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_centerVertical="true" />
+    <TextView android:id="@id/space" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="@dimen/v_widget_image_margin" android:layout_below="@id/center_anchor" android:layout_marginStart="@dimen/v_widget_content_margin" />
+    <ImageView android:id="@id/icon_turbo" android:layout_width="@dimen/v_widget_turbo_image_width" android:layout_height="@dimen/v_widget_turbo_image_height" android:src="@drawable/vic_turbo_power" android:layout_above="@id/center_anchor" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/center_anchor" android:layout_alignParentBottom="true" android:paddingStart="@dimen/v_widget_content_margin" android:paddingEnd="@dimen/v_widget_content_margin">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/v_widget_click_area_padding" android:paddingBottom="@dimen/v_widget_click_area_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/v_widget_subtext_padding_top" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/v_battery_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WhiteText.vDate" />
+            <ImageView android:id="@id/v_battery_icon" android:layout_width="@dimen/v_widget_sep_image_size" android:layout_height="@dimen/v_widget_sep_image_size" android:src="@drawable/charging_normal" android:adjustViewBounds="true" android:layout_marginStart="1.0dip" android:layout_marginEnd="@dimen/v_widget_sep_image_padding" />
+            <TextView android:id="@id/v_connected" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connected" style="@style/WhiteText.vDate" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

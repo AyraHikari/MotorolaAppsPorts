@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/plugin_bg_popup_sec" android:alpha="0.12" />
+    <item android:color="@color/translucent_background" />
+</selector>

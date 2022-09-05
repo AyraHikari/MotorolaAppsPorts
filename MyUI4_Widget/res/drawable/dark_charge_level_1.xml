@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_01" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_02" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_03" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_04" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_05" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_06" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_07" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_08" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_09" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_10" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_11" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_12" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_13" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_14" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_15" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_16" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_17" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_18" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_19" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_20" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_21" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_22" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_23" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_24" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_25" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_26" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_27" />
+    <item android:duration="@integer/anim_frame_duration_charge" android:drawable="@drawable/dark_charge_level_1_28" />
+</animation-list>

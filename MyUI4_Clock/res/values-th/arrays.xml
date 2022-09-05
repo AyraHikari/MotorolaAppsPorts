@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>ตั้งเวลาแจ้งเตือนน้อยกว่า 1 นาทีจากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %1$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %2$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %1$s และ %2$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %3$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %1$s และ %3$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %2$s และ %3$s จากตอนนี้</item>
+        <item>ตั้งเวลาแจ้งเตือนอีก %1$s, %2$s และ %3$s จากตอนนี้</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+        <item>ไม่ต้อง</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>อนาล็อก</item>
+        <item>ดิจิตอล</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>อนาล็อก</item>
+        <item>ดิจิตอล</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>เชื่อมต่ออินเทอร์เน็ตเพื่อแสดงสภาพอากาศในท้องถิ่นเมื่อมีการส่งเสียง</item>
+        <item>ต้องใช้ข้อมูลตำแหน่งที่ตั้งเพื่อแสดงสภาพอากาศในท้องถิ่นเมื่อมีการส่งเสียง</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>เข้าถึงเครือข่ายโทรศัพท์มือถือ</item>
+        <item>เข้าถึงตำแหน่งที่ตั้งของฉัน</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>ก่อนเที่ยง</item>
+        <item>หลังเที่ยง</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"ม.ค. "</item>
+        <item>"ก.พ. "</item>
+        <item>"มี.ค. "</item>
+        <item>"เม.ย. "</item>
+        <item>พ.ค.</item>
+        <item>"มิ.ย. "</item>
+        <item>"ก.ค. "</item>
+        <item>"ส.ค. "</item>
+        <item>"ก.ย. "</item>
+        <item>"ต.ค. "</item>
+        <item>"พ.ย. "</item>
+        <item>"ธ.ค. "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>ปิดเสียงเตือน</item>
+        <item>เลื่อนการแจ้งเตือน</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>มาตรฐาน</item>
+        <item>แท็บเล็ต</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>พลิกแนวตั้ง</item>
+        <item>พลิกแนวนอน</item>
+        <item>เรียงซ้อน</item>
+        <item>ซูมเข้า</item>
+        <item>ซูมออก</item>
+        <item>หมุนขึ้น</item>
+        <item>หมุนลง</item>
+        <item>หีบเพลง</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>ครั้งเดียว</item>
+        <item>ทุกวัน</item>
+        <item>วันทำงาน (ปิดระหว่างวันหยุด)</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>ครั้งเดียว</item>
+        <item>ทุกวัน</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>อา</item>
+        <item>จ</item>
+        <item>อ</item>
+        <item>พ</item>
+        <item>พฤ</item>
+        <item>ศ</item>
+        <item>ส</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>ไม่ต้อง</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>เหลือน้อยกว่าหนึ่งนาที</item>
+        <item>เหลืออีก %1$s</item>
+        <item>เหลืออีก %2$s</item>
+        <item>เหลืออีก %1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>เสียง</item>
+        <item>สั่น</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>หมู่เกาะมาร์แชลล์</item>
+        <item>เกาะมิดเวย์</item>
+        <item>ฮาวาย</item>
+        <item>อลาสก้า</item>
+        <item>เวลาแปซิฟิก</item>
+        <item>ติฮัวนา</item>
+        <item>อาริโซน่า</item>
+        <item>ชีวาวา</item>
+        <item>เวลาเขตภูเขา</item>
+        <item>อเมริกากลาง</item>
+        <item>เวลากลาง</item>
+        <item>เม็กซิโกซิตี้</item>
+        <item>ซัสแคตเชวัน</item>
+        <item>โบโกตา</item>
+        <item>เวลาตะวันออก</item>
+        <item>เวเนซุเอลา</item>
+        <item>เวลาแอตแลนติก (บาร์เบโดส)</item>
+        <item>เวลาแอตแลนติก (แคนาดา)</item>
+        <item>มาเนาส์</item>
+        <item>ซานติอาโก</item>
+        <item>เกาะนิวฟันด์แลนด์</item>
+        <item>บราซิเลีย</item>
+        <item>บัวโนสไอเรส</item>
+        <item>กรีนแลนด์</item>
+        <item>มอนเตวิเดโอ</item>
+        <item>ตอนกลางของแอตแลนติก</item>
+        <item>อะโซร์ส</item>
+        <item>เกาะเคปเวิร์ด</item>
+        <item>คาซาบลังกา</item>
+        <item>ลอนดอน, ดับลิน</item>
+        <item>อัมสเตอร์ดัม, เบอร์ลิน</item>
+        <item>เบลเกรด</item>
+        <item>บรัสเซลส์</item>
+        <item>ซาราเยโว</item>
+        <item>วินด์ฮุก</item>
+        <item>เวลา แอฟริกาตะวันตก</item>
+        <item>อัมมาน, จอร์แดน</item>
+        <item>เอเธนส์, อิสตันบูล</item>
+        <item>เบรุต, เลบานอน</item>
+        <item>ไคโร</item>
+        <item>เฮลซิงกิ</item>
+        <item>เยรูซาเลม</item>
+        <item>มินสค์</item>
+        <item>ฮาราเร</item>
+        <item>แบกแดด</item>
+        <item>มอสโก</item>
+        <item>คูเวต</item>
+        <item>ไนโรบี</item>
+        <item>เตหะราน</item>
+        <item>บากู</item>
+        <item>ทบิลีซี</item>
+        <item>เยเรวาน</item>
+        <item>ดูไบ</item>
+        <item>คาบูล</item>
+        <item>อิสลามาบัด, การาจี</item>
+        <item>อูรัลส์ค</item>
+        <item>เยคาเตรินบุร์ก</item>
+        <item>โกลกาตา</item>
+        <item>ศรีลังกา</item>
+        <item>กาฐมาณฑุ</item>
+        <item>อัสตานา</item>
+        <item>ย่างกุ้ง</item>
+        <item>กราสโนยาร์สค์</item>
+        <item>กรุงเทพ</item>
+        <item>ปักกิ่ง</item>
+        <item>ฮ่องกง</item>
+        <item>เอียร์คุตสก์</item>
+        <item>กัวลาลัมเปอร์</item>
+        <item>เพิร์ท</item>
+        <item>ไทเป</item>
+        <item>โซล</item>
+        <item>โตเกียว, โอซาก้า</item>
+        <item>ยาคุตสค์</item>
+        <item>แอดิเลด</item>
+        <item>ดาร์วิน</item>
+        <item>บริสเบน</item>
+        <item>โฮบาร์ต</item>
+        <item>ซีดนีย์, แคนเบอร์ร่า</item>
+        <item>วลาดีวอสตอค</item>
+        <item>กวม</item>
+        <item>เมกาดัน</item>
+        <item>โอ๊คแลนด์</item>
+        <item>ฟิจิ</item>
+        <item>ตองก้า</item>
+        <item>จาการ์ต้า</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>แปซิฟิก/มาจูโร</item>
+        <item>แปซิฟิก/มิดเวย์</item>
+        <item>แปซิฟิก/โฮโนลูลู</item>
+        <item>อเมริกา/แองเคอเรจ</item>
+        <item>อเมริกา/ลอสแอนเจลิส</item>
+        <item>อเมริกา/ตีฮัวนา</item>
+        <item>อเมริกา/ฟีนิกซ์</item>
+        <item>อเมริกา/ชีวาวา</item>
+        <item>อเมริกา/เดนเวอร์</item>
+        <item>อเมริกา/คอสตาริกา</item>
+        <item>อเมริกา/ชิคาโก</item>
+        <item>อเมริกา/เม็กซิโกซิตี</item>
+        <item>อเมริกา/ริไจนา</item>
+        <item>อเมริกา/โบโกตา</item>
+        <item>อเมริกา/นิวยอร์ก</item>
+        <item>อเมริกา/การากัส</item>
+        <item>อเมริกา/บาร์เบโดส</item>
+        <item>อเมริกา/แฮลิแฟกซ์</item>
+        <item>อเมริกา/มาเนาส์</item>
+        <item>อเมริกา/ซานเตียโก</item>
+        <item>อเมริกา/เซนต์จอห์น</item>
+        <item>อเมริกา/เซาเปาโล</item>
+        <item>อเมริกา/อาร์เจนตินา/บัวโนสไอเรส</item>
+        <item>อเมริกา/ก็อธแธม</item>
+        <item>อเมริกา/มอนเตวิเดโอ</item>
+        <item>แอตแลนติก/เซาท์จอร์เจีย</item>
+        <item>แอตแลนติก/อะโซร์ส</item>
+        <item>แอตแลนติก/เคปเวิร์ด</item>
+        <item>แอฟริกา/คาซาบลังกา</item>
+        <item>ยุโรป/ลอนดอน</item>
+        <item>ยุโรป/อัมสเตอร์ดัม</item>
+        <item>ยุโรป/เบลเกรด</item>
+        <item>ยุโรป/บรัสเซลส์</item>
+        <item>ยุโรป/ซาราเจโว</item>
+        <item>แอฟริกา/วินด์ฮุก</item>
+        <item>แอฟริกา/บราซซาวิ</item>
+        <item>เอเชีย/อัมมาน</item>
+        <item>ยุโรป/เอเธนส์</item>
+        <item>เอเชีย/เบรุต</item>
+        <item>แอฟริกา/ไคโร</item>
+        <item>ยุโรป/เฮลซิงกิ</item>
+        <item>เอเชีย/เยรูซาเล็ม</item>
+        <item>ยุโรป/มินสค์</item>
+        <item>แอฟริกา/ฮาราเร</item>
+        <item>เอเชีย/แบกแดด</item>
+        <item>ยุโรป/มอสโก</item>
+        <item>เอเชีย/คูเวต</item>
+        <item>แอฟริกา/ไนโรบี</item>
+        <item>เอเชีย/เตหะราน</item>
+        <item>เอเชีย/บากู</item>
+        <item>เอเชีย/ทบิลิซี</item>
+        <item>เอเชีย/เยเรวาน</item>
+        <item>เอเชีย/ดูไบ</item>
+        <item>เอเชีย/คาบูล</item>
+        <item>เอเชีย/คาราจิ</item>
+        <item>เอเชีย/อูรัลส์ค</item>
+        <item>เอเชีย/เยคาเตรินบุร์ก</item>
+        <item>เอเชีย/กัลกัตตา</item>
+        <item>เอเชีย/โคลัมโบ</item>
+        <item>เอเชีย/กาฐมาณฑุ</item>
+        <item>เอเชีย/อัลมาตี</item>
+        <item>เอเชีย/ย่างกุ้ง</item>
+        <item>เอเชีย/กราสโนยาร์สค์</item>
+        <item>เอเชีย/กรุงเทพ</item>
+        <item>เอเชีย/เซียงไฮ้</item>
+        <item>เอเชีย/ฮ่องกง</item>
+        <item>เอเชีย/อีร์คุตสค์</item>
+        <item>เอเชีย/กัวลาลัมเปอร์</item>
+        <item>ออสเตรเลีย/เพิร์ท</item>
+        <item>เอเชีย/ไทเป</item>
+        <item>เอเชีย/โซล</item>
+        <item>เอเชีย/โตเกียว</item>
+        <item>เอเชีย/ยาคุตสค์</item>
+        <item>ออสเตรเลีย/แอดิเลด</item>
+        <item>ออสเตรเลีย/ดาร์วิน</item>
+        <item>ออสเตรเลีย/บริสเบน</item>
+        <item>ออสเตรเลีย/โฮบาร์ต</item>
+        <item>ออสเตรเลีย/ซีดนีย์</item>
+        <item>เอเชีย/วลาดีวอสตอค</item>
+        <item>แปชิฟิก/กวม</item>
+        <item>เอเชีย/มากาดาน</item>
+        <item>แปซิฟิก/โอ๊คแลนด์</item>
+        <item>แปซิฟิก/ฟิจิ</item>
+        <item>แปซิฟิก/โตงาตาปู</item>
+        <item>เอเชีย/จาการ์ต้า</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>เลื่อนการแจ้งเตือน</item>
+        <item>ปิด</item>
+        <item>ไม่ต้องทำอะไร</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>เบา</item>
+        <item>ปกติ</item>
+        <item>ดัง</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+    </string-array>
+</resources>

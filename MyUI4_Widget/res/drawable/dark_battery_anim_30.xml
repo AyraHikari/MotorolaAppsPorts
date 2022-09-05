@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/dark_battery_ring_01" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_03" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_05" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_07" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_09" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_11" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_13" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_15" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_17" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_19" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_21" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_23" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_25" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_27" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_29" />
+    <item android:duration="@integer/display_on_frame_time_20" android:drawable="@drawable/dark_battery_ring_30" />
+</animation-list>

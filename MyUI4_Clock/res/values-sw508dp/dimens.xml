@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="desk_tab_item_rl_top">14.111084dip</dimen>
+    <dimen name="desk_tab_item_text_top">5.6443787dip</dimen>
+    <dimen name="desk_tab_layout_height">98.7778dip</dimen>
+    <dimen name="desk_tab_layout_img_size">28.222198dip</dimen>
+    <dimen name="desk_tab_layout_text_size">16.933289sp</dimen>
+    <dimen name="small_desk_clock_item_rl_top">14.110992dip</dimen>
+    <dimen name="small_desk_clock_tab_out_height">56.444397dip</dimen>
+    <dimen name="timer_list_height_size">679.0dip</dimen>
+    <dimen name="timer_list_item_height_size">130.0dip</dimen>
+    <dimen name="timer_list_item_width_size">120.0dip</dimen>
+    <dimen name="timer_view_height">190.0dip</dimen>
+</resources>

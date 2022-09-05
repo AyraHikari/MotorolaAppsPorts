@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/selector_notification_text"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4.0dip" />
+            <stroke android:width="1.0dip" android:color="@color/shape_notification_text" />
+            <solid android:color="@color/shape_notification" />
+        </shape>
+    </item>
+</ripple>

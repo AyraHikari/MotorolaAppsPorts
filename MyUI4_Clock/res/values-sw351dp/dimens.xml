@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_font_size">72.0sp</dimen>
+    <dimen name="desk_tab_item_rl_top">9.75dip</dimen>
+    <dimen name="desk_tab_item_text_top">3.899994dip</dimen>
+    <dimen name="desk_tab_layout_height">68.25dip</dimen>
+    <dimen name="desk_tab_layout_img_size">19.5dip</dimen>
+    <dimen name="desk_tab_layout_text_size">11.699982sp</dimen>
+    <dimen name="list_time_font_size">32.0sp</dimen>
+    <dimen name="middle_font_size">50.0sp</dimen>
+    <dimen name="number_pick_text_size_hint">14.0dip</dimen>
+    <dimen name="number_pick_text_size_selected">32.0sp</dimen>
+    <dimen name="small_desk_clock_item_rl_top">9.75dip</dimen>
+    <dimen name="small_desk_clock_tab_out_height">39.0dip</dimen>
+    <dimen name="small_font_size">40.0sp</dimen>
+    <dimen name="stop_watch_history_bottom_padding">130.0dip</dimen>
+    <dimen name="stop_watch_panel_top_margin">56.0dip</dimen>
+    <dimen name="timer_list_height_size">340.0dip</dimen>
+    <dimen name="timer_list_item_height_size">95.0dip</dimen>
+    <dimen name="timer_list_item_width_size">90.0dip</dimen>
+    <dimen name="timer_view_height">190.0dip</dimen>
+    <dimen name="timer_view_top_margin2">0.0dip</dimen>
+    <item type="dimen" name="view_right">200.0</item>
+    <dimen name="wc_list_city_name_max_width">143.0dip</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_analog_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_adapt_circle_background" android:scaleType="fitCenter" />
+    <AnalogClock android:id="@id/analog_clock" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dial="@drawable/ic_adapt_circle_background_transparent" android:hand_hour="@drawable/ic_adapt_widget_hour_hand" android:hand_minute="@drawable/ic_adapt_widget_minute_hand" android:hand_second="@drawable/ic_adapt_widget_second_hand" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_date" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/widget_adapt_6dp" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/view_date_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_40dp" />
+        <FrameLayout android:id="@id/view_time_click_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/view_weather_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_40dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/row2_widget_bg" android:layout_width="@dimen/widget_bg_size" android:layout_height="@dimen/widget_bg_size" android:src="@drawable/widget_bg_ring" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <FrameLayout android:padding="@dimen/ring_progress_bar_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/row2_widget_bg" android:layout_alignBottom="@id/row2_widget_bg" android:layout_centerInParent="true" android:layout_alignStart="@id/row2_widget_bg" android:layout_alignEnd="@id/row2_widget_bg">
+        <ViewStub android:layout_gravity="center" android:id="@id/row2_display_on_transition" android:visibility="invisible" android:layout="@layout/battery_ring_layout_01" android:inflatedId="@id/inflated_closing" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/main_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ring_main_circle" />
+        <include android:id="@id/main_circle_turbo" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ring_turbo_layout" />
+        <include android:id="@id/m_c_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ring_mc_layout" />
+    </FrameLayout>
+</RelativeLayout>

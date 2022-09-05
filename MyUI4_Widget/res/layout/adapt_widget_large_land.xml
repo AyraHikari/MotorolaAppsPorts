@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_adapt_card_bg_land" android:scaleType="fitXY" />
+        <FrameLayout android:id="@id/layout_large" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/widget_adapt_58dp" android:paddingEnd="@dimen/widget_adapt_48dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/layout_analog" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/img_analog_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_adapt_circle_landscape_background" android:scaleType="fitCenter" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock" />
+                        <AnalogClock android:id="@id/analog_clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:dial="@drawable/ic_adapt_circle_landscape_background_transparent" android:hand_hour="@drawable/ic_adapt_widget_landscape_hour_hand" android:hand_minute="@drawable/ic_adapt_widget_landscape_minute_hand" android:layout_marginEnd="@dimen/widget_adapt_18dp" android:hand_second="@drawable/ic_adapt_widget_landscape_second_hand" />
+                    </RelativeLayout>
+                    <TextClock android:textColor="@color/widget_adapt_text_content_color" android:id="@id/layout_analog_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="EEE MMM " android:format24Hour="EEE MMM " style="@style/RobotoMediumFont.Text16" />
+                    <TextClock android:textColor="@color/widget_adapt_text_content_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="@dimen/widget_adapt_48dp" android:format12Hour="@string/day_format_style" android:format24Hour="@string/day_format_style" style="@style/RobotoMediumFont.Text16" />
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/layout_large_digital" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextClock android:textColor="@color/widget_adapt_digital_color" android:gravity="center" android:id="@id/clock_digital_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="@dimen/widget_adapt_8dp" android:format12Hour="hh:mm" android:format24Hour="HH:mm" style="@style/AdaptTime.Text64" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_digital_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_adapt_12dp" android:minWidth="@dimen/widget_adapt_74dp">
+                        <TextClock android:textColor="@color/widget_adapt_text_content_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="EEE" android:format24Hour="EEE" style="@style/RobotoMediumFont.Text16" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextClock android:textColor="@color/widget_adapt_text_content_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="MMM" android:format24Hour="MMM" style="@style/RobotoMediumFont.Text16" />
+                            <TextClock android:textColor="@color/widget_adapt_text_content_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="@string/day_format_style" android:format24Hour="@string/day_format_style" style="@style/RobotoMediumFont.Text16" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/add_city" android:layout_width="0.0dip" android:layout_height="@dimen/widget_adapt_ring_size" android:layout_weight="1.0">
+                    <ImageView android:id="@id/img_add_city_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_adapt_weather_background" android:scaleType="fitXY" />
+                    <TextView android:textColor="@color/widget_adapt_textcolor" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adapt_add_cities" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="@dimen/widget_adapt_16dp" style="@style/RobotoMediumFont.Text14" />
+                    <ImageButton android:layout_gravity="end|center" android:id="@id/btn_add_city" android:background="@drawable/widget_weather_add_btn_bg" android:layout_width="@dimen/widget_adapt_56dp" android:layout_height="@dimen/widget_adapt_56dp" android:src="@drawable/ic_widget_weather_add" android:layout_marginEnd="@dimen/widget_adapt_8dp" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="center" android:id="@id/layout_weather" android:layout_width="0.0dip" android:layout_height="@dimen/widget_adapt_64dp" android:layout_weight="1.0">
+                    <ImageView android:id="@id/img_weather_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_adapt_weather_background" android:scaleType="fitXY" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_64dp">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/weather_icon" android:layout_width="@dimen/widget_adapt_30dp" android:layout_height="@dimen/widget_adapt_30dp" android:src="@drawable/ic_weather_partly_sunny" android:scaleType="fitCenter" />
+                            <TextView android:textColor="@color/widget_adapt_text_content_color" android:id="@id/temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text28" />
+                        </LinearLayout>
+                        <TextView android:textColor="@color/widget_adapt_textcolor" android:ellipsize="end" android:id="@id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginHorizontal="@dimen/widget_adapt_24dp" style="@style/RobotoMediumFont.Text12" />
+                        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/alert_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_adapt_24dp">
+                            <TextView android:textColor="@color/widget_adapt_textcolor" android:ellipsize="end" android:id="@id/alert_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="@style/RobotoMediumFont.Text12" />
+                            <ProgressBar android:id="@id/alter_icon" android:layout_width="@dimen/widget_adapt_14dp" android:layout_height="@dimen/widget_adapt_14dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/widget_warning_anim" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_adapt_24dp">
+                    <ImageView android:id="@id/ring1" android:layout_width="@dimen/widget_adapt_ring_size" android:layout_height="@dimen/widget_adapt_ring_size" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/ring2" android:layout_width="@dimen/widget_adapt_ring_size" android:layout_height="@dimen/widget_adapt_ring_size" android:scaleType="fitCenter" android:layout_marginStart="@dimen/widget_adapt_22dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

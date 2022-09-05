@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/weather_area" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v_add_cities_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/v_widget_click_area_padding_land">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/v_widget_start_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/v_widget_weather_max_width_land" android:text="@string/add_cities" style="@style/BlackText.vDate.Land" />
+        <ImageView android:id="@id/v_widget_middle_icon" android:layout_width="@dimen/v_widget_sep_image_size_land" android:layout_height="@dimen/v_widget_sep_image_size_land" android:src="@drawable/vic_sep_black" android:layout_marginStart="@dimen/v_widget_sep_image_padding_land" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v_battery_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/v_widget_click_area_padding_land">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/v_battery_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/v_widget_weather_max_width_land" android:text="@string/add_cities" style="@style/BlackText.vDate.Land" />
+        <ImageView android:id="@id/v_battery_icon" android:layout_width="@dimen/v_widget_sep_image_size_land" android:layout_height="@dimen/v_widget_sep_image_size_land" android:src="@drawable/vic_battery_black" android:layout_marginStart="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v_minute_cast_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/v_widget_click_area_padding_land">
+        <ImageView android:id="@id/v_normal_mc_icon" android:clickable="false" android:layout_width="@dimen/v_widget_icon_size_land" android:layout_height="@dimen/v_widget_icon_size_land" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/v_normal_mc_text1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="0.0dip" style="@style/BlackText.vDate.Land" />
+            <TextView android:id="@id/v_normal_mc_time" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/BlackText.vDate.Land" />
+            <TextView android:id="@id/v_normal_mc_text2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" style="@style/BlackText.vDate.Land" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

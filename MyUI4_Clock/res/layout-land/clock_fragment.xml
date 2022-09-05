@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/left_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.motorola.cn.deskclock.widget.LocalTime android:id="@id/local_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/divider" style="@style/land_divider" />
+    <RelativeLayout android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/clock_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <include android:id="@id/edit_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" layout="@layout/edit_bar_layout" />
+            <com.motorola.cn.deskclock.worldclock.widget.HeaderItemView android:id="@id/header_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/clock_list_layout" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/alarm_no_alarms" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_clock" android:layout_centerInParent="true" android:contentDescription="@string/no_alarms" style="@style/no_alarms" />
+        <RelativeLayout android:id="@id/clock_list_delete_layout" android:background="@drawable/selector_listviewx_delete_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/clock_buttombar_height" android:layout_alignParentBottom="true">
+            <View android:background="@color/listviewx_delete_head_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/selector_listviewx_delete_text_color" android:id="@id/clock_list_delete_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_delete" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/clock_add_btn_container" android:clickable="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="@dimen/alarm_add_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:backgroundTint="@color/add_circle" app:elevation="5.0dip" app:rippleColor="@color/add_circle_select_color" app:shapeAppearanceOverlay="@style/AudioStateStyle" app:srcCompat="@drawable/selector_ic_add_alarm" />
+    </RelativeLayout>
+</LinearLayout>

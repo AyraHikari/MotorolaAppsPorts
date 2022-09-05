@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 sat</item>
+        <item>2 sata</item>
+        <item>3 sata</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Vreme i vremenska prognoza</item>
+        <item>Vremenska prognoza</item>
+        <item>Vreme</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Farenhajt</item>
+        <item>Celzijus</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Maršalska ostrva</item>
+        <item>Ostrvo Midvej</item>
+        <item>Havaji</item>
+        <item>Aljaska</item>
+        <item>Pacifičko standardno vreme</item>
+        <item>Tihuana</item>
+        <item>Arizona</item>
+        <item>Čivava</item>
+        <item>Planinsko standardno vreme</item>
+        <item>Centralna Amerika</item>
+        <item>Centralno vreme</item>
+        <item>Meksiko Siti</item>
+        <item>Saskačevan</item>
+        <item>Bogota</item>
+        <item>Istočno standardno vreme</item>
+        <item>Venecuela</item>
+        <item>Atlantsko vreme (Barbados)</item>
+        <item>Atlantsko vreme (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santjago</item>
+        <item>Njufaundlend</item>
+        <item>Brazilija</item>
+        <item>Buenos Ajres</item>
+        <item>Grenland</item>
+        <item>Montevideo</item>
+        <item>Srednjeatlantsko vreme</item>
+        <item>Azorska ostrva</item>
+        <item>Zelenortska ostrva</item>
+        <item>Kazablanka</item>
+        <item>London, Dablin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Brisel</item>
+        <item>Sarajevo</item>
+        <item>Vindhuk</item>
+        <item>Zapadnoafričko vreme</item>
+        <item>Aman, Jordan</item>
+        <item>Atina, Istanbul</item>
+        <item>Bejrut, Liban</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalim</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Najrobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karači</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Šri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Jangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Pert</item>
+        <item>Tajpej</item>
+        <item>Seul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelejd</item>
+        <item>Darvin</item>
+        <item>Brzibejn</item>
+        <item>Hobart</item>
+        <item>Sidnej, Kanbera</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Okland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+        <item>Džakarta</item>
+    </string-array>
+</resources>

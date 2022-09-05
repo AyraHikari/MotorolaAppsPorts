@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/day" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minEms="3" android:textAllCaps="true" style="@style/Detail.Text16.medium" />
+    <ImageView android:id="@id/icon" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="27.5dip" android:adjustViewBounds="true" />
+    <TextView android:gravity="center" android:id="@id/highTemp" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.5dip" style="@style/Detail.Temp16.High" />
+    <TextView android:gravity="center" android:id="@id/lowTemp" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.5dip" style="@style/Detail.Temp16.Low" />
+</LinearLayout>

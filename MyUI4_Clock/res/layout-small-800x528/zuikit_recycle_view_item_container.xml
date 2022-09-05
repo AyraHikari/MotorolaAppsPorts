@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_alarm_clock_list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:id="@id/zuikit_checkbox_layout" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingStart="24.0dip" android:layout_alignParentStart="true">
+        <CheckBox android:theme="@style/AlarmCheckBox" android:id="@id/zuikit_item_edit_checkbox" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/zuikit_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/zuikit_checkbox_layout" />
+</RelativeLayout>

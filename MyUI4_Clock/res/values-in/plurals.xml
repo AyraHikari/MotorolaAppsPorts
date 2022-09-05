@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d jam di belakang</item>
+        <item quantity="one">1 jam di belakang</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d jam di depan</item>
+        <item quantity="one">1 jam di depan</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d detik</item>
+        <item quantity="one">1 detik</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+</resources>

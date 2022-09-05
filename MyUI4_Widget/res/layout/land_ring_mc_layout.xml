@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/minutecast_click_area" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/minutecast_view_icon" android:clickable="false" android:layout_width="@dimen/ring_mc_icon_size_land" android:layout_height="@dimen/ring_mc_icon_size_land" />
+        <TextView android:gravity="center" android:id="@id/minute_cast_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ring_widget_mc_text_margin_top_land" android:layout_marginBottom="@dimen/ring_widget_mc_text_space_land" style="@style/RingTextWhite.MCText3.Land" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/minute_cast_time" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RingTextWhite.MCNumber3.Land" />
+            <TextView android:id="@id/minute_cast_time_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_icon_margin" style="@style/RingTextWhite.MCText3.Land" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

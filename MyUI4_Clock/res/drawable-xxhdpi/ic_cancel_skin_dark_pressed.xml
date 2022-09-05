@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/ic_cancel_skin_dark_normal" android:alpha="0.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

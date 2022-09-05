@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>时间和天气</item>
+        <item>天气</item>
+        <item>时间</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>华氏温度</item>
+        <item>摄氏温度</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>马绍尔群岛</item>
+        <item>中途岛</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加</item>
+        <item>太平洋时间</item>
+        <item>蒂华纳</item>
+        <item>亚利桑那</item>
+        <item>奇瓦瓦</item>
+        <item>山区时区</item>
+        <item>中美洲</item>
+        <item>中部时间</item>
+        <item>墨西哥城</item>
+        <item>萨斯喀彻温</item>
+        <item>波哥大</item>
+        <item>东部时间</item>
+        <item>委内瑞拉</item>
+        <item>大西洋时间（巴巴多斯）</item>
+        <item>大西洋时间（加拿大）</item>
+        <item>马瑙斯</item>
+        <item>圣地亚哥</item>
+        <item>纽芬兰</item>
+        <item>巴西利亚</item>
+        <item>布宜诺斯艾利斯</item>
+        <item>格陵兰岛</item>
+        <item>蒙得维的亚</item>
+        <item>大西洋中部地区</item>
+        <item>亚述尔群岛</item>
+        <item>佛得角群岛</item>
+        <item>卡萨布兰卡</item>
+        <item>伦敦、都柏林</item>
+        <item>阿姆斯特丹、柏林</item>
+        <item>贝尔格莱德</item>
+        <item>布鲁塞尔</item>
+        <item>萨拉热窝</item>
+        <item>温得和克</item>
+        <item>西非时间</item>
+        <item>安曼、约旦</item>
+        <item>雅典、伊斯坦布尔</item>
+        <item>贝鲁特、黎巴嫩</item>
+        <item>开罗</item>
+        <item>赫尔辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格达</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>奈洛比</item>
+        <item>德黑兰</item>
+        <item>巴库</item>
+        <item>第比利斯</item>
+        <item>埃里温</item>
+        <item>迪拜</item>
+        <item>喀布尔</item>
+        <item>伊斯兰堡、卡拉奇</item>
+        <item>乌拉尔斯克</item>
+        <item>叶卡捷琳堡</item>
+        <item>加尔各答</item>
+        <item>斯里兰卡</item>
+        <item>加德满都</item>
+        <item>阿斯塔纳</item>
+        <item>仰光</item>
+        <item>克拉斯诺亚尔斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊尔库茨克</item>
+        <item>吉隆坡</item>
+        <item>珀斯</item>
+        <item>台北</item>
+        <item>首尔</item>
+        <item>东京、大阪</item>
+        <item>雅库茨克</item>
+        <item>阿德莱德</item>
+        <item>达尔文</item>
+        <item>布里斯班</item>
+        <item>霍巴特</item>
+        <item>悉尼、堪培拉</item>
+        <item>海参崴</item>
+        <item>关岛</item>
+        <item>马加丹</item>
+        <item>奥克兰</item>
+        <item>斐济</item>
+        <item>汤加</item>
+        <item>雅加达</item>
+    </string-array>
+</resources>

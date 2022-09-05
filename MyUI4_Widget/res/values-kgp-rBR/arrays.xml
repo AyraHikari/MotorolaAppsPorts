@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>Óra pir</item>
+        <item>Óra régre</item>
+        <item>Óra tẽgtũ</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Óra mré Kanhkã tugnỹm</item>
+        <item>Kanhkã tugnỹm</item>
+        <item>Orarijo</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Mỹrsar Goj-Vẽso</item>
+        <item>Mĩnnuvej Goj-Vẽso</item>
+        <item>Honãruru</item>
+        <item>Aranhka</item>
+        <item>Óra Pasifiku tá</item>
+        <item>Tijuỹnỹ</item>
+        <item>Arisãnỹ</item>
+        <item>Sivava</item>
+        <item>Óra Krĩ-ag tá</item>
+        <item>Óra Kuju (Pãnĩ Tũ Mág)</item>
+        <item>Óra kuju</item>
+        <item>Ẽmã tỹ Mẽsiku</item>
+        <item>Orarijo Kuju (Rejĩnỹ)</item>
+        <item>Korãmija (Mogota)</item>
+        <item>Rãjur Óra (Yjórki Tãg)</item>
+        <item>Venẽjuvéra</item>
+        <item>Atrỹtiko Óra (Marm.)</item>
+        <item>Atrỹtiko Óra (Kỹn.)</item>
+        <item>Amỹsãnỹ (Mỹnỹv)</item>
+        <item>Sỹtijagu</item>
+        <item>Ga tãg</item>
+        <item>Brasilia</item>
+        <item>Muenũsairi</item>
+        <item>Groẽrỹnija</item>
+        <item>Mãtivinév</item>
+        <item>Jiórja tỹ Sur (Jiórja tỹ Sur)</item>
+        <item>Asorenh</item>
+        <item>Pu Tánh Goj-Vẽso</item>
+        <item>Ĩnkupri</item>
+        <item>Mirinjỹnũ Grinũvisi tá (Rãnere)</item>
+        <item>Orópa Kuju (Amĩnhterná)</item>
+        <item>Orópa Kuju tỹ Óra (Mergrane)</item>
+        <item>Orópa Kuju (Mruséra)</item>
+        <item>Sarajevo</item>
+        <item>"Vĩno'ék"</item>
+        <item>Afrika Rãpur (Mrasaviri)</item>
+        <item>Amỹ, Jornánĩja</item>
+        <item>Orópa Rãjur (Atẽnỹ)</item>
+        <item>Oropa Rãjur (Mejiruti)</item>
+        <item>Kajro</item>
+        <item>"Orópa  Rãjur (Hérsĩgke)"</item>
+        <item>Jerujarẽj</item>
+        <item>Mĩgsiki</item>
+        <item>Harari</item>
+        <item>Magna</item>
+        <item>Mãnhkov</item>
+        <item>Kuvaiti</item>
+        <item>Nỹjirómi</item>
+        <item>"Te'erỹ"</item>
+        <item>Maku</item>
+        <item>Timiriji</item>
+        <item>Yjerevỹ</item>
+        <item>Numaj</item>
+        <item>Kamur</item>
+        <item>Irỹmỹman, Karasi</item>
+        <item>Raore</item>
+        <item>Ekaterĩmurgo</item>
+        <item>Korkata</item>
+        <item>Siri Rỹka</item>
+        <item>Katimỹnu</item>
+        <item>Armaty</item>
+        <item>Jỹgãn</item>
+        <item>Kranhnãjarsk (Kranhnãjarsk)</item>
+        <item>Mág-kóki</item>
+        <item>Mejnhĩg</item>
+        <item>Hãg Kãg</item>
+        <item>"Irkutinhki (Irkutinhki) "</item>
+        <item>Kuvara Rũpur</item>
+        <item>Avotyraria Rãpur (Perth)</item>
+        <item>Tajpej</item>
+        <item>"Se'ur"</item>
+        <item>Japã (Tókijo)</item>
+        <item>Yjakutinhki</item>
+        <item>Anerajne</item>
+        <item>Narvĩn</item>
+        <item>Avotyraria Rãjur (Mrijmánẽ)</item>
+        <item>Homarti</item>
+        <item>Sininẽj, Kỹméha</item>
+        <item>Unanivónhtóki (Uranivónhtóki)</item>
+        <item>Guvỹm</item>
+        <item>"Mỹganan (Mỹganan) "</item>
+        <item>Óg-rỹn</item>
+        <item>Fiji</item>
+        <item>Tãga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

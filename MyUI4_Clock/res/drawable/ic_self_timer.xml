@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M8,7.5L8,4L16,4L16,7.5L12,11.5L8,7.5ZM8,16.5L8,20L16,20L16,16.5L12,12.5L8,16.5ZM14.7027,11.2938L17.6996,8.2819C17.8856,8.0949 17.9902,7.842 17.9907,7.5782L17.9983,3.0017C17.9993,2.4494 17.5523,2.0009 17,2C16.9994,2 16.9989,2 16.9983,2L7,2C6.4477,2 6,2.4477 6,3L6,7.5858C6,7.851 6.1054,8.1054 6.2929,8.2929L9.292,11.292C9.6825,11.6825 9.6825,12.3157 9.292,12.7062C9.2917,12.7065 9.2914,12.7068 9.2911,12.7071L6.2938,15.697C6.1057,15.8846 6,16.1393 6,16.4049L6,21C6,21.5523 6.4477,22 7,22L16.9983,22C17.5506,22 17.9983,21.5523 17.9983,21C17.9983,20.9994 17.9983,20.9989 17.9983,20.9983L17.9907,16.4125C17.9902,16.1483 17.8853,15.895 17.6987,15.7079L14.7036,12.7053C14.3146,12.3154 14.3142,11.6842 14.7027,11.2938Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M10,8.2222l0,-1.2222l4,0l0,1.2222l-2,1.7778z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

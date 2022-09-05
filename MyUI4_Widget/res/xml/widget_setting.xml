@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:layout="@layout/preference_list" android:title="@string/weather_panel_title" android:key="weather_setting" android:summary="@string/weather_panel_summary" app:iconSpaceReserved="true" />
+    <Preference android:layout="@layout/preference_list" android:title="@string/clock_panel_title" android:key="clock_setting" android:summary="@string/clock_panel_summary_digital" app:iconSpaceReserved="true" />
+    <com.motorola.commandcenter.weather.settings.AppPreference android:title="@string/fit_setting_title" android:key="fit_setting" android:defaultValue="false" app:iconSpaceReserved="false" />
+    <ListPreference android:entries="@array/panel_type_array" android:layout="@layout/preference_list" android:title="@string/default_panel_title" android:key="default_panel" android:summary="@string/default_panel_summary" android:defaultValue="0" android:dialogTitle="@string/default_panel_dialog_title" android:entryValues="@array/panel_type_array_value" android:iconSpaceReserved="true" app:iconSpaceReserved="true" />
+    <Preference android:layout="@layout/preference_list" android:title="@string/feed_back" android:key="feed_back" app:iconSpaceReserved="true" />
+</androidx.preference.PreferenceScreen>

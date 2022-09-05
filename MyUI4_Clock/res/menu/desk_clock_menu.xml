@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_items">
+        <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/menu_item_night_mode" android:title="@string/menu_item_night_mode" />
+        <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/menu_item_settings" android:title="@string/menu_item_settings" />
+        <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/menu_item_help" android:title="@string/menu_item_help" />
+    </group>
+</menu>

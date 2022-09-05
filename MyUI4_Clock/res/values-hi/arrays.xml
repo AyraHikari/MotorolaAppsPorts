@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>अलार्म अब से 1 मिनट से कम समय के लिए सेट है।</item>
+        <item>अलार्म अब से %1$s के लिए सेट है।</item>
+        <item>अलार्म अब से %2$s के लिए सेट है।</item>
+        <item>अलार्म अब से %1$s और %2$s के लिए सेट है।</item>
+        <item>अलार्म अब से %3$s के लिए सेट है।</item>
+        <item>अलार्म अब से %1$s और %3$s के लिए सेट है।</item>
+        <item>अलार्म अब से %2$s और %3$s के लिए सेट है।</item>
+        <item>अलार्म अब से %1$s, %2$s, और %3$s के लिए सेट है।</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>15 मिनट</item>
+        <item>20 मिनट</item>
+        <item>25 मिनट</item>
+        <item>30 मिनट</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>अनालॉग</item>
+        <item>डिजिटल</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>अनालॉग</item>
+        <item>डिजिटल</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>रिंग करते समय स्थानीय मौसम प्रदर्शित करने के लिए इंटरनेट से कनेक्ट करें</item>
+        <item>रिंग करते समय स्थानीय मौसम प्रदर्शित करने के लिए स्थान आवश्यक है।</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>मोबाइल नेटवर्क तक पहुँच करें</item>
+        <item>स्थान तक पहुँच करें</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>पूर्वाह्न</item>
+        <item>अपराह्न</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>जन.</item>
+        <item>फ़र.</item>
+        <item>मार्च.</item>
+        <item>अप्रै.</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुला.</item>
+        <item>अग.</item>
+        <item>सित.</item>
+        <item>अक्तू.</item>
+        <item>नव.</item>
+        <item>दिस.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>खारिज करें</item>
+        <item>स्नूज़ करें</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>मानक</item>
+        <item>टेब्लेट</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>स्टैक करें</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>एक बार</item>
+        <item>प्रति दिन</item>
+        <item>कार्यदिवस (छुट्टियों के दौरान बंद)</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>एक बार</item>
+        <item>प्रति दिन</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>रवि</item>
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>कभी नहीं</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>15 मिनट</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>एक मिनट से कम शेष है</item>
+        <item>%1$s शेष</item>
+        <item>%2$s शेष</item>
+        <item>%1$s%2$s शेष</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>रिंग करें</item>
+        <item>कंपन</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>मार्शल आइलैंड्स,</item>
+        <item>मिडवे आइलैंड</item>
+        <item>हवाई</item>
+        <item>अलास्का</item>
+        <item>प्रशांत समय</item>
+        <item>तिजुआना</item>
+        <item>एरिज़ोना</item>
+        <item>चिहुआहुआ</item>
+        <item>पर्वतीय समय</item>
+        <item>मध्य अमेरिका</item>
+        <item>केंद्रीय समय</item>
+        <item>मेक्सिको शहर</item>
+        <item>सैसकैचवैन</item>
+        <item>बोगोटा</item>
+        <item>पूर्वी समय</item>
+        <item>वेनेज़ुएला</item>
+        <item>अटलांटिक समय (बारबाडोस)</item>
+        <item>अटलांटिक समय (कनाडा)</item>
+        <item>मेनॉस</item>
+        <item>सैंटियागो</item>
+        <item>न्यूफ़ाउंडलैंड</item>
+        <item>ब्रासीलिया</item>
+        <item>ब्यूनस आयर्स</item>
+        <item>ग्रीनलैंड,</item>
+        <item>मोंटेवीडियो</item>
+        <item>मध्य-अटलांटिक</item>
+        <item>अज़ोरेस</item>
+        <item>केप वर्डे आइलैंड्स</item>
+        <item>कैसाब्लांका</item>
+        <item>लंदन, डबलिन</item>
+        <item>एम्स्टर्डम, बर्लिन</item>
+        <item>बेलग्रेड</item>
+        <item>ब्रुसेल्स</item>
+        <item>साराजेवो</item>
+        <item>विंडहोक</item>
+        <item>प. अफ़्रीका समय</item>
+        <item>अम्मान, जॉर्डन</item>
+        <item>एथेंस, इस्तांबुल</item>
+        <item>बेरूत, लेबनान</item>
+        <item>काहिरा</item>
+        <item>हेल्सिंकी</item>
+        <item>यरूशलेम</item>
+        <item>मिन्स्क</item>
+        <item>हरारे</item>
+        <item>बगदाद</item>
+        <item>मॉस्को</item>
+        <item>कुवैत</item>
+        <item>नैरोबी</item>
+        <item>तेहरान</item>
+        <item>बाकु</item>
+        <item>ट्बीलिसी</item>
+        <item>येरवान</item>
+        <item>दुबई</item>
+        <item>काबुल</item>
+        <item>इस्लामाबाद, कराची</item>
+        <item>युराल्स्क</item>
+        <item>येकातेरिनबर्ग</item>
+        <item>कोलकाता</item>
+        <item>श्री लंका,</item>
+        <item>काठमांडू</item>
+        <item>अस्टाना</item>
+        <item>यांगून</item>
+        <item>क्रास्नायार्स्क</item>
+        <item>बैंकॉक</item>
+        <item>बीजिंग</item>
+        <item>हांग कांग</item>
+        <item>इरकुत्स्क</item>
+        <item>कुआला लमपुर</item>
+        <item>पर्थ</item>
+        <item>तेपई</item>
+        <item>सियोल</item>
+        <item>टोक्यो, ओसाका</item>
+        <item>याकुत्स्क</item>
+        <item>एडिलेड</item>
+        <item>डार्विन</item>
+        <item>ब्रिस्बेन</item>
+        <item>होबार्ट</item>
+        <item>सिडनी, कैनबरा</item>
+        <item>व्लादिवोस्तोक</item>
+        <item>गुआम</item>
+        <item>मागडेन</item>
+        <item>ऑक्लैंड</item>
+        <item>फ़ीजी</item>
+        <item>टोंगा</item>
+        <item>जकार्ता</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>प्रशांत/माजुरो</item>
+        <item>प्रशांत/मिडवे</item>
+        <item>प्रशांत/होनोलूलू</item>
+        <item>अमेरिका/एंकोरेज</item>
+        <item>अमेरिका/लॉस_एंजिल्स</item>
+        <item>अमेरिका/तिजुआना</item>
+        <item>अमेरिका/फीनिक्स</item>
+        <item>अमेरिका/चिहुआहा</item>
+        <item>अमेरिका/डेनवर</item>
+        <item>अमेरिका/कोस्टा_रिका</item>
+        <item>अमेरिका/शिकागो</item>
+        <item>अमेरिका/मैक्सिको_सिटी</item>
+        <item>अमेरिका/रेगिना</item>
+        <item>अमेरिका/बोगोटा</item>
+        <item>अमेरीका/न्यू_यॉर्क</item>
+        <item>अमेरिका/कराकस</item>
+        <item>अमेरिका/बार्बाडोस</item>
+        <item>अमेरिका/हैलिफ़ैक्स</item>
+        <item>अमेरिका/मेनॉस</item>
+        <item>अमेरिका/सैंटियागो</item>
+        <item>अमेरिका/सेंट_जॉन्स</item>
+        <item>अमेरिका/साओ_पाउलो</item>
+        <item>अमेरिका/अर्जेंटीना/बुएनोस_ऐरेस</item>
+        <item>अमेरिका/गोड्थाब</item>
+        <item>अमेरिका/मोंटेवीडियो</item>
+        <item>अटलांटिक/दक्षिणी_जॉर्जिया</item>
+        <item>अटलांटिक/अज़ोरेस</item>
+        <item>अटलांटिक/केप_वर्दे</item>
+        <item>अफ़्रीका/कैसाब्लांका</item>
+        <item>यूरोप/लंदन</item>
+        <item>यूरोप/एम्सटर्डम</item>
+        <item>यूरोप/बेलग्रेड</item>
+        <item>यूरोप/ब्रुसेल्स</item>
+        <item>यूरोप/साराजेवो</item>
+        <item>अफ़्रीका/विंडहोक</item>
+        <item>अफ़्रीका/ब्रैज़ाविल</item>
+        <item>एशिया/अम्मान</item>
+        <item>यूरोप/एथेंस</item>
+        <item>एशिया/बेरूत</item>
+        <item>अफ़्रीका/काइरो</item>
+        <item>यूरोप/हेलसिंकी</item>
+        <item>एशिया/यरूशलेम</item>
+        <item>यूरोप/मिन्स्क</item>
+        <item>अफ़्रीका/हरारे</item>
+        <item>एशिया/बगदाद</item>
+        <item>यूरोप/मॉस्को</item>
+        <item>एशिया/कुवैत</item>
+        <item>अफ़्रीका/नैरोबी</item>
+        <item>एशिया/तेहरान</item>
+        <item>एशिया/बाकू</item>
+        <item>एशिया/ट्बीलिसी</item>
+        <item>एशिया/येरवान</item>
+        <item>एशिया/दुबई</item>
+        <item>एशिया/काबुल</item>
+        <item>एशिया/कराची</item>
+        <item>एशिया/ओरल</item>
+        <item>एशिया/येकातेरिनबर्ग</item>
+        <item>एशिया/कोलकाता</item>
+        <item>एशिया/कोलंबो</item>
+        <item>एशिया/काठमांडु</item>
+        <item>एशिया/अल्माटी</item>
+        <item>एशिया/रंगून</item>
+        <item>एशिया/क्रास्नायार्स्क</item>
+        <item>एशिया/बैंकॉक</item>
+        <item>एशिया/शंघाई</item>
+        <item>एशिया/हांग_कांग</item>
+        <item>एशिया/इर्कुत्स्क</item>
+        <item>एशिया/कुआला_लंपुर</item>
+        <item>ऑस्ट्रेलिया/पर्थ</item>
+        <item>एशिया/ताइपे</item>
+        <item>एशिया/सियोल</item>
+        <item>एशिया/टोक्यो</item>
+        <item>एशिया/याकुत्स्क</item>
+        <item>ऑस्ट्रेलिया/एडिलेड</item>
+        <item>ऑस्ट्रेलिया/डार्विन</item>
+        <item>ऑस्ट्रेलिया/ब्रिस्बेन</item>
+        <item>ऑस्ट्रेलिया/होबार्ट</item>
+        <item>ऑस्ट्रेलिया/सिडनी</item>
+        <item>एशिया/व्लादिवोस्तोक</item>
+        <item>प्रशांत/गुआम</item>
+        <item>एशिया/मगादन</item>
+        <item>प्रशांत/ऑकलैंड</item>
+        <item>प्रशांत/फ़ीजी</item>
+        <item>प्रशांत/टोंगाटापु</item>
+        <item>एशिया/जकार्ता</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>स्थगन</item>
+        <item>खारिज करें</item>
+        <item>कुछ न करना</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>कोमल</item>
+        <item>सामान्य</item>
+        <item>तेज़</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cli_adapt_14dp" android:layout_below="@id/checkout_btn_container" app:cardBackgroundColor="@color/plugin_cli_card_bg" app:cardCornerRadius="@dimen/cli_adapt_26dp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/temp_layout" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_8dp" android:paddingHorizontal="@dimen/cli_adapt_20dp">
+            <TextView android:textColor="@color/plugin_cli_content_text_0" android:gravity="center" android:id="@id/weather_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineHeight="@dimen/cli_adapt_58dp" style="@style/CliCard.Temperature" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/cli_adapt_14dp">
+                <TextView android:textColor="@color/plugin_cli_content_text_0" android:id="@id/weather_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@android:color/transparent" style="@style/CliCard.Text16" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/layout_temp_range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_2dp">
+                    <TextView android:textColor="@color/plugin_cli_text_color_3" android:id="@id/weather_high_temperature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@android:color/transparent" android:layout_marginEnd="@dimen/cli_adapt_8dp" style="@style/CliCard.Text16" />
+                    <TextView android:textColor="@color/plugin_cli_text_color_3" android:id="@id/weather_low_temperature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@android:color/transparent" style="@style/CliCard.Text16" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/img_today_weather" android:layout_width="@dimen/cli_adapt_60dp" android:layout_height="@dimen/cli_adapt_60dp" android:scaleType="fitXY" android:layout_marginEnd="@dimen/cli_adapt_8dp" />
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:layout_gravity="bottom|center" android:id="@id/weather_hour_list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/cli_adapt_10dp" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/cli_adapt_10dp" app:cardBackgroundColor="@color/plugin_cli_inner_card_color_list" app:cardCornerRadius="@dimen/cli_adapt_26dp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/weather_list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/cli_adapt_12dp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

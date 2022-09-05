@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:background="@color/setting_page_bg_color" android:layout_width="312.0dip" android:layout_height="wrap_content" android:layout_marginVertical="60.0dip" app:cardCornerRadius="@dimen/widget_adapt_28dp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="20.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_widget_adapt_guide" />
+                <TextView android:textColor="@color/widget_adapt_guide_content" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/adapt_widget" android:layout_weight="1.0" android:layout_marginStart="12.0dip" style="@style/SettingRobotoRegularFont.Text12" />
+                <ImageView android:id="@id/img_close" android:background="@drawable/ripple_bg_done" android:padding="10.0dip" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/ic_widget_adapt_close_guide" android:scaleType="fitCenter" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lottie_anim" android:layout_width="204.0dip" android:layout_height="204.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/adapt_widget_guide_anim" />
+                <TextView android:textColor="@color/widget_adapt_guide_title" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/widget_adapt_guide_title" android:maxLines="5" android:layout_marginHorizontal="20.0dip" style="@style/SettingRobotoMediumFont.Text20" />
+                <TextView android:textColor="@color/widget_adapt_guide_content" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/widget_adapt_guide_content" android:maxLines="10" android:layout_marginHorizontal="20.0dip" style="@style/SettingRobotoRegularFont.Text14" />
+                <TextView android:textColor="@color/widget_adapt_accent_color" android:layout_gravity="end" android:id="@id/tv_done" android:background="@drawable/ripple_bg_done" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="@string/widget_adapt_guide_done" android:layout_marginEnd="14.0dip" style="@style/SettingRobotoMediumFont.Text14" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

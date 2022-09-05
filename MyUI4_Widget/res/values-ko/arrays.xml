@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>시계 및 날씨</item>
+        <item>날씨</item>
+        <item>시계</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>화씨</item>
+        <item>섭씨</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>마셜 제도</item>
+        <item>미드웨이 제도</item>
+        <item>하와이</item>
+        <item>알래스카</item>
+        <item>태평양 표준시</item>
+        <item>티후아나</item>
+        <item>애리조나</item>
+        <item>치와와</item>
+        <item>산지 표준시</item>
+        <item>중앙 아메리카</item>
+        <item>중부 표준시</item>
+        <item>멕시코시티</item>
+        <item>서스캐처원</item>
+        <item>보고타</item>
+        <item>동부 표준시</item>
+        <item>베네수엘라</item>
+        <item>대서양 표준시(바베이도스)</item>
+        <item>대서양 표준시(캐나다)</item>
+        <item>마나우스</item>
+        <item>산티아고</item>
+        <item>뉴펀들랜드</item>
+        <item>브라질리아</item>
+        <item>부에노스아이레스</item>
+        <item>그린란드</item>
+        <item>몬테비데오</item>
+        <item>중부-대서양</item>
+        <item>아조레스</item>
+        <item>카보베르데 제도</item>
+        <item>카사블랑카</item>
+        <item>런던, 더블린</item>
+        <item>암스테르담, 베를린</item>
+        <item>베오그라드</item>
+        <item>브뤼셀</item>
+        <item>사라예보</item>
+        <item>빈트후크</item>
+        <item>서아프리카 시간</item>
+        <item>암만, 요르단</item>
+        <item>아테네, 이스탄불</item>
+        <item>베이루트, 레바논</item>
+        <item>카이로</item>
+        <item>헬싱키</item>
+        <item>예루살렘</item>
+        <item>민스크</item>
+        <item>하라레</item>
+        <item>바그다드</item>
+        <item>모스크바</item>
+        <item>쿠웨이트</item>
+        <item>나이로비</item>
+        <item>테헤란</item>
+        <item>바쿠</item>
+        <item>트빌리시</item>
+        <item>예레반</item>
+        <item>두바이</item>
+        <item>카불</item>
+        <item>이슬라마바드, 카라치</item>
+        <item>우랄스크</item>
+        <item>예카테린부르크</item>
+        <item>콜카타</item>
+        <item>스리랑카</item>
+        <item>카트만두</item>
+        <item>아스타나</item>
+        <item>양곤</item>
+        <item>크라스노야르스크</item>
+        <item>방콕</item>
+        <item>베이징</item>
+        <item>홍콩</item>
+        <item>이르쿠츠크</item>
+        <item>쿠알라룸푸르</item>
+        <item>퍼스</item>
+        <item>타이베이</item>
+        <item>서울</item>
+        <item>도쿄, 오사카</item>
+        <item>야쿠츠크</item>
+        <item>애들레이드</item>
+        <item>다윈</item>
+        <item>브리스베인</item>
+        <item>호바트</item>
+        <item>시드니, 캔버라</item>
+        <item>블라디보스토크</item>
+        <item>괌</item>
+        <item>마가단</item>
+        <item>오클랜드</item>
+        <item>피지</item>
+        <item>통가</item>
+        <item>자카르타</item>
+    </string-array>
+</resources>

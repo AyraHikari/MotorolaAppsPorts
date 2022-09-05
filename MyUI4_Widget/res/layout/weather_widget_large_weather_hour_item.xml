@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/widget_adapt_24dp" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="true" style="@style/RobotoMediumFont.Text12" />
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/widget_adapt_20dp" android:layout_height="@dimen/widget_adapt_20dp" android:layout_marginTop="@dimen/widget_adapt_26dp" android:layout_marginBottom="@dimen/widget_adapt_20dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:includeFontPadding="false" />
+    <TextView android:id="@id/no_data" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/widget_adapt_20dp" android:layout_marginTop="@dimen/widget_adapt_8dp" style="@style/RobotoMediumFont.Text12" />
+    <TextView android:textColor="@color/widget_weather_text_color_1" android:id="@id/temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text12" />
+    <TextView android:textColor="@color/widget_weather_text_color_2" android:id="@id/low_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_adapt_4dp" android:includeFontPadding="false" style="@style/RobotoMediumFont.Text12" />
+</LinearLayout>

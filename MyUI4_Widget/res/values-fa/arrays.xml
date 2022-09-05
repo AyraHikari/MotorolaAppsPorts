@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>۱ ساعت</item>
+        <item>۲ ساعت</item>
+        <item>۳ ساعت</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>زمان و وضع هوا</item>
+        <item>وضعیت هوا</item>
+        <item>زمان</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>فارنهایت</item>
+        <item>سلسیوس</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزایر مارشال</item>
+        <item>جزیره میدوی</item>
+        <item>هاوایی</item>
+        <item>آلاسکا</item>
+        <item>زمان اقیانوس آرام</item>
+        <item>تیهوانا</item>
+        <item>آریزونا</item>
+        <item>چی‌واوا</item>
+        <item>زمان کوهستانی</item>
+        <item>آمریکای مرکزی</item>
+        <item>زمان مرکزی</item>
+        <item>مکزیکوسیتی</item>
+        <item>ساسکاچوان</item>
+        <item>بوگوتا</item>
+        <item>زمان شرقی</item>
+        <item>ونزوئلا</item>
+        <item>زمان اقیانوس اطلس (باربادوس)</item>
+        <item>زمان اقیانوس اطلس (کانادا)</item>
+        <item>مانائوس</item>
+        <item>سانتیاگو</item>
+        <item>نیوفاندلند</item>
+        <item>برازیلیا</item>
+        <item>بوینوس آیرس</item>
+        <item>گرینلند</item>
+        <item>مونته ویدیو</item>
+        <item>میانه اطلس</item>
+        <item>آزور</item>
+        <item>جزایر کیپ ورد</item>
+        <item>کازابلانکا</item>
+        <item>لندن، دوبلین</item>
+        <item>آمستردام، برلین</item>
+        <item>بلگراد</item>
+        <item>بروکسل</item>
+        <item>سارایه‌وو</item>
+        <item>ویندهوک</item>
+        <item>زمان آفریقای غربی</item>
+        <item>عمان، اردن</item>
+        <item>آتن، استانبول</item>
+        <item>بیروت، لبنان</item>
+        <item>قاهِرِه</item>
+        <item>هلسینکی</item>
+        <item>اورشلیم</item>
+        <item>مینسک</item>
+        <item>هراره</item>
+        <item>بغداد</item>
+        <item>مسکو</item>
+        <item>کویت</item>
+        <item>نایروبی</item>
+        <item>تهران</item>
+        <item>باکو</item>
+        <item>تفلیس</item>
+        <item>ایروان</item>
+        <item>دوبی</item>
+        <item>کابل</item>
+        <item>اسلام آباد، کراچی</item>
+        <item>اورالسک</item>
+        <item>یکاترینبورگ</item>
+        <item>کلکته</item>
+        <item>سری لانکا</item>
+        <item>کاتماندو</item>
+        <item>آستانه</item>
+        <item>یانگون</item>
+        <item>کراسنویارسک</item>
+        <item>بانکوک</item>
+        <item>پکن</item>
+        <item>هنگ کنگ</item>
+        <item>ایرکوتسک</item>
+        <item>کوالا لامپور</item>
+        <item>پرت</item>
+        <item>تایپه</item>
+        <item>سئول</item>
+        <item>توکیو، اوساکا</item>
+        <item>یاکوتسک</item>
+        <item>آدلاید</item>
+        <item>داروین</item>
+        <item>بریزبن</item>
+        <item>هوبارت</item>
+        <item>سیدنی، کانبرا</item>
+        <item>ولادی‌وستوک</item>
+        <item>گوام</item>
+        <item>ماگادان</item>
+        <item>اوکلند</item>
+        <item>فیجی</item>
+        <item>تونگا</item>
+        <item>جاکارتا</item>
+    </string-array>
+</resources>

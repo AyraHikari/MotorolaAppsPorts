@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Час і погода</item>
+        <item>Погода</item>
+        <item>Час</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>За Фаренгейтом</item>
+        <item>За Цельсієм</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршаллові острови</item>
+        <item>Острови Мідвей</item>
+        <item>Гаваї</item>
+        <item>Аляска</item>
+        <item>Північноамериканський тихоокеанський час</item>
+        <item>Тіхуана</item>
+        <item>Арізона</item>
+        <item>Чіуауа</item>
+        <item>Гірський час</item>
+        <item>Центральна Америка</item>
+        <item>Центральний час</item>
+        <item>Мехіко</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Північноамериканський східний час</item>
+        <item>Венесуела</item>
+        <item>Атлантичний час (Барбадос)</item>
+        <item>Атлантичний час (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантьяго</item>
+        <item>Ньюфаундленд</item>
+        <item>Бразиліа</item>
+        <item>Буенос-Айрес</item>
+        <item>Гренландія</item>
+        <item>Монтевідео</item>
+        <item>Середньоатлантичні штати</item>
+        <item>Азорські острови</item>
+        <item>Острови Кабо-Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублін</item>
+        <item>Амстердам, Берлін</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараєво</item>
+        <item>Віндгук</item>
+        <item>Західноафриканський час</item>
+        <item>Амман, Йорданія</item>
+        <item>Афіни, Стамбул</item>
+        <item>Бейрут, Ліван</item>
+        <item>Каїр</item>
+        <item>Хельсінкі</item>
+        <item>Єрусалим</item>
+        <item>Мінськ</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найробі</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбілісі</item>
+        <item>Єреван</item>
+        <item>Дубаї</item>
+        <item>Кабул</item>
+        <item>Ісламабад, Карачі</item>
+        <item>Орал</item>
+        <item>Єкатеринбург</item>
+        <item>Колката</item>
+        <item>Шри-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янґон</item>
+        <item>Красноярськ</item>
+        <item>Бангкок</item>
+        <item>Пекін</item>
+        <item>Гонконг</item>
+        <item>Іркутськ</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбей</item>
+        <item>Сеул</item>
+        <item>Токіо, Осака</item>
+        <item>Якутськ</item>
+        <item>Аделаїда</item>
+        <item>Дарвін</item>
+        <item>Брисбен</item>
+        <item>Гобарт</item>
+        <item>Сідней, Канберра</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окленд</item>
+        <item>Фіджі</item>
+        <item>Тонга</item>
+        <item>Джакарта</item>
+    </string-array>
+</resources>

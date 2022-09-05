@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <com.motorola.cn.deskclock.widget.ArcRemindView android:id="@id/remind_bg" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" clock:arc_remind_color="#ff1a2333" clock:arc_remind_height="37.0dip" />
+    <ImageView android:id="@id/lock_screen_slide" android:visibility="gone" android:layout_width="31.0dip" android:layout_height="0.0dip" android:scaleType="center" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_label" />
+    <TextView android:id="@id/lock_screen_close" android:layout_marginTop="35.0dip" style="@style/alarm_lockscreen_prompt" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/ripple_decelerate" android:duration="1500"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <propertyValuesHolder android:valueType="intType" android:propertyName="alpha">
+        <keyframe android:value="0" android:fraction="0.0" />
+        <keyframe android:value="0" android:fraction="0.17" />
+        <keyframe android:value="204" android:fraction="0.33" />
+        <keyframe android:value="0" android:fraction="0.67" />
+        <keyframe android:value="0" android:fraction="1.0" />
+    </propertyValuesHolder>
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="scale">
+        <keyframe android:value="1.1" android:fraction="0.0" />
+        <keyframe android:value="1.1" android:fraction="0.17" />
+        <keyframe android:value="1.6" android:fraction="0.67" />
+        <keyframe android:value="1.6" android:fraction="1.0" />
+    </propertyValuesHolder>
+</objectAnimator>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_bg_size" android:minHeight="100.0dip" android:updatePeriodMillis="0" android:initialLayout="@layout/ring_widget_layout_loading" android:previewImage="@drawable/ring_widget_preview_with_bg" android:resizeMode="horizontal" android:minResizeWidth="@dimen/widget_bg_size" android:widgetCategory="home_screen" android:previewLayout="@layout/ring_widget_prelayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

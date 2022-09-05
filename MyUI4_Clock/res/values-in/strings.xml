@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">=Abidjan|Africa/Abidjan</string>
+    <string name="C10">=Dakar|Africa/Dakar</string>
+    <string name="C100">=Amman|Asia/Amman</string>
+    <string name="C101">=Anadyr|Asia/Anadyr</string>
+    <string name="C102">=Aqtau|Asia/Aqtau</string>
+    <string name="C103">=Bagdad|Asia/Baghdad</string>
+    <string name="C104">=Bahrain|Asia/Bahrain</string>
+    <string name="C105">=Baku|Asia/Baku</string>
+    <string name="C106">=Bangkok|Asia/Bangkok</string>
+    <string name="C107">=Beirut|Asia/Beirut</string>
+    <string name="C108">K=Kolkata|Asia/Calcutta</string>
+    <string name="C109">=Damaskus|Asia/Damascus</string>
+    <string name="C11">=Dar es Salaam|Africa/Dar_es_Salaam</string>
+    <string name="C110">=Dhaka|Asia/Dhaka</string>
+    <string name="C111">=Dubai|Asia/Dubai</string>
+    <string name="C112">=Gaza|Asia/Gaza</string>
+    <string name="C113">=Hebron|Asia/Hebron</string>
+    <string name="C114">=Ho Chi Minh|Asia/Ho_Chi_Minh</string>
+    <string name="C115">=Hong Kong:|Asia/Hong_Kong</string>
+    <string name="C117">=Jakarta|Asia/Jakarta</string>
+    <string name="C118">=Yerusalem|Asia/Jerusalem</string>
+    <string name="C119">=Kabul|Asia/Kabul</string>
+    <string name="C12">=Jibuti|Africa/Djibouti</string>
+    <string name="C120">=Karachi|Asia/Karachi</string>
+    <string name="C121">=Kathmandu|Asia/Kathmandu</string>
+    <string name="C122">=Kuala Lumpur|Asia/Kuala_Lumpur</string>
+    <string name="C123">=Kuwait|Asia/Kuwait</string>
+    <string name="C124">=Makau|Asia/Macau</string>
+    <string name="C125">=Manila|Asia/Manila</string>
+    <string name="C126">=Muskat|Asia/Muscat</string>
+    <string name="C127">=Phnom Penh|Asia/Phnom_Penh</string>
+    <string name="C128">=Pyongyang:|Asia/Pyongyang</string>
+    <string name="C13">=Freetown|Africa/Freetown</string>
+    <string name="C130">=Rangoon|Asia/Rangoon</string>
+    <string name="C131">=Riyadh|Asia/Riyadh</string>
+    <string name="C133">=Seoul|Asia/Seoul</string>
+    <string name="C134">=Shanghai:|Asia/Shanghai</string>
+    <string name="C135">=Singapura|Asia/Singapore</string>
+    <string name="C136">=Taipei:|Asia/Taipei</string>
+    <string name="C137">=Teheran|Asia/Tehran</string>
+    <string name="C138">=Tel Aviv|Asia/Tel_Aviv</string>
+    <string name="C139">=Tokyo:|Asia/Tokyo</string>
+    <string name="C14">=Gaborone|Africa/Gaborone</string>
+    <string name="C140">=Ulan Bator|Asia/Ulaanbaatar</string>
+    <string name="C141">=Bermuda|Atlantic/Bermuda</string>
+    <string name="C142">=Canary|Atlantic/Canary</string>
+    <string name="C143">=Tanjung Verde|Atlantic/Cape_Verde</string>
+    <string name="C144">=Reykjavik|Atlantic/Reykjavik</string>
+    <string name="C145">=Stanley|Atlantic/Stanley</string>
+    <string name="C146">=Adelaide|Australia/Adelaide</string>
+    <string name="C147">=Brisbane|Australia/Brisbane</string>
+    <string name="C148">=Canberra|Australia/Canberra</string>
+    <string name="C149">=Darwin|Australia/Darwin</string>
+    <string name="C15">=Harare|Africa/Harare</string>
+    <string name="C150">=Melbourne|Australia/Melbourne</string>
+    <string name="C151">=New South Wales|Australia/NSW</string>
+    <string name="C152">=Perth|Australia/Perth</string>
+    <string name="C153">=Queensland|Australia/Queensland</string>
+    <string name="C154">=Sydney|Australia/Sydney</string>
+    <string name="C155">=Victoria|Australia/Victoria</string>
+    <string name="C156">=Newfoundland|Canada/Newfoundland</string>
+    <string name="C157">=Saskatchewan|Canada/Saskatchewan</string>
+    <string name="C158">=Pulau Paskah|Chile/EasterIsland</string>
+    <string name="C159">=Amsterdam|Europe/Amsterdam</string>
+    <string name="C16">=Johannesburg|Africa/Johannesburg</string>
+    <string name="C160">=Andorra|Europe/Andorra</string>
+    <string name="C161">=Athena|Europe/Athens</string>
+    <string name="C162">=Belfast|Europe/Belfast</string>
+    <string name="C163">=Beograd|Europe/Belgrade</string>
+    <string name="C164">=Berlin|Europe/Berlin</string>
+    <string name="C165">=Bratislava|Europe/Bratislava</string>
+    <string name="C166">=Brussel|Europe/Brussels</string>
+    <string name="C167">=Bucharest|Europe/Bucharest</string>
+    <string name="C168">=Budapest|Europe/Budapest</string>
+    <string name="C169">=Chisinau|Europe/Chisinau</string>
+    <string name="C17">=Kampala|Africa/Kampala</string>
+    <string name="C170">=Kopenhagen|Europe/Copenhagen</string>
+    <string name="C171">=Dublin|Europe/Dublin</string>
+    <string name="C172">=Gibraltar|Europe/Gibraltar</string>
+    <string name="C173">=Helsinki|Europe/Helsinki</string>
+    <string name="C174">=Pulau Man|Europe/Isle_of_Man</string>
+    <string name="C175">=Istanbul|Europe/Istanbul</string>
+    <string name="C176">=Kiev|Europe/Kiev</string>
+    <string name="C177">=Lisabon|Europe/Lisbon</string>
+    <string name="C178">=London|Europe/London</string>
+    <string name="C179">=Luksemburg|Europe/Luxembourg</string>
+    <string name="C18">=Khartoum|Africa/Khartoum</string>
+    <string name="C180">=Madrid|Europe/Madrid</string>
+    <string name="C181">=Malta|Europe/Malta</string>
+    <string name="C182">=Minsk|Europe/Minsk</string>
+    <string name="C183">=Monako|Europe/Monaco</string>
+    <string name="C184">=Moskwa|Europe/Moscow</string>
+    <string name="C185">=Oslo|Europe/Oslo</string>
+    <string name="C186">=Paris|Europe/Paris</string>
+    <string name="C187">=Praha|Europe/Prague</string>
+    <string name="C188">=Riga|Europe/Riga</string>
+    <string name="C189">=Roma|Europe/Rome</string>
+    <string name="C19">=Kigali|Africa/Kigali</string>
+    <string name="C190">=San Marino|Europe/San_Marino</string>
+    <string name="C191">=Sarajevo|Europe/Sarajevo</string>
+    <string name="C192">=Simferopol|Europe/Simferopol</string>
+    <string name="C193">=Skopje|Europe/Skopje</string>
+    <string name="C194">=Sofia|Europe/Sofia</string>
+    <string name="C195">=Stockholm|Europe/Stockholm</string>
+    <string name="C196">=Tallinn|Europe/Tallinn</string>
+    <string name="C197">=Vatikan|Europe/Vatican</string>
+    <string name="C198">=Wina|Europe/Vienna</string>
+    <string name="C199">=Vilnius|Europe/Vilnius</string>
+    <string name="C2">=Akra|Africa/Accra</string>
+    <string name="C20">=Kinshasa|Africa/Kinshasa</string>
+    <string name="C200">=Warsawa|Europe/Warsaw</string>
+    <string name="C201">=Zagreb|Europe/Zagreb</string>
+    <string name="C202">=Zurich|Europe/Zurich</string>
+    <string name="C203">=Antananarivo|Indian/Antananarivo</string>
+    <string name="C204">=Maladewa|Indian/Maldives</string>
+    <string name="C205">=Mauritius|Indian/Mauritius</string>
+    <string name="C206">=Auckland|Pacific/Auckland</string>
+    <string name="C207">=Fiji|Pacific/Fiji</string>
+    <string name="C208">=Guam|Pacific/Guam</string>
+    <string name="C209">=Honolulu|Pacific/Honolulu</string>
+    <string name="C21">=Lagos|Africa/Lagos</string>
+    <string name="C210">=Kiritimati|Pacific/Kiritimati</string>
+    <string name="C211">=Noumea|Pacific/Noumea</string>
+    <string name="C214">=Antigua|America/Antigua</string>
+    <string name="C215">=Austin|America/Chicago</string>
+    <string name="C216">=Boston|America/New_York</string>
+    <string name="C217">=Calgary|America/Denver</string>
+    <string name="C218">=Columbus|America/New_York</string>
+    <string name="C219">=Dallas|America/Chicago</string>
+    <string name="C22">=Maseru|Africa/Maseru</string>
+    <string name="C220">=Knoxville|America/New_York</string>
+    <string name="C221">=Memphis|America/Chicago</string>
+    <string name="C222">=Miami|America/New_York</string>
+    <string name="C223">=Minneapolis|America/Chicago</string>
+    <string name="C224">=Ottawa|America/New_York</string>
+    <string name="C225">=Philadelphia|America/New_York</string>
+    <string name="C226">=Portland|America/Los_Angeles</string>
+    <string name="C227">=San Diego|America/Los_Angeles</string>
+    <string name="C228">=San Francisco|America/Los_Angeles</string>
+    <string name="C229">=Salt Lake City|America/Denver</string>
+    <string name="C23">=Mogadishu|Africa/Mogadishu</string>
+    <string name="C230">=San Jose|America/Los_Angeles</string>
+    <string name="C231">=San Salvador|America/Guatemala</string>
+    <string name="C232">=Seattle|America/Los_Angeles</string>
+    <string name="C233">=St. Louis|America/Chicago</string>
+    <string name="C234">=Washington D.C.|America/New_York</string>
+    <string name="C235">=Houston|America/Chicago</string>
+    <string name="C236">=San Antonio|America/Chicago</string>
+    <string name="C237">=Jacksonville|America/New_York</string>
+    <string name="C238">=Baltimore|America/New_York</string>
+    <string name="C239">=Nashville|America/Chicago</string>
+    <string name="C24">=Nairobi|Africa/Nairobi</string>
+    <string name="C240">=Milwaukee|America/Chicago</string>
+    <string name="C241">=Oklahoma City|America/Chicago</string>
+    <string name="C242">=Las Vegas|America/Los_Angeles</string>
+    <string name="C243">=Albuquerque|America/Denver</string>
+    <string name="C244">=Tucson|MST</string>
+    <string name="C245">=Sacramento|America/Los_Angeles</string>
+    <string name="C246">=Atlanta|America/New_York</string>
+    <string name="C247">=Cleveland|America/New_York</string>
+    <string name="C248">=New Orleans|America/Chicago</string>
+    <string name="C249">=Tampa|America/New_York</string>
+    <string name="C25">=São Tomé|Africa/Sao_Tome</string>
+    <string name="C250">=Pittsburgh|America/New_York</string>
+    <string name="C251">=Cincinnati|America/New_York</string>
+    <string name="C252">=Mountain View|America/Los_Angeles</string>
+    <string name="C253">=Reno|America/Los_Angeles</string>
+    <string name="C254">=Black Rock City|America/Los_Angeles</string>
+    <string name="C255">=Doha|Asia/Riyadh</string>
+    <string name="C256">=Beijing:|Asia/Shanghai</string>
+    <string name="C257">=Mumbai|Asia/Kolkata</string>
+    <string name="C258">=Delhi|Asia/Kolkata</string>
+    <string name="C259">=Osaka:|Asia/Tokyo</string>
+    <string name="C26">=Timbuktu|Africa/Timbuktu</string>
+    <string name="C260">=Lahore|Asia/Karachi</string>
+    <string name="C261">"=Sana'a|Asia/Riyadh"</string>
+    <string name="C262">=Barcelona|Europe/Madrid</string>
+    <string name="C263">=Munich|Europe/Berlin</string>
+    <string name="C264">=Milan|Europe/Rome</string>
+    <string name="C265">=Frankfurt|Europe/Berlin</string>
+    <string name="C266">=Hanoi|Asia/Bangkok</string>
+    <string name="C267">=Ankara|Europe/Istanbul</string>
+    <string name="C268">=Bangalore|Asia/Kolkata</string>
+    <string name="C269">=Brasília|America/Sao_Paulo</string>
+    <string name="C27">=Tripoli|Africa/Tripoli</string>
+    <string name="C270">=Cape Town|Africa/Johannesburg</string>
+    <string name="C271">=Islamabad|Asia/Karachi</string>
+    <string name="C272">=Rio de Janeiro|America/Sao_Paulo</string>
+    <string name="C273">=Ann Arbor|America/Detroit</string>
+    <string name="C274">=Boulder|America/Denver</string>
+    <string name="C275">=Cambridge|America/New_York</string>
+    <string name="C276">=Kirkland|America/Los_Angeles</string>
+    <string name="C277">=Madison|America/Chicago</string>
+    <string name="C278">=Guangzhou:|Asia/Shanghai</string>
+    <string name="C279">=Hyderabad|Asia/Kolkata</string>
+    <string name="C28">=Tunisia|Africa/Tunis</string>
+    <string name="C280">=Reston|America/New_York</string>
+    <string name="C281">=Belo Horizonte|America/Sao_Paulo</string>
+    <string name="C282">=Santiago|America/Santiago</string>
+    <string name="C283">=Monrovia|Africa/Monrovia</string>
+    <string name="C284">=Colombo|Asia/Colombo</string>
+    <string name="C285">=Chihuahua|America/Chihuahua</string>
+    <string name="C286">=Salvador|America/Sao_Paulo</string>
+    <string name="C287">=Gurgaon|Asia/Kolkata</string>
+    <string name="C288">=Manchester|Europe/London</string>
+    <string name="C29">=Anchorage|America/Anchorage</string>
+    <string name="C290">=St. Petersburg|Europe/Moscow</string>
+    <string name="C291">=Kraków|Europe/Warsaw</string>
+    <string name="C292">=Wroclaw|Europe/Warsaw</string>
+    <string name="C293">=Hamburg|Europe/Berlin</string>
+    <string name="C294">=Oulu|Europe/Bucharest</string>
+    <string name="C295">=Haifa|Asia/Jerusalem</string>
+    <string name="C296">=San Juan|America/Puerto_Rico</string>
+    <string name="C297">=Tegucigalpa|America/Tegucigalpa</string>
+    <string name="C298">=Paramaribo|America/Paramaribo</string>
+    <string name="C299">=Quito|America/Panama</string>
+    <string name="C3">=Addis Ababa|Africa/Addis_Ababa</string>
+    <string name="C300">=Ljubljana|Europe/Ljubljana</string>
+    <string name="C301">A=Ashgabat|Asia/Ashgabat</string>
+    <string name="C302">A=Asmara|Africa/Asmara</string>
+    <string name="C303">B=Bandar Seri Begawan|Asia/Brunei</string>
+    <string name="C304">B=Bangui|Africa/Bangui</string>
+    <string name="C305">B=Banjul|Africa/Banjul</string>
+    <string name="C306">B=Bishkek|Asia/Bishkek</string>
+    <string name="C307">B=Bissau|Africa/Bissau</string>
+    <string name="C308">B=Bujumbura|Africa/Bujumbura</string>
+    <string name="C309">D=Dili|Asia/Dili</string>
+    <string name="C31">=Aruba|America/Aruba</string>
+    <string name="C310">D=Dushanbe|Asia/Dushanbe</string>
+    <string name="C311">F=Funafuti|Pacific/Funafuti</string>
+    <string name="C312">H=Honiara|Pacific/Guadalcanal</string>
+    <string name="C313">J=Juba|Africa/Juba</string>
+    <string name="C314">K=Kingstown|America/St_Vincent</string>
+    <string name="C315">L=Libreville|Africa/Libreville</string>
+    <string name="C316">L=Lomé|Africa/Lome</string>
+    <string name="C317">L=Luanda|Africa/Luanda</string>
+    <string name="C318">L=Lusaka|Africa/Lusaka</string>
+    <string name="C319">M=Majuro|Pacific/Majuro</string>
+    <string name="C32">=Asunción|America/Asuncion</string>
+    <string name="C320">M=Malabo|Africa/Malabo</string>
+    <string name="C321">M=Maputo|Africa/Maputo</string>
+    <string name="C322">M=Mbabane|Africa/Mbabane</string>
+    <string name="C323">M=Moroni|Indian/Comoro</string>
+    <string name="C324">"N=N'Djamena|Africa/Ndjamena"</string>
+    <string name="C325">N=Ngerulmud|Pacific/Palau</string>
+    <string name="C326">N=Niamey|Africa/Niamey</string>
+    <string name="C327">N=Nicosia|Europe/Nicosia</string>
+    <string name="C328">N=Nouakchott|Africa/Nouakchott</string>
+    <string name="C329">"N=Nuku'alofa|Pacific/Tongatapu"</string>
+    <string name="C33">=Barbados|America/Barbados</string>
+    <string name="C330">O=Ouagadougou|Africa/Ouagadougou</string>
+    <string name="C331">P=Palikir|Pacific/Noumea</string>
+    <string name="C332">P=Philipsburg|America/Lower_Princes</string>
+    <string name="C333">P=Podgorica|Europe/Podgorica</string>
+    <string name="C334">P=Port Moresby|Pacific/Palau</string>
+    <string name="C335">P=Port Vila|Pacific/Efate</string>
+    <string name="C336">P=Porto-Novo|Africa/Porto-Novo</string>
+    <string name="C337">P=Priština|Europe/Belgrade</string>
+    <string name="C338">R=Roseau|America/Dominica</string>
+    <string name="C339">T=Tashkent|Asia/Tashkent</string>
+    <string name="C34">=Belize|America/Belize</string>
+    <string name="C340">T=Tbilisi|Asia/Tbilisi</string>
+    <string name="C341">T=Thimphu|Asia/Thimphu</string>
+    <string name="C342">T=Tirana|Europe/Tirane</string>
+    <string name="C343">V=Vaduz|Europe/Vaduz</string>
+    <string name="C344">V=Vientiane|Asia/Vientiane</string>
+    <string name="C345">W=Windhoek|Africa/Windhoek</string>
+    <string name="C346">Y=Yaoundé|Africa/Douala</string>
+    <string name="C347">Y=Yaren District|Pacific/Nauru</string>
+    <string name="C348">Y=Yerevan|Asia/Yerevan</string>
+    <string name="C35">=Bogotá|America/Bogota</string>
+    <string name="C36">=Buenos Aires|America/Buenos_Aires</string>
+    <string name="C37">=Cancun|America/Cancun</string>
+    <string name="C38">=Caracas|America/Caracas</string>
+    <string name="C39">=Cayman|America/Cayman</string>
+    <string name="C4">=Algiers|Africa/Algiers</string>
+    <string name="C40">=Chicago|America/Chicago</string>
+    <string name="C42">=Curaçao|America/Curacao</string>
+    <string name="C43">=Dawson Creek|America/Dawson_Creek</string>
+    <string name="C44">=Denver|America/Denver</string>
+    <string name="C45">=Detroit|America/Detroit</string>
+    <string name="C46">=Dominika|America/Dominica</string>
+    <string name="C47">=Edmonton|America/Edmonton</string>
+    <string name="C48">=El Salvador|America/El_Salvador</string>
+    <string name="C49">=Fortaleza|America/Fortaleza</string>
+    <string name="C5">=Blantyre|Africa/Blantyre</string>
+    <string name="C50">=Grand Turk|America/Grand_Turk</string>
+    <string name="C51">=Grenada|America/Grenada</string>
+    <string name="C52">K=Kota Guatemala|America/Guatemala</string>
+    <string name="C53">=Guyana|America/Guyana</string>
+    <string name="C54">=Halifax|America/Halifax</string>
+    <string name="C55">=Havana|America/Havana</string>
+    <string name="C56">=Indianapolis|America/Indiana/Indianapolis</string>
+    <string name="C57">=Knox|America/Indiana/Knox</string>
+    <string name="C58">=Marengo|America/Indiana/Marengo</string>
+    <string name="C59">=Petersburg|America/Indiana/Petersburg</string>
+    <string name="C6">=Brazzaville|Africa/Brazzaville</string>
+    <string name="C60">=Tell City|America/Indiana/Tell_City</string>
+    <string name="C61">=Vevay|America/Indiana/Vevay</string>
+    <string name="C62">=Vincennes|America/Indiana/Vincennes</string>
+    <string name="C63">=Winamac|America/Indiana/Winamac</string>
+    <string name="C64">=Kingston|America/Jamaica</string>
+    <string name="C65">=Nuestra Señora de La Paz|America/La_Paz</string>
+    <string name="C66">=Lima|America/Lima</string>
+    <string name="C67">=Los Angeles|America/Los_Angeles</string>
+    <string name="C68">=Louisville|America/Louisville</string>
+    <string name="C69">=Managua|America/Managua</string>
+    <string name="C7">=Kairo|Africa/Cairo</string>
+    <string name="C70">=Martinik|America/Martinique</string>
+    <string name="C71">=Mendoza|America/Mendoza</string>
+    <string name="C72">=Metlakatla|America/Metlakatla</string>
+    <string name="C73">=Mexico City|America/Mexico_City</string>
+    <string name="C74">=Monterrey|America/Monterrey</string>
+    <string name="C75">=Montevideo|America/Montevideo</string>
+    <string name="C76">=Montreal|America/Montreal</string>
+    <string name="C77">=Nassau|America/Nassau</string>
+    <string name="C78">=New York|America/New_York</string>
+    <string name="C79">=Beulah|America/North_Dakota/Beulah</string>
+    <string name="C8">=Casablanca|Africa/Casablanca</string>
+    <string name="C80">=Center|America/North_Dakota/Center</string>
+    <string name="C81">=New Salem|America/North_Dakota/New_Salem</string>
+    <string name="C82">=Panama|America/Panama</string>
+    <string name="C83">=Phoenix|America/Phoenix</string>
+    <string name="C84">=Port of Spain|America/Port_of_Spain</string>
+    <string name="C85">=Port-au-Prince|America/Port-au-Prince</string>
+    <string name="C86">=Puerto Riko|America/Puerto_Rico</string>
+    <string name="C87">=Santo Domingo|America/Santo_Domingo</string>
+    <string name="C88">=São Paulo|America/Sao_Paulo</string>
+    <string name="C89">=St. Johns|America/St_Johns</string>
+    <string name="C9">=Conakry|Africa/Conakry</string>
+    <string name="C90">=St. Kitts|America/St_Kitts</string>
+    <string name="C91">=St. Lucia|America/St_Lucia</string>
+    <string name="C92">=St. Thomas|America/St_Thomas</string>
+    <string name="C93">=Tijuana|America/Tijuana</string>
+    <string name="C94">=Toronto|America/Toronto</string>
+    <string name="C95">=Vancouver|America/Vancouver</string>
+    <string name="C96">=Winnipeg|America/Winnipeg</string>
+    <string name="C97">=Kutub Selatan:|Antarctica/South_Pole</string>
+    <string name="C98">=Longyearbyen|Arctic/Longyearbyen</string>
+    <string name="C99">=Almaty|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
+    <string name="abc_action_bar_up_description">Kembali ke atas</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spasi</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Telusuri kueri</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_left_edit">Edit</string>
+    <string name="add_remark">Tambahkan catatan</string>
+    <string name="alarm_afternoon">siang</string>
+    <string name="alarm_alert_snooze_set">Tidur selama %d menit.</string>
+    <string name="alarm_classic">Alarm Classic</string>
+    <string name="alarm_flip_setting">Balikkan setelan</string>
+    <string name="alarm_is_set">Alarm disetel untuk %s</string>
+    <string name="alarm_is_snoozed">%s alarm ditidurkan selama 10 menit</string>
+    <string name="alarm_missed_title">Alarm ketinggalan</string>
+    <string name="alarm_morning">pagi</string>
+    <string name="alarm_mute_ringing_switch">Dering pada moda senyap</string>
+    <string name="alarm_notif_title">Alarm mendatang</string>
+    <string name="alarm_reapt">Ulangi</string>
+    <string name="alarm_reminder_tv">Waktu dengan jarak %6 dari dering</string>
+    <string name="alarm_repeat">Ulangi</string>
+    <string name="alarm_ring">dering alarm</string>
+    <string name="alarm_setting_flip_close_alarm_intro">Setelah ini ditutup, alarm hanya bisa dinonaktifkan dengan menggeser ke atas.</string>
+    <string name="alarm_setting_flip_close_alarm_title">Geser ke atas atau ke bawah untuk menghentikan alarm</string>
+    <string name="alarm_settings">ALARM</string>
+    <string name="alarm_shutdown_ringing_switch">Dering ketika ponsel tertutup</string>
+    <string name="alarm_time_activity">Alarm selesai</string>
+    <string name="alarm_time_after_now">%s jam di belakang</string>
+    <string name="alarm_time_before_now">%s jam di depan</string>
+    <string name="alarm_time_equal_now">Waktu Yang Sama</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">Tombol getaran</string>
+    <string name="alarm_volume_title">Volume alarm (Pengatur waktu)</string>
+    <string name="alarm_week">Kustom</string>
+    <string name="alert_dismiss_text">“Buang</string>
+    <string name="alert_remind_later">Tidur</string>
+    <string name="app_label">Jam</string>
+    <string name="auto_silence_never">Tidak pernah</string>
+    <string name="auto_silence_summary">%d menit</string>
+    <string name="auto_silence_title">Senyapkan setelah</string>
+    <string name="automatic_home_clock">Jam beranda otomatis</string>
+    <string name="automatic_home_clock_summary">Ketika bepergian di area dengan waktu berbeda, tambahkan jam untuk beranda</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="cancel_dialog">Batalkan</string>
+    <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
+    <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
+    <string name="check_draw_overlay_permission">Periksa izin untuk PopupWindow jam</string>
+    <string name="cities_activity_title">Tambahkan kota</string>
+    <string name="city_count_over_limit">Anda harus menghapus satu kota sebelum menambahkan yang baru</string>
+    <string name="clear_text_end_icon_content_description">Menghapus teks</string>
+    <string name="clock_settings">JAM</string>
+    <string name="clock_style">Corak</string>
+    <string name="close_alarm_notif">Buang</string>
+    <string name="copy">Salin</string>
+    <string name="cta_content_agree_go_on">Setuju</string>
+    <string name="cta_content_exit">Keluar</string>
+    <string name="custom_volume">Volume kustom</string>
+    <string name="custom_volume_silence">Nada Dering Senyap</string>
+    <string name="day">1 hari</string>
+    <string name="day_afternoon">PM</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">AM</string>
+    <string name="day_evening">PM</string>
+    <string name="day_midnoon">PM</string>
+    <string name="day_morning">AM</string>
+    <string name="days">%s hari</string>
+    <string name="days_of_week_day">Hari</string>
+    <string name="default_label">Alarm</string>
+    <string name="default_ring_title">Pagi Baru</string>
+    <string name="delete_failed">Hapus gagal</string>
+    <string name="delete_successfully">Dihapus</string>
+    <string name="delete_world_clock_confirm_tips">Hapus %d kota?</string>
+    <string name="delete_world_clock_confirm_tips_one">Hapus kota?</string>
+    <string name="deselect">Batalkan semua pilihan</string>
+    <string name="display_once">Jangan tanyakan lagi</string>
+    <string name="down_holidays_suscess">Data hari libur berhasil diunduh, harap setel ulang</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="edit_alarm_cancel">Batalkan</string>
+    <string name="edit_alarm_delete_cancel">Batalkan</string>
+    <string name="edit_alarm_delete_ok">Hapus</string>
+    <string name="edit_alarm_done">Selesai</string>
+    <string name="edit_alarm_give_up_dialog">Buang perubahan?</string>
+    <string name="edit_alarm_label_remind">26 karakter maksimum</string>
+    <string name="edit_alarm_last_ring_tv">Durasi tidur</string>
+    <string name="edit_alarm_no_label">Tidak ada label</string>
+    <string name="edit_alarm_remark">Catatan</string>
+    <string name="edit_alarm_sleep_mode">Tidur</string>
+    <string name="edit_alarm_title">Tambahkan Alarm</string>
+    <string name="edit_alarm_vibe">Getar saat berdering</string>
+    <string name="edit_alarm_volume_mode">Volume</string>
+    <string name="edit_alarm_weather">Siarkan cuaca ketika bel berbunyi</string>
+    <string name="edit_list_alarm_select">Pilih item</string>
+    <string name="edit_list_alarm_selected_dialog">Hapus alarm?</string>
+    <string name="edit_list_alarm_selected_number">%d Terpilih</string>
+    <string name="edit_list_alarms_selected_dialog">Hapus %d alarm?</string>
+    <string name="empty_list_msg">Hasil Tidak Ditemukan</string>
+    <string name="end_snooze">Tidur habis</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="every_day">Setiap hari</string>
+    <string name="expand_button_title">Lanjutan</string>
+    <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="give_up_dialog">Buang</string>
+    <string name="holidays_info">Hari kerja</string>
+    <string name="home_time_zone">Zona waktu beranda</string>
+    <string name="home_time_zone_title">Zona waktu beranda</string>
+    <string name="hour">1 jam</string>
+    <string name="hours">%s jam</string>
+    <string name="icon_content_description">Ikon Dialog</string>
+    <string name="invalid_time">Waktu tidak valid %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="label">Label</string>
+    <string name="label_description">Label</string>
+    <string name="local">Lokal</string>
+    <string name="lock_screen_weather_playing_text">Nada dering cuaca diputar</string>
+    <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_selection">Pilih jam</string>
+    <string name="material_hour_suffix">Pukul %1$s</string>
+    <string name="material_minute_selection">Pilih menit</string>
+    <string name="material_minute_suffix">%1$s menit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Beralih ke mode jam untuk masukan waktu.</string>
+    <string name="material_timepicker_hour">Jam</string>
+    <string name="material_timepicker_minute">Menit</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pilih waktu</string>
+    <string name="material_timepicker_text_input_mode_description">Beralih ke mode masukan teks untuk masukan waktu.</string>
+    <string name="menu_alarm">Alarm</string>
+    <string name="menu_clock">Jam</string>
+    <string name="menu_item_help">Bantuan</string>
+    <string name="menu_item_night_mode">Moda malam</string>
+    <string name="menu_item_settings">Setelan</string>
+    <string name="menu_item_sort_by_gmt_offset">Urutkan menurut waktu</string>
+    <string name="menu_stopwatch">Stopwatch</string>
+    <string name="menu_timer">Pengatur waktu</string>
+    <string name="minute">1 menit</string>
+    <string name="minute_unit">m</string>
+    <string name="minutes">%s menit</string>
+    <string name="missed_alarm_has_been_deleted">Alarm ketinggalan Anda telah dihapus</string>
+    <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Lebih dari %1$d notifikasi baru</string>
+    <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
+    <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
+    <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
+    <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
+    <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
+    <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
+    <string name="mtrl_picker_text_input_day_abbr">h</string>
+    <string name="mtrl_picker_text_input_month_abbr">b</string>
+    <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke memilih hari</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke memilih tahun</string>
+    <string name="net_connect_prompt_title">Permintaan izin</string>
+    <string name="never">Tidak pernah</string>
+    <string name="next_alarm_description">Alarm berikutnya: %s</string>
+    <string name="no_alarms">Tidak Ada Alarm</string>
+    <string name="no_clock">Tidak Ada Jam Dunia</string>
+    <string name="no_firing_alarms">Jangan bunyikan alarm</string>
+    <string name="no_holiday_data_prompt">Hari kerja (Koneksi ke Wifi untuk pertama kali)</string>
+    <string name="no_music">Tidak ada Musik Lokal</string>
+    <string name="no_record">Tidak ada Rekaman Lokal</string>
+    <string name="not_set">Belum disetel</string>
+    <string name="notification_channel_name">Notifikasi Jam</string>
+    <string name="number_picker_hour">J</string>
+    <string name="number_picker_minute">M</string>
+    <string name="number_picker_second">D</string>
+    <string name="ok_dialog">OKE</string>
+    <string name="once">Sekali</string>
+    <string name="password_toggle_content_description">Tampilkan sandi</string>
+    <string name="pick_from_music">Pilih Dari Musik</string>
+    <string name="pick_from_recorder">Pilih Dari Perekam</string>
+    <string name="pick_from_ringtone">Pilih Dari Nada Dering</string>
+    <string name="poweroff_alarm">Alarm Ketika Nonaktif</string>
+    <string name="poweroff_alarm_close_tips">Meskipun ponsel dinonaktifkan, alarm akan berbunyi selama waktu penyetelan lebih dari 5 menit.</string>
+    <string name="poweroff_alarm_open_tips">Meskipun ponsel dinonaktifkan, alarm akan berbunyi selama waktu penyetelan lebih dari 5 menit.</string>
+    <string name="poweroff_prompt_dlg_close">Pergi ke</string>
+    <string name="poweroff_prompt_dlg_msg">Dering ketika ponsel tertutup. Anda dapat menonaktifkan fitur ini di setelan alarm</string>
+    <string name="poweroff_prompt_dlg_ok">OKE</string>
+    <string name="poweroff_prompt_dlg_title">Alarm Ketika Nonaktif diaktifkan</string>
+    <string name="preference_copied">\"%1$s\" disalin ke papan klip.</string>
+    <string name="repeat_public_weekdays">Hari kerja</string>
+    <string name="ring_chose">Nada dering</string>
+    <string name="ringtone">Nada dering</string>
+    <string name="search_hint">Kota/Negara</string>
+    <string name="search_local_music">Cari Musik Lokal</string>
+    <string name="search_local_record">Cari Rekaman Lokal</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="second_unit">d</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="settings">Setelan</string>
+    <string name="show_notif">Tampilkan alarm mendatang di pusat notifikasi</string>
+    <string name="show_notif_open_tips">Pesan alarm akan ditampilkan di pusat notifikasi 2 jam sebelum berdering.</string>
+    <string name="silent_alarm">Senyap</string>
+    <string name="silent_alarm_summary">Senyap</string>
+    <string name="skip_alarm_next_time_normal">Alarm yang dilewati akan berbunyi lain kali</string>
+    <string name="snooze_duration_title">Lama tidur</string>
+    <string name="snooze_interval_later">nanti</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">Layanan stopwatch akan menjalankan notofikasi.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">Putaran</string>
+    <string name="sw_notification_lap_number">Putaran %d</string>
+    <string name="sw_pause_button">Jeda</string>
+    <string name="sw_reset_button">Setel ulang</string>
+    <string name="sw_resume_button">Lanjutkan</string>
+    <string name="sw_share_laps">Waktu putaran:</string>
+    <string name="sw_share_main">Waktu saya adalah %s</string>
+    <string name="sw_unit_digits">j m d</string>
+    <string name="swn_stopped">Dihentikan</string>
+    <string name="sync_alarm_from_server_completed">Layanan Awan telah memperbarui data jam</string>
+    <string name="time_handle_text_degree_unit">m</string>
+    <string name="time_span_unit_hour">jam</string>
+    <string name="time_span_unit_minute">menit</string>
+    <string name="time_span_unit_second">detik</string>
+    <string name="timer_am">AM</string>
+    <string name="timer_close">Tutup</string>
+    <string name="timer_dialog_btn_cancel">Batalkan</string>
+    <string name="timer_dialog_btn_start">Mulai</string>
+    <string name="timer_dialog_title">Setel waktu</string>
+    <string name="timer_fullscreen_prompt">Geser ke atas untuk menghentikan</string>
+    <string name="timer_fullscreen_summary_after">Pengatur waktu telah selesai</string>
+    <string name="timer_missed_title">Pengatur waktu ketinggalan</string>
+    <string name="timer_notification_label">Pengatur waktu</string>
+    <string name="timer_picker_hour_unit">j</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">d</string>
+    <string name="timer_ring_dialog_title">Moda dering</string>
+    <string name="timer_ring_service_desc">Bunyikan layanan putar ulang untuk pengatur waktu yang disetel pada Jam.</string>
+    <string name="timer_stopped">Pengatur Waktu Dihentikan</string>
+    <string name="timing">Pemilihan Waktu</string>
+    <string name="title_local_music">Lokal</string>
+    <string name="title_record">Rekam audio</string>
+    <string name="title_ringstone">Nada dering</string>
+    <string name="touch_on_close">Geser ke atas untuk menghentikan alarm</string>
+    <string name="touchupclose">Geser ke atas atau ke bawah untuk menghentikan alarm</string>
+    <string name="update_holiday_summary">Deteksi pembaruan yang tersedia di data hari libur</string>
+    <string name="update_holiday_title">Perbarui data hari libur</string>
+    <string name="v7_preference_off">NONAKTIF</string>
+    <string name="v7_preference_on">AKTIF</string>
+    <string name="volume_button_setting_title">Tombol volume</string>
+    <string name="weather_key_rain">hujan</string>
+    <string name="weekly">Mingguan</string>
+    <string name="world_time_today">Hari Ini</string>
+    <string name="world_time_tomorrow">Besok</string>
+    <string name="world_time_yesterday">Kemarin</string>
+</resources>

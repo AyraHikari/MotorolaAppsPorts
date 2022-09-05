@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/dialog_title_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/timer_dialog_title" />
+    <View android:background="@color/timer_dialog_divider_line" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <com.motorola.cn.deskclock.widget.TimerDateTimePicker android:id="@id/timer_picker" android:background="@drawable/alarm_picker_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/timer_dialog_divider_line" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <Button android:textSize="15.0sp" android:textColor="@color/timer_dialog_btn_text_color" android:gravity="center" android:id="@id/btn_timer_cancel" android:background="@drawable/timer_dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/timer_dialog_btn_cancel" android:layout_weight="1.0" />
+        <View android:background="@color/timer_dialog_divider_line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="15.0sp" android:textColor="@color/timer_dialog_btn_text_color" android:gravity="center" android:id="@id/btn_timer_start" android:background="@drawable/timer_dialog_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/timer_dialog_btn_start" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

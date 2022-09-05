@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">32.0dip</dimen>
+    <dimen name="alarm_add_margin_bottom">16.0dip</dimen>
+    <dimen name="clock_buttombar_height">30.0dip</dimen>
+    <dimen name="common_left_right_margin">16.0dip</dimen>
+    <dimen name="header_bg_clock_height">86.0dip</dimen>
+    <dimen name="landscape_padding_start_end">0.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+    <dimen name="pull_trans_y_max">90.0dip</dimen>
+    <dimen name="pull_trans_y_min">10.0dip</dimen>
+    <dimen name="remind_bottom_view_height">120.0dip</dimen>
+    <dimen name="stop_watch_counter_time_top_margin">12.0dip</dimen>
+    <dimen name="stop_watch_history_bottom_padding">0.0dip</dimen>
+    <dimen name="stop_watch_play_top_padding">5.0dip</dimen>
+    <dimen name="timer_view_top_margin">5.0dip</dimen>
+    <dimen name="trans_y_loop0_to_loop1">12.0dip</dimen>
+    <dimen name="trans_y_loop1_to_loop2">-2.0dip</dimen>
+    <dimen name="trans_y_prepare_to_loop0">-80.0dip</dimen>
+</resources>

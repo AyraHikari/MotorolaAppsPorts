@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>שעון מעורר מוגדר לפחות מדקה אחת מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%1$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%2$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%1$s ו-%2$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%3$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%1$s ו-%3$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%2$s ו-%3$s מעכשיו.</item>
+        <item>שעון מעורר מוגדר ל-%1$s, %2$s, ו-%3$s מעכשיו.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+        <item>20 דקות</item>
+        <item>25 דקות</item>
+        <item>30 דקות</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>אנלוגי</item>
+        <item>דיגיטלי</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>אנלוגי</item>
+        <item>דיגיטלי</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>התחבר אל האינטרנט להצגת מזג האוויר המקומי כאשר מצלצל</item>
+        <item>נדרש מיקום להצגת מזג האוויר המקומי כאשר מצלצל.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>גישה לרשת סלולרית</item>
+        <item>גישה למיקום</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"ינואר "</item>
+        <item>"פברואר "</item>
+        <item>"מרץ "</item>
+        <item>"אפריל "</item>
+        <item>מאי</item>
+        <item>"יוני "</item>
+        <item>"יולי "</item>
+        <item>"אוגוסט "</item>
+        <item>"ספטמבר "</item>
+        <item>"אוקטובר "</item>
+        <item>"נובמבר "</item>
+        <item>"דצמבר "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>התעלם</item>
+        <item>נמנום</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>סטנדרטי</item>
+        <item>טאבלט</item>
+        <item>כניסת קובייה</item>
+        <item>יציאת קובייה</item>
+        <item>היפוך אופקי</item>
+        <item>היפוך אנכי</item>
+        <item>ערימה</item>
+        <item>כניסת זום</item>
+        <item>יציאת זום</item>
+        <item>סיבוב למעלה</item>
+        <item>סיבוב למטה</item>
+        <item>אקורדיון</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>פעם אחת</item>
+        <item>כל יום</item>
+        <item>ימי עבודה(כבוי בחופשים)</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>פעם אחת</item>
+        <item>כל יום</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>אף פעם</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>נותרה פחות מדקה</item>
+        <item>%1$s נותרו</item>
+        <item>%2$s נותרו</item>
+        <item>%1$s%2$s נותרו</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>צלצול</item>
+        <item>רטט</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>איי מרשל</item>
+        <item>איי מידוויי</item>
+        <item>הוואי</item>
+        <item>אלסקה</item>
+        <item>זמן פסיפיק</item>
+        <item>טיחואנה</item>
+        <item>אריזונה</item>
+        <item>"צ'יוואווה"</item>
+        <item>זמן ההר</item>
+        <item>מרכז אמריקה</item>
+        <item>זמן מרכז</item>
+        <item>מקסיקו סיטי</item>
+        <item>"ססקצ'ואן"</item>
+        <item>בוגוטה</item>
+        <item>זמן מזרח</item>
+        <item>ונצואלה</item>
+        <item>זמן אטלנטי (ברבדוס)</item>
+        <item>זמן אטלנטי (קנדה)</item>
+        <item>מנאוס</item>
+        <item>סנטיאגו</item>
+        <item>ניופאונדלנד</item>
+        <item>ברזיליה</item>
+        <item>בואנוס איירס</item>
+        <item>גרינלנד</item>
+        <item>מונטוידאו</item>
+        <item>אמצע האוקיינוס האטלנטי</item>
+        <item>האיים האזוריים</item>
+        <item>איי קייפ ורדה</item>
+        <item>קזבלנקה</item>
+        <item>לונדון, דובלין</item>
+        <item>אמסטרדם, ברלין</item>
+        <item>בלגרד</item>
+        <item>בריסל</item>
+        <item>סרייבו</item>
+        <item>ווינדהוק</item>
+        <item>זמן מערב אפריקה</item>
+        <item>עמאן, ירדן</item>
+        <item>אתונה, איסטנבול</item>
+        <item>ביירות, לבנון</item>
+        <item>קהיר</item>
+        <item>הלסינקי</item>
+        <item>ירושלים</item>
+        <item>מינסק</item>
+        <item>הארארה</item>
+        <item>בגדד</item>
+        <item>מוסקבה</item>
+        <item>כוויית</item>
+        <item>ניירובי</item>
+        <item>טהרן</item>
+        <item>באקו</item>
+        <item>טביליסי</item>
+        <item>ירבן</item>
+        <item>דובאי</item>
+        <item>קאבול</item>
+        <item>"איסלמבאד, קראצ'י"</item>
+        <item>אוראלסק</item>
+        <item>יקטרינבורג</item>
+        <item>קולקטה</item>
+        <item>סרי לנקה</item>
+        <item>קטמנדו</item>
+        <item>אסטנה</item>
+        <item>ינגון</item>
+        <item>קרסנויארסק</item>
+        <item>בנגקוק</item>
+        <item>"בייג'ינג"</item>
+        <item>הונג קונג</item>
+        <item>אירקוצק</item>
+        <item>קואלה למפור</item>
+        <item>"פרת''"</item>
+        <item>טייפה</item>
+        <item>סיאול</item>
+        <item>טוקיו, אוסקה</item>
+        <item>יקוצק</item>
+        <item>אדלייד</item>
+        <item>דארווין</item>
+        <item>בריסביין</item>
+        <item>הובארט</item>
+        <item>סידני, קנברה</item>
+        <item>ולדיווסטוק</item>
+        <item>גואם</item>
+        <item>מגאדאן</item>
+        <item>אוקלנד</item>
+        <item>"פיג'י"</item>
+        <item>טונגה</item>
+        <item>"ג'קרטה"</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>פסיפיק/מאחורו</item>
+        <item>פסיפיק/מידוויי</item>
+        <item>פסיפיק/הונולולו</item>
+        <item>"אמריקה/אנקורג'"</item>
+        <item>"אמריקה/לוס_אנג'לס"</item>
+        <item>אמריקה/טיחואנה</item>
+        <item>אמריקה/פניקס</item>
+        <item>"אמריקה/צ'וואווה"</item>
+        <item>אמריקה/דנבר</item>
+        <item>אמריקה/קוסטה_ריקה</item>
+        <item>אמריקה/שיקגו</item>
+        <item>אמריקה/מקסיקו_סיטי</item>
+        <item>"אמריקה/רג'ינה"</item>
+        <item>אמריקה/בוגוטה</item>
+        <item>אמריקה/ניו_יורק</item>
+        <item>אמריקה/קראקס</item>
+        <item>אמריקה/ברבדוס</item>
+        <item>אמריקה/הליפקס</item>
+        <item>אמריקה/מנאוס</item>
+        <item>אמריקה/סנטיאגו</item>
+        <item>"אמריקה/סנט_ג'ונס"</item>
+        <item>אמריקה/סאו_פאולו</item>
+        <item>אמריקה/ארגנטינה/בואנוס_איירס</item>
+        <item>"אמריקה/גודת'אב"</item>
+        <item>אמריקה/מונטווידאו</item>
+        <item>"אטלנטי/דרום_ג'ורג'יה"</item>
+        <item>אטלנטי/האיים_האזוריים</item>
+        <item>אטלנטיק/קייפ_ורדה</item>
+        <item>אפריקה/קזבלנקה</item>
+        <item>אירופה/לונדון</item>
+        <item>אירופה/אמסטרדם</item>
+        <item>אירופה/בלגרד</item>
+        <item>אירופה/בריסל</item>
+        <item>אירופה/סרייבו</item>
+        <item>אפריקה/וינדהוק</item>
+        <item>אפריקה/ברזיוויל</item>
+        <item>אסיה/עמאן</item>
+        <item>אירופה/אתונה</item>
+        <item>אסיה/ביירות</item>
+        <item>אפריקה/קהיר</item>
+        <item>אירופה/הלסינקי</item>
+        <item>אסיה/ירושלים</item>
+        <item>אירופה/מינסק</item>
+        <item>אפריקה/הארארה</item>
+        <item>אסיה/בגדד</item>
+        <item>אירופה/מוסקבה</item>
+        <item>אסיה/כווית</item>
+        <item>אפריקה/נאירובי</item>
+        <item>אסיה/טהרן</item>
+        <item>אסיה/באקו</item>
+        <item>אסיה/טביליסי</item>
+        <item>אסיה/ירבן</item>
+        <item>אסיה/דובאי</item>
+        <item>אסיה/קאבול</item>
+        <item>"אסיה/קראצ'י"</item>
+        <item>אסיה/אוראל</item>
+        <item>אסיה/יקטרינבורג</item>
+        <item>אסיה/כלכותה</item>
+        <item>אסיה/קולומבו</item>
+        <item>אסיה/קטמנדו</item>
+        <item>אסיה/אלמטי</item>
+        <item>אסיה/רנגון</item>
+        <item>אסיה/קרסנויארסק</item>
+        <item>אסיה/בנגקוק</item>
+        <item>אסיה/שנחאי</item>
+        <item>אסיה/הונג_קונג</item>
+        <item>אסיה/אירקוצק</item>
+        <item>אסיה/קואלה_לומפר</item>
+        <item>"אוסטרליה/פרת'"</item>
+        <item>אסיה/טייפה</item>
+        <item>אסיה/סיאול</item>
+        <item>אסיה/טוקיו</item>
+        <item>אסיה/יקוצק</item>
+        <item>אוסטרליה/אדלייד</item>
+        <item>אוסטרליה/דארווין</item>
+        <item>אוסטרליה/בריסביין</item>
+        <item>אוסטרליה/הוברט</item>
+        <item>אוסטרליה/סידני</item>
+        <item>אסיה/ולדיווסטוק</item>
+        <item>פסיפיק/גואם</item>
+        <item>אסיה/מגאדאן</item>
+        <item>פסיפיק/אוקלנד</item>
+        <item>"פסיפיק/פיג'י"</item>
+        <item>פסיפיק/טונגאטפו</item>
+        <item>"אסיה/ג'קרטה"</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>נמנום</item>
+        <item>התעלם</item>
+        <item>אל תעשה דבר</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>חלש</item>
+        <item>רגיל</item>
+        <item>חזק</item>
+        <item>מותאם אישית</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+</resources>

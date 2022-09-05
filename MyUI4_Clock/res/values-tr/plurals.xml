@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d saat geride</item>
+        <item quantity="one">1 saat geride</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d saat ileride</item>
+        <item quantity="one">1 saat ileride</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">1 saniye</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+</resources>

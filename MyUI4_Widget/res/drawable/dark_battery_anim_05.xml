@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/dark_battery_ring_01" />
+    <item android:duration="@integer/display_on_frame_time" android:drawable="@drawable/dark_battery_ring_02" />
+    <item android:duration="@integer/display_on_frame_time" android:drawable="@drawable/dark_battery_ring_03" />
+    <item android:duration="@integer/display_on_frame_time" android:drawable="@drawable/dark_battery_ring_04" />
+    <item android:duration="@integer/display_on_frame_time" android:drawable="@drawable/dark_battery_ring_05" />
+</animation-list>

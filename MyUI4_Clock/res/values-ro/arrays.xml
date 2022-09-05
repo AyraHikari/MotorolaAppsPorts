@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarmă setată la mai puțin de 1 minut începând de acum.</item>
+        <item>Alarmă setată la %1$s începând de acum.</item>
+        <item>Alarmă setată la %2$s începând de acum.</item>
+        <item>Alarmă setată la %1$s și %2$s începând de acum.</item>
+        <item>Alarmă setată la %3$s începând de acum.</item>
+        <item>Alarmă setată la %1$s și %3$s începând de acum.</item>
+        <item>Alarmă setată la %2$s și %3$s începând de acum.</item>
+        <item>Alarmă setată la %1$s, %2$s și %3$s începând de acum.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analogic</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analogic</item>
+        <item>digital</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Conectați-vă la internet pentru a afișa vremea locală la apelare</item>
+        <item>Locația este necesară pentru a afișa vremea locală la afișare.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Acces rețea mobilă</item>
+        <item>Acces locație</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Respinge</item>
+        <item>Amânare</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tabletă</item>
+        <item>CubIntrare</item>
+        <item>CubIeșire</item>
+        <item>PliereVerticală</item>
+        <item>PliereOrizontală</item>
+        <item>Stivă</item>
+        <item>Mărire</item>
+        <item>Micșorare</item>
+        <item>RotireSus</item>
+        <item>RotireJos</item>
+        <item>Acordeon</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>O dată</item>
+        <item>În fiecare zi</item>
+        <item>Zile de lucru (oprit în timpul zilelor libere)</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>O dată</item>
+        <item>În fiecare zi</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Dum</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mie</item>
+        <item>Joi</item>
+        <item>Vin</item>
+        <item>Sâm</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Niciodată</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>A mai rămas mai puțin de un minut</item>
+        <item>%1$s rămas</item>
+        <item>%2$s rămas</item>
+        <item>%1$s%2$s rămas</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Sonerie</item>
+        <item>Vibrații</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Insulele Marshall</item>
+        <item>Insula Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Ora Pacificului</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Ora de Munte</item>
+        <item>America Cetrală</item>
+        <item>Ora Centrală</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Ora Estică</item>
+        <item>Venezuela</item>
+        <item>Ora Antlantică (Barbados)</item>
+        <item>Ora Atlantică (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Greenland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic</item>
+        <item>Azore</item>
+        <item>Insulele Capului Verde</item>
+        <item>Casablanca</item>
+        <item>Londra, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>W. Ora Africii</item>
+        <item>Amman, Iordania</item>
+        <item>Atena, Istanbul</item>
+        <item>Beirut, Liban</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Ierusalim</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Moscova</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Halifax</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/Georgia_de_Sud</item>
+        <item>Atlantic/Azore</item>
+        <item>Atlantic/Capul_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europa/Londra</item>
+        <item>Europa/Amsterdam</item>
+        <item>Europa/Belgrad</item>
+        <item>Europa/Bruxelles</item>
+        <item>Europa/Sarajevo</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europa/Atena</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europa/Helsinki</item>
+        <item>Asia/Ierusalim</item>
+        <item>Europa/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europa/Moscova</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Teheran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Ekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+        <item>Asia/Jakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Amânare</item>
+        <item>Respinge</item>
+        <item>Nu faceți nimic</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Încet</item>
+        <item>Normal</item>
+        <item>Tare</item>
+        <item>Personalizat</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Duminică</item>
+        <item>Luni</item>
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+    </string-array>
+</resources>

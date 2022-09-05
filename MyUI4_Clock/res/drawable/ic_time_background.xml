@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="58.0dip" android:width="58.0dip" android:viewportWidth="58.0" android:viewportHeight="58.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/world_clock_panel_color" android:pathData="M58,29C58,45.016 45.016,58 29,58C12.984,58 0,45.016 0,29C0,12.984 12.984,0 29,0C45.016,0 58,12.984 58,29" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

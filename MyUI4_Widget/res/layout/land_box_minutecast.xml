@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/minutecast_click_area" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/arch_center" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_centerVertical="true" />
+    <TextView android:id="@id/arch_3" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/r_3_land" android:layout_below="@id/arch_center" />
+    <ImageView android:id="@id/minutecast_view_icon" android:clickable="false" android:layout_width="@dimen/widget_mc_icon_size_land" android:layout_height="@dimen/widget_mc_icon_size_land" android:layout_marginTop="@dimen/mc_icon_margin_top_land" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/minute_cast_time" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_margin_bottom_15_land" android:layout_above="@id/arch_3" android:layout_alignBottom="@id/arch_3" android:layout_centerHorizontal="true" style="@style/WhiteText.TEXT15.Land" />
+    <TextView android:gravity="center" android:id="@id/minute_cast_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/text_margin_bottom_15_land" android:layout_above="@id/minute_cast_time" android:layout_centerHorizontal="true" style="@style/WhiteText.TEXT15.Land" />
+</RelativeLayout>

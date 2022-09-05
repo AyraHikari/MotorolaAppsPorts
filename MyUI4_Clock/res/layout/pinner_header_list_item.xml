@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_layout" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_pinner" android:paddingStart="@dimen/common_left_right_margin" android:paddingEnd="@dimen/common_left_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/city_choose_pinner" android:id="@id/textView_pinned_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:layout_centerVertical="true" />
+    <com.motorola.cn.deskclock.widget.DashLine android:id="@id/dash_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_alignBottom="@id/textView_pinned_header" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/textView_pinned_header" app:dash_line_color="@color/recycler_view_divider" />
+</RelativeLayout>

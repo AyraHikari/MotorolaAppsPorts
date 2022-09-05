@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/activity_main_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/detail_layout" android:paddingBottom="@dimen/indicator_height" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/margins_24" android:paddingHorizontal="@dimen/margins_24">
+                <androidx.cardview.widget.CardView android:id="@id/layout_circle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:cardBackgroundColor="@color/detail_cardview_bg_color" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/margins_24" android:layout_weight="1.0">
+                            <com.motorola.commandcenter.widget.CurrentWeatherView android:id="@id/current_weather_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <include layout="@layout/detail_today_weather_circle_layout" />
+                        </LinearLayout>
+                        <View android:id="@id/view_current_split_line" android:background="@color/detail_split_line_color" android:layout_width="1.0dip" android:layout_height="120.0dip" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/daily_weather_list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/margins_24" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/layout_hour_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margins_16" app:cardBackgroundColor="@color/detail_cardview_bg_color" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip" app:contentPaddingBottom="16.0dip" app:contentPaddingTop="@dimen/margins_24">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/hour_weather_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/margins_24">
+                            <TextView android:gravity="start|center" android:id="@id/hour_weather_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" style="@style/Detail.Text16.medium" />
+                            <TextView android:gravity="start|center" android:id="@id/update_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Detail.Text14.level2" />
+                        </LinearLayout>
+                        <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/detail_scrollview_thumb" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/hour_scroll" android:paddingTop="8.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="219.0dip" android:fadeScrollbars="false" android:overScrollMode="never" android:requiresFadingEdge="vertical">
+                            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/hour_weather_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/margins_24" />
+                        </androidx.core.widget.NestedScrollView>
+                        <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/more_weather_detail_button" android:background="@drawable/ripple_bg_more" android:layout_width="215.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:text="@string/more_weather_button_text" android:textAllCaps="false" style="@style/Detail.Text14.More" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView android:id="@id/layout_map" android:layout_width="0.0dip" android:layout_height="192.0dip" android:layout_marginTop="@dimen/margins_16" android:layout_weight="1.0" android:layout_marginEnd="12.0dip" app:cardBackgroundColor="@color/icon_white" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip">
+                        <ImageView android:id="@id/img_weather_map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    </androidx.cardview.widget.CardView>
+                    <com.motorola.commandcenter.widget.FooterView android:layout_gravity="bottom|center" android:id="@id/main_footer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margins_16" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

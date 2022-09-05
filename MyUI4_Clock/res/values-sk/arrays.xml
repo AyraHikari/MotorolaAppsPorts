@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Budík nastavený na menej ako 1 minútu odteraz.</item>
+        <item>Budík nastavený na %1$s odteraz.</item>
+        <item>Budík nastavený na %2$s odteraz.</item>
+        <item>Budík nastavený na %1$s a %2$s odteraz.</item>
+        <item>Budík nastavený na %3$s odteraz.</item>
+        <item>Budík nastavený na %1$s a %3$s odteraz.</item>
+        <item>Budík nastavený na %2$s a %3$s odteraz.</item>
+        <item>Budík nastavený na %1$s, %2$s a %3$s odteraz.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analógové</item>
+        <item>Digitálne</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analógové</item>
+        <item>digitálne</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Pripojte k internetu, ak chcete zobrazovať lokálne počasie pri zvonení</item>
+        <item>Poloha je potrebná, ak chcete zobrazovať lokálne počasie pri zvonení</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Prístup k mobilnej sieti</item>
+        <item>Prístup k polohe</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>dopol.</item>
+        <item>popol.</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"Jan. "</item>
+        <item>"Feb. "</item>
+        <item>"Mar. "</item>
+        <item>"Apr. "</item>
+        <item>"Máj "</item>
+        <item>"Jún "</item>
+        <item>"Júl. "</item>
+        <item>"Aug. "</item>
+        <item>"Sept. "</item>
+        <item>"Okt. "</item>
+        <item>"Nov. "</item>
+        <item>"Dec. "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Odmietnuť</item>
+        <item>Odložiť</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Štandardné</item>
+        <item>Tablet</item>
+        <item>Kocka dovnútra</item>
+        <item>Kocka von</item>
+        <item>Prevrátiť zvisle</item>
+        <item>Prevrátiť vodorovne</item>
+        <item>Stoh</item>
+        <item>Priblížiť</item>
+        <item>Oddialiť</item>
+        <item>Otočiť nahor</item>
+        <item>Otočiť nadol</item>
+        <item>Akordeón</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Raz</item>
+        <item>Každý deň</item>
+        <item>Pracovné dni (vypnuté počas sviatkov)</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Raz</item>
+        <item>Každý deň</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Uto</item>
+        <item>Str</item>
+        <item>Štv</item>
+        <item>Pia</item>
+        <item>Sob</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Nikdy</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Zostáva menej ako minúta</item>
+        <item>%1$s zostáva</item>
+        <item>%2$s zostáva</item>
+        <item>%1$s%2$s zostáva</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Zvonenie</item>
+        <item>Vibrovanie</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallove ostrovy</item>
+        <item>Ostrov Midway</item>
+        <item>Havaj</item>
+        <item>Aljaška</item>
+        <item>Pacifický čas</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Časové pásmo Mountain</item>
+        <item>Stredná America</item>
+        <item>Centrálne časové pásmo</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Východné časové pásmo</item>
+        <item>Venezuela</item>
+        <item>Atlantický čas (Barbados)</item>
+        <item>Atlantický čas (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>New Foundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grónsko</item>
+        <item>Montevideo</item>
+        <item>Stredný Atlantik</item>
+        <item>Azorské ostrovy</item>
+        <item>Kapverdské ostrovy</item>
+        <item>Casablanca</item>
+        <item>Londýn, Dublin</item>
+        <item>Amsterdam, Berlín</item>
+        <item>Belehrad</item>
+        <item>Brusel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>W. Západoafrický čas</item>
+        <item>Ammán, Jordánsko</item>
+        <item>Atény, Istanbul</item>
+        <item>Bejrút, Libanon</item>
+        <item>Káhira</item>
+        <item>Helsinki</item>
+        <item>Jeruzalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubaj</item>
+        <item>Kábul</item>
+        <item>Islamabád, Karáči</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kalkata</item>
+        <item>Srí Lanka</item>
+        <item>Káthmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Tchaj-pej</item>
+        <item>Soul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Halifax</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+        <item>Asia/Jakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Odložiť</item>
+        <item>Odmietnuť</item>
+        <item>Žiadna akcia</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Jemné</item>
+        <item>Normálne</item>
+        <item>Hlasné</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Nedeľa</item>
+        <item>Pondelok</item>
+        <item>Utorok</item>
+        <item>Streda</item>
+        <item>Štvrtok</item>
+        <item>Piatok</item>
+        <item>Sobota</item>
+    </string-array>
+</resources>

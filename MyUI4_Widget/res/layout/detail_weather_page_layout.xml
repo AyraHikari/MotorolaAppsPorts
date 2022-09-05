@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/video_view_container" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_anim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </FrameLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/activity_main_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/detail_layout" android:paddingTop="0.0dip" android:paddingBottom="@dimen/indicator_height" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/margins_16">
+                <androidx.cardview.widget.CardView android:id="@id/layout_circle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:cardBackgroundColor="@color/detail_cardview_bg_color" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip">
+                    <ImageView android:id="@id/layout_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:adjustViewBounds="true" />
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/margins_24" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.motorola.commandcenter.widget.CurrentWeatherView android:id="@id/current_weather_layout" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                        <View android:id="@id/view_current_split_line" android:background="@color/detail_split_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/daily_weather_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" />
+                        <include layout="@layout/detail_today_weather_circle_layout" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/layout_hour_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margins_16" app:cardBackgroundColor="@color/detail_cardview_bg_color" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip" app:contentPaddingBottom="20.0dip" app:contentPaddingTop="@dimen/margins_24">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/hour_weather_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/margins_24">
+                            <TextView android:gravity="start|center" android:id="@id/hour_weather_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" style="@style/Detail.Text20.medium" />
+                            <TextView android:gravity="start|center" android:id="@id/update_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Detail.Text14.level2" />
+                        </LinearLayout>
+                        <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/detail_scrollview_thumb" android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/hour_scroll" android:paddingTop="8.0dip" android:scrollbars="vertical" android:fadingEdgeLength="10.0dip" android:layout_width="fill_parent" android:layout_height="296.0dip" android:fadeScrollbars="false" android:overScrollMode="never" android:requiresFadingEdge="vertical">
+                            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/hour_weather_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/margins_24" />
+                        </androidx.core.widget.NestedScrollView>
+                        <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/more_weather_detail_button" android:background="@drawable/ripple_bg_more" android:layout_width="215.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:text="@string/more_weather_button_text" android:textAllCaps="false" style="@style/Detail.Text14.More" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/layout_map" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_marginTop="@dimen/margins_16" app:cardBackgroundColor="@color/icon_white" app:cardCornerRadius="@dimen/detail_cardview_radius" app:cardElevation="0.0dip">
+                    <ImageView android:id="@id/img_weather_map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_map_place_holder" android:scaleType="centerInside" />
+                </androidx.cardview.widget.CardView>
+                <com.motorola.commandcenter.widget.FooterView android:layout_gravity="bottom|center" android:id="@id/main_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margins_16" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

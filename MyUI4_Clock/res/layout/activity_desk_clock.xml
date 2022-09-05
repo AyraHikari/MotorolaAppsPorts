@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <com.motorola.cn.deskclock.widget.ArcHeaderView android:id="@id/header_bg" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_alignParentTop="true" clock:arc_height="@dimen/arc_header_height" clock:end_color="@color/bg" clock:start_color="@color/bg" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <com.motorola.cn.deskclock.worldclock.widget.ExtendViewPager android:id="@id/desk_clock_pager" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/layout_tabs" android:layout_below="@id/toolbar" android:importantForAccessibility="no" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/layout_tabs" android:background="@color/bottomTabBar" android:layout_width="fill_parent" android:layout_height="@dimen/desk_tab_layout_height" android:layout_alignParentBottom="true" clock:tabBackground="?android:selectableItemBackgroundBorderless" clock:tabGravity="fill" clock:tabIndicator="@color/bottomTabBar" clock:tabIndicatorHeight="0.0dip" clock:tabMaxWidth="0.0dip" clock:tabMode="fixed" clock:tabRippleColor="@null" />
+</RelativeLayout>

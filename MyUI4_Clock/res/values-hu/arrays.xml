@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Mostantól számítva 1 percnél rövidebb időre van beállítva az ébresztés.</item>
+        <item>%1$s van hátra az ébresztésig.</item>
+        <item>%2$s van hátra az ébresztésig.</item>
+        <item>%1$s és %2$s van hátra az ébresztésig.</item>
+        <item>%3$s van hátra az ébresztésig.</item>
+        <item>%1$s és %3$s van hátra az ébresztésig.</item>
+        <item>%2$s és %3$s van hátra az ébresztésig.</item>
+        <item>%1$s, %2$s és %3$s van hátra az ébresztésig.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>20 perc</item>
+        <item>25 perc</item>
+        <item>30 perc</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analóg</item>
+        <item>Digitális</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>Analóg</item>
+        <item>Digitális</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Kapcsolódás az internethez, hogy csengetéskor megjeleníthesse a helyi időjárási adatokat.</item>
+        <item>Hely megadása szükséges, hogy csengetéskor megjeleníthesse a helyi időjárási adatokat.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Mobilhálózathoz hozzáférés</item>
+        <item>Hozzáférési hely</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>DE</item>
+        <item>DU</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>Május</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Kikapcsolás</item>
+        <item>Szundi</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Normál</item>
+        <item>Táblagép</item>
+        <item>Kocka behajtás</item>
+        <item>Kocka kihajtás</item>
+        <item>Függőleges tükrözés</item>
+        <item>Vízszintes tükrözés</item>
+        <item>Halom</item>
+        <item>Nagyítás</item>
+        <item>Kicsinyítés</item>
+        <item>Felfelé fordítás</item>
+        <item>Lefelé fordítás</item>
+        <item>Harmonika</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Egyszer</item>
+        <item>Minden nap</item>
+        <item>Munkanapok (ünnepnapokon kikapcsolva)</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Egyszer</item>
+        <item>Minden nap</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Vas</item>
+        <item>Hét</item>
+        <item>Ked</item>
+        <item>Sze</item>
+        <item>Csü</item>
+        <item>Pén</item>
+        <item>Szo</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Soha</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Egy percnél kevesebb van hátra.</item>
+        <item>%1$s van hátra.</item>
+        <item>%2$s van hátra.</item>
+        <item>%1$s%2$s van hátra.</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Csengés</item>
+        <item>Rezgés</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall-szigetek</item>
+        <item>Midway-sziget</item>
+        <item>Hawaii</item>
+        <item>Alaszka</item>
+        <item>Csendes-óceáni idő</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hegyi idő</item>
+        <item>Közép-Amerika</item>
+        <item>Amerikai középidő</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Keleti idő</item>
+        <item>Venezuela</item>
+        <item>Atlanti-óceáni idő (Barbados)</item>
+        <item>Atlanti-óceáni idő (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Új-Fundland</item>
+        <item>Brazília</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Közép-atlanti</item>
+        <item>Azori-szigetek</item>
+        <item>Zöld-foki-szigetek</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amszterdam, Berlin</item>
+        <item>Belgrád</item>
+        <item>Brüsszel</item>
+        <item>Szarajevó</item>
+        <item>Windhoek</item>
+        <item>Nyugat- Afrikai idő</item>
+        <item>Amman, Jordánia</item>
+        <item>Athén, Isztambul</item>
+        <item>Bejrút, Libanon</item>
+        <item>Kairó</item>
+        <item>Helsinki</item>
+        <item>Jeruzsálem</item>
+        <item>Minszk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moszkva</item>
+        <item>Kuvait</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbiliszi</item>
+        <item>Jereván</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Iszlámábád, Karachi</item>
+        <item>Uralszk</item>
+        <item>Jekatyerinburg</item>
+        <item>Kolkata</item>
+        <item>Srí Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasznojarszk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutszk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Szöul</item>
+        <item>Tokió, Oszaka</item>
+        <item>Jakutszk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vlagyivosztok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidzsi-szigetek</item>
+        <item>Tonga</item>
+        <item>Dzsakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Csendes-óceáni térség/Majuro</item>
+        <item>Csendes-óceáni térség/Midway-szigetek</item>
+        <item>Csendes-óceáni térség/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los Angeles</item>
+        <item>Amerika/Tijuana</item>
+        <item>Amerika/Phoenix</item>
+        <item>Amerika/Chihuahua</item>
+        <item>Amerika/Denver</item>
+        <item>Amerika/Costa Rica</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/Mexico City</item>
+        <item>Amerika/Regina</item>
+        <item>Amerika/Bogota</item>
+        <item>Amerika/New York</item>
+        <item>Amerika/Caracas</item>
+        <item>Amerika/Barbados</item>
+        <item>Amerika/Halifax</item>
+        <item>Amerika/Manaus</item>
+        <item>Amerika/Santiago</item>
+        <item>Amerika/St Johns</item>
+        <item>Amerika/Sao Paulo</item>
+        <item>Amerika/Buenos Aires</item>
+        <item>Amerika/Godthab</item>
+        <item>Amerika/Montevideo</item>
+        <item>Atlanti-óceáni/Déli-Georgia</item>
+        <item>Atlanti-óceáni/Azori-szigetek</item>
+        <item>Atlanti-óceáni/Zöld-foki-szigetek</item>
+        <item>Afrika/Casablanca</item>
+        <item>Európa/London</item>
+        <item>Európia/Amszterdam</item>
+        <item>Európa/Belgrád</item>
+        <item>Európa/Brüsszel</item>
+        <item>Európa/Szarajevó</item>
+        <item>Afrika/Windhoek</item>
+        <item>Afrika/Brazzaville</item>
+        <item>Ázsia/Amman</item>
+        <item>Európa/Athén</item>
+        <item>Ázsia/Bejrút</item>
+        <item>Afrika/Kairó</item>
+        <item>Európa/Helsinki</item>
+        <item>Ázsia/Jeruzsálem</item>
+        <item>Európa/Minszk</item>
+        <item>Afrika/Harare</item>
+        <item>Ázsia/Bagdad</item>
+        <item>Európa/Moszkva</item>
+        <item>Ázsia/Kuvait</item>
+        <item>Afrika/Nairobi</item>
+        <item>Ázsia/Teherán</item>
+        <item>Ázsia/Baku</item>
+        <item>Ázsia/Tbiliszi</item>
+        <item>Ázsia/Jereván</item>
+        <item>Ázsia/Dubai</item>
+        <item>Ázsia/Kabul</item>
+        <item>Ázsia/Karachi</item>
+        <item>Ázsia/Oral</item>
+        <item>Ázsia/Jekatyerinburg</item>
+        <item>Ázsia/Calcutta</item>
+        <item>Ázsia/Colombo</item>
+        <item>Ázsia/Kathmandu</item>
+        <item>Ázsia/Almaty</item>
+        <item>Ázsia/Rangoon</item>
+        <item>Ázsia/Krasznojarszk</item>
+        <item>Ázsia/Bangkok</item>
+        <item>Ázsia/Sanghaj</item>
+        <item>Ázsia/Hongkong</item>
+        <item>Ázsia/Irkutszk</item>
+        <item>Ázsia/Kuala Lumpur</item>
+        <item>Ausztrália/Perth</item>
+        <item>Ázsia/Taipei</item>
+        <item>Ázsia/Szöul</item>
+        <item>Ázsia/Tokió</item>
+        <item>Ázsia/Jakutszk</item>
+        <item>Auszrália/Adelaide</item>
+        <item>Ausztrália/Darwin</item>
+        <item>Ausztrália/Brisbane</item>
+        <item>Ausztrália/Hobart</item>
+        <item>Ausztrália/Sydney</item>
+        <item>Ázsia/Vlagyivosztok</item>
+        <item>Csendes-óceáni térség/Guam</item>
+        <item>Ázsia/Magadan</item>
+        <item>Csendes-óceáni térség/Auckland</item>
+        <item>Csendes-óceáni térség/Fidzsi-szigetek</item>
+        <item>Csendes-óceáni térség/Tongatapu</item>
+        <item>Ázsia/Dzsakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Szundi</item>
+        <item>Kikapcsolás</item>
+        <item>Semmit se csináljon.</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Halk</item>
+        <item>Normál</item>
+        <item>Hangos</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+    </string-array>
+</resources>

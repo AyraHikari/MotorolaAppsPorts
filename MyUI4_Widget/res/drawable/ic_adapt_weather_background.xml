@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/widget_adapt_inner_card_bg" />
+    <corners android:radius="@dimen/widget_adapt_37dp" />
+    <size android:height="@dimen/widget_adapt_64dp" android:width="@dimen/widget_adapt_161dp" />
+</shape>

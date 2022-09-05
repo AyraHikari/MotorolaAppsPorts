@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layoutDirection="ltr" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <com.motorola.cn.deskclock.timer.widget.NumberPickerView android:id="@id/np_hour" clock:npv_HintText="@string/timer_picker_hour_unit" style="@style/TimerNumberPicker" />
+    <com.motorola.cn.deskclock.timer.widget.NumberPickerView android:id="@id/np_minute" clock:npv_HintText="@string/timer_picker_minute_unit" style="@style/TimerNumberPicker" />
+    <com.motorola.cn.deskclock.timer.widget.NumberPickerView android:id="@id/np_second" clock:npv_HintText="@string/timer_picker_second_unit" style="@style/TimerNumberPicker" />
+</LinearLayout>

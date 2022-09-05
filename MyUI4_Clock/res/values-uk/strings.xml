@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">А=Абіджан|Africa/Abidjan</string>
+    <string name="C10">Д=Дакар|Africa/Dakar</string>
+    <string name="C100">А=Амман|Asia/Amman</string>
+    <string name="C101">А=Анадир|Asia/Anadyr</string>
+    <string name="C102">А=Актау|Asia/Aqtau</string>
+    <string name="C103">Б=Багдад|Asia/Baghdad</string>
+    <string name="C104">Б=Бахрейн|Asia/Bahrain</string>
+    <string name="C105">Б=Баку|Asia/Baku</string>
+    <string name="C106">Б=Бангкок|Asia/Bangkok</string>
+    <string name="C107">Б=Бейрут|Asia/Beirut</string>
+    <string name="C108">K=Колката|Asia/Calcutta</string>
+    <string name="C109">Д=Дамаск|Asia/Damascus</string>
+    <string name="C11">Д=Дар-ес-Салам|Africa/Dar_es_Salaam</string>
+    <string name="C110">Д=Дакка|Asia/Dhaka</string>
+    <string name="C111">Д=Дубай|Asia/Dubai</string>
+    <string name="C112">С=Сектор Гази|Asia/Gaza</string>
+    <string name="C113">Х=Хеврон|Asia/Hebron</string>
+    <string name="C114">Х=Хо Ши Мін|Asia/Ho_Chi_Minh</string>
+    <string name="C115">Г=Гонконг:|Asia/Hong_Kong</string>
+    <string name="C117">Д=Джакарта|Asia/Jakarta</string>
+    <string name="C118">Є=Єрусалим|Asia/Jerusalem</string>
+    <string name="C119">К=Кабул|Asia/Kabul</string>
+    <string name="C12">Д=Джибуті|Africa/Djibouti</string>
+    <string name="C120">К=Карачі|Asia/Karachi</string>
+    <string name="C121">К=Катманду|Asia/Kathmandu</string>
+    <string name="C122">К=Куала-Лумпур|Asia/Kuala_Lumpur</string>
+    <string name="C123">К=Кувейт|Asia/Kuwait</string>
+    <string name="C124">М=Макао|Asia/Macau</string>
+    <string name="C125">М=Маніла|Asia/Manila</string>
+    <string name="C126">М=Маскат|Asia/Muscat</string>
+    <string name="C127">П=Пномпень|Asia/Phnom_Penh</string>
+    <string name="C128">П=Пхеньян:|Asia/Pyongyang</string>
+    <string name="C13">Ф=Фрітаун|Africa/Freetown</string>
+    <string name="C130">Я=Янгон|Asia/Rangoon</string>
+    <string name="C131">Е=Ер-Ріяд|Asia/Riyadh</string>
+    <string name="C133">С=Сеул|Asia/Seoul</string>
+    <string name="C134">Ш=Шанхай:|Asia/Shanghai</string>
+    <string name="C135">С=Сінгапур|Asia/Singapore</string>
+    <string name="C136">Т=Тайбей:|Asia/Taipei</string>
+    <string name="C137">Т=Тегеран|Asia/Tehran</string>
+    <string name="C138">Т=Тель-Авів|Asia/Tel_Aviv</string>
+    <string name="C139">Т=Токіо:|Asia/Tokyo</string>
+    <string name="C14">Г=Габороне|Africa/Gaborone</string>
+    <string name="C140">У=Улан-Батор|Asia/Ulaanbaatar</string>
+    <string name="C141">Б=Бермудські острови|Atlantic/Bermuda</string>
+    <string name="C142">К=Канарські острови|Atlantic/Canary</string>
+    <string name="C143">К=Кабо-Верде|Atlantic/Cape_Verde</string>
+    <string name="C144">Р=Рейк’явік|Atlantic/Reykjavik</string>
+    <string name="C145">П=Порт-Стенлі|Atlantic/Stanley</string>
+    <string name="C146">А=Аделаїда|Australia/Adelaide</string>
+    <string name="C147">Б=Брисбен|Australia/Brisbane</string>
+    <string name="C148">К=Канберра|Australia/Canberra</string>
+    <string name="C149">Д=Дарвін|Australia/Darwin</string>
+    <string name="C15">Х=Хараре|Africa/Harare</string>
+    <string name="C150">М=Мельбурн|Australia/Melbourne</string>
+    <string name="C151">Н=Новий Південний Уельс|Australia/NSW</string>
+    <string name="C152">П=Перт|Australia/Perth</string>
+    <string name="C153">К=Квінсленд|Australia/Queensland</string>
+    <string name="C154">С=Сідней|Australia/Sydney</string>
+    <string name="C155">В=Вікторія|Australia/Victoria</string>
+    <string name="C156">Н=Ньюфаундленд|Canada/Newfoundland</string>
+    <string name="C157">С=Саскачеван|Canada/Saskatchewan</string>
+    <string name="C158">О=Острів Пасхи|Chile/EasterIsland</string>
+    <string name="C159">А=Амстердам|Europe/Amsterdam</string>
+    <string name="C16">Й=Йоганнесбург|Africa/Johannesburg</string>
+    <string name="C160">А=Андорра|Europe/Andorra</string>
+    <string name="C161">А=Афіни|Europe/Athens</string>
+    <string name="C162">Б=Белфаст|Europe/Belfast</string>
+    <string name="C163">Б=Белград|Europe/Belgrade</string>
+    <string name="C164">Б=Берлін|Europe/Berlin</string>
+    <string name="C165">Б=Братислава|Europe/Bratislava</string>
+    <string name="C166">Б=Брюссель|Europe/Brussels</string>
+    <string name="C167">Б=Бухарест|Europe/Bucharest</string>
+    <string name="C168">Б=Будапешт|Europe/Budapest</string>
+    <string name="C169">К=Кишинів|Europe/Chisinau</string>
+    <string name="C17">К=Кампала|Africa/Kampala</string>
+    <string name="C170">К=Копенгаген|Europe/Copenhagen</string>
+    <string name="C171">Д=Дублін|Europe/Dublin</string>
+    <string name="C172">Г=Гібралтар|Europe/Gibraltar</string>
+    <string name="C173">Г=Гельсінкі|Europe/Helsinki</string>
+    <string name="C174">О=Острів Мен|Europe/Isle_of_Man</string>
+    <string name="C175">С=Стамбул|Europe/Istanbul</string>
+    <string name="C176">К=Київ|Europe/Kiev</string>
+    <string name="C177">Л=Лісабон|Europe/Lisbon</string>
+    <string name="C178">Л=Лондон|Europe/London</string>
+    <string name="C179">Л=Люксембург|Europe/Luxembourg</string>
+    <string name="C18">Х=Хартум|Africa/Khartoum</string>
+    <string name="C180">М=Мадрид|Europe/Madrid</string>
+    <string name="C181">М=Мальта|Europe/Malta</string>
+    <string name="C182">М=Мінськ|Europe/Minsk</string>
+    <string name="C183">М=Монако|Europe/Monaco</string>
+    <string name="C184">М=Москва|Europe/Moscow</string>
+    <string name="C185">О=Осло|Europe/Oslo</string>
+    <string name="C186">П=Париж|Europe/Paris</string>
+    <string name="C187">П=Прага|Europe/Prague</string>
+    <string name="C188">Р=Рига|Europe/Riga</string>
+    <string name="C189">Р=Рим|Europe/Rome</string>
+    <string name="C19">К=Кігалі|Africa/Kigali</string>
+    <string name="C190">С=Сан-Марино|Europe/San_Marino</string>
+    <string name="C191">С=Сараєво|Europe/Sarajevo</string>
+    <string name="C192">С=Сімферополь|Europe/Simferopol</string>
+    <string name="C193">С=Скоп’є|Europe/Skopje</string>
+    <string name="C194">С=Софія|Europe/Sofia</string>
+    <string name="C195">С=Стокгольм|Europe/Stockholm</string>
+    <string name="C196">Т=Таллінн|Europe/Tallinn</string>
+    <string name="C197">В=Ватикан|Europe/Vatican</string>
+    <string name="C198">В=Відень|Europe/Vienna</string>
+    <string name="C199">В=Вільнюс|Europe/Vilnius</string>
+    <string name="C2">А=Аккра|Africa/Accra</string>
+    <string name="C20">К=Кіншаса|Africa/Kinshasa</string>
+    <string name="C200">В=Варшава|Europe/Warsaw</string>
+    <string name="C201">З=Загреб|Europe/Zagreb</string>
+    <string name="C202">Ц=Цюрих|Europe/Zurich</string>
+    <string name="C203">А=Антананаріву|Indian/Antananarivo</string>
+    <string name="C204">М=Мальдіви|Indian/Maldives</string>
+    <string name="C205">М=Маврикій|Indian/Mauritius</string>
+    <string name="C206">О=Окленд|Pacific/Auckland</string>
+    <string name="C207">Ф=Фіджі|Pacific/Fiji</string>
+    <string name="C208">Г=Гуам|Pacific/Guam</string>
+    <string name="C209">Г=Гонолулу|Pacific/Honolulu</string>
+    <string name="C21">Л=Лагос|Africa/Lagos</string>
+    <string name="C210">К=Кіріматі|Pacific/Kiritimati</string>
+    <string name="C211">Н=Нумеа|Pacific/Noumea</string>
+    <string name="C214">А=Антигуа|America/Antigua</string>
+    <string name="C215">О=Остін|America/Chicago</string>
+    <string name="C216">Б=Бостон|America/New_York</string>
+    <string name="C217">К=Калгарі|America/Denver</string>
+    <string name="C218">К=Колумбус|America/New_York</string>
+    <string name="C219">Д=Даллас|America/Chicago</string>
+    <string name="C22">М=Масеру|Africa/Maseru</string>
+    <string name="C220">Н=Ноксвілл|America/New_York</string>
+    <string name="C221">М=Мемфіс|America/Chicago</string>
+    <string name="C222">М=Маямі|America/New_York</string>
+    <string name="C223">М=Міннеаполіс|America/Chicago</string>
+    <string name="C224">О=Оттава|America/New_York</string>
+    <string name="C225">Ф=Філадельфія|America/New_York</string>
+    <string name="C226">П=Портленд|America/Los_Angeles</string>
+    <string name="C227">С=Сан-Дієго|America/Los_Angeles</string>
+    <string name="C228">С=Сан-Франциско|America/Los_Angeles</string>
+    <string name="C229">С=Солт-Лейк-Сіті|America/Denver</string>
+    <string name="C23">М=Могадишо|Africa/Mogadishu</string>
+    <string name="C230">С=Сан-Хосе|America/Los_Angeles</string>
+    <string name="C231">С=Сан-Сальвадор|America/Guatemala</string>
+    <string name="C232">С=Сієтл|America/Los_Angeles</string>
+    <string name="C233">С=Сент-Луїс|America/Chicago</string>
+    <string name="C234">В=Вашингтон|America/New_York</string>
+    <string name="C235">Х=Х’юстон|America/Chicago</string>
+    <string name="C236">С=Сан-Антоніо|America/Chicago</string>
+    <string name="C237">Д=Джексонвілл|America/New_York</string>
+    <string name="C238">Б=Балтимор|America/New_York</string>
+    <string name="C239">Н=Нашвілл|America/Chicago</string>
+    <string name="C24">Н=Найробі|Africa/Nairobi</string>
+    <string name="C240">М=Мілуокі|America/Chicago</string>
+    <string name="C241">О=Оклахома-Сіті|America/Chicago</string>
+    <string name="C242">Л=Лас-Вегас|America/Los_Angeles</string>
+    <string name="C243">А=Альбукерке|America/Denver</string>
+    <string name="C244">Т=Тусон|MST</string>
+    <string name="C245">С=Сакраменто|America/Los_Angeles</string>
+    <string name="C246">А=Атланта|America/New_York</string>
+    <string name="C247">К=Клівленд|America/New_York</string>
+    <string name="C248">Н=Новий Орлеан|America/Chicago</string>
+    <string name="C249">Т=Тампа|America/New_York</string>
+    <string name="C25">С=Сан-Томе|Africa/Sao_Tome</string>
+    <string name="C250">П=Піттсбург|America/New_York</string>
+    <string name="C251">Ц=Цинциннаті|America/New_York</string>
+    <string name="C252">М=Маунтін-В’ю|America/Los_Angeles</string>
+    <string name="C253">Р=Рено|America/Los_Angeles</string>
+    <string name="C254">Б=Блек-Рок-Сіті|America/Los_Angeles</string>
+    <string name="C255">Д=Доха|Asia/Riyadh</string>
+    <string name="C256">П=Пекін:|Asia/Shanghai</string>
+    <string name="C257">М=Мумбаї|Asia/Kolkata</string>
+    <string name="C258">Д=Делі|Asia/Kolkata</string>
+    <string name="C259">О=Осака:|Asia/Tokyo</string>
+    <string name="C26">Т=Тімбукту|Africa/Timbuktu</string>
+    <string name="C260">Л=Лахор|Asia/Karachi</string>
+    <string name="C261">С=Сана|Asia/Riyadh</string>
+    <string name="C262">Б=Барселона|Europe/Madrid</string>
+    <string name="C263">М=Мюнхен|Europe/Berlin</string>
+    <string name="C264">М=Мілан|Europe/Rome</string>
+    <string name="C265">Ф=Франкфурт|Europe/Berlin</string>
+    <string name="C266">Х=Ханой|Asia/Bangkok</string>
+    <string name="C267">А=Анкара|Europe/Istanbul</string>
+    <string name="C268">Б=Бенґалуру|Asia/Kolkata</string>
+    <string name="C269">Б=Бразиліа|America/Sao_Paulo</string>
+    <string name="C27">Т=Триполі|Africa/Tripoli</string>
+    <string name="C270">К=Кейптаун|Africa/Johannesburg</string>
+    <string name="C271">І=Ісламабад|Asia/Karachi</string>
+    <string name="C272">Р=Ріо-де-Жанейро|America/Sao_Paulo</string>
+    <string name="C273">Е=Енн-Арбор|America/Detroit</string>
+    <string name="C274">Б=Боулдер|America/Denver</string>
+    <string name="C275">К=Кембридж|America/New_York</string>
+    <string name="C276">К=Кіркленд|America/Los_Angeles</string>
+    <string name="C277">М=Медісон|America/Chicago</string>
+    <string name="C278">Г=Гуанчжоу:|Asia/Shanghai</string>
+    <string name="C279">Х=Хайдерабад|Asia/Kolkata</string>
+    <string name="C28">Т=Туніс|Africa/Tunis</string>
+    <string name="C280">Р=Рестон|America/New_York</string>
+    <string name="C281">Б=Белу-Оризонті|America/Sao_Paulo</string>
+    <string name="C282">С=Сантьяго|America/Santiago</string>
+    <string name="C283">М=Монровія|Africa/Monrovia</string>
+    <string name="C284">К=Коломбо|Asia/Colombo</string>
+    <string name="C285">Ч=Чіуауа|America/Chihuahua</string>
+    <string name="C286">С=Салвадор|America/Sao_Paulo</string>
+    <string name="C287">Г=Гургаон|Asia/Kolkata</string>
+    <string name="C288">М=Манчестер|Europe/London</string>
+    <string name="C29">А=Анкоридж|America/Anchorage</string>
+    <string name="C290">С=Санкт-Петербург|Europe/Moscow</string>
+    <string name="C291">К=Краків|Europe/Warsaw</string>
+    <string name="C292">В=Вроцлав|Europe/Warsaw</string>
+    <string name="C293">Г=Гамбург|Europe/Berlin</string>
+    <string name="C294">О=Оулу|Europe/Bucharest</string>
+    <string name="C295">Х=Хайфа|Asia/Jerusalem</string>
+    <string name="C296">С=Сан-Хуан|America/Puerto_Rico</string>
+    <string name="C297">Т=Тегусігальпа|America/Tegucigalpa</string>
+    <string name="C298">П=Парамарибо|America/Paramaribo</string>
+    <string name="C299">К=Кіто|America/Panama</string>
+    <string name="C3">А=Аддис-Абеба|Africa/Addis_Ababa</string>
+    <string name="C300">Л=Любляна|Europe/Ljubljana</string>
+    <string name="C301">=Ашгабат|Asia/Ashgabat</string>
+    <string name="C302">=Асмара|Africa/Asmara</string>
+    <string name="C303">=Бандар-Сері-Бегаван|Asia/Brunei</string>
+    <string name="C304">=Бангі|Africa/Bangui</string>
+    <string name="C305">=Банджул|Africa/Banjul</string>
+    <string name="C306">=Бішкек|Asia/Bishkek</string>
+    <string name="C307">=Бісау|Africa/Bissau</string>
+    <string name="C308">=Бужумбура|Africa/Bujumbura</string>
+    <string name="C309">=Ділі|Asia/Dili</string>
+    <string name="C31">А=Аруба|America/Aruba</string>
+    <string name="C310">=Душанбе|Asia/Dushanbe</string>
+    <string name="C311">=Фунафуті|Pacific/Funafuti</string>
+    <string name="C312">=Хоніара|Pacific/Guadalcanal</string>
+    <string name="C313">=Джуба|Africa/Juba</string>
+    <string name="C314">=Кінгстаун|America/St_Vincent</string>
+    <string name="C315">=Лібревіль|Africa/Libreville</string>
+    <string name="C316">=Ломе|Africa/Lome</string>
+    <string name="C317">=Луанда|Africa/Luanda</string>
+    <string name="C318">=Лусака|Africa/Lusaka</string>
+    <string name="C319">=Маджуро|Pacific/Majuro</string>
+    <string name="C32">А=Асунсьйон|America/Asuncion</string>
+    <string name="C320">=Малабо|Africa/Malabo</string>
+    <string name="C321">=Мапуту|Africa/Maputo</string>
+    <string name="C322">=Мбабане|Africa/Mbabane</string>
+    <string name="C323">=Мороні|Indian/Comoro</string>
+    <string name="C324">=Нджамена|Africa/Ndjamena</string>
+    <string name="C325">=Нгерулмуд|Pacific/Palau</string>
+    <string name="C326">=Ніамей|Africa/Niamey</string>
+    <string name="C327">=Нікосія|Europe/Nicosia</string>
+    <string name="C328">=Нуакшот|Africa/Nouakchott</string>
+    <string name="C329">=Нукуалофа|Pacific/Tongatapu</string>
+    <string name="C33">Б=Барбадос|America/Barbados</string>
+    <string name="C330">=Уагадугу|Africa/Ouagadougou</string>
+    <string name="C331">=Палікір|Pacific/Noumea</string>
+    <string name="C332">=Філіпсбург|America/Lower_Princes</string>
+    <string name="C333">=Подгориця|Europe/Podgorica</string>
+    <string name="C334">=Порт-Морсбі|Pacific/Palau</string>
+    <string name="C335">=Порт-Віла|Pacific/Efate</string>
+    <string name="C336">=Порто-Ново|Africa/Porto-Novo</string>
+    <string name="C337">=Приштина|Europe/Belgrade</string>
+    <string name="C338">=Розо|America/Dominica</string>
+    <string name="C339">=Ташкент|Asia/Tashkent</string>
+    <string name="C34">Б=Беліз|America/Belize</string>
+    <string name="C340">=Тбілісі|Asia/Tbilisi</string>
+    <string name="C341">=Тхімпху|Asia/Thimphu</string>
+    <string name="C342">=Тирана|Europe/Tirane</string>
+    <string name="C343">=Вадуц|Europe/Vaduz</string>
+    <string name="C344">=В’єнтьян|Asia/Vientiane</string>
+    <string name="C345">=Віндгук|Africa/Windhoek</string>
+    <string name="C346">=Яунде|Africa/Douala</string>
+    <string name="C347">=Ярен|Pacific/Nauru</string>
+    <string name="C348">=Єреван|Asia/Yerevan</string>
+    <string name="C35">Б=Богота|America/Bogota</string>
+    <string name="C36">Б=Буенос-Айрес|America/Buenos_Aires</string>
+    <string name="C37">К=Канкун|America/Cancun</string>
+    <string name="C38">К=Каракас|America/Caracas</string>
+    <string name="C39">К=Кайманові острови|America/Cayman</string>
+    <string name="C4">А=Алжир|Africa/Algiers</string>
+    <string name="C40">Ч=Чикаго|America/Chicago</string>
+    <string name="C42">К=Кюрасао|America/Curacao</string>
+    <string name="C43">Д=Досон-Крік|America/Dawson_Creek</string>
+    <string name="C44">Д=Денвер|America/Denver</string>
+    <string name="C45">Д=Детройт|America/Detroit</string>
+    <string name="C46">Д=Домініка|America/Dominica</string>
+    <string name="C47">Е=Едмонтон|America/Edmonton</string>
+    <string name="C48">С=Сальвадор|America/El_Salvador</string>
+    <string name="C49">Ф=Форталеза|America/Fortaleza</string>
+    <string name="C5">Б=Блантайр|Africa/Blantyre</string>
+    <string name="C50">Г=Гранд-Терк|America/Grand_Turk</string>
+    <string name="C51">Г=Гренада|America/Grenada</string>
+    <string name="C52">Г=Гватемала (місто)|America/Guatemala</string>
+    <string name="C53">Г=Гаяна|America/Guyana</string>
+    <string name="C54">Г=Галіфакс|America/Halifax</string>
+    <string name="C55">Г=Гавана|America/Havana</string>
+    <string name="C56">І=Індіанаполіс|America/Indiana/Indianapolis</string>
+    <string name="C57">Н=Нокс|America/Indiana/Knox</string>
+    <string name="C58">М=Маренго|America/Indiana/Marengo</string>
+    <string name="C59">П=Петербург|America/Indiana/Petersburg</string>
+    <string name="C6">Б=Браззавіль|Africa/Brazzaville</string>
+    <string name="C60">Т=Телл-Сіті|America/Indiana/Tell_City</string>
+    <string name="C61">В=Вевей|America/Indiana/Vevay</string>
+    <string name="C62">В=Венсенн|America/Indiana/Vincennes</string>
+    <string name="C63">В=Вінамак|America/Indiana/Winamac</string>
+    <string name="C64">К=Кінгстон|America/Jamaica</string>
+    <string name="C65">Н=Нуестра-Сеньйора-де-Ла-Пас|America/La_Paz</string>
+    <string name="C66">Л=Ліма|America/Lima</string>
+    <string name="C67">Л=Лос-Анджелес|America/Los_Angeles</string>
+    <string name="C68">Л=Луїсвілл|America/Louisville</string>
+    <string name="C69">М=Манагуа|America/Managua</string>
+    <string name="C7">К=Каїр|Africa/Cairo</string>
+    <string name="C70">М=Мартиніка|America/Martinique</string>
+    <string name="C71">М=Мендоса|America/Mendoza</string>
+    <string name="C72">М=Метлакатла|America/Metlakatla</string>
+    <string name="C73">М=Мехіко|America/Mexico_City</string>
+    <string name="C74">М=Монтеррей|America/Monterrey</string>
+    <string name="C75">М=Монтевідео|America/Montevideo</string>
+    <string name="C76">М=Монреаль|America/Montreal</string>
+    <string name="C77">Н=Нассау|America/Nassau</string>
+    <string name="C78">Н=Нью-Йорк|America/New_York</string>
+    <string name="C79">Б=Беула|America/North_Dakota/Beulah</string>
+    <string name="C8">К=Касабланка|Africa/Casablanca</string>
+    <string name="C80">Ц=Центр|America/North_Dakota/Center</string>
+    <string name="C81">Н=Нью-Сейлем|America/North_Dakota/New_Salem</string>
+    <string name="C82">П=Панама|America/Panama</string>
+    <string name="C83">Ф=Фінікс|America/Phoenix</string>
+    <string name="C84">П=Порт-оф-Спейн|America/Port_of_Spain</string>
+    <string name="C85">П=Порт-о-Пренс|America/Port-au-Prince</string>
+    <string name="C86">П=Пуерто-Рико|America/Puerto_Rico</string>
+    <string name="C87">С=Санто-Домінго|America/Santo_Domingo</string>
+    <string name="C88">С=Сан-Паулу|America/Sao_Paulo</string>
+    <string name="C89">С=Сент-Джонс|America/St_Johns</string>
+    <string name="C9">К=Конакрі|Africa/Conakry</string>
+    <string name="C90">С=Сент-Кіттс|America/St_Kitts</string>
+    <string name="C91">С=Сент-Люсія|America/St_Lucia</string>
+    <string name="C92">С=Сент-Томас|America/St_Thomas</string>
+    <string name="C93">Т=Тіхуана|America/Tijuana</string>
+    <string name="C94">Т=Торонто|America/Toronto</string>
+    <string name="C95">В=Ванкувер|America/Vancouver</string>
+    <string name="C96">В=Вінніпег|America/Winnipeg</string>
+    <string name="C97">П=Південний полюс:|Antarctica/South_Pole</string>
+    <string name="C98">Л=Лонг’їр|Arctic/Longyearbyen</string>
+    <string name="C99">А=Алмати|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">Перейти на головну</string>
+    <string name="abc_action_bar_up_description">Перейти вгору</string>
+    <string name="abc_action_menu_overflow_description">Більше опцій</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показати всі</string>
+    <string name="abc_activitychooserview_choose_application">Вибрати програму</string>
+    <string name="abc_capital_off">ЗНИЖКА</string>
+    <string name="abc_capital_on">УВІМК.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">пробіл</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Введіть пошуковий запит…</string>
+    <string name="abc_searchview_description_clear">Очистити запит</string>
+    <string name="abc_searchview_description_query">Пошуковий запит</string>
+    <string name="abc_searchview_description_search">Пошук</string>
+    <string name="abc_searchview_description_submit">Наіслати запит</string>
+    <string name="abc_searchview_description_voice">Голосовий пошук</string>
+    <string name="abc_shareactionprovider_share_with">Поділитися:</string>
+    <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
+    <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_left_edit">Редагувати</string>
+    <string name="add_remark">Додати примітки</string>
+    <string name="alarm_afternoon">PM</string>
+    <string name="alarm_alert_snooze_set">Відкласти на %d хв</string>
+    <string name="alarm_classic">Класика тривоги</string>
+    <string name="alarm_flip_setting">Перемкнути налаштування</string>
+    <string name="alarm_is_set">Сигнал установлено на %s</string>
+    <string name="alarm_is_snoozed">Сигнал %s відкладено на 10 хв.</string>
+    <string name="alarm_missed_title">Пропущений будильник</string>
+    <string name="alarm_morning">AM</string>
+    <string name="alarm_mute_ringing_switch">Дзвонити в беззвучному режимі</string>
+    <string name="alarm_notif_title">Наступний сигнал</string>
+    <string name="alarm_reapt">Повторити</string>
+    <string name="alarm_reminder_tv">%6 до сигналу</string>
+    <string name="alarm_repeat">Повторити</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">Коли вікно закрито, сигнал можна вимкнути тільки змахнувши вгору.</string>
+    <string name="alarm_setting_flip_close_alarm_title">Проведіть угору або униз, щоб зупинити сигнал</string>
+    <string name="alarm_settings">СИГНАЛИ</string>
+    <string name="alarm_shutdown_ringing_switch">Сигнал спрацює в разі вимкнення смартфона</string>
+    <string name="alarm_time_12_hours_format">год:хв <b></b><font face="sans-serif-condensed" size="14"></font></string>
+    <string name="alarm_time_activity">Сигнал закінчився</string>
+    <string name="alarm_time_after_now">%s год назад</string>
+    <string name="alarm_time_before_now">%s год уперед</string>
+    <string name="alarm_time_equal_now">Той самий час</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">Перемикач вібросигналу</string>
+    <string name="alarm_volume_title">Гучність будильника (таймера)</string>
+    <string name="alarm_week">Користувацький</string>
+    <string name="alert_dismiss_text">Відхилити</string>
+    <string name="alert_remind_later">Відкладення</string>
+    <string name="app_label">Годинник</string>
+    <string name="auto_silence_never">Ніколи</string>
+    <string name="auto_silence_summary">%d хв</string>
+    <string name="auto_silence_title">Безшумний режим через</string>
+    <string name="automatic_home_clock">Автоматичний домашній годинник</string>
+    <string name="automatic_home_clock_summary">Під час подорожі країнами з іншим часовим поясом, додайте годинник для дому</string>
+    <string name="bottomsheet_action_expand_halfway">Розгорнути нижню половину</string>
+    <string name="cancel_dialog">Скасувати</string>
+    <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
+    <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
+    <string name="check_draw_overlay_permission">Check the permission for clock PopupWindow</string>
+    <string name="cities_activity_title">Додати міста</string>
+    <string name="city_count_over_limit">Необхідно видалити місто, щоб додати нове.</string>
+    <string name="clear_text_end_icon_content_description">Видалити текст</string>
+    <string name="clock_24_hours_format">год:хв</string>
+    <string name="clock_settings">ГОДИННИК</string>
+    <string name="clock_style">Стиль</string>
+    <string name="close_alarm_notif">Відхилити</string>
+    <string name="copy">Скопіювати</string>
+    <string name="cta_content_agree_go_on">Погодитись</string>
+    <string name="cta_content_exit">Вийти</string>
+    <string name="custom_volume">Налаштування гучності</string>
+    <string name="custom_volume_silence">Сигнал дзвінка вимкнуто</string>
+    <string name="day">1 день</string>
+    <string name="day_afternoon">PM</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">AM</string>
+    <string name="day_evening">PM</string>
+    <string name="day_midnoon">PM</string>
+    <string name="day_morning">AM</string>
+    <string name="days">%s дн.</string>
+    <string name="days_of_week_day" />
+    <string name="default_label">Будильник</string>
+    <string name="default_ring_title">Новий ранок</string>
+    <string name="delete_failed">Помилка видалення</string>
+    <string name="delete_successfully">Видалено</string>
+    <string name="delete_world_clock_confirm_tips">Видалити міста (%d)?</string>
+    <string name="delete_world_clock_confirm_tips_one">Видалити місто?</string>
+    <string name="deselect">Скасувати вибір усіх</string>
+    <string name="display_once">Більше не показувати</string>
+    <string name="down_holidays_suscess">Дані свят завантажено успішно, скиньте налаштування.</string>
+    <string name="edit_alarm">Редагувати сигнал</string>
+    <string name="edit_alarm_cancel">Скасувати</string>
+    <string name="edit_alarm_delete_cancel">Скасувати</string>
+    <string name="edit_alarm_delete_ok">Видалити</string>
+    <string name="edit_alarm_done">Готово</string>
+    <string name="edit_alarm_give_up_dialog">Скинути зміни?</string>
+    <string name="edit_alarm_label_remind">Не більше 26 символів</string>
+    <string name="edit_alarm_last_ring_tv">Тривалість відкладення</string>
+    <string name="edit_alarm_no_label">Примітка відсутня</string>
+    <string name="edit_alarm_remark">Нотатки</string>
+    <string name="edit_alarm_sleep_mode">Відкласти</string>
+    <string name="edit_alarm_title">Додати сигнал</string>
+    <string name="edit_alarm_vibe">Вібрація під час дзвінка</string>
+    <string name="edit_alarm_volume_mode">Гучність</string>
+    <string name="edit_alarm_weather">Повідомити про погоду в разі сигналу</string>
+    <string name="edit_list_alarm_select">Вибрати елемент</string>
+    <string name="edit_list_alarm_selected_dialog">Видалити сигнал?</string>
+    <string name="edit_list_alarm_selected_number">Обрано: %d</string>
+    <string name="edit_list_alarms_selected_dialog">Видалити сигнали (%d)?</string>
+    <string name="empty_list_msg">Результатів не знайдено</string>
+    <string name="end_snooze">Кінець перенесення</string>
+    <string name="error_icon_content_description">Помилка</string>
+    <string name="every_day">Щодня</string>
+    <string name="expand_button_title">Додатково</string>
+    <string name="exposed_dropdown_menu_content_description">Показати спадне меню</string>
+    <string name="give_up_dialog">Відхилити</string>
+    <string name="holidays_info">По робочих днях</string>
+    <string name="home_time_zone">Домашній часовий пояс</string>
+    <string name="home_time_zone_title">Домашній часовий пояс</string>
+    <string name="hour">1 година</string>
+    <string name="hours">%s год</string>
+    <string name="icon_content_description">Значок вікна</string>
+    <string name="invalid_time">Неправильний час %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="label">Мітка</string>
+    <string name="label_description">Мітка</string>
+    <string name="local">На пристрої</string>
+    <string name="lock_screen_weather_playing_text">Лунає сигнал погоди</string>
+    <string name="material_clock_toggle_content_description">Виберіть ДП чи ПП</string>
+    <string name="material_hour_selection">Вибрати годину</string>
+    <string name="material_hour_suffix">%1$s год</string>
+    <string name="material_minute_selection">Виберіть хвилини</string>
+    <string name="material_minute_suffix">%1$s хв</string>
+    <string name="material_timepicker_am">дп</string>
+    <string name="material_timepicker_clock_mode_description">Перейти в режим годинника, щоб ввести час.</string>
+    <string name="material_timepicker_hour">Година</string>
+    <string name="material_timepicker_minute">Хвилина</string>
+    <string name="material_timepicker_pm">пп</string>
+    <string name="material_timepicker_select_time">Виберіть час</string>
+    <string name="material_timepicker_text_input_mode_description">Перейти в текстовий режим, щоб ввести час.</string>
+    <string name="menu_alarm">Будильник</string>
+    <string name="menu_clock">Годинник</string>
+    <string name="menu_item_help">Довідка</string>
+    <string name="menu_item_night_mode">Нічний режим</string>
+    <string name="menu_item_settings">Налаштування</string>
+    <string name="menu_item_sort_by_gmt_offset">Сортувати за часом</string>
+    <string name="menu_stopwatch">Секундомір</string>
+    <string name="menu_timer">Таймер</string>
+    <string name="minute">1 хвилина</string>
+    <string name="minute_unit">хв</string>
+    <string name="minutes">%s хв</string>
+    <string name="missed_alarm_has_been_deleted">Пропущений будильник видалено</string>
+    <string name="mtrl_badge_numberless_content_description">Нове сповіщення</string>
+    <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових сповіщень більше ніж %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти до наступного місяця</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти до попереднього місяця</string>
+    <string name="mtrl_picker_announce_current_selection">Поточний вибір: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Виберіть дату</string>
+    <string name="mtrl_picker_date_header_unselected">Вибрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Стовпець із днями: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недійсний формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Приклад: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Використовувати: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недійсний діапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти до %1$s року</string>
+    <string name="mtrl_picker_out_of_range">За межами діапазону: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата початку – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата завершення</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Виберіть діапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата початку – дата завершення</string>
+    <string name="mtrl_picker_save">Зберегти</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата завершення</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата початку</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">р</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим введення в календарі</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Натисніть, щоб вибрати день</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим введення тексту</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Натисніть, щоб вибрати рік</string>
+    <string name="net_connect_prompt_title">Запит дозволу</string>
+    <string name="never">Ніколи</string>
+    <string name="next_alarm_description">Наступний сигнал: %s</string>
+    <string name="no_alarms">Нема сигналів</string>
+    <string name="no_firing_alarms">Немає активних сигналів</string>
+    <string name="no_holiday_data_prompt">Робочі дні (уперше підключитися до Wi-Fi)</string>
+    <string name="no_music">Відсутня збережена музика</string>
+    <string name="no_record">Відсутні збережені записи</string>
+    <string name="not_set">Не налаштовано</string>
+    <string name="notification_channel_name">Сповіщення годинника</string>
+    <string name="number_picker_hour">год</string>
+    <string name="number_picker_minute">хв</string>
+    <string name="number_picker_second">с</string>
+    <string name="ok_dialog">Так</string>
+    <string name="once">Один раз</string>
+    <string name="password_toggle_content_description">Показувати пароль</string>
+    <string name="pick_from_music">Вибрати з музики</string>
+    <string name="pick_from_recorder">Вибрати з диктофона</string>
+    <string name="pick_from_ringtone">Вибрати з сигналів дзвінка</string>
+    <string name="poweroff_alarm">Сигнал вимкнення</string>
+    <string name="poweroff_alarm_close_tips">Навіть коли смартфон вимкнуто, сигнал звучатиме, якщо встановлена тривалість перевищує 5 хвилин.</string>
+    <string name="poweroff_alarm_open_tips">Навіть коли смартфон вимкнуто, сигнал звучатиме, якщо встановлена тривалість перевищує 5 хвилин.</string>
+    <string name="poweroff_prompt_dlg_close">Перейти в</string>
+    <string name="poweroff_prompt_dlg_msg">Сигнал спрацює в разі вимкнення смартфона Функцію можна вимкнути в налаштуваннях сигналів.</string>
+    <string name="poweroff_prompt_dlg_ok">Так</string>
+    <string name="poweroff_prompt_dlg_title">Сигнал вимкнення активовано.</string>
+    <string name="preference_copied">\"%1$s\": скопійовано в буфер обміну.</string>
+    <string name="repeat_public_weekdays">По робочих днях</string>
+    <string name="ring_chose">Сигнал дзвінка</string>
+    <string name="ringtone">Сигнал дзвінка</string>
+    <string name="search_hint">Місто/країна</string>
+    <string name="search_local_music">Пошук збереженої музики</string>
+    <string name="search_local_record">Пошук збережених записів</string>
+    <string name="search_menu_title">Пошук</string>
+    <string name="second_unit">с</string>
+    <string name="select_all">Вибрати все</string>
+    <string name="settings">Налаштування</string>
+    <string name="show_notif">Відображати наступні сигнали в центрі сповіщень</string>
+    <string name="show_notif_open_tips">Ви можете виключити зазделегіть якщо потрібно.</string>
+    <string name="silent_alarm">Безшумний режим</string>
+    <string name="silent_alarm_summary">Безшумний режим</string>
+    <string name="skip_alarm_next_time_normal">Пропущений сигнал прозвучить наступного разу.</string>
+    <string name="snooze_duration_title">Тривалість відкладення</string>
+    <string name="snooze_interval_later">пізніше</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">Секундомір для запуску сповіщення.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">Коло</string>
+    <string name="sw_notification_lap_number">Коло %d</string>
+    <string name="sw_pause_button">Призупинити</string>
+    <string name="sw_reset_button">Скинути</string>
+    <string name="sw_resume_button">Продовжити</string>
+    <string name="sw_share_laps">Перебіг часу:</string>
+    <string name="sw_share_main">Мій час: %s</string>
+    <string name="sw_unit_digits">год хв с</string>
+    <string name="swn_stopped">Зупинено</string>
+    <string name="sync_alarm_from_server_completed">Час оновлено хмарною службою.</string>
+    <string name="time_handle_text_degree_unit">хв</string>
+    <string name="time_span_unit_hour">год</string>
+    <string name="time_span_unit_minute">хв</string>
+    <string name="time_span_unit_second">с</string>
+    <string name="timer_am">AM</string>
+    <string name="timer_close">Закрити</string>
+    <string name="timer_dialog_btn_cancel">Скасувати</string>
+    <string name="timer_dialog_btn_start">Почати</string>
+    <string name="timer_dialog_title">Установити час</string>
+    <string name="timer_fullscreen_prompt">Проведіть угору, щоб зупинити</string>
+    <string name="timer_fullscreen_summary_after">Таймер закінчився</string>
+    <string name="timer_missed_title">Пропущений таймер</string>
+    <string name="timer_notification_label">Таймер</string>
+    <string name="timer_picker_hour_unit">r</string>
+    <string name="timer_picker_minute_unit">x</string>
+    <string name="timer_picker_second_unit">c</string>
+    <string name="timer_ring_dialog_title">Режим сигналу</string>
+    <string name="timer_ring_service_desc">Служба відтворення звуків для таймерів, установлених у годиннику.</string>
+    <string name="timer_stopped">Таймер зупинено</string>
+    <string name="timing">Вибір часу</string>
+    <string name="title_local_music">На пристрої</string>
+    <string name="title_record">Записати аудіо</string>
+    <string name="title_ringstone">Сигнал дзвінка</string>
+    <string name="touch_on_close">Проведіть угору, щоб вимкнути сигнал</string>
+    <string name="touchupclose">Проведіть угору або униз, щоб зупинити сигнал</string>
+    <string name="update_holiday_summary">Виявляти оновлення даних неробочих дат</string>
+    <string name="update_holiday_title">Оновити дані свят</string>
+    <string name="v7_preference_off">ВИМКНЕНО</string>
+    <string name="v7_preference_on">УВІМКНЕНО</string>
+    <string name="volume_button_setting_title">Кнопки гучності</string>
+    <string name="weather_key_rain">дощ</string>
+    <string name="weekly">По</string>
+    <string name="world_clock_12_hours_format">год:хв <b></b><font face="sans-serif-condensed" size="14"></font></string>
+    <string name="world_time_today">Сьогодні</string>
+    <string name="world_time_tomorrow">Завтра</string>
+    <string name="world_time_yesterday">Вчора</string>
+</resources>

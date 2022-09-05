@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/cancel_search_text_color_pressed_skin_dark" />
+    <item android:state_focused="true" android:color="@color/cancel_search_text_color_pressed_skin_dark" />
+    <item android:color="@color/cancel_search_text_color_pressed_skin_dark" android:state_hovered="true" />
+    <item android:color="@color/cancel_search_text_color_normal_skin_dark" />
+</selector>

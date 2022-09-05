@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/selectadapter" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:gravity="center_vertical" android:id="@id/alarm_ring_choose_media_item_radio_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/common_left_right_margin" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_alarm_label" android:paddingTop="@dimen/list_item_vertical_padding" android:paddingBottom="@dimen/list_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/common_left_right_margin" android:layout_toStartOf="@id/alarm_ring_choose_media_item_radio_btn">
+        <TextView android:textSize="@dimen/list_item_title_size" android:textColor="@color/alarm_ring_choose_media_item_c" android:ellipsize="end" android:gravity="start|center" android:id="@id/alarm_ring_choose_media_item_title" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="@dimen/list_item_content_size" android:textColor="@color/alarm_ring_choose_media_item_info_c" android:ellipsize="end" android:gravity="start|center" android:id="@id/alarm_ring_choose_media_item_info" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:lines="1" />
+    </LinearLayout>
+</RelativeLayout>

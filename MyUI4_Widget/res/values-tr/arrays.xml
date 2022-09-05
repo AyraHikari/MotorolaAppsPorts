@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Saat ve hava durumu</item>
+        <item>Hava Durumu</item>
+        <item>Saat</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall Adaları</item>
+        <item>Midway Adası</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pasifik Saati</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Sıradağlar Saati</item>
+        <item>Orta Amerika</item>
+        <item>Merkezi Saat</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Doğu Saati</item>
+        <item>Venezuela</item>
+        <item>Atlantik Saati (Barbados)</item>
+        <item>Atlantik Saati (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Orta Atlantik</item>
+        <item>Azor Adaları</item>
+        <item>Yeşil Burun Adaları</item>
+        <item>Kasablanka</item>
+        <item>Londra, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Brüksel</item>
+        <item>Saraybosna</item>
+        <item>Windhoek</item>
+        <item>Batı Afrika Saati</item>
+        <item>Amman, Ürdün</item>
+        <item>Atina, İstanbul</item>
+        <item>Beyrut, Lübnan</item>
+        <item>Kahire</item>
+        <item>Helsinki</item>
+        <item>Kudüs</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bağdat</item>
+        <item>Moskova</item>
+        <item>Kuveyt</item>
+        <item>Nairobi</item>
+        <item>Tahran</item>
+        <item>Bakü</item>
+        <item>Tiflis</item>
+        <item>Erivan</item>
+        <item>Dubai</item>
+        <item>Kabil</item>
+        <item>İslamabat, Karaçi</item>
+        <item>Uralsk</item>
+        <item>Yekaterinburg</item>
+        <item>Kalküta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Pekin</item>
+        <item>Hong Kong</item>
+        <item>İrkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sidney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Cakarta</item>
+    </string-array>
+</resources>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarm disetel untuk kurang dari 1 menit dari sekarang.</item>
+        <item>Alarm disetel untuk %1$s dari sekarang.</item>
+        <item>Alarm disetel untuk %2$s dari sekarang.</item>
+        <item>Alarm disetel untuk %1$s dan %2$s dari sekarang.</item>
+        <item>Alarm disetel untuk %3$s dari sekarang.</item>
+        <item>Alarm disetel untuk %1$s dan %3$s dari sekarang.</item>
+        <item>Alarm disetel untuk %2$s dan %3$s dari sekarang.</item>
+        <item>Alarm disetel untuk %1$s, %2$s, dan %3$s dari sekarang.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>25 menit</item>
+        <item>30 menit</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analog</item>
+        <item>digital</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Sambung ke internet untuk menampilkan cuaca lokal ketika berdering</item>
+        <item>Lokasi diperlukan untuk menampilkan cuaca lokal ketika berdering</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Akses jaringan seluler</item>
+        <item>Akses lokasi</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Jan. “</item>
+        <item>Feb. “</item>
+        <item>Mar. “</item>
+        <item>Apr. “</item>
+        <item>"Mei "</item>
+        <item>Jun. “</item>
+        <item>Jul. “</item>
+        <item>Agt. “</item>
+        <item>Sept. “</item>
+        <item>Okt. “</item>
+        <item>Nov. “</item>
+        <item>Des. “</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>“Buang</item>
+        <item>Tidur</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standar</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>BalikkanVertikal</item>
+        <item>BalikkanHorisontal</item>
+        <item>Tumpuk</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>PutarKeAtas</item>
+        <item>PutarKeBawah</item>
+        <item>Akordion</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Sekali</item>
+        <item>Setiap hari</item>
+        <item>Hari kerja (Nonaktif pada hari libur)</item>
+        <item>Kustom</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Sekali</item>
+        <item>Setiap hari</item>
+        <item>Kustom</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Min</item>
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item>Jum</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Tidak pernah</item>
+        <item>“5 menit”</item>
+        <item>“10 menit”</item>
+        <item>“15 menit”</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Kurang dari satu menit tersisa</item>
+        <item>%1$s tersisa</item>
+        <item>%2$s tersisa</item>
+        <item>%1$s%2$s tersisa</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Dering</item>
+        <item>Getar</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall Islands</item>
+        <item>Midway Island</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>Amerika Tengah</item>
+        <item>Central Time</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Greenland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic</item>
+        <item>Azores</item>
+        <item>Cape Verde Islands</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrade</item>
+        <item>Brussels</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>W. Africa Time</item>
+        <item>Amman, Jordan</item>
+        <item>Athens, Istanbul</item>
+        <item>Beirut, Lebanon</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Moskow</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Tehran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pasifik/Majuro</item>
+        <item>Pasifik/Midway</item>
+        <item>Pasifik/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los_Angeles</item>
+        <item>Amerika/Tijuana</item>
+        <item>Amerika/Phoenix</item>
+        <item>Amerika/Chihuahua</item>
+        <item>Amerika/Denver</item>
+        <item>Amerika/Costa_Rica</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/Mexico_City</item>
+        <item>Amerika/Regina</item>
+        <item>Amerika/Bogota</item>
+        <item>Amerika/New_York</item>
+        <item>Amerika/Caracas</item>
+        <item>Amerika/Barbados</item>
+        <item>Amerika/Halifax</item>
+        <item>Amerika/Manaus</item>
+        <item>Amerika/Santiago</item>
+        <item>Amerika/St_Johns</item>
+        <item>Amerika/Sao_Paulo</item>
+        <item>Amerika/Argentina/Buenos_Aires</item>
+        <item>Amerika/Godthab</item>
+        <item>Amerika/Montevideo</item>
+        <item>Atlantik/South_Georgia</item>
+        <item>Atlantik/Azores</item>
+        <item>Atlantik/Cape_Verde</item>
+        <item>Atlantik/Casablanca</item>
+        <item>Eropa/London</item>
+        <item>Eropa/Amsterdam</item>
+        <item>Eropa/Belgrade</item>
+        <item>Eropa/Brussels</item>
+        <item>Eropa/Sarajevo</item>
+        <item>Afrika/Windhoek</item>
+        <item>Afrika/Brazzaville”</item>
+        <item>Asia/Amman</item>
+        <item>Eropa/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Afrika/Cairo</item>
+        <item>Eropa/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Eropa/Minsk</item>
+        <item>Afrika/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Eropa/Moskow</item>
+        <item>Asia/Kuwait</item>
+        <item>Afrika/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pasifik/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pasifik/Auckland</item>
+        <item>Pasifik/Fiji</item>
+        <item>Pasifik/Tongatapu</item>
+        <item>Asia/Jakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Tidur</item>
+        <item>Buang</item>
+        <item>Jangan lakukan apa pun</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Lembut</item>
+        <item>Normal</item>
+        <item>Keras</item>
+        <item>Kustom</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+</resources>

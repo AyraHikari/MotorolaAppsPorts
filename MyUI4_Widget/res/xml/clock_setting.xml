@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/app_preference_category" android:title="@string/clock_styles" android:key="clock_styles" app:iconSpaceReserved="false">
+        <com.motorola.commandcenter.weather.settings.ClockStylesPreference android:title="@string/clock_styles_digital" android:key="clock_styles_digital" app:iconSpaceReserved="false" />
+        <com.motorola.commandcenter.weather.settings.ClockStylesPreference android:title="@string/clock_styles_analog" android:key="clock_styles_analog" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <Preference android:layout="@layout/preference_split_line" />
+    <com.motorola.commandcenter.weather.settings.AppPreference android:title="@string/dual_time_zone_title" android:key="dual_time_zone" android:summary="@string/dual_time_zone_summary" android:defaultValue="false" app:iconSpaceReserved="false" />
+    <ListPreference android:entries="@array/timezone_labels" android:layout="@layout/preference_list" android:title="@string/home" android:key="home_time_zone" android:dialogTitle="@string/home" android:entryValues="@array/timezone_values" app:iconSpaceReserved="true" />
+    <androidx.preference.Preference android:icon="@drawable/ic_info_outline_24" android:layout="@layout/preference_info" android:key="summary" android:summary="@string/clock_styles_summary" app:iconSpaceReserved="true" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/shape_stop_watch_begin_disable_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/shape_stop_watch_left_right_color" />
+            <size android:height="56.0dip" android:width="56.0dip" />
+        </shape>
+    </item>
+</ripple>

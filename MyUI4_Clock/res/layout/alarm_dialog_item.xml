@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/llt_longdialog_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radioBtn" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/selector_select" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/dialog_listview_txt_color" android:gravity="center_vertical" android:id="@id/mybaby_item_menu_btn" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/radioBtn" />
+</RelativeLayout>

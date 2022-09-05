@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_circle_parent_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:gravity="center" android:id="@id/clock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/RingTextBlack.Light.Clock3.Land" />
+    <include android:id="@id/weather_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ring_weather_box_margin_clock_land" android:layout_above="@id/clock" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/land_dark_ring_battery_box" />
+    <RelativeLayout android:id="@id/dynamic_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/clock" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ring_dynamic_box_margin_clock_land" android:layout_centerHorizontal="true">
+            <TextClock android:id="@id/month" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="MMM" android:format24Hour="MMM" style="@style/RingTextBlack.DateText3.Land" />
+            <TextClock android:id="@id/day" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="true" android:layout_marginStart="@dimen/widget_date_margin" android:layout_marginEnd="@dimen/widget_date_margin" android:format12Hour="@string/day_format_style" android:format24Hour="@string/day_format_style" style="@style/RingTextBlack.DateNum3.Land" />
+            <TextClock android:id="@id/weekday" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="EEE" android:format24Hour="EEE" style="@style/RingTextBlack.DateText3.Land" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

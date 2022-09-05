@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">පැය %d</item>
+        <item quantity="one">පැය 1</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">පැය %d ක් පසුපසින්</item>
+        <item quantity="one">පැය 1ක් පසුපසින්</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">පැය %d ක් ඉදිරියෙන්</item>
+        <item quantity="one">පැය 1ක් ඉදිරියෙන්</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">මිනිත්තු %d</item>
+        <item quantity="one">මිනිත්තු 1</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">තත්පර %d</item>
+        <item quantity="one">තත්පර 1</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+</resources>

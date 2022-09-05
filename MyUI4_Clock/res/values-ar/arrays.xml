@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>تم ضبط المنبه على أقل من 1 دقيقة من الآن.</item>
+        <item>تم ضبط المنبه على %1$s من الآن.</item>
+        <item>تم ضبط المنبه على %2$s من الآن.</item>
+        <item>تم ضبط المنبه على %1$s و%2$s من الآن.</item>
+        <item>تم ضبط المنبه على %3$s من الآن.</item>
+        <item>تم ضبط المنبه على %1$s و%3$s من الآن.</item>
+        <item>تم ضبط المنبه على %2$s و%3$s من الآن.</item>
+        <item>تم ضبط المنبه على %1$s، %2$s، و%3$s من الآن.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 دقيقة</item>
+        <item>10 دقيقة</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>أبدًا</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>تمثيلي</item>
+        <item>رقمي</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>تمثيلي</item>
+        <item>رقمي</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>الاتصال بالإنترنت لعرض الطقس المحلي عند الرنين</item>
+        <item>الموقع مطلوب لعرض الطقس المحلي عند الرنين.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>وصول إلى شبكة الجوال</item>
+        <item>الوصول إلى الموقع</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>ص</item>
+        <item>م</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>إبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>تجاهل</item>
+        <item>تأجيل</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>قياسي</item>
+        <item>لوحي</item>
+        <item>مكعب للداخل</item>
+        <item>مكعب للخارج</item>
+        <item>انعكاس عمودي</item>
+        <item>انعكاس أفقي</item>
+        <item>تكديس</item>
+        <item>تكبير</item>
+        <item>تصغير</item>
+        <item>تدوير لأعلى</item>
+        <item>تدوير لأسفل</item>
+        <item>أكورديون</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>مرة</item>
+        <item>كل يوم</item>
+        <item>أيام العمل (أجازة خلال العطلات)</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>مرة</item>
+        <item>كل يوم</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>ابدا</item>
+        <item>دقائق 5</item>
+        <item>دقائق 10</item>
+        <item>دقيقه 15</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>يتبقى أقل من دقيقة</item>
+        <item>يتبقى %1$s</item>
+        <item>يتبقى %2$s</item>
+        <item>يتبقى %1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>رنين</item>
+        <item>اهتزاز</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزر مارشال</item>
+        <item>جزيرة ميدواي</item>
+        <item>هاواي</item>
+        <item>آلاسكا</item>
+        <item>توقيت المحيط الهادئ</item>
+        <item>تيخوانا</item>
+        <item>أريزونا</item>
+        <item>تشيواوا</item>
+        <item>توقيت الجبل</item>
+        <item>أمريكا الوسطى</item>
+        <item>توقيت الوسط</item>
+        <item>مدينة مكسيكو</item>
+        <item>ساسكاتشوان</item>
+        <item>بوجوتا</item>
+        <item>التوقيت الشرقي</item>
+        <item>فنزويلا</item>
+        <item>توقيت الأطلنطي (بربادوس)</item>
+        <item>توقيت الأطلنطي (كندا)</item>
+        <item>ماناوس</item>
+        <item>سانتياجو</item>
+        <item>نيوفاوندلاند</item>
+        <item>برازيليا</item>
+        <item>بيونس آيريس</item>
+        <item>جرين لاند</item>
+        <item>مونتفيديو</item>
+        <item>وسط الأطلنطي</item>
+        <item>جزر الأزور</item>
+        <item>جزر الرأس الأخضر</item>
+        <item>الدار البيضاء</item>
+        <item>لندن، دبلن</item>
+        <item>أمستردام، برلين</item>
+        <item>بيلجراد</item>
+        <item>بروكسل</item>
+        <item>سراييفو</item>
+        <item>فيندهوك</item>
+        <item>توقيت غرب أفريقيا</item>
+        <item>عمّان، الأردن</item>
+        <item>أثينا، إسطنبول</item>
+        <item>بيروت، لبنان</item>
+        <item>القاهرة</item>
+        <item>هيلسينكي</item>
+        <item>القدس</item>
+        <item>مينسك</item>
+        <item>هراري</item>
+        <item>بغداد</item>
+        <item>موسكو</item>
+        <item>الكويت</item>
+        <item>نيروبي</item>
+        <item>طهران</item>
+        <item>باكو</item>
+        <item>تبليسي</item>
+        <item>يريفان</item>
+        <item>دبي</item>
+        <item>كابول</item>
+        <item>إسلام أباد، كراتشي</item>
+        <item>أورالسك</item>
+        <item>يكاتنبرج</item>
+        <item>كالكتا</item>
+        <item>سريلانكا</item>
+        <item>كاتماندو</item>
+        <item>أستانة</item>
+        <item>يانجون</item>
+        <item>كراسنويارسك</item>
+        <item>بانكوك</item>
+        <item>بكين</item>
+        <item>هونج كونج</item>
+        <item>إيركوتسك</item>
+        <item>كوالالمبور</item>
+        <item>بيرث</item>
+        <item>تايبيه</item>
+        <item>سيول</item>
+        <item>طوكيو، أوساكا</item>
+        <item>ياكوتسك</item>
+        <item>أديلايد</item>
+        <item>داروين</item>
+        <item>بريزبين</item>
+        <item>هوبارت</item>
+        <item>سيدني، كانبيرا</item>
+        <item>فلاديفوستوك</item>
+        <item>جوام</item>
+        <item>ماجادان</item>
+        <item>أوكلاند</item>
+        <item>فيجي</item>
+        <item>تونجا</item>
+        <item>جاكرتا</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>المحيط الهادئ/ماجورو</item>
+        <item>المحيط الهادئ/ميدواي</item>
+        <item>المحيط الهادئ/هونولولو</item>
+        <item>أمريكا/أنكوريج</item>
+        <item>أمريكا/لوس أنجلوس</item>
+        <item>أمريكا/تيخوانا</item>
+        <item>أمريكا/فينيكس</item>
+        <item>أمريكا/تشيواوا</item>
+        <item>أمريكا/دنفر</item>
+        <item>أمريكا/كوستاريكا</item>
+        <item>أمريكا/شيكاغو</item>
+        <item>أمريكا/مدينة مكسيكو</item>
+        <item>أمريكا/ريجينا</item>
+        <item>أمريكا/بوجوتا</item>
+        <item>أمريكا/نيويورك</item>
+        <item>أمريكا/كاراكاس</item>
+        <item>أمريكا/بربادوس</item>
+        <item>أمريكا/هاليفاكس</item>
+        <item>أمريكا/ماناوس</item>
+        <item>أمريكا/سانتياجو</item>
+        <item>أمريكا/سانت جونز</item>
+        <item>أمريكا/ساو باولو</item>
+        <item>أمريكا/الأرجنتين/بيونس آيريس</item>
+        <item>أمريكا/جودهاب</item>
+        <item>أمريكا/مونتفيديو</item>
+        <item>المحيط الأطلنطي/جورجيا الجنوبية</item>
+        <item>المحيط الأطلنطي/جزر الأزور</item>
+        <item>المحيط الأطلنطي/الرأس الأخضر</item>
+        <item>أفريقيا/الدار البيضاء</item>
+        <item>أوروبا/لندن</item>
+        <item>أوروبا/أمستردام</item>
+        <item>أوروبا/بلجراد</item>
+        <item>أوروبا/بروكسل</item>
+        <item>أوروبا/سراييفو</item>
+        <item>أفريقيا/فيندهوك</item>
+        <item>أفريقيا/برازافيل</item>
+        <item>آسيا/عمان</item>
+        <item>أوروبا/أثينا</item>
+        <item>آسيا/بيروت</item>
+        <item>أفريقيا/القاهرة</item>
+        <item>أوروبا/هلسنكي</item>
+        <item>آسيا/القدس</item>
+        <item>أوروبا/مينسك</item>
+        <item>أفريقيا/هراري</item>
+        <item>آسيا/بغداد</item>
+        <item>أوروبا/موسكو</item>
+        <item>آسيا/الكويت</item>
+        <item>أفريقيا/نيروبي</item>
+        <item>آسيا/طهران</item>
+        <item>آسيا/باكو</item>
+        <item>آسيا/تبليسي</item>
+        <item>آسيا/يريفان</item>
+        <item>آسيا/دبي</item>
+        <item>آسيا/كابول</item>
+        <item>آسيا/كراتشي</item>
+        <item>آسيا/اورال</item>
+        <item>آسيا/يكاتنبرج</item>
+        <item>آسيا/كلكتا</item>
+        <item>آسيا/كولومبو</item>
+        <item>آسيا/كاتماندو</item>
+        <item>آسيا/ألماتي</item>
+        <item>آسيا/رانجون</item>
+        <item>كراسنويارسك</item>
+        <item>آسيا/بانكوك</item>
+        <item>آسيا/شنغهاي</item>
+        <item>آسيا/هونج كونج</item>
+        <item>آسيا/إيركوتسك</item>
+        <item>آسيا/كوالالامبور</item>
+        <item>أستراليا/بيرث</item>
+        <item>آسيا/تايبيه</item>
+        <item>آسيا/سيول</item>
+        <item>آسيا/طوكيو</item>
+        <item>آسيا/ياكوتسك</item>
+        <item>أستراليا/أديلايد</item>
+        <item>أستراليا/داروين</item>
+        <item>أستراليا/بريزبين</item>
+        <item>أستراليا/هوبارت</item>
+        <item>أستراليا/سيدني</item>
+        <item>آسيا/فلاديفوستوك</item>
+        <item>المحيط الهادئ/جوام</item>
+        <item>آسيا/ماجادان</item>
+        <item>المحيط الهادئ/أوكلاند</item>
+        <item>المحيط الهادئ/فيجي</item>
+        <item>المحيط الهادئ/تونجاتابو</item>
+        <item>آسيا/جاكرتا</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>تأجيل</item>
+        <item>تجاهل</item>
+        <item>لا تفعل أي شيء</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>هادئ</item>
+        <item>عادي</item>
+        <item>بصوت عال</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/actionbar_height" android:layout_alignParentTop="true">
+        <com.motorola.cn.lib.widget.listview.OverScrollLayout android:id="@id/alarm_list_over" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.motorola.cn.lib.widget.listview.SwipeRecyclerView android:id="@id/alarm_list" android:paddingBottom="@dimen/list_bottom_padding" android:visibility="visible" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </com.motorola.cn.lib.widget.listview.OverScrollLayout>
+    </RelativeLayout>
+    <include android:id="@id/alarm_navi" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:layout_alignParentTop="true" layout="@layout/custom_actionbar" />
+    <include android:id="@id/edit_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:layout_alignParentTop="true" layout="@layout/edit_bar_layout" />
+    <RelativeLayout android:id="@id/alarm_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_clock_empty" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/alarm_no_alarms" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_alarms" android:layout_below="@id/tv_empty" android:layout_centerInParent="true" android:contentDescription="@string/no_alarms" style="@style/no_alarms" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/alarm_list_delete_layout" android:background="@drawable/selector_listviewx_delete_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/clock_buttombar_height" android:layout_alignParentBottom="true">
+        <View android:background="@color/listviewx_delete_head_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/selector_listviewx_delete_text_color" android:id="@id/alarm_delete_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_delete" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/alarm_add_btn_container" android:clickable="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="@dimen/alarm_add_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" app:backgroundTint="@color/add_circle" app:elevation="5.0dip" app:rippleColor="@color/add_circle_select_color" app:shapeAppearanceOverlay="@style/AudioStateStyle" app:srcCompat="@drawable/selector_ic_add_alarm" />
+</RelativeLayout>

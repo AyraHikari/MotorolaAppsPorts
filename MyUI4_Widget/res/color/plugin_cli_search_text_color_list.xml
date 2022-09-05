@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/plugin_setting_text" android:alpha="0.3" />
+    <item android:color="@color/plugin_setting_text" />
+</selector>

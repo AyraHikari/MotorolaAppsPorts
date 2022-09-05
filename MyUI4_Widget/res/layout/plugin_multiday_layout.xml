@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/cli_adapt_10dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_content" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_10dp" android:layout_marginStart="@dimen/cli_adapt_20dp">
+        <TextView android:textColor="@color/plugin_setting_text" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_6dp" android:layout_marginEnd="@dimen/cli_adapt_68dp" style="@style/CliCard.Text24" />
+        <LinearLayout android:gravity="center" android:id="@id/checkout_btn_container" android:background="@drawable/plugin_multiday_bg_select_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cli_adapt_20dp" android:layout_alignParentEnd="true" android:elevation="8.0dip" android:outlineSpotShadowColor="@color/plugin_cli_card_bg_shadow">
+            <ImageView android:id="@id/btn_checkout_multiday" android:layout_width="@dimen/cli_adapt_44dp" android:layout_height="@dimen/cli_adapt_44dp" android:src="@drawable/ic_plugin_btn_multiday" android:scaleType="center" />
+            <ImageView android:id="@id/btn_checkout_singleday" android:layout_width="@dimen/cli_adapt_44dp" android:layout_height="@dimen/cli_adapt_44dp" android:src="@drawable/ic_plugin_btn_signle_day" android:scaleType="center" />
+            <ImageView android:id="@id/btn_to_setting" android:layout_width="@dimen/cli_adapt_44dp" android:layout_height="@dimen/cli_adapt_44dp" android:src="@drawable/ic_plugin_btn_setting" android:scaleType="center" />
+        </LinearLayout>
+        <com.motorola.plugin.PluginSettingView android:id="@id/setting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cli_adapt_20dp" />
+        <com.motorola.plugin.PluginSearchView android:id="@id/search" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_10dp" android:layout_below="@id/location" android:layout_marginEnd="@dimen/cli_adapt_20dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/checkout_btn_container">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.motorola.plugin.PluginPageIndicator android:id="@id/indicator" android:layout_width="@dimen/cli_adapt_20dp" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:id="@id/empty" android:visibility="gone" layout="@layout/plugin_multiday_empty" />
+</FrameLayout>

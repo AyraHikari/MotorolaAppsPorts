@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 گھنٹہ</item>
+        <item>2 گھنٹے</item>
+        <item>3 گھنٹے</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>وقت اور موسم</item>
+        <item>موسم</item>
+        <item>وقت</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>فارن ہائٹ</item>
+        <item>سیلسیس</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزائر مارشل</item>
+        <item>مڈوے آئیلینڈ</item>
+        <item>ہوائی</item>
+        <item>الاسکا</item>
+        <item>پیسیفک ٹائم</item>
+        <item>تیجوآنا</item>
+        <item>ایریزونا</item>
+        <item>چیہوآہوآ</item>
+        <item>ماؤنٹین ٹائم</item>
+        <item>وسطی امریکہ</item>
+        <item>سینٹرل ٹائم</item>
+        <item>میکسیکو سٹی</item>
+        <item>ساسکچیوان</item>
+        <item>بگوٹا</item>
+        <item>ایسٹر ٹائم</item>
+        <item>وینزولا</item>
+        <item>اٹلانٹک ٹائم (بارباڈوس)</item>
+        <item>اٹلانٹک ٹائم (کینیڈا)</item>
+        <item>مناؤس</item>
+        <item>سینٹیاگو</item>
+        <item>نیو فاؤنڈ لینڈ</item>
+        <item>براسیلیا</item>
+        <item>بیونوس ائیرز</item>
+        <item>گرین لینڈ</item>
+        <item>مونٹی ویڈیو</item>
+        <item>وسطی اوقیانوس</item>
+        <item>ازورس</item>
+        <item>کیپ ورڈی جزائر</item>
+        <item>کاسا بلنکا</item>
+        <item>لندن، ڈبلن</item>
+        <item>ایمسٹرڈیم، برلن</item>
+        <item>بلغراد</item>
+        <item>برسلز</item>
+        <item>سراجیوو</item>
+        <item>ونڈہوک</item>
+        <item>ساؤتھ افریقہ ٹائم</item>
+        <item>عمان، اردن</item>
+        <item>ایتھنز، استنبول</item>
+        <item>بیروت، لبنان</item>
+        <item>قاہرہ</item>
+        <item>ہلسنکی</item>
+        <item>یروشلم</item>
+        <item>منسک</item>
+        <item>ہرارے</item>
+        <item>بغداد</item>
+        <item>ماسکو</item>
+        <item>کویت</item>
+        <item>نیروبی</item>
+        <item>تہران</item>
+        <item>باکو</item>
+        <item>ٹیبیلیسی</item>
+        <item>یاریوان</item>
+        <item>دبئی</item>
+        <item>کابل</item>
+        <item>اسلام آباد، کراچی</item>
+        <item>"‏Ural'sk"</item>
+        <item>یکاٹیرِنبرگ</item>
+        <item>کلکتہ</item>
+        <item>سری لنکا</item>
+        <item>کاٹھمانڈو</item>
+        <item>آستانہ</item>
+        <item>رنگون</item>
+        <item>کریسنویارسک</item>
+        <item>بینکاک</item>
+        <item>بیجنگ</item>
+        <item>ہانگ کانگ</item>
+        <item>ارکتسک</item>
+        <item>کوالالمپور</item>
+        <item>پرتھ</item>
+        <item>تائی پے</item>
+        <item>سیول</item>
+        <item>ٹوکیو، اوساکا</item>
+        <item>یکوتسک</item>
+        <item>ایڈیلیڈ</item>
+        <item>ڈارون</item>
+        <item>برسبین</item>
+        <item>ہوبارٹ</item>
+        <item>سڈنی، کینبرا</item>
+        <item>ولادی ووستک</item>
+        <item>گوام</item>
+        <item>میگیدن</item>
+        <item>آکلینڈ</item>
+        <item>فجی</item>
+        <item>تونگا</item>
+        <item>جکارتہ</item>
+    </string-array>
+</resources>

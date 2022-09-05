@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <com.motorola.cn.deskclock.timer.widget.TimerPicker android:layout_gravity="center" android:id="@id/view_timer_picker" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/rl_circle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/stopwatch_panel_container" android:visibility="gone" android:layout_width="@dimen/stop_watch_dial_size" android:layout_height="@dimen/stop_watch_dial_size" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/layout_stop_watch_panel" />
+    </RelativeLayout>
+    <com.motorola.cn.deskclock.timer.TimeSpanView android:layout_gravity="center" android:id="@id/view_timer_time" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_centerInParent="true" clock:blink_color="@color/clock_local" clock:default_color="@color/clock_local" clock:text_font_size_big="82.0dip" clock:text_font_size_middle="62.0dip" clock:text_font_size_small="52.0dip" clock:unit_color="@color/clock_local" />
+</merge>

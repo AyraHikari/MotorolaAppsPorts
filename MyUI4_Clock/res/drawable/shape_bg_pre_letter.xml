@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/choose_city_preview_letter_bg_color" />
+    <size android:height="66.0dip" android:width="66.0dip" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="duration_loop_0_to_1">210</integer>
+    <integer name="duration_loop_1_to_2">225</integer>
+    <integer name="duration_loop_2_to_0">950</integer>
+    <integer name="duration_prepare_to_loop0">950</integer>
+    <integer name="duration_random_to_loop1">210</integer>
+</resources>

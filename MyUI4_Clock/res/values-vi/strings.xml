@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">A=Abidjan|Africa/Abidjan</string>
+    <string name="C10">D=Dakar|Africa/Dakar</string>
+    <string name="C100">A=Amman|Asia/Amman</string>
+    <string name="C101">A=Anadyr|Asia/Anadyr</string>
+    <string name="C102">A=Aqtau|Asia/Aqtau</string>
+    <string name="C103">B=Baghdad|Asia/Baghdad</string>
+    <string name="C104">B=Bahrain|Asia/Bahrain</string>
+    <string name="C105">B=Baku|Asia/Baku</string>
+    <string name="C106">B=Băng Cốc|Asia/Bangkok</string>
+    <string name="C107">B=Beirut|Asia/Beirut</string>
+    <string name="C108">K=Kolkata|Asia/Calcutta</string>
+    <string name="C109">D=Damascus|Asia/Damascus</string>
+    <string name="C11">D=Dar es Salaam|Africa/Dar_es_Salaam</string>
+    <string name="C110">D=Dhaka|Asia/Dhaka</string>
+    <string name="C111">D=Dubai|Asia/Dubai</string>
+    <string name="C112">G=Gaza|Asia/Gaza</string>
+    <string name="C113">H=Hebron|Asia/Hebron</string>
+    <string name="C114">H=Hồ Chí Minh|Asia/Ho_Chi_Minh</string>
+    <string name="C115">H=Hồng Kông:|Asia/Hong_Kong</string>
+    <string name="C117">J=Jakarta|Asia/Jakarta</string>
+    <string name="C118">J=Jerusalem|Asia/Jerusalem</string>
+    <string name="C119">K=Kabul|Asia/Kabul</string>
+    <string name="C12">D=Djibouti|Africa/Djibouti</string>
+    <string name="C120">K=Karachi|Asia/Karachi</string>
+    <string name="C121">K=Kathmandu|Asia/Kathmandu</string>
+    <string name="C122">K=Kuala Lumpur|Asia/Kuala_Lumpur</string>
+    <string name="C123">K=Kuwait|Asia/Kuwait</string>
+    <string name="C124">M=Ma cao|Asia/Macau</string>
+    <string name="C125">M=Manila|Asia/Manila</string>
+    <string name="C126">M=Muscat|Asia/Muscat</string>
+    <string name="C127">P=Phnôm Pênh|Asia/Phnom_Penh</string>
+    <string name="C128">B=Bình Nhưỡng:|Asia/Pyongyang</string>
+    <string name="C13">F=Freetown|Africa/Freetown</string>
+    <string name="C130">R=Rangoon|Asia/Rangoon</string>
+    <string name="C131">R=Riyadh|Asia/Riyadh</string>
+    <string name="C133">S=Seoul|Asia/Seoul</string>
+    <string name="C134">T=Thượng Hải:|Asia/Shanghai</string>
+    <string name="C135">S=Singapore|Asia/Singapore</string>
+    <string name="C136">Đ=Đài Bắc:|Asia/Taipei</string>
+    <string name="C137">T=Tehran|Asia/Tehran</string>
+    <string name="C138">T=Tel Aviv|Asia/Tel_Aviv</string>
+    <string name="C139">T=Tokyo:|Asia/Tokyo</string>
+    <string name="C14">G=Gaborone|Africa/Gaborone</string>
+    <string name="C140">U=Ulaanbaatar|Asia/Ulaanbaatar</string>
+    <string name="C141">B=Bermuda|Atlantic/Bermuda</string>
+    <string name="C142">C=Canary|Atlantic/Canary</string>
+    <string name="C143">M=Mũi Verde|Atlantic/Cape_Verde</string>
+    <string name="C144">R=Reykjavik|Atlantic/Reykjavik</string>
+    <string name="C145">S=Stanley|Atlantic/Stanley</string>
+    <string name="C146">A=Adelaide|Australia/Adelaide</string>
+    <string name="C147">B=Brisbane|Australia/Brisbane</string>
+    <string name="C148">C=Canberra|Australia/Canberra</string>
+    <string name="C149">D=Darwin|Australia/Darwin</string>
+    <string name="C15">H=Harare|Africa/Harare</string>
+    <string name="C150">M=Melbourne|Australia/Melbourne</string>
+    <string name="C151">N=New South Wales|Australia/NSW</string>
+    <string name="C152">P=Perth|Australia/Perth</string>
+    <string name="C153">Q=Queensland|Australia/Queensland</string>
+    <string name="C154">S=Sydney|Australia/Sydney</string>
+    <string name="C155">V=Victoria|Australia/Victoria</string>
+    <string name="C156">N=Newfoundland|Canada/Newfoundland</string>
+    <string name="C157">S=Saskatchewan|Canada/Saskatchewan</string>
+    <string name="C158">Đ=Đảo Phục Sinh|Chile/EasterIsland</string>
+    <string name="C159">A=Amsterdam|Europe/Amsterdam</string>
+    <string name="C16">J=Johannesburg|Africa/Johannesburg</string>
+    <string name="C160">A=Andorra|Europe/Andorra</string>
+    <string name="C161">A=Athens|Europe/Athens</string>
+    <string name="C162">B=Belfast|Europe/Belfast</string>
+    <string name="C163">B=Belgrade|Europe/Belgrade</string>
+    <string name="C164">B=Berlin|Europe/Berlin</string>
+    <string name="C165">B=Bratislava|Europe/Bratislava</string>
+    <string name="C166">B=Brussels|Europe/Brussels</string>
+    <string name="C167">B=Bucharest|Europe/Bucharest</string>
+    <string name="C168">B=Budapest|Europe/Budapest</string>
+    <string name="C169">C=Chisinau|Europe/Chisinau</string>
+    <string name="C17">K=Kampala|Africa/Kampala</string>
+    <string name="C170">C=Copenhagen|Europe/Copenhagen</string>
+    <string name="C171">D=Dublin|Europe/Dublin</string>
+    <string name="C172">G=Gibraltar|Europe/Gibraltar</string>
+    <string name="C173">H=Helsinki|Europe/Helsinki</string>
+    <string name="C174">Đ=Đảo Man|Europe/Isle_of_Man</string>
+    <string name="C175">I=Istanbul|Europe/Istanbul</string>
+    <string name="C176">K=Kiev|Europe/Kiev</string>
+    <string name="C177">L=Lisbon|Europe/Lisbon</string>
+    <string name="C178">L=Luân Đôn|Europe/London</string>
+    <string name="C179">L=Luxembourg|Europe/Luxembourg</string>
+    <string name="C18">K=Khartoum|Africa/Khartoum</string>
+    <string name="C180">M=Madrid|Europe/Madrid</string>
+    <string name="C181">M=Malta|Europe/Malta</string>
+    <string name="C182">M=Minsk|Europe/Minsk</string>
+    <string name="C183">M=Monaco|Europe/Monaco</string>
+    <string name="C184">M=Moscow|Europe/Moscow</string>
+    <string name="C185">O=Oslo|Europe/Oslo</string>
+    <string name="C186">P=Paris|Europe/Paris</string>
+    <string name="C187">P=Prague|Europe/Prague</string>
+    <string name="C188">R=Riga|Europe/Riga</string>
+    <string name="C189">R=Rome|Europe/Rome</string>
+    <string name="C19">K=Kigali|Africa/Kigali</string>
+    <string name="C190">S=San Marino|Europe/San_Marino</string>
+    <string name="C191">S=Sarajevo|Europe/Sarajevo</string>
+    <string name="C192">S=Simferopol|Europe/Simferopol</string>
+    <string name="C193">S=Skopje|Europe/Skopje</string>
+    <string name="C194">S=Sofia|Europe/Sofia</string>
+    <string name="C195">S=Stockholm|Europe/Stockholm</string>
+    <string name="C196">T=Tallinn|Europe/Tallinn</string>
+    <string name="C197">V=Vatican|Europe/Vatican</string>
+    <string name="C198">V=Viên|Europe/Vienna</string>
+    <string name="C199">V=Vilnius|Europe/Vilnius</string>
+    <string name="C2">A=Accra|Africa/Accra</string>
+    <string name="C20">K=Kinshasa|Africa/Kinshasa</string>
+    <string name="C200">W=Warsaw|Europe/Warsaw</string>
+    <string name="C201">Z=Zagreb|Europe/Zagreb</string>
+    <string name="C202">Z=Zurich|Europe/Zurich</string>
+    <string name="C203">A=Antananarivo|Indian/Antananarivo</string>
+    <string name="C204">M=Maldives|Indian/Maldives</string>
+    <string name="C205">M=Mauritius|Indian/Mauritius</string>
+    <string name="C206">A=Auckland|Pacific/Auckland</string>
+    <string name="C207">F=Fiji|Pacific/Fiji</string>
+    <string name="C208">G=Guam|Pacific/Guam</string>
+    <string name="C209">H=Honolulu|Pacific/Honolulu</string>
+    <string name="C21">L=Lagos|Africa/Lagos</string>
+    <string name="C210">K=Kiritimati|Pacific/Kiritimati</string>
+    <string name="C211">N=Noumea|Pacific/Noumea</string>
+    <string name="C214">A=Antigua|America/Antigua</string>
+    <string name="C215">A=Austin|America/Chicago</string>
+    <string name="C216">B=Boston|America/New_York</string>
+    <string name="C217">C=Calgary|America/Denver</string>
+    <string name="C218">C=Columbus|America/New_York</string>
+    <string name="C219">D=Dallas|America/Chicago</string>
+    <string name="C22">M=Maseru|Africa/Maseru</string>
+    <string name="C220">K=Knoxville|America/New_York</string>
+    <string name="C221">M=Memphis|America/Chicago</string>
+    <string name="C222">M=Miami|America/New_York</string>
+    <string name="C223">M=Minneapolis|America/Chicago</string>
+    <string name="C224">O=Ottawa|America/New_York</string>
+    <string name="C225">P=Philadelphia|America/New_York</string>
+    <string name="C226">P=Portland|America/Los_Angeles</string>
+    <string name="C227">S=San Diego|America/Los_Angeles</string>
+    <string name="C228">S=San Francisco|America/Los_Angeles</string>
+    <string name="C229">T=Thành phố Salt Lake|America/Denver</string>
+    <string name="C23">M=Mogadishu|Africa/Mogadishu</string>
+    <string name="C230">S=San Jose|America/Los_Angeles</string>
+    <string name="C231">S=San Salvador|America/Guatemala</string>
+    <string name="C232">S=Seattle|America/Los_Angeles</string>
+    <string name="C233">S=St. Louis|America/Chicago</string>
+    <string name="C234">W=Washington D.C.|America/New_York</string>
+    <string name="C235">H=Houston|America/Chicago</string>
+    <string name="C236">S=San Antonio|America/Chicago</string>
+    <string name="C237">J=Jacksonville|America/New_York</string>
+    <string name="C238">B=Baltimore|America/New_York</string>
+    <string name="C239">N=Nashville|America/Chicago</string>
+    <string name="C24">N=Nairobi|Africa/Nairobi</string>
+    <string name="C240">M=Milwaukee|America/Chicago</string>
+    <string name="C241">T=Thành phố Oklahoma|America/Chicago</string>
+    <string name="C242">L=Las Vegas|America/Los_Angeles</string>
+    <string name="C243">A=Albuquerque|America/Denver</string>
+    <string name="C244">T=Tucson|MST</string>
+    <string name="C245">S=Sacramento|America/Los_Angeles</string>
+    <string name="C246">A=Atlanta|America/New_York</string>
+    <string name="C247">C=Cleveland|America/New_York</string>
+    <string name="C248">N=New Orleans|America/Chicago</string>
+    <string name="C249">T=Tampa|America/New_York</string>
+    <string name="C25">S=São Tomé|Africa/Sao_Tome</string>
+    <string name="C250">P=Pittsburgh|America/New_York</string>
+    <string name="C251">C=Cincinnati|America/New_York</string>
+    <string name="C252">M=Mountain View|America/Los_Angeles</string>
+    <string name="C253">R=Reno|America/Los_Angeles</string>
+    <string name="C254">T=Thành phố Black Rock|America/Los_Angeles</string>
+    <string name="C255">D=Doha|Asia/Riyadh</string>
+    <string name="C256">B=Bắc Kinh:|Asia/Shanghai</string>
+    <string name="C257">M=Mumbai|Asia/Kolkata</string>
+    <string name="C258">D=Delhi|Asia/Kolkata</string>
+    <string name="C259">O=Osaka:|Asia/Tokyo</string>
+    <string name="C26">T=Timbuktu|Africa/Timbuktu</string>
+    <string name="C260">L=Lahore|Asia/Karachi</string>
+    <string name="C261">"S=Sana'a|Asia/Riyadh"</string>
+    <string name="C262">B=Barcelona|Europe/Madrid</string>
+    <string name="C263">M=Munich|Europe/Berlin</string>
+    <string name="C264">M=Milan|Europe/Rome</string>
+    <string name="C265">F=Frankfurt|Europe/Berlin</string>
+    <string name="C266">H=Hà Nội|Asia/Bangkok</string>
+    <string name="C267">A=Ankara|Europe/Istanbul</string>
+    <string name="C268">B=Bangalore|Asia/Kolkata</string>
+    <string name="C269">B=Brasília|America/Sao_Paulo</string>
+    <string name="C27">T=Tripoli|Africa/Tripoli</string>
+    <string name="C270">C=Cape Town|Africa/Johannesburg</string>
+    <string name="C271">I=Islamabad|Asia/Karachi</string>
+    <string name="C272">R=Rio de Janeiro|America/Sao_Paulo</string>
+    <string name="C273">A=Ann Arbor|America/Detroit</string>
+    <string name="C274">B=Boulder|America/Denver</string>
+    <string name="C275">C=Cambridge|America/New_York</string>
+    <string name="C276">K=Kirkland|America/Los_Angeles</string>
+    <string name="C277">M=Madison|America/Chicago</string>
+    <string name="C278">Q=Quảng Châu:|Asia/Shanghai</string>
+    <string name="C279">H=Hyderabad|Asia/Kolkata</string>
+    <string name="C28">T=Tunis|Africa/Tunis</string>
+    <string name="C280">R=Reston|America/New_York</string>
+    <string name="C281">B=Belo Horizonte|America/Sao_Paulo</string>
+    <string name="C282">S=Santiago|America/Santiago</string>
+    <string name="C283">M=Monrovia|Africa/Monrovia</string>
+    <string name="C284">C=Colombo|Asia/Colombo</string>
+    <string name="C285">C=Chihuahua|America/Chihuahua</string>
+    <string name="C286">S=Salvador|America/Sao_Paulo</string>
+    <string name="C287">G=Gurgaon|Asia/Kolkata</string>
+    <string name="C288">M=Manchester|Europe/London</string>
+    <string name="C29">A=Anchorage|America/Anchorage</string>
+    <string name="C290">S=St. Petersburg|Europe/Moscow</string>
+    <string name="C291">K=Kraków|Europe/Warsaw</string>
+    <string name="C292">W=Wroclaw|Europe/Warsaw</string>
+    <string name="C293">H=Hamburg|Europe/Berlin</string>
+    <string name="C294">O=Oulu|Europe/Bucharest</string>
+    <string name="C295">H=Haifa|Asia/Jerusalem</string>
+    <string name="C296">S=San Juan|America/Puerto_Rico</string>
+    <string name="C297">T=Tegucigalpa|America/Tegucigalpa</string>
+    <string name="C298">P=Paramaribo|America/Paramaribo</string>
+    <string name="C299">Q=Quito|America/Panama</string>
+    <string name="C3">A=Addis Ababa|Africa/Addis_Ababa</string>
+    <string name="C300">L=Ljubljana|Europe/Ljubljana</string>
+    <string name="C301">A=Ashgabat|Asia/Ashgabat</string>
+    <string name="C302">A=Asmara|Africa/Asmara</string>
+    <string name="C303">B=Bandar Seri Begawan|Asia/Brunei</string>
+    <string name="C304">B=Bangui|Africa/Bangui</string>
+    <string name="C305">B=Banjul|Africa/Banjul</string>
+    <string name="C306">B=Bishkek|Asia/Bishkek</string>
+    <string name="C307">B=Bissau|Africa/Bissau</string>
+    <string name="C308">B=Bujumbura|Africa/Bujumbura</string>
+    <string name="C309">D=Dili|Asia/Dili</string>
+    <string name="C31">A=Aruba|America/Aruba</string>
+    <string name="C310">D=Dushanbe|Asia/Dushanbe</string>
+    <string name="C311">F=Funafuti|Pacific/Funafuti</string>
+    <string name="C312">H=Honiara|Pacific/Guadalcanal</string>
+    <string name="C313">J=Juba|Africa/Juba</string>
+    <string name="C314">K=Kingstown|America/St_Vincent</string>
+    <string name="C315">L=Libreville|Africa/Libreville</string>
+    <string name="C316">L=Lomé|Africa/Lome</string>
+    <string name="C317">L=Luanda|Africa/Luanda</string>
+    <string name="C318">L=Lusaka|Africa/Lusaka</string>
+    <string name="C319">M=Majuro|Pacific/Majuro</string>
+    <string name="C32">A=Asunción|America/Asuncion</string>
+    <string name="C320">M=Malabo|Africa/Malabo</string>
+    <string name="C321">M=Maputo|Africa/Maputo</string>
+    <string name="C322">M=Mbabane|Africa/Mbabane</string>
+    <string name="C323">M=Moroni|Indian/Comoro</string>
+    <string name="C324">"N=N'Djamena|Africa/Ndjamena"</string>
+    <string name="C325">N=Ngerulmud|Pacific/Palau</string>
+    <string name="C326">N=Niamey|Africa/Niamey</string>
+    <string name="C327">N=Nicosia|Europe/Nicosia</string>
+    <string name="C328">N=Nouakchott|Africa/Nouakchott</string>
+    <string name="C329">"N=Nuku'alofa|Pacific/Tongatapu"</string>
+    <string name="C33">B=Barbados|America/Barbados</string>
+    <string name="C330">O=Ouagadougou|Africa/Ouagadougou</string>
+    <string name="C331">P=Palikir|Pacific/Noumea</string>
+    <string name="C332">P=Philipsburg|America/Lower_Princes</string>
+    <string name="C333">P=Podgorica|Europe/Podgorica</string>
+    <string name="C334">P=Port Moresby|Pacific/Palau</string>
+    <string name="C335">P=Port Vila|Pacific/Efate</string>
+    <string name="C336">P=Porto-Novo|Africa/Porto-Novo</string>
+    <string name="C337">P=Priština|Europe/Belgrade</string>
+    <string name="C338">R=Roseau|America/Dominica</string>
+    <string name="C339">T=Tashkent|Asia/Tashkent</string>
+    <string name="C34">B=Belize|America/Belize</string>
+    <string name="C340">T=Tbilisi|Asia/Tbilisi</string>
+    <string name="C341">T=Thimphu|Asia/Thimphu</string>
+    <string name="C342">T=Tirana|Europe/Tirane</string>
+    <string name="C343">V=Vaduz|Europe/Vaduz</string>
+    <string name="C344">V=Viêng Chăn|Asia/Vientiane</string>
+    <string name="C345">W=Windhoek|Africa/Windhoek</string>
+    <string name="C346">Y=Yaoundé|Africa/Douala</string>
+    <string name="C347">Q=Quận Yaren|Pacific/Nauru</string>
+    <string name="C348">Y=Yerevan|Asia/Yerevan</string>
+    <string name="C35">B=Bogotá|America/Bogota</string>
+    <string name="C36">B=Buenos Aires|America/Buenos_Aires</string>
+    <string name="C37">C=Cancun|America/Cancun</string>
+    <string name="C38">C=Caracas|America/Caracas</string>
+    <string name="C39">C=Cayman|America/Cayman</string>
+    <string name="C4">A=Algiers|Africa/Algiers</string>
+    <string name="C40">C=Chicago|America/Chicago</string>
+    <string name="C42">C=Curaçao|America/Curacao</string>
+    <string name="C43">D=Dawson Creek|America/Dawson_Creek</string>
+    <string name="C44">D=Denver|America/Denver</string>
+    <string name="C45">D=Detroit|America/Detroit</string>
+    <string name="C46">D=Dominica|America/Dominica</string>
+    <string name="C47">E=Edmonton|America/Edmonton</string>
+    <string name="C48">E=El Salvador|America/El_Salvador</string>
+    <string name="C49">F=Fortaleza|America/Fortaleza</string>
+    <string name="C5">B=Blantyre|Africa/Blantyre</string>
+    <string name="C50">G=Grand Turk|America/Grand_Turk</string>
+    <string name="C51">G=Grenada|America/Grenada</string>
+    <string name="C52">T=Thành phố Guatemala|America/Guatemala</string>
+    <string name="C53">G=Guyana|America/Guyana</string>
+    <string name="C54">H=Halifax|America/Halifax</string>
+    <string name="C55">H=Havana|America/Havana</string>
+    <string name="C56">I=Indianapolis|America/Indiana/Indianapolis</string>
+    <string name="C57">K=Knox|America/Indiana/Knox</string>
+    <string name="C58">M=Marengo|America/Indiana/Marengo</string>
+    <string name="C59">P=Petersburg|America/Indiana/Petersburg</string>
+    <string name="C6">B=Brazzaville|Africa/Brazzaville</string>
+    <string name="C60">T=Thành phố Tell|America/Indiana/Tell_City</string>
+    <string name="C61">V=Vevay|America/Indiana/Vevay</string>
+    <string name="C62">V=Vincennes|America/Indiana/Vincennes</string>
+    <string name="C63">W=Winamac|America/Indiana/Winamac</string>
+    <string name="C64">K=Kingston|America/Jamaica</string>
+    <string name="C65">N=Nuestra Señora de La Paz|America/La_Paz</string>
+    <string name="C66">L=Lima|America/Lima</string>
+    <string name="C67">L=Los Angeles|America/Los_Angeles</string>
+    <string name="C68">L=Louisville|America/Louisville</string>
+    <string name="C69">M=Managua|America/Managua</string>
+    <string name="C7">C=Cairo|Africa/Cairo</string>
+    <string name="C70">M=Martinique|America/Martinique</string>
+    <string name="C71">M=Mendoza|America/Mendoza</string>
+    <string name="C72">M=Metlakatla|America/Metlakatla</string>
+    <string name="C73">M=Mexico City|America/Mexico_City</string>
+    <string name="C74">M=Monterrey|America/Monterrey</string>
+    <string name="C75">M=Montevideo|America/Montevideo</string>
+    <string name="C76">M=Montreal|America/Montreal</string>
+    <string name="C77">N=Nassau|America/Nassau</string>
+    <string name="C78">N=New York|America/New_York</string>
+    <string name="C79">B=Beulah|America/North_Dakota/Beulah</string>
+    <string name="C8">C=Casablanca|Africa/Casablanca</string>
+    <string name="C80">C=Center|America/North_Dakota/Center</string>
+    <string name="C81">N=New Salem|America/North_Dakota/New_Salem</string>
+    <string name="C82">P=Panama|America/Panama</string>
+    <string name="C83">P=Phoenix|America/Phoenix</string>
+    <string name="C84">P=Port of Spain|America/Port_of_Spain</string>
+    <string name="C85">P=Port-au-Prince|America/Port-au-Prince</string>
+    <string name="C86">P=Puerto Rico|America/Puerto_Rico</string>
+    <string name="C87">S=Santo Domingo|America/Santo_Domingo</string>
+    <string name="C88">S=São Paulo|America/Sao_Paulo</string>
+    <string name="C89">S=St. Johns|America/St_Johns</string>
+    <string name="C9">C=Conakry|Africa/Conakry</string>
+    <string name="C90">S=St. Kitts|America/St_Kitts</string>
+    <string name="C91">S=St. Lucia|America/St_Lucia</string>
+    <string name="C92">S=St. Thomas|America/St_Thomas</string>
+    <string name="C93">T=Tijuana|America/Tijuana</string>
+    <string name="C94">T=Toronto|America/Toronto</string>
+    <string name="C95">V=Vancouver|America/Vancouver</string>
+    <string name="C96">W=Winnipeg|America/Winnipeg</string>
+    <string name="C97">N=Nam Cực:|Antarctica/South_Pole</string>
+    <string name="C98">L=Longyearbyen|Arctic/Longyearbyen</string>
+    <string name="C99">A=Almaty|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">Chỉ đường về nhà</string>
+    <string name="abc_action_bar_up_description">Di chuyển lên</string>
+    <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
+    <string name="abc_action_mode_done">Xong</string>
+    <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
+    <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
+    <string name="abc_capital_off">TẮT</string>
+    <string name="abc_capital_on">BẬT</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Tìm kiếm…</string>
+    <string name="abc_searchview_description_clear">Xóa truy vấn</string>
+    <string name="abc_searchview_description_query">Truy vấn tìm kiếm</string>
+    <string name="abc_searchview_description_search">Tìm kiếm</string>
+    <string name="abc_searchview_description_submit">Gửi truy vấn</string>
+    <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
+    <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
+    <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="abc_toolbar_collapse_description">Thu gọn</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_left_edit">Chỉnh sửa</string>
+    <string name="add_remark">Thêm ghi chú</string>
+    <string name="alarm_afternoon">buổi chiều</string>
+    <string name="alarm_alert_snooze_set">Báo lại trong %d phút.</string>
+    <string name="alarm_classic">Báo thức cổ điển</string>
+    <string name="alarm_flip_setting">Cài đặt chế độ lật</string>
+    <string name="alarm_is_set">Đồng hồ đặt %s</string>
+    <string name="alarm_is_snoozed">%s đồng hồ báo lại sau 10 phút</string>
+    <string name="alarm_missed_title">Báo thức bị lỡ</string>
+    <string name="alarm_morning">buổi sáng</string>
+    <string name="alarm_mute_ringing_switch">Chuông trong chế độ im lặng</string>
+    <string name="alarm_notif_title">Báo thức sắp đổ chuông</string>
+    <string name="alarm_reapt">Lặp lại</string>
+    <string name="alarm_reminder_tv">Thời gian với %6 không có chuông</string>
+    <string name="alarm_repeat">Lặp lại</string>
+    <string name="alarm_ring">chuông báo thức</string>
+    <string name="alarm_setting_flip_close_alarm_intro">Sau khi đóng, báo thức chỉ tắt khi trượt xuống.</string>
+    <string name="alarm_setting_flip_close_alarm_title">Trượt lên hoặc trượt xuống để dừng báo thức</string>
+    <string name="alarm_settings">ĐỒNG HỒ BÁO THỨC</string>
+    <string name="alarm_shutdown_ringing_switch">Chuông khi tắt điện thoại</string>
+    <string name="alarm_time_activity">Đã báo thức</string>
+    <string name="alarm_time_after_now">Trễ hơn %s giờ</string>
+    <string name="alarm_time_before_now">Sớm hơn %s giờ</string>
+    <string name="alarm_time_equal_now">Thời gian tương tự</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">Bật rung</string>
+    <string name="alarm_volume_title">Âm lượng báo thức (Đồng hồ hẹn giờ)</string>
+    <string name="alarm_week">Tùy chỉnh</string>
+    <string name="alert_dismiss_text">Hủy bỏ</string>
+    <string name="alert_remind_later">“Đang báo lại”</string>
+    <string name="app_label">Đồng hồ</string>
+    <string name="auto_silence_never">Không bao giờ</string>
+    <string name="auto_silence_summary">%d phút</string>
+    <string name="auto_silence_title">Tắt tiếng từ</string>
+    <string name="automatic_home_clock">Đồng hồ tự động cho múi giờ chính</string>
+    <string name="automatic_home_clock_summary">Khi đi đến những nơi khác với giờ khác, thêm đồng hồ cho múi giờ chính</string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="cancel_dialog">Hủy</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string name="check_draw_overlay_permission">Kiểm tra giấy phép dành cho cửa sổ mở nhanh đồng hồ</string>
+    <string name="cities_activity_title">Thêm các thành phố</string>
+    <string name="city_count_over_limit">Bạn phải xóa một thành phố để thêm địa điểm mới</string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+    <string name="clock_settings">ĐỒNG HỒ</string>
+    <string name="clock_style">Kiểu cách</string>
+    <string name="close_alarm_notif">Hủy bỏ</string>
+    <string name="copy">Sao chép</string>
+    <string name="cta_content_agree_go_on">Đồng ý</string>
+    <string name="cta_content_exit">Thoát</string>
+    <string name="custom_volume">Âm lượng tùy chỉnh</string>
+    <string name="custom_volume_silence">Cài đặt im lặng cho nhạc chuông</string>
+    <string name="day">“1 ngày”</string>
+    <string name="day_afternoon">Chiều</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">Sáng</string>
+    <string name="day_evening">Chiều</string>
+    <string name="day_midnoon">Chiều</string>
+    <string name="day_morning">Sáng</string>
+    <string name="days">%s ngày</string>
+    <string name="days_of_week_day">Ngày</string>
+    <string name="default_label">Báo thức</string>
+    <string name="default_ring_title">Buổi sáng mới</string>
+    <string name="delete_failed">Xóa bị lỗi</string>
+    <string name="delete_successfully">Đã xóa</string>
+    <string name="delete_world_clock_confirm_tips">Xóa %d thành phố?</string>
+    <string name="delete_world_clock_confirm_tips_one">Xóa thành phố này?</string>
+    <string name="deselect">Bỏ chọn tất cả</string>
+    <string name="display_once">Không nhắc lại</string>
+    <string name="down_holidays_suscess">Tải về dữ liệu kỳ nghỉ thành công, vui lòng cài đặt lại</string>
+    <string name="edit_alarm">Chỉnh sửa báo thức</string>
+    <string name="edit_alarm_cancel">Hủy</string>
+    <string name="edit_alarm_delete_cancel">Hủy</string>
+    <string name="edit_alarm_delete_ok">Xóa</string>
+    <string name="edit_alarm_done">Xong</string>
+    <string name="edit_alarm_give_up_dialog">Hủy bỏ các thay đổi?</string>
+    <string name="edit_alarm_label_remind">Tối đa 26 ký tự</string>
+    <string name="edit_alarm_last_ring_tv">Thời gian báo lại</string>
+    <string name="edit_alarm_no_label">Không nhãn</string>
+    <string name="edit_alarm_remark">Các ghi chú</string>
+    <string name="edit_alarm_sleep_mode">Báo lại</string>
+    <string name="edit_alarm_title">Thêm đồng hồ báo thức</string>
+    <string name="edit_alarm_vibe">Rung khi chuông</string>
+    <string name="edit_alarm_volume_mode">Âm lượng</string>
+    <string name="edit_alarm_weather">Báo thời tiết khi đồng hồ đổ chuông</string>
+    <string name="edit_list_alarm_select">Chọn mục</string>
+    <string name="edit_list_alarm_selected_dialog">Hủy báo thức?</string>
+    <string name="edit_list_alarm_selected_number">%d được chọn</string>
+    <string name="edit_list_alarms_selected_dialog">Hủy %d báo thức?</string>
+    <string name="empty_list_msg">Không có kết quả</string>
+    <string name="end_snooze">Kết thúc báo lại</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string name="every_day">Hàng ngày</string>
+    <string name="expand_button_title">Nâng cao</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+    <string name="give_up_dialog">Hủy bỏ</string>
+    <string name="holidays_info">Ngày làm việc</string>
+    <string name="home_time_zone">Múi giờ chính</string>
+    <string name="home_time_zone_title">Múi giờ chính</string>
+    <string name="hour">1 giờ</string>
+    <string name="hours">%s giờ</string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string name="invalid_time">Thời gian không hợp lệ %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">Thẻ</string>
+    <string name="label">Nhãn</string>
+    <string name="label_description">Nhãn</string>
+    <string name="local">Trên máy</string>
+    <string name="lock_screen_weather_playing_text">Chuông báo thời tiết đang bật</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
+    <string name="menu_alarm">Báo thức</string>
+    <string name="menu_clock">Đồng hồ</string>
+    <string name="menu_item_help">Trợ giúp</string>
+    <string name="menu_item_night_mode">Chế độ đêm</string>
+    <string name="menu_item_settings">Cài đặt</string>
+    <string name="menu_item_sort_by_gmt_offset">Sắp xếp theo thời gian</string>
+    <string name="menu_stopwatch">Đồng hồ bấm giây</string>
+    <string name="menu_timer">Trình hẹn giờ</string>
+    <string name="minute">“1 phút”</string>
+    <string name="minute_unit">phút</string>
+    <string name="minutes">%s phút</string>
+    <string name="missed_alarm_has_been_deleted">Đã xóa báo thức bị lỡ</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">Cột ngày: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$s</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ chọn một ngày</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ chọn một năm</string>
+    <string name="net_connect_prompt_title">Lời nhắc cho phép</string>
+    <string name="never">Không bao giờ</string>
+    <string name="next_alarm_description">Báo thức tiếp theo: %s</string>
+    <string name="no_alarms">Không báo thức</string>
+    <string name="no_clock">Không có các đồng hồ thế giới</string>
+    <string name="no_firing_alarms">Không có chuông báo cháy</string>
+    <string name="no_holiday_data_prompt">Các ngày làm việc (Kết nối Wifi trong lần đầu tiên)</string>
+    <string name="no_music">Không có nhạc trên máy</string>
+    <string name="no_record">Các tập tin ghi âm trên máy</string>
+    <string name="not_set">Chưa đặt</string>
+    <string name="notification_channel_name">Thông báo đồng hồ</string>
+    <string name="number_picker_hour">H</string>
+    <string name="number_picker_minute">M</string>
+    <string name="number_picker_second">S</string>
+    <string name="ok_dialog">OK</string>
+    <string name="once">Một lần</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
+    <string name="pick_from_music">Chọn từ Kho nhạc</string>
+    <string name="pick_from_recorder">Chọn từ Tập tin ghi âm</string>
+    <string name="pick_from_ringtone">Chọn từ Nhạc chuông</string>
+    <string name="poweroff_alarm">Tắt báo thức</string>
+    <string name="poweroff_alarm_close_tips">Thậm chí nếu điện thoại tắt, báo thức vẫn đổ chuông miễn là thời gian cài đặt dài hơn 5 phút.</string>
+    <string name="poweroff_alarm_open_tips">Thậm chí nếu điện thoại tắt, báo thức vẫn đổ chuông miễn là thời gian cài đặt dài hơn 5 phút.</string>
+    <string name="poweroff_prompt_dlg_close">Đi đến</string>
+    <string name="poweroff_prompt_dlg_msg">Chuông khi tắt điện thoại. Bạn có thể tắt tính năng này trong cài đặt đồng hồ báo thức</string>
+    <string name="poweroff_prompt_dlg_ok">OK</string>
+    <string name="poweroff_prompt_dlg_title">Tắt báo thức được kích hoạt</string>
+    <string name="preference_copied">Đã sao chép \"%1$s\" vào khay nhớ tạm.</string>
+    <string name="repeat_public_weekdays">Ngày làm việc</string>
+    <string name="ring_chose">Nhạc chuông</string>
+    <string name="ringtone">Nhạc chuông</string>
+    <string name="search_hint">Thành phố/Quốc gia</string>
+    <string name="search_local_music">Tìm kiếm nhạc trên máy</string>
+    <string name="search_local_record">Tìm kiếm tập tin ghi âm trên máy</string>
+    <string name="search_menu_title">Tìm kiếm</string>
+    <string name="second_unit">giây</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="settings">Cài đặt</string>
+    <string name="show_notif">Hiển thị các báo thức sắp đổ chuông tại trung tâm thông báo</string>
+    <string name="show_notif_open_tips">Tin nhắn báo thức sẽ được hiển thị tại trung tâm thông báo trong vòng 2 giờ trước khi đổ chuông.</string>
+    <string name="silent_alarm">Im lặng</string>
+    <string name="silent_alarm_summary">Im lặng</string>
+    <string name="skip_alarm_next_time_normal">Báo thức bị lỡ sẽ đổ chuông trong lần tới</string>
+    <string name="snooze_duration_title">Thời gian báo lại</string>
+    <string name="snooze_interval_later">sau đó</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">Tính năng đồng hồ bấm dây để chạy thông báo</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">Lưu trữ</string>
+    <string name="sw_notification_lap_number">Lưu trữ %d</string>
+    <string name="sw_pause_button">Tạm dừng</string>
+    <string name="sw_reset_button">Đặt lại</string>
+    <string name="sw_resume_button">Tiếp tục</string>
+    <string name="sw_share_laps">Số lần lưu trữ:</string>
+    <string name="sw_share_main">Thời gian của tôi là %s</string>
+    <string name="sw_unit_digits">giờ phút giây</string>
+    <string name="swn_stopped">Đã dừng</string>
+    <string name="sync_alarm_from_server_completed">Tính năng Đám mây đã được cập nhật vào dữ liệu đồng hồ</string>
+    <string name="time_handle_text_degree_unit">m</string>
+    <string name="time_span_unit_hour">giờ</string>
+    <string name="time_span_unit_minute">phút</string>
+    <string name="time_span_unit_second">giây</string>
+    <string name="timer_am">Sáng</string>
+    <string name="timer_close">Đóng</string>
+    <string name="timer_dialog_btn_cancel">Hủy</string>
+    <string name="timer_dialog_btn_start">Bắt đầu</string>
+    <string name="timer_dialog_title">Thiết lập thời gian</string>
+    <string name="timer_fullscreen_prompt">Trượt lên để dừng</string>
+    <string name="timer_fullscreen_summary_after">Đồng hồ hẹn giờ đã cài đặt</string>
+    <string name="timer_missed_title">Đồng hồ hẹn giờ đã bỏ lỡ</string>
+    <string name="timer_notification_label">Trình hẹn giờ</string>
+    <string name="timer_picker_hour_unit">h</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">s</string>
+    <string name="timer_ring_dialog_title">Chế độ chuông</string>
+    <string name="timer_ring_service_desc">Tính năng lặp lại âm thanh của đồng hồ hẹn giờ được cài đặt trong Đồng hồ Báo thức</string>
+    <string name="timer_stopped">Đã dừng đồng hồ hẹn giờ</string>
+    <string name="timing">Lập thời gian</string>
+    <string name="title_local_music">Trên máy</string>
+    <string name="title_record">Ghi âm</string>
+    <string name="title_ringstone">Chuông</string>
+    <string name="touch_on_close">Trượt lên để dừng báo thức</string>
+    <string name="touchupclose">Trượt lên hoặc trượt xuống để dừng báo thức</string>
+    <string name="update_holiday_summary">Dò tìm các cập nhật khả dụng trên dữ liệu kỳ nghỉ</string>
+    <string name="update_holiday_title">Cập nhật dữ liệu kỳ nghỉ</string>
+    <string name="v7_preference_off">TẮT</string>
+    <string name="v7_preference_on">BẬT</string>
+    <string name="volume_button_setting_title">Báo lại</string>
+    <string name="weather_key_rain">mưa</string>
+    <string name="weekly">Hàng tuần</string>
+    <string name="world_time_today">Hôm nay</string>
+    <string name="world_time_tomorrow">Ngày mai</string>
+    <string name="world_time_yesterday">Hôm qua</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/clock_oval_icon_restart_select" android:pathData="M6,13C6,11.35 6.67,9.85 7.76,8.76L6.34,7.34C4.9,8.79 4,10.79 4,13C4,17.08 7.05,20.44 11,20.93L11,18.91C8.17,18.43 6,15.97 6,13ZM20,13C20,8.58 16.42,5 12,5C11.94,5 11.88,5.01 11.82,5.01L12.91,3.92L11.5,2.5L8,6L11.5,9.5L12.91,8.09L11.83,7.01C11.89,7.01 11.95,7 12,7C15.31,7 18,9.69 18,13C18,15.97 15.83,18.43 13,18.91L13,20.93C16.95,20.44 20,17.08 20,13Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

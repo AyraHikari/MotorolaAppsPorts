@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cta_dialog_title_margin_top" android:layout_marginHorizontal="@dimen/cta_dialog_content_margin_horizon" style="@style/CtaDialogTitleTextAppearance" />
+    <View android:id="@id/scroll_divider" android:visibility="invisible" android:layout_marginTop="@dimen/cta_dialog_content_item_margin_top" style="@style/DividerLine" />
+    <com.motorola.tools.myui.privacypermissiondialog.MaxHeightScrollView android:scrollbarThumbVertical="@drawable/privacy_perm_scroll_bar" android:scrollbarStyle="outsideOverlay" android:id="@id/message_scroller" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxScrollHeight="@dimen/cta_dialog_content_max_height">
+        <LinearLayout android:orientation="vertical" android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/cta_dialog_content_margin_horizon" />
+    </com.motorola.tools.myui.privacypermissiondialog.MaxHeightScrollView>
+    <CheckBox android:id="@id/check_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cta_dialog_checkbox_min_height" android:layout_marginHorizontal="@dimen/cta_dialog_content_margin_horizon" style="@style/CtaDialogCheckboxTextAppearance" />
+    <RelativeLayout android:id="@id/button_container_1" android:background="?android:selectableItemBackground" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cta_dialog_button_min_height">
+        <View android:layout_alignParentTop="true" style="@style/DividerLine" />
+        <TextView android:id="@android:id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingHorizontal="@dimen/cta_dialog_content_margin_horizon" style="@style/CtaDialogButtonTextAppearance" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/button_container_2" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cta_dialog_button_min_height">
+        <View style="@style/DividerLine" />
+        <TextView android:id="@android:id/button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingHorizontal="@dimen/cta_dialog_content_margin_horizon" style="@style/CtaDialogButtonTextAppearance" />
+    </RelativeLayout>
+</LinearLayout>

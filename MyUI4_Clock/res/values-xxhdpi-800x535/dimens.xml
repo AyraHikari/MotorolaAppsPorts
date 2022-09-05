@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stop_watch_counting_timer_view_margin_top">65.0dip</dimen>
+</resources>

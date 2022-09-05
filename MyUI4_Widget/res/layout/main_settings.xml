@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.commandcenter.widget.SwitchBar android:id="@id/switch_bar" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_64" android:layout_alignParentTop="true" android:layout_marginHorizontal="@dimen/margins_16" android:paddingHorizontal="@dimen/margins_16" app:switchBarBackground="@drawable/setting_bg_switchbar_base" app:switchBarBackgroundActivated="@drawable/setting_bg_switchbar_select" />
+    <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/switch_bar" />
+</RelativeLayout>

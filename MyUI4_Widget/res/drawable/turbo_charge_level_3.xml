@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_01" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_02" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_03" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_04" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_05" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_06" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_07" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_08" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_09" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_10" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_11" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_12" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_13" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_14" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_15" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_16" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_17" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_18" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_19" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_20" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_21" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_22" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_23" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_24" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_25" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_26" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_27" />
+    <item android:duration="@integer/anim_frame_duration_charge_turbo" android:drawable="@drawable/charge_level_3_28" />
+</animation-list>

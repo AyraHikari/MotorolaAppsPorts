@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/add_circle_select" />
+    <corners android:radius="32.0dip" />
+    <size android:height="72.0dip" android:width="72.0dip" />
+</shape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/alarm_notif_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/notification.container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/notification.icon_container">
+        <ImageView android:id="@id/notification_icon" android:src="@drawable/icon_alarm_notification" style="@style/notification.icon" />
+        <TextView android:text="@string/menu_alarm" style="@style/notification.icon_title" />
+    </LinearLayout>
+    <TextView android:ellipsize="marquee" android:id="@id/alarm_notif_title" android:fadingEdge="horizontal" android:singleLine="true" style="@style/notification.title" />
+    <TextView android:ellipsize="marquee" android:id="@id/alarm_notif_content" android:fadingEdge="horizontal" android:singleLine="true" android:layout_marginEnd="5.0dip" style="@style/notification.content" />
+</LinearLayout>

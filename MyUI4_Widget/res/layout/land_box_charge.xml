@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/charge_anim_view" android:visibility="invisible" android:layout="@layout/layout_charge_level_0" android:layout_width="@dimen/widget_bg_size_land" android:layout_height="@dimen/widget_bg_size_land" />
+    <TextView android:id="@id/arch_center" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_centerVertical="true" />
+    <TextView android:id="@id/arch_u_1" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginBottom="@dimen/b_u_1_land" android:layout_above="@id/arch_center" />
+    <TextView android:id="@id/arch_d_1" android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/b_d_1_land" android:layout_below="@id/arch_center" />
+    <TextView android:id="@id/arch_d_1_2" android:background="#ff0000ff" android:layout_width="100.0dip" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/time_margin_land" android:layout_below="@id/arch_d_1" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/charge_turbo" android:visibility="gone" android:layout_width="@dimen/widget_logo_width_land" android:layout_height="@dimen/widget_logo_height_land" android:layout_marginTop="@dimen/widget_logo_margin_top_land" android:src="@drawable/turbo_power_logo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/charge_regular" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fit_top_margin_land" android:layout_above="@id/arch_u_1" android:layout_alignBottom="@id/arch_u_1" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/charge_type_icon" android:layout_width="@dimen/widget_icon_size_land" android:layout_height="@dimen/widget_icon_size_land" android:src="@drawable/charging_normal" />
+        <TextView android:id="@id/charge_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charging" style="@style/WhiteText.TEXT14.Land" />
+    </LinearLayout>
+    <TextView android:id="@id/charge_battery_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/arch_d_1_2" android:layout_alignBottom="@id/arch_d_1_2" android:layout_centerHorizontal="true" style="@style/WhiteText.Light.NUMBER.56.Land" />
+</RelativeLayout>

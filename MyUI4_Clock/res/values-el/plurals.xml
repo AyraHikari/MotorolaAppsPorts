@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d ώρες πίσω</item>
+        <item quantity="one">1 ώρα πίσω</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d ώρες μπροστά</item>
+        <item quantity="one">1 ώρα μπροστά</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+</resources>

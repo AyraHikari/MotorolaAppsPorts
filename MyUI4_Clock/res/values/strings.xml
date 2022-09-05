@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">A=Abidjan|Africa/Abidjan</string>
+    <string name="C10">D=Dakar|Africa/Dakar</string>
+    <string name="C100">A=Amman|Asia/Amman</string>
+    <string name="C101">A=Anadyr|Asia/Anadyr</string>
+    <string name="C102">A=Aqtau|Asia/Aqtau</string>
+    <string name="C103">B=Baghdad|Asia/Baghdad</string>
+    <string name="C104">B=Bahrain|Asia/Bahrain</string>
+    <string name="C105">B=Baku|Asia/Baku</string>
+    <string name="C106">B=Bangkok|Asia/Bangkok</string>
+    <string name="C107">B=Beirut|Asia/Beirut</string>
+    <string name="C108">K=Kolkata|Asia/Calcutta</string>
+    <string name="C109">D=Damascus|Asia/Damascus</string>
+    <string name="C11">D=Dar es Salaam|Africa/Dar_es_Salaam</string>
+    <string name="C110">D=Dhaka|Asia/Dhaka</string>
+    <string name="C111">D=Dubai|Asia/Dubai</string>
+    <string name="C112">G=Gaza|Asia/Gaza</string>
+    <string name="C113">H=Hebron|Asia/Hebron</string>
+    <string name="C114">H=Ho Chi Minh|Asia/Ho_Chi_Minh</string>
+    <string name="C115">H=Hong Kong:|Asia/Hong_Kong</string>
+    <string name="C117">J=Jakarta|Asia/Jakarta</string>
+    <string name="C118">J=Jerusalem|Asia/Jerusalem</string>
+    <string name="C119">K=Kabul|Asia/Kabul</string>
+    <string name="C12">D=Djibouti|Africa/Djibouti</string>
+    <string name="C120">K=Karachi|Asia/Karachi</string>
+    <string name="C121">K=Kathmandu|Asia/Kathmandu</string>
+    <string name="C122">K=Kuala Lumpur|Asia/Kuala_Lumpur</string>
+    <string name="C123">K=Kuwait|Asia/Kuwait</string>
+    <string name="C124">M=Macau|Asia/Macau</string>
+    <string name="C125">M=Manila|Asia/Manila</string>
+    <string name="C126">M=Muscat|Asia/Muscat</string>
+    <string name="C127">P=Phnom Penh|Asia/Phnom_Penh</string>
+    <string name="C128">P=Pyongyang:|Asia/Pyongyang</string>
+    <string name="C13">F=Freetown|Africa/Freetown</string>
+    <string name="C130">R=Rangoon|Asia/Rangoon</string>
+    <string name="C131">R=Riyadh|Asia/Riyadh</string>
+    <string name="C133">S=Seoul|Asia/Seoul</string>
+    <string name="C134">S=Shanghai:|Asia/Shanghai</string>
+    <string name="C135">S=Singapore|Asia/Singapore</string>
+    <string name="C136">T=Taipei:|Asia/Taipei</string>
+    <string name="C137">T=Tehran|Asia/Tehran</string>
+    <string name="C138">T=Tel Aviv|Asia/Tel_Aviv</string>
+    <string name="C139">T=Tokyo:|Asia/Tokyo</string>
+    <string name="C14">G=Gaborone|Africa/Gaborone</string>
+    <string name="C140">U=Ulaanbaatar|Asia/Ulaanbaatar</string>
+    <string name="C141">B=Bermuda|Atlantic/Bermuda</string>
+    <string name="C142">C=Canary|Atlantic/Canary</string>
+    <string name="C143">C=Cape Verde|Atlantic/Cape_Verde</string>
+    <string name="C144">R=Reykjavik|Atlantic/Reykjavik</string>
+    <string name="C145">S=Stanley|Atlantic/Stanley</string>
+    <string name="C146">A=Adelaide|Australia/Adelaide</string>
+    <string name="C147">B=Brisbane|Australia/Brisbane</string>
+    <string name="C148">C=Canberra|Australia/Canberra</string>
+    <string name="C149">D=Darwin|Australia/Darwin</string>
+    <string name="C15">H=Harare|Africa/Harare</string>
+    <string name="C150">M=Melbourne|Australia/Melbourne</string>
+    <string name="C151">N=New South Wales|Australia/NSW</string>
+    <string name="C152">P=Perth|Australia/Perth</string>
+    <string name="C153">Q=Queensland|Australia/Queensland</string>
+    <string name="C154">S=Sydney|Australia/Sydney</string>
+    <string name="C155">V=Victoria|Australia/Victoria</string>
+    <string name="C156">N=Newfoundland|Canada/Newfoundland</string>
+    <string name="C157">S=Saskatchewan|Canada/Saskatchewan</string>
+    <string name="C158">E=Easter Island|Chile/EasterIsland</string>
+    <string name="C159">A=Amsterdam|Europe/Amsterdam</string>
+    <string name="C16">J=Johannesburg|Africa/Johannesburg</string>
+    <string name="C160">A=Andorra|Europe/Andorra</string>
+    <string name="C161">A=Athens|Europe/Athens</string>
+    <string name="C162">B=Belfast|Europe/Belfast</string>
+    <string name="C163">B=Belgrade|Europe/Belgrade</string>
+    <string name="C164">B=Berlin|Europe/Berlin</string>
+    <string name="C165">B=Bratislava|Europe/Bratislava</string>
+    <string name="C166">B=Brussels|Europe/Brussels</string>
+    <string name="C167">B=Bucharest|Europe/Bucharest</string>
+    <string name="C168">B=Budapest|Europe/Budapest</string>
+    <string name="C169">C=Chisinau|Europe/Chisinau</string>
+    <string name="C17">K=Kampala|Africa/Kampala</string>
+    <string name="C170">C=Copenhagen|Europe/Copenhagen</string>
+    <string name="C171">D=Dublin|Europe/Dublin</string>
+    <string name="C172">G=Gibraltar|Europe/Gibraltar</string>
+    <string name="C173">H=Helsinki|Europe/Helsinki</string>
+    <string name="C174">I=Isle of Man|Europe/Isle_of_Man</string>
+    <string name="C175">I=Istanbul|Europe/Istanbul</string>
+    <string name="C176">K=Kiev|Europe/Kiev</string>
+    <string name="C177">L=Lisbon|Europe/Lisbon</string>
+    <string name="C178">L=London|Europe/London</string>
+    <string name="C179">L=Luxembourg|Europe/Luxembourg</string>
+    <string name="C18">K=Khartoum|Africa/Khartoum</string>
+    <string name="C180">M=Madrid|Europe/Madrid</string>
+    <string name="C181">M=Malta|Europe/Malta</string>
+    <string name="C182">M=Minsk|Europe/Minsk</string>
+    <string name="C183">M=Monaco|Europe/Monaco</string>
+    <string name="C184">M=Moscow|Europe/Moscow</string>
+    <string name="C185">O=Oslo|Europe/Oslo</string>
+    <string name="C186">P=Paris|Europe/Paris</string>
+    <string name="C187">P=Prague|Europe/Prague</string>
+    <string name="C188">R=Riga|Europe/Riga</string>
+    <string name="C189">R=Rome|Europe/Rome</string>
+    <string name="C19">K=Kigali|Africa/Kigali</string>
+    <string name="C190">S=San Marino|Europe/San_Marino</string>
+    <string name="C191">S=Sarajevo|Europe/Sarajevo</string>
+    <string name="C192">S=Simferopol|Europe/Simferopol</string>
+    <string name="C193">S=Skopje|Europe/Skopje</string>
+    <string name="C194">S=Sofia|Europe/Sofia</string>
+    <string name="C195">S=Stockholm|Europe/Stockholm</string>
+    <string name="C196">T=Tallinn|Europe/Tallinn</string>
+    <string name="C197">V=Vatican|Europe/Vatican</string>
+    <string name="C198">V=Vienna|Europe/Vienna</string>
+    <string name="C199">V=Vilnius|Europe/Vilnius</string>
+    <string name="C2">A=Accra|Africa/Accra</string>
+    <string name="C20">K=Kinshasa|Africa/Kinshasa</string>
+    <string name="C200">W=Warsaw|Europe/Warsaw</string>
+    <string name="C201">Z=Zagreb|Europe/Zagreb</string>
+    <string name="C202">Z=Zurich|Europe/Zurich</string>
+    <string name="C203">A=Antananarivo|Indian/Antananarivo</string>
+    <string name="C204">M=Maldives|Indian/Maldives</string>
+    <string name="C205">M=Mauritius|Indian/Mauritius</string>
+    <string name="C206">A=Auckland|Pacific/Auckland</string>
+    <string name="C207">F=Fiji|Pacific/Fiji</string>
+    <string name="C208">G=Guam|Pacific/Guam</string>
+    <string name="C209">H=Honolulu|Pacific/Honolulu</string>
+    <string name="C21">L=Lagos|Africa/Lagos</string>
+    <string name="C210">K=Kiritimati|Pacific/Kiritimati</string>
+    <string name="C211">N=Noumea|Pacific/Noumea</string>
+    <string name="C214">A=Antigua|America/Antigua</string>
+    <string name="C215">A=Austin|America/Chicago</string>
+    <string name="C216">B=Boston|America/New_York</string>
+    <string name="C217">C=Calgary|America/Denver</string>
+    <string name="C218">C=Columbus|America/New_York</string>
+    <string name="C219">D=Dallas|America/Chicago</string>
+    <string name="C22">M=Maseru|Africa/Maseru</string>
+    <string name="C220">K=Knoxville|America/New_York</string>
+    <string name="C221">M=Memphis|America/Chicago</string>
+    <string name="C222">M=Miami|America/New_York</string>
+    <string name="C223">M=Minneapolis|America/Chicago</string>
+    <string name="C224">O=Ottawa|America/New_York</string>
+    <string name="C225">P=Philadelphia|America/New_York</string>
+    <string name="C226">P=Portland|America/Los_Angeles</string>
+    <string name="C227">S=San Diego|America/Los_Angeles</string>
+    <string name="C228">S=San Francisco|America/Los_Angeles</string>
+    <string name="C229">S=Salt Lake City|America/Denver</string>
+    <string name="C23">M=Mogadishu|Africa/Mogadishu</string>
+    <string name="C230">S=San Jose|America/Los_Angeles</string>
+    <string name="C231">S=San Salvador|America/Guatemala</string>
+    <string name="C232">S=Seattle|America/Los_Angeles</string>
+    <string name="C233">S=St. Louis|America/Chicago</string>
+    <string name="C234">W=Washington D.C.|America/New_York</string>
+    <string name="C235">H=Houston|America/Chicago</string>
+    <string name="C236">S=San Antonio|America/Chicago</string>
+    <string name="C237">J=Jacksonville|America/New_York</string>
+    <string name="C238">B=Baltimore|America/New_York</string>
+    <string name="C239">N=Nashville|America/Chicago</string>
+    <string name="C24">N=Nairobi|Africa/Nairobi</string>
+    <string name="C240">M=Milwaukee|America/Chicago</string>
+    <string name="C241">O=Oklahoma City|America/Chicago</string>
+    <string name="C242">L=Las Vegas|America/Los_Angeles</string>
+    <string name="C243">A=Albuquerque|America/Denver</string>
+    <string name="C244">T=Tucson|MST</string>
+    <string name="C245">S=Sacramento|America/Los_Angeles</string>
+    <string name="C246">A=Atlanta|America/New_York</string>
+    <string name="C247">C=Cleveland|America/New_York</string>
+    <string name="C248">N=New Orleans|America/Chicago</string>
+    <string name="C249">T=Tampa|America/New_York</string>
+    <string name="C25">S=São Tomé|Africa/Sao_Tome</string>
+    <string name="C250">P=Pittsburgh|America/New_York</string>
+    <string name="C251">C=Cincinnati|America/New_York</string>
+    <string name="C252">M=Mountain View|America/Los_Angeles</string>
+    <string name="C253">R=Reno|America/Los_Angeles</string>
+    <string name="C254">B=Black Rock City|America/Los_Angeles</string>
+    <string name="C255">D=Doha|Asia/Riyadh</string>
+    <string name="C256">B=Beijing:|Asia/Shanghai</string>
+    <string name="C257">M=Mumbai|Asia/Kolkata</string>
+    <string name="C258">D=Delhi|Asia/Kolkata</string>
+    <string name="C259">O=Osaka:|Asia/Tokyo</string>
+    <string name="C26">T=Timbuktu|Africa/Timbuktu</string>
+    <string name="C260">L=Lahore|Asia/Karachi</string>
+    <string name="C261">"S=Sana'a|Asia/Riyadh"</string>
+    <string name="C262">B=Barcelona|Europe/Madrid</string>
+    <string name="C263">M=Munich|Europe/Berlin</string>
+    <string name="C264">M=Milan|Europe/Rome</string>
+    <string name="C265">F=Frankfurt|Europe/Berlin</string>
+    <string name="C266">H=Hanoi|Asia/Bangkok</string>
+    <string name="C267">A=Ankara|Europe/Istanbul</string>
+    <string name="C268">B=Bangalore|Asia/Kolkata</string>
+    <string name="C269">B=Brasília|America/Sao_Paulo</string>
+    <string name="C27">T=Tripoli|Africa/Tripoli</string>
+    <string name="C270">C=Cape Town|Africa/Johannesburg</string>
+    <string name="C271">I=Islamabad|Asia/Karachi</string>
+    <string name="C272">R=Rio de Janeiro|America/Sao_Paulo</string>
+    <string name="C273">A=Ann Arbor|America/Detroit</string>
+    <string name="C274">B=Boulder|America/Denver</string>
+    <string name="C275">C=Cambridge|America/New_York</string>
+    <string name="C276">K=Kirkland|America/Los_Angeles</string>
+    <string name="C277">M=Madison|America/Chicago</string>
+    <string name="C278">G=Guangzhou:|Asia/Shanghai</string>
+    <string name="C279">H=Hyderabad|Asia/Kolkata</string>
+    <string name="C28">T=Tunis|Africa/Tunis</string>
+    <string name="C280">R=Reston|America/New_York</string>
+    <string name="C281">B=Belo Horizonte|America/Sao_Paulo</string>
+    <string name="C282">S=Santiago|America/Santiago</string>
+    <string name="C283">M=Monrovia|Africa/Monrovia</string>
+    <string name="C284">C=Colombo|Asia/Colombo</string>
+    <string name="C285">C=Chihuahua|America/Chihuahua</string>
+    <string name="C286">S=Salvador|America/Sao_Paulo</string>
+    <string name="C287">G=Gurgaon|Asia/Kolkata</string>
+    <string name="C288">M=Manchester|Europe/London</string>
+    <string name="C29">A=Anchorage|America/Anchorage</string>
+    <string name="C290">S=St. Petersburg|Europe/Moscow</string>
+    <string name="C291">K=Kraków|Europe/Warsaw</string>
+    <string name="C292">W=Wroclaw|Europe/Warsaw</string>
+    <string name="C293">H=Hamburg|Europe/Berlin</string>
+    <string name="C294">O=Oulu|Europe/Bucharest</string>
+    <string name="C295">H=Haifa|Asia/Jerusalem</string>
+    <string name="C296">S=San Juan|America/Puerto_Rico</string>
+    <string name="C297">T=Tegucigalpa|America/Tegucigalpa</string>
+    <string name="C298">P=Paramaribo|America/Paramaribo</string>
+    <string name="C299">Q=Quito|America/Panama</string>
+    <string name="C3">A=Addis Ababa|Africa/Addis_Ababa</string>
+    <string name="C300">L=Ljubljana|Europe/Ljubljana</string>
+    <string name="C301">A=Ashgabat|Asia/Ashgabat</string>
+    <string name="C302">A=Asmara|Africa/Asmara</string>
+    <string name="C303">B=Bandar Seri Begawan|Asia/Brunei</string>
+    <string name="C304">B=Bangui|Africa/Bangui</string>
+    <string name="C305">B=Banjul|Africa/Banjul</string>
+    <string name="C306">B=Bishkek|Asia/Bishkek</string>
+    <string name="C307">B=Bissau|Africa/Bissau</string>
+    <string name="C308">B=Bujumbura|Africa/Bujumbura</string>
+    <string name="C309">D=Dili|Asia/Dili</string>
+    <string name="C31">A=Aruba|America/Aruba</string>
+    <string name="C310">D=Dushanbe|Asia/Dushanbe</string>
+    <string name="C311">F=Funafuti|Pacific/Funafuti</string>
+    <string name="C312">H=Honiara|Pacific/Guadalcanal</string>
+    <string name="C313">J=Juba|Africa/Juba</string>
+    <string name="C314">K=Kingstown|America/St_Vincent</string>
+    <string name="C315">L=Libreville|Africa/Libreville</string>
+    <string name="C316">L=Lomé|Africa/Lome</string>
+    <string name="C317">L=Luanda|Africa/Luanda</string>
+    <string name="C318">L=Lusaka|Africa/Lusaka</string>
+    <string name="C319">M=Majuro|Pacific/Majuro</string>
+    <string name="C32">A=Asunción|America/Asuncion</string>
+    <string name="C320">M=Malabo|Africa/Malabo</string>
+    <string name="C321">M=Maputo|Africa/Maputo</string>
+    <string name="C322">M=Mbabane|Africa/Mbabane</string>
+    <string name="C323">M=Moroni|Indian/Comoro</string>
+    <string name="C324">"N=N'Djamena|Africa/Ndjamena"</string>
+    <string name="C325">N=Ngerulmud|Pacific/Palau</string>
+    <string name="C326">N=Niamey|Africa/Niamey</string>
+    <string name="C327">N=Nicosia|Europe/Nicosia</string>
+    <string name="C328">N=Nouakchott|Africa/Nouakchott</string>
+    <string name="C329">"N=Nuku'alofa|Pacific/Tongatapu"</string>
+    <string name="C33">B=Barbados|America/Barbados</string>
+    <string name="C330">O=Ouagadougou|Africa/Ouagadougou</string>
+    <string name="C331">P=Palikir|Pacific/Noumea</string>
+    <string name="C332">P=Philipsburg|America/Lower_Princes</string>
+    <string name="C333">P=Podgorica|Europe/Podgorica</string>
+    <string name="C334">P=Port Moresby|Pacific/Palau</string>
+    <string name="C335">P=Port Vila|Pacific/Efate</string>
+    <string name="C336">P=Porto-Novo|Africa/Porto-Novo</string>
+    <string name="C337">P=Priština|Europe/Belgrade</string>
+    <string name="C338">R=Roseau|America/Dominica</string>
+    <string name="C339">T=Tashkent|Asia/Tashkent</string>
+    <string name="C34">B=Belize|America/Belize</string>
+    <string name="C340">T=Tbilisi|Asia/Tbilisi</string>
+    <string name="C341">T=Thimphu|Asia/Thimphu</string>
+    <string name="C342">T=Tirana|Europe/Tirane</string>
+    <string name="C343">V=Vaduz|Europe/Vaduz</string>
+    <string name="C344">V=Vientiane|Asia/Vientiane</string>
+    <string name="C345">W=Windhoek|Africa/Windhoek</string>
+    <string name="C346">Y=Yaoundé|Africa/Douala</string>
+    <string name="C347">Y=Yaren District|Pacific/Nauru</string>
+    <string name="C348">Y=Yerevan|Asia/Yerevan</string>
+    <string name="C35">B=Bogotá|America/Bogota</string>
+    <string name="C36">B=Buenos Aires|America/Buenos_Aires</string>
+    <string name="C37">C=Cancun|America/Cancun</string>
+    <string name="C38">C=Caracas|America/Caracas</string>
+    <string name="C39">C=Cayman|America/Cayman</string>
+    <string name="C4">A=Algiers|Africa/Algiers</string>
+    <string name="C40">C=Chicago|America/Chicago</string>
+    <string name="C42">C=Curaçao|America/Curacao</string>
+    <string name="C43">D=Dawson Creek|America/Dawson_Creek</string>
+    <string name="C44">D=Denver|America/Denver</string>
+    <string name="C45">D=Detroit|America/Detroit</string>
+    <string name="C46">D=Dominica|America/Dominica</string>
+    <string name="C47">E=Edmonton|America/Edmonton</string>
+    <string name="C48">E=El Salvador|America/El_Salvador</string>
+    <string name="C49">F=Fortaleza|America/Fortaleza</string>
+    <string name="C5">B=Blantyre|Africa/Blantyre</string>
+    <string name="C50">G=Grand Turk|America/Grand_Turk</string>
+    <string name="C51">G=Grenada|America/Grenada</string>
+    <string name="C52">G=Guatemala City|America/Guatemala</string>
+    <string name="C53">G=Guyana|America/Guyana</string>
+    <string name="C54">H=Halifax|America/Halifax</string>
+    <string name="C55">H=Havana|America/Havana</string>
+    <string name="C56">I=Indianapolis|America/Indiana/Indianapolis</string>
+    <string name="C57">K=Knox|America/Indiana/Knox</string>
+    <string name="C58">M=Marengo|America/Indiana/Marengo</string>
+    <string name="C59">P=Petersburg|America/Indiana/Petersburg</string>
+    <string name="C6">B=Brazzaville|Africa/Brazzaville</string>
+    <string name="C60">T=Tell City|America/Indiana/Tell_City</string>
+    <string name="C61">V=Vevay|America/Indiana/Vevay</string>
+    <string name="C62">V=Vincennes|America/Indiana/Vincennes</string>
+    <string name="C63">W=Winamac|America/Indiana/Winamac</string>
+    <string name="C64">K=Kingston|America/Jamaica</string>
+    <string name="C65">N=Nuestra Señora de La Paz|America/La_Paz</string>
+    <string name="C66">L=Lima|America/Lima</string>
+    <string name="C67">L=Los Angeles|America/Los_Angeles</string>
+    <string name="C68">L=Louisville|America/Louisville</string>
+    <string name="C69">M=Managua|America/Managua</string>
+    <string name="C7">C=Cairo|Africa/Cairo</string>
+    <string name="C70">M=Martinique|America/Martinique</string>
+    <string name="C71">M=Mendoza|America/Mendoza</string>
+    <string name="C72">M=Metlakatla|America/Metlakatla</string>
+    <string name="C73">M=Mexico City|America/Mexico_City</string>
+    <string name="C74">M=Monterrey|America/Monterrey</string>
+    <string name="C75">M=Montevideo|America/Montevideo</string>
+    <string name="C76">M=Montreal|America/Montreal</string>
+    <string name="C77">N=Nassau|America/Nassau</string>
+    <string name="C78">N=New York|America/New_York</string>
+    <string name="C79">B=Beulah|America/North_Dakota/Beulah</string>
+    <string name="C8">C=Casablanca|Africa/Casablanca</string>
+    <string name="C80">C=Center|America/North_Dakota/Center</string>
+    <string name="C81">N=New Salem|America/North_Dakota/New_Salem</string>
+    <string name="C82">P=Panama|America/Panama</string>
+    <string name="C83">P=Phoenix|America/Phoenix</string>
+    <string name="C84">P=Port of Spain|America/Port_of_Spain</string>
+    <string name="C85">P=Port-au-Prince|America/Port-au-Prince</string>
+    <string name="C86">P=Puerto Rico|America/Puerto_Rico</string>
+    <string name="C87">S=Santo Domingo|America/Santo_Domingo</string>
+    <string name="C88">S=São Paulo|America/Sao_Paulo</string>
+    <string name="C89">S=St. Johns|America/St_Johns</string>
+    <string name="C9">C=Conakry|Africa/Conakry</string>
+    <string name="C90">S=St. Kitts|America/St_Kitts</string>
+    <string name="C91">S=St. Lucia|America/St_Lucia</string>
+    <string name="C92">S=St. Thomas|America/St_Thomas</string>
+    <string name="C93">T=Tijuana|America/Tijuana</string>
+    <string name="C94">T=Toronto|America/Toronto</string>
+    <string name="C95">V=Vancouver|America/Vancouver</string>
+    <string name="C96">W=Winnipeg|America/Winnipeg</string>
+    <string name="C97">S=South Pole:|Antarctica/South_Pole</string>
+    <string name="C98">L=Longyearbyen|Arctic/Longyearbyen</string>
+    <string name="C99">A=Almaty|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accept_permission_desc">I have clearly understood the software permission statement</string>
+    <string name="accept_privacy_permission_desc">I have clearly understood all privacy policies of this software</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_left_edit">Edit</string>
+    <string name="add_remark">Add notes</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+    <string name="alarm_afternoon" />
+    <string name="alarm_alert_snooze_set">Snoozing for %d minutes</string>
+    <string name="alarm_classic">AlarmClassic</string>
+    <string name="alarm_flip_setting">Flip setting</string>
+    <string name="alarm_is_set">Alarm is set for %s</string>
+    <string name="alarm_is_snoozed">%s alarm snoozed for 10 minutes</string>
+    <string name="alarm_missed_title">Missed alarm</string>
+    <string name="alarm_morning" />
+    <string name="alarm_mute_ringing_switch">Ring on silent mode</string>
+    <string name="alarm_notif_title">Upcoming alarm<necessary></necessary></string>
+    <string name="alarm_reapt">Repeat</string>
+    <string name="alarm_reminder_tv">Time with %6 away from the ring</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">After the function is turned off, the alarm can only be turned by swiping upwards.</string>
+    <string name="alarm_setting_flip_close_alarm_title">Slide up or down to stop alarm</string>
+    <string name="alarm_settings">ALARMS</string>
+    <string name="alarm_shutdown_ringing_switch">Ring when the phone is closed</string>
+    <string name="alarm_time_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="alarm_time_activity">Alarm done</string>
+    <string name="alarm_time_after_now">%s hours behind</string>
+    <string name="alarm_time_before_now">%s hours ahead</string>
+    <string name="alarm_time_equal_now">Same time</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">Vibration switch</string>
+    <string name="alarm_volume_title">Alarm volume (Timer)</string>
+    <string name="alarm_week">Custom</string>
+    <string name="alert_dismiss_text">Dismiss</string>
+    <string name="alert_remind_close">Stop</string>
+    <string name="alert_remind_later">Snoozing</string>
+    <string name="alert_remind_snooze">Snooze</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_label">Clock</string>
+    <string name="app_name">opendeviceidlibrary</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="auto_silence_never">Never</string>
+    <string name="auto_silence_summary">%d minutes</string>
+    <string name="auto_silence_title">Silence after</string>
+    <string name="automatic_home_clock">Automatic home clock</string>
+    <string name="automatic_home_clock_summary">While traveling in an area where the time is different, add a clock for home</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="check_draw_overlay_permission">Check the permission for clock PopupWindow</string>
+    <string name="chip_text">Chip text</string>
+    <string name="cities_activity_title">Add cities</string>
+    <string name="city_count_over_limit">You have to remove a city to add a new one</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="clock_24_hours_format">kk:mm</string>
+    <string name="clock_settings">CLOCK</string>
+    <string name="clock_style">Style</string>
+    <string name="close_alarm_notif">Dismiss</string>
+    <string name="copy">Copy</string>
+    <string name="cta_content_agree_go_on">Allow</string>
+    <string name="cta_content_exit">Exit</string>
+    <string name="cta_net_connect_text">Used to get holiday information</string>
+    <string name="cta_net_storage_text">To save and later display your stored information</string>
+    <string name="custom_volume">Custom volume</string>
+    <string name="custom_volume_silence">Ringtone is Silent</string>
+    <string name="date_am">AM</string>
+    <string name="date_pm">PM</string>
+    <string name="day">1 day</string>
+    <string name="day_afternoon">PM</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">AM</string>
+    <string name="day_evening">PM</string>
+    <string name="day_midnoon">PM</string>
+    <string name="day_morning">AM</string>
+    <string name="days">%s days</string>
+    <string name="days_of_week_day" />
+    <string name="default_clock_style">digital</string>
+    <string name="default_label">Alarm</string>
+    <string name="default_ring_title">New Morning</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="delete_successfully">Deleted</string>
+    <string name="delete_world_clock_confirm_tips">Delete %d cities?</string>
+    <string name="delete_world_clock_confirm_tips_one">Delete the city?</string>
+    <string name="deselect">Deselect all</string>
+    <string name="disagree">Disagree</string>
+    <string name="display_once">No prompt again</string>
+    <string name="down_holidays_suscess">Holiday data download successfully, please reset</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="edit_alarm_cancel">Cancel</string>
+    <string name="edit_alarm_delete_cancel">Cancel</string>
+    <string name="edit_alarm_delete_ok">Delete</string>
+    <string name="edit_alarm_done">Done</string>
+    <string name="edit_alarm_give_up_dialog">Discard changes?</string>
+    <string name="edit_alarm_label_remind">26 characters maximum</string>
+    <string name="edit_alarm_last_ring_tv">Snooze duration</string>
+    <string name="edit_alarm_no_label">No label</string>
+    <string name="edit_alarm_remark">Notes</string>
+    <string name="edit_alarm_sleep_mode">Snooze</string>
+    <string name="edit_alarm_title">Add alarm</string>
+    <string name="edit_alarm_vibe">Vibrate on ring</string>
+    <string name="edit_alarm_volume_mode">Volume</string>
+    <string name="edit_alarm_weather">Broadcast the weather When the bell ring</string>
+    <string name="edit_list_alarm_select">Select item</string>
+    <string name="edit_list_alarm_selected_dialog">Delete alarm?</string>
+    <string name="edit_list_alarm_selected_number">%d</string>
+    <string name="edit_list_alarms_selected_dialog">Delete %d alarms?</string>
+    <string name="empty_list_msg">No results</string>
+    <string name="end_snooze">Snooze end</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="every_day">Every day</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="give_up_dialog">Discard</string>
+    <string name="go_calendar">Create an calendar event</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="holidays_info">Workdays</string>
+    <string name="home_time_zone">Home time zone</string>
+    <string name="home_time_zone_title">Home time zone</string>
+    <string name="hour">1 hour</string>
+    <string name="hours">%s hours</string>
+    <string name="http_error_text">Server abnormality</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="invalid_time">Invalid time %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="label">Label</string>
+    <string name="label_description">Label</string>
+    <string name="local">Local</string>
+    <string name="lock_screen_weather_playing_text">The weather ringtone is playing</string>
+    <string name="m3_ref_typeface_brand_display_regular">sans-serif</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0.0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1.0)</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0.0, 1.0, 1.0)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0.0, 0.0, 0.0, 1.0)</string>
+    <string name="m3_sys_typescale_body_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_body_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_body_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_display_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_medium_font">sans-serif</string>
+    <string name="m3_sys_typescale_headline_small_font">sans-serif</string>
+    <string name="m3_sys_typescale_label_large_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_label_medium_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_label_small_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_title_large_font">sans-serif</string>
+    <string name="m3_sys_typescale_title_medium_font">sans-serif-medium</string>
+    <string name="m3_sys_typescale_title_small_font">sans-serif-medium</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="menu_alarm">Alarm</string>
+    <string name="menu_clock">Clock</string>
+    <string name="menu_item_help">Help</string>
+    <string name="menu_item_night_mode">Night mode</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_sort_by_gmt_offset">Sort by time</string>
+    <string name="menu_stopwatch">Stopwatch</string>
+    <string name="menu_timer">Timer</string>
+    <string name="minute">1 minute</string>
+    <string name="minute_unit">m</string>
+    <string name="minutes">%s minutes</string>
+    <string name="missed_alarm_has_been_deleted">Your missed alarm has been deleted</string>
+    <string name="mode_edit_name">点击编辑名称</string>
+    <string name="mode_edit_tip">"暂未设置常用倒计时，
+点击下方“+”号开始添加"</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="net_connect_prompt_title">Clock requires the following permissions</string>
+    <string name="never">Never</string>
+    <string name="next_alarm_description">Next alarm: %s</string>
+    <string name="no_alarms">No alarms</string>
+    <string name="no_clock">No World Clocks</string>
+    <string name="no_firing_alarms">No firing alarms</string>
+    <string name="no_holiday_data_prompt">Workdays(Connect to Wifi for the first time)</string>
+    <string name="no_music">No music</string>
+    <string name="no_permission_text">The clock has not been granted permission to access phone status. This may cause the alarm clock to go off during a call. Do you wish to grant this permission?</string>
+    <string name="no_record">No recordings</string>
+    <string name="not_set">Not set</string>
+    <string name="notification_channel_name">Clock Notification</string>
+    <string name="number_picker_hour">H</string>
+    <string name="number_picker_minute">M</string>
+    <string name="number_picker_second">S</string>
+    <string name="ok_dialog">OK</string>
+    <string name="once">Once</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_access_location">Access location</string>
+    <string name="permission_access_network">Connected to the internet</string>
+    <string name="permission_access_storage">Read &amp; write storage</string>
+    <string name="permission_call_phone">Make a call</string>
+    <string name="permission_desc_heder">According to different services or scenarios during your using our application, you may need to enable relevant permissions:</string>
+    <string name="permission_header">User permission statement</string>
+    <string name="permission_open_bluetooth">Turn on Bluetooth</string>
+    <string name="permission_open_camera">Open Camera</string>
+    <string name="permission_open_mic">Record audio</string>
+    <string name="permission_open_nfc">Enable NFC</string>
+    <string name="permission_read_call_log">Read call log</string>
+    <string name="permission_read_contact">Read contacts</string>
+    <string name="permission_read_mms">Read MMS</string>
+    <string name="permission_read_sms">Read SMS</string>
+    <string name="permission_send_email">Send email</string>
+    <string name="permission_send_mms">Send MMS</string>
+    <string name="permission_send_sms">Send SMS</string>
+    <string name="permission_statement">The above permissions will not be enabled forcibly or by default. We will ask for your permission when you enable the corresponding functions or you are in relevant application scenarios. You have the right to refuse to enable said permissions. Refusing authorization will not affect the basic function services provided by the app.</string>
+    <string name="permission_write_call_log">Write &amp; delete call log</string>
+    <string name="permission_write_contact">Write &amp; delete contacts</string>
+    <string name="permission_write_mms">Write &amp; delete MMS</string>
+    <string name="permission_write_sms">Write &amp; delete SMS</string>
+    <string name="pick_from_music">Choose from music</string>
+    <string name="pick_from_recorder">Choose from recordings</string>
+    <string name="pick_from_ringtone">Choose from ringtones</string>
+    <string name="poweroff_alarm">Alert when device is off</string>
+    <string name="poweroff_alarm_close_tips">When device is off, alarms will ring</string>
+    <string name="poweroff_alarm_open_tips">When device is off, alarms will ring</string>
+    <string name="poweroff_prompt_dlg_close">Turn off</string>
+    <string name="poweroff_prompt_dlg_msg">You can turn this feature off in alarm settings</string>
+    <string name="poweroff_prompt_dlg_ok">OK</string>
+    <string name="poweroff_prompt_dlg_title">Alarm will ring when device is off</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="privacy_content" formatted="false">"Thank your for using%s！ 
+We are very aware that you attach great importance to personal information and privacy protection. You can learn more about relevant information by reading%s. We will wholeheartedly protect your personal information security and provide you with better services in accordance with laws!"</string>
+    <string name="privacy_permission_header">Privacy &amp; permissions</string>
+    <string name="privacy_policy_file_link_title">Privacy Statement File Name</string>
+    <string name="repeat_public_weekdays">Workdays</string>
+    <string name="ring_chose">Ringtone</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="search_hint">City/Country</string>
+    <string name="search_local_music">Search Local Music</string>
+    <string name="search_local_record">Search Local Record</string>
+    <string name="search_menu_title">Search</string>
+    <string name="second_unit">s</string>
+    <string name="select_all">Select all</string>
+    <string name="setting_dialog">Go to Settings</string>
+    <string name="settings">Settings</string>
+    <string name="show_notif">Notification before alarm</string>
+    <string name="show_notif_open_tips">Receive a notification before the alarm rings</string>
+    <item type="string" name="APKTOOL_DUMMY_2a1" />
+    <string name="silent_alarm">None</string>
+    <string name="silent_alarm_summary">None</string>
+    <string name="skip_alarm_next_time_normal">The skipped alarm will ring next time</string>
+    <string name="snooze_duration_title">Snooze length</string>
+    <string name="snooze_interval_later">later</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">Stopwatch service to run the notification.</string>
+    <string name="str_num">%1$d/5</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">Lap</string>
+    <string name="sw_notification_lap_number">Lap %d</string>
+    <string name="sw_pause_button">Pause</string>
+    <string name="sw_reset_button">Reset</string>
+    <string name="sw_resume_button">Resume</string>
+    <string name="sw_share_laps">Lap times:</string>
+    <string name="sw_share_main">My time is %s</string>
+    <string name="sw_unit_digits">h m s</string>
+    <string name="swn_stopped">Stopped</string>
+    <string name="sync_alarm_from_server_completed">Cloud Service has updated clock data</string>
+    <string name="time_handle_text_degree_unit">m</string>
+    <string name="time_span_unit_hour">hour</string>
+    <string name="time_span_unit_minute">minute</string>
+    <string name="time_span_unit_second">second</string>
+    <string name="time_up_full_text">00</string>
+    <string name="timer_add_countdown">添加倒计时</string>
+    <string name="timer_am">AM</string>
+    <string name="timer_close">Close</string>
+    <string name="timer_common_countdown">Common countdown</string>
+    <string name="timer_dialog_btn_cancel">Cancel</string>
+    <string name="timer_dialog_btn_start">Start</string>
+    <string name="timer_dialog_title">Set time</string>
+    <string name="timer_egg">Boiled egg</string>
+    <string name="timer_focus">Focus</string>
+    <string name="timer_fullscreen_prompt">Slide to turn off timer</string>
+    <string name="timer_fullscreen_summary_after">Timer has done</string>
+    <string name="timer_hour">时</string>
+    <string name="timer_hour2">小时</string>
+    <string name="timer_instant_noodles">Instant noodles</string>
+    <string name="timer_meditation">Meditation</string>
+    <string name="timer_min">分</string>
+    <string name="timer_min2">分钟</string>
+    <string name="timer_missed_title">Missed timer</string>
+    <string name="timer_notification_label">Timer</string>
+    <string name="timer_picker_hour_unit">h</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">s</string>
+    <string name="timer_ring_dialog_title">Ring mode</string>
+    <string name="timer_ring_service_desc">Sound playback service for timers set in Clock.</string>
+    <string name="timer_sec">秒</string>
+    <string name="timer_siesta">Siesta</string>
+    <string name="timer_sport">Sport</string>
+    <string name="timer_stopped">Timer stopped</string>
+    <string name="timer_str_tolong_tip">字数超出限制范围</string>
+    <string name="timer_toast">Duplicate names not allowed</string>
+    <string name="timer_up">Time is up</string>
+    <string name="timing">Timing</string>
+    <string name="title_local_music">Local</string>
+    <string name="title_record">Record audio</string>
+    <string name="title_ringstone">Ringstone</string>
+    <string name="touch_on_close">Slide to turn off alarm</string>
+    <string name="touchupclose">Slide up or down to stop alarm</string>
+    <string name="update_holiday_summary">Detect updates available on the holiday data</string>
+    <string name="update_holiday_title">Update holiday data</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="volume_button_setting_title">Volume buttons</string>
+    <string name="weather_key_rain">rain</string>
+    <string name="weekly">Every </string>
+    <string name="world_clock_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="world_time_today">Today</string>
+    <string name="world_time_tomorrow">Tomorrow</string>
+    <string name="world_time_yesterday">Yesterday</string>
+</resources>

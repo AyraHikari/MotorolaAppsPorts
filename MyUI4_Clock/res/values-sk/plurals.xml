@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">1 hod.</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">po %d hod.</item>
+        <item quantity="one">po 1 hod.</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">pred %d hod.</item>
+        <item quantity="one">pred 1 hod.</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 minúta</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d s.</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+</resources>

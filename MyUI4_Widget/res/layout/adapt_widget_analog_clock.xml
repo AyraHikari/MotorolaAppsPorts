@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_clock_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_adapt_circle_background" android:scaleType="fitCenter" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock" />
+    <ImageView android:id="@id/img_clock_transparent_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/widget_adapt_analog_transparent_bg" android:scaleType="fitCenter" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/img_weather_analog_clock_icon" android:layout_width="@dimen/widget_adapt_24dp" android:layout_height="@dimen/widget_adapt_24dp" android:layout_marginBottom="@dimen/widget_adapt_10dp" android:scaleType="fitCenter" />
+        <ProgressBar android:layout_gravity="bottom|center" android:id="@id/img_weather_analog_clock_warning" android:visibility="gone" android:layout_width="@dimen/widget_adapt_24dp" android:layout_height="@dimen/widget_adapt_24dp" android:layout_marginBottom="@dimen/widget_adapt_10dp" android:scaleType="fitCenter" android:indeterminate="true" android:indeterminateDrawable="@drawable/widget_warning_anim" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_digital" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_adapt_4dp" android:layout_centerInParent="true">
+        <TextClock android:textColor="@color/widget_adapt_digital_color" android:layout_gravity="center" android:id="@id/clock_digital" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="hh\nmm" android:format24Hour="HH\nmm" android:lineHeight="@dimen/widget_adapt_50dp" style="@style/AdaptTime.Text50" />
+    </FrameLayout>
+    <ImageView android:id="@id/img_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/widget_adapt_8dp" android:scaleType="fitCenter" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/analog_clock" android:layout_alignBottom="@id/analog_clock" android:layout_alignStart="@id/analog_clock" android:layout_alignEnd="@id/analog_clock">
+        <FrameLayout android:id="@id/view_date_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_40dp" />
+        <FrameLayout android:id="@id/view_time_click_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/view_weather_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_40dp" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/analog_clock" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <AnalogClock android:layout_width="fill_parent" android:layout_height="wrap_content" android:dial="@drawable/ic_adapt_circle_background_transparent_small" android:hand_hour="@drawable/ic_adapt_widget_hour_hand_small" android:hand_minute="@drawable/ic_adapt_widget_minute_hand_small" android:hand_second="@drawable/ic_adapt_widget_second_hand_small" />
+    </FrameLayout>
+</RelativeLayout>

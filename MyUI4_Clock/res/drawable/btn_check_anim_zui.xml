@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/btn_check_focused_disabled_zui" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/btn_check_disabled_zui" />
+    </item>
+    <item android:state_checked="true" android:id="@*android:id/old_app_icon">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_009" />
+    </item>
+    <item android:id="@*android:id/oem">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_000" />
+    </item>
+    <transition android:toId="@*android:id/old_app_icon" android:fromId="@*android:id/oem" android:reversible="true">
+        <animation-list>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_000" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_001" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_002" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_003" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_004" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_005" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_006" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_007" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_008" />
+            </item>
+            <item android:duration="26">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_zui_009" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

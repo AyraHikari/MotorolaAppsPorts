@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height_one_row"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/alarm_ring_choose_media_item_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alarm_ring_choose_remove_button" android:scaleType="center" android:layout_centerVertical="true" android:paddingStart="@dimen/common_left_right_margin" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textColor="@color/ring_choose_c" android:ellipsize="end" android:id="@id/alarm_ring_choose_item_ringtone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="default_ringtone" android:lines="1" android:singleLine="true" android:layout_centerVertical="true" android:alpha="80.0" android:layout_marginEnd="52.0dip" android:layout_toEndOf="@id/alarm_ring_choose_media_item_icon" style="@style/list_item_title" />
+    <RadioButton android:id="@id/alarm_ring_choose_item_ringtone_radio_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/selector_select" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/common_left_right_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

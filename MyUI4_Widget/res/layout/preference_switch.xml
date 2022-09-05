@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Switch android:theme="@style/AppSwitch" android:id="@android:id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" style="@style/WeatherSettingSwitchbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

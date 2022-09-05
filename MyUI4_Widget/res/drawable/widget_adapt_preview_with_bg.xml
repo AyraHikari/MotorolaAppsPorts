@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/widget_preview_bg_color" />
+            <corners android:radius="@dimen/widget_preview_radius" />
+        </shape>
+    </item>
+    <item android:top="5.0dip" android:bottom="5.0dip" android:start="5.0dip" android:end="5.0dip">
+        <bitmap android:gravity="fill" android:src="@drawable/ic_adapt_widget_light_preview" />
+    </item>
+</layer-list>

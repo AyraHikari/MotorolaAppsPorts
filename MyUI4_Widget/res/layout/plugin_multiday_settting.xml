@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.plugin.PluginSwitchBar android:id="@id/switch_bar" android:layout_width="fill_parent" android:layout_height="@dimen/cli_adapt_44dp" android:paddingStart="@dimen/cli_adapt_24dp" android:paddingEnd="@dimen/cli_adapt_10dp" android:layout_marginEnd="@dimen/cli_adapt_68dp" app:switchBarBackground="@drawable/setting_bg_switchbar_base" app:switchBarBackgroundActivated="@drawable/setting_bg_switchbar_select" style="@style/CliCard.Text16" />
+    <com.motorola.plugin.MaxHeightNestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/cli_adapt_24dp" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/cli_adapt_22dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/setting_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tap_to_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_10dp" android:layout_marginBottom="@dimen/cli_adapt_20dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/plugin_setting_ic_add_city" />
+                <TextView android:textColor="@color/plugin_setting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_city" android:layout_marginStart="@dimen/cli_adapt_18dp" style="@style/CliCard.Text16" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.motorola.plugin.MaxHeightNestedScrollView>
+</LinearLayout>

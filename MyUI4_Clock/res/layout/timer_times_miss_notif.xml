@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/timer_miss_notif" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/notification.container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/notification.icon_container">
+        <ImageView android:src="@drawable/icon_notification_timer" style="@style/notification.icon" />
+        <TextView android:text="@string/menu_timer" style="@style/notification.icon_title" />
+    </LinearLayout>
+    <TextView android:id="@id/summary" android:text="@string/timer_fullscreen_summary_after" android:singleLine="true" style="@style/notification.title" />" </LinearLayout>

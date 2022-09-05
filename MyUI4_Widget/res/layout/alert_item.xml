@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/alert_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" style="@style/Detail.AlertText" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/alert_icon_img" android:layout_width="@dimen/alert_icon_size" android:layout_height="@dimen/alert_icon_size" android:src="@drawable/ic_warning" android:elevation="3.0dip" />
+</LinearLayout>

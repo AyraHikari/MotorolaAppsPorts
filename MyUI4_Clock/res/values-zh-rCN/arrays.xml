@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_notification">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>不到 1 分钟后闹钟响</item>
+        <item>%1$s后闹钟响</item>
+        <item>%2$s后闹钟响</item>
+        <item>%1$s %2$s后闹钟响</item>
+        <item>%3$s后闹钟响</item>
+        <item>%1$s %3$s后闹钟响</item>
+        <item>%2$s %3$s后闹钟响</item>
+        <item>%1$s %2$s %3$s后闹钟响</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>指针</item>
+        <item>数字</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>下载节假日信息，响铃时显示本地天气等</item>
+        <item>响铃时显示本地天气需要获取位置信息</item>
+    </string-array>
+    <string-array name="cta_info_list_message_no_weather">
+        <item>下载节假日信息</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>访问网络</item>
+        <item>读取手机状态</item>
+        <item>读取外置存储</item>
+    </string-array>
+    <string-array name="cta_info_list_title_no_weather">
+        <item>访问网络</item>
+        <item>读取外置存储</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>上午</item>
+        <item>下午</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>关闭闹钟</item>
+        <item>稍后再响</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>不重复</item>
+        <item>每天</item>
+        <item>法定工作日（自动跳过节假日）</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>不重复</item>
+        <item>每天</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>无</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>还剩不到 1 分钟</item>
+        <item>还剩 %1$s</item>
+        <item>还剩 %2$s</item>
+        <item>还剩 %1$s %2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>响铃</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>马绍尔群岛</item>
+        <item>中途岛</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加</item>
+        <item>太平洋时间</item>
+        <item>蒂华纳</item>
+        <item>亚利桑那</item>
+        <item>奇瓦瓦</item>
+        <item>山区时区</item>
+        <item>中美洲</item>
+        <item>中部时间</item>
+        <item>墨西哥城</item>
+        <item>萨斯喀彻温</item>
+        <item>波哥大</item>
+        <item>东部时间</item>
+        <item>委内瑞拉</item>
+        <item>大西洋时间（巴巴多斯）</item>
+        <item>大西洋时间（加拿大）</item>
+        <item>马瑙斯</item>
+        <item>圣地亚哥</item>
+        <item>纽芬兰</item>
+        <item>巴西利亚</item>
+        <item>布宜诺斯艾利斯</item>
+        <item>格陵兰岛</item>
+        <item>蒙得维的亚</item>
+        <item>大西洋中部地区</item>
+        <item>亚述尔群岛</item>
+        <item>佛得角群岛</item>
+        <item>卡萨布兰卡</item>
+        <item>伦敦、都柏林</item>
+        <item>阿姆斯特丹、柏林</item>
+        <item>贝尔格莱德</item>
+        <item>布鲁塞尔</item>
+        <item>萨拉热窝</item>
+        <item>温得和克</item>
+        <item>西非时间</item>
+        <item>安曼、约旦</item>
+        <item>雅典、伊斯坦布尔</item>
+        <item>贝鲁特、黎巴嫩</item>
+        <item>开罗</item>
+        <item>赫尔辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格达</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>奈洛比</item>
+        <item>德黑兰</item>
+        <item>巴库</item>
+        <item>第比利斯</item>
+        <item>埃里温</item>
+        <item>迪拜</item>
+        <item>喀布尔</item>
+        <item>伊斯兰堡、卡拉奇</item>
+        <item>乌拉尔斯克</item>
+        <item>叶卡捷琳堡</item>
+        <item>加尔各答</item>
+        <item>斯里兰卡</item>
+        <item>加德满都</item>
+        <item>阿斯塔纳</item>
+        <item>仰光</item>
+        <item>克拉斯诺亚尔斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊尔库茨克</item>
+        <item>吉隆坡</item>
+        <item>珀斯</item>
+        <item>台北</item>
+        <item>首尔</item>
+        <item>东京、大阪</item>
+        <item>雅库茨克</item>
+        <item>阿德莱德</item>
+        <item>达尔文</item>
+        <item>布里斯班</item>
+        <item>霍巴特</item>
+        <item>悉尼、堪培拉</item>
+        <item>海参崴</item>
+        <item>关岛</item>
+        <item>马加丹</item>
+        <item>奥克兰</item>
+        <item>斐济</item>
+        <item>汤加</item>
+        <item>雅加达</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>暂停</item>
+        <item>关闭</item>
+        <item>不进行任何操作</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>轻柔</item>
+        <item>普通</item>
+        <item>强烈</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="weather_description">
+        <item>晴</item>
+        <item>多云</item>
+        <item>阴</item>
+        <item>阵雨</item>
+        <item>雷阵雨</item>
+        <item>雷雨冰雹</item>
+        <item>雨夹雪</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>暴雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>阵雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+        <item>雾</item>
+        <item>冻雨</item>
+        <item>沙尘暴</item>
+        <item>小到中雨</item>
+        <item>中到大雨</item>
+        <item>大到暴雨</item>
+        <item>暴雨到大暴雨</item>
+        <item>大到特大暴雨</item>
+        <item>小到中雪</item>
+        <item>中到大雪</item>
+        <item>大到暴雪</item>
+        <item>浮尘</item>
+        <item>扬沙</item>
+        <item>强沙尘暴</item>
+        <item>冻雪</item>
+        <item>霾</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>每周日</item>
+        <item>每周一</item>
+        <item>每周二</item>
+        <item>每周三</item>
+        <item>每周四</item>
+        <item>每周五</item>
+        <item>每周六</item>
+    </string-array>
+    <string-array name="world_item">
+        <item>数字</item>
+        <item>时钟</item>
+    </string-array>
+</resources>

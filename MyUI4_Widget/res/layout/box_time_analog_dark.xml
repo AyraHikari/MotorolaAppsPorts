@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/clock_click_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AnalogClock android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dial="@drawable/clock_panel_dark" android:hand_hour="@drawable/hour_hand_dark" android:hand_minute="@drawable/minute_hand_dark" />
+</RelativeLayout>

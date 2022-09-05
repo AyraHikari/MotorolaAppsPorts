@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layoutDirection="ltr" android:paddingStart="30.0dip" android:paddingEnd="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res">
+    <com.motorola.cn.deskclock.widget.NumberPicker android:id="@id/np_hour" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/NPWidget.Holo.Light.NumberPicker" app:selectionDividerHeight="0.0dip" />
+    <TextView android:textSize="@dimen/timer_dialog_hour_min_sec_text_size" android:textColor="@color/number_picker_text_selected" android:gravity="center" android:id="@id/tv_hour" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="@string/number_picker_hour" />
+    <com.motorola.cn.deskclock.widget.NumberPicker android:id="@id/np_minute" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/NPWidget.Holo.Light.NumberPicker" app:internalMaxHeight="5.0dip" app:internalMinHeight="1.0dip" app:selectionDividerHeight="0.0dip" />
+    <TextView android:textSize="@dimen/timer_dialog_hour_min_sec_text_size" android:textColor="@color/number_picker_text_selected" android:gravity="center" android:id="@id/tv_minute" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="@string/number_picker_minute" />
+    <com.motorola.cn.deskclock.widget.NumberPicker android:id="@id/np_second" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/NPWidget.Holo.Light.NumberPicker" app:selectionDividerHeight="0.0dip" />
+    <TextView android:textSize="@dimen/timer_dialog_hour_min_sec_text_size" android:textColor="@color/number_picker_text_selected" android:gravity="center" android:id="@id/tv_second" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="@string/number_picker_second" />
+</LinearLayout>

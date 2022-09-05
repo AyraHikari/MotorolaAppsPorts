@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ម៉ោង</item>
+        <item>2 ម៉ោង</item>
+        <item>3 ម៉ោង</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>ពេលវេលា និងអាកាសធាតុ</item>
+        <item>អាកាសធាតុ</item>
+        <item>ម៉ោង</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ហ្វារិនហៃ</item>
+        <item>អង្សាសេ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>កោះម៉ាសាល</item>
+        <item>កោះមីដវ៉េ</item>
+        <item>ហាវ៉ៃ</item>
+        <item>អាឡាស្កា</item>
+        <item>ម៉ោងប៉ាស៊ីហ្វិក</item>
+        <item>ធីជួអាណា</item>
+        <item>អារីហ្សូណា</item>
+        <item>ជីហួហួ</item>
+        <item>ម៉ោងតំបន់ភ្នំ</item>
+        <item>អាមេរិក​ក​ណ្តា​ល</item>
+        <item>ម៉ោងកណ្តាល</item>
+        <item>ទីក្រុង​ម៉ិចស៊ីកូ</item>
+        <item>សាស្កាត​ឆេវ៉ាន</item>
+        <item>បូហ្គោតា</item>
+        <item>ម៉ោងភាគខាងកើត</item>
+        <item>វ៉េណេស៊ុយអេឡា</item>
+        <item>ម៉ោងអាត្លង់ទិក (បាបាដុស)</item>
+        <item>ម៉ោងអាត្លង់ទិក (កាណាដា)</item>
+        <item>ម៉ាណូស</item>
+        <item>សាន់ទីអេហ្គោ</item>
+        <item>ញូហ្វោនឡែន</item>
+        <item>ប្រាស៊ីលីយ៉ា</item>
+        <item>ប៊ុយណូស៊ែ</item>
+        <item>ហ្គ្រីនឡែន</item>
+        <item>ម៉ុងតេវីដេអូ</item>
+        <item>ពាក់កណ្តាលអាត្លង់ទិក</item>
+        <item>អាហ្សូស</item>
+        <item>កោះកាប់វែរ</item>
+        <item>កាសា​ប្លាំងកា</item>
+        <item>ឡុងដ៍ ឌុយប្លាំង</item>
+        <item>អាំស្ទែដាំ បែរឡាំង</item>
+        <item>បែលក្រាដ</item>
+        <item>ព្រុចសែល</item>
+        <item>សារ៉ាយ៉េវ៉ូ</item>
+        <item>វីនដុក</item>
+        <item>ម៉ោងអាហ្រ្វិកភាគខាងលិច</item>
+        <item>អាម៉ាន់ ហ្ស៊កដានី</item>
+        <item>អាថែល អ៊ីស្តាន់បូ</item>
+        <item>បេរូត លីបង់</item>
+        <item>កែរ</item>
+        <item>ហែលស៊ិនគី</item>
+        <item>ហ្សេរ៉ូសាឡឹម</item>
+        <item>មីនស្កិ៍</item>
+        <item>ហារ៉ារ៉េ</item>
+        <item>បង់ដាដ</item>
+        <item>មូស្គូ</item>
+        <item>គុយវ៉ែត</item>
+        <item>ណៃរ៉ូប៊ី</item>
+        <item>តេហេរ៉ង់</item>
+        <item>បាគូ</item>
+        <item>ប៊ីលីស៊ី</item>
+        <item>យ៉េរ៉េវ៉ាន់</item>
+        <item>ឌូបៃ</item>
+        <item>កាប៊ុល</item>
+        <item>អ៊ីស្លាម៉ាបាដ ការ៉ាជី</item>
+        <item>អ៊ុយរ៉ាលស្កិ៍</item>
+        <item>យ៉េកាធឺរិនប៊ើក</item>
+        <item>កុលកាតា</item>
+        <item>ស្រីលង្កា</item>
+        <item>កដ្ឋមណ្ឌូ</item>
+        <item>អាស្តាណា</item>
+        <item>យ៉ង់ហ្គូន</item>
+        <item>ក្រាសនុយ៉ាក</item>
+        <item>បាងកក​</item>
+        <item>ប៉េកាំង</item>
+        <item>ហុងកុង</item>
+        <item>អៀកើត</item>
+        <item>កូឡាឡាំពួ​​</item>
+        <item>ភើត</item>
+        <item>តៃប៉ិ</item>
+        <item>សេអ៊ូល</item>
+        <item>តូក្យូ អូសាកា</item>
+        <item>យ៉ាគុត</item>
+        <item>អាឌីឡៃ</item>
+        <item>ដាវីន</item>
+        <item>ប្រីសបេណេ</item>
+        <item>ហូបាត</item>
+        <item>ស៊ីដនី កង់បេរ៉ា</item>
+        <item>វ្ល៉ាឌីវ៉ូស្តុក</item>
+        <item>ហ្គាំ</item>
+        <item>ម៉ាហ្គាដាន</item>
+        <item>អក់ឡែន</item>
+        <item>ហ្វីជី​</item>
+        <item>តុងហ្គា</item>
+        <item>ហ្សាការតា</item>
+    </string-array>
+</resources>

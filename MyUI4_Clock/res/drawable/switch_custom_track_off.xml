@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/alarm_clock_switch_off" />
+    <size android:height="10.0dip" android:width="70.0dip" />
+    <corners android:radius="20.0dip" />
+</shape>

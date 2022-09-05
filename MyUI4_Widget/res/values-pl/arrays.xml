@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 godz.</item>
+        <item>2 godz.</item>
+        <item>3 godz.</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Czas i pogoda</item>
+        <item>Prognoza pogody</item>
+        <item>Czas</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsjusz</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Wyspy Marshalla</item>
+        <item>Midway</item>
+        <item>Honolulu</item>
+        <item>Alaska</item>
+        <item>Czas pacyficzny</item>
+        <item>Tijuana</item>
+        <item>Phoenix</item>
+        <item>Chihuahua</item>
+        <item>Czas górski</item>
+        <item>Kostaryka</item>
+        <item>Czas centralny</item>
+        <item>Meksyk</item>
+        <item>Regina</item>
+        <item>Kolumbia</item>
+        <item>Nowy Jork</item>
+        <item>Wenezuela</item>
+        <item>Czas atlantycki (Barbados)</item>
+        <item>Czas atlantycki (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Nowa Fundlandia</item>
+        <item>Săo Paulo</item>
+        <item>Buenos Aires</item>
+        <item>Grenlandia</item>
+        <item>Urugwaj</item>
+        <item>Georgia Południowa</item>
+        <item>Azory</item>
+        <item>Wyspy Zielonego Przylądka</item>
+        <item>Casablanca</item>
+        <item>Londyn</item>
+        <item>Holandia</item>
+        <item>Belgrad</item>
+        <item>Bruksela</item>
+        <item>Sarajewo</item>
+        <item>Windhuk</item>
+        <item>Kongo Brazzaville</item>
+        <item>Amman, Jordania</item>
+        <item>Ateny</item>
+        <item>Bejrut</item>
+        <item>Kair</item>
+        <item>Finlandia</item>
+        <item>Jerozolima</item>
+        <item>Mińsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskwa</item>
+        <item>Kuwejt</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Azerbejdżan</item>
+        <item>Tbilisi</item>
+        <item>Erewan</item>
+        <item>Dubaj</item>
+        <item>Afganistan</item>
+        <item>Islamabad, Karaczi</item>
+        <item>Uralsk</item>
+        <item>Jekaterynburg</item>
+        <item>Kalkuta</item>
+        <item>Sri Lanka</item>
+        <item>Nepal</item>
+        <item>Ałma Ata</item>
+        <item>Rangun</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Pekin</item>
+        <item>Hongkong</item>
+        <item>Irkuck</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Tajpej</item>
+        <item>Seul</item>
+        <item>Tokio</item>
+        <item>Jakuck</item>
+        <item>Adelajda</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Władywostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidżi</item>
+        <item>Tonga</item>
+        <item>Dżakarta</item>
+    </string-array>
+</resources>

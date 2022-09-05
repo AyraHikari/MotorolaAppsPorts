@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TimerNumberPicker">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">179.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="npv_DividerColor">@color/npv_dividercolor</item>
+        <item name="npv_ItemPaddingHorizontal">0.0dip</item>
+        <item name="npv_ItemPaddingVertical">5.0dip</item>
+        <item name="npv_RespondChangeInMainThread">true</item>
+        <item name="npv_ShowDivider">false</item>
+        <item name="npv_ShownCount">@integer/timer_picker_show_count</item>
+        <item name="npv_TextColorHint">@color/clock_local</item>
+        <item name="npv_TextColorNormal">@color/clock_local_commen</item>
+        <item name="npv_TextColorSelected">@color/clock_local</item>
+        <item name="npv_TextSizeHint">16.0dip</item>
+        <item name="npv_TextSizeNormal">16.0dip</item>
+        <item name="npv_TextSizeSelected">36.0sp</item>
+        <item name="npv_WrapSelectorWheel">true</item>
+        <item name="npv_sel_marin">10.0dip</item>
+        <item name="npv_typeface">sans-serif-light</item>
+    </style>
+</resources>

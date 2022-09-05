@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_bg_local_time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/clock_list_item_title_size" android:textColor="@color/local_time_text" android:ellipsize="end" android:id="@id/clock_list_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/wc_list_city_name_max_width" android:text="@string/local" android:singleLine="true" />
+    <com.motorola.cn.deskclock.widget.TextClock android:textSize="50.0sp" android:textColor="@color/local_time_text" android:id="@id/clock_list_digital_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="@string/world_clock_12_hours_format" android:format24Hour="@string/clock_24_hours_format" style="@style/medium_light" />
+    <TextView android:textColor="@color/local_time_text" android:id="@id/clock_list_ampm_en" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/clock_grid_day_before" />
+    <TextView android:textColor="@color/local_time_text" android:id="@id/clock_list_ampm_cn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/clock_grid_day_before" />
+</LinearLayout>

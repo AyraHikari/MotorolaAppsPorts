@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Čas a počasí</item>
+        <item>Počasí</item>
+        <item>Čas</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Stupeň Fahrenheita</item>
+        <item>Stupeň Celsia</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallovy ostrovy</item>
+        <item>Midwayské ostrovy</item>
+        <item>Havaj</item>
+        <item>Aljaška</item>
+        <item>Tichomoří</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Horská oblast USA a Kanada</item>
+        <item>Střední Amerika</item>
+        <item>Střed USA a Kanady</item>
+        <item>Ciudad de México</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Východ USA a Kanady</item>
+        <item>Venezuela</item>
+        <item>Atlantik (Barbados)</item>
+        <item>Atlantik (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Grónsko</item>
+        <item>Montevideo</item>
+        <item>Středoatlantický</item>
+        <item>Azory</item>
+        <item>Kapverdy</item>
+        <item>Casablanca</item>
+        <item>Londýn, Dublin</item>
+        <item>Praha, Bratislava, Vídeň</item>
+        <item>Bělehrad</item>
+        <item>Brusel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Západoafrický čas</item>
+        <item>Ammán, Jordánsko</item>
+        <item>Atény, Istanbul</item>
+        <item>Bejrút, Libanon</item>
+        <item>Káhira</item>
+        <item>Helsinky</item>
+        <item>Jeruzalém</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdád</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubaj</item>
+        <item>Kábul</item>
+        <item>Islámábád, Karáčí</item>
+        <item>Uralsk</item>
+        <item>Jekatěrinburg</item>
+        <item>Kalkata</item>
+        <item>Srí Lanka</item>
+        <item>Káthmándú</item>
+        <item>Astana</item>
+        <item>Rangún</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Tchaj-pej</item>
+        <item>Soul</item>
+        <item>Tokio, Ósaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

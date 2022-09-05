@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarme definido para menos de 1 minuto a partir de agora.</item>
+        <item>Alarme definido para %1$s a partir de agora.</item>
+        <item>Alarme definido para %2$s a partir de agora.</item>
+        <item>Alarme definido para %1$s e %2$s a partir de agora.</item>
+        <item>Alarme definido para %3$s a partir de agora.</item>
+        <item>Alarme definido para %1$s e %3$s a partir de agora.</item>
+        <item>Alarme definido para %2$s e %3$s a partir de agora.</item>
+        <item>Alarme definido para %1$s, %2$s e %3$s a partir de agora.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analógico</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analógico</item>
+        <item>digital</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Ligue-se à internet para exibir o clima local ao tocar</item>
+        <item>A localização é necessária para exibir o clima local ao tocar</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Aceder a rede móvel</item>
+        <item>Aceder a localização</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"Jan. "</item>
+        <item>"Fev. "</item>
+        <item>"Mar. "</item>
+        <item>"Abr. "</item>
+        <item>Mai.</item>
+        <item>"Jun. "</item>
+        <item>"Jul. "</item>
+        <item>"Ago. "</item>
+        <item>"Set. "</item>
+        <item>"Out. "</item>
+        <item>"Nov. "</item>
+        <item>"Dez. "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Dispensar</item>
+        <item>Adiar</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Padrão</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>Ampliar</item>
+        <item>Reduzir</item>
+        <item>Rodar para cima</item>
+        <item>Rodar para baixo</item>
+        <item>Acordeão</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Uma vez</item>
+        <item>Todos os dias</item>
+        <item>Dias úteis (desligar durante as férias)</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Uma vez</item>
+        <item>Todos os dias</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Nunca</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Menso de um minuto restante</item>
+        <item>%1$s restante</item>
+        <item>%2$s restante</item>
+        <item>%1$s%2$s restante</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Toque</item>
+        <item>Vibrar</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Ilhas Marshall</item>
+        <item>Atol Midway</item>
+        <item>Havai</item>
+        <item>Alasca</item>
+        <item>Hora do Pacífico</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hora da Zona Montanhosa</item>
+        <item>América Central</item>
+        <item>Hora da América Central</item>
+        <item>Cidade do México</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Hora da Zona Oriental</item>
+        <item>Venezuela</item>
+        <item>Hora do Atlântico (Barbados)</item>
+        <item>Hora do Atlântico (Canadá)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Gronelândia</item>
+        <item>Montevideu</item>
+        <item>Atlântico Médio</item>
+        <item>Açores</item>
+        <item>Ilhas de Cabo Verde</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublin</item>
+        <item>Amesterdão, Berlim</item>
+        <item>Belgrado</item>
+        <item>Bruxelas</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Hora da África Ocidental</item>
+        <item>Amã, Jordânia</item>
+        <item>Atenas, Istambul</item>
+        <item>Beirute, Líbano</item>
+        <item>Cairo</item>
+        <item>Helsínquia</item>
+        <item>Jerusalém</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdade</item>
+        <item>Moscovo</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teerão</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubai</item>
+        <item>Cabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Oral</item>
+        <item>Ecaterimburgo</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Banguecoque</item>
+        <item>Pequim</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipé</item>
+        <item>Seul</item>
+        <item>Tóquio, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sidney, Camberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Jacarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacífico/Majuro</item>
+        <item>Pacífico/Midway</item>
+        <item>Pacífico/Honolulu</item>
+        <item>América/Anchorage</item>
+        <item>América/Los_Angeles</item>
+        <item>América/Tijuana</item>
+        <item>América/Phoenix</item>
+        <item>América/Chihuahua</item>
+        <item>América/Denver</item>
+        <item>América/Costa_Rica</item>
+        <item>América/Chicago</item>
+        <item>América/Cidade_do_México</item>
+        <item>América/Regina</item>
+        <item>América/Bogotá</item>
+        <item>América/Nova_Iorque</item>
+        <item>América/Caracas</item>
+        <item>América/Barbados</item>
+        <item>América/Halifax</item>
+        <item>América/Manaus</item>
+        <item>América/Santiago</item>
+        <item>América/St_Johns</item>
+        <item>América/São_Paulo</item>
+        <item>América/Argentina/Buenos_Aires</item>
+        <item>América/Godthab</item>
+        <item>América/Montevideu</item>
+        <item>Atlântico/Geórgia_do_Sul</item>
+        <item>Atlântico/Açores</item>
+        <item>Atlântico/Cabo_Verde</item>
+        <item>África/Casablanca</item>
+        <item>Europa/Londres</item>
+        <item>Europa/Amesterdão</item>
+        <item>Europa/Belgrado</item>
+        <item>Europa/Bruxelas</item>
+        <item>Europa/Sarajevo</item>
+        <item>África/Windhoek</item>
+        <item>África/Brazzaville</item>
+        <item>Ásia/Amã</item>
+        <item>Europa/Atenas</item>
+        <item>Ásia/Beirute</item>
+        <item>África/Cairo</item>
+        <item>Europa/Helsínquia</item>
+        <item>Ásia/Jerusalém</item>
+        <item>Europa/Minsk</item>
+        <item>África/Harare</item>
+        <item>Ásia/Bagdade</item>
+        <item>Europa/Moscovo</item>
+        <item>Ásia/Kuwait</item>
+        <item>África/Nairobi</item>
+        <item>Ásia/Teerão</item>
+        <item>Ásia/Baku</item>
+        <item>Ásia/Tbilisi</item>
+        <item>Ásia/Erevan</item>
+        <item>Ásia/Dubai</item>
+        <item>Ásia/Cabul</item>
+        <item>Ásia/Karachi</item>
+        <item>Ásia/Oral</item>
+        <item>Ásia/Ecaterimburgo</item>
+        <item>Ásia/Calcutá</item>
+        <item>Ásia/Colombo</item>
+        <item>Ásia/Katmandu</item>
+        <item>Ásia/Almaty</item>
+        <item>Ásia/Rangoon</item>
+        <item>Ásia/Krasnoyarsk</item>
+        <item>Ásia/Banguecoque</item>
+        <item>Ásia/Shanghai</item>
+        <item>Ásia/Hong_Kong</item>
+        <item>Ásia/Irkutsk</item>
+        <item>Ásia/Kuala_Lumpur</item>
+        <item>Austrália/Perth</item>
+        <item>Ásia/Taipé</item>
+        <item>Ásia/Seul</item>
+        <item>Ásia/Tóquio</item>
+        <item>Ásia/Yakutsk</item>
+        <item>Austrália/Adelaide</item>
+        <item>Austrália/Darwin</item>
+        <item>Austrália/Brisbane</item>
+        <item>Austrália/Hobart</item>
+        <item>Austrália/Sidney</item>
+        <item>Ásia/Vladivostok</item>
+        <item>Pacífico/Guam</item>
+        <item>Ásia/Magadan</item>
+        <item>Pacífico/Auckland</item>
+        <item>Pacífico/Fiji</item>
+        <item>Pacífico/Tongatapu</item>
+        <item>Ásia/Jacarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Adiar</item>
+        <item>Dispensar</item>
+        <item>Fazer nada</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Suave</item>
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+    </string-array>
+</resources>

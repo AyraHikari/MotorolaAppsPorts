@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_48" android:paddingStart="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_centerVertical="true" android:layout_toStartOf="@id/delete_handle" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/delete_handle" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_remove" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@android:style/Widget.ActionButton" />
+</RelativeLayout>

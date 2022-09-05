@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 kuriwara</item>
+        <item>Mukũi hura-ita</item>
+        <item>Musapiri hura-ita</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Hurariu asui kirima</item>
+        <item>Kirima</item>
+        <item>Hurariu</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Seusiu</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Kapuã-ita Marshall</item>
+        <item>Midiwa Kapuã-ita</item>
+        <item>Hunururu</item>
+        <item>Alasika</item>
+        <item>Pasifiku hura</item>
+        <item>Tiyuana</item>
+        <item>Arisuna</item>
+        <item>Xiyuawa</item>
+        <item>Hurariyu Iwiteraita yara</item>
+        <item>Hurariyu Piterawara (Kupé Rika)</item>
+        <item>Hurariyu Piterawara</item>
+        <item>Méxiku Tawa-wasú</item>
+        <item>Hurariyu Piterawara (Regina)</item>
+        <item>Korũbia, Bugutá</item>
+        <item>Uriẽtawara Hurariyu (Yurki Pisasú)</item>
+        <item>Wenẽsuera</item>
+        <item>Atalãtiku hura</item>
+        <item>Atalãtiku hura (Kan.)</item>
+        <item>Amasuna (Manau)</item>
+        <item>Sãtiyagu</item>
+        <item>Iwí Pisasú</item>
+        <item>Brasíria</item>
+        <item>Buwenusairi</item>
+        <item>Guruẽrãdiya</item>
+        <item>Mũtiwidewu</item>
+        <item>Geugiya Su suí (Geugiya Su suí)</item>
+        <item>Asori-ita</item>
+        <item>Kapuãma-ita Kabu Suikiri</item>
+        <item>Uka Murutĩga</item>
+        <item>Greenwich Miridiyanu yara (Londres)</item>
+        <item>Eurupa Piterawara (Amiteridã)</item>
+        <item>Eurupa Piterawara Hurariyu (Belgrade)</item>
+        <item>Eurupa Piterawara (Buruxera)</item>
+        <item>Sarayewo</item>
+        <item>Wĩdueki</item>
+        <item>Afirikia Usidẽtawara (Barazawiri)</item>
+        <item>Amã, Jodania</item>
+        <item>Eurupa Uriẽtawara (Atena-ita)</item>
+        <item>Eurupa Uriẽtawara (Beirute)</item>
+        <item>Kairu</item>
+        <item>Eurupa Uriẽtawara (Heusĩke)</item>
+        <item>Yerusarẽi</item>
+        <item>Mĩsiki</item>
+        <item>Harare</item>
+        <item>Bagidá</item>
+        <item>Moskou</item>
+        <item>Kuwaiti</item>
+        <item>Nairúbi</item>
+        <item>Teyerã</item>
+        <item>Baku</item>
+        <item>Tibilisi</item>
+        <item>Yerewã</item>
+        <item>Dubai</item>
+        <item>Kabu</item>
+        <item>Isirãmaba, Karaxi</item>
+        <item>Raure</item>
+        <item>Ekaterĩbugu</item>
+        <item>Kaukutá</item>
+        <item>Sirirãka</item>
+        <item>Katimãdu</item>
+        <item>Aumati</item>
+        <item>Yagũ</item>
+        <item>Karasinoyarisiki (Karasinoyarisiki)</item>
+        <item>Bãguki</item>
+        <item>Tawa wasu Pekĩ</item>
+        <item>Hũg Kũg</item>
+        <item>Irkutisiki</item>
+        <item>Kuara Rũpuru</item>
+        <item>Ausitaraliya Usidẽtawara (Periti)</item>
+        <item>Taipe</item>
+        <item>Seú</item>
+        <item>Nipõ (Tokiyu)</item>
+        <item>Yakutisiki</item>
+        <item>Aderaidi</item>
+        <item>Dariwĩ</item>
+        <item>Ausitaraliya Uriẽtawara (Biribani)</item>
+        <item>Hobati</item>
+        <item>Sidinei, Kãbera</item>
+        <item>Waradiwosituki (Waradiwosituki)</item>
+        <item>Guwã</item>
+        <item>Magadã</item>
+        <item>Ókirãdi</item>
+        <item>Fiyi</item>
+        <item>Tõga</item>
+        <item>Jakata</item>
+    </string-array>
+</resources>

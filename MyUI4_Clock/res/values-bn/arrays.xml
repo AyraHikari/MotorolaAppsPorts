@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>এখন থেকে 1 মিনিটের কমের জন্য এলার্ম সেটl করা</item>
+        <item>এখন থেকে %1$s এর জন্যে এলার্ম সেট করা।</item>
+        <item>এখন থেকে %2$s এর জন্যে এলার্ম সেট করা।</item>
+        <item>এখন থেকে %1$s ও %2$s এলার্ম সেট করা।</item>
+        <item>এখন থেকে %3$s এর জন্যে এলার্ম সেট।</item>
+        <item>এখন থেকে %1$s ও %3$s এলার্ম সেট করা।</item>
+        <item>এখন থেকে %2$s ও %3$s এলার্ম সেট করা।</item>
+        <item>এখন থেকে %1$s, %2$s, ও %3$s এলার্ম সেট করা।</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+        <item>15 মিনিট</item>
+        <item>20 মিনিট</item>
+        <item>25 মিনিট</item>
+        <item>30 মিনিট</item>
+        <item>কখনোই না</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>অ্যানালগ</item>
+        <item>ডিজিটাল</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>অ্যানালগ</item>
+        <item>ডিজিটাল</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>রিং হওয়ার সময় স্থানীয় আবহাওয়ার প্রদর্শন করতে ইন্টারনেটের সাথে সংযোগ করুন</item>
+        <item>রিং হওয়ার সময় স্থানীয় আবহাওয়ার প্রদর্শন করতে অবস্থান প্রয়োজনl</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>মোবাইল নেটওয়ার্কে প্রবেশ</item>
+        <item>অবস্থান অ্যাক্সেস</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>পূর্বাহ্ণ</item>
+        <item>অপরাহ্ন</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"জানু. "</item>
+        <item>"ফ্রেব্রু. "</item>
+        <item>"মার্চ. "</item>
+        <item>"এপ্রিল. "</item>
+        <item>"মে "</item>
+        <item>"জুন. "</item>
+        <item>"জুল. "</item>
+        <item>"অগাস্ট "</item>
+        <item>"সেপ্ট. "</item>
+        <item>"অক্টো. "</item>
+        <item>"নভ. "</item>
+        <item>"ডিসে. "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>বাতিল</item>
+        <item>স্নুজ</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>স্ট্যান্ডার্ড</item>
+        <item>ট্যাবলেট</item>
+        <item>কিউবইন</item>
+        <item>কিউবআউট</item>
+        <item>উল্লম্ব ভাবে ঘোরানো</item>
+        <item>অনুভূমিক ভাবে ঘোরানো l</item>
+        <item>স্ট্যাক</item>
+        <item>জুম ইন</item>
+        <item>জুম আউট</item>
+        <item>উপরে ঘোরানো</item>
+        <item>নীচে ঘোরানো</item>
+        <item>অ্যাকর্ডিয়ন</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>একবার</item>
+        <item>প্রতিদিন</item>
+        <item>কর্মদিবস(ছুটির সময় বন্ধ)</item>
+        <item>স্বনির্বাচিত</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>একবার</item>
+        <item>প্রতিদিন</item>
+        <item>স্বনির্বাচিত</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c‎%2$d‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c‎%2$02d‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c‎%1$d‎%2$02d‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c‎%1$02d‎%2$02d‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c‎%1$03d‎%2$02d‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>রবি</item>
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>কখনই না</item>
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+        <item>15 মিনিট</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>একটি মিনিটেরও কম সময় বাকি আছে</item>
+        <item>%1$s অবশিষ্ট</item>
+        <item>%2$s অবশিষ্ট</item>
+        <item>%1$s%2$s অবশিষ্ট</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>রিং</item>
+        <item>ভাইব্রেট</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>মার্শাল দ্বীপপুঞ্জ</item>
+        <item>মিডওয়ে আইল্যান্ড</item>
+        <item>হাওয়াই</item>
+        <item>আলাস্কা</item>
+        <item>প্যাসিফিক টাইম</item>
+        <item>তিজুয়ানা</item>
+        <item>অ্যারিজোনা</item>
+        <item>চিহুয়াহুয়া</item>
+        <item>মাউন্টেন টাইম</item>
+        <item>মধ্য আমেরিকা</item>
+        <item>কেন্দ্রীয় সময়</item>
+        <item>মেক্সিকো শহর</item>
+        <item>প্রিন্স এডওয়ার্ড দ্বীপ</item>
+        <item>বোগোটা</item>
+        <item>পূর্ব সময়</item>
+        <item>ভেনেজুয়েলা</item>
+        <item>আটলান্টিক সময় (বার্বাডোজ)</item>
+        <item>আটলান্টিক সময় (কানাডা)</item>
+        <item>ম্যানউস</item>
+        <item>সান্টিয়াগো</item>
+        <item>নিউফাউন্ডল্যান্ড</item>
+        <item>ব্রাসিলিয়া</item>
+        <item>বুয়েনস</item>
+        <item>গ্রীনল্যান্ড</item>
+        <item>মন্টেভিডিও</item>
+        <item>মধ্য-আটলান্টিক</item>
+        <item>এজোরেস</item>
+        <item>কেপ ভারদে দ্বীপপুঞ্জ</item>
+        <item>কাসাব্লাংকা</item>
+        <item>লন্ডন, ডাবলিন</item>
+        <item>আমস্টারডাম, বার্লিন</item>
+        <item>বেলগ্রেড</item>
+        <item>ব্রাসেলস</item>
+        <item>সারায়েভো</item>
+        <item>উইন্ডহোক</item>
+        <item>"ডব্লিউ আফ্রিকা টাইম "</item>
+        <item>আম্মান, জর্ডান</item>
+        <item>এথেন্স, ইস্তানবুল</item>
+        <item>বেইরুট, লেবানন</item>
+        <item>কায়রো</item>
+        <item>হেলসিঙ্কি</item>
+        <item>জেরুজালেম</item>
+        <item>মিন্স্ক</item>
+        <item>হারারে</item>
+        <item>বাগদাদ</item>
+        <item>মস্কো</item>
+        <item>কুয়েত</item>
+        <item>নাইরোবি</item>
+        <item>তেহরান</item>
+        <item>বাকু</item>
+        <item>তিবলিসিতে</item>
+        <item>ইয়েরেভান</item>
+        <item>দুবাই</item>
+        <item>কাবুল</item>
+        <item>ইসলামাবাদ, করাচি</item>
+        <item>উরালস্ক</item>
+        <item>ইয়েকাটেরিনবার্গ</item>
+        <item>কলকাতা</item>
+        <item>শ্রীলংকা</item>
+        <item>কাঠমান্ডু</item>
+        <item>আস্তানা</item>
+        <item>ইয়াংগুন</item>
+        <item>ক্রাশনুইয়ার্স্ক</item>
+        <item>ব্যাংকক</item>
+        <item>বেইজিং</item>
+        <item>হংকং</item>
+        <item>ইরখুটস্ক</item>
+        <item>কুয়ালালামপুর</item>
+        <item>পার্থ</item>
+        <item>তাইপেই</item>
+        <item>সিওল</item>
+        <item>টোকিও, ওসাকা</item>
+        <item>ইয়াখুটস্ক</item>
+        <item>অ্যাডিলেড</item>
+        <item>ডারউইন</item>
+        <item>ব্রিসবেন</item>
+        <item>হোবার্ট</item>
+        <item>সিডনি, ক্যানবেরা</item>
+        <item>ভ্লাদিভস্তক</item>
+        <item>গুয়াম</item>
+        <item>মাগাদান</item>
+        <item>অকল্যান্ড</item>
+        <item>ফিজি</item>
+        <item>টোঙ্গা</item>
+        <item>জাকার্তা</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>প্যাসিফিক / মাজুরো</item>
+        <item>প্যাসিফিক / মিডওয়ে</item>
+        <item>প্যাসিফিক / হনলুলু</item>
+        <item>আমেরিকা / অ্যাংকারিজ</item>
+        <item>আমেরিকা/লস_এঞ্জেলস</item>
+        <item>আমেরিকা / তিজুয়ানা</item>
+        <item>আমেরিকা / ফিনিক্স</item>
+        <item>আমেরিকা / চিহুয়াহুয়া</item>
+        <item>আমেরিকা/ডেনভার</item>
+        <item>আমেরিকা / কোস্টা_রিকা</item>
+        <item>আমেরিকা/শিকাগো</item>
+        <item>আমেরিকা / মেক্সিকো_সিটি</item>
+        <item>আমেরিকা / রেজিনা</item>
+        <item>আমেরিকা / বোগোটা</item>
+        <item>আমেরিকা/নিউ_ইয়র্ক</item>
+        <item>আমেরিকা / কারাকাস</item>
+        <item>আমেরিকা / বার্বাডোস</item>
+        <item>আমেরিকা / হ্যালিফ্যাক্স</item>
+        <item>আমেরিকা / ম্যানস</item>
+        <item>আমেরিকা / সান্টিয়াগো</item>
+        <item>আমেরিকা / সেন্ট_জোন্স</item>
+        <item>আমেরিকা/সাও_পাওলো</item>
+        <item>আমেরিকা / আর্জেন্টিনা / বুয়েনস_এরিস</item>
+        <item>আমেরিকা / গডথ্যাব</item>
+        <item>আমেরিকা/মন্টেভিডিও</item>
+        <item>আটলান্টিক / দক্ষিণ_জর্জিয়া</item>
+        <item>আটলান্টিক / এজোরেস</item>
+        <item>আটলান্টিক / কেপ_ভার্দে</item>
+        <item>আফ্রিকা / কাসাব্লাংকা</item>
+        <item>ইউরোপ/লন্ডন</item>
+        <item>ইউরোপ / আমস্টারডাম</item>
+        <item>ইউরোপ / বেলগ্রেড</item>
+        <item>ইউরোপ / ব্রাসেলস</item>
+        <item>ইউরোপ / সারায়েভো</item>
+        <item>আফ্রিকা / উইণ্ডহোক</item>
+        <item>আফ্রিকা / ব্রাজাভিল</item>
+        <item>এশিয়া / আম্মান</item>
+        <item>ইউরোপ / এথেন্স</item>
+        <item>এশিয়া / বৈরুত</item>
+        <item>আফ্রিকা / কায়রো</item>
+        <item>ইউরোপ / হেলসিঙ্কি</item>
+        <item>এশিয়া/জেরুজালেম</item>
+        <item>ইউরোপ / মিনস্ক</item>
+        <item>আফ্রিকা / হারারে</item>
+        <item>এশিয়া / বাগদাদ</item>
+        <item>ইউরোপ/মস্কো</item>
+        <item>এশিয়া / কুয়েত</item>
+        <item>আফ্রিকা / নাইরোবি</item>
+        <item>এশিয়া / তেহরান</item>
+        <item>এশিয়া / বাকু</item>
+        <item>এশিয়া / তিবলিসি</item>
+        <item>এশিয়া / ইয়েরেভান</item>
+        <item>এশিয়া / দুবাই</item>
+        <item>এশিয়া / কাবুল</item>
+        <item>এশিয়া/করাচি</item>
+        <item>এশিয়া / মৌখিক</item>
+        <item>এশিয়া / ইয়েকাটেরিনবার্গ</item>
+        <item>এশিয়া / কলকাতা</item>
+        <item>এশিয়া / কলম্বো</item>
+        <item>এশিয়া / কাঠমান্ডু</item>
+        <item>এশিয়া / আলমাটি</item>
+        <item>এশিয়া / রেঙ্গুন</item>
+        <item>এশিয়া / ক্রাশনুইয়ার্স্ক</item>
+        <item>এশিয়া/ব্যাংকক</item>
+        <item>এশিয়া/সাংহাই</item>
+        <item>এশিয়া / হং_কং</item>
+        <item>এশিয়া / ইরখুটস্ক</item>
+        <item>এশিয়া / কুয়ালা_লামপুর</item>
+        <item>অস্ট্রেলিয়া / পার্থ</item>
+        <item>এশিয়া / তাইপেই</item>
+        <item>এশিয়া / সিওল</item>
+        <item>এশিয়া/টোকিও</item>
+        <item>এশিয়া / ইয়াখুটস্ক</item>
+        <item>অস্ট্রেলিয়া / অ্যাডিলেড</item>
+        <item>অস্ট্রেলিয়া / ডারউইন</item>
+        <item>অস্ট্রেলিয়া / ব্রিসবেন</item>
+        <item>অস্ট্রেলিয়া / হোবার্ট</item>
+        <item>অস্ট্রেলিয়া / সিডনি</item>
+        <item>এশিয়া / ভ্লাদিভস্তক</item>
+        <item>প্যাসিফিক / গুয়াম</item>
+        <item>এশিয়া / ম্যাগাডান</item>
+        <item>প্যাসিফিক / অকল্যান্ড</item>
+        <item>প্যাসিফিক / ফিজি</item>
+        <item>প্যাসিফিক / টোঙ্গাটাপু</item>
+        <item>এশিয়া / জাকার্তা</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>স্নুজ</item>
+        <item>বাতিল</item>
+        <item>কিছু করনা</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>কোমল</item>
+        <item>সাধারণ</item>
+        <item>জোড়ে</item>
+        <item>স্বনির্বাচিত</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+    </string-array>
+</resources>

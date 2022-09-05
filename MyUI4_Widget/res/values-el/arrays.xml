@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Ώρα και καιρός</item>
+        <item>Καιρός</item>
+        <item>Ώρα</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Φαρενάιτ</item>
+        <item>Κελσίου</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Νησιά Μάρσαλ</item>
+        <item>Νήσος Μιντγουέι</item>
+        <item>Χαβάη</item>
+        <item>Αλάσκα</item>
+        <item>Ώρα Ειρηνικού</item>
+        <item>Τιχουάνα</item>
+        <item>Αριζόνα</item>
+        <item>Τσιουάουα</item>
+        <item>Ορεινή ώρα</item>
+        <item>Κεντρική Αμερική</item>
+        <item>Κεντρική ώρα</item>
+        <item>Πόλη του Μεξικού</item>
+        <item>Σασκάτσουαν</item>
+        <item>Μπογκοτά</item>
+        <item>Ανατολική Ζώνη Ώρας</item>
+        <item>Βενεζουέλα</item>
+        <item>Ώρα Ατλαντικού (Μπαρμπέιντος)</item>
+        <item>Ώρα Ατλαντικού (Καναδάς)</item>
+        <item>Μανάους</item>
+        <item>Σαντιάγκο</item>
+        <item>Νέα Γη</item>
+        <item>Μπραζίλια</item>
+        <item>Μπουένος Άιρες</item>
+        <item>Γροιλανδία</item>
+        <item>Μοντεβιδέο</item>
+        <item>Μεσοατλαντικές πολιτείες</item>
+        <item>Αζόρες</item>
+        <item>Νήσοι Πράσινου Ακρωτηρίου</item>
+        <item>Καζαμπλάνκα</item>
+        <item>Λονδίνο, Δουβλίνο</item>
+        <item>Άμστερνταμ, Βερολίνο</item>
+        <item>Βελιγράδι</item>
+        <item>Βρυξέλλες</item>
+        <item>Σαράγεβο</item>
+        <item>Βίντχουκ</item>
+        <item>Ώρα Δυτικής Αφρικής</item>
+        <item>Αμμάν, Ιορδανία</item>
+        <item>Αθήνα, Κωνσταντινούπολη</item>
+        <item>Βηρυτός, Λίβανος</item>
+        <item>Κάιρο</item>
+        <item>Ελσίνκι</item>
+        <item>Ιερουσαλήμ</item>
+        <item>Μινσκ</item>
+        <item>Χαράρε</item>
+        <item>Βαγδάτη</item>
+        <item>Μόσχα</item>
+        <item>Κουβέιτ</item>
+        <item>Ναϊρόμπι</item>
+        <item>Τεχεράνη</item>
+        <item>Μπακού</item>
+        <item>Τυφλίδα</item>
+        <item>Γερεβάν</item>
+        <item>Ντουμπάι</item>
+        <item>Καμπούλ</item>
+        <item>Ισλαμαμπάντ, Καράτσι</item>
+        <item>Οράλ</item>
+        <item>Εκατερίνμπουργκ</item>
+        <item>Καλκούτα</item>
+        <item>Σρι Λάνκα</item>
+        <item>Κατμαντού</item>
+        <item>Αστάνα</item>
+        <item>Γιανγκόν</item>
+        <item>Κρασνογιάρσκ</item>
+        <item>Μπανγκόκ</item>
+        <item>Πεκίνο</item>
+        <item>Χονγκ Κονγκ</item>
+        <item>Ιρκούτσκ</item>
+        <item>Κουάλα Λουμπούρ</item>
+        <item>Περθ</item>
+        <item>Ταϊπέι</item>
+        <item>Σεούλ</item>
+        <item>Τόκυο, Οσάκα</item>
+        <item>Γιακούτσκ</item>
+        <item>Αδελαΐδα</item>
+        <item>Ντάργουιν</item>
+        <item>Μπρίσμπεϊν</item>
+        <item>Χόμπαρτ</item>
+        <item>Σύδνεϊ, Καμπέρα</item>
+        <item>Βλαδιβοστόκ</item>
+        <item>Γκουάμ</item>
+        <item>Μαγκαντάν</item>
+        <item>Όκλαντ</item>
+        <item>Φίτζι</item>
+        <item>Τόνγκα</item>
+        <item>Τζακάρτα</item>
+    </string-array>
+</resources>

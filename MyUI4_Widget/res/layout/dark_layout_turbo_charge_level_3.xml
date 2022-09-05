@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar android:layout_gravity="center" android:id="@id/widget_bg_animation" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/dark_turbo_charge_level_3"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ঘন্টা</item>
+        <item>2 ঘন্টা</item>
+        <item>3 ঘন্টা</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>সময় ও আবহাওয়া</item>
+        <item>আবহাওয়া</item>
+        <item>সময়</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ফারেনহাইট</item>
+        <item>সেলসিয়াস</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>মার্শাল আইল্যান্ডস</item>
+        <item>মিডওয়ে আইল্যান্ড</item>
+        <item>হাওয়াই</item>
+        <item>আলাস্কা</item>
+        <item>প্রশান্ত মহাসাগরীয় সময়</item>
+        <item>তিযুয়ানা</item>
+        <item>আরিজোনা</item>
+        <item>চিহুয়াহুয়া</item>
+        <item>পার্বত্য সময়</item>
+        <item>মধ্য আমেরিকা</item>
+        <item>কেন্দ্রীয় সময়</item>
+        <item>মেক্সিকো সিটি</item>
+        <item>সাসকাচেওয়ান</item>
+        <item>বোগোটা</item>
+        <item>পূর্বাঞ্চলীয় সময়</item>
+        <item>ভেনেজুয়েলা</item>
+        <item>আটলান্টিক সময় (বার্বাডোজ)</item>
+        <item>আটলান্টিক সময় (কানাডা)</item>
+        <item>মানাউস</item>
+        <item>সান্টিয়াগো</item>
+        <item>নিউফাউন্ডল্যান্ড</item>
+        <item>ব্রাসিলিয়া</item>
+        <item>বুয়েনস আইরাস</item>
+        <item>গ্রীনল্যান্ড</item>
+        <item>মন্টেভিডিও</item>
+        <item>মধ্য-আটলান্টিক</item>
+        <item>অ্যাজোরেস</item>
+        <item>কেপ ভার্দ আইল্যান্ডস</item>
+        <item>কাসাব্লাঙ্কা</item>
+        <item>লন্ডন, ডাবলিন</item>
+        <item>আমস্টারডাম, বার্লিন</item>
+        <item>বেলগ্রেড</item>
+        <item>ব্রাসেলস</item>
+        <item>সারাজেভো</item>
+        <item>উইনধোক</item>
+        <item>প. আফ্রিকা সময়</item>
+        <item>আম্মান, জর্ডন</item>
+        <item>এথেন্স, ইস্তানবুল</item>
+        <item>বৈরুত, লেবানন</item>
+        <item>কায়রো</item>
+        <item>হেলসিঙ্কি</item>
+        <item>জেরুজালেম</item>
+        <item>মিন্সক</item>
+        <item>হারারে</item>
+        <item>বাগদাদ</item>
+        <item>মস্কো</item>
+        <item>কুয়েত</item>
+        <item>নাইরোবি</item>
+        <item>তেহরান</item>
+        <item>বাকু</item>
+        <item>তিবলিসি</item>
+        <item>ইয়েরাভান</item>
+        <item>দুবাই</item>
+        <item>কাবুল</item>
+        <item>ইসলামাবাদ, করাচি</item>
+        <item>উরালস্ক</item>
+        <item>ইয়েকাটেরিনবার্গ</item>
+        <item>কোলকাতা</item>
+        <item>শ্রীলঙ্কা</item>
+        <item>কাঠমান্ডু</item>
+        <item>আসটানা</item>
+        <item>ইয়াংগন</item>
+        <item>ক্রাসনোইয়ার্স্ক</item>
+        <item>ব্যাংকক</item>
+        <item>বেইজিং</item>
+        <item>হংকং</item>
+        <item>ইর্কুটস্ক</item>
+        <item>কুয়ালালামপুর</item>
+        <item>পার্থ</item>
+        <item>তাইপেই</item>
+        <item>সিউল</item>
+        <item>টোকিও, ওসাকা</item>
+        <item>ইয়াকুটস্ক</item>
+        <item>এ্যাডেলেইড</item>
+        <item>ডারউইন</item>
+        <item>ব্রিসবেন</item>
+        <item>হোবার্ট</item>
+        <item>সিডনি, ক্যানবেরা</item>
+        <item>ভ্লাদিভস্তোক</item>
+        <item>গুয়াম</item>
+        <item>ম্যাগাডান</item>
+        <item>অকল্যান্ড</item>
+        <item>ফিজি</item>
+        <item>টোঙ্গা</item>
+        <item>জাকার্তা</item>
+    </string-array>
+</resources>

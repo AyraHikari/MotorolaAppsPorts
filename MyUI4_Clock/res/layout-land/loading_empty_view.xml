@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Inverse" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/empty_image" android:layout_width="@dimen/city_selected_empty_image_width" android:layout_height="@dimen/city_selected_empty_image_height" android:src="@drawable/city_empty_icon" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="14.0sp" android:textColor="@color/cities_choose_empty_result_color" android:gravity="center" android:id="@id/empty_tips" android:layout_width="@dimen/city_selected_empty_text_max_width" android:layout_height="wrap_content" android:text="@string/empty_list_msg" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

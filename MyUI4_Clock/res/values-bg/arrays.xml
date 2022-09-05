@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Алармата е зададена за след по-малко от минута от сегашния момент.</item>
+        <item>Алармата е зададена за след %1$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %2$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %1$s и %2$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %3$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %1$s и %3$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %2$s и %3$s от сегашния момент.</item>
+        <item>Алармата е зададена за след %1$s, %2$s и %3$s от сегашния момент.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>15 минути</item>
+        <item>20 минути</item>
+        <item>25 минути</item>
+        <item>30 минути</item>
+        <item>Никога</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Аналогов</item>
+        <item>Дигитален</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>аналогов</item>
+        <item>дигитален</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Свържете се към интернет, за да виждате местното време при звънене</item>
+        <item>Локацията е необходима, за да виждате местното време при звънене.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Достъп до мобилна мрежа</item>
+        <item>Достъп до локация</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"Яну "</item>
+        <item>"Фев "</item>
+        <item>"Мар "</item>
+        <item>"Апр "</item>
+        <item>"Май "</item>
+        <item>"Юни "</item>
+        <item>"Юли "</item>
+        <item>"Авг "</item>
+        <item>"Септ "</item>
+        <item>"Окт "</item>
+        <item>"Нов "</item>
+        <item>"Дек "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Отхвърляне</item>
+        <item>Дрямка</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Стандартно</item>
+        <item>Таблет</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Меню с разгъване/прибиране на подменюта</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Веднъж</item>
+        <item>Всеки ден</item>
+        <item>В работни дни (изключено по време на празници)</item>
+        <item>Персонализиране</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Веднъж</item>
+        <item>Всеки ден</item>
+        <item>Персонализиране</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Четв</item>
+        <item>Пет</item>
+        <item>Съб</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Никога</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>15 минути</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Остава по-малко от минута</item>
+        <item>Остава %1$s</item>
+        <item>Остава %2$s</item>
+        <item>Остава %1$s%2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Звънене</item>
+        <item>Вибрация</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалови острови</item>
+        <item>Мидуей айлънд</item>
+        <item>Хавай</item>
+        <item>Аляска</item>
+        <item>Тихоокеанско време</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чихуахуа</item>
+        <item>Маунтин тайм</item>
+        <item>Централна Америка</item>
+        <item>Централно време</item>
+        <item>Мексико сити</item>
+        <item>Саскачуан</item>
+        <item>Богота</item>
+        <item>Източно време</item>
+        <item>Венецуела</item>
+        <item>Атлантическо време (Барбадос)</item>
+        <item>Атлантическо време (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантяго</item>
+        <item>Нюфаундленд</item>
+        <item>Бразилия</item>
+        <item>Буенос Айрес</item>
+        <item>Гренландия</item>
+        <item>Монтевидео</item>
+        <item>Средноатлантическа зона</item>
+        <item>Азорските острови</item>
+        <item>острови Кабо Верде</item>
+        <item>Казабланка</item>
+        <item>Лондон, Дъблин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюксел</item>
+        <item>Сараево</item>
+        <item>Windhoek</item>
+        <item>Западно африканско време</item>
+        <item>Аман, Йордания</item>
+        <item>Атина, Истанбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Кайро</item>
+        <item>Хелзинки</item>
+        <item>Йерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Техран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уралск</item>
+        <item>Екатеринбург</item>
+        <item>Колката</item>
+        <item>Шри Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Банкок</item>
+        <item>Пекин</item>
+        <item>Хонконг</item>
+        <item>Икутск</item>
+        <item>Куала Лумпур</item>
+        <item>Пърт</item>
+        <item>Тайпей</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Аделаиде</item>
+        <item>Дарвин</item>
+        <item>Брисбейн</item>
+        <item>Хобарт</item>
+        <item>Сидни, Канбера</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окланд</item>
+        <item>Фиджи</item>
+        <item>Тонга</item>
+        <item>Джакарта</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Тихи океан/Маджуро</item>
+        <item>Тихи океан/Мидуей</item>
+        <item>Тихи океан/Хонолулу</item>
+        <item>Америка/Анкъридж</item>
+        <item>Америка/Лос_Анджелис</item>
+        <item>Америка/Тихуана</item>
+        <item>Америка/Финикс</item>
+        <item>Америка/Чихуахуа</item>
+        <item>Америка/Денвър</item>
+        <item>Америка/Коста_Рика</item>
+        <item>Америка/Чикаго</item>
+        <item>Америка/Мексико_сити</item>
+        <item>Америка/Реджина</item>
+        <item>Америка/Богота</item>
+        <item>Америка/Ню_Йорк</item>
+        <item>Америка/Каракас</item>
+        <item>Америка/Барбадос</item>
+        <item>Америка/Халифакс</item>
+        <item>Америка/Манаус</item>
+        <item>Америка/Сантяго</item>
+        <item>Америка/Сейнт_Джонс</item>
+        <item>Америка/Сао_Пауло</item>
+        <item>Америка/Аржентина/Буенос_Айрес</item>
+        <item>Америка/Годхаб</item>
+        <item>Америка/Монтевидео</item>
+        <item>Атлантик/Южна Джорджия</item>
+        <item>Атлантик/Азорски острови</item>
+        <item>Атлантик/Кабо_Верде</item>
+        <item>Африка/Казабланка</item>
+        <item>Европа/Лондон</item>
+        <item>Европа/Амстердам</item>
+        <item>Европа/Белград</item>
+        <item>Европа/Брюксел</item>
+        <item>Европа/Сараево</item>
+        <item>Африка/Уиндоук</item>
+        <item>Африка/Бразавил</item>
+        <item>Азия/Аман</item>
+        <item>Европа/Атина</item>
+        <item>Азия/Бейрут</item>
+        <item>Африка/Кайро</item>
+        <item>Европа/Хелзинки</item>
+        <item>Азия/Йерусалим</item>
+        <item>Европа/Минск</item>
+        <item>Африка/Хараре</item>
+        <item>Азия/Багдад</item>
+        <item>Европа/Москва</item>
+        <item>Азия/Кувейт</item>
+        <item>Африка/Найроби</item>
+        <item>Азия/Техран</item>
+        <item>Азия/Баку</item>
+        <item>Азия/Тбилиси</item>
+        <item>Азия/Ереван</item>
+        <item>Азия/Дубай</item>
+        <item>Азия/Кабул</item>
+        <item>Азия/Карачи</item>
+        <item>Азия/Орал</item>
+        <item>Азия/Екатеринбург</item>
+        <item>Азия/Калкута</item>
+        <item>Азия/Коломбо</item>
+        <item>Азия/Катманду</item>
+        <item>Азия/Алмати</item>
+        <item>Азия/Рангун</item>
+        <item>Азия/Красноярск</item>
+        <item>Азия/Банкок</item>
+        <item>Азия/Шанхай</item>
+        <item>Азия/Хонконк</item>
+        <item>Азия/Ирктуск</item>
+        <item>Азия/Куала_Лумпур</item>
+        <item>Австралия/Пърт</item>
+        <item>Азия/Тайпей</item>
+        <item>Азия/Сеул</item>
+        <item>Азия/Токио</item>
+        <item>Азия/Якутск</item>
+        <item>Австралия/Аделаиде</item>
+        <item>Австралия/Дарвин</item>
+        <item>Австралия/Брисбейн</item>
+        <item>Австралия/Хобарт</item>
+        <item>Австралия/Сидни</item>
+        <item>Азия/Владивосток</item>
+        <item>Тихи океан/Гуам</item>
+        <item>Азия/Магадан</item>
+        <item>Тихи океан/Окланд</item>
+        <item>Тихи океан/Фиджи</item>
+        <item>Тихи океан/Тонгатапу</item>
+        <item>Азия/Джакарта</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Дрямка</item>
+        <item>Отхвърляне</item>
+        <item>Без действие</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Меко</item>
+        <item>Нормално</item>
+        <item>Силно</item>
+        <item>Персонализиране</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Неделя</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Сряда</item>
+        <item>Четвъртък</item>
+        <item>Петък</item>
+        <item>Събота</item>
+    </string-array>
+</resources>

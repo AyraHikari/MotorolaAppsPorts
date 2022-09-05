@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ᎢᏳᏪᏅᏍᏗ</item>
+        <item>2 ᎢᏧᏪᏅᏍᏗ</item>
+        <item>3 ᎢᏧᏪᏅᏍᏗ</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>ᎠᏥᎢᎵᏒ &amp; ᏙᏱᏗᏣ ᏂᎦᎵᏍᏔᏅᎲᏍᎬᎢ</item>
+        <item>"ᏙᏱᏗᏣ ᏂᎦᎵᏍᏔᏅᎲᏍᎬᎢ "</item>
+        <item>ᎠᏥᎢᎵᏒ</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ᎤᏪᏘ ᎠᏥᎶᎥ</item>
+        <item>ᎠᏤ ᎠᏥᎶᎥ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>ᎹᏌᎵ ᏚᎦᏚᏛᎢ</item>
+        <item>ᎠᏰᏟ ᎤᎦᏚᏛ</item>
+        <item>ᎭᏩᎢ</item>
+        <item>ᎠᎴᏍᎧ</item>
+        <item>ᏅᏩᏙᎯᏯᏛᎢ ᎠᏥᎢᎵᏒ</item>
+        <item>ᏘᏩᎾ</item>
+        <item>ᎡᏩᏐᏅ</item>
+        <item>ᏥᏩᏩ</item>
+        <item>ᎠᏯᎴᏛ ᎠᏥᎢᎵᏒ</item>
+        <item>ᎠᏰᏟ ᎠᎹᏰᏟ</item>
+        <item>ᎠᏰᏟ ᎠᏥᎢᎵᏒ</item>
+        <item>ᎠᏂᏍᏆᏂ ᎦᏚᎲ</item>
+        <item>ᏎᏍᎨᏤᏩᏂ</item>
+        <item>ᏉᎪᏔ</item>
+        <item>ᎧᎸᎬᎢᏗᏢ ᎠᏥᎢᎵᏒ</item>
+        <item>ᏪᏁᏑᏪᎳ</item>
+        <item>Atlantic ᎠᏥᎢᎵᏒ (ᏆᏇᏙᏍ)</item>
+        <item>Atlantic ᎠᏥᎢᎵᏒ (ᎨᎾᏓ)</item>
+        <item>ᎹᎾᎤᏍ</item>
+        <item>ᏎᎾᏘᏯᎪ</item>
+        <item>ᎢᏤ ᏧᏩᏛᎢ ᎦᏓ</item>
+        <item>ᏆᏏᎵᏯ</item>
+        <item>ᎣᏍᏓ ᎤᏃᎴ</item>
+        <item>ᎢᏤᏍᏛᏱ</item>
+        <item>ᎹᏅᏖᏫᏕᏲ</item>
+        <item>ᎠᏰᏟᏴ-Atlantic</item>
+        <item>ᎠᏦᎴᏏ</item>
+        <item>ᎢᎬᎾᏕᎾ ᎢᏤᏳᏍᏗ ᎠᎹᏰᎵ ᏕᎨᏌᏗᏒ</item>
+        <item>ᎤᏁᎦ ᎦᎵᏦᏕ</item>
+        <item>ᎸᎾᏛᏂ, ᏧᏓᏏᏟ</item>
+        <item>ᎠᎹᏍᏔᏕᎻ, ᏆᎵᏂ</item>
+        <item>ᏇᎵᎦᎴᏗ</item>
+        <item>ᏋᏎᎵᏍ</item>
+        <item>ᏎᎵᏰᏬ</item>
+        <item>ᎤᏃᎴ ᎤᏅᏏᏴ</item>
+        <item>ᏭᏕᎵᎬ ᎬᎿᎨᏍᏛ ᎠᏥᎢᎵᏒ</item>
+        <item>ᎠᎹᏅ, ᏦᏓᏂ</item>
+        <item>ᎡᏖᏅᏍ, ᎢᏍᏖᏅᏊᎵ</item>
+        <item>ᏇᎷᏘ, ᎴᏆᎾᏂ</item>
+        <item>ᎧᏱᎶ</item>
+        <item>ᎮᎵᏏᏂᎩ</item>
+        <item>ᏥᎷᏏᎳᎻ</item>
+        <item>ᎻᏂᏏᎩ</item>
+        <item>ᎭᎳᎴ</item>
+        <item>ᏇᎬᏕᏗ</item>
+        <item>ᎹᏍᎪ</item>
+        <item>ᎫᏪᏘ</item>
+        <item>ᎾᏱᎶᏈ</item>
+        <item>ᏖᎳᏂ</item>
+        <item>ᏆᎫ</item>
+        <item>ᏊᎵᏏ</item>
+        <item>ᏰᎴᏪᏂ</item>
+        <item>ᏚᏆᏱ</item>
+        <item>ᎧᏊᎵ</item>
+        <item>ᎢᏍᎳᎹᏇᏗ, ᎧᎳᏥ</item>
+        <item>ᎤᎳᎸᏍᎩ</item>
+        <item>ᏰᎧᏖᎵᏅᏋᎩ</item>
+        <item>ᎪᎸᎧᏔ</item>
+        <item>ᏍᎵ ᎳᏂᎧ</item>
+        <item>ᎨᏛᎹᏂᏚ</item>
+        <item>ᎠᏍᏔᎾ</item>
+        <item>ᏰᏅᎪᏂ</item>
+        <item>ᎬᎴᏍᏃᏯᏍᎩ</item>
+        <item>ᏆᏅᎪᎩ</item>
+        <item>ᏇᏥᏅᎩ</item>
+        <item>ᎰᏅᎩ ᎪᏅᎩ</item>
+        <item>ᎢᏢᎫᏥᏍᎩ</item>
+        <item>ᎫᏩᎳ ᎷᎽᏊᎳ</item>
+        <item>ᏆᏏ</item>
+        <item>ᏔᏱᏇ</item>
+        <item>ᏐᏭᎵ</item>
+        <item>ᏙᎩᏲ, ᎣᏌᎧ</item>
+        <item>ᏯᎫᏥᏍᎩ</item>
+        <item>ᎠᏓᎴᏗ</item>
+        <item>ᏓᏫᏂ</item>
+        <item>ᏊᏏᏇᏂ</item>
+        <item>ᎰᏆᏗ</item>
+        <item>ᏏᏛᏂ, ᎨᏅᏇᎳ</item>
+        <item>ᏭᎴᏗᏬᏍᏙᎩ</item>
+        <item>ᏆᎹ</item>
+        <item>ᎺᎩᏓᏂ</item>
+        <item>ᎠᎤᎧᎴᏅᏗ</item>
+        <item>ᏫᏥ</item>
+        <item>ᏙᏅᎦ</item>
+        <item>ᏣᎧᏔ</item>
+    </string-array>
+</resources>

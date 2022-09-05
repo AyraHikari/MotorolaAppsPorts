@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 နာရီ</item>
+        <item>2 နှစ်ရီ</item>
+        <item>3 နာရီ</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>အချိန် &amp; ရာသီဥတု</item>
+        <item>ရာသီဥတု</item>
+        <item>အချိန်</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ဖာရင်ဟိုက်</item>
+        <item>စင်တီဂရိတ်</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>မာရှယ်ကျွန်းစု</item>
+        <item>တစ်ဝက်တစ်ပျက်ကျွန်း</item>
+        <item>ဟာဝိုင်ယီ</item>
+        <item>alaska</item>
+        <item>ပစိဖိတ်အချိန်</item>
+        <item>တီယူအာနာ</item>
+        <item>အရီဇိုးနား</item>
+        <item>Chihuahua</item>
+        <item>တောင်ပေါ်အချိန်</item>
+        <item>အမေရိကအလယ်ပိုင်း</item>
+        <item>အလယ်ပိုင်းအချိန်</item>
+        <item>မက်ဆီကိုစီးတီး</item>
+        <item>ဆက်စ်ခက်ချဝမ်</item>
+        <item>ဘိုဂိုတာ</item>
+        <item>အရှေ့ပိုင်းအချိန်</item>
+        <item>ဗီနီဇွဲလား</item>
+        <item>အတ္တလန္တိတ်အချိန် (ဘာဘေးဒိုးစ)</item>
+        <item>အတ္တလန္တိတ်အချိန် (ကနေဒါ)</item>
+        <item>မာနာ</item>
+        <item>စန်တီယာဂို</item>
+        <item>နယူးဖောင်လန်</item>
+        <item>ဘရာဇီးလီယား</item>
+        <item>ဗျူနိုအေရီစ်</item>
+        <item>ဂရင်းလန်း</item>
+        <item>မွန်တီဗီဒီယို</item>
+        <item>Mid-Atlantic</item>
+        <item>အာ့ဇိုရီစ်</item>
+        <item>ကိပ်ဗာဒီကျွန်းစု</item>
+        <item>Casablanca</item>
+        <item>လန်ဒန်, Dublin</item>
+        <item>အမ်စတာဒမ်, ဘာလင်</item>
+        <item>ဘဲဂရိတ်</item>
+        <item>ဘရပ်ဆဲလ်</item>
+        <item>ဆာရာယဗေို</item>
+        <item>ဝင်းဒို့ခ်</item>
+        <item>ဒဗလျူအာဖရိကအချိန်</item>
+        <item>အာမန်, ဂျော်ဒန်</item>
+        <item>အေသင်, အစ္စတန်ဘူလ်</item>
+        <item>ဘေရွတ်, လက်ဘနွန်</item>
+        <item>ကိုင်ရို</item>
+        <item>ဟယ်လ်စင်ကီ</item>
+        <item>ဂျေရုဆလင်</item>
+        <item>ခ်</item>
+        <item>Harare</item>
+        <item>ဘဂ္ဂဒက်</item>
+        <item>မော်စကို</item>
+        <item>ကူးဝိတ်</item>
+        <item>နိုင်ရိုဘီ</item>
+        <item>တီဟီရန်</item>
+        <item>ဘာကူ</item>
+        <item>Tbilisi</item>
+        <item>ရီရဲဗန်</item>
+        <item>ဒူဘိုင်း</item>
+        <item>ကဘူးလ်</item>
+        <item>ပါကစ္စတန်, ကရာချီ</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>ကာလကတ္တား</item>
+        <item>သီရိလင်္ကါ</item>
+        <item>ခတ္ထမန္ဒူ</item>
+        <item>Astana</item>
+        <item>ရန်ကုန်</item>
+        <item>Krasnoyarsk</item>
+        <item>ဘန်ကောက်</item>
+        <item>ဘေဂျင်း</item>
+        <item>ဟောင်ကောင်</item>
+        <item>Irkutsk</item>
+        <item>ကွာလာလမ်ပူ</item>
+        <item>ပါ့သ</item>
+        <item>တိုင်ပေ</item>
+        <item>ဆိုးလ်</item>
+        <item>တိုကျို, အိုဆာကာ</item>
+        <item>Yakutsk</item>
+        <item>အာဒေလိပ်ဒ်</item>
+        <item>ဒါဝင်</item>
+        <item>ဘရစ္စဘိန်း</item>
+        <item>ဟိုဘတ်</item>
+        <item>ဆစ်ဒနီ, ကင်ဘာရာ</item>
+        <item>Vladivostok</item>
+        <item>ဂူအမ်ကျွန်း</item>
+        <item>မာ့ဂဒန်</item>
+        <item>အော့ခ်လန်</item>
+        <item>ဖီဂျီ</item>
+        <item>တွန်ဂါ</item>
+        <item>ဂျကာတာ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MyUI4_Clock_06.0.5.58.0.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- png
+- webp
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '30'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  com/zui/xlog/IAnalytics.aidl: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '605580'
+  versionName: 06.0.5.58.0

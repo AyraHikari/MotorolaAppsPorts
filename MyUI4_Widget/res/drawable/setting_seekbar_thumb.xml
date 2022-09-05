@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="10.0dip" android:bottom="10.0dip">
+        <shape android:shape="oval">
+            <size android:height="@dimen/widget_adapt_seekbar_thumb_size" android:width="@dimen/widget_adapt_seekbar_thumb_size" />
+            <solid android:color="@color/widget_adapt_accent_color" />
+        </shape>
+    </item>
+</layer-list>

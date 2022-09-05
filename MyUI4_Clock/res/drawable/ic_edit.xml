@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/timer_fragment_vt_edit" android:pathData="M17.2998,13.5801L11.9998,18.8801L11.9998,21.0001L14.1198,21.0001L19.4198,15.7001L17.2998,13.5801ZM18.0098,12.8701L18.7198,12.1601C19.1108,11.7701 19.7398,11.7701 20.1298,12.1601L20.8398,12.8701C21.2308,13.2601 21.2308,13.8901 20.8398,14.2801L20.1298,14.9901L18.0098,12.8701ZM2.9998,16.0001L9.9998,16.0001L9.9998,14.0001L2.9998,14.0001L2.9998,16.0001ZM2.9998,6.0001L14.9998,6.0001L14.9998,4.0001L2.9998,4.0001L2.9998,6.0001ZM2.9998,11.0001L14.9998,11.0001L14.9998,9.0001L2.9998,9.0001L2.9998,11.0001Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

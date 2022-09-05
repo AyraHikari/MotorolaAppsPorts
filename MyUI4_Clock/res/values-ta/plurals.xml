@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="one">1 மணிநேரம்</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d மணிநேரம் பின்னால் உள்ளது</item>
+        <item quantity="one">1 மணிநேரம் பின்னால் உள்ளது</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d மணிநேரம் முன்னால் உள்ளது</item>
+        <item quantity="one">1 மணிநேரம் முன்னால் உள்ளது</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="one">1 நிமிடம்</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d வினாடிகள்</item>
+        <item quantity="one">1 வினாடி</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+</resources>

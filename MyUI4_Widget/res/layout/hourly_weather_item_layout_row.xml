@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textAllCaps="true" style="@style/Detail.Text16.level2" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@id/temp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" style="@style/Detail.Text16.level2" />
+    <TextView android:gravity="center" android:id="@id/precipitation_rate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Detail.Text16.level2" />
+    <TextView android:gravity="end|center" android:id="@id/wind_speed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="2.5" style="@style/Detail.Text16.level2" />
+</LinearLayout>

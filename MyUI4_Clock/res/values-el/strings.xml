@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">Α=Αμπιτζάν|Africa/Abidjan</string>
+    <string name="C10">Ν=Ντακάρ|Africa/Dakar</string>
+    <string name="C100">Α=Αμάν|Asia/Amman</string>
+    <string name="C101">Α=Ανάντιρ|Asia/Anadyr</string>
+    <string name="C102">Α=Ακτάου|Asia/Aqtau</string>
+    <string name="C103">Β=Βαγδάτη|Asia/Baghdad</string>
+    <string name="C104">Μ=Μπαχρέιν|Asia/Bahrain</string>
+    <string name="C105">Μ=Μπακού|Asia/Baku</string>
+    <string name="C106">Μ=Μπανγκόκ|Asia/Bangkok</string>
+    <string name="C107">Β=Βηρυτός|Asia/Beirut</string>
+    <string name="C108">Κ=Καλκούτα|Asia/Calcutta</string>
+    <string name="C109">Δ=Δαμασκός|Asia/Damascus</string>
+    <string name="C11">Ν=Νταρ ες Σαλάμ|Africa/Dar_es_Salaam</string>
+    <string name="C110">Ν=Ντάκα|Asia/Dhaka</string>
+    <string name="C111">Ν=Ντουμπάι|Asia/Dubai</string>
+    <string name="C112">Γ=Γάζα|Asia/Gaza</string>
+    <string name="C113">Χ=Χεβρώνα|Asia/Hebron</string>
+    <string name="C114">Χ=Χο Τσι Μινχ|Asia/Ho_Chi_Minh</string>
+    <string name="C115">Χ=Χονγκ Κονγκ:|Asia/Hong_Kong</string>
+    <string name="C117">Τ=Τζακάρτα|Asia/Jakarta</string>
+    <string name="C118">Ι=Ιερουσαλήμ|Asia/Jerusalem</string>
+    <string name="C119">Κ=Καμπούλ|Asia/Kabul</string>
+    <string name="C12">Τ=Τζιμπουτί|Africa/Djibouti</string>
+    <string name="C120">Κ=Καράτσι|Asia/Karachi</string>
+    <string name="C121">Κ=Κατμαντού|Asia/Kathmandu</string>
+    <string name="C122">Κ=Κουάλα Λουμπούρ|Asia/Kuala_Lumpur</string>
+    <string name="C123">Κ=Κουβέιτ|Asia/Kuwait</string>
+    <string name="C124">Μ=Μακάου|Asia/Macau</string>
+    <string name="C125">Μ=Μανίλα|Asia/Manila</string>
+    <string name="C126">Μ=Μουσκάτ|Asia/Muscat</string>
+    <string name="C127">Π=Πνομ Πενχ|Asia/Phnom_Penh</string>
+    <string name="C128">Π=Πιονγκγιάνγκ:|Asia/Pyongyang</string>
+    <string name="C13">Φ=Φρίταουν|Africa/Freetown</string>
+    <string name="C130">Ρ=Ρανγκούν|Asia/Rangoon</string>
+    <string name="C131">Ρ=Ριάντ|Asia/Riyadh</string>
+    <string name="C133">Σ=Σεούλ|Asia/Seoul</string>
+    <string name="C134">Σ=Σαγκάη:|Asia/Shanghai</string>
+    <string name="C135">Σ=Σιγκαπούρη|Asia/Singapore</string>
+    <string name="C136">Τ=Ταϊπέι:|Asia/Taipei</string>
+    <string name="C137">Τ=Τεχεράνη|Asia/Tehran</string>
+    <string name="C138">Τ=Τελ Αβίβ|Asia/Tel_Aviv</string>
+    <string name="C139">Τ=Τόκιο:|Asia/Tokyo</string>
+    <string name="C14">Γ=Γκαμπορόνε|Africa/Gaborone</string>
+    <string name="C140">Ο=Ουλάν Μπατόρ|Asia/Ulaanbaatar</string>
+    <string name="C141">Β=Βερμούδα|Atlantic/Bermuda</string>
+    <string name="C142">Κ=Κανάρια|Atlantic/Canary</string>
+    <string name="C143">Π=Πράσινο Ακρωτήριο|Atlantic/Cape_Verde</string>
+    <string name="C144">Ρ=Ρέικιαβικ|Atlantic/Reykjavik</string>
+    <string name="C145">Σ=Στάνλεϊ|Atlantic/Stanley</string>
+    <string name="C146">Α=Αδελαΐδα|Australia/Adelaide</string>
+    <string name="C147">Μ=Μπρίσμπεϊν|Australia/Brisbane</string>
+    <string name="C148">Κ=Καμπέρα|Australia/Canberra</string>
+    <string name="C149">Ν=Ντάργουιν|Australia/Darwin</string>
+    <string name="C15">Χ=Χαράρε|Africa/Harare</string>
+    <string name="C150">Μ=Μελβούρνη|Australia/Melbourne</string>
+    <string name="C151">Ν=Νέα Νότια Ουαλία|Australia/NSW</string>
+    <string name="C152">Π=Περθ|Australia/Perth</string>
+    <string name="C153">Κ=Κουίνσλαντ|Australia/Queensland</string>
+    <string name="C154">Σ=Σίδνεϊ|Australia/Sydney</string>
+    <string name="C155">Β=Βικτόρια|Australia/Victoria</string>
+    <string name="C156">Ν=Νέα Γη|Canada/Newfoundland</string>
+    <string name="C157">Σ=Σασκάτσουαν|Canada/Saskatchewan</string>
+    <string name="C158">Ν=Νησί του Πάσχα|Chile/EasterIsland</string>
+    <string name="C159">Α=Άμστερνταμ|Europe/Amsterdam</string>
+    <string name="C16">Γ=Γιοχάνεσμπουργκ|Africa/Johannesburg</string>
+    <string name="C160">Α=Ανδόρα|Europe/Andorra</string>
+    <string name="C161">Α=Αθήνα|Europe/Athens</string>
+    <string name="C162">Μ=Μπέλφαστ|Europe/Belfast</string>
+    <string name="C163">Β=Βελιγράδι|Europe/Belgrade</string>
+    <string name="C164">Β=Βερολίνο|Europe/Berlin</string>
+    <string name="C165">Μ=Μπρατισλάβα|Europe/Bratislava</string>
+    <string name="C166">Β=Βρυξέλλες|Europe/Brussels</string>
+    <string name="C167">Β=Βουκουρέστι|Europe/Bucharest</string>
+    <string name="C168">Β=Βουδαπέστη|Europe/Budapest</string>
+    <string name="C169">Κ=Κισινάου|Europe/Chisinau</string>
+    <string name="C17">Κ=Καμπάλα|Africa/Kampala</string>
+    <string name="C170">Κ=Κοπεγχάγη|Europe/Copenhagen</string>
+    <string name="C171">Δ=Δουβλίνο|Europe/Dublin</string>
+    <string name="C172">Γ=Γιβραλτάρ|Europe/Gibraltar</string>
+    <string name="C173">Ε=Ελσίνκι|Europe/Helsinki</string>
+    <string name="C174">Ν=Νήσος του Μαν|Europe/Isle_of_Man</string>
+    <string name="C175">Κ=Κωνσταντινούπολη|Europe/Istanbul</string>
+    <string name="C176">Κ=Κίεβο|Europe/Kiev</string>
+    <string name="C177">Λ=Λισαβόνα|Europe/Lisbon</string>
+    <string name="C178">Λ=Λονδίνο|Europe/London</string>
+    <string name="C179">Λ=Λουξεμβούργο|Europe/Luxembourg</string>
+    <string name="C18">Χ=Χαρτούμ|Africa/Khartoum</string>
+    <string name="C180">Μ=Μαδρίτη|Europe/Madrid</string>
+    <string name="C181">Μ=Μάλτα|Europe/Malta</string>
+    <string name="C182">Μ=Μινσκ|Europe/Minsk</string>
+    <string name="C183">Μ=Μονακό|Europe/Monaco</string>
+    <string name="C184">Μ=Μόσχα|Europe/Moscow</string>
+    <string name="C185">Ο=Όσλο|Europe/Oslo</string>
+    <string name="C186">Π=Παρίσι|Europe/Paris</string>
+    <string name="C187">Π=Πράγα|Europe/Prague</string>
+    <string name="C188">Ρ=Ρίγα|Europe/Riga</string>
+    <string name="C189">Ρ=Ρώμη|Europe/Rome</string>
+    <string name="C19">Κ=Κιγκάλι|Africa/Kigali</string>
+    <string name="C190">Σ=Σαν Μαρίνο|Europe/San_Marino</string>
+    <string name="C191">Σ=Σαράγεβο|Europe/Sarajevo</string>
+    <string name="C192">Σ=Συμφερούπολη|Europe/Simferopol</string>
+    <string name="C193">Σ=Σκόπια|Europe/Skopje</string>
+    <string name="C194">Σ=Σόφια|Europe/Sofia</string>
+    <string name="C195">Σ=Στοκχόλμη|Europe/Stockholm</string>
+    <string name="C196">Τ=Ταλίν|Europe/Tallinn</string>
+    <string name="C197">Β=Βατικανό|Europe/Vatican</string>
+    <string name="C198">Β=Βιέννη|Europe/Vienna</string>
+    <string name="C199">Β=Βίλνιους|Europe/Vilnius</string>
+    <string name="C2">Α=Άκκρα|Africa/Accra</string>
+    <string name="C20">Κ=Κινσάσα|Africa/Kinshasa</string>
+    <string name="C200">Β=Βαρσοβία|Europe/Warsaw</string>
+    <string name="C201">Ζ=Ζάγκρεμπ|Europe/Zagreb</string>
+    <string name="C202">Ζ=Ζυρίχη|Europe/Zurich</string>
+    <string name="C203">Α=Ανταναναρίβο|Indian/Antananarivo</string>
+    <string name="C204">Μ=Μαλδίβες|Indian/Maldives</string>
+    <string name="C205">Μ=Μαυρίκιος|Indian/Mauritius</string>
+    <string name="C206">Ο=Όκλαντ|Pacific/Auckland</string>
+    <string name="C207">Φ=Φίτζι|Pacific/Fiji</string>
+    <string name="C208">Γ=Γκουάμ|Pacific/Guam</string>
+    <string name="C209">Χ=Χονολουλού|Pacific/Honolulu</string>
+    <string name="C21">Λ=Λάγος|Africa/Lagos</string>
+    <string name="C210">Κ=Κιριτιμάτι|Pacific/Kiritimati</string>
+    <string name="C211">Ν=Νουμέα|Pacific/Noumea</string>
+    <string name="C214">Α=Αντίγκουα|America/Antigua</string>
+    <string name="C215">Ω=Ώστιν|America/Chicago</string>
+    <string name="C216">Β=Βοστόνη|America/New_York</string>
+    <string name="C217">Κ=Κάλγκαρυ|America/Denver</string>
+    <string name="C218">Κ=Κολόμβος|America/New_York</string>
+    <string name="C219">Ν=Ντάλας|America/Chicago</string>
+    <string name="C22">Μ=Μαζέρου|Africa/Maseru</string>
+    <string name="C220">Ν=Νόξβιλ|America/New_York</string>
+    <string name="C221">Μ=Μέμφις|America/Chicago</string>
+    <string name="C222">Μ=Μαϊάμι|America/New_York</string>
+    <string name="C223">Μ=Μινεάπολις|America/Chicago</string>
+    <string name="C224">Ο=Οττάβα|America/New_York</string>
+    <string name="C225">Φ=Φιλαδέλφεια|America/New_York</string>
+    <string name="C226">Π=Πόρτλαντ|America/Los_Angeles</string>
+    <string name="C227">Σ=Σαν Ντιέγκο|America/Los_Angeles</string>
+    <string name="C228">Σ=Σαν Φρανσίσκο|America/Los_Angeles</string>
+    <string name="C229">Σ=Σολτ Λέικ Σίτι|America/Denver</string>
+    <string name="C23">Μ=Μογκαντίσου|Africa/Mogadishu</string>
+    <string name="C230">Σ=Σαν Χοσέ|America/Los_Angeles</string>
+    <string name="C231">Σ=Σαν Σαλβαδόρ|America/Guatemala</string>
+    <string name="C232">Σ=Σιάτλ|America/Los_Angeles</string>
+    <string name="C233">Σ=Σαιντ Λούις|America/Chicago</string>
+    <string name="C234">Ο=Ουάσιγκτον|America/New_York</string>
+    <string name="C235">Χ=Χιούστον|America/Chicago</string>
+    <string name="C236">Σ=Σαν Αντόνιο|America/Chicago</string>
+    <string name="C237">Τ=Τζάκσονβιλ|America/New_York</string>
+    <string name="C238">Β=Βαλτιμόρη|America/New_York</string>
+    <string name="C239">Ν=Νάσβιλ|America/Chicago</string>
+    <string name="C24">Ν=Ναϊρόμπι|Africa/Nairobi</string>
+    <string name="C240">Μ=Μιλγουόκι|America/Chicago</string>
+    <string name="C241">Ο=Οκλαχόμα Σίτι|America/Chicago</string>
+    <string name="C242">Λ=Λας Βέγκας|America/Los_Angeles</string>
+    <string name="C243">Α=Αλμπουκέρκη|America/Denver</string>
+    <string name="C244">Τ=Τούσον|MST</string>
+    <string name="C245">Σ=Σακραμέντο|America/Los_Angeles</string>
+    <string name="C246">Α=Ατλάντα|America/New_York</string>
+    <string name="C247">Κ=Κλίβελαντ|America/New_York</string>
+    <string name="C248">Ν=Νέα Ορλεάνη|America/Chicago</string>
+    <string name="C249">Τ=Τάμπα|America/New_York</string>
+    <string name="C25">Σ=Σάο Τομέ|Africa/Sao_Tome</string>
+    <string name="C250">Π=Πίτσμπουργκ|America/New_York</string>
+    <string name="C251">Σ=Σινσινάτι|America/New_York</string>
+    <string name="C252">Μ=Μάουντεν Βιου|America/Los_Angeles</string>
+    <string name="C253">Ρ=Ρίνο|America/Los_Angeles</string>
+    <string name="C254">Μ=Μπλακ Ροκ Σίτι|America/Los_Angeles</string>
+    <string name="C255">Ν=Ντόχα|Asia/Riyadh</string>
+    <string name="C256">Π=Πεκίνο:|Asia/Shanghai</string>
+    <string name="C257">Β=Βομβάη|Asia/Kolkata</string>
+    <string name="C258">Δ=Δελχί|Asia/Kolkata</string>
+    <string name="C259">Ο=Οζάκα:|Asia/Tokyo</string>
+    <string name="C26">Τ=Τιμπουκτού|Africa/Timbuktu</string>
+    <string name="C260">Λ=Λαχόρη|Asia/Karachi</string>
+    <string name="C261">Σ=Σαναά|Asia/Riyadh</string>
+    <string name="C262">Β=Βαρκελώνη|Europe/Madrid</string>
+    <string name="C263">Μ=Μόναχο|Europe/Berlin</string>
+    <string name="C264">Μ=Μιλάνο|Europe/Rome</string>
+    <string name="C265">Φ=Φρανκφούρτη|Europe/Berlin</string>
+    <string name="C266">Α=Ανόι|Asia/Bangkok</string>
+    <string name="C267">Α=Άγκυρα|Europe/Istanbul</string>
+    <string name="C268">Μ=Μπανγκαλόρ|Asia/Kolkata</string>
+    <string name="C269">Μ=Μπραζίλια|America/Sao_Paulo</string>
+    <string name="C27">Τ=Τρίπολη|Africa/Tripoli</string>
+    <string name="C270">Κ=Κέιπ Τάουν|Africa/Johannesburg</string>
+    <string name="C271">Ι=Ισλαμαμπάντ|Asia/Karachi</string>
+    <string name="C272">Ρ=Ρίο Ντε Τζανέιρο|America/Sao_Paulo</string>
+    <string name="C273">Α=Αν Άρμπορ|America/Detroit</string>
+    <string name="C274">Μ=Μπούλντερ|America/Denver</string>
+    <string name="C275">Κ=Κέιμπριτζ|America/New_York</string>
+    <string name="C276">Κ=Κίρκλαντ|America/Los_Angeles</string>
+    <string name="C277">Μ=Μάντισον|America/Chicago</string>
+    <string name="C278">Κ=Κουανγκτσόου:|Asia/Shanghai</string>
+    <string name="C279">Χ=Χαϊντεραμπάντ|Asia/Kolkata</string>
+    <string name="C28">Τ=Τύνιδα|Africa/Tunis</string>
+    <string name="C280">Ρ=Ρέστον|America/New_York</string>
+    <string name="C281">Μ=Μπέλο Οριζόντε|America/Sao_Paulo</string>
+    <string name="C282">Σ=Σαντιάγκο|America/Santiago</string>
+    <string name="C283">Μ=Μονρόβια|Africa/Monrovia</string>
+    <string name="C284">Κ=Κολόμπο|Asia/Colombo</string>
+    <string name="C285">Τ=Τσιουάουα|America/Chihuahua</string>
+    <string name="C286">Σ=Σαλβαντόρ|America/Sao_Paulo</string>
+    <string name="C287">Γ=Γκουργκαόν|Asia/Kolkata</string>
+    <string name="C288">Μ=Μάντσεστερ|Europe/London</string>
+    <string name="C29">Α=Ανκορέιτζ|America/Anchorage</string>
+    <string name="C290">Α=Αγία Πετρούπολη|Europe/Moscow</string>
+    <string name="C291">Κ=Κρακοβία|Europe/Warsaw</string>
+    <string name="C292">Β=Βρότσλαβ|Europe/Warsaw</string>
+    <string name="C293">Α=Αμβούργο|Europe/Berlin</string>
+    <string name="C294">Ο=Οούλου|Europe/Bucharest</string>
+    <string name="C295">Χ=Χάιφα|Asia/Jerusalem</string>
+    <string name="C296">Σ=Σαν Χουάν|America/Puerto_Rico</string>
+    <string name="C297">Τ=Τεγκουσιγκάλπα|America/Tegucigalpa</string>
+    <string name="C298">Π=Παραμαρίμπο|America/Paramaribo</string>
+    <string name="C299">Κ=Κίτο|America/Panama</string>
+    <string name="C3">Α=Αντίς Αμπέμπα|Africa/Addis_Ababa</string>
+    <string name="C300">Λ=Λουμπλιάνα|Europe/Ljubljana</string>
+    <string name="C301">=Ασγκαμπάτ|Asia/Ashgabat</string>
+    <string name="C302">=Ασμάρα|Africa/Asmara</string>
+    <string name="C303">=Μπαντάρ Σερί Μπεγκαβάν|Asia/Brunei</string>
+    <string name="C304">=Μπανγκούι|Africa/Bangui</string>
+    <string name="C305">=Μπαντζούλ|Africa/Banjul</string>
+    <string name="C306">=Μπισκέκ|Asia/Bishkek</string>
+    <string name="C307">=Μπισσάου|Africa/Bissau</string>
+    <string name="C308">=Μπουζουμπούρα|Africa/Bujumbura</string>
+    <string name="C309">=Ντίλι|Asia/Dili</string>
+    <string name="C31">Α=Αρούμπα|America/Aruba</string>
+    <string name="C310">=Ντουσάνμπε|Asia/Dushanbe</string>
+    <string name="C311">=Φουναφούτι|Pacific/Funafuti</string>
+    <string name="C312">=Χονιάρα|Pacific/Guadalcanal</string>
+    <string name="C313">=Τζούμπα|Africa/Juba</string>
+    <string name="C314">=Κίνγκσταουν|America/St_Vincent</string>
+    <string name="C315">=Λίμπρβιλ|Africa/Libreville</string>
+    <string name="C316">=Λομέ|Africa/Lome</string>
+    <string name="C317">=Λουάντα|Africa/Luanda</string>
+    <string name="C318">=Λουζάκα|Africa/Lusaka</string>
+    <string name="C319">=Μαγιούρο|Pacific/Majuro</string>
+    <string name="C32">Α=Ασουνσιόν|America/Asuncion</string>
+    <string name="C320">=Μάλαμπο|Africa/Malabo</string>
+    <string name="C321">=Μαπούτο|Africa/Maputo</string>
+    <string name="C322">=Μπαμπάνε|Africa/Mbabane</string>
+    <string name="C323">=Μορονί|Indian/Comoro</string>
+    <string name="C324">=Ντζαμένα|Africa/Ndjamena</string>
+    <string name="C325">=Ντζερούλμουντ|Pacific/Palau</string>
+    <string name="C326">=Νιαμέι|Africa/Niamey</string>
+    <string name="C327">=Λευκωσία|Europe/Nicosia</string>
+    <string name="C328">=Νουακτσότ|Africa/Nouakchott</string>
+    <string name="C329">=Νουκουαλόφα|Pacific/Tongatapu</string>
+    <string name="C33">Μ=Μπαρμπάντος|America/Barbados</string>
+    <string name="C330">=Ουαγκαντουγκού|Africa/Ouagadougou</string>
+    <string name="C331">=Παλικίρ|Pacific/Noumea</string>
+    <string name="C332">=Φίλιπσμπουργκ|America/Lower_Princes</string>
+    <string name="C333">=Ποντγκόριτσα|Europe/Podgorica</string>
+    <string name="C334">=Πορτ Μόρεσμπι|Pacific/Palau</string>
+    <string name="C335">=Πορτ Βίλα|Pacific/Efate</string>
+    <string name="C336">=Πόρτο Νόβο|Africa/Porto-Novo</string>
+    <string name="C337">=Πρίστινα|Europe/Belgrade</string>
+    <string name="C338">=Ροζό|America/Dominica</string>
+    <string name="C339">=Τασκένδη|Asia/Tashkent</string>
+    <string name="C34">Μ=Μπελίζ|America/Belize</string>
+    <string name="C340">=Τμπιλίσι|Asia/Tbilisi</string>
+    <string name="C341">=Θίμφου|Asia/Thimphu</string>
+    <string name="C342">=Τίρανα|Europe/Tirane</string>
+    <string name="C343">=Βαντούζ|Europe/Vaduz</string>
+    <string name="C344">=Βιεντιάνε|Asia/Vientiane</string>
+    <string name="C345">=Βίντχοκ|Africa/Windhoek</string>
+    <string name="C346">=Γιαουντέ|Africa/Douala</string>
+    <string name="C347">=Γιαρέν|Pacific/Nauru</string>
+    <string name="C348">=Γιερεβάν|Asia/Yerevan</string>
+    <string name="C35">Μ=Μπογκοτά|America/Bogota</string>
+    <string name="C36">Μ=Μπουένος Άιρες|America/Buenos_Aires</string>
+    <string name="C37">Κ=Κανκούν|America/Cancun</string>
+    <string name="C38">Κ=Καράκας|America/Caracas</string>
+    <string name="C39">Κ=Κάιμαν|America/Cayman</string>
+    <string name="C4">Α=Αλγέρι|Africa/Algiers</string>
+    <string name="C40">Σ=Σικάγο|America/Chicago</string>
+    <string name="C42">Κ=Κουρασάο|America/Curacao</string>
+    <string name="C43">Ν=Ντόσον Κρικ|America/Dawson_Creek</string>
+    <string name="C44">Ν=Ντένβερ|America/Denver</string>
+    <string name="C45">Ν=Ντιτρόιτ|America/Detroit</string>
+    <string name="C46">Ν=Ντομίνικα|America/Dominica</string>
+    <string name="C47">Ε=Έντμοντον|America/Edmonton</string>
+    <string name="C48">Ε=Ελ Σαλβαδόρ|America/El_Salvador</string>
+    <string name="C49">Φ=Φορταλέζα|America/Fortaleza</string>
+    <string name="C5">Μ=Μπλαντάιρ|Africa/Blantyre</string>
+    <string name="C50">Κ=Κόκμπερν Τάουν|America/Grand_Turk</string>
+    <string name="C51">Γ=Γρενάδα|America/Grenada</string>
+    <string name="C52">Γ=Γουατεμάλα Σίτι|America/Guatemala</string>
+    <string name="C53">Γ=Γουιάνα|America/Guyana</string>
+    <string name="C54">Χ=Χάλιφαξ|America/Halifax</string>
+    <string name="C55">Α=Αβάνα|America/Havana</string>
+    <string name="C56">Ι=Ιντιανάπολις|America/Indiana/Indianapolis</string>
+    <string name="C57">Ν=Νοξ|America/Indiana/Knox</string>
+    <string name="C58">Μ=Μαρένγκο|America/Indiana/Marengo</string>
+    <string name="C59">Π=Πετρούπολη|America/Indiana/Petersburg</string>
+    <string name="C6">Μ=Μπραζαβίλ|Africa/Brazzaville</string>
+    <string name="C60">Τ=Τελ Σίτι|America/Indiana/Tell_City</string>
+    <string name="C61">Β=Βεβέ|America/Indiana/Vevay</string>
+    <string name="C62">Β=Βιντσένες|America/Indiana/Vincennes</string>
+    <string name="C63">Β=Βιναμάκ|America/Indiana/Winamac</string>
+    <string name="C64">Κ=Κίνγκστον|America/Jamaica</string>
+    <string name="C65">Λ=Λα Πας|America/La_Paz</string>
+    <string name="C66">Λ=Λίμα|America/Lima</string>
+    <string name="C67">Λ=Λος Άντζελες|America/Los_Angeles</string>
+    <string name="C68">Λ=Λούισβιλ|America/Louisville</string>
+    <string name="C69">Μ=Μανάγουα|America/Managua</string>
+    <string name="C7">Κ=Κάιρο|Africa/Cairo</string>
+    <string name="C70">Μ=Μαρτινίκα|America/Martinique</string>
+    <string name="C71">Μ=Μεντόζα|America/Mendoza</string>
+    <string name="C72">Μ=Μετλακάτλα|America/Metlakatla</string>
+    <string name="C73">Π=Πόλη Του Μεξικό|America/Mexico_City</string>
+    <string name="C74">Μ=Μοντερέι|America/Monterrey</string>
+    <string name="C75">Μ=Μοντεβιδέο|America/Montevideo</string>
+    <string name="C76">Μ=Μόντρεαλ|America/Montreal</string>
+    <string name="C77">Ν=Νασσάου|America/Nassau</string>
+    <string name="C78">Ν=Νέα Υόρκη|America/New_York</string>
+    <string name="C79">Μ=Μπεουλάχ|America/North_Dakota/Beulah</string>
+    <string name="C8">Κ=Καζαμπλάνκα|Africa/Casablanca</string>
+    <string name="C80">Κ=Κέντρο|America/North_Dakota/Center</string>
+    <string name="C81">Ν=Νέο Σάλεμ|America/North_Dakota/New_Salem</string>
+    <string name="C82">Π=Παναμάς|America/Panama</string>
+    <string name="C83">Φ=Φοίνιξ|America/Phoenix</string>
+    <string name="C84">Λ=Λιμάνι της Ισπανίας|America/Port_of_Spain</string>
+    <string name="C85">Π=Πορτ-ο-Πρενς|America/Port-au-Prince</string>
+    <string name="C86">Π=Πουέρτο Ρίκο|America/Puerto_Rico</string>
+    <string name="C87">Σ=Σάντο Ντομίνγκο|America/Santo_Domingo</string>
+    <string name="C88">Σ=Σάο Πάολο|America/Sao_Paulo</string>
+    <string name="C89">Α=Άγιος Ιωάννης|America/St_Johns</string>
+    <string name="C9">Κ=Κονακρί|Africa/Conakry</string>
+    <string name="C90">Σ=Σεντ Κιτς|America/St_Kitts</string>
+    <string name="C91">Α=Αγία Λουκία|America/St_Lucia</string>
+    <string name="C92">Α=Άγιος Θωμάς|America/St_Thomas</string>
+    <string name="C93">Τ=Τιχουάνα|America/Tijuana</string>
+    <string name="C94">Τ=Τορόντο|America/Toronto</string>
+    <string name="C95">Β=Βανκούβερ|America/Vancouver</string>
+    <string name="C96">Γ=Γουίνιπεγκ|America/Winnipeg</string>
+    <string name="C97">Ν=Νότιο Πόλο:|Antarctica/South_Pole</string>
+    <string name="C98">Λ=Λονγκιαρμπίεν|Arctic/Longyearbyen</string>
+    <string name="C99">Α=Αλμάτι|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">Πλοήγηση στην αρχική σελίδα</string>
+    <string name="abc_action_bar_up_description">Πλοήγηση προς τα επάνω</string>
+    <string name="abc_action_menu_overflow_description">Περισσότερες επιλογές</string>
+    <string name="abc_action_mode_done">Τέλος</string>
+    <string name="abc_activity_chooser_view_see_all">Εμφάνιση όλων</string>
+    <string name="abc_activitychooserview_choose_application">Επιλέξτε μια εφαρμογή</string>
+    <string name="abc_capital_off">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="abc_capital_on">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">διάστημα</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Αναζήτηση…</string>
+    <string name="abc_searchview_description_clear">Διαγραφή ερωτήματος</string>
+    <string name="abc_searchview_description_query">Ερώτημα αναζήτησης</string>
+    <string name="abc_searchview_description_search">Αναζήτηση</string>
+    <string name="abc_searchview_description_submit">Υποβολή ερωτήματος</string>
+    <string name="abc_searchview_description_voice">Φωνητική αναζήτηση</string>
+    <string name="abc_shareactionprovider_share_with">Κοινοποίηση σε</string>
+    <string name="abc_shareactionprovider_share_with_application">Κοινοποίηση στην εφαρμογή %s</string>
+    <string name="abc_toolbar_collapse_description">Σύμπτυξη</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="action_left_edit">Επεξεργασία</string>
+    <string name="add_remark">Προσθήκη σημειώσεων</string>
+    <string name="alarm_afternoon" />
+    <string name="alarm_alert_snooze_set">Αναβολή για %d λεπτά.</string>
+    <string name="alarm_classic">Κλασική αφύπνιση</string>
+    <string name="alarm_flip_setting">Ρύθμιση αναστροφής</string>
+    <string name="alarm_is_set">Ορίστηκε αφύπνιση για %s</string>
+    <string name="alarm_is_snoozed">Η αφύπνιση %s αναβλήθηκε για 10 λεπτά</string>
+    <string name="alarm_missed_title">Απώλεια αφύπνισης</string>
+    <string name="alarm_morning" />
+    <string name="alarm_mute_ringing_switch">Κουδουνισμός σε αθόρυβη κατάσταση</string>
+    <string name="alarm_notif_title">Επερχόμενη αφύπνιση</string>
+    <string name="alarm_reapt">Επανάληψη</string>
+    <string name="alarm_reminder_tv">Απομένει χρόνος %6 από τον κουδουνισμό</string>
+    <string name="alarm_repeat">Επανάληψη</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">Αφού απενεργοποιηθεί αυτό, η αφύπνιση μπορεί να απενεργοποιηθεί μόνο σύροντας προς τα επάνω.</string>
+    <string name="alarm_setting_flip_close_alarm_title">Σύρετε προς τα επάνω ή κάτω για να τερματίσετε την αφύπνιση</string>
+    <string name="alarm_settings">ΑΦΥΠΝΙΣΕΙΣ</string>
+    <string name="alarm_shutdown_ringing_switch">Κουδουνισμός όταν το τηλέφωνο είναι κλειστό</string>
+    <string name="alarm_time_12_hours_format">ω:λλ <b><font face="sans-serif-condensed" size="14">π</font></b></string>
+    <string name="alarm_time_activity">Ολοκλήρωση ορισμού αφύπνισης</string>
+    <string name="alarm_time_after_now">%s ώρες πίσω</string>
+    <string name="alarm_time_before_now">%s ώρες εμπρός</string>
+    <string name="alarm_time_equal_now">Ίδια ώρα</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">Διακόπτης δόνησης</string>
+    <string name="alarm_volume_title">Ένταση αφύπνισης (χρονόμετρο)</string>
+    <string name="alarm_week">Προσαρμογή</string>
+    <string name="alert_dismiss_text">Κλείσιμο</string>
+    <string name="alert_remind_later">Αναβολή</string>
+    <string name="app_label">Ρολόι</string>
+    <string name="auto_silence_never">Ποτέ</string>
+    <string name="auto_silence_summary">%d λεπτά</string>
+    <string name="auto_silence_title">Σίγαση μετά από</string>
+    <string name="automatic_home_clock">Αυτόματο ρολόι κατοικίας</string>
+    <string name="automatic_home_clock_summary">Κατά τα ταξίδια σε περιοχές με διαφορετική ώρα, προσθήκη ρολογιού για την χώρα κατοικίας</string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="cancel_dialog">Άκυρο</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string name="check_draw_overlay_permission">Ελέγξτε τα δικαιώματα για το αναδυόμενο παράθυρο ρολογιού</string>
+    <string name="cities_activity_title">Προσθήκη πόλεων</string>
+    <string name="city_count_over_limit">Πρέπει να καταργήσετε μια πόλη για να προσθέσετε μια νέα</string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string name="clock_24_hours_format">kk:mm</string>
+    <string name="clock_settings">ΡΟΛΟΙ</string>
+    <string name="clock_style">Στυλ</string>
+    <string name="close_alarm_notif">Κλείσιμο</string>
+    <string name="copy">Αντιγραφή</string>
+    <string name="cta_content_agree_go_on">Συμφωνώ</string>
+    <string name="cta_content_exit">Έξοδος</string>
+    <string name="custom_volume">Προσαρμοσμένη ένταση</string>
+    <string name="custom_volume_silence">Ο κουδουνισμός είναι αθόρυβος</string>
+    <string name="day">1 ημέρα</string>
+    <string name="day_afternoon">ΜΜ</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">ΠΜ</string>
+    <string name="day_evening">ΜΜ</string>
+    <string name="day_midnoon">ΜΜ</string>
+    <string name="day_morning">ΠΜ</string>
+    <string name="days">%s ημέρες</string>
+    <string name="days_of_week_day" />
+    <string name="default_label">Αφύπνιση</string>
+    <string name="default_ring_title">Νέο πρωί</string>
+    <string name="delete_failed">Αποτυχία διαγραφής</string>
+    <string name="delete_successfully">Διαγράφτηκε</string>
+    <string name="delete_world_clock_confirm_tips">Διαγραφή %d πόλεων;</string>
+    <string name="delete_world_clock_confirm_tips_one">Διαγραφή της πόλης;</string>
+    <string name="deselect">Αποεπιλογή όλων</string>
+    <string name="display_once">Να μην γίνει προτροπή ξανά</string>
+    <string name="down_holidays_suscess">Επιτυχής λήψη δεδομένων αργιών, πραγματοποιήστε επαναφορά</string>
+    <string name="edit_alarm">Επεξεργασία αφύπνισης</string>
+    <string name="edit_alarm_cancel">Άκυρο</string>
+    <string name="edit_alarm_delete_cancel">Άκυρο</string>
+    <string name="edit_alarm_delete_ok">Διαγραφή</string>
+    <string name="edit_alarm_done">Τέλος</string>
+    <string name="edit_alarm_give_up_dialog">Απόρριψη αλλαγών;</string>
+    <string name="edit_alarm_label_remind">26 χαρακτήρες το μέγιστο</string>
+    <string name="edit_alarm_last_ring_tv">Διάρκεια αναβολής</string>
+    <string name="edit_alarm_no_label">Δεν υπάρχει ετικέτα</string>
+    <string name="edit_alarm_remark">Σημειώσεις</string>
+    <string name="edit_alarm_sleep_mode">Αναβολή</string>
+    <string name="edit_alarm_title">Προσθήκη αφύπνισης</string>
+    <string name="edit_alarm_vibe">Δόνηση κατά τον κουδουνισμό</string>
+    <string name="edit_alarm_volume_mode">Ένταση</string>
+    <string name="edit_alarm_weather">Αναφορά καιρού κατά τον κουδουνισμό</string>
+    <string name="edit_list_alarm_select">Επιλέξτε στοιχείο</string>
+    <string name="edit_list_alarm_selected_dialog">Διαγραφή της αφύπνισης;</string>
+    <string name="edit_list_alarm_selected_number">%d Επιλεγμένα</string>
+    <string name="edit_list_alarms_selected_dialog">Διαγραφή %d αφυπνίσεων;</string>
+    <string name="empty_list_msg">Δεν βρέθηκαν αποτελέσματα</string>
+    <string name="end_snooze">Τέλος αναβολής</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string name="every_day">Κάθε ημέρα</string>
+    <string name="expand_button_title">Σύνθετες</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string name="give_up_dialog">Απόρριψη</string>
+    <string name="holidays_info">Εργάσιμες ημέρες</string>
+    <string name="home_time_zone">Ζώνη ώρας κατοικίας</string>
+    <string name="home_time_zone_title">Ζώνη ώρας κατοικίας</string>
+    <string name="hour">1 ώρα</string>
+    <string name="hours">%s ώρες</string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string name="invalid_time">Μη έγκυρος χρόνος %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="label">Ετικέτα</string>
+    <string name="label_description">Ετικέτα</string>
+    <string name="local">Τοπικά</string>
+    <string name="lock_screen_weather_playing_text">Αναπαράγεται ο ήχος κουδουνισμού του καιρού</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string name="menu_alarm">Αφύπνιση</string>
+    <string name="menu_clock">Ρολόι</string>
+    <string name="menu_item_help">Βοήθεια</string>
+    <string name="menu_item_night_mode">Νυχτερινή κατάσταση</string>
+    <string name="menu_item_settings">Ρυθμίσεις</string>
+    <string name="menu_item_sort_by_gmt_offset">Ταξινόμηση κατά χρόνο</string>
+    <string name="menu_stopwatch">Χρ. αγώνων</string>
+    <string name="menu_timer">Χρονόμετρο</string>
+    <string name="minute">1 λεπτό</string>
+    <string name="minute_unit">λ</string>
+    <string name="minutes">%s λεπτά</string>
+    <string name="missed_alarm_has_been_deleted">Η απολεσθείσα αφύπνιση διαγράφτηκε</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">Στήλη ημερών: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$s</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή για την επιλογή ημέρας</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή για την επιλογή έτους</string>
+    <string name="net_connect_prompt_title">Προτροπή για δικαιώματα</string>
+    <string name="never">Ποτέ</string>
+    <string name="next_alarm_description">Επόμενη αφύπνιση: %s</string>
+    <string name="no_alarms">Δεν υπάρχουν αφυπνίσεις</string>
+    <string name="no_clock">Δ/Υ ρολόγια παγκόσμιας ώρας</string>
+    <string name="no_firing_alarms">Δεν υπάρχουν ενεργές αφυπνίσεις</string>
+    <string name="no_holiday_data_prompt">Εργάσιμες ημέρες (σύνδεση σε Wi-Fi για πρώτη φορά)</string>
+    <string name="no_music">Δεν υπάρχει τοπική μουσική</string>
+    <string name="no_record">Δεν υπάρχουν τοπικές εγγραφές</string>
+    <string name="not_set">Δεν έχει οριστεί</string>
+    <string name="notification_channel_name">Ειδοποίηση ρολογιού</string>
+    <string name="number_picker_hour">Ω</string>
+    <string name="number_picker_minute">Λ</string>
+    <string name="number_picker_second">Δ</string>
+    <string name="ok_dialog">OK</string>
+    <string name="once">Μία φορά</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="pick_from_music">Επιλογή από Μουσική</string>
+    <string name="pick_from_recorder">Επιλογή από Καταγραφέα</string>
+    <string name="pick_from_ringtone">Επιλογή από ήχο κουδουνισμού</string>
+    <string name="poweroff_alarm">Αφύπνιση σε κατάσταση τερματισμού λειτουργίας</string>
+    <string name="poweroff_alarm_close_tips">Ακόμη κι αν το τηλέφωνο είναι απενεργοποιημένο, θα παράγεται κουδουνισμός για τις αφυπνίσεις εφόσον η ώρα ρύθμισης είναι πάνω από 5 λεπτά.</string>
+    <string name="poweroff_alarm_open_tips">Ακόμη κι αν το τηλέφωνο είναι απενεργοποιημένο, θα παράγεται κουδουνισμός για τις αφυπνίσεις εφόσον η ώρα ρύθμισης είναι πάνω από 5 λεπτά.</string>
+    <string name="poweroff_prompt_dlg_close">Μετάβαση σε</string>
+    <string name="poweroff_prompt_dlg_msg">Κουδουνισμός όταν το τηλέφωνο είναι κλειστό. Μπορείτε να απενεργοποιήσετε αυτή τη δυνατότητα στις ρυθμίσεις αφύπνισης</string>
+    <string name="poweroff_prompt_dlg_ok">OK</string>
+    <string name="poweroff_prompt_dlg_title">Ενεργοποιήθηκε αφύπνιση κατάστασης τερματισμού λειτουργίας</string>
+    <string name="preference_copied">Το \"%1$s\" αντιγράφηκε στο πρόχειρο.</string>
+    <string name="repeat_public_weekdays">Εργάσιμες ημέρες</string>
+    <string name="ring_chose">Ήχος κουδουνισμού</string>
+    <string name="ringtone">Ήχος κουδουνισμού</string>
+    <string name="search_hint">Πόλη/χώρα</string>
+    <string name="search_local_music">Αναζήτηση σε τοπική μουσική</string>
+    <string name="search_local_record">Αναζήτηση σε τοπικές εγγραφές</string>
+    <string name="search_menu_title">Αναζήτηση</string>
+    <string name="second_unit">δ</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="show_notif">Εμφάνιση επερχόμενων αφυπνίσεων στο κέντρο ειδοποιήσεων</string>
+    <string name="show_notif_open_tips">Θα εμφανίζονται μηνύματα για τις αφυπνίσεις στο κέντρο ειδοποιήσεων στο διάστημα 2 ώρες πριν από τον κουδουνισμό.</string>
+    <string name="silent_alarm">Αθόρυβο</string>
+    <string name="silent_alarm_summary">Αθόρυβο</string>
+    <string name="skip_alarm_next_time_normal">Θα παραχθεί κουδουνισμός την επόμενη φορά για την αφύπνιση που παραλείφθηκε</string>
+    <string name="snooze_duration_title">Διάρκεια αναβολής</string>
+    <string name="snooze_interval_later">αργότερα</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">Υπηρεσία χρονομέτρου αγώνων σε ετοιμότητα για εκτέλεση της ειδοποίησης.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">Γύρος</string>
+    <string name="sw_notification_lap_number">Γύρος %d</string>
+    <string name="sw_pause_button">Παύση</string>
+    <string name="sw_reset_button">Επαναφορά</string>
+    <string name="sw_resume_button">Συνέχιση</string>
+    <string name="sw_share_laps">Χρόνοι γύρων:</string>
+    <string name="sw_share_main">Ο χρόνος μου είναι %s</string>
+    <string name="sw_unit_digits">ω λ δ</string>
+    <string name="swn_stopped">Τερματίστηκε</string>
+    <string name="sync_alarm_from_server_completed">Η υπηρεσία cloud ενημέρωσε τα δεδομένα ρολογιού</string>
+    <string name="time_handle_text_degree_unit">λ</string>
+    <string name="time_span_unit_hour">ώρα</string>
+    <string name="time_span_unit_minute">λεπτό</string>
+    <string name="time_span_unit_second">δευτερόλεπτο</string>
+    <string name="timer_am">ΠΜ</string>
+    <string name="timer_close">Κλείσιμο</string>
+    <string name="timer_dialog_btn_cancel">Άκυρο</string>
+    <string name="timer_dialog_btn_start">Έναρξη</string>
+    <string name="timer_dialog_title">Ορισμός ώρας</string>
+    <string name="timer_fullscreen_prompt">Σύρετε προς τα επάνω για τερματισμό</string>
+    <string name="timer_fullscreen_summary_after">Ορίστηκε χρονόμετρο</string>
+    <string name="timer_missed_title">Απώλεια χρονομέτρου</string>
+    <string name="timer_notification_label">Χρονόμετρο</string>
+    <string name="timer_picker_hour_unit">Ω</string>
+    <string name="timer_picker_minute_unit">Λ</string>
+    <string name="timer_picker_second_unit">Δ</string>
+    <string name="timer_ring_dialog_title">Κατάσταση κουδουνισμού</string>
+    <string name="timer_ring_service_desc">Υπηρεσία ηχητικής αναπαραγωγής για χρονόμετρα ορισμένα στο Ρολόι.</string>
+    <string name="timer_stopped">Το χρονόμετρο τερματίστηκε</string>
+    <string name="timing">Ορισμός χρόνου</string>
+    <string name="title_local_music">Τοπικά</string>
+    <string name="title_record">Εγγραφή ήχου</string>
+    <string name="title_ringstone">Ήχος κουδουνισμού</string>
+    <string name="touch_on_close">Σύρετε προς τα επάνω για να τερματίσετε την αφύπνιση</string>
+    <string name="touchupclose">Σύρετε προς τα επάνω ή κάτω για να τερματίσετε την αφύπνιση</string>
+    <string name="update_holiday_summary">Εντοπίστηκαν διαθέσιμες ενημερώσεις για δεδομένα αργιών</string>
+    <string name="update_holiday_title">Ενημέρωση δεδομένων αργιών</string>
+    <string name="v7_preference_off">ΑΝΕΝΕΡΓΗ</string>
+    <string name="v7_preference_on">ΕΝΕΡΓΗ</string>
+    <string name="volume_button_setting_title">Κουμπιά έντασης</string>
+    <string name="weather_key_rain">βροχή</string>
+    <string name="weekly" />
+    <string name="world_clock_12_hours_format">ω:λλ <b><font face="sans-serif-condensed" size="14">π</font></b></string>
+    <string name="world_time_today">Σήμερα</string>
+    <string name="world_time_tomorrow">Αύριο</string>
+    <string name="world_time_yesterday">Εχθές</string>
+</resources>

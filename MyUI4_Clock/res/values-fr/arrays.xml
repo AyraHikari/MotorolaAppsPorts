@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarme réglée pour dans 1 minute à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %1$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %2$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %1$s et %2$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %3$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %1$s et %3$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %2$s et %3$s à partir de maintenant.</item>
+        <item>Alarme réglée pour dans %1$s, %2$s et %3$s à partir de maintenant.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="city_ids">
+        <item>@string/C1</item>
+        <item>@string/C2</item>
+        <item>@string/C3</item>
+        <item>@string/C4</item>
+        <item>@string/C5</item>
+        <item>@string/C6</item>
+        <item>@string/C7</item>
+        <item>@string/C8</item>
+        <item>@string/C9</item>
+        <item>@string/C10</item>
+        <item>@string/C11</item>
+        <item>@string/C12</item>
+        <item>@string/C13</item>
+        <item>@string/C14</item>
+        <item>@string/C15</item>
+        <item>@string/C16</item>
+        <item>@string/C17</item>
+        <item>@string/C18</item>
+        <item>@string/C19</item>
+        <item>@string/C20</item>
+        <item>@string/C21</item>
+        <item>@string/C22</item>
+        <item>@string/C23</item>
+        <item>@string/C24</item>
+        <item>@string/C25</item>
+        <item>@string/C26</item>
+        <item>@string/C27</item>
+        <item>@string/C28</item>
+        <item>@string/C29</item>
+        <item>@string/C31</item>
+        <item>@string/C32</item>
+        <item>@string/C33</item>
+        <item>@string/C34</item>
+        <item>@string/C35</item>
+        <item>@string/C36</item>
+        <item>@string/C37</item>
+        <item>@string/C38</item>
+        <item>@string/C39</item>
+        <item>@string/C40</item>
+        <item>@string/C42</item>
+        <item>@string/C43</item>
+        <item>@string/C44</item>
+        <item>@string/C45</item>
+        <item>@string/C46</item>
+        <item>@string/C47</item>
+        <item>@string/C48</item>
+        <item>@string/C49</item>
+        <item>@string/C50</item>
+        <item>@string/C51</item>
+        <item>@string/C52</item>
+        <item>@string/C53</item>
+        <item>@string/C54</item>
+        <item>@string/C55</item>
+        <item>@string/C56</item>
+        <item>@string/C57</item>
+        <item>@string/C58</item>
+        <item>@string/C59</item>
+        <item>@string/C60</item>
+        <item>@string/C61</item>
+        <item>@string/C62</item>
+        <item>@string/C63</item>
+        <item>@string/C64</item>
+        <item>@string/C65</item>
+        <item>@string/C66</item>
+        <item>@string/C67</item>
+        <item>@string/C68</item>
+        <item>@string/C69</item>
+        <item>@string/C70</item>
+        <item>@string/C71</item>
+        <item>@string/C72</item>
+        <item>@string/C73</item>
+        <item>@string/C74</item>
+        <item>@string/C75</item>
+        <item>@string/C76</item>
+        <item>@string/C77</item>
+        <item>@string/C78</item>
+        <item>@string/C79</item>
+        <item>@string/C80</item>
+        <item>@string/C81</item>
+        <item>@string/C82</item>
+        <item>@string/C83</item>
+        <item>@string/C84</item>
+        <item>@string/C85</item>
+        <item>@string/C86</item>
+        <item>@string/C87</item>
+        <item>@string/C88</item>
+        <item>@string/C89</item>
+        <item>@string/C90</item>
+        <item>@string/C91</item>
+        <item>@string/C92</item>
+        <item>@string/C93</item>
+        <item>@string/C94</item>
+        <item>@string/C95</item>
+        <item>@string/C96</item>
+        <item>@string/C97</item>
+        <item>@string/C98</item>
+        <item>@string/C99</item>
+        <item>@string/C100</item>
+        <item>@string/C101</item>
+        <item>@string/C102</item>
+        <item>@string/C103</item>
+        <item>@string/C104</item>
+        <item>@string/C105</item>
+        <item>@string/C106</item>
+        <item>@string/C107</item>
+        <item>@string/C108</item>
+        <item>@string/C109</item>
+        <item>@string/C110</item>
+        <item>@string/C111</item>
+        <item>@string/C112</item>
+        <item>@string/C113</item>
+        <item>@string/C114</item>
+        <item>@string/C115</item>
+        <item>@string/C117</item>
+        <item>@string/C118</item>
+        <item>@string/C119</item>
+        <item>@string/C120</item>
+        <item>@string/C121</item>
+        <item>@string/C122</item>
+        <item>@string/C123</item>
+        <item>@string/C124</item>
+        <item>@string/C125</item>
+        <item>@string/C126</item>
+        <item>@string/C127</item>
+        <item>@string/C128</item>
+        <item>@string/C130</item>
+        <item>@string/C131</item>
+        <item>@string/C133</item>
+        <item>@string/C134</item>
+        <item>@string/C135</item>
+        <item>@string/C136</item>
+        <item>@string/C137</item>
+        <item>@string/C138</item>
+        <item>@string/C139</item>
+        <item>@string/C140</item>
+        <item>@string/C141</item>
+        <item>@string/C142</item>
+        <item>@string/C143</item>
+        <item>@string/C144</item>
+        <item>@string/C145</item>
+        <item>@string/C146</item>
+        <item>@string/C147</item>
+        <item>@string/C148</item>
+        <item>@string/C149</item>
+        <item>@string/C150</item>
+        <item>@string/C151</item>
+        <item>@string/C152</item>
+        <item>@string/C153</item>
+        <item>@string/C154</item>
+        <item>@string/C155</item>
+        <item>@string/C156</item>
+        <item>@string/C157</item>
+        <item>@string/C158</item>
+        <item>@string/C159</item>
+        <item>@string/C160</item>
+        <item>@string/C161</item>
+        <item>@string/C162</item>
+        <item>@string/C163</item>
+        <item>@string/C164</item>
+        <item>@string/C165</item>
+        <item>@string/C166</item>
+        <item>@string/C167</item>
+        <item>@string/C168</item>
+        <item>@string/C169</item>
+        <item>@string/C170</item>
+        <item>@string/C171</item>
+        <item>@string/C172</item>
+        <item>@string/C173</item>
+        <item>@string/C174</item>
+        <item>@string/C175</item>
+        <item>@string/C176</item>
+        <item>@string/C177</item>
+        <item>@string/C178</item>
+        <item>@string/C179</item>
+        <item>@string/C180</item>
+        <item>@string/C181</item>
+        <item>@string/C182</item>
+        <item>@string/C183</item>
+        <item>@string/C184</item>
+        <item>@string/C185</item>
+        <item>@string/C186</item>
+        <item>@string/C187</item>
+        <item>@string/C188</item>
+        <item>@string/C189</item>
+        <item>@string/C190</item>
+        <item>@string/C191</item>
+        <item>@string/C192</item>
+        <item>@string/C193</item>
+        <item>@string/C194</item>
+        <item>@string/C195</item>
+        <item>@string/C196</item>
+        <item>@string/C197</item>
+        <item>@string/C198</item>
+        <item>@string/C199</item>
+        <item>@string/C200</item>
+        <item>@string/C201</item>
+        <item>@string/C202</item>
+        <item>@string/C203</item>
+        <item>@string/C204</item>
+        <item>@string/C205</item>
+        <item>@string/C206</item>
+        <item>@string/C207</item>
+        <item>@string/C208</item>
+        <item>@string/C209</item>
+        <item>@string/C210</item>
+        <item>@string/C211</item>
+        <item>@string/C214</item>
+        <item>@string/C215</item>
+        <item>@string/C216</item>
+        <item>@string/C217</item>
+        <item>@string/C218</item>
+        <item>@string/C219</item>
+        <item>@string/C220</item>
+        <item>@string/C221</item>
+        <item>@string/C222</item>
+        <item>@string/C223</item>
+        <item>@string/C224</item>
+        <item>@string/C225</item>
+        <item>@string/C226</item>
+        <item>@string/C227</item>
+        <item>@string/C228</item>
+        <item>@string/C229</item>
+        <item>@string/C230</item>
+        <item>@string/C231</item>
+        <item>@string/C232</item>
+        <item>@string/C233</item>
+        <item>@string/C234</item>
+        <item>@string/C235</item>
+        <item>@string/C236</item>
+        <item>@string/C237</item>
+        <item>@string/C238</item>
+        <item>@string/C239</item>
+        <item>@string/C240</item>
+        <item>@string/C241</item>
+        <item>@string/C242</item>
+        <item>@string/C243</item>
+        <item>@string/C244</item>
+        <item>@string/C245</item>
+        <item>@string/C246</item>
+        <item>@string/C247</item>
+        <item>@string/C248</item>
+        <item>@string/C249</item>
+        <item>@string/C250</item>
+        <item>@string/C251</item>
+        <item>@string/C252</item>
+        <item>@string/C253</item>
+        <item>@string/C254</item>
+        <item>@string/C255</item>
+        <item>@string/C256</item>
+        <item>@string/C257</item>
+        <item>@string/C258</item>
+        <item>@string/C259</item>
+        <item>@string/C260</item>
+        <item>@string/C261</item>
+        <item>@string/C262</item>
+        <item>@string/C263</item>
+        <item>@string/C264</item>
+        <item>@string/C265</item>
+        <item>@string/C266</item>
+        <item>@string/C267</item>
+        <item>@string/C268</item>
+        <item>@string/C269</item>
+        <item>@string/C270</item>
+        <item>@string/C271</item>
+        <item>@string/C272</item>
+        <item>@string/C273</item>
+        <item>@string/C274</item>
+        <item>@string/C275</item>
+        <item>@string/C276</item>
+        <item>@string/C277</item>
+        <item>@string/C278</item>
+        <item>@string/C279</item>
+        <item>@string/C280</item>
+        <item>@string/C281</item>
+        <item>@string/C282</item>
+        <item>@string/C283</item>
+        <item>@string/C284</item>
+        <item>@string/C285</item>
+        <item>@string/C286</item>
+        <item>@string/C287</item>
+        <item>@string/C288</item>
+        <item>@string/C290</item>
+        <item>@string/C291</item>
+        <item>@string/C292</item>
+        <item>@string/C293</item>
+        <item>@string/C294</item>
+        <item>@string/C295</item>
+        <item>@string/C296</item>
+        <item>@string/C297</item>
+        <item>@string/C298</item>
+        <item>@string/C299</item>
+        <item>@string/C300</item>
+        <item>@string/C301</item>
+        <item>@string/C302</item>
+        <item>@string/C303</item>
+        <item>@string/C304</item>
+        <item>@string/C305</item>
+        <item>@string/C306</item>
+        <item>@string/C307</item>
+        <item>@string/C308</item>
+        <item>@string/C309</item>
+        <item>@string/C310</item>
+        <item>@string/C311</item>
+        <item>@string/C312</item>
+        <item>@string/C313</item>
+        <item>@string/C314</item>
+        <item>@string/C315</item>
+        <item>@string/C316</item>
+        <item>@string/C317</item>
+        <item>@string/C318</item>
+        <item>@string/C319</item>
+        <item>@string/C320</item>
+        <item>@string/C321</item>
+        <item>@string/C322</item>
+        <item>@string/C323</item>
+        <item>@string/C324</item>
+        <item>@string/C325</item>
+        <item>@string/C326</item>
+        <item>@string/C327</item>
+        <item>@string/C328</item>
+        <item>@string/C329</item>
+        <item>@string/C330</item>
+        <item>@string/C331</item>
+        <item>@string/C332</item>
+        <item>@string/C333</item>
+        <item>@string/C334</item>
+        <item>@string/C335</item>
+        <item>@string/C336</item>
+        <item>@string/C337</item>
+        <item>@string/C338</item>
+        <item>@string/C339</item>
+        <item>@string/C340</item>
+        <item>@string/C341</item>
+        <item>@string/C342</item>
+        <item>@string/C343</item>
+        <item>@string/C344</item>
+        <item>@string/C345</item>
+        <item>@string/C346</item>
+        <item>@string/C347</item>
+        <item>@string/C348</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Analogique</item>
+        <item>Numérique</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>analogique</item>
+        <item>numérique</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Connectez-vous à Internet pour afficher la météo locale lors de la sonnerie</item>
+        <item>La position est nécessaire pour afficher la météo locale lors de la sonnerie.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Accès au réseau mobile</item>
+        <item>Accéder à ma position</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Jan.</item>
+        <item>Fév.</item>
+        <item>Mar.</item>
+        <item>Avr.</item>
+        <item>Mai.</item>
+        <item>Juin.</item>
+        <item>Jui.</item>
+        <item>Août</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Déc.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Rejeter</item>
+        <item>"Rappel d'alarme"</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablette</item>
+        <item>CubeIntérieur</item>
+        <item>CubeExtérieur</item>
+        <item>BasculementVertical</item>
+        <item>BasculementHorizontal</item>
+        <item>Pile</item>
+        <item>ZoomAvant</item>
+        <item>ZoomArrière</item>
+        <item>PivoterHaut</item>
+        <item>PivoterBas</item>
+        <item>Accordéon</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Une fois</item>
+        <item>Tous les jours</item>
+        <item>Jours ouvrés (désactivé les jours fériés)</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Une fois</item>
+        <item>Tous les jours</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Dim</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Jamais</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>"Moins d'une minute restante"</item>
+        <item>%1$s restant(es)</item>
+        <item>%2$s restant(es)</item>
+        <item>%1$s%2$s restant(es)</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Sonnerie</item>
+        <item>Vibrer</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Îles Marshall</item>
+        <item>Île Midway</item>
+        <item>Hawaï</item>
+        <item>Alaska</item>
+        <item>Heure du Pacifique</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Heure des montagnes</item>
+        <item>Amérique centrale</item>
+        <item>Heure centrale</item>
+        <item>Mexico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>"Heure de l'Est"</item>
+        <item>Venezuela</item>
+        <item>"Heure de l'Atlantique (Barbade)"</item>
+        <item>"Heure de l'Atlantique (Canada)"</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terre-Neuve</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenland</item>
+        <item>Montevideo</item>
+        <item>Centre du littoral atlantique</item>
+        <item>Les Açores</item>
+        <item>Îles du Cap-Vert</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrade</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>"Heure de l'Afrique de l'Ouest"</item>
+        <item>Amman, Jordanie</item>
+        <item>Athènes, Istanbul</item>
+        <item>Beyrouth, Liban</item>
+        <item>Le Caire</item>
+        <item>Helsinki</item>
+        <item>Jérusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscou</item>
+        <item>Koweït</item>
+        <item>Nairobi</item>
+        <item>Téhéran</item>
+        <item>Bakou</item>
+        <item>Tbilissi</item>
+        <item>Yerevan</item>
+        <item>Dubaï</item>
+        <item>Kaboul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinbourg</item>
+        <item>Calcutta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandou</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkoutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taïpei</item>
+        <item>Séoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakoutsk</item>
+        <item>Adélaïde</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidji</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacifique/Majuro</item>
+        <item>Pacifique/Midway</item>
+        <item>Pacifique/Honolulu</item>
+        <item>Amérique/Anchorage</item>
+        <item>Amérique/Los Angeles</item>
+        <item>Amérique/Tijuana</item>
+        <item>Amérique/Phoenix</item>
+        <item>Amérique/Chihuahua</item>
+        <item>Amérique/Denver</item>
+        <item>Amérique/Costa Rica</item>
+        <item>Amérique/Chicago</item>
+        <item>Amérique/Mexico</item>
+        <item>Amérique/Regina</item>
+        <item>Amérique/Bogota</item>
+        <item>Amérique/New York</item>
+        <item>Amérique/Caracas</item>
+        <item>Amérique/Barbade</item>
+        <item>Amérique/Halifax</item>
+        <item>Amérique/Manaus</item>
+        <item>Amérique/Santiago</item>
+        <item>Amérique/St. Johns</item>
+        <item>Amérique/Sao Paulo</item>
+        <item>Amérique/Argentine/Buenos Aires</item>
+        <item>Amérique/Godthab</item>
+        <item>Amérique/Montevideo</item>
+        <item>Atlantique/Géogie du sud</item>
+        <item>Atlantique/Les Açores</item>
+        <item>Atlantique/Cap-Vert</item>
+        <item>Afrique/Casablanca</item>
+        <item>Europe/Londres</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Bruxelles</item>
+        <item>Europe/Sarajevo</item>
+        <item>Afrique/Windhoek</item>
+        <item>Afrique/Brazzaville</item>
+        <item>Asie/Amann</item>
+        <item>Europe/Athènes</item>
+        <item>Asie/Beyrouth</item>
+        <item>Afrique/Le Caire</item>
+        <item>Europe/Helsinki</item>
+        <item>Asie/Jérusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Afrique/Harare</item>
+        <item>Asie/Bagdad</item>
+        <item>Europe/Moscou</item>
+        <item>Asie/Koweït</item>
+        <item>Afrique/Nairobi</item>
+        <item>Asie/Téhéran</item>
+        <item>Asie/Bakou</item>
+        <item>Asie/Tbilissi</item>
+        <item>Asie/Yerevan</item>
+        <item>Asie/Dubaï</item>
+        <item>Asie/Kaboul</item>
+        <item>Asie/Karachi</item>
+        <item>Asie/Oral</item>
+        <item>Asie/Ekaterinbourg</item>
+        <item>Asie/Calcutta</item>
+        <item>Asie/Colombo</item>
+        <item>Asie/Katmandou</item>
+        <item>Asie/Almaty</item>
+        <item>Asie/Rangoun</item>
+        <item>Asie/Krasnoyarsk</item>
+        <item>Asie/Bangkok</item>
+        <item>Asie/Shanghai</item>
+        <item>Asie/Hong Kong</item>
+        <item>Asie/Irkoutsk</item>
+        <item>Asie/Kuala Lumpur</item>
+        <item>Australie/Perth</item>
+        <item>Asie/Taipeï</item>
+        <item>Asie/Séoul</item>
+        <item>Asie/Tokyo</item>
+        <item>Asie/Yakoutsk</item>
+        <item>Australie/Adélaïde</item>
+        <item>Australie/Darwin</item>
+        <item>Australie/Brisbane</item>
+        <item>Australie/Hobart</item>
+        <item>Australie/Sydney</item>
+        <item>Asie/Vladivostok</item>
+        <item>Pacifique/Guam</item>
+        <item>Asie/Magadan</item>
+        <item>Pacifique/Auckland</item>
+        <item>Pacifique/Fidji</item>
+        <item>Pacifique/Tongatapu</item>
+        <item>Asie/Jakarta</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>"Rappel d'alarme"</item>
+        <item>Rejeter</item>
+        <item>Ne rien faire</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Doux</item>
+        <item>Normal</item>
+        <item>Fort</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+</resources>

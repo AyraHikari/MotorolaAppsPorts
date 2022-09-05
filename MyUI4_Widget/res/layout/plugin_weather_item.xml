@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/Card.HourText" />
+    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_below="@id/time" android:layout_centerHorizontal="true" android:layout_marginVertical="4.0dip" />
+    <TextView android:id="@id/no_data" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_below="@id/time" android:layout_centerHorizontal="true" style="@style/Card.HourText" />
+    <TextView android:id="@id/temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_below="@id/icon" android:layout_centerHorizontal="true" style="@style/Card.HourTemp" />
+    <TextView android:id="@id/low_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/temp" android:layout_centerHorizontal="true" style="@style/Card.HourTemp.low" />
+</RelativeLayout>

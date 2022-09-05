@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="#ff999999" android:gravity="center" android:id="@id/dialog_textview_message" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+    <View android:background="@drawable/top_titlebar_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/red" android:gravity="center" android:id="@id/dialog_textview_ok" android:background="@drawable/dialog_button_selector" android:layout_width="fill_parent" android:layout_height="@dimen/linearlayout_height" android:text="@string/edit_alarm_delete_ok" />
+    <View android:background="@drawable/top_titlebar_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="@dimen/text_size_15" android:textColor="@color/black" android:gravity="center" android:id="@id/dialog_textview_cancel" android:background="@drawable/dialog_button_selector" android:layout_width="fill_parent" android:layout_height="@dimen/linearlayout_height" android:text="@string/edit_alarm_delete_cancel" />
+</LinearLayout>

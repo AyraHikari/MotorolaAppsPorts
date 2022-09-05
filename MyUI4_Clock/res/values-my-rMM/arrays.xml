@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>နှိုးစက်ကို ယခုမှစ၍ 1 မိနစ်အောက် သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %1$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %2$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %1$s နှင့် %2$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %3$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %1$s နှင့် %3$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %2$s နှင့် %3$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+        <item>နှိုးစက်ကို ယခုမှစ၍ %1$s၊ %2$sနှင့် %3$s ကြာ သတ်မှတ်ထားပါသည်။</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 မိနစ်</item>
+        <item>10 မိနစ်</item>
+        <item>15 မိနစ်</item>
+        <item>20 မိနစ်</item>
+        <item>25 မိနစ်</item>
+        <item>30 မိနစ်</item>
+        <item>ဘယ်တော့မျှ</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>အန်နလော့</item>
+        <item>ဒစ်ဂျစ်တယ်</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>အန်နလော့</item>
+        <item>ဒစ်ဂျစ်တယ်</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>ဖုန်းမြည်သည့်အခါ ဒေသ မိုးလေဝသကို ပြသရန် အင်တာနက်နှင့် ချိတ်ဆက်ပါ</item>
+        <item>ဖုန်းမြည်သည့်အခါ ဒေသ မိုးလေဝသကို ပြသရန် တည်နေရာ လိုအပ်သည်</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>မိုဘိုင်း ကွန်ရက် ဝင်ရောက်သုံးစွဲပါ</item>
+        <item>တည်နေရာ ဝင်ရောက်သုံးစွဲပါ</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>နံနက်</item>
+        <item>ညနေ</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>ဖယ်ရှားရန်</item>
+        <item>ခဏမှေးရန်</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>ပုံမှန်</item>
+        <item>တက်ဘလက်</item>
+        <item>ကုဗတုံးပုံစံ အဝင်</item>
+        <item>ကုဗတုံးပုံစံ အထွက်</item>
+        <item>ဒေါင်လိုက် လှန်</item>
+        <item>အလျားလိုက် လှန်</item>
+        <item>အဆင့်</item>
+        <item>ဇူးမ်ချဲ့</item>
+        <item>ဇူးမ်ချုံ့</item>
+        <item>အပေါ်သို့ လှည့်</item>
+        <item>အောက်သို့ လှည့်</item>
+        <item>အကော်ဒီယံ</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>တစ်ကြိမ်</item>
+        <item>နေ့စဉ်</item>
+        <item>အလုပ်ဖွင့်ရက်များ (အားလပ်ရက်အတွင်း ပိတ်ပါ)</item>
+        <item>စိတ်ကြိုက်</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>တစ်ကြိမ်</item>
+        <item>နေ့စဉ်</item>
+        <item>စိတ်ကြိုက်</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>တနင်္ဂနွေ</item>
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>လုံးဝ</item>
+        <item>၅ မိနစ်</item>
+        <item>၁၀ မိနစ်</item>
+        <item>၁၅ မိနစ်</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>တစ်မိနစ်အောက် ကျန်ရှိနေပါသည်</item>
+        <item>%1$s ကျန်ရှိနေသည်</item>
+        <item>%2$s ကျန်ရှိနေသည်</item>
+        <item>%1$s%2$s ကျန်သည်</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>မြည်ရန်</item>
+        <item>တုန်ခါပါ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>“မာရှယ် ကျွန်းစု”</item>
+        <item>မဒ်ဝေး ကျွန်း</item>
+        <item>ဟာဝိုင်အီ</item>
+        <item>အလက်စကာ</item>
+        <item>ပစိဖိတ် စံတော်ချိန်</item>
+        <item>တီဂျူအာနာ</item>
+        <item>အရီဇီုးနား</item>
+        <item>ချီဟွားဟွား</item>
+        <item>တောင်ပေါ် စံတော်ချိန်</item>
+        <item>အမေရိကန် အလယ်ပိုင်း</item>
+        <item>ဗဟို စံတော်ချိန်</item>
+        <item>မက္ကစီကိုမြို့တော်</item>
+        <item>စက်စကတ်ချီဝမ်</item>
+        <item>ဘိုဂိုတာ</item>
+        <item>အရှေ့ပိုင်း စံတော်ချိန်</item>
+        <item>“ဗင်နီဇွဲလား”</item>
+        <item>အတ္တလန်တိတ် စံတော်ချိန် (ဘာဘေးဒိုးစ်)</item>
+        <item>အတ္တလန်တိတ် စံတော်ချိန် (ကနေဒါ)</item>
+        <item>မနောင်းစ်</item>
+        <item>ဆန်တီယာဂို</item>
+        <item>နယူးဖောင်းလန့်း</item>
+        <item>ဘရာစီးလီးယား</item>
+        <item>ဘွီနိုဆိုက်ရဇ်</item>
+        <item>“ဂရင်းလန်း”</item>
+        <item>မွန်တီဗီဒီအို</item>
+        <item>အတ္တလန်တစ် အလယ်</item>
+        <item>အေဇိုရက်စ်</item>
+        <item>ကိတ်ဗာဒီ ကျွန်းများ</item>
+        <item>ကာဆာဘလန်ကာ</item>
+        <item>လန်ဒန်၊ ဒက်ဘလင်</item>
+        <item>အမ်စတာဒမ်၊ ဘာလင်</item>
+        <item>ဘဲလ်ဂရိတ်</item>
+        <item>ဘရာ့ဆယ်စ်</item>
+        <item>ဆာရာဂျီဗို</item>
+        <item>ဝင်းဟော့ခ်</item>
+        <item>အနောက် အာဖရိက စံတော်ချိန်</item>
+        <item>အမ်မန်၊ ဂျော်ဒန်</item>
+        <item>အေသင်၊ အစ္စတန်ဘူလ်</item>
+        <item>ဘိန့်ရုထ်၊ လက်ဘနွန်</item>
+        <item>ကိုင်ရို</item>
+        <item>ဟယ်လင်းစကီး</item>
+        <item>ဂျေရုဆလမ်</item>
+        <item>မင့်စ်ခ်</item>
+        <item>ဟာရာရီ</item>
+        <item>ဘဂ္ဂဒက်</item>
+        <item>မော်စကို</item>
+        <item>“ကူဝိတ်”</item>
+        <item>နိုင်ရိုဘီ</item>
+        <item>တယ်ရန်</item>
+        <item>ဘာခု</item>
+        <item>ဘီလီစီ</item>
+        <item>ရိရဗာန်</item>
+        <item>ဒူဘိုင်း</item>
+        <item>ကဘူးလ်</item>
+        <item>အစ္စလာမ်မာဘတ်၊ ကရာချီ</item>
+        <item>ဥရဲလ်စကီ</item>
+        <item>ယီခါတာရင်ဘာ့ဂ်</item>
+        <item>ကာလကတ္တား</item>
+        <item>“သီရိလင်္ကာ”</item>
+        <item>ကတ်သ်မန်ဒူ</item>
+        <item>“အက်စတာနာ”</item>
+        <item>ရန်ကုန်</item>
+        <item>ကရက်စနိုရာ့စ်</item>
+        <item>ဘန်ကောက်</item>
+        <item>ဘေဂျင်း</item>
+        <item>“ဟောင်ကောင်”</item>
+        <item>အီရာကူတ်စ်ခ်</item>
+        <item>ကွာလာလမ်ပူ</item>
+        <item>ပါ့သ်</item>
+        <item>“တိုင်ပေ”</item>
+        <item>ဆိုးလ်</item>
+        <item>တိုကျို၊ အိုဆာကာ</item>
+        <item>ယာခွတ်စ်ခ်</item>
+        <item>အဲဒလိဒ်</item>
+        <item>ဒါဝင်</item>
+        <item>ဘရစ်ဘိန်း</item>
+        <item>ဟိုးဘာ့တ်</item>
+        <item>ဆစ်ဒနီ၊ ကန်ဘာရာ</item>
+        <item>ဗာဒီဗိုစတော့ခ်</item>
+        <item>“ဂူအမ်”</item>
+        <item>မဂါဒန်</item>
+        <item>အော့ခ်လန်း</item>
+        <item>“ဖီဂျီ”</item>
+        <item>“တွန်ဂါ”</item>
+        <item>ဂျာကာတာ</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>ပစိဖိတ်/မာ့ဂျုရို</item>
+        <item>ပစိဖိတ်/မဒ်ဝေး</item>
+        <item>ပစိဖိတ်/ဟိုနိုလူလူ</item>
+        <item>အမေရိက/အန်းကားရေ့ချ်</item>
+        <item>အမေရိက/လော့စ်_အိန်ဂျလိစ်</item>
+        <item>အမေရိက/တီဂျူအာနာ</item>
+        <item>အမေရိက/ဖီးနစ်</item>
+        <item>အမေရိက/ချီဟွားဟွား</item>
+        <item>အမေရိက/ဒန်ဗာ</item>
+        <item>အမေရိက/ကို့စ်တာ_ရီကာ</item>
+        <item>အမေရိက/ချီကာဂို</item>
+        <item>အမေရိက/မက္ကစီကို_မြို့တော်</item>
+        <item>အမေရိက/ရဂျီးနာ</item>
+        <item>အမေရိက/ဘိုဂိုတာ</item>
+        <item>အမေရိက/နယူး_ယောက်</item>
+        <item>အမေရိက/ကာရာကတ်စ်</item>
+        <item>အမေရိက/ဘာဘေးဒိုးစ်</item>
+        <item>အမေရိက/ဟာလီဖက်စ်</item>
+        <item>အမေရိက/မနောင်းစ်</item>
+        <item>အမေရိက/ဆန်တီယာဂို</item>
+        <item>အမေရိက/စိန့်_ဂျွန်</item>
+        <item>အမေရိက/ဆော_ပိုလို</item>
+        <item>အမေရိက/အာဂျင်တီးနား/ဘွီနိုဆိုက်_ရဇ်</item>
+        <item>အမေရိက/ဂို့ထ်ဟဘ်</item>
+        <item>အမေရိက/မွန်တီဗီဒီအို</item>
+        <item>အတ္တလန်တိတ်/တောင်ပိုင်း_ဂျော်ဂျီယာ</item>
+        <item>အတ္တလန်တိတ်/အေဇိုရက်စ်</item>
+        <item>အတ္တလန်တိတ်/ကိတ်_ကော်ရယ်</item>
+        <item>အာဖရိက/ကာဆာဘလန်ကာ</item>
+        <item>ဥရောပ/လန်ဒန်</item>
+        <item>ဥရောပ/အမ်စတာဒမ်</item>
+        <item>ဥရောပ/ဘဲလ်ဂရိတ်</item>
+        <item>ဥရောပ/ဘရာ့ဆယ်စ်</item>
+        <item>ဥရောပ/ဆာရာဂျီဗို</item>
+        <item>အာဖရိက/ဝင်းဟော့</item>
+        <item>အာဖရိက/ဘရက်ဇာဗီလီ</item>
+        <item>အာရှ/အမ်မန်</item>
+        <item>ဥရောပ/အေသင်</item>
+        <item>အာရှ/ဘီရုထ်</item>
+        <item>အာဖရိက/ကိုင်ရို</item>
+        <item>ဥရောပ/ဟယ်လင်းစကီး</item>
+        <item>အာရှ/ဂျေရုဆလမ်</item>
+        <item>ဥရောပ/မင့်စ်ခ်</item>
+        <item>အာဖရိက/ဟာရာရီ</item>
+        <item>အာရှ/ဘဂ္ဂဒက်</item>
+        <item>ဥရောပ/မော်စကို</item>
+        <item>အာရှ/ကူဝိတ်</item>
+        <item>အာဖရိက/နိုင်ရိုဘီ</item>
+        <item>အာရှ/တယ်ရန်</item>
+        <item>အာရှ/ဘာခု</item>
+        <item>အာရှ/ဘီလီစီ</item>
+        <item>အာရှ/ရိရဗာန်</item>
+        <item>အာရှ/ဒူဘိုင်း</item>
+        <item>အာရှ/ကဘူးလ်</item>
+        <item>အာရှ/ကရာချီ</item>
+        <item>အာရှ/အိုရဲလ်</item>
+        <item>အာရှ/ယီခါတာရင်ဘာ့ဂ်</item>
+        <item>အာရှ/ကာလ်ကာတာ</item>
+        <item>အာရှ/ကိုလန်ဘို</item>
+        <item>အာရှ/ကသ်မန်ဒူ</item>
+        <item>အာရှ/အယ်လ်မာ့တီ</item>
+        <item>အာရှ/ရန်ကုန်</item>
+        <item>အာရှ/ကရက်စနိုရာ့စ်</item>
+        <item>အာရှ/ဘန်ကောက်</item>
+        <item>အာရှ/ရှန်ဟိုင်း</item>
+        <item>အာရှ/ဟောင်ကောင်</item>
+        <item>အာရှ/အီရာကူတ်စ်ခ်</item>
+        <item>အာရှ/ကွာလာလမ်ပူ</item>
+        <item>သြစတြေးလျ/ပါ့သ်</item>
+        <item>အာရှ/တိုင်ပေ</item>
+        <item>အာရှ/ဆိုးလ်</item>
+        <item>အာရှ/တိုကျို</item>
+        <item>အာရှ/ယာခွတ်စ်ခ်</item>
+        <item>သြစတြေးလျ/အဲဒလိဒ်</item>
+        <item>သြစတြေးလျ/ဒါဝင်</item>
+        <item>သြစတြေးလျ/ဘရစ်ဘိန်း</item>
+        <item>သြစတြေးလျ/ဟိုးဘာ့တ်</item>
+        <item>သြစတြေးလျ/ဆစ်ဒနီ</item>
+        <item>အာရှ/ဗာဒီဗိုစတော့ခ်</item>
+        <item>ပစိဖိတ်/ဂူအမ်</item>
+        <item>အာရှ/မဂါဒန်</item>
+        <item>ပစိဖိတ်/အော့ခ်လန်း</item>
+        <item>ပစိဖိတ်/ဖီဂျီ</item>
+        <item>ပစိဖိတ်/တောင်ခတာပူ</item>
+        <item>အာရှ/ဂျာကာတာ</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ခဏမှေးရန်</item>
+        <item>ပိတ်ရန်</item>
+        <item>ဘာမျှမလုပ်ပါ</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>တိုးတိုး</item>
+        <item>ပုံမှန်</item>
+        <item>ကျယ်</item>
+        <item>စိတ်ကြိုက်</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>တနင်္ဂနွေ</item>
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+    </string-array>
+</resources>

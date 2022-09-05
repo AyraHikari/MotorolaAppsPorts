@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="start|center" android:id="@android:id/text1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip" android:textAlignment="viewStart" android:paddingStart="72.0dip" android:paddingEnd="?android:listPreferredItemPaddingEnd" style="@style/TextAppearance.Normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

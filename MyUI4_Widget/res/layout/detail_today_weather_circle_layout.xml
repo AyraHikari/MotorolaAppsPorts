@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layout_3_circle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_1" android:background="@drawable/ripple_bg_circle" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/small_circle_height" android:layout_weight="1.0" android:layout_marginEnd="6.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_humidity" />
+        <TextView android:id="@id/today_humidity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" style="@style/Detail.Text14.Medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_2" android:background="@drawable/ripple_bg_circle" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/small_circle_height" android:layout_weight="1.0" android:layout_marginHorizontal="6.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_precipitation" />
+        <TextView android:id="@id/today_precipitation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" style="@style/Detail.Text14.Medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/small_circle_0" android:background="@drawable/ripple_bg_circle" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/small_circle_height" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:paddingHorizontal="10.0dip">
+        <ImageView android:id="@id/wind_or_aqi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wind_speed" />
+        <TextView android:id="@id/today_wind_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" style="@style/Detail.Text14.Medium" />
+    </LinearLayout>
+</LinearLayout>

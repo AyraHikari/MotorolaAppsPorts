@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_gap" android:layout_width="wrap_content" android:layout_height="6.0dip" />
+    <FrameLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="32.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/select_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="19.199982dip" android:src="@drawable/ic_check" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/world_clock_city_title_clock" android:ellipsize="marquee" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="52.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/bottom_gap" android:layout_width="wrap_content" android:layout_height="6.0dip" />
+</LinearLayout>

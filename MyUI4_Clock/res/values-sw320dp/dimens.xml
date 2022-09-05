@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_font_size">60.0sp</dimen>
+    <dimen name="desk_tab_item_rl_top">8.8888855dip</dimen>
+    <dimen name="desk_tab_item_text_top">3.5555725dip</dimen>
+    <dimen name="desk_tab_layout_height">62.2222dip</dimen>
+    <dimen name="desk_tab_layout_img_size">17.777771dip</dimen>
+    <dimen name="desk_tab_layout_text_size">10.666687sp</dimen>
+    <dimen name="middle_font_size">46.2222sp</dimen>
+    <dimen name="small_desk_clock_item_rl_top">8.88797dip</dimen>
+    <dimen name="small_desk_clock_tab_out_height">35.555573dip</dimen>
+    <dimen name="small_font_size">28.444397sp</dimen>
+    <dimen name="timer_history_padding">5.0px</dimen>
+    <dimen name="timer_history_text_size">13.0sp</dimen>
+    <item type="dimen" name="view_right">220.0</item>
+    <dimen name="wc_list_city_name_max_width">110.0dip</dimen>
+</resources>

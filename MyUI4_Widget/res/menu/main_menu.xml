@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_settings" android:id="@id/weather_setting" android:title="@string/weather_settings_label" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_update" android:id="@id/weather_refresh" android:title="@string/weather_refresh_label" android:showAsAction="always" />
+</menu>

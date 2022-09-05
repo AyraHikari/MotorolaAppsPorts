@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="npv_dividercolor">#ff4c4c53</color>
+    <color name="stopwatch_handle_line">#99ffffff</color>
+    <color name="stopwatch_lap_circle">#cce0e0f0</color>
+    <color name="stopwatch_panel_color">#66ffffff</color>
+    <color name="stopwatch_small_panel_text">#99ffffff</color>
+    <color name="timer_history_bg_disable_color">#ffe0e0f0</color>
+    <color name="timer_history_bg_normal_color">#cce0e0f0</color>
+    <color name="timer_history_bg_pressed_color">#ffe0e0f0</color>
+    <color name="timer_history_text_disable_color">#cce0e0f0</color>
+    <color name="timer_history_text_normal_color">#ffe0e0f0</color>
+    <color name="timer_history_text_pressed_color">#cce0e0f0</color>
+    <color name="timer_picker_text_default">#cce0e0f0</color>
+    <color name="timer_picker_text_normal">#cce0e0f0</color>
+    <color name="timer_picker_text_selected">#cce0e0f0</color>
+    <color name="timer_timespan_color">#cce0e0f0</color>
+</resources>

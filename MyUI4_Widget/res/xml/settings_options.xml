@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:layout="@layout/no_padding_pref_category" android:key="location_list" />
+    <Preference android:icon="@drawable/setting_ic_add_city" android:layout="@layout/preference_added_city" android:title="@string/add_city" android:key="@string/add_city" />
+    <androidx.preference.PreferenceCategory>
+        <ListPreference android:entries="@array/temp_units" android:layout="@layout/preference_list" android:title="@string/temperature_units" android:key="unit_list_preference" android:summary="@string/temperature_units_select" android:dialogTitle="@string/temperature_units_select" android:entryValues="@array/temp_units_positions" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/forecast_update_period" android:layout="@layout/preference_list" android:title="@string/forecast_update_period" android:key="forecast_update_preference" android:summary="@string/select_forecast_update_period" android:defaultValue="@string/request_time_update_weather_interval_hours" android:dialogTitle="@string/select_forecast_update_period" android:entryValues="@array/forecast_update_period_value" app:iconSpaceReserved="false" />
+        <com.motorola.commandcenter.weather.settings.AppPreference android:title="@string/alert_setting_title" android:key="alert_checkbox" android:summary="@string/alert_summary" app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+    <Preference android:layout="@layout/preference_list" android:title="@string/feed_back" android:key="feed_back_in_weather" app:iconSpaceReserved="false" />
+</androidx.preference.PreferenceScreen>

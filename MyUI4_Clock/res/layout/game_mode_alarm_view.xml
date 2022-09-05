@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/shape_gamemode_drawable_bg" android:layout_width="wrap_content" android:layout_height="@dimen/gamemode_alarm_height" android:layout_marginTop="6.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/gamemode_text_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="@string/menu_alarm" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gamemode_text_color" android:id="@id/alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/snooze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_gamemode_snooze" android:layout_marginStart="32.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_gamemode_dismiss" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

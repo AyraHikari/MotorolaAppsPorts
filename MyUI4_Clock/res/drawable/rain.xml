@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/rain_0001" />
+    <item android:duration="50" android:drawable="@drawable/rain_0002" />
+    <item android:duration="50" android:drawable="@drawable/rain_0003" />
+    <item android:duration="50" android:drawable="@drawable/rain_0004" />
+    <item android:duration="50" android:drawable="@drawable/rain_0005" />
+    <item android:duration="50" android:drawable="@drawable/rain_0006" />
+    <item android:duration="50" android:drawable="@drawable/rain_0007" />
+    <item android:duration="50" android:drawable="@drawable/rain_0008" />
+    <item android:duration="50" android:drawable="@drawable/rain_0009" />
+    <item android:duration="50" android:drawable="@drawable/rain_0010" />
+    <item android:duration="50" android:drawable="@drawable/rain_0011" />
+    <item android:duration="50" android:drawable="@drawable/rain_0012" />
+    <item android:duration="50" android:drawable="@drawable/rain_0013" />
+    <item android:duration="50" android:drawable="@drawable/rain_0014" />
+    <item android:duration="50" android:drawable="@drawable/rain_0015" />
+    <item android:duration="50" android:drawable="@drawable/rain_0016" />
+    <item android:duration="50" android:drawable="@drawable/rain_0017" />
+    <item android:duration="50" android:drawable="@drawable/rain_0018" />
+    <item android:duration="50" android:drawable="@drawable/rain_0019" />
+    <item android:duration="50" android:drawable="@drawable/rain_0020" />
+    <item android:duration="50" android:drawable="@drawable/rain_0021" />
+    <item android:duration="50" android:drawable="@drawable/rain_0022" />
+    <item android:duration="50" android:drawable="@drawable/rain_0023" />
+    <item android:duration="50" android:drawable="@drawable/rain_0024" />
+    <item android:duration="50" android:drawable="@drawable/rain_0025" />
+    <item android:duration="50" android:drawable="@drawable/rain_0026" />
+    <item android:duration="50" android:drawable="@drawable/rain_0027" />
+    <item android:duration="50" android:drawable="@drawable/rain_0028" />
+    <item android:duration="50" android:drawable="@drawable/rain_0029" />
+    <item android:duration="50" android:drawable="@drawable/rain_0030" />
+    <item android:duration="50" android:drawable="@drawable/rain_0031" />
+</animation-list>

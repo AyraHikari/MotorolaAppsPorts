@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/timer_fragment_vt_edit" android:id="@id/vt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/timer_add_countdown" android:layout_marginStart="24.0dip" />
+    <com.motorola.cn.deskclock.widget.MotoEditText android:id="@id/moto_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.motorola.cn.deskclock.timer.widget.TimerPicker android:layout_gravity="center" android:id="@id/view_timer_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Hora e meteorologia</item>
+        <item>Meteorologia</item>
+        <item>Hora</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Ilhas Marshall</item>
+        <item>Ilha de Midway</item>
+        <item>Havai</item>
+        <item>Alasca</item>
+        <item>Hora do Pacífico</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hora Regiões Montanhosas</item>
+        <item>América Central</item>
+        <item>Hora Central</item>
+        <item>Cidade do México</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Hora do Leste</item>
+        <item>Venezuela</item>
+        <item>Hora Atlântica (Barbados)</item>
+        <item>Hora Atlântica (Canadá)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terra Nova</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Gronelândia</item>
+        <item>Montevideu</item>
+        <item>Atlântico Central</item>
+        <item>Açores</item>
+        <item>Ilhas de Cabo Verde</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublim</item>
+        <item>Amesterdão, Berlim</item>
+        <item>Belgrado</item>
+        <item>Bruxelas</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Hora da África Ocidental</item>
+        <item>Amã, Jordânia</item>
+        <item>Atenas, Istambul</item>
+        <item>Beirute, Líbano</item>
+        <item>Cairo</item>
+        <item>Helsínquia</item>
+        <item>Jerusalém</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdade</item>
+        <item>Moscovo</item>
+        <item>Koweit</item>
+        <item>Nairobi</item>
+        <item>Teerão</item>
+        <item>Bacu</item>
+        <item>Tiblíssi</item>
+        <item>Erevã</item>
+        <item>Dubai</item>
+        <item>Cabul</item>
+        <item>Islamabade, Carachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ecaterimburgo</item>
+        <item>Calcutá</item>
+        <item>Sri Lanka</item>
+        <item>Catmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Banguecoque</item>
+        <item>Pequim</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipé</item>
+        <item>Seul</item>
+        <item>Tóquio, Osaca</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Camberra</item>
+        <item>Vladivostoque</item>
+        <item>Guame</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Jacarta</item>
+    </string-array>
+</resources>

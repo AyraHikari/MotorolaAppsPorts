@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/widget_weather_bg" />
+    <corners android:radius="@dimen/widget_adapt_28dp" />
+    <size android:height="@dimen/widget_adapt_106dp" />
+    <size android:width="@dimen/widget_adapt_190dp" />
+</shape>

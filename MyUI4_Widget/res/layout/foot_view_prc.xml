@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="@dimen/footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sep" android:background="#80ffffff" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="16.0dip" android:layout_centerInParent="true" android:layout_marginStart="@dimen/footer_margin" android:layout_marginEnd="@dimen/footer_margin" />
+    <ImageView android:id="@id/accuweather" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/accuweather_logo" android:adjustViewBounds="true" android:layout_centerInParent="true" android:layout_toStartOf="@id/sep" />
+    <ImageView android:id="@id/radar_icon" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/footer_button_w" android:layout_height="@dimen/footer_button_h" android:src="@drawable/ic_radar_logo" android:adjustViewBounds="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/sep" />
+</RelativeLayout>

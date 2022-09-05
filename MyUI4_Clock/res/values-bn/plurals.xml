@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d ঘন্টা</item>
+        <item quantity="one">1 ঘন্টা</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%d ঘন্টা পিছিয়ে</item>
+        <item quantity="one">1 ঘন্টা পিছিয়ে</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%d ঘন্টা এগিয়ে</item>
+        <item quantity="one">1 ঘন্টা এগিয়ে</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">1 মিনিট</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d সেকেন্ড</item>
+        <item quantity="one">1 সেকেন্ড</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+</resources>

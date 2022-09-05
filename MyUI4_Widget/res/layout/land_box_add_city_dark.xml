@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/click_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/arch_center" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_centerVertical="true" />
+    <TextView android:id="@id/arch_2" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/r_2_land" android:layout_below="@id/arch_center" />
+    <TextView android:id="@id/arch_3" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="@dimen/arch_size" android:layout_marginTop="@dimen/r_3_land" android:layout_below="@id/arch_center" />
+    <ImageView android:id="@id/big_icon" android:clickable="false" android:layout_width="@dimen/widget_icon_size_big_land" android:layout_height="@dimen/widget_icon_size_big_land" android:layout_above="@id/arch_2" android:layout_alignBottom="@id/arch_2" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/one_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/add_text_margin_land" android:maxWidth="@dimen/text_max_width_mid_land" android:layout_above="@id/arch_3" android:layout_alignBottom="@id/arch_3" android:layout_centerHorizontal="true" style="@style/BlackText.TEXT15.Land" />
+</RelativeLayout>

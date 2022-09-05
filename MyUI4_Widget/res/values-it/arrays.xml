@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Ora e meteo</item>
+        <item>Meteo</item>
+        <item>Ora</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Isole Marshall</item>
+        <item>Isola di Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Ora del Pacifico</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Montagne Rocciose</item>
+        <item>America centrale</item>
+        <item>Chicago</item>
+        <item>Città del Messico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Costa Orientale USA</item>
+        <item>Venezuela</item>
+        <item>Barbados</item>
+        <item>Canada</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terranova</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenlandia</item>
+        <item>Montevideo</item>
+        <item>Atlantico centrale</item>
+        <item>Azzorre</item>
+        <item>Isole di Capo Verde</item>
+        <item>Casablanca</item>
+        <item>Londra, Dublino</item>
+        <item>Amsterdam, Berlino</item>
+        <item>Roma, Belgrado</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Africa occidentale</item>
+        <item>Amman, Giordania</item>
+        <item>Atene, Istanbul</item>
+        <item>Beirut, Libano</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Gerusalemme</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Mosca</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Oral</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Pechino</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Giacarta</item>
+    </string-array>
+</resources>

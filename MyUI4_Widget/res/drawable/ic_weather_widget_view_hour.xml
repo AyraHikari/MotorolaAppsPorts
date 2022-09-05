@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_weather_checkout" android:pathData="M5,8h14c1.1,0 2,0.9 2,2v4c0,1.1 -0.9,2 -2,2H5c-1.1,0 -2,-0.9 -2,-2v-4C3,8.9 3.9,8 5,8zM4.5,18h15c0.8,0 1.5,0.7 1.5,1.5S20.3,21 19.5,21h-15C3.7,21 3,20.3 3,19.5S3.7,18 4.5,18zM4.5,3h15C20.3,3 21,3.7 21,4.5S20.3,6 19.5,6h-15C3.7,6 3,5.3 3,4.5S3.7,3 4.5,3z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 மணிநேரம்</item>
+        <item>2 மணிநேரம்</item>
+        <item>3 மணிநேரம்</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>நேரம் &amp; வானிலை</item>
+        <item>வானிலை</item>
+        <item>நேரம்</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>ஃபாரன்ஹீட்</item>
+        <item>செல்சியஸ்</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>மார்ஷல் தீவுகள்</item>
+        <item>மிட்வே தீவு</item>
+        <item>ஹவாய்</item>
+        <item>அலாஸ்கா</item>
+        <item>பசிபிக் டைம்</item>
+        <item>டிஜுவானா</item>
+        <item>அரிசோனா</item>
+        <item>சிஹூவாஹுவா</item>
+        <item>மவுண்டன் டைம்</item>
+        <item>மத்திய அமெரிக்கா</item>
+        <item>சென்ட்ரல் டைம்</item>
+        <item>மெக்ஸிகோ நகரம்</item>
+        <item>சாஸ்கட்சுவான்</item>
+        <item>போகோடா</item>
+        <item>ஈஸ்டர்ன் டைம்</item>
+        <item>வெனிசுலா</item>
+        <item>அட்லாண்டிக் நேரம் (பார்படோஸ்)</item>
+        <item>அட்லாண்டிக் நேரம் (கனடா)</item>
+        <item>மனாவுஸ்</item>
+        <item>சாண்டியாகோ</item>
+        <item>நியூஃபௌண்ட்லாண்ட்</item>
+        <item>ப்ரசிலியா</item>
+        <item>பவுனஸ் ஏர்ஸ்</item>
+        <item>கிரீன்லாந்து</item>
+        <item>மொண்டேவீடியோ</item>
+        <item>மிட்-அட்லாண்டிக்</item>
+        <item>அசோரஸ்</item>
+        <item>கேப் வேர்ட் தீவுகள்</item>
+        <item>காஸாபிளான்கா</item>
+        <item>லண்டன், டப்ளின்</item>
+        <item>ஆம்ஸ்டர்டாம், பெர்லின்</item>
+        <item>பெல்க்ரேடு</item>
+        <item>புருசேல்ஸ்</item>
+        <item>சராஜேவோ</item>
+        <item>வைண்ட்ஹோக்</item>
+        <item>மே. ஆஃப்ரிக்கா டைம்</item>
+        <item>அம்மான், ஜோர்டன்</item>
+        <item>ஏதென்ஸ், இஸ்தான்புல்</item>
+        <item>பெய்ரூட், லெபனான்</item>
+        <item>கெய்ரோ</item>
+        <item>ஹெல்சிங்கி</item>
+        <item>ஜெருசலேம்</item>
+        <item>மின்ஸ்க்</item>
+        <item>ஹராரே</item>
+        <item>பாக்தாத்</item>
+        <item>மாஸ்கோ</item>
+        <item>குவைத்</item>
+        <item>நைரோபி</item>
+        <item>டெஹ்ரன்</item>
+        <item>பாக்கூ</item>
+        <item>த்பிலிசி</item>
+        <item>ஏரேவன்</item>
+        <item>துபாய்</item>
+        <item>காபூல்</item>
+        <item>இஸ்லாமாபாத், கராச்சி</item>
+        <item>உரால்ச்க்</item>
+        <item>யெகாடிரின்பர்க்</item>
+        <item>கொல்கத்தா</item>
+        <item>ஸ்ரீலங்கா</item>
+        <item>காத்மாண்டு</item>
+        <item>ஆஸ்தானா</item>
+        <item>யங்கூன்</item>
+        <item>கிராஸ்னோயார்க்ஸ்</item>
+        <item>பாங்காக்</item>
+        <item>பீஜிங்</item>
+        <item>ஹாங்காங்</item>
+        <item>இர்குட்ஸ்க்</item>
+        <item>கோலாலம்பூர்</item>
+        <item>பெர்த்</item>
+        <item>தைபை</item>
+        <item>சீயோல்</item>
+        <item>டோக்கியோ, ஒசாகா</item>
+        <item>யகுட்ஸ்க்</item>
+        <item>அடிலெய்ட்</item>
+        <item>டார்வின்</item>
+        <item>பிரிஸ்பேன்</item>
+        <item>ஹொபார்ட்</item>
+        <item>சிட்னி, கன்பரா</item>
+        <item>விலாத்திவொஸ்தோக்</item>
+        <item>குவாம்</item>
+        <item>மகதன்</item>
+        <item>ஆக்லாந்து</item>
+        <item>ஃபிஜி</item>
+        <item>டோங்கா</item>
+        <item>ஜகார்த்தா</item>
+    </string-array>
+</resources>

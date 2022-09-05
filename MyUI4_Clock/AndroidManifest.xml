@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.motorola.cn.deskclock" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <original-package android:name="com.android.alarmclock"/>
+    <original-package android:name="com.android.deskclock"/>
+    <permission android:name="com.motorola.cn.deskclock.permission.READ_WORLD_CLOCK" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.motorola.cn.deskclock.permission.WRITE_WORLD_CLOCK" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.motorola.cn.deskclock.permission.INIT_ALARM" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="org.codeaurora.permission.POWER_OFF_ALARM"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.motorola.permission.SET_POWEROFF_ALARM"/>
+    <queries>
+        <package android:name="com.motorola.cn.calendar"/>
+        <intent>
+            <action android:name="com.motorola.plugin.action.PLUGIN_DISCOVERY"/>
+        </intent>
+    </queries>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.motorola.cn.deskclock.alarmclock.backup.ClockDataBackupAgentHelper" android:debuggable="false" android:directBootAware="true" android:extractNativeLibs="false" android:fullBackupOnly="true" android:icon="@mipmap/ic_launcher_alarmclock" android:killAfterRestore="false" android:label="@string/app_label" android:name="com.motorola.cn.deskclock.DeskClockApplication" android:preserveLegacyExternalStorage="true" android:requiredForAllUsers="true" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/DeskClock.Light">
+        <provider android:authorities="com.motorola.cn.deskclock.worldcity" android:enabled="true" android:exported="true" android:name="com.motorola.cn.deskclock.provider.WorldCityProvider" android:readPermission="com.motorola.cn.deskclock.permission.READ_WORLD_CLOCK" android:writePermission="com.motorola.cn.deskclock.permission.WRITE_WORLD_CLOCK"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <uses-library android:name="moto-core_services" android:required="false"/>
+        <meta-data android:name="xui_server_domain" android:value="apizui.lenovomm.com"/>
+        <meta-data android:name="A_Le_backup" android:value="true"/>
+        <provider android:authorities="com.motorola.cn.deskclock" android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.provider.ClockProvider"/>
+        <activity android:directBootAware="true" android:exported="true" android:icon="@mipmap/ic_launcher_alarmclock" android:label="@string/app_label" android:launchMode="singleTask" android:name="com.motorola.cn.deskclock.DeskClock" android:resumeWhilePausing="true" android:screenOrientation="unspecified" android:theme="@style/DeskClock.Light.Main" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="com.zui.launcher.intent.category.ZUI_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.category.ACTIVE_ICON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="action.ACTION_PLAY_ANIM"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.cn.deskclock.worldclock.VIEW_WORLD_CLOCK_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="zui.launcher.key" android:value="com.motorola.cn.deskclock"/>
+        </activity>
+        <activity-alias android:directBootAware="true" android:enabled="@bool/config_dockAppEnabled" android:exported="false" android:icon="@mipmap/ic_launcher_alarmclock" android:label="@string/app_label" android:launchMode="singleTask" android:name="com.motorola.cn.deskclock.DockClock" android:resumeWhilePausing="true" android:targetActivity="com.motorola.cn.deskclock.DeskClock" android:theme="@style/DeskClock.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DESK_DOCK"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:label="@string/settings" android:launchMode="singleTop" android:name="com.motorola.cn.deskclock.alarmclock.activity.SettingsActivity" android:screenOrientation="unspecified" android:taskAffinity="" android:theme="@style/DeskClock.Light.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.motorola.cn.deskclock.mode.ModeEditActivity" android:screenOrientation="unspecified" android:taskAffinity="" android:theme="@style/DeskClock.Light.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:name="com.motorola.cn.deskclock.alarmclock.activity.AlarmActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="com.motorola.cn.alarmclock" android:theme="@style/DeskClock.Light.Wallpaper.FullScreen" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.alarmclock.receiver.AlarmStateManager"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.alarmclock.sesrvice.AlarmService"/>
+        <activity android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.motorola.cn.deskclock.alarmclock.activity.AlarmEditActivity" android:screenOrientation="unspecified" android:taskAffinity="" android:theme="@style/DeskClock.Light.AlarmEdit"/>
+        <activity android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:label="@string/cities_activity_title" android:name="com.motorola.cn.deskclock.worldclock.CitiesChoseActivity" android:screenOrientation="unspecified" android:taskAffinity="" android:theme="@style/DeskClock.Light.NoActionBar" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.cn.deskclock.worldcity.CHOOSE_WORLD_CITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:allowTaskReparenting="true" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:name="com.motorola.cn.deskclock.timer.TimesUpFullScreenActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="com.klinker.deskclock" android:theme="@style/DeskClock.Light.Wallpaper.FullScreen" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="orientation" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:name="com.motorola.cn.deskclock.timer.NotificationDialog" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/AlarmDialogNoTitle" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.motorola.cn.deskclock.HandleApiCalls" android:permission="com.android.alarm.permission.SET_ALARM" android:taskAffinity="" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.DISMISS_ALARM"/>
+                <action android:name="android.intent.action.SHOW_ALARMS"/>
+                <action android:name="android.intent.action.SHOW_TIMERS"/>
+                <action android:name="android.intent.action.SNOOZE_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:directBootAware="true" android:exported="true" android:name="com.motorola.cn.deskclock.HandleSetAlarm" android:permission="com.android.alarm.permission.SET_ALARM" android:targetActivity="com.motorola.cn.deskclock.HandleApiCalls"/>
+        <activity-alias android:exported="true" android:name="com.motorola.cn.deskclock.HandleSetAlarmApiCalls" android:permission="com.android.alarm.permission.SET_ALARM" android:targetActivity="com.motorola.cn.deskclock.HandleApiCalls">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM"/>
+                <action android:name="android.intent.action.SET_TIMER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:directBootAware="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.motorola.cn.deskclock.alarmclock.activity.RingChooseActivity" android:screenOrientation="unspecified" android:taskAffinity="com.motorola.cn.deskclock" android:theme="@style/DeskClock.Light.NoActionBar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.motorola.plugin.ClockViewActivity" android:screenOrientation="portrait" android:theme="@style/WorldClockViewTranslucentTheme"/>
+        <activity android:configChanges="orientation" android:directBootAware="true" android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.motorola.cn.deskclock.alarmclock.activity.NoPermissionActivity" android:resizeableActivity="true" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/AlarmDialogNoTitle" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:description="@string/timer_ring_service_desc" android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.timer.TimerRingService">
+            <intent-filter>
+                <action android:name="com.android.deskclock.TIMER_ALERT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.motorola.plugin.WorldClockService" android:permission="com.motorola.myscreen.permission.ACCESS_MYSCREEN">
+            <intent-filter>
+                <action android:name="com.motorola.plugin.action.PLUGIN_DISCOVERY"/>
+            </intent-filter>
+            <meta-data android:name="com.motorola.plugin.provider" android:resource="@xml/cards"/>
+        </service>
+        <receiver android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.timer.TimerReceiver">
+            <intent-filter>
+                <action android:name="times_up"/>
+                <action android:name="notif_in_use_show"/>
+                <action android:name="notif_times_up_reset"/>
+                <action android:name="notif_auto_stop_ringing"/>
+                <action android:name="com.android.deskclock.ALARM_ALERT"/>
+                <action android:name="start_timer"/>
+                <action android:name="delete_timer"/>
+                <action android:name="timer_stop"/>
+                <action android:name="timer_reset"/>
+                <action android:name="timer_done"/>
+                <action android:name="timer_update"/>
+                <action android:name="notif_in_use_cancel"/>
+                <action android:name="notif_times_up_stop"/>
+                <action android:name="notif_times_up_plus_one"/>
+                <action android:name="notif_times_up_show"/>
+                <action android:name="notif_times_up_cancel"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.alarmclock.receiver.AlarmInitReceiver" android:permission="com.motorola.cn.deskclock.permission.INIT_ALARM">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="com.motorola.cn.deskclock.action.CLOCK_DATA_RECOVERY"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483646">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zui.cloudservice.action.SYNC_ALARM_FROM_SERVER_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:description="@string/stopwatch_service_desc" android:directBootAware="true" android:exported="false" android:name="com.motorola.cn.deskclock.stopwatch.StopwatchService">
+            <intent-filter>
+                <action android:name="start_stopwatch"/>
+                <action android:name="lap_stopwatch"/>
+                <action android:name="stop_stopwatch"/>
+                <action android:name="reset_stopwatch"/>
+                <action android:name="share_stopwatch"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.motorola.cn.deskclock.timer.NotificationService"/>
+        <meta-data android:name="com.android.launcher3.LEVEL_PER_TICK_ICON_ROUND" android:resource="@mipmap/ic_launcher_alarmclock"/>
+        <meta-data android:name="com.android.launcher3.HOUR_LAYER_INDEX" android:value="0"/>
+        <meta-data android:name="com.android.launcher3.MINUTE_LAYER_INDEX" android:value="1"/>
+        <meta-data android:name="com.android.launcher3.SECOND_LAYER_INDEX" android:value="2"/>
+        <meta-data android:name="com.android.launcher3.DEFAULT_HOUR" android:value="10"/>
+        <meta-data android:name="com.android.launcher3.DEFAULT_MINUTE" android:value="10"/>
+        <meta-data android:name="com.android.launcher3.DEFAULT_SECOND" android:value="30"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="com.motorola.cn.deskclock.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+</manifest>

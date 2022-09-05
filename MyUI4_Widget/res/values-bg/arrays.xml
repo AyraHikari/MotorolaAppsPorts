@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Час и време</item>
+        <item>Времето</item>
+        <item>Час</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Фаренхайт</item>
+        <item>Целзий</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалови острови</item>
+        <item>Мидуей, о-в</item>
+        <item>Хавайски острови</item>
+        <item>Аляска</item>
+        <item>Тихоокеанско време</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Планинско време</item>
+        <item>Централна Америка</item>
+        <item>Централно време</item>
+        <item>Мексико Сити</item>
+        <item>Съскачеуан</item>
+        <item>Богота</item>
+        <item>Източно време</item>
+        <item>Венецуела</item>
+        <item>Атл. време (Барбадос)</item>
+        <item>Атл. време (Канада)</item>
+        <item>Манауш</item>
+        <item>Сантяго</item>
+        <item>Нюфаундленд</item>
+        <item>Бразилия</item>
+        <item>Буенос Айрес</item>
+        <item>Гренландия</item>
+        <item>Монтевидео</item>
+        <item>Средноатлантически регион</item>
+        <item>Азорски острови</item>
+        <item>Кабо Верде, о-ви</item>
+        <item>Казабланка</item>
+        <item>Лондон, Дъблин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюксел</item>
+        <item>Сараево</item>
+        <item>Виндхук</item>
+        <item>Западноафриканско време</item>
+        <item>Аман, Йордания</item>
+        <item>Атина, Истанбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Кайро</item>
+        <item>Хелзинки</item>
+        <item>Йерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Техеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уралск</item>
+        <item>Екатеринбург</item>
+        <item>Колката</item>
+        <item>Шри Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Банкок</item>
+        <item>Пекин</item>
+        <item>Хонконг</item>
+        <item>Иркутск</item>
+        <item>Куала Лумпур</item>
+        <item>Пърт</item>
+        <item>Тайпе</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Аделаида</item>
+        <item>Дарвин</item>
+        <item>Бризбейн</item>
+        <item>Хобарт</item>
+        <item>Сидни, Канбера</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окланд</item>
+        <item>Фиджи</item>
+        <item>Тонга</item>
+        <item>Джакарта</item>
+    </string-array>
+</resources>

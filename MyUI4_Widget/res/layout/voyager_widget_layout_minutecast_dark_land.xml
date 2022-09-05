@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/center_anchor" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_centerVertical="true" />
+    <TextView android:id="@id/space" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="@dimen/v_widget_image_margin_land" android:layout_below="@id/center_anchor" android:layout_marginStart="@dimen/v_widget_content_margin_land" />
+    <TextView android:id="@id/image_anchor" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_below="@id/space" />
+    <ImageView android:id="@id/v_icon_minute_cast" android:layout_width="@dimen/v_widget_mc_image_size_land" android:layout_height="@dimen/v_widget_mc_image_size_land" android:src="@drawable/ic_minutecast_rain" android:layout_above="@id/image_anchor" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/center_anchor" android:layout_alignParentBottom="true" android:paddingHorizontal="@dimen/v_widget_content_margin_land">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/v_mc_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/v_widget_subtext_padding_top_2_land" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:paddingVertical="@dimen/v_widget_click_area_padding_land">
+            <TextView android:id="@id/v_minute_cast_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BlackText.vDate.Land" />
+            <TextView android:id="@id/v_minute_cast_time" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_icon_margin" style="@style/BlackText.vNumber.Land" />
+            <TextView android:id="@id/v_minute_cast_time_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_icon_margin" style="@style/BlackText.vDate.Land" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

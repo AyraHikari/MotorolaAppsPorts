@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>الوقت والطقس</item>
+        <item>الطقس</item>
+        <item>الوقت</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>فهرنهايت</item>
+        <item>مئوية</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزر مارشال</item>
+        <item>جزيرة ميدواي</item>
+        <item>هاواي</item>
+        <item>ألاسكا</item>
+        <item>توقيت المحيط الهادي</item>
+        <item>تيغوانا</item>
+        <item>أريزونا</item>
+        <item>تشيهواهوا</item>
+        <item>التوقيت الجبلي</item>
+        <item>أمريكا الوسطى</item>
+        <item>التوقيت المركزي</item>
+        <item>مكسيكو سيتي</item>
+        <item>ساسكاتشوان</item>
+        <item>بوغوتا</item>
+        <item>التوقيت الشرقي</item>
+        <item>فنزويلا</item>
+        <item>توقيت المحيط الأطلسي (باربادوس)</item>
+        <item>توقيت المحيط الأطلسي (كندا)</item>
+        <item>ماناوس</item>
+        <item>سانتياغو</item>
+        <item>نيوفاوندلاند</item>
+        <item>برازيليا</item>
+        <item>بوينس آيرس</item>
+        <item>غرينلاند</item>
+        <item>مونتيفيديو</item>
+        <item>وسط المحيط الأطلنطي</item>
+        <item>الأزور</item>
+        <item>جزر الرأس الأخضر</item>
+        <item>الدار البيضاء</item>
+        <item>لندن، دبلن</item>
+        <item>أمستردام، برلين</item>
+        <item>بلغراد</item>
+        <item>بروكسل</item>
+        <item>سراييفو</item>
+        <item>ويندهوك</item>
+        <item>توقيت غرب إفريقيا</item>
+        <item>عمان، الأردن</item>
+        <item>أثينا، اسطنبول</item>
+        <item>بيروت، لبنان</item>
+        <item>القاهرة</item>
+        <item>هلسنكي</item>
+        <item>القدس</item>
+        <item>مینسك</item>
+        <item>هراري</item>
+        <item>بغداد</item>
+        <item>موسكو</item>
+        <item>الكويت</item>
+        <item>نیروبي</item>
+        <item>طهران</item>
+        <item>باكو</item>
+        <item>تبليسي</item>
+        <item>يريفان</item>
+        <item>دبي</item>
+        <item>كابول</item>
+        <item>إسلام أباد، كراتشي</item>
+        <item>أورالسك</item>
+        <item>يكاتنبرج</item>
+        <item>كلكتا</item>
+        <item>سريلانكا</item>
+        <item>كاثماندو</item>
+        <item>آستانا</item>
+        <item>يانغون</item>
+        <item>كراسنويارسك</item>
+        <item>بانكوك</item>
+        <item>بكين</item>
+        <item>هونغ كونغ</item>
+        <item>إيركوتسك</item>
+        <item>كوالالمبور</item>
+        <item>برث</item>
+        <item>تايبيه</item>
+        <item>سول</item>
+        <item>طوكيو، أوساكا</item>
+        <item>ياكوتسك</item>
+        <item>أديليد</item>
+        <item>داروين</item>
+        <item>بريزبان</item>
+        <item>هوبارت</item>
+        <item>سيدني، كانبيرا</item>
+        <item>فلاديفوستوك</item>
+        <item>غوام</item>
+        <item>ماغادان</item>
+        <item>أوكلاند</item>
+        <item>فيجي</item>
+        <item>تونغا</item>
+        <item>جاكرتا</item>
+    </string-array>
+</resources>

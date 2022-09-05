@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 tunti</item>
+        <item>2 tuntia</item>
+        <item>3 tuntia</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Aika ja sää</item>
+        <item>Sää</item>
+        <item>Aika</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallsaaret</item>
+        <item>Midwaysaaret</item>
+        <item>Havaiji</item>
+        <item>Alaska</item>
+        <item>Tyynenmeren aika</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Kalliovuorten aika</item>
+        <item>Keski-Amerikka</item>
+        <item>Yhdysvaltain keskinen aika</item>
+        <item>México</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Yhdysvaltain itäinen aika</item>
+        <item>Venezuela</item>
+        <item>Atlantin aika (Barbados)</item>
+        <item>Atlantin aika (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grönlanti</item>
+        <item>Montevideo</item>
+        <item>Keski-Atlantti</item>
+        <item>Azorit</item>
+        <item>Kap Verden saaret</item>
+        <item>Casablanca</item>
+        <item>Lontoo, Dublin</item>
+        <item>Amsterdam, Berliini</item>
+        <item>Belgrad</item>
+        <item>Bryssel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Länsi-Afrikan aika</item>
+        <item>Amman, Jordania</item>
+        <item>Ateena, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskova</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kalkutta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Soul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidzi</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

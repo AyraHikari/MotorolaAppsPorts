@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layoutAnimation="@anim/widget_adapt_small_scale" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_clock_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_adapt_circle_background" android:scaleType="fitCenter" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/img_weather_analog_clock_icon" android:layout_width="@dimen/widget_adapt_10dp" android:layout_height="@dimen/widget_adapt_10dp" android:layout_marginBottom="@dimen/widget_adapt_6dp" android:scaleType="fitCenter" />
+        <ProgressBar android:layout_gravity="bottom|center" android:id="@id/img_weather_analog_clock_warning" android:visibility="gone" android:layout_width="@dimen/widget_adapt_10dp" android:layout_height="@dimen/widget_adapt_10dp" android:layout_marginBottom="@dimen/widget_adapt_6dp" android:scaleType="fitCenter" android:indeterminate="true" android:indeterminateDrawable="@drawable/widget_warning_anim" />
+    </FrameLayout>
+    <AnalogClock android:id="@id/analog_clock" android:layoutAnimation="@anim/widget_adapt_alpha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dial="@drawable/ic_adapt_circle_background_transparent" android:hand_hour="@drawable/ic_adapt_widget_hour_hand" android:hand_minute="@drawable/ic_adapt_widget_minute_hand" android:hand_second="@drawable/ic_adapt_widget_second_hand" />
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_digital" android:layoutAnimation="@anim/widget_adapt_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextClock android:textColor="@color/widget_adapt_digital_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:format12Hour="hh\nmm" android:format24Hour="HH\nmm" android:lineHeight="@dimen/widget_adapt_30dp" style="@style/AdaptTime.Text28" />
+    </FrameLayout>
+    <ImageView android:id="@id/img_date" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/widget_adapt_4dp" android:scaleType="fitCenter" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/view_date_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_20dp" />
+        <FrameLayout android:id="@id/view_time_click_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/view_weather_click_area" android:layout_width="fill_parent" android:layout_height="@dimen/widget_adapt_20dp" />
+    </LinearLayout>
+</FrameLayout>

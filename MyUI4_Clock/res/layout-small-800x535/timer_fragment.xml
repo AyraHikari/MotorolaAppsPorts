@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_external" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/ral_page_screen" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/timer_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/lin_point" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/lin_point" android:layout_width="wrap_content" android:layout_height="10.0dip" android:layout_marginBottom="46.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lin_small_screen" android:background="@drawable/timer_counting_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="50.0dip">
+            <ImageView android:layout_gravity="end" android:id="@id/img_close" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/small_ic_delete" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.motorola.cn.deskclock.widget.CircularProgressView android:id="@id/progress_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" app:progColor="@color/circle_progress" app:progWidth="3.0dip" />
+                <RelativeLayout android:id="@id/ral_mode" android:background="@drawable/timer_item_circle" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_centerVertical="true" android:layout_marginStart="2.5dip">
+                    <ImageView android:id="@id/img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_egg" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <Chronometer android:textSize="48.0sp" android:textStyle="bold" android:textColor="@color/timer_chrom_text_color" android:layout_gravity="center_vertical" android:id="@id/chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_toEndOf="@id/ral_mode" style="@style/medium_light" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/small_layout_stop" android:background="@drawable/timer_fragment_play_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="15.0dip">
+                <ImageView android:id="@id/small_imageView_stop" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_play_select" android:contentDescription="@string/app_label" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_inter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/timer_navi" layout="@layout/custom_actionbar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/timer_navi">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.motorola.cn.deskclock.timer.widget.TimerView android:layout_gravity="center" android:id="@id/timer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/timer_view_top_margin2" android:layout_centerHorizontal="true" />
+                    <RelativeLayout android:id="@id/ral_mode_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/timer_view">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_mode" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_action" android:layout_width="fill_parent" android:layout_height="@dimen/timer_bottom_margin" android:layout_below="@id/ral_mode_select">
+                        <LinearLayout android:gravity="center" android:id="@id/layout_stop" android:background="@drawable/timer_fragment_play_btn" android:layout_width="96.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true">
+                            <ImageView android:id="@id/imageView_stop" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_play_disable" android:contentDescription="@string/app_label" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:id="@id/layout_close" android:background="@drawable/timer_fragment_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/timer_fragment_btn_margin" android:layout_toEndOf="@id/layout_stop">
+                            <ImageView android:enabled="false" android:id="@id/imageView_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_disable" android:contentDescription="@string/app_label" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

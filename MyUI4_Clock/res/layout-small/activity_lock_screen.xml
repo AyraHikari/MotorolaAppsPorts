@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/timer_timesup_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="104.0sp" android:textColor="@color/alarm_time_text_color" android:id="@id/tv_alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/alarm_text_color" android:id="@id/tv_alarm_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/tv_alarm_time" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/rl_alarm" android:layout_width="@dimen/grag_linear_layout_width" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_below="@id/tv_alarm_text" android:layout_centerHorizontal="true">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/llav_snooze_and_dismiss" android:layout_width="wrap_content" android:layout_height="96.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" clock:lottie_autoPlay="true" clock:lottie_fileName="clock_info.json" clock:lottie_loop="true" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/llav_dismiss" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="96.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" clock:lottie_autoPlay="true" clock:lottie_fileName="clock_info2.json" clock:lottie_loop="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/alarm_bottom_text" android:id="@id/tv_snooze_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_remind_later" android:layout_centerVertical="true" android:layout_marginStart="40.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/alarm_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_dismiss_text" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="40.0dip" />
+    </RelativeLayout>
+    <com.motorola.cn.deskclock.alarmclock.widget.GragLinearLayout android:id="@id/imageView_stop" android:background="@drawable/shape_oval_full_bg1" android:padding="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_below="@id/tv_alarm_text" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bottom_alarm" />
+    </com.motorola.cn.deskclock.alarmclock.widget.GragLinearLayout>
+</RelativeLayout>

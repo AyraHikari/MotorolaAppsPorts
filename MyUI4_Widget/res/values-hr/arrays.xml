@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 sat</item>
+        <item>2 sata</item>
+        <item>3 sata</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Vrijeme i vremenski uvjeti</item>
+        <item>Vrijeme</item>
+        <item>Vrijeme</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celzij</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Maršalovi Otoci</item>
+        <item>Otok Midway</item>
+        <item>Havaji</item>
+        <item>Aljaska</item>
+        <item>Pacifičko vrijeme</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Planinsko standardno vrijeme</item>
+        <item>Srednja Amerika</item>
+        <item>Srednjeameričko vrijeme</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Istočno vrijeme</item>
+        <item>Venezuela</item>
+        <item>Atlantik (Barbados)</item>
+        <item>Atlantik (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grenland</item>
+        <item>Montevideo</item>
+        <item>Srednjeatlantsko vrijeme</item>
+        <item>Azori</item>
+        <item>Zelenortski Otoci</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Brussels</item>
+        <item>Zagreb</item>
+        <item>Windhoek</item>
+        <item>Zapadnoafričko vrijeme</item>
+        <item>Amman, Jordan</item>
+        <item>Atena, Istanbul</item>
+        <item>Bejrut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jeruzalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Šri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

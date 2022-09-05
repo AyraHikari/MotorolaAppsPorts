@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/clock_settings">
+        <ListPreference android:entries="@array/clock_style_entries" android:title="@string/clock_style" android:key="clock_style" android:defaultValue="@string/default_clock_style" android:dialogTitle="@string/clock_style" android:entryValues="@array/clock_style_values" />
+        <CheckBoxPreference android:title="@string/automatic_home_clock" android:key="automatic_home_clock" android:summary="@string/automatic_home_clock_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/timezone_labels" android:title="@string/home_time_zone" android:key="home_time_zone" android:dialogTitle="@string/home_time_zone_title" android:entryValues="@array/timezone_values" />
+        <Preference android:title="@string/update_holiday_title" android:key="key_update_holiday" android:summary="@string/update_holiday_summary" android:widgetLayout="@layout/prefs_widget_layout" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/alarm_settings">
+        <ListPreference android:entries="@array/auto_silence_entries" android:title="@string/auto_silence_title" android:key="auto_silence" android:defaultValue="1" android:dialogTitle="@string/auto_silence_title" android:entryValues="@array/auto_silence_values" />
+        <com.klinker.deskclock.SnoozeLengthDialog android:title="@string/snooze_duration_title" android:key="snooze_duration" android:defaultValue="5" />
+        <VolumePreference android:title="@string/alarm_volume_title" android:key="volume_setting" android:dialogTitle="@string/alarm_volume_title" android:streamType="alarm" />
+        <ListPreference android:entries="@array/volume_button_setting_entries" android:title="@string/volume_button_setting_title" android:key="volume_button_setting" android:defaultValue="0" android:dialogTitle="@string/volume_button_setting_title" android:entryValues="@array/volume_button_setting_values" />
+        <SwitchPreference android:title="@string/alarm_vibe_switch" android:key="alarm_vibe_settings" android:defaultValue="0" />
+        <SwitchPreference android:title="@string/alarm_mute_ringing_switch" android:key="alarm_mute_ringing_settings" android:defaultValue="0" />
+        <SwitchPreference android:title="@string/alarm_shutdown_ringing_switch" android:key="alarm_shutdown_ringing_settings" android:defaultValue="0" />
+        <ListPreference android:entries="@array/flip_setting_entries" android:title="@string/alarm_flip_setting" android:key="flip_setting" android:defaultValue="0" android:dialogTitle="@string/alarm_flip_setting" android:entryValues="@array/flip_setting_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

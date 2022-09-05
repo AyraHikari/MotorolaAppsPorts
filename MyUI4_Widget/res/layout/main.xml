@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/ll_content" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/layout_toolbar_new_bg" android:layout_width="fill_parent" android:layout_height="@dimen/detail_toolbar_height" android:scaleType="fitXY" />
+    </FrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/Theme.CollapsingToolbar.Detail" android:id="@id/app_bar" android:background="@color/translucent_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/translucent_background" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/detail_toolbar_height" app:collapsedTitleTextAppearance="@style/CollapsingToolbarTitle.Collapsed" app:contentScrim="@color/translucent_background" app:expandedTitleTextAppearance="@style/CollapsingToolbarTitle.Expanded" app:forceApplySystemWindowInsetTop="true" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:maxLines="1" app:scrimAnimationDuration="50" app:scrimVisibleHeightTrigger="137.0dip" app:statusBarScrim="@null" app:toolbarId="@id/action_bar" style="@style/Theme.CollapsingToolbar.toolbar">
+            <Toolbar android:theme="?android:actionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:paddingStart="@dimen/plugin_margin_12" android:layout_marginStart="@dimen/plugin_margin_8" app:layout_collapseMode="pin">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="24.0dip">
+                    <ImageView android:id="@id/weather_setting" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_settings" android:scaleType="fitCenter" android:layout_marginEnd="18.0dip" />
+                    <ImageView android:id="@id/weather_refresh" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_update" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.motorola.commandcenter.widget.DetailToolbarHolderView android:id="@id/view_toolbar_click_holder" android:visibility="invisible" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:translationZ="1.0dip" />
+    <com.motorola.commandcenter.widget.SafeViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-210.0dip" android:translationZ="-1.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.motorola.commandcenter.widget.PageIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:background="@color/icon_white" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_height" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

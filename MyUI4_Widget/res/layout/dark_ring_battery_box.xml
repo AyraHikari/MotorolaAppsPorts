@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row2_box_battery_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ring_weather_box_margin_top" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/battery_charging_icon" android:layout_width="@dimen/ring_widget_icon_size" android:layout_height="@dimen/ring_widget_icon_size" android:src="@drawable/charging_normal" android:adjustViewBounds="true" />
+        <TextView android:id="@id/battery_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RingTextBlack.Number3" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row2_box_weather_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/ring_layout_padding_lr" android:paddingEnd="@dimen/ring_layout_padding_lr">
+        <ImageView android:id="@id/weather_normal_icon" android:clickable="false" android:layout_width="@dimen/ring_widget_icon_size" android:layout_height="@dimen/ring_widget_icon_size" />
+        <TextView android:id="@id/row2_temperature_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RingTextBlack.Number3" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/row2_add_city" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_cities" style="@style/RingTextBlack.TEXT3" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row2_box_mc_layout" android:paddingTop="@dimen/ring_weather_box_margin_top" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/ring_mc_layout_margin">
+        <ImageView android:id="@id/normal_mc_icon" android:clickable="false" android:layout_width="@dimen/ring_widget_icon_size" android:layout_height="@dimen/ring_widget_icon_size" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/normal_mc_text1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="0.0dip" style="@style/RingTextBlack.TEXT3" />
+            <TextView android:id="@id/normal_mc_time" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/RingTextBlack.Number3" />
+            <TextView android:id="@id/normal_mc_text2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" style="@style/RingTextBlack.TEXT3" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

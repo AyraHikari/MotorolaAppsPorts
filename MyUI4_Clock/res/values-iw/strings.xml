@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">"א=אביג'אן|Africa/Abidjan"</string>
+    <string name="C10">ד=דקר|Africa/Dakar</string>
+    <string name="C100">ע=עמאן|Asia/Amman</string>
+    <string name="C101">א=אנאדיר|Asia/Anadyr</string>
+    <string name="C102">א=אקטאו|Asia/Aqtau</string>
+    <string name="C103">ב=בגדד|Asia/Baghdad</string>
+    <string name="C104">ב=בחריין|Asia/Bahrain</string>
+    <string name="C105">ב=באקו|Asia/Baku</string>
+    <string name="C106">ב=בנגקוק|Asia/Bangkok</string>
+    <string name="C107">ב=ביירות|Asia/Beirut</string>
+    <string name="C108">=כלכותה|Asia/Calcutta</string>
+    <string name="C109">ד=דמשק|Asia/Damascus</string>
+    <string name="C11">ד=דאר א-סלאם|Africa/Dar_es_Salaam</string>
+    <string name="C110">ד=דאקה|Asia/Dhaka</string>
+    <string name="C111">ד=דובאי|Asia/Dubai</string>
+    <string name="C112">ע=עזה|Asia/Gaza</string>
+    <string name="C113">ח=חברון|Asia/Hebron</string>
+    <string name="C114">"ה=הו צ'י מין|Asia/Ho_Chi_Minh"</string>
+    <string name="C115">ה=הונג קונג:|Asia/Hong_Kong</string>
+    <string name="C117">"ג=ג'קרטה|Asia/Jakarta"</string>
+    <string name="C118">י=ירושלים|Asia/Jerusalem</string>
+    <string name="C119">ק=קבול|Asia/Kabul</string>
+    <string name="C12">"ג=ג'יבוטי|Africa/Djibouti"</string>
+    <string name="C120">"ק=קאראצ'י|Asia/Karachi"</string>
+    <string name="C121">ק=קטמנדו|Asia/Kathmandu</string>
+    <string name="C122">ק=קואלה לומפור|Asia/Kuala_Lumpur</string>
+    <string name="C123">כ=כוויית|Asia/Kuwait</string>
+    <string name="C124">מ=מקאו|Asia/Macau</string>
+    <string name="C125">מ=מנילה|Asia/Manila</string>
+    <string name="C126">מ=מוסקט|Asia/Muscat</string>
+    <string name="C127">פ=פנום פן|Asia/Phnom_Penh</string>
+    <string name="C128">פ=פיונגיאנג:|Asia/Pyongyang</string>
+    <string name="C13">פ=פריטאון|Africa/Freetown</string>
+    <string name="C130">י=ינגון|Asia/Rangoon</string>
+    <string name="C131">ר=ריאד|Asia/Riyadh</string>
+    <string name="C133">ס=סיאול|Asia/Seoul</string>
+    <string name="C134">ש=שנגחאי:|Asia/Shanghai</string>
+    <string name="C135">ס=סינגפור|Asia/Singapore</string>
+    <string name="C136">ט=טאיפיי:|Asia/Taipei</string>
+    <string name="C137">ט=טהרן|Asia/Tehran</string>
+    <string name="C138">ת=תל אביב|Asia/Tel_Aviv</string>
+    <string name="C139">ט=טוקיו:|Asia/Tokyo</string>
+    <string name="C14">ג=גאבורון|Africa/Gaborone</string>
+    <string name="C140">א=אולאנבאטר|Asia/Ulaanbaatar</string>
+    <string name="C141">ב=ברמודה|Atlantic/Bermuda</string>
+    <string name="C142">ק=קנארי|Atlantic/Canary</string>
+    <string name="C143">ק=קייפ ורדה|Atlantic/Cape_Verde</string>
+    <string name="C144">ר=רייקיאוויק|Atlantic/Reykjavik</string>
+    <string name="C145">ס=סטנלי|Atlantic/Stanley</string>
+    <string name="C146">א=אדלייד|Australia/Adelaide</string>
+    <string name="C147">ב=בריסביין|Australia/Brisbane</string>
+    <string name="C148">ק=קנברה|Australia/Canberra</string>
+    <string name="C149">ד=דרווין|Australia/Darwin</string>
+    <string name="C15">ה=הארארה|Africa/Harare</string>
+    <string name="C150">מ=מלבורן|Australia/Melbourne</string>
+    <string name="C151">"נ=ניו-סאות' ווילס|Australia/NSW"</string>
+    <string name="C152">"פ=פרת'|Australia/Perth"</string>
+    <string name="C153">ק=קווינסלנד|Australia/Queensland</string>
+    <string name="C154">ס=סידני|Australia/Sydney</string>
+    <string name="C155">ו=ויקטוריה|Australia/Victoria</string>
+    <string name="C156">נ=ניופאונדלנד|Canada/Newfoundland</string>
+    <string name="C157">"ס=ססקצו'אן|Canada/Saskatchewan"</string>
+    <string name="C158">א=אי הפסחא|Chile/EasterIsland</string>
+    <string name="C159">א=אמסטרדם|Europe/Amsterdam</string>
+    <string name="C16">י=יוהנסבורג|Africa/Johannesburg</string>
+    <string name="C160">א=אנדורה|Europe/Andorra</string>
+    <string name="C161">א=אתונה|Europe/Athens</string>
+    <string name="C162">ב=בלפאסט|Europe/Belfast</string>
+    <string name="C163">ב=בלגרד|Europe/Belgrade</string>
+    <string name="C164">ב=ברלין|Europe/Berlin</string>
+    <string name="C165">ב=ברטיסלאבה|Europe/Bratislava</string>
+    <string name="C166">ב=בריסל|Europe/Brussels</string>
+    <string name="C167">ב=בוקרשט|Europe/Bucharest</string>
+    <string name="C168">ב=בודפשט|Europe/Budapest</string>
+    <string name="C169">ק=קישינב|Europe/Chisinau</string>
+    <string name="C17">ק=קמפלה|Africa/Kampala</string>
+    <string name="C170">ק=קופנהגן|Europe/Copenhagen</string>
+    <string name="C171">ד=דבלין|Europe/Dublin</string>
+    <string name="C172">ג=גיברלטר|Europe/Gibraltar</string>
+    <string name="C173">ה=הלסינקי|Europe/Helsinki</string>
+    <string name="C174">א=האי מאן|Europe/Isle_of_Man</string>
+    <string name="C175">א=איסטנבול|Europe/Istanbul</string>
+    <string name="C176">ק=קייב|Europe/Kiev</string>
+    <string name="C177">ל=ליסבון|Europe/Lisbon</string>
+    <string name="C178">ל=לונדון|Europe/London</string>
+    <string name="C179">ל=לוקסמבורג|Europe/Luxembourg</string>
+    <string name="C18">ח=חרטום|Africa/Khartoum</string>
+    <string name="C180">מ=מדריד|Europe/Madrid</string>
+    <string name="C181">מ=מלטה|Europe/Malta</string>
+    <string name="C182">מ=מינסק|Europe/Minsk</string>
+    <string name="C183">מ=מונקו|Europe/Monaco</string>
+    <string name="C184">מ=מוסקבה|Europe/Moscow</string>
+    <string name="C185">א=אוסלו|Europe/Oslo</string>
+    <string name="C186">פ=פריז|Europe/Paris</string>
+    <string name="C187">פ=פראג|Europe/Prague</string>
+    <string name="C188">ר=ריגה|Europe/Riga</string>
+    <string name="C189">ר=רומא|Europe/Rome</string>
+    <string name="C19">ק=קיגאלי|Africa/Kigali</string>
+    <string name="C190">ס=סן מרינו|Europe/San_Marino</string>
+    <string name="C191">ס=סרייבו|Europe/Sarajevo</string>
+    <string name="C192">ס=סימפרופול|Europe/Simferopol</string>
+    <string name="C193">ס=סקופיה|Europe/Skopje</string>
+    <string name="C194">ס=סופיה|Europe/Sofia</string>
+    <string name="C195">ש=שטוקהולם|Europe/Stockholm</string>
+    <string name="C196">ט=טאלין|Europe/Tallinn</string>
+    <string name="C197">ו=ותיקן|Europe/Vatican</string>
+    <string name="C198">ו=וינה|Europe/Vienna</string>
+    <string name="C199">ו=וילניוס|Europe/Vilnius</string>
+    <string name="C2">א=אקרה|Africa/Accra</string>
+    <string name="C20">ק=קינשאסה|Africa/Kinshasa</string>
+    <string name="C200">ו=ורשה|Europe/Warsaw</string>
+    <string name="C201">ז=זאגרב|Europe/Zagreb</string>
+    <string name="C202">צ=ציריך|Europe/Zurich</string>
+    <string name="C203">א=אנטננריבו|Indian/Antananarivo</string>
+    <string name="C204">מ=האיים המלדיביים|Indian/Maldives</string>
+    <string name="C205">מ=מאוריציוס|Indian/Mauritius</string>
+    <string name="C206">א=אוקלנד|Pacific/Auckland</string>
+    <string name="C207">"פ=פיג'י|Pacific/Fiji"</string>
+    <string name="C208">ג=גואם|Pacific/Guam</string>
+    <string name="C209">ה=הונולולו|Pacific/Honolulu</string>
+    <string name="C21">ל=לאגוס|Africa/Lagos</string>
+    <string name="C210">ק=קיריטימאטי|Pacific/Kiritimati</string>
+    <string name="C211">נ=נומאה|Pacific/Noumea</string>
+    <string name="C214">א=אנטיגואה|America/Antigua</string>
+    <string name="C215">א=אוסטין|America/Chicago</string>
+    <string name="C216">ב=בוסטון|America/New_York</string>
+    <string name="C217">ק=קלגרי|America/Denver</string>
+    <string name="C218">ק=קולומובוס|America/New_York</string>
+    <string name="C219">ד=דאלאס|America/Chicago</string>
+    <string name="C22">מ=מסרו|Africa/Maseru</string>
+    <string name="C220">נ=נוקסוויל|America/New_York</string>
+    <string name="C221">מ=ממפיס|America/Chicago</string>
+    <string name="C222">מ=מיאמי|America/New_York</string>
+    <string name="C223">מ=מיניאפוליס|America/Chicago</string>
+    <string name="C224">א=אוטווה|America/New_York</string>
+    <string name="C225">פ=פילדלפיה|America/New_York</string>
+    <string name="C226">פ=פורטלנד|America/Los_Angeles</string>
+    <string name="C227">ס=סן דייגו|America/Los_Angeles</string>
+    <string name="C228">ס=סן פרנסיסקו|America/Los_Angeles</string>
+    <string name="C229">ס=סולט לייק סיטי|America/Denver</string>
+    <string name="C23">מ=מוגדישו|Africa/Mogadishu</string>
+    <string name="C230">ס=סן חוזה|America/Los_Angeles</string>
+    <string name="C231">ס=סן סלבדור|America/Guatemala</string>
+    <string name="C232">ס=סיאטל|America/Los_Angeles</string>
+    <string name="C233">ס=סנט לואיס|America/Chicago</string>
+    <string name="C234">ו=וושינגטון הבירה|America/New_York</string>
+    <string name="C235">י=יוסטון|America/Chicago</string>
+    <string name="C236">ס=סן אנטוניו|America/Chicago</string>
+    <string name="C237">"ג=ג'קסונוויל|America/New_York"</string>
+    <string name="C238">ב=בולטימור|America/New_York</string>
+    <string name="C239">נ=נאשוויל|America/Chicago</string>
+    <string name="C24">נ=ניירובי|Africa/Nairobi</string>
+    <string name="C240">מ=מילווקי|America/Chicago</string>
+    <string name="C241">א=אוקלהומה סיטי|America/Chicago</string>
+    <string name="C242">ל=לאס וגאס|America/Los_Angeles</string>
+    <string name="C243">א=אלבקרקי|America/Denver</string>
+    <string name="C244">ט=טוסון|MST</string>
+    <string name="C245">ס=סקרמנטו|America/Los_Angeles</string>
+    <string name="C246">א=אטלנטה|America/New_York</string>
+    <string name="C247">ק=קליבלנד|America/New_York</string>
+    <string name="C248">נ=ניו אורלינס|America/Chicago</string>
+    <string name="C249">ט=טמפה|America/New_York</string>
+    <string name="C25">ס=סאו טומה|Africa/Sao_Tome</string>
+    <string name="C250">פ=פיטסבורג|America/New_York</string>
+    <string name="C251">ס=סינסינטי|America/New_York</string>
+    <string name="C252">מ=מאונטיין ויו|America/Los_Angeles</string>
+    <string name="C253">ר=רינו|America/Los_Angeles</string>
+    <string name="C254">ב=בלאק רוק סיטי|America/Los_Angeles</string>
+    <string name="C255">ד=דוחה|Asia/Riyadh</string>
+    <string name="C256">"ב=בייג'ינג:|Asia/Shanghai"</string>
+    <string name="C257">מ=מומבאי|Asia/Kolkata</string>
+    <string name="C258">ד=דלהי|Asia/Kolkata</string>
+    <string name="C259">א=אוסקה:|Asia/Tokyo</string>
+    <string name="C26">ט=טימבקטו|Africa/Timbuktu</string>
+    <string name="C260">ל=לאהור|Asia/Karachi</string>
+    <string name="C261">צ=צנעא|Asia/Riyadh</string>
+    <string name="C262">ב=ברצלונה|Europe/Madrid</string>
+    <string name="C263">מ=מינכן|Europe/Berlin</string>
+    <string name="C264">מ=מילנו|Europe/Rome</string>
+    <string name="C265">פ=פרנקפורט|Europe/Berlin</string>
+    <string name="C266">ה=האנוי|Asia/Bangkok</string>
+    <string name="C267">א=אנקרה|Europe/Istanbul</string>
+    <string name="C268">ב=בנגלור|Asia/Kolkata</string>
+    <string name="C269">ב=ברזיליה|America/Sao_Paulo</string>
+    <string name="C27">ט=טריפולי|Africa/Tripoli</string>
+    <string name="C270">ק=קייפטאון|Africa/Johannesburg</string>
+    <string name="C271">א=איסלמבד|Asia/Karachi</string>
+    <string name="C272">"ר=ריו דה ז'ניירו|America/Sao_Paulo"</string>
+    <string name="C273">א=אן ארבור|America/Detroit</string>
+    <string name="C274">ב=בולדר|America/Denver</string>
+    <string name="C275">"ק=קיימברידג'|America/New_York"</string>
+    <string name="C276">ק=קירקלנד|America/Los_Angeles</string>
+    <string name="C277">מ=מדיסון|America/Chicago</string>
+    <string name="C278">"ג=גואנגג'ו:|Asia/Shanghai"</string>
+    <string name="C279">ה=היידראבאד|Asia/Kolkata</string>
+    <string name="C28">ט=טוניס|Africa/Tunis</string>
+    <string name="C280">ר=רסטון|America/New_York</string>
+    <string name="C281">ב=בלו הוריזונטה|America/Sao_Paulo</string>
+    <string name="C282">ס=סנטיאגו|America/Santiago</string>
+    <string name="C283">מ=מונרוביה|Africa/Monrovia</string>
+    <string name="C284">ק=קולומבו|Asia/Colombo</string>
+    <string name="C285">"צ=צ'יוואווה|America/Chihuahua"</string>
+    <string name="C286">ס=סלבדור|America/Sao_Paulo</string>
+    <string name="C287">ג=גורגאון|Asia/Kolkata</string>
+    <string name="C288">"מ=מנצ'סטר|Europe/London"</string>
+    <string name="C29">"א=אנקורג'|America/Anchorage"</string>
+    <string name="C290">ס=סנט פטרסבורג|Europe/Moscow</string>
+    <string name="C291">ק=קרקוב|Europe/Warsaw</string>
+    <string name="C292">ו=ורוצלב|Europe/Warsaw</string>
+    <string name="C293">ה=המבורג|Europe/Berlin</string>
+    <string name="C294">א=אולו|Europe/Bucharest</string>
+    <string name="C295">ח=חיפה|Asia/Jerusalem</string>
+    <string name="C296">ס=סן חואן|America/Puerto_Rico</string>
+    <string name="C297">ט=טגוסיגלפה|America/Tegucigalpa</string>
+    <string name="C298">פ=פרמאריבו|America/Paramaribo</string>
+    <string name="C299">ק=קיטו|America/Panama</string>
+    <string name="C3">א=אדיס אבבה|Africa/Addis_Ababa</string>
+    <string name="C300">ל=לובליאנה|Europe/Ljubljana</string>
+    <string name="C301">=אשגבאט|Asia/Ashgabat</string>
+    <string name="C302">=אסמרה|Africa/Asmara</string>
+    <string name="C303">=בנדר סרי בגוואן|Asia/Brunei</string>
+    <string name="C304">=בנגי|Africa/Bangui</string>
+    <string name="C305">"=בנג'ול|Africa/Banjul"</string>
+    <string name="C306">=בישקק|Asia/Bishkek</string>
+    <string name="C307">=ביסאו|Africa/Bissau</string>
+    <string name="C308">"=בוג'ומבורה|Africa/Bujumbura"</string>
+    <string name="C309">=דילי|Asia/Dili</string>
+    <string name="C31">א=ארובה|America/Aruba</string>
+    <string name="C310">=דושנבה|Asia/Dushanbe</string>
+    <string name="C311">=פנאפוטי|Pacific/Funafuti</string>
+    <string name="C312">=הוניארה|Pacific/Guadalcanal</string>
+    <string name="C313">"=ג'ובה|Africa/Juba"</string>
+    <string name="C314">=קינגסטאון|America/St_Vincent</string>
+    <string name="C315">=ליברוויל|Africa/Libreville</string>
+    <string name="C316">=לומה|Africa/Lome</string>
+    <string name="C317">=לואנדה|Africa/Luanda</string>
+    <string name="C318">=לוסקה|Africa/Lusaka</string>
+    <string name="C319">"=מג'ורו|Pacific/Majuro"</string>
+    <string name="C32">א=אסונסיון|America/Asuncion</string>
+    <string name="C320">=מלאבו|Africa/Malabo</string>
+    <string name="C321">=מפוטו|Africa/Maputo</string>
+    <string name="C322">=מבבנה|Africa/Mbabane</string>
+    <string name="C323">=מורוני|Indian/Comoro</string>
+    <string name="C324">"=נג'מנה|Africa/Ndjamena"</string>
+    <string name="C325">=נגרולמוד|Pacific/Palau</string>
+    <string name="C326">=ניאמיי|Africa/Niamey</string>
+    <string name="C327">=ניקוסיה|Europe/Nicosia</string>
+    <string name="C328">=נואקשוט|Africa/Nouakchott</string>
+    <string name="C329">=נוקואלופה|Pacific/Tongatapu</string>
+    <string name="C33">ב=ברבדוס|America/Barbados</string>
+    <string name="C330">=ואגאדוגו|Africa/Ouagadougou</string>
+    <string name="C331">=פליקיר|Pacific/Noumea</string>
+    <string name="C332">=פיליפסבורג|America/Lower_Princes</string>
+    <string name="C333">=פודגוריצה|Europe/Podgorica</string>
+    <string name="C334">=פורט מורסבי|Pacific/Palau</string>
+    <string name="C335">=פורט וילה|Pacific/Efate</string>
+    <string name="C336">=פורטו נובו|Africa/Porto-Novo</string>
+    <string name="C337">=פרישטינה|Europe/Belgrade</string>
+    <string name="C338">=רוזו|America/Dominica</string>
+    <string name="C339">=טשקנט|Asia/Tashkent</string>
+    <string name="C34">ב=בליז|America/Belize</string>
+    <string name="C340">=טביליסי|Asia/Tbilisi</string>
+    <string name="C341">=טהימפהו|Asia/Thimphu</string>
+    <string name="C342">=טירנה|Europe/Tirane</string>
+    <string name="C343">=ואדוץ|Europe/Vaduz</string>
+    <string name="C344">=ויינטיאן|Asia/Vientiane</string>
+    <string name="C345">=וינדהוק|Africa/Windhoek</string>
+    <string name="C346">=יאונדה|Africa/Douala</string>
+    <string name="C347">=מחוז יארן|Pacific/Nauru</string>
+    <string name="C348">=ירוואן|Asia/Yerevan</string>
+    <string name="C35">ב=בוגוטה|America/Bogota</string>
+    <string name="C36">ב=בואנוס איירס|America/Buenos_Aires</string>
+    <string name="C37">ק=קנקון|America/Cancun</string>
+    <string name="C38">ק=קראקס|America/Caracas</string>
+    <string name="C39">ק=קיימן|America/Cayman</string>
+    <string name="C4">"א=אלג'יר|Africa/Algiers"</string>
+    <string name="C40">ש=שיקגו|America/Chicago</string>
+    <string name="C42">ק=קוראסאו|America/Curacao</string>
+    <string name="C43">ד=דוסון קריק|America/Dawson_Creek</string>
+    <string name="C44">ד=דנבר|America/Denver</string>
+    <string name="C45">ד=דטרויט|America/Detroit</string>
+    <string name="C46">ד=דומיניקה|America/Dominica</string>
+    <string name="C47">א=אדמונטון|America/Edmonton</string>
+    <string name="C48">א=אל סלבדור|America/El_Salvador</string>
+    <string name="C49">פ=פורטלזה|America/Fortaleza</string>
+    <string name="C5">ב=בלאנטיר|Africa/Blantyre</string>
+    <string name="C50">ג=גראנד טורק|America/Grand_Turk</string>
+    <string name="C51">ג=גרנדה|America/Grenada</string>
+    <string name="C52">ג=גואטמלה סיטי|America/Guatemala</string>
+    <string name="C53">ג=גיאנה|America/Guyana</string>
+    <string name="C54">ה=האליפקס|America/Halifax</string>
+    <string name="C55">ה=הוואנה|America/Havana</string>
+    <string name="C56">א=אינדיאנפוליס|America/Indiana/Indianapolis</string>
+    <string name="C57">נ=נוקס|America/Indiana/Knox</string>
+    <string name="C58">מ=מרנגו|America/Indiana/Marengo</string>
+    <string name="C59">פ=פטרסבורג|America/Indiana/Petersburg</string>
+    <string name="C6">ב=ברזוויל|Africa/Brazzaville</string>
+    <string name="C60">ט=טל סיטי|America/Indiana/Tell_City</string>
+    <string name="C61">‏ו=וויי (Vevay)|America/Indiana/Vevay</string>
+    <string name="C62">ו=וינסנס|America/Indiana/Vincennes</string>
+    <string name="C63">ו=ווינאמאק|America/Indiana/Winamac</string>
+    <string name="C64">ק=קינגסטון|America/Jamaica</string>
+    <string name="C65">נ=נואסטרה סניורה דה לה פז|America/La_Paz</string>
+    <string name="C66">ל=לימה|America/Lima</string>
+    <string name="C67">"ל=לוס אנג'לס|America/Los_Angeles"</string>
+    <string name="C68">ל=לואיוויל|America/Louisville</string>
+    <string name="C69">מ=מנאגואה|America/Managua</string>
+    <string name="C7">ק=קהיר|Africa/Cairo</string>
+    <string name="C70">מ=מרטיניק|America/Martinique</string>
+    <string name="C71">מ=מנדוזה|America/Mendoza</string>
+    <string name="C72">מ=מטלאקאטלה|America/Metlakatla</string>
+    <string name="C73">מ=מקסיקו סיטי|America/Mexico_City</string>
+    <string name="C74">מ=מונטריי|America/Monterrey</string>
+    <string name="C75">מ=מונטווידאו|America/Montevideo</string>
+    <string name="C76">מ=מונטריאול|America/Montreal</string>
+    <string name="C77">נ=נסאו|America/Nassau</string>
+    <string name="C78">נ=ניו יורק|America/New_York</string>
+    <string name="C79">ב=ביולה|America/North_Dakota/Beulah</string>
+    <string name="C8">ק=קזבלנקה|Africa/Casablanca</string>
+    <string name="C80">ס=סנטר|America/North_Dakota/Center</string>
+    <string name="C81">נ=ניו סיילם|America/North_Dakota/New_Salem</string>
+    <string name="C82">פ=פנמה|America/Panama</string>
+    <string name="C83">פ=פניקס|America/Phoenix</string>
+    <string name="C84">פ=פורט אוף ספיין|America/Port_of_Spain</string>
+    <string name="C85">פ=פורט-או-פרנס|America/Port-au-Prince</string>
+    <string name="C86">פ=פוארטו ריקו|America/Puerto_Rico</string>
+    <string name="C87">ס=סנטו דומינגו|America/Santo_Domingo</string>
+    <string name="C88">ס=סאו פאולו|America/Sao_Paulo</string>
+    <string name="C89">"ס=סנט ג'ונס|America/St_Johns"</string>
+    <string name="C9">ק=קונאקרי|Africa/Conakry</string>
+    <string name="C90">ס=סנט קיטס|America/St_Kitts</string>
+    <string name="C91">ס=סנט לוסיה|America/St_Lucia</string>
+    <string name="C92">ס=סנט תומס|America/St_Thomas</string>
+    <string name="C93">ט=טיחואנה|America/Tijuana</string>
+    <string name="C94">ט=טורונטו|America/Toronto</string>
+    <string name="C95">ו=ונקובר|America/Vancouver</string>
+    <string name="C96">ו=וויניפג|America/Winnipeg</string>
+    <string name="C97">ק=הקוטב הדרומי:|Antarctica/South_Pole</string>
+    <string name="C98">ל=לונגיירביאן|Arctic/Longyearbyen</string>
+    <string name="C99">א=אלמטי|Asia/Almaty</string>
+    <string name="abc_action_bar_home_description">ניווט לדף הבית</string>
+    <string name="abc_action_bar_up_description">ניווט למעלה</string>
+    <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
+    <string name="abc_action_mode_done">סיום</string>
+    <string name="abc_activity_chooser_view_see_all">הצגת הכול</string>
+    <string name="abc_activitychooserview_choose_application">בחירת אפליקציה</string>
+    <string name="abc_capital_off">כבוי</string>
+    <string name="abc_capital_on">מופעל</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">מחיקה</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">רווח</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">תפריט+</string>
+    <string name="abc_search_hint">חיפוש…</string>
+    <string name="abc_searchview_description_clear">מחיקת השאילתה</string>
+    <string name="abc_searchview_description_query">שאילתת חיפוש</string>
+    <string name="abc_searchview_description_search">חיפוש</string>
+    <string name="abc_searchview_description_submit">שליחת שאילתה</string>
+    <string name="abc_searchview_description_voice">חיפוש קולי</string>
+    <string name="abc_shareactionprovider_share_with">שיתוף עם</string>
+    <string name="abc_shareactionprovider_share_with_application">שיתוף עם %s</string>
+    <string name="abc_toolbar_collapse_description">כיווץ</string>
+    <string name="action_delete">מחק</string>
+    <string name="action_left_edit">ערוך</string>
+    <string name="add_remark">הוסף הערות</string>
+    <string name="alarm_afternoon" />
+    <string name="alarm_alert_snooze_set">נמנום ל-%d דקות.</string>
+    <string name="alarm_classic">התראה קלאסית</string>
+    <string name="alarm_flip_setting">הגדרת פליפ</string>
+    <string name="alarm_is_set">שעון מעורר מוגדר ל-%s</string>
+    <string name="alarm_is_snoozed">%s שעון מעורר מנמנם ל-10 דקות</string>
+    <string name="alarm_missed_title">שעון מעורר שהתפספס</string>
+    <string name="alarm_morning" />
+    <string name="alarm_mute_ringing_switch">צלצול במצב שקט</string>
+    <string name="alarm_notif_title">שעונים מעוררים קרבים</string>
+    <string name="alarm_reapt">חזור</string>
+    <string name="alarm_reminder_tv">זמן עם מרחק של %6 מהצלצול</string>
+    <string name="alarm_repeat">חזור</string>
+    <string name="alarm_ring" />
+    <string name="alarm_setting_flip_close_alarm_intro">לאחר שזה נסגר, שעון המעורר ניתן לכיבוי רק על ידי החלקה כלפי מעלה.</string>
+    <string name="alarm_setting_flip_close_alarm_title">החלק למעלה או למטה לעצירת שעון המעורר</string>
+    <string name="alarm_settings">שעונים מעוררים</string>
+    <string name="alarm_shutdown_ringing_switch">צלצל כאשר הטלפון סגור</string>
+    <string name="alarm_time_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="alarm_time_activity">שעון מעורר הסתיים</string>
+    <string name="alarm_time_after_now">%s שעות מאחור</string>
+    <string name="alarm_time_before_now">%s שעות קדימה</string>
+    <string name="alarm_time_equal_now">אותו הזמן</string>
+    <string name="alarm_time_format">E, MMM d</string>
+    <string name="alarm_vibe_switch">מתג רטט</string>
+    <string name="alarm_volume_title">עוצמת קול שעון מעורר (טיימר)</string>
+    <string name="alarm_week">מותאם אישית</string>
+    <string name="alert_dismiss_text">התעלם</string>
+    <string name="alert_remind_later">מנמנם</string>
+    <string name="app_label">שעון</string>
+    <string name="auto_silence_never">אף פעם</string>
+    <string name="auto_silence_summary">%d דקות</string>
+    <string name="auto_silence_title">השתק לאחר</string>
+    <string name="automatic_home_clock">שעון בית אוטומטי</string>
+    <string name="automatic_home_clock_summary">במהלך נסיעות באזור זמו שונה, הוסף שעון עבור בית</string>
+    <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
+    <string name="cancel_dialog">ביטול</string>
+    <string name="character_counter_content_description">הוזנו %1$d תווים מתוך %2$d</string>
+    <string name="character_counter_overflowed_content_description">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
+    <string name="check_draw_overlay_permission">Check the permission for clock PopupWindow</string>
+    <string name="cities_activity_title">הוסף ערים</string>
+    <string name="city_count_over_limit">עליך להסיר עיר על מנת להוסיף אחת חדשה</string>
+    <string name="clear_text_end_icon_content_description">מחיקת הטקסט</string>
+    <string name="clock_24_hours_format">kk:mm</string>
+    <string name="clock_settings">שעון</string>
+    <string name="clock_style">סגנון</string>
+    <string name="close_alarm_notif">התעלם</string>
+    <string name="copy">העתקה</string>
+    <string name="cta_content_agree_go_on">מסכים</string>
+    <string name="cta_content_exit">יציאה</string>
+    <string name="custom_volume">עוצמת קול מותאמת אישית</string>
+    <string name="custom_volume_silence">צלצול שקט</string>
+    <string name="day">יום 1</string>
+    <string name="day_afternoon">PM</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">AM</string>
+    <string name="day_evening">PM</string>
+    <string name="day_midnoon">PM</string>
+    <string name="day_morning">AM</string>
+    <string name="days">%s ימים</string>
+    <string name="days_of_week_day" />
+    <string name="default_label">שעון מעורר</string>
+    <string name="default_ring_title">בוקר חדש</string>
+    <string name="delete_failed">המחיקה נכשלה</string>
+    <string name="delete_successfully">נמחק</string>
+    <string name="delete_world_clock_confirm_tips">האם למחוק %d ערים?</string>
+    <string name="delete_world_clock_confirm_tips_one">האם למחוק את העיר?</string>
+    <string name="deselect">בטל בחירה של הכל</string>
+    <string name="display_once">אין הודעה שוב</string>
+    <string name="down_holidays_suscess">נתוני חופשים הורדו בהצלחה, אנא אפס</string>
+    <string name="edit_alarm">ערוך שעון מעורר</string>
+    <string name="edit_alarm_cancel">ביטול</string>
+    <string name="edit_alarm_delete_cancel">ביטול</string>
+    <string name="edit_alarm_delete_ok">מחק</string>
+    <string name="edit_alarm_done">בוצע</string>
+    <string name="edit_alarm_give_up_dialog">בטל שינויים?</string>
+    <string name="edit_alarm_label_remind">26 תווים מקסימום</string>
+    <string name="edit_alarm_last_ring_tv">משך זמן נמנום</string>
+    <string name="edit_alarm_no_label">אין תווית</string>
+    <string name="edit_alarm_remark">הערות</string>
+    <string name="edit_alarm_sleep_mode">נמנום</string>
+    <string name="edit_alarm_title">הוספת שעון מעורר</string>
+    <string name="edit_alarm_vibe">רטט בצלצול</string>
+    <string name="edit_alarm_volume_mode">עוצמת קול</string>
+    <string name="edit_alarm_weather">שדר את מזג האוויר כאשר הפעמון מצלצל</string>
+    <string name="edit_list_alarm_select">בחר פריט</string>
+    <string name="edit_list_alarm_selected_dialog">האם למחוק את שעון המעורר?</string>
+    <string name="edit_list_alarm_selected_number">נבחרו %d</string>
+    <string name="edit_list_alarms_selected_dialog">האם למחוק %d שעונים מעוררים?</string>
+    <string name="empty_list_msg">לא נמצאו תוצאות</string>
+    <string name="end_snooze">סיום נמנום</string>
+    <string name="error_icon_content_description">שגיאה</string>
+    <string name="every_day">כל יום</string>
+    <string name="expand_button_title">מתקדם</string>
+    <string name="exposed_dropdown_menu_content_description">הצגת התפריט הנפתח</string>
+    <string name="give_up_dialog">מחק</string>
+    <string name="holidays_info">ימי עבודה</string>
+    <string name="home_time_zone">אזור זמן בית</string>
+    <string name="home_time_zone_title">אזור זמן בית</string>
+    <string name="hour">1 שעה</string>
+    <string name="hours">%s שעות</string>
+    <string name="icon_content_description">סמל לתיבת דו-שיח</string>
+    <string name="invalid_time">שעה לא חוקית %1$d:%2$d %3$s</string>
+    <string name="item_view_role_description">מקש Tab</string>
+    <string name="label">תווית</string>
+    <string name="label_description">תווית</string>
+    <string name="local">מקומי</string>
+    <string name="lock_screen_weather_playing_text">צלצול מזג האוויר מנגן</string>
+    <string name="material_clock_toggle_content_description">יש לבחור ב-AM או ב-PM</string>
+    <string name="material_hour_selection">בחר שעה</string>
+    <string name="material_hour_suffix">השעה %1$s</string>
+    <string name="material_minute_selection">בחר דקות</string>
+    <string name="material_minute_suffix">%1$s דקות</string>
+    <string name="material_timepicker_am">לפנה\"צ</string>
+    <string name="material_timepicker_clock_mode_description">העבר למצב שעון לצורך הזנת השעה</string>
+    <string name="material_timepicker_hour">שעה</string>
+    <string name="material_timepicker_minute">דקה</string>
+    <string name="material_timepicker_pm">אחה\"צ</string>
+    <string name="material_timepicker_select_time">בחר שעה</string>
+    <string name="material_timepicker_text_input_mode_description">העבר למצב קלט טקסט לצורך הזנת השעה</string>
+    <string name="menu_alarm">שעון מעורר</string>
+    <string name="menu_clock">שעון</string>
+    <string name="menu_item_help">עזרה</string>
+    <string name="menu_item_night_mode">מצב לילה</string>
+    <string name="menu_item_settings">הגדרות</string>
+    <string name="menu_item_sort_by_gmt_offset">מיין לפי שעה</string>
+    <string name="menu_stopwatch">שעון עצר</string>
+    <string name="menu_timer">טיימר</string>
+    <string name="minute">1 דקה</string>
+    <string name="minute_unit">m</string>
+    <string name="minutes">%s דקות</string>
+    <string name="missed_alarm_has_been_deleted">השעון המעורר שלך שהתפספס נמחק</string>
+    <string name="mtrl_badge_numberless_content_description">התראה חדשה</string>
+    <string name="mtrl_chip_close_icon_content_description">הסרה של %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">יותר מ-%1$d התראות חדשות</string>
+    <string name="mtrl_picker_a11y_next_month">מעבר לחודש הבא</string>
+    <string name="mtrl_picker_a11y_prev_month">מעבר לחודש הקודם</string>
+    <string name="mtrl_picker_announce_current_selection">הבחירה הנוכחית: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">יש לבחור תאריך</string>
+    <string name="mtrl_picker_date_header_unselected">התאריך הנבחר</string>
+    <string name="mtrl_picker_day_of_week_column_header">עמודה של ימים: %1$s</string>
+    <string name="mtrl_picker_invalid_format">פורמט לא חוקי.</string>
+    <string name="mtrl_picker_invalid_format_example">דוגמה: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">יש להשתמש בפורמט: %1$s</string>
+    <string name="mtrl_picker_invalid_range">טווח לא חוקי.</string>
+    <string name="mtrl_picker_navigate_to_year_description">ניווט לשנת %1$s</string>
+    <string name="mtrl_picker_out_of_range">מחוץ לטווח: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">תאריך התחלה – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – תאריך סיום</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">יש לבחור טווח</string>
+    <string name="mtrl_picker_range_header_unselected">תאריך התחלה - תאריך סיום</string>
+    <string name="mtrl_picker_save">שמירה</string>
+    <string name="mtrl_picker_text_input_date_hint">תאריך</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">תאריך סיום</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">תאריך התחלה</string>
+    <string name="mtrl_picker_text_input_day_abbr">י</string>
+    <string name="mtrl_picker_text_input_month_abbr">ח</string>
+    <string name="mtrl_picker_text_input_year_abbr">ש</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">החלפה לשיטת קלט של יומן</string>
+    <string name="mtrl_picker_toggle_to_day_selection">יש להקיש כדי להחליף לבחירת יום</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">החלפה לשיטת קלט של טקסט</string>
+    <string name="mtrl_picker_toggle_to_year_selection">יש להקיש כדי להחליף לבחירת שנה</string>
+    <string name="net_connect_prompt_title">הודעת הרשאה</string>
+    <string name="never">אף פעם</string>
+    <string name="next_alarm_description">השעון המעורר הבא: %s</string>
+    <string name="no_alarms">אין שעונים מעוררים</string>
+    <string name="no_firing_alarms">אין שעונים מעוררים פעילים</string>
+    <string name="no_holiday_data_prompt">ימי עבודה(התחבר אל WiFi בפעם הראשונה)</string>
+    <string name="no_music">אין מוזיקה מקומית</string>
+    <string name="no_record">אין הקלטות מקומיות</string>
+    <string name="not_set">לא מוגדרת</string>
+    <string name="notification_channel_name">הודעות שעון</string>
+    <string name="number_picker_hour">H</string>
+    <string name="number_picker_minute">M</string>
+    <string name="number_picker_second">S</string>
+    <string name="ok_dialog">בסדר</string>
+    <string name="once">פעם אחת</string>
+    <string name="password_toggle_content_description">הצגת סיסמה</string>
+    <string name="pick_from_music">בחר ממוסיקה</string>
+    <string name="pick_from_recorder">בחר מהקלטה קולית</string>
+    <string name="pick_from_ringtone">בחר מצלצול</string>
+    <string name="poweroff_alarm">כבה שעון מעורר</string>
+    <string name="poweroff_alarm_close_tips">גם כאשר הטלפון כבוי, שעונים מעוררים יצלצלו כל עוד שעת ההגדרה היא יותר מ-5 דקות.</string>
+    <string name="poweroff_alarm_open_tips">גם כאשר הטלפון כבוי, שעונים מעוררים יצלצלו כל עוד שעת ההגדרה היא יותר מ-5 דקות.</string>
+    <string name="poweroff_prompt_dlg_close">עבור אל</string>
+    <string name="poweroff_prompt_dlg_msg">צלצל כאשר הטלפון סגור. ניתן לכבות את התכונה בהגדרות שעון המעורר</string>
+    <string name="poweroff_prompt_dlg_ok">אישור</string>
+    <string name="poweroff_prompt_dlg_title">כיבוי שעון מעורר מאופשר</string>
+    <string name="preference_copied">\"%1$s\" הועתק ללוח.</string>
+    <string name="repeat_public_weekdays">ימי עבודה</string>
+    <string name="ring_chose">צלצול</string>
+    <string name="ringtone">צלצול</string>
+    <string name="search_hint">עיר/מדינה</string>
+    <string name="search_local_music">חפש מוזיקה מקומית</string>
+    <string name="search_local_record">חפש אלבום מקומי</string>
+    <string name="search_menu_title">חיפוש</string>
+    <string name="second_unit">s</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="settings">הגדרות</string>
+    <string name="show_notif">הצג שעונים מעוררים קרבים במרכז ההודעות</string>
+    <string name="show_notif_open_tips">הודעות שעון מעורר יוצגו במרכז ההודעות בתוך 2 שעות לפני הצלצול.</string>
+    <string name="silent_alarm">שקט</string>
+    <string name="silent_alarm_summary">שקט</string>
+    <string name="skip_alarm_next_time_normal">השעון המעורר שדולג יצלצל בפעם הבאה</string>
+    <string name="snooze_duration_title">אורך נמנום</string>
+    <string name="snooze_interval_later">מאוחר יותר</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">שירות שעון עצר להרצת ההתראה.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="sw_lap_button">סיבוב</string>
+    <string name="sw_notification_lap_number">סיבוב %d</string>
+    <string name="sw_pause_button">השהה</string>
+    <string name="sw_reset_button">איפוס</string>
+    <string name="sw_resume_button">חדש פעולה</string>
+    <string name="sw_share_laps">זמני סיבובים:</string>
+    <string name="sw_share_main">הזמן שלי הינו %s</string>
+    <string name="sw_unit_digits">h m s</string>
+    <string name="swn_stopped">נעצר</string>
+    <string name="sync_alarm_from_server_completed">שירות ענן עדכן את נתוני השעון</string>
+    <string name="time_handle_text_degree_unit">m</string>
+    <string name="time_span_unit_hour">שעה</string>
+    <string name="time_span_unit_minute">דקה</string>
+    <string name="time_span_unit_second">שנייה</string>
+    <string name="timer_am">AM</string>
+    <string name="timer_close">סגור</string>
+    <string name="timer_dialog_btn_cancel">ביטול</string>
+    <string name="timer_dialog_btn_start">התחל</string>
+    <string name="timer_dialog_title">הגדר שעה</string>
+    <string name="timer_fullscreen_prompt">החלק למעלה לעצירה</string>
+    <string name="timer_fullscreen_summary_after">שעון עצר הסתיים</string>
+    <string name="timer_missed_title">טיימר התפספס</string>
+    <string name="timer_notification_label">טיימר</string>
+    <string name="timer_picker_hour_unit">h</string>
+    <string name="timer_picker_minute_unit">m</string>
+    <string name="timer_picker_second_unit">s</string>
+    <string name="timer_ring_dialog_title">מצב צלצול</string>
+    <string name="timer_ring_service_desc">השמע שירות נגינה עבור טיימרים המוגדרים בשעון.</string>
+    <string name="timer_stopped">טיימר נעצר</string>
+    <string name="timing">תזמון</string>
+    <string name="title_local_music">מקומי</string>
+    <string name="title_record">הקלט אודיו</string>
+    <string name="title_ringstone">צלצול</string>
+    <string name="touch_on_close">החלק למעלה לעצירת שעון המעורר</string>
+    <string name="touchupclose">החלק למעלה או למטה לעצירת שעון המעורר</string>
+    <string name="update_holiday_summary">זהה עדכונים זמינים בנתוני החופשים</string>
+    <string name="update_holiday_title">עדכן נתוני חופשים</string>
+    <string name="v7_preference_off">כבוי</string>
+    <string name="v7_preference_on">מופעל</string>
+    <string name="volume_button_setting_title">לחצני עוצמת קול</string>
+    <string name="weather_key_rain">גשם</string>
+    <string name="weekly" />
+    <string name="world_clock_12_hours_format">h:mm <b><font face="sans-serif-condensed" size="14">a</font></b></string>
+    <string name="world_time_today">היום</string>
+    <string name="world_time_tomorrow">מחר</string>
+    <string name="world_time_yesterday">אתמול</string>
+</resources>

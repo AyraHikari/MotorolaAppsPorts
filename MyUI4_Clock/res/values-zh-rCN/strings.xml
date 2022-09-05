@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="C1">A=阿比让|Africa/Abidjan| (科特迪瓦)</string>
+    <string name="C10">D=达喀尔|Africa/Dakar| (塞内加尔)</string>
+    <string name="C100">A=安曼|Asia/Amman| (约旦)</string>
+    <string name="C101">A=阿纳德尔|Asia/Anadyr| (俄罗斯)</string>
+    <string name="C102">A=阿克套|Asia/Aqtau| (哈萨克斯坦)</string>
+    <string name="C103">B=巴格达|Asia/Baghdad| (伊拉克)</string>
+    <string name="C104">B=巴林|Asia/Bahrain| (巴林王国)</string>
+    <string name="C105">B=巴库|Asia/Baku| (阿塞拜疆)</string>
+    <string name="C106">M=曼谷|Asia/Bangkok| (泰国)</string>
+    <string name="C107">B=贝鲁特|Asia/Beirut| (黎巴嫩)</string>
+    <string name="C108">J=加尔各答|Asia/Calcutta| (印度)</string>
+    <string name="C109">D=大马士革|Asia/Damascus| (叙利亚)</string>
+    <string name="C11">D=达累斯萨拉姆|Africa/Dar_es_Salaam| (坦桑尼亚)</string>
+    <string name="C110">D=达卡|Asia/Dhaka| (孟加拉国)</string>
+    <string name="C111">D=迪拜|Asia/Dubai| (阿拉伯联合酋长国)</string>
+    <string name="C112">J=加沙|Asia/Gaza| (加沙)</string>
+    <string name="C113">X=希伯伦|Asia/Hebron| (巴勒斯坦)</string>
+    <string name="C114">H=胡志明市|Asia/Ho_Chi_Minh| (越南)</string>
+    <string name="C115">X=香港:|Asia/Hong_Kong| (中国)</string>
+    <string name="C117">Y=雅加达|Asia/Jakarta| (印度尼西亚)</string>
+    <string name="C118">Y=耶路撒冷|Asia/Jerusalem| (耶路撒冷)</string>
+    <string name="C119">K=喀布尔|Asia/Kabul| (阿富汗)</string>
+    <string name="C12">J=吉布提|Africa/Djibouti| (吉布提)</string>
+    <string name="C120">K=卡拉奇|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C121">J=加德满都|Asia/Kathmandu| (尼泊尔)</string>
+    <string name="C122">J=吉隆坡|Asia/Kuala_Lumpur| (马来西亚)</string>
+    <string name="C123">K=科威特|Asia/Kuwait| (科威特)</string>
+    <string name="C124">A=澳门|Asia/Macau| (中国)</string>
+    <string name="C125">M=马尼拉|Asia/Manila| (菲律宾)</string>
+    <string name="C126">M=马斯喀特|Asia/Muscat| (阿曼)</string>
+    <string name="C127">J=金边|Asia/Phnom_Penh| (柬埔寨)</string>
+    <string name="C128">P=平壤:|Asia/Pyongyang| (朝鲜)</string>
+    <string name="C13">F=弗里敦|Africa/Freetown| (塞拉利昂)</string>
+    <string name="C130">Y=仰光|Asia/Rangoon| (缅甸)</string>
+    <string name="C131">L=利雅得|Asia/Riyadh| (沙特阿拉伯)</string>
+    <string name="C133">S=首尔|Asia/Seoul| (韩国)</string>
+    <string name="C134">S=上海:|Asia/Shanghai| (中国)</string>
+    <string name="C135">X=新加坡|Asia/Singapore| (新加坡)</string>
+    <string name="C136">T=台北:|Asia/Taipei| (中国)</string>
+    <string name="C137">D=德黑兰|Asia/Tehran| (伊朗)</string>
+    <string name="C138">T=特拉维夫|Asia/Tel_Aviv| (以色列)</string>
+    <string name="C139">D=东京:|Asia/Tokyo| (日本)</string>
+    <string name="C14">H=哈博罗内|Africa/Gaborone| (博茨瓦纳)</string>
+    <string name="C140">W=乌兰巴托|Asia/Ulaanbaatar| (蒙古)</string>
+    <string name="C141">B=百慕大|Atlantic/Bermuda| (百慕大群岛)</string>
+    <string name="C142">J=加那利|Atlantic/Canary| (西班牙)</string>
+    <string name="C143">F=佛得角|Atlantic/Cape_Verde| (佛得角共和国)</string>
+    <string name="C144">L=雷克雅未克|Atlantic/Reykjavik| (冰岛)</string>
+    <string name="C145">S=斯坦利|Atlantic/Stanley| (福克兰群岛)</string>
+    <string name="C146">A=阿德莱德|Australia/Adelaide| (澳大利亚)</string>
+    <string name="C147">B=布里斯班|Australia/Brisbane| (澳大利亚)</string>
+    <string name="C148">K=堪培拉|Australia/Canberra| (澳大利亚)</string>
+    <string name="C149">D=达尔文|Australia/Darwin| (澳大利亚)</string>
+    <string name="C15">H=哈拉雷|Africa/Harare| (津巴布韦)</string>
+    <string name="C150">M=墨尔本|Australia/Melbourne| (澳大利亚)</string>
+    <string name="C151">X=新南威尔士|Australia/NSW| (澳大利亚)</string>
+    <string name="C152">P=珀斯|Australia/Perth| (澳大利亚)</string>
+    <string name="C153">K=昆士兰|Australia/Queensland| (澳大利亚)</string>
+    <string name="C154">X=悉尼|Australia/Sydney| (澳大利亚)</string>
+    <string name="C155">W=维多利亚|Australia/Victoria| (澳大利亚)</string>
+    <string name="C156">N=纽芬兰|Canada/Newfoundland| (加拿大)</string>
+    <string name="C157">S=萨斯喀彻温|Canada/Saskatchewan| (加拿大)</string>
+    <string name="C158">F=复活节岛|Chile/EasterIsland| (荷兰)</string>
+    <string name="C159">A=阿姆斯特丹|Europe/Amsterdam| (荷兰)</string>
+    <string name="C16">Y=约翰内斯堡|Africa/Johannesburg| (南非)</string>
+    <string name="C160">A=安道尔|Europe/Andorra| (安道尔)</string>
+    <string name="C161">Y=雅典|Europe/Athens| (希腊)</string>
+    <string name="C162">B=贝尔法斯特|Europe/Belfast| (北爱尔兰)</string>
+    <string name="C163">B=贝尔格莱德|Europe/Belgrade| (塞尔维亚)</string>
+    <string name="C164">B=柏林|Europe/Berlin| (德国)</string>
+    <string name="C165">B=布拉迪斯拉发|Europe/Bratislava| (斯洛伐克共和国)</string>
+    <string name="C166">B=布鲁塞尔|Europe/Brussels| (比利时)</string>
+    <string name="C167">B=布加勒斯特|Europe/Bucharest| (罗马尼亚)</string>
+    <string name="C168">B=布达佩斯|Europe/Budapest| (匈牙利)</string>
+    <string name="C169">J=基希讷乌|Europe/Chisinau| (摩尔多瓦)</string>
+    <string name="C17">K=坎帕拉|Africa/Kampala| (乌干达)</string>
+    <string name="C170">G=哥本哈根|Europe/Copenhagen| (丹麦)</string>
+    <string name="C171">D=都柏林|Europe/Dublin| (爱尔兰)</string>
+    <string name="C172">Z=直布罗陀|Europe/Gibraltar| (直布罗陀)</string>
+    <string name="C173">H=赫尔辛基|Europe/Helsinki| (芬兰)</string>
+    <string name="C174">M=马恩岛|Europe/Isle_of_Man| (英国)</string>
+    <string name="C175">Y=伊斯坦布尔|Europe/Istanbul| (土耳其)</string>
+    <string name="C176">J=基辅|Europe/Kiev| (乌克兰)</string>
+    <string name="C177">L=里斯本|Europe/Lisbon| (葡萄牙)</string>
+    <string name="C178">L=伦敦|Europe/London| (英国)</string>
+    <string name="C179">L=卢森堡|Europe/Luxembourg| (卢森堡)</string>
+    <string name="C18">K=喀土穆|Africa/Khartoum| (苏丹)</string>
+    <string name="C180">M=马德里|Europe/Madrid| (西班牙)</string>
+    <string name="C181">M=马耳他|Europe/Malta| (马耳他共和国)</string>
+    <string name="C182">M=明斯克|Europe/Minsk| (白俄罗斯)</string>
+    <string name="C183">M=摩纳哥|Europe/Monaco| (摩纳哥)</string>
+    <string name="C184">M=莫斯科|Europe/Moscow| (俄罗斯)</string>
+    <string name="C185">A=奥斯陆|Europe/Oslo| (挪威)</string>
+    <string name="C186">B=巴黎|Europe/Paris| (法国)</string>
+    <string name="C187">B=布拉格|Europe/Prague| (捷克共和国)</string>
+    <string name="C188">L=里加|Europe/Riga| (拉脱维亚)</string>
+    <string name="C189">L=罗马|Europe/Rome| (意大利)</string>
+    <string name="C19">J=基加利|Africa/Kigali| (卢旺达)</string>
+    <string name="C190">S=圣马力诺|Europe/San_Marino| (圣马力诺共和国)</string>
+    <string name="C191">S=萨拉热窝|Europe/Sarajevo| ( 波斯尼亚和黑塞哥维纳)</string>
+    <string name="C192">X=辛菲罗波尔|Europe/Simferopol| (乌克兰)</string>
+    <string name="C193">S=斯科普里|Europe/Skopje| (北马其顿共和国)</string>
+    <string name="C194">S=索非亚|Europe/Sofia| (保加利亚)</string>
+    <string name="C195">S=斯德哥尔摩|Europe/Stockholm| (瑞典)</string>
+    <string name="C196">T=塔林|Europe/Tallinn| (爱沙尼亚)</string>
+    <string name="C197">F=梵帝冈|Europe/Vatican| (梵帝冈)</string>
+    <string name="C198">W=维也纳|Europe/Vienna| (奥地利)</string>
+    <string name="C199">W=维尔纽斯|Europe/Vilnius| (立陶宛)</string>
+    <string name="C2">A=阿克拉|Africa/Accra| (加纳)</string>
+    <string name="C20">J=金沙萨|Africa/Kinshasa| (刚果民主共和国)</string>
+    <string name="C200">H=华沙|Europe/Warsaw| (波兰)</string>
+    <string name="C201">S=萨格勒布|Europe/Zagreb| (克罗地亚)</string>
+    <string name="C202">S=苏黎世|Europe/Zurich| (瑞士)</string>
+    <string name="C203">T=塔那那利佛|Indian/Antananarivo| (马达加斯加)</string>
+    <string name="C204">M=马尔代夫|Indian/Maldives| (马尔代夫共和国)</string>
+    <string name="C205">M=毛里求斯|Indian/Mauritius| (毛里求斯共和国)</string>
+    <string name="C206">A=奥克兰|Pacific/Auckland| (新西兰)</string>
+    <string name="C207">F=斐济|Pacific/Fiji| (斐济共和国)</string>
+    <string name="C208">G=关岛|Pacific/Guam| (关岛)</string>
+    <string name="C209">T=檀香山|Pacific/Honolulu| (美国)</string>
+    <string name="C21">L=拉各斯|Africa/Lagos| (尼日利亚)</string>
+    <string name="C210">K=克里斯马斯|Pacific/Kiritimati| (基里巴斯)</string>
+    <string name="C211">N=努美阿|Pacific/Noumea| (新喀里多尼亚)</string>
+    <string name="C214">A=安提瓜|America/Antigua| (安提瓜和巴布达)</string>
+    <string name="C215">A=奥斯汀|America/Chicago| (美国)</string>
+    <string name="C216">B=波士顿|America/New_York| (美国)</string>
+    <string name="C217">K=卡尔加里|America/Denver| (美国)</string>
+    <string name="C218">G=哥伦布|America/New_York| (美国)</string>
+    <string name="C219">D=达拉斯|America/Chicago| (美国)</string>
+    <string name="C22">M=马塞卢|Africa/Maseru| (莱索托)</string>
+    <string name="C220">N=诺克斯维尔|America/New_York| (美国)</string>
+    <string name="C221">M=孟菲斯|America/Chicago| (美国)</string>
+    <string name="C222">M=迈阿密|America/New_York| (美国)</string>
+    <string name="C223">M=明尼阿波利斯|America/Chicago| (美国)</string>
+    <string name="C224">W=渥太华|America/New_York| (加拿大)</string>
+    <string name="C225">F=费城|America/New_York| (美国)</string>
+    <string name="C226">B=波特兰|America/Los_Angeles| (美国)</string>
+    <string name="C227">S=圣地亚哥|America/Los_Angeles| (美国)</string>
+    <string name="C228">J=旧金山|America/Los_Angeles| (美国)</string>
+    <string name="C229">Y=盐湖城|America/Denver| (美国)</string>
+    <string name="C23">M=摩加迪沙|Africa/Mogadishu| (索马里)</string>
+    <string name="C230">S=圣何塞|America/Los_Angeles| (美国)</string>
+    <string name="C231">S=圣萨尔瓦多|America/Guatemala| (美国)</string>
+    <string name="C232">X=西雅图|America/Los_Angeles| (美国)</string>
+    <string name="C233">S=圣路易斯|America/Chicago| (美国)</string>
+    <string name="C234">H=华盛顿特区|America/New_York| (美国)</string>
+    <string name="C235">X=休斯顿|America/Chicago| (美国)</string>
+    <string name="C236">S=圣安东尼奥|America/Chicago| (美国)</string>
+    <string name="C237">J=杰克逊维尔|America/New_York| (美国)</string>
+    <string name="C238">B=巴尔的摩|America/New_York| (美国)</string>
+    <string name="C239">N=纳什维尔|America/Chicago| (美国)</string>
+    <string name="C24">N=内罗毕|Africa/Nairobi| (肯尼亚)</string>
+    <string name="C240">M=密尔沃基|America/Chicago| (美国)</string>
+    <string name="C241">E=俄克拉荷马城|America/Chicago| (美国)</string>
+    <string name="C242">L=拉斯维加斯|America/Los_Angeles| (美国)</string>
+    <string name="C243">A=阿尔伯克基|America/Denver| (美国)</string>
+    <string name="C244">T=图森|MST| (美国)</string>
+    <string name="C245">S=萨克拉门托|America/Los_Angeles| (美国)</string>
+    <string name="C246">Y=亚特兰大|America/New_York| (美国)</string>
+    <string name="C247">K=克利夫兰|America/New_York| (美国)</string>
+    <string name="C248">X=新奥尔良|America/Chicago| (美国)</string>
+    <string name="C249">T=坦帕|America/New_York| (美国)</string>
+    <string name="C25">S=圣多美|Africa/Sao_Tome| (圣多美和普林西比)</string>
+    <string name="C250">P=匹兹堡|America/New_York| (美国)</string>
+    <string name="C251">X=辛辛那提|America/New_York| (美国)</string>
+    <string name="C252">M=芒廷维尤|America/Los_Angeles| (美国)</string>
+    <string name="C253">L=里诺|America/Los_Angeles| (美国)</string>
+    <string name="C254">H=黑岩城|America/Los_Angeles| (美国)</string>
+    <string name="C255">D=多哈|Asia/Riyadh| (卡塔尔)</string>
+    <string name="C256">B=北京:|Asia/Shanghai| (中国)</string>
+    <string name="C257">M=孟买|Asia/Kolkata| (印度)</string>
+    <string name="C258">D=德里|Asia/Kolkata| (印度)</string>
+    <string name="C259">D=大阪:|Asia/Tokyo| (日本)</string>
+    <string name="C26">T=廷巴克图|Africa/Timbuktu| (马里)</string>
+    <string name="C260">L=拉合尔|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C261">S=萨那|Asia/Riyadh| (也门)</string>
+    <string name="C262">B=巴塞罗那|Europe/Madrid| (西班牙)</string>
+    <string name="C263">M=慕尼黑|Europe/Berlin| (德国)</string>
+    <string name="C264">M=米兰|Europe/Rome| (意大利)</string>
+    <string name="C265">F=法兰克福|Europe/Berlin| (德国)</string>
+    <string name="C266">H=河内|Asia/Bangkok| (越南)</string>
+    <string name="C267">A=安卡拉|Europe/Istanbul| (土耳其)</string>
+    <string name="C268">B=班加罗尔|Asia/Kolkata| (印度)</string>
+    <string name="C269">B=巴西利亚|America/Sao_Paulo| (巴西)</string>
+    <string name="C27">D=的黎波里|Africa/Tripoli| (利比亚)</string>
+    <string name="C270">K=开普敦|Africa/Johannesburg| (南非)</string>
+    <string name="C271">Y=伊斯兰堡|Asia/Karachi| (巴基斯坦)</string>
+    <string name="C272">L=里约热内卢|America/Sao_Paulo| (巴西)</string>
+    <string name="C273">A=安娜堡|America/Detroit| (美国)</string>
+    <string name="C274">B=波尔得|America/Denver| (美国)</string>
+    <string name="C275">J=剑桥|America/New_York| (美国)</string>
+    <string name="C276">K=柯克兰|America/Los_Angeles| (美国)</string>
+    <string name="C277">M=麦迪逊|America/Chicago| (美国)</string>
+    <string name="C278">G=广州:|Asia/Shanghai| (中国)</string>
+    <string name="C279">H=海得拉巴|Asia/Kolkata| (印度)</string>
+    <string name="C28">T=突尼斯|Africa/Tunis| (突尼斯共和国)</string>
+    <string name="C280">L=雷斯顿|America/New_York| (美国)</string>
+    <string name="C281">B=贝洛奥里藏特|America/Sao_Paulo| (巴西)</string>
+    <string name="C282">S=圣地亚哥|America/Santiago| (智利)</string>
+    <string name="C283">M=蒙罗维亚|Africa/Monrovia| (利比里亚)</string>
+    <string name="C284">K=科伦坡|Asia/Colombo| (斯里兰卡)</string>
+    <string name="C285">Q=奇瓦瓦|America/Chihuahua| (墨西哥)</string>
+    <string name="C286">S=萨尔瓦多|America/Sao_Paulo| (巴西)</string>
+    <string name="C287">G=古尔冈|Asia/Kolkata| (印度)</string>
+    <string name="C288">M=曼彻斯特|Europe/London| (英国)</string>
+    <string name="C29">A=安克雷奇|America/Anchorage| (美国)</string>
+    <string name="C290">S=圣彼得堡|Europe/Moscow| (俄罗斯)</string>
+    <string name="C291">K=克拉科夫|Europe/Warsaw| (波兰)</string>
+    <string name="C292">F=弗罗茨瓦夫|Europe/Warsaw| (波兰)</string>
+    <string name="C293">H=汉堡|Europe/Berlin| (德国)</string>
+    <string name="C294">A=奥卢|Europe/Bucharest| (芬兰)</string>
+    <string name="C295">H=海法|Asia/Jerusalem| (以色列)</string>
+    <string name="C296">S=圣胡安|America/Puerto_Rico| (阿根廷)</string>
+    <string name="C297">T=特古西加尔巴|America/Tegucigalpa| (洪都拉斯)</string>
+    <string name="C298">P=帕拉马里博|America/Paramaribo| (苏里南)</string>
+    <string name="C299">J=基多|America/Panama| (厄瓜多尔)</string>
+    <string name="C3">Y=亚的斯亚贝巴|Africa/Addis_Ababa| (埃塞俄比亚)</string>
+    <string name="C300">L=卢布尔雅那|Europe/Ljubljana| (斯洛文尼亚共和国)</string>
+    <string name="C301">A=阿什哈巴德|Asia/Ashgabat| (土库曼斯坦)</string>
+    <string name="C302">A=阿斯马拉|Africa/Asmara| (厄立特里亚)</string>
+    <string name="C303">S=斯里巴加湾|Asia/Brunei| (文莱)</string>
+    <string name="C304">B=班吉|Africa/Bangui| (中非共和国)</string>
+    <string name="C305">B=班珠尔|Africa/Banjul| (冈比亚)</string>
+    <string name="C306">B=比什凯克|Asia/Bishkek| (吉尔吉斯斯坦共和国)</string>
+    <string name="C307">B=比绍|Africa/Bissau| (几内亚比绍共和国)</string>
+    <string name="C308">B=布琼布拉|Africa/Bujumbura| (布隆迪共和国)</string>
+    <string name="C309">D=帝力|Asia/Dili| (东帝汶)</string>
+    <string name="C31">A=阿鲁巴|America/Aruba| (阿鲁巴)</string>
+    <string name="C310">D=杜尚别|Asia/Dushanbe| (塔吉克斯坦)</string>
+    <string name="C311">F=富纳富提|Pacific/Funafuti| (图瓦卢)</string>
+    <string name="C312">H=霍尼亚拉|Pacific/Guadalcanal| (所罗门群岛)</string>
+    <string name="C313">Z=朱巴|Africa/Juba| (南苏丹共和国)</string>
+    <string name="C314">J=金斯敦|America/St_Vincent| (牙买加)</string>
+    <string name="C315">L=利伯维尔|Africa/Libreville| (加蓬)</string>
+    <string name="C316">L=洛美|Africa/Lome| (多哥共和国)</string>
+    <string name="C317">L=罗安达|Africa/Luanda| (安哥拉)</string>
+    <string name="C318">L=卢萨卡|Africa/Lusaka| (赞比亚)</string>
+    <string name="C319">M=马朱罗|Pacific/Majuro| (马绍尔群岛共和国)</string>
+    <string name="C32">Y=亚松森|America/Asuncion| (巴拉圭)</string>
+    <string name="C320">M=马拉博|Africa/Malabo| (赤道几内亚)</string>
+    <string name="C321">M=马普托|Africa/Maputo| (莫桑比克)</string>
+    <string name="C322">M=姆巴巴纳|Africa/Mbabane| (斯威士兰)</string>
+    <string name="C323">M=莫罗尼|Indian/Comoro| (科摩罗)</string>
+    <string name="C324">E=恩贾梅纳|Africa/Ndjamena| (乍得共和国)</string>
+    <string name="C325">E=恩吉鲁穆德|Pacific/Palau| (帕劳)</string>
+    <string name="C326">N=尼亚美|Africa/Niamey| (尼日尔共和国)</string>
+    <string name="C327">N=尼科西亚|Europe/Nicosia| (塞浦路斯)</string>
+    <string name="C328">N=努瓦克肖特|Africa/Nouakchott| (毛里塔尼亚)</string>
+    <string name="C329">N=努库阿洛法|Pacific/Tongatapu| (汤加王国)</string>
+    <string name="C33">B=巴巴多斯|America/Barbados| (巴巴多斯)</string>
+    <string name="C330">W=瓦加杜古|Africa/Ouagadougou| (布基纳法索)</string>
+    <string name="C331">P=帕利基尔|Pacific/Noumea| (密克罗尼西亚)</string>
+    <string name="C332">F=菲利普斯堡|America/Lower_Princes| (荷属圣马丁)</string>
+    <string name="C333">B=波德戈里察|Europe/Podgorica| (黑山共和国)</string>
+    <string name="C334">M=莫尔兹比港|Pacific/Palau| (巴布亚新几内亚)</string>
+    <string name="C335">W=维拉港|Pacific/Efate| (瓦努阿图共和国)</string>
+    <string name="C336">B=波多诺伏|Africa/Porto-Novo| (贝宁共和国)</string>
+    <string name="C337">P=普里什蒂纳|Europe/Belgrade| (塞尔维亚)</string>
+    <string name="C338">L=罗索|America/Dominica| (毛里塔尼亚)</string>
+    <string name="C339">T=塔什干|Asia/Tashkent| (乌兹别克斯坦)</string>
+    <string name="C34">B=伯利兹|America/Belize| (伯利兹)</string>
+    <string name="C340">D=第比利斯|Asia/Tbilisi| (格鲁吉亚)</string>
+    <string name="C341">T=廷布|Asia/Thimphu| (不丹)</string>
+    <string name="C342">D=地拉那|Europe/Tirane| (阿尔巴尼亚)</string>
+    <string name="C343">W=瓦杜兹|Europe/Vaduz| (列支敦士登)</string>
+    <string name="C344">W=万象|Asia/Vientiane| (老挝)</string>
+    <string name="C345">W=温得和克|Africa/Windhoek| (纳米比亚)</string>
+    <string name="C346">Y=雅温得|Africa/Douala| (喀麦隆)</string>
+    <string name="C347">Y=亚伦|Pacific/Nauru| (瑙鲁)</string>
+    <string name="C348">A=埃里温|Asia/Yerevan| (亚美尼亚共和国)</string>
+    <string name="C35">B=波哥大|America/Bogota| (哥伦比亚)</string>
+    <string name="C36">B=布宜诺斯艾利斯|America/Buenos_Aires| (阿根廷)</string>
+    <string name="C37">K=坎昆|America/Cancun| (墨西哥)</string>
+    <string name="C38">J=加拉加斯|America/Caracas| (委内瑞拉)</string>
+    <string name="C39">K=开曼群岛|America/Cayman| (开曼群岛)</string>
+    <string name="C4">A=阿尔及尔|Africa/Algiers| (阿尔及利亚)</string>
+    <string name="C40">Z=芝加哥|America/Chicago| (美国)</string>
+    <string name="C42">K=库拉索|America/Curacao| (库拉索)</string>
+    <string name="C43">D=道森克里克|America/Dawson_Creek| (加拿大)</string>
+    <string name="C44">D=丹佛|America/Denver| (美国)</string>
+    <string name="C45">D=底特律|America/Detroit| (美国)</string>
+    <string name="C46">D=多米尼加|America/Dominica| (多米尼加共和国)</string>
+    <string name="C47">A=埃德蒙顿|America/Edmonton| (加拿大)</string>
+    <string name="C48">S=萨尔瓦多|America/El_Salvador| (萨尔瓦多共和国)</string>
+    <string name="C49">F=福塔雷萨|America/Fortaleza| (巴西)</string>
+    <string name="C5">B=布兰太尔|Africa/Blantyre| (马拉维)</string>
+    <string name="C50">D=大特克|America/Grand_Turk| (特克斯和凯科斯群岛)</string>
+    <string name="C51">G=格林纳达|America/Grenada| (格林纳达)</string>
+    <string name="C52">G=危地马拉|America/Guatemala| (危地马拉共和国)</string>
+    <string name="C53">G=圭亚那|America/Guyana| (圭亚那)</string>
+    <string name="C54">H=哈利法克斯|America/Halifax| (加拿大)</string>
+    <string name="C55">H=哈瓦那|America/Havana| (古巴)</string>
+    <string name="C56">Y=印第安纳波利斯|America/Indiana/Indianapolis| (美国)</string>
+    <string name="C57">N=诺克斯|America/Indiana/Knox| (美国)</string>
+    <string name="C58">M=马伦戈|America/Indiana/Marengo| (美国)</string>
+    <string name="C59">S=圣彼得堡|America/Indiana/Petersburg| (美国)</string>
+    <string name="C6">B=布拉柴维尔|Africa/Brazzaville| (刚果共和国)</string>
+    <string name="C60">T=特尔城|America/Indiana/Tell_City| (美国)</string>
+    <string name="C61">W=韦韦|America/Indiana/Vevay| (美国)</string>
+    <string name="C62">F=樊尚|America/Indiana/Vincennes| (美国)</string>
+    <string name="C63">W=威纳马克|America/Indiana/Winamac| (美国)</string>
+    <string name="C64">J=金斯敦|America/Jamaica| (牙买加)</string>
+    <string name="C65">L=拉巴斯|America/La_Paz| (玻利维亚)</string>
+    <string name="C66">L=利马|America/Lima| (秘鲁)</string>
+    <string name="C67">L=洛杉矶|America/Los_Angeles| (美国)</string>
+    <string name="C68">L=路易维尔|America/Louisville| (美国)</string>
+    <string name="C69">M=马那瓜|America/Managua| (尼加拉瓜)</string>
+    <string name="C7">K=开罗|Africa/Cairo| (埃及)</string>
+    <string name="C70">M=马提尼克|America/Martinique| (马提尼克)</string>
+    <string name="C71">M=门多萨|America/Mendoza| (阿根廷)</string>
+    <string name="C72">M=梅特拉卡特拉|America/Metlakatla| (美国)</string>
+    <string name="C73">M=墨西哥城|America/Mexico_City| (墨西哥)</string>
+    <string name="C74">M=蒙特雷|America/Monterrey| (墨西哥)</string>
+    <string name="C75">M=蒙得维的亚|America/Montevideo| (乌拉圭)</string>
+    <string name="C76">M=蒙特利尔|America/Montreal| (加拿大)</string>
+    <string name="C77">N=拿骚|America/Nassau| (巴哈马)</string>
+    <string name="C78">N=纽约|America/New_York| (美国)</string>
+    <string name="C79">B=比尤拉|America/North_Dakota/Beulah| (美国)</string>
+    <string name="C8">K=卡萨布兰卡|Africa/Casablanca| (摩洛哥)</string>
+    <string name="C80">S=森特|America/North_Dakota/Center| (美国)</string>
+    <string name="C81">X=新塞勒姆|America/North_Dakota/New_Salem| (美国)</string>
+    <string name="C82">B=巴拿马|America/Panama| (巴拿马)</string>
+    <string name="C83">F=菲尼克斯|America/Phoenix| (美国)</string>
+    <string name="C84">X=西班牙港|America/Port_of_Spain| (特立尼达和多巴哥)</string>
+    <string name="C85">T=太子港|America/Port-au-Prince| (海地共和国)</string>
+    <string name="C86">B=波多黎各|America/Puerto_Rico| (美国)</string>
+    <string name="C87">S=圣多明戈|America/Santo_Domingo| (多米尼加)</string>
+    <string name="C88">S=圣保罗|America/Sao_Paulo| (美国)</string>
+    <string name="C89">S=圣约翰斯|America/St_Johns| (加拿大)</string>
+    <string name="C9">K=科纳克里|Africa/Conakry| (几内亚)</string>
+    <string name="C90">S=圣基茨岛|America/St_Kitts| (圣基茨岛)</string>
+    <string name="C91">S=圣卢西亚|America/St_Lucia| (圣卢西亚)</string>
+    <string name="C92">S=圣托马斯|America/St_Thomas| (美属维尔京群岛)</string>
+    <string name="C93">D=蒂华纳|America/Tijuana| (墨西哥)</string>
+    <string name="C94">D=多伦多|America/Toronto| (加拿大)</string>
+    <string name="C95">W=温哥华|America/Vancouver| (加拿大)</string>
+    <string name="C96">W=温尼伯|America/Winnipeg| (加拿大)</string>
+    <string name="C97">N=南极:|Antarctica/South_Pole| (南极)</string>
+    <string name="C98">L=朗伊尔城|Arctic/Longyearbyen| (挪威)</string>
+    <string name="C99">A=阿拉木图|Asia/Almaty| (哈萨克斯坦)</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="accept_permission_desc">已清楚了解本软件权限使用声明</string>
+    <string name="accept_privacy_permission_desc">已清楚了解本软件所有隐私使用政策</string>
+    <string name="action_delete">删除</string>
+    <string name="action_left_edit">编辑</string>
+    <string name="add_remark">添加备注</string>
+    <string name="agree_and_continue">同意并继续</string>
+    <string name="alarm_afternoon">中午 12 :</string>
+    <string name="alarm_alert_snooze_set">" %d 分钟后再响"</string>
+    <string name="alarm_classic">经典铃声</string>
+    <string name="alarm_flip_setting">翻转设置</string>
+    <string name="alarm_is_set">已设置 %s 的闹钟</string>
+    <string name="alarm_is_snoozed">%s 的闹钟已延后 10 分钟</string>
+    <string name="alarm_missed_title">错过的闹钟</string>
+    <string name="alarm_morning">凌晨 12 :</string>
+    <string name="alarm_mute_ringing_switch">静音响铃</string>
+    <string name="alarm_notif_title">即将响起的闹钟,可提前关闭</string>
+    <string name="alarm_reapt">重复</string>
+    <string name="alarm_reminder_tv">距响铃时间还有%6</string>
+    <string name="alarm_repeat">重复</string>
+    <string name="alarm_ring">闹钟响</string>
+    <string name="alarm_setting_flip_close_alarm_intro">关闭后，仅支持向上滑动关闭闹钟。</string>
+    <string name="alarm_setting_flip_close_alarm_title">上下滑动均可关闭闹钟</string>
+    <string name="alarm_settings">闹钟</string>
+    <string name="alarm_shutdown_ringing_switch">关机响铃</string>
+    <string name="alarm_time_activity">闹钟时间到</string>
+    <string name="alarm_time_after_now">晚%s小时</string>
+    <string name="alarm_time_before_now">早%s小时</string>
+    <string name="alarm_time_equal_now">与本地相同</string>
+    <string name="alarm_time_format">M月d日 E</string>
+    <string name="alarm_vibe_switch">响铃振动开关</string>
+    <string name="alarm_volume_title">闹钟（倒计时）音量</string>
+    <string name="alarm_week">自定义</string>
+    <string name="alert_dismiss_text">关闭</string>
+    <string name="alert_remind_close">关闭</string>
+    <string name="alert_remind_later">稍后提醒</string>
+    <string name="alert_remind_snooze">暂停</string>
+    <string name="app_label">时钟</string>
+    <string name="auto_silence_never">永不</string>
+    <string name="auto_silence_summary">%d 分钟</string>
+    <string name="auto_silence_title">闹铃时长</string>
+    <string name="automatic_home_clock">自动显示家中时间</string>
+    <string name="automatic_home_clock_summary">在其他时区旅行时显示家中时间</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="cancel_dialog">取消</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string name="check_draw_overlay_permission">闹钟悬浮窗无法显示，请检查相关权限</string>
+    <string name="cities_activity_title">添加城市</string>
+    <string name="city_count_over_limit">超过添加城市的上限，您需要删除一个已有城市才能添加新的城市</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="clock_settings">时钟</string>
+    <string name="clock_style">样式</string>
+    <string name="close_alarm_notif">关闭闹钟</string>
+    <string name="copy">复制</string>
+    <string name="cta_content_agree_go_on">同意并继续</string>
+    <string name="cta_content_exit">退出</string>
+    <string name="cta_net_connect_text">用于获取节假日信息</string>
+    <string name="cta_net_storage_text">用于数据存储和读取</string>
+    <string name="custom_volume">自定义音量</string>
+    <string name="custom_volume_silence">当前铃声为”无铃声“，无法试听</string>
+    <string name="date_am">上午</string>
+    <string name="date_pm">下午</string>
+    <string name="day">1 天</string>
+    <string name="day_afternoon">下午</string>
+    <string name="day_concat">", "</string>
+    <string name="day_dawn">凌晨</string>
+    <string name="day_evening">晚上</string>
+    <string name="day_midnoon">中午</string>
+    <string name="day_morning">上午</string>
+    <string name="days">%s 天</string>
+    <string name="days_of_week_day">日</string>
+    <string name="default_label">闹钟</string>
+    <string name="default_ring_title">New Morning</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="delete_successfully">删除成功</string>
+    <string name="delete_world_clock_confirm_tips">确定要删除这%d个城市吗？</string>
+    <string name="delete_world_clock_confirm_tips_one">确定要删除这个城市吗？</string>
+    <string name="deselect">取消全选</string>
+    <string name="disagree">不同意</string>
+    <string name="display_once">不再提示</string>
+    <string name="down_holidays_suscess">节假日数据下载成功，请重新设置</string>
+    <string name="edit_alarm">编辑闹钟</string>
+    <string name="edit_alarm_cancel">取消</string>
+    <string name="edit_alarm_delete_cancel">取消</string>
+    <string name="edit_alarm_delete_ok">删除</string>
+    <string name="edit_alarm_done">完成</string>
+    <string name="edit_alarm_give_up_dialog">编辑内容将被舍弃</string>
+    <string name="edit_alarm_label_remind">最多不能超过13个汉字或26个字符</string>
+    <string name="edit_alarm_last_ring_tv">提醒间隔</string>
+    <string name="edit_alarm_no_label">无</string>
+    <string name="edit_alarm_remark">备注</string>
+    <string name="edit_alarm_sleep_mode">稍后提醒</string>
+    <string name="edit_alarm_title">新建闹钟</string>
+    <string name="edit_alarm_vibe">响铃时振动</string>
+    <string name="edit_alarm_volume_mode">闹钟音量</string>
+    <string name="edit_alarm_weather">响铃时播报天气</string>
+    <string name="edit_list_alarm_select">选择项目</string>
+    <string name="edit_list_alarm_selected_dialog">确定要删除这个闹钟吗？</string>
+    <string name="edit_list_alarm_selected_number">已选择 %d 项</string>
+    <string name="edit_list_alarms_selected_dialog">确定要删除这%d个闹钟吗？</string>
+    <string name="empty_list_msg">无搜索结果</string>
+    <string name="end_snooze">小睡已结束</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="every_day">每天</string>
+    <string name="expand_button_title">高级</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string name="give_up_dialog">舍弃</string>
+    <string name="go_calendar">创建日历</string>
+    <string name="holidays_info">法定工作日</string>
+    <string name="home_time_zone">家中时区</string>
+    <string name="home_time_zone_title">家中时区</string>
+    <string name="hour">1 小时</string>
+    <string name="hours">%s 小时</string>
+    <string name="http_error_text">服务器异常</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="invalid_time">时间无效：%3$s %1$d:%2$d</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="label">闹钟用途</string>
+    <string name="label_description">标签</string>
+    <string name="local">本地</string>
+    <string name="lock_screen_weather_playing_text">正在播放天气铃声</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="menu_alarm">闹钟</string>
+    <string name="menu_clock">世界时钟</string>
+    <string name="menu_item_help">帮助</string>
+    <string name="menu_item_night_mode">夜间模式</string>
+    <string name="menu_item_settings">设置</string>
+    <string name="menu_item_sort_by_gmt_offset">按时间排序</string>
+    <string name="menu_stopwatch">秒表</string>
+    <string name="menu_timer">倒计时</string>
+    <string name="minute">1 分钟</string>
+    <string name="minute_unit">分</string>
+    <string name="minutes">%s 分钟</string>
+    <string name="missed_alarm_has_been_deleted">错过的闹钟已删除</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string name="net_connect_prompt_title">时钟需要获得以下权限</string>
+    <string name="never">永不</string>
+    <string name="next_alarm_description">下次闹钟时间：%s</string>
+    <string name="no_alarms">没有闹钟</string>
+    <string name="no_clock">没有世界时钟</string>
+    <string name="no_firing_alarms">目前没有正在响铃的闹钟</string>
+    <string name="no_holiday_data_prompt">法定工作日（首次使用需联网）</string>
+    <string name="no_music">没有本地音乐</string>
+    <string name="no_permission_text">时钟没有获取手机状态权限，会导致通话过程中闹钟声音和通话声音重叠，是否赋予该权限？</string>
+    <string name="no_record">没有本地录音</string>
+    <string name="not_set">未设置</string>
+    <string name="notification_channel_name">时钟通知</string>
+    <string name="number_picker_hour">小时</string>
+    <string name="number_picker_minute">分</string>
+    <string name="number_picker_second">秒</string>
+    <string name="ok_dialog">确定</string>
+    <string name="once">不重复</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string name="permission_access_location">获取定位</string>
+    <string name="permission_access_network">联网</string>
+    <string name="permission_access_storage">读写存储设备</string>
+    <string name="permission_call_phone">拨打电话</string>
+    <string name="permission_desc_heder">根据您在使用我们应用过程中的不同服务或场景，可能需要您开通相关权限：</string>
+    <string name="permission_header">用户权限声明</string>
+    <string name="permission_open_bluetooth">开启蓝牙</string>
+    <string name="permission_open_camera">打开摄像头</string>
+    <string name="permission_open_mic">打开麦克风</string>
+    <string name="permission_open_nfc">开启NFC</string>
+    <string name="permission_read_call_log">读取通话记录</string>
+    <string name="permission_read_contact">读取联系人</string>
+    <string name="permission_read_mms">读取彩信记录</string>
+    <string name="permission_read_sms">读取短信记录</string>
+    <string name="permission_send_email">发送邮件</string>
+    <string name="permission_send_mms">发送彩信</string>
+    <string name="permission_send_sms">发送短信</string>
+    <string name="permission_statement">上述权限均不会默认或强制开启，我们会在您启用相应功能或相关的应用场景中向您申请，您有权拒绝开启，拒绝授权不会影响APP提供基本功能服务。</string>
+    <string name="permission_write_call_log">写/删通话记录</string>
+    <string name="permission_write_contact">写/删联系人</string>
+    <string name="permission_write_mms">写/删彩信记录</string>
+    <string name="permission_write_sms">写/删短信记录</string>
+    <string name="pick_from_music">从音乐选择铃声</string>
+    <string name="pick_from_recorder">从录音选择铃声</string>
+    <string name="pick_from_ringtone">从来电铃声中选择</string>
+    <string name="poweroff_alarm">关机闹钟</string>
+    <string name="poweroff_alarm_close_tips">关机后闹钟正常响铃并开机</string>
+    <string name="poweroff_alarm_open_tips">关机后闹钟正常响铃并开机</string>
+    <string name="poweroff_prompt_dlg_close">去关闭</string>
+    <string name="poweroff_prompt_dlg_msg">关机后也会正常响铃，可在闹钟设置中关闭该功能</string>
+    <string name="poweroff_prompt_dlg_ok">确定</string>
+    <string name="poweroff_prompt_dlg_title">关机闹钟已启用</string>
+    <string name="preference_copied">已将“%1$s”复制到剪贴板。</string>
+    <string name="privacy_content" formatted="false">"感谢您使用%s！
+我们深知您对个人信息和隐私保护的重视，您可以通过阅读%s详细了解相关信息。我们将按照法律规定，竭诚保护您的个人信息安全，为您提供更好的服务！"</string>
+    <string name="privacy_permission_header">用户隐私及权限声明</string>
+    <string name="privacy_policy_file_link_title">《隐私声明文件名称》</string>
+    <string name="repeat_public_weekdays">法定工作日</string>
+    <string name="ring_chose">选择铃声</string>
+    <string name="ringtone">铃声</string>
+    <string name="search_hint">搜索城市或国家</string>
+    <string name="search_local_music">搜索本地音乐</string>
+    <string name="search_local_record">搜索本地录音</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="second_unit">秒</string>
+    <string name="select_all">全选</string>
+    <string name="setting_dialog">去设置</string>
+    <string name="settings">闹钟设置</string>
+    <string name="show_notif">即将响铃闹钟通知</string>
+    <string name="show_notif_open_tips">响铃前通知中心提醒，可提前关闭闹钟</string>
+    <string name="silent_alarm">无</string>
+    <string name="silent_alarm_summary">无</string>
+    <string name="skip_alarm_next_time_normal">仅跳过本次闹钟，下次正常响铃</string>
+    <string name="snooze_duration_title">暂停时长</string>
+    <string name="snooze_interval_later">后</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopwatch_service_desc">使用秒表服务执行通知功能</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="sw_lap_button">计次</string>
+    <string name="sw_notification_lap_number">第 %d 次</string>
+    <string name="sw_pause_button">暂停</string>
+    <string name="sw_reset_button">归零</string>
+    <string name="sw_resume_button">继续</string>
+    <string name="sw_share_laps">各圈时间：</string>
+    <string name="sw_share_main">我的时间：%s</string>
+    <string name="sw_unit_digits">小时分秒</string>
+    <string name="swn_stopped">已停止</string>
+    <string name="sync_alarm_from_server_completed">云服务已成功更新时钟数据</string>
+    <string name="time_handle_text_degree_unit">分</string>
+    <string name="time_span_unit_hour">小时</string>
+    <string name="time_span_unit_minute">分钟</string>
+    <string name="time_span_unit_second">秒钟</string>
+    <string name="timer_am">上午</string>
+    <string name="timer_close">关闭</string>
+    <string name="timer_common_countdown">常用倒计时</string>
+    <string name="timer_dialog_btn_cancel">取消</string>
+    <string name="timer_dialog_btn_start">开始计时</string>
+    <string name="timer_dialog_title">设置时间</string>
+    <string name="timer_egg">煮蛋</string>
+    <string name="timer_focus">专注</string>
+    <string name="timer_fullscreen_prompt">滑动关闭倒计时</string>
+    <string name="timer_fullscreen_summary_after">倒计时结束</string>
+    <string name="timer_instant_noodles">泡面</string>
+    <string name="timer_meditation">冥想</string>
+    <string name="timer_missed_title">错过的倒计时</string>
+    <string name="timer_notification_label">计时器</string>
+    <string name="timer_picker_hour_unit">时</string>
+    <string name="timer_picker_minute_unit">分</string>
+    <string name="timer_picker_second_unit">秒</string>
+    <string name="timer_ring_dialog_title">提醒方式</string>
+    <string name="timer_ring_service_desc">用于“时钟”内设置的倒计时的音效播放服务</string>
+    <string name="timer_siesta">午睡</string>
+    <string name="timer_sport">运动</string>
+    <string name="timer_stopped">已暂停</string>
+    <string name="timer_toast">名称不允许重复</string>
+    <string name="timer_up">时间到了</string>
+    <string name="timing">计时</string>
+    <string name="title_local_music">本地音乐</string>
+    <string name="title_record">录音</string>
+    <string name="title_ringstone">来电铃声</string>
+    <string name="touch_on_close">滑动关闭闹钟</string>
+    <string name="touchupclose">向上或向下滑动关闭闹钟</string>
+    <string name="update_holiday_summary">检测更新可用的节假日数据</string>
+    <string name="update_holiday_title">更新节假日数据</string>
+    <string name="v7_preference_off">关闭</string>
+    <string name="v7_preference_on">开启</string>
+    <string name="volume_button_setting_title">音量按钮</string>
+    <string name="weather_key_rain">雨</string>
+    <string name="weekly">每周</string>
+    <string name="world_time_today">今天</string>
+    <string name="world_time_tomorrow">明天</string>
+    <string name="world_time_yesterday">昨天</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cli_adapt_44dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/icon_frame" android:paddingTop="@dimen/cli_adapt_4dp" android:paddingBottom="@dimen/cli_adapt_4dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/cli_adapt_24dp" android:layout_height="@dimen/cli_adapt_24dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/start_target" android:paddingTop="@dimen/cli_adapt_6dp" android:paddingBottom="@dimen/cli_adapt_6dp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/cli_adapt_18dp">
+        <TextView android:textColor="@color/plugin_setting_text" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CliCard.Text16" />
+        <TextView android:textColor="@color/plugin_multiday_sec_text" android:ellipsize="end" android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CliCard.Text16" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/preference_radio_button" />
+    </LinearLayout>
+</LinearLayout>

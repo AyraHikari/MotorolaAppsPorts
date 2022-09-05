@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>الارم کو اب سے 1 منٹ کم کے لئے سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %1$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %2$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %1$s اور %2$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %3$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %1$s اور %3$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %2$s اور %3$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+        <item>اب سے %2$s، %1$sاور %3$s کے لئے الارم سیٹ کیا گیا ہے۔</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 منٹ</item>
+        <item>10 منٹ</item>
+        <item>15 منٹ</item>
+        <item>20 منٹ</item>
+        <item>25 منٹ</item>
+        <item>30 منٹ</item>
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>اینالاگ</item>
+        <item>ڈیجیٹل</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>اینالاگ</item>
+        <item>ڈیجیٹل</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>بجتے وقت مقامی موسم کو دکھانے کے لئے انٹرنیٹ سے کنیکٹ کریں</item>
+        <item>بجتے وقت مقامی موسم کو دکھانے کے لئے مقام کی ضرورت ہے</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>موبائل نیٹ ورک تک رسائی حاصل کریں</item>
+        <item>مقام تک رسائی حاصل کریں</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>"جنوری۔ "</item>
+        <item>"فروری۔ "</item>
+        <item>"مارچ۔ "</item>
+        <item>"اپریل۔ "</item>
+        <item>مئی</item>
+        <item>"جون۔ "</item>
+        <item>"جولائی۔ "</item>
+        <item>"اگست۔ "</item>
+        <item>"ستمبر۔ "</item>
+        <item>"اکتوبر۔ "</item>
+        <item>"نومبر۔ "</item>
+        <item>"دسمبر۔ "</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>برخاست کریں</item>
+        <item>اسنوز</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>معیار</item>
+        <item>ٹیبلٹ</item>
+        <item>کیوبین</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>اسٹیک</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>اکورڈین</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>ایک دفعہ</item>
+        <item>ہر دن</item>
+        <item>کام کے دن (تعطیلات کے دوران آف)</item>
+        <item>کسٹم</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>ایک دفعہ</item>
+        <item>ہر دن</item>
+        <item>مخصوص</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>اتوار</item>
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>کبھی نہیں</item>
+        <item>5 منٹ</item>
+        <item>10 منٹ</item>
+        <item>15 منٹ</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>ایک منٹ سے بھی کم باقی ہے</item>
+        <item>%1$s باقی ہے</item>
+        <item>%2$s باقی ہے</item>
+        <item>%1$s%2$s باقی ہے</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>گھنٹی</item>
+        <item>وائبریٹ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>مارشل جزیرے</item>
+        <item>مڈوے جزیرہ</item>
+        <item>ہواوی</item>
+        <item>الاسکا</item>
+        <item>پیسیفک وقت</item>
+        <item>تیجوانا</item>
+        <item>ایریزونا</item>
+        <item>چہواواہ</item>
+        <item>ماؤنٹین ٹائم</item>
+        <item>وسطی امریکہ</item>
+        <item>مرکزی وقت</item>
+        <item>میکسیکو شہر</item>
+        <item>سسکیتھیون</item>
+        <item>بوگوٹا</item>
+        <item>مشرقی وقت</item>
+        <item>وینزویلا</item>
+        <item>اٹلانٹک کا وقت (باربادوس)</item>
+        <item>اٹلانٹک کا وقت (کینیڈا)</item>
+        <item>مناؤس</item>
+        <item>سانٹیاگو</item>
+        <item>نیوفاؤنڈلینڈ</item>
+        <item>برازیلیا</item>
+        <item>بیونس آئرس</item>
+        <item>گرین لینڈ</item>
+        <item>مونٹی ویڈیو</item>
+        <item>مڈ- اٹلانٹک</item>
+        <item>ازوریز</item>
+        <item>کیپ وردے جزائر</item>
+        <item>کاسابلانکا</item>
+        <item>لندن، ڈبلن</item>
+        <item>امسٹرڈیم، برلن</item>
+        <item>بیلگریڈ</item>
+        <item>برسلز</item>
+        <item>سارہجیوہ</item>
+        <item>ونڈہوک</item>
+        <item>W. افریقہ کا وقت‘‘</item>
+        <item>امان، اردن</item>
+        <item>ایتھنز، استنبول</item>
+        <item>بیروت، لبنان</item>
+        <item>قائرہ</item>
+        <item>ہیلیسنکی</item>
+        <item>یروشلم</item>
+        <item>منسک</item>
+        <item>ہارئر</item>
+        <item>بغداد</item>
+        <item>ماسکو</item>
+        <item>کویت</item>
+        <item>نیروبی</item>
+        <item>تہران</item>
+        <item>باکو</item>
+        <item>تبلیسی</item>
+        <item>ییریوان</item>
+        <item>دبئی</item>
+        <item>کابل</item>
+        <item>اسلام آباد، کراچی</item>
+        <item>"Ural'sk"</item>
+        <item>یارکٹرنگبرک</item>
+        <item>کلکتہ</item>
+        <item>سری لنکا</item>
+        <item>کھٹمنڈو</item>
+        <item>آستانا</item>
+        <item>یانگون</item>
+        <item>کراسنویاسک</item>
+        <item>بینکاک</item>
+        <item>بیجنگ</item>
+        <item>ہانگ کانگ</item>
+        <item>ارکوٹس</item>
+        <item>کوالا لمپور</item>
+        <item>پرتھ</item>
+        <item>تائپے</item>
+        <item>سیول</item>
+        <item>ٹوکیو، اساکا</item>
+        <item>یکوٹسک</item>
+        <item>ایڈیلائڈ</item>
+        <item>ڈارون</item>
+        <item>برسبین</item>
+        <item>ہوبرٹ</item>
+        <item>سڈنی، کینبرا</item>
+        <item>ولادیوستوک</item>
+        <item>گوام</item>
+        <item>مگادن</item>
+        <item>آکلینڈ</item>
+        <item>فیجی</item>
+        <item>ٹونگا</item>
+        <item>جکارتا</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>پیسفک/مجرو</item>
+        <item>پیسفک/مڈوے</item>
+        <item>پیسفک/ہونولولو</item>
+        <item>امریکہ/لنگر</item>
+        <item>امریکہ/لاس_اینجلس</item>
+        <item>امریکہ/تجوانا</item>
+        <item>امریکہ/فونیکس</item>
+        <item>امریکہ/چہوہوا</item>
+        <item>امریکہ/ڈنور</item>
+        <item>امریکہ/کوسٹا_ریکا</item>
+        <item>امریکہ/شکاگو</item>
+        <item>امریکہ/میکسیکو_شہر</item>
+        <item>امریکہ/ریجنا</item>
+        <item>امریکہ/بوگوٹا</item>
+        <item>امریکہ/نیو_یارک</item>
+        <item>امریکہ/کراکس</item>
+        <item>امریکہ/باربادوس</item>
+        <item>امریکہ/ہیلیفیکس</item>
+        <item>امریکہ/منوس</item>
+        <item>امریکہ/سانتیاگو</item>
+        <item>امریکہ/اسٹریٹ_جانس</item>
+        <item>امریکہ/ساؤ_پاؤلو</item>
+        <item>امریکہ/ارجنٹینا/بیونس_ائرس</item>
+        <item>امریکہ/گودھاب</item>
+        <item>امریکہ/مونٹیویڈیو</item>
+        <item>اٹلانٹک/جنوبی_جارجیا</item>
+        <item>اٹلانٹک/ازوریز</item>
+        <item>اٹلانٹک/کیپ_وردے</item>
+        <item>افریقہ/کاسابلانکا</item>
+        <item>یورپ/لندن</item>
+        <item>یورپ/ایمسٹرڈیم</item>
+        <item>یورپ/بیلگریڈ</item>
+        <item>یورپ/برسلز</item>
+        <item>یورپ/سارہجیو</item>
+        <item>افریقہ/ونڈہوک</item>
+        <item>افریقہ/برازاویل</item>
+        <item>ایشیا/امان</item>
+        <item>یوپر/ایتھنز</item>
+        <item>ایشیا/بیروت</item>
+        <item>افریقہ/قاہرہ</item>
+        <item>یورپ/ہیلسنکی</item>
+        <item>ایشیا/یروشلم</item>
+        <item>یورپ/منسک</item>
+        <item>افریقہ/ہارئر</item>
+        <item>ایشیا/بغداد</item>
+        <item>یورپ/ماسکو</item>
+        <item>ایشیا/کویت</item>
+        <item>ایشیا/نیروبی</item>
+        <item>ایشیا/تہران</item>
+        <item>ایشیا/باکو</item>
+        <item>ایشیا/تبلیسی</item>
+        <item>ایشیا/ییریوان</item>
+        <item>ایشیا/دبئی</item>
+        <item>ایشیا/کابل</item>
+        <item>ایشیا/کراچی</item>
+        <item>ایشیا/اورل</item>
+        <item>ایشیا/یاکٹرینبرگ</item>
+        <item>ایشیا/کلکتہ</item>
+        <item>ایشیا/کولمبو</item>
+        <item>ایشیا/کھٹمنڈو</item>
+        <item>ایشیا/الماتی</item>
+        <item>ایشیا/رنگون</item>
+        <item>ایشیا/کراسنویاسک</item>
+        <item>ایشیا/بینکاک</item>
+        <item>ایشیا/شنگھائی</item>
+        <item>"ایشیا'ہانگ ــ کانگ"</item>
+        <item>ایشیا/ارکوٹس</item>
+        <item>ایشیا/کوالاّلمپور</item>
+        <item>آسٹریلیا/پیرت</item>
+        <item>ایشیا/تائپے</item>
+        <item>ایشیا/سیول</item>
+        <item>ایشیا/ٹوکیو</item>
+        <item>ایشیا/کیوٹاس</item>
+        <item>آسٹریلیا/ایڈیلائڈ</item>
+        <item>آسٹریلیا/ڈارون</item>
+        <item>آسٹریلیا/بریسن</item>
+        <item>آسٹریلیا/ہوبارٹ</item>
+        <item>آسٹریلیا/سڈنی</item>
+        <item>ایشیا/الادیوستوک</item>
+        <item>پیسفک/گوام</item>
+        <item>ایشیا/مگادن</item>
+        <item>پیسفک/آکلینڈ</item>
+        <item>پیسفک/فیجی</item>
+        <item>پیسفک/ٹونگاٹاپو</item>
+        <item>ایشیا/جاکارٹا</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>اسنوز کرہں</item>
+        <item>برخاست کریں</item>
+        <item>کچھ نہ کریں</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>نرم</item>
+        <item>نارمل</item>
+        <item>تیز</item>
+        <item>مخصوص</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>اتوار</item>
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/app_preference_category" android:title="@string/background_transparent" android:key="background_transparent_title" app:allowDividerAbove="false" app:iconSpaceReserved="false">
+        <com.motorola.commandcenter.widget.WidgetSeekbarPreference android:key="background_transparent" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/app_preference_category" android:title="@string/clock_styles" android:key="clock_styles" app:allowDividerAbove="false" app:iconSpaceReserved="false">
+        <com.motorola.commandcenter.weather.settings.ClockStylesPreference android:title="@string/clock_styles_digital" android:key="clock_styles_digital" app:iconSpaceReserved="false" />
+        <com.motorola.commandcenter.weather.settings.ClockStylesPreference android:title="@string/clock_styles_analog" android:key="clock_styles_analog" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/app_preference_category" android:title="@string/information_show" android:key="information_show" app:allowDividerAbove="false" app:iconSpaceReserved="false">
+        <com.motorola.commandcenter.weather.settings.AppPreference android:title="@string/battery_status" android:key="show_battery_status" android:defaultValue="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

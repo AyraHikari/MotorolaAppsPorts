@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation android:animation="@anim/widget_adapt_scale_anim" android:animationOrder="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

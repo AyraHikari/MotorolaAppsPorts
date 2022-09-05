@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layoutDirection="ltr" android:paddingStart="38.0dip" android:paddingEnd="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res">
+    <com.motorola.cn.deskclock.alarmclock.widget.NumberPicker android:id="@id/np_first" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:selectionDividerHeight="0.0dip" />
+    <com.motorola.cn.deskclock.alarmclock.widget.NumberPicker android:id="@id/np_second" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:selectionDividerHeight="0.0dip" />
+    <com.motorola.cn.deskclock.alarmclock.widget.NumberPicker android:id="@id/np_third" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:selectionDividerHeight="0.0dip" />
+</LinearLayout>

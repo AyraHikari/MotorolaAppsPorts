@@ -1,0 +1,19 @@
+.class public interface abstract Lc/a/b/c/d/b$d;
+.super Ljava/lang/Object;
+.source "ActivityRetainedComponentManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lc/a/b/c/d/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "d"
+.end annotation
+
+
+# virtual methods
+.method public abstract b()Lc/a/b/a;
+.end method

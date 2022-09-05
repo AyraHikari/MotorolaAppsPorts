@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/widget_adapt_analog_size_preview" android:width="@dimen/widget_adapt_20dp" android:viewportWidth="14.0" android:viewportHeight="170.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_adapt_hour_hand_color" android:pathData="M7,37C10.31,37 13,39.69 13,43L13,87C13,90.31 10.31,93 7,93C3.69,93 1,90.31 1,87L1,43C1,39.69 3.69,37 7,37Z" android:fillType="evenOdd" />
+</vector>

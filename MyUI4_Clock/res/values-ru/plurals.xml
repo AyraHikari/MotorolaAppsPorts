@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+        <item quantity="many">%s часов</item>
+    </plurals>
+    <plurals name="Nhours_description_after">
+        <item quantity="other">%s -</item>
+        <item quantity="one">%s -</item>
+        <item quantity="few">%s -</item>
+        <item quantity="many">%s -</item>
+    </plurals>
+    <plurals name="Nhours_description_before">
+        <item quantity="other">%s +</item>
+        <item quantity="one">%s +</item>
+        <item quantity="few">%s +</item>
+        <item quantity="many">%s +</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%s минуты</item>
+        <item quantity="one">%s минута</item>
+        <item quantity="few">%s минуты</item>
+        <item quantity="many">%s минут</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%s секунды</item>
+        <item quantity="one">%s секунда</item>
+        <item quantity="few">%s секунды</item>
+        <item quantity="many">%s секунд</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+</resources>

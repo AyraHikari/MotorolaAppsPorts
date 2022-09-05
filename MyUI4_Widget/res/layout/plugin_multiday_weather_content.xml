@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_single_day" layout="@layout/plugin_multiday_weather_layout_daily" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_multiday_day" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cli_adapt_14dp" />
+</FrameLayout>

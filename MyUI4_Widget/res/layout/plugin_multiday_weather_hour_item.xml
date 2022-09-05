@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/plugin_cli_text_color_4" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/CliCard.Text12" />
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/cli_adapt_24dp" android:layout_height="@dimen/cli_adapt_24dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_below="@id/time" android:layout_centerHorizontal="true" android:layout_marginVertical="@dimen/cli_adapt_4dp" />
+    <TextView android:id="@id/no_data" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/cli_adapt_24dp" android:layout_marginTop="@dimen/cli_adapt_8dp" android:layout_below="@id/time" android:layout_centerHorizontal="true" style="@style/CliCard.Text12" />
+    <TextView android:textColor="@color/plugin_cli_text_color_4" android:id="@id/temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_below="@id/icon" android:layout_centerHorizontal="true" style="@style/CliCard.Text12" />
+    <TextView android:textColor="@color/plugin_cli_text_color_4" android:id="@id/low_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_2dp" android:layout_below="@id/temp" android:layout_centerHorizontal="true" style="@style/CliCard.Text12" />
+</RelativeLayout>

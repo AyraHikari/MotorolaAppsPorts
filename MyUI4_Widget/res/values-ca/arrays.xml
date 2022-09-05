@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>1 hora</item>
+        <item>2 hores</item>
+        <item>3 hores</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>Hora i temps</item>
+        <item>Informació meteorològica</item>
+        <item>Hora</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Illes Marshall</item>
+        <item>Atol Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Zona horària del Pacífic</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Zona horària de les muntanyes rocoses</item>
+        <item>Amèrica Central</item>
+        <item>Zona horària estàndard del centre</item>
+        <item>Ciutat de Mèxic</item>
+        <item>Saskatchewan</item>
+        <item>Bogotà</item>
+        <item>"Zona horària estàndard de l'est"</item>
+        <item>Veneçuela</item>
+        <item>"Zona horària estàndard de l'Atlàntic (Barbados)"</item>
+        <item>"Zona horària estàndard de l'Atlàntic (Canadà)"</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terranova</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Groenlàndia</item>
+        <item>Montevideo</item>
+        <item>Atlàntic Mitjà dels Estats Units</item>
+        <item>Açores</item>
+        <item>Illes de Cap Verd</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublín</item>
+        <item>Amsterdam, Berlín</item>
+        <item>Belgrad</item>
+        <item>Brussel·les</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>"Zona horària d'Àfrica Occidental"</item>
+        <item>Amman, Jordània</item>
+        <item>Atenes, Istanbul</item>
+        <item>Beirut, Líban</item>
+        <item>El Caire</item>
+        <item>Hèlsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscou</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Bakú</item>
+        <item>Tbilissi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Oral</item>
+        <item>Iekaterinburg</item>
+        <item>Calcuta</item>
+        <item>Sri Lanka</item>
+        <item>Katmandú</item>
+        <item>Astanà</item>
+        <item>Rangun</item>
+        <item>Krasnoiarsk</item>
+        <item>Bangkok</item>
+        <item>Pequín</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seül</item>
+        <item>Tòquio, Osaka</item>
+        <item>Iakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+</resources>

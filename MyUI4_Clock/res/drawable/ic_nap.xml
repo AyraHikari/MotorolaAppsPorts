@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M1,1h22v22h-22z" android:strokeColor="#ff000000" android:strokeWidth="2.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M12,2C12.3379,2 12.6718,2.0168 13.0011,2.0495L13.001,4.062C12.6731,4.0211 12.339,4 12,4C7.5817,4 4,7.5817 4,12C4,16.4183 7.5817,20 12,20C16.4183,20 20,16.4183 20,12C20,11.3096 19.9126,10.6397 19.7481,10.0006L21.8,10C21.9311,10.6462 22,11.3151 22,12C22,17.5228 17.5228,22 12,22C6.4772,22 2,17.5228 2,12C2,6.4772 6.4772,2 12,2Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M15,2.8l2.8,0l-2.8,3.4l0,1.8l5,0l0,-1.8l-2.8,0l2.8,-3.4l0,-1.8l-5,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M8.5,14C7.3462,14 6.3645,13.1661 6,12.0019L7.7205,12.0017C7.9263,12.3146 8.2177,12.5 8.5,12.5C8.7823,12.5 9.0737,12.3146 9.2795,12.0017L11,12.0019C10.6355,13.1661 9.6538,14 8.5,14Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="@color/timer_anim_color" android:pathData="M15.5,14C14.3462,14 13.3645,13.1661 13,12.0019L14.7205,12.0017C14.9263,12.3146 15.2177,12.5 15.5,12.5C15.7823,12.5 16.0737,12.3146 16.2795,12.0017L18,12.0019C17.6355,13.1661 16.6538,14 15.5,14Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/widget_bg_size" android:layout_height="@dimen/widget_bg_size" android:src="@drawable/circle_widget_bg" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/row2_widget_bg" android:layoutAnimation="@anim/widget_rotate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/row2_edge_light" android:layout_width="@dimen/widget_bg_size" android:layout_height="@dimen/widget_bg_size" android:src="@drawable/circle_edge_light" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/content_box_0" android:layoutAnimation="@anim/widget_fade_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/row2_widget_bg" android:layout_alignBottom="@id/row2_widget_bg" android:layout_alignStart="@id/row2_widget_bg" android:layout_alignEnd="@id/row2_widget_bg" />
+    <RelativeLayout android:id="@id/content_box" android:layoutAnimation="@anim/widget_fade_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/row2_widget_bg" android:layout_alignBottom="@id/row2_widget_bg" android:layout_alignStart="@id/row2_widget_bg" android:layout_alignEnd="@id/row2_widget_bg" />
+    <RelativeLayout android:id="@id/arrow_box" android:layout_width="@dimen/arrow_box_width" android:layout_height="@dimen/arrow_box_height" android:layout_alignBottom="@id/row2_widget_bg" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/arrow_icon" android:clickable="false" android:layout_width="@dimen/arrow_icon_size" android:layout_height="@dimen/arrow_icon_size" android:src="@drawable/arrow_button" android:layout_centerHorizontal="true" android:contentDescription="@string/cd_down_arrow" />
+    </RelativeLayout>
+</RelativeLayout>

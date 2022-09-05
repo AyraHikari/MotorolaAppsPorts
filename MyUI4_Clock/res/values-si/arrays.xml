@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>මෙතැන් පටන් මිනිත්තු 1 කට අඩු කාලයක් දක්වා එලාමය තබා ඇත.</item>
+        <item>එලාමය මෙතැන් සිට %1$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට %2$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට%1$s සහ %2$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට %3$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට%1$s සහ %3$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට%2$s සහ %3$s සඳහා සකසන ලදී.</item>
+        <item>එලාමය මෙතැන් සිට %1$s, %2$s, සහ %3$s දක්වා සකසන ලදී.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>මිනිත්තු 5</item>
+        <item>මිනිත්තු 10</item>
+        <item>මිනිත්තු 15</item>
+        <item>මිනිත්තු 20</item>
+        <item>මිනිත්තු 25</item>
+        <item>මිනිත්තු 30</item>
+        <item>කිසිවිටෙකත් එපා</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>ඇනලොග්</item>
+        <item>ඩිජිටල්</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>ඇනලොග්</item>
+        <item>ඩිජිටල්</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>නාද වන අතර අන්තර්ජාලයට පිවිසී දේශීය කාලගුණික තත්වය පෙන්වන්න</item>
+        <item>නාද වන අතර දේශීය කාලගුණික තත්වය පෙන්වීමට ස්ථානීය දත්ත අවශ්‍යයි.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>ජංගම ජාලය වෙත පිවිසෙන්න</item>
+        <item>පිවිසුම් ස්ථානය</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>පෙ.ව.</item>
+        <item>ප.ව.</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>ජන.</item>
+        <item>පෙබ.</item>
+        <item>මාර්.</item>
+        <item>අප්‍රේ.</item>
+        <item>මැයි</item>
+        <item>ජුනි</item>
+        <item>ජූලී</item>
+        <item>අගෝ.</item>
+        <item>සැප්.</item>
+        <item>ඔක්.</item>
+        <item>නොවැ.</item>
+        <item>දෙසැ.</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>ඉවත් කරන්න</item>
+        <item>කල් දමන්න</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>සම්මත</item>
+        <item>ටැබ්ලට්</item>
+        <item>කියුබ්ඉන්</item>
+        <item>කියුබ්අවුට්</item>
+        <item>සිරස්වකරකවන්න</item>
+        <item>තිරස්වකරකවන්න</item>
+        <item>ගොඩගසන්න</item>
+        <item>විශාලනය</item>
+        <item>කුඩාකිරිම</item>
+        <item>උඩටකරකවන්න</item>
+        <item>යටටකරකවන්න</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>එක්වතාවක්</item>
+        <item>දිනපතා</item>
+        <item>වැඩකරන දින (නිවාඩු දින වල අක්‍රියයි)</item>
+        <item>අභිරුචි කරන්න</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>එක්වතාවක්</item>
+        <item>දිනපතා</item>
+        <item>අභිරුචි කරන්න</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>ඉරිදා</item>
+        <item>සඳුදා</item>
+        <item>අඟහරුවාදා</item>
+        <item>බදාදා</item>
+        <item>බ්‍රහස්පතින්දා</item>
+        <item>සිකුරාදා</item>
+        <item>සෙනසුරාදා</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>කිසිවිටෙකත් එපා</item>
+        <item>මිනිත්තු 5</item>
+        <item>මිනිත්තු 10</item>
+        <item>මිනිත්තු 15</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>මිනිත්තුවකට අඩු කාලයක් ඉතිරිව ඇත.</item>
+        <item>%1$s ඉතිරිව ඇත</item>
+        <item>%2$s ඉතිරිව ඇත</item>
+        <item>%1$s%2$s ඉතිරිව ඇත</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>නාදය</item>
+        <item>කම්පනය කරන්න</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>“මාෂල් දිවයින්</item>
+        <item>“මිඩ්වේ දිවයින්</item>
+        <item>“හවායි”</item>
+        <item>“ඇලස්කාව”</item>
+        <item>“පැසිෆික් වෙලාව”</item>
+        <item>“ටිජුවානා”</item>
+        <item>“ඇරිසෝනා”</item>
+        <item>“චිහුවාහුවා”</item>
+        <item>“කඳුකර වෙලාව”</item>
+        <item>“මධ්‍යම ඇමෙරිකාව”</item>
+        <item>“මධ්‍යම වෙලාව”</item>
+        <item>“මෙක්සිකෝ සිටි”</item>
+        <item>“සස්කච්චවන්</item>
+        <item>“බොගෝටා”</item>
+        <item>“නැගෙනහිර වෙලාව”</item>
+        <item>“වෙනිසියුලාව”</item>
+        <item>“අත්ලාන්තික වෙලාව (බාබඩෝස්)”</item>
+        <item>“අත්ලාන්තික වෙලාව (කැනඩාව)”</item>
+        <item>“මැනාවුස්”</item>
+        <item>“සන්තියාගෝ”</item>
+        <item>“නිවුෆවුන්ඩ්ලන්තය”</item>
+        <item>“බ්‍රසිලියාව”</item>
+        <item>“බුවනොස් එයාර්ස්”</item>
+        <item>“ග්‍රීන්ලන්තය”</item>
+        <item>“මොන්ටේවීඩියෝ”</item>
+        <item>“මධ්‍යම-අත්ලාන්තික්”</item>
+        <item>“ඇසෝර්ස්”</item>
+        <item>“කේප් වර්ඩි දූපත්”</item>
+        <item>“කැසබ්ලන්කා”</item>
+        <item>“ලන්ඩන්, ඩබ්ලින්”</item>
+        <item>“ඇම්ස්ටර්ඩෑමය, බර්ලින්”</item>
+        <item>“බෙල්ග්‍රේඩ්”</item>
+        <item>“බ්රුසේල්ස්”</item>
+        <item>“සරජේවෝ”</item>
+        <item>“වින්දහෝක්”</item>
+        <item>“W. “අප්‍රිකානු වෙලාව”</item>
+        <item>“අම්මාන්, ජෝර්දානය”</item>
+        <item>“ඇතන්ස්, ඉස්තාන්බුල්”</item>
+        <item>“බේරුට්, ලෙබනනය”</item>
+        <item>“කයිරෝව”</item>
+        <item>“හෙල්සිංකි”</item>
+        <item>“ජෙරුසෙලම”</item>
+        <item>“මින්ස්ක්”</item>
+        <item>“හරාරේ”</item>
+        <item>“බෑග්ඩැඩ්”</item>
+        <item>“මොස්කව්”</item>
+        <item>“කුවේටය”</item>
+        <item>“නයිරෝබිය”</item>
+        <item>“ටෙහෙරාන්”</item>
+        <item>“බාකු”</item>
+        <item>“ටිබිලිසි”</item>
+        <item>“යෙරෙවාන්”</item>
+        <item>“ඩුබායි”</item>
+        <item>“කාබුල්”</item>
+        <item>“ඉස්ලාමාබාද්, කරච්චි”</item>
+        <item>“යූරැලික්”</item>
+        <item>“යූකැටරින්බර්ග්”</item>
+        <item>“කල්කටාව”</item>
+        <item>“ශ්‍රී ලංකාව</item>
+        <item>“කත්මණ්ඩු”</item>
+        <item>“ආස්ටනා”</item>
+        <item>“යැන්ගන්”</item>
+        <item>“ක්‍රාස්නොයර්ස්ක්”</item>
+        <item>“බැංකොක්”</item>
+        <item>“බීජිං”</item>
+        <item>“හොංකොං”</item>
+        <item>“ඉර්කුට්ස්ක්”</item>
+        <item>:ක්වාලාලම්පූර්”</item>
+        <item>“පර්ත්:</item>
+        <item>“තායිපේ”</item>
+        <item>“සෝල්”</item>
+        <item>“ටෝකියෝ, ඔසාකා”</item>
+        <item>“යාකුට්ස්ක්”</item>
+        <item>“ඇඩිලේඩ්”</item>
+        <item>“ඩාවින්”</item>
+        <item>“බ්‍රිස්බෙනය”</item>
+        <item>“හෝබාර්ට්”</item>
+        <item>“සිඩ්නි, කැන්බරා”</item>
+        <item>“ව්ලදිවස්ටොක්”</item>
+        <item>“ගුවාම්”</item>
+        <item>“මැගඩන්”</item>
+        <item>“ඕක්ලන්ඩ්”</item>
+        <item>“ෆීජි”</item>
+        <item>“ටොන්ගා”</item>
+        <item>“ජකර්තා”</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>“පැසිෆික්/මැජරෝ”</item>
+        <item>“පැසිෆික්/මිඩ්වේ”</item>
+        <item>“පැසිෆික්/හොනොලුලු”</item>
+        <item>“ඇමෙරිකාව/අන්කරේජ්”</item>
+        <item>“ඇමෙරිකාව/ලොස්ඇන්ජලීස්”</item>
+        <item>“ඇමෙරිකාව/ටිජුවානා”</item>
+        <item>“ඇමෙරිකාව/ෆීනික්ස්”</item>
+        <item>“ඇමෙරිකාව/චිහුවාහුවා”</item>
+        <item>“ඇමෙරිකාව/ඩෙන්වර්”</item>
+        <item>“ඇමෙරිකාව/කොස්ටාරිකාව”</item>
+        <item>“ඇමෙරිකාව/චිකාගෝව”</item>
+        <item>“ඇමෙරිකාව/මෙක්සිකෝ_සිටි”</item>
+        <item>“ඇමෙරිකාව/රෙජිනා”</item>
+        <item>“ඇමෙරිකාව/බොගෝටා”</item>
+        <item>“ඇමෙරිකාව/නිව්යෝක්”</item>
+        <item>“ඇමෙරිකාව/කැරකස්”</item>
+        <item>“ඇමෙරිකාව/බාබඩෝස්”</item>
+        <item>“ඇමෙරිකාව/හැලිෆැක්ස්”</item>
+        <item>“ඇමෙරිකාව/මැනාවුස්”</item>
+        <item>“ඇමෙරිකාව/සන්තියාගෝ”</item>
+        <item>“ඇමෙරිකාව/ශාන්ත_ජෝන්ස්”</item>
+        <item>“ඇමෙරිකාව/සාවෝ_පෝලෝ”</item>
+        <item>“ඇමෙරිකාව/ආර්ජෙන්ටිනාව/බුවනෝස්_එයාර්ස්”</item>
+        <item>“ඇමෙරිකාව/ගෝඩ්හොබ්”</item>
+        <item>“ඇමෙරිකාව/මොන්ටේවීඩියෝ”</item>
+        <item>“අත්ලාන්තික්/දකුණු_ජෝජියාව”</item>
+        <item>“අත්ලාන්තික්/ඇසෝර්ස්”</item>
+        <item>“අත්ලාන්තික්/කේප්_වර්ඩි”</item>
+        <item>“අප්‍රිකාව/කැසබ්ලන්කා”</item>
+        <item>“යුරෝපය/ලන්ඩනය”</item>
+        <item>“යුරෝපය/ඇම්ස්ටර්ඩෑම්”</item>
+        <item>“යුරෝපය/බෙල්ග්‍රේඩ්”</item>
+        <item>“යුරෝපය/බ්රුසේල්ස්”</item>
+        <item>“යුරෝපය/සරාජේවෝ”</item>
+        <item>“අප්‍රිකාව/වින්ඩ්හෝක්”</item>
+        <item>“අප්‍රිකාව/බ්‍රසාවිල්”</item>
+        <item>“ආසියාව/අම්මාන්”</item>
+        <item>“යුරෝපය/ඇතැන්ස්”</item>
+        <item>“ආසියාව/බේරූට්”</item>
+        <item>“අප්‍රිකාව/කයිරෝව”</item>
+        <item>“යුරෝපය/හෙල්සිංකි”</item>
+        <item>“ආසියාව/ජෙරුසෙලම”</item>
+        <item>“යුරෝපය/මින්ස්ක්”</item>
+        <item>“අප්‍රිකාව/ හරාරේ”</item>
+        <item>““ආසියාව/බෑග්ඩැඩ්”</item>
+        <item>“යුරෝපය/මොස්කව්”</item>
+        <item>“ආසියාව/කුවේටය”</item>
+        <item>“අප්‍රිකාව/නයිරෝබි”</item>
+        <item>““ආසියාව/ටෙහෙරාන්”</item>
+        <item>““ආසියාව/බාකු”</item>
+        <item>“ආසියාව/ටිබිලිසි”</item>
+        <item>“ආසියාව/යෙරෙවාන්”</item>
+        <item>“ආසියාව/ඩුබායි”</item>
+        <item>“ආසියාව/කාබුල්”</item>
+        <item>“ආසියාව/කරච්චි”</item>
+        <item>“ආසියාව/ඕරල්”</item>
+        <item>“ආසියාව/යෙකටරින්බර්ග්”</item>
+        <item>“ආසියාව/කල්කටාව”</item>
+        <item>“ආසියාව/කොළඹ”</item>
+        <item>“ආසියාව/කත්මණ්ඩු”</item>
+        <item>“ආසියාව/ඇලමිටි”</item>
+        <item>“ආසියාව/රැන්ගුන්”</item>
+        <item>“ආසියාව/ක්රාස්නොයර්ස්ක්”</item>
+        <item>“ආසියාව/බැංකොක්”</item>
+        <item>“ආසියාව/ෂැන්හයි”</item>
+        <item>“ආසියාව/හොංකො”</item>
+        <item>“ආසියාව/ඉර්කුට්ස්ක්”</item>
+        <item>“ආසියාව/ක්වාලාලම්පූර්”</item>
+        <item>“ඕස්ට්‍රේලියාව/පර්ත්”</item>
+        <item>“ආසියාව/තායිපේ”</item>
+        <item>“ආසියාව/සෝල්”</item>
+        <item>“ආසියාව/ටෝකියෝ”</item>
+        <item>“ආසියාව/යාකුට්ස්ක්”</item>
+        <item>“ඕස්ට්‍රේලියාව/ඇඩලේඩ්</item>
+        <item>“ඕස්ට්‍රේලියාව/ඩාවින්</item>
+        <item>“ඕස්ට්‍රේලියාව/බ්‍රිස්බේන්”</item>
+        <item>“ඕස්ට්‍රේලියාව/හොබාර්ට්”</item>
+        <item>“ඕස්ට්‍රේලියාව/සිඩ්නි”</item>
+        <item>“ඕස්ට්‍රේලියාව/ව්ලදිවොස්ටොක්”</item>
+        <item>“පැසිෆික්/ගුවාම්”</item>
+        <item>“ආසියාව/මැගඩන්”</item>
+        <item>“පැසිෆික්/ඕක්ලන්ඩ්”</item>
+        <item>“පැසිෆික්/ෆීජි”</item>
+        <item>“පැසිෆික්/ටොන්ගාටාපු”</item>
+        <item>“ආසියාව/ජකර්තා”</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>කල් දමන්න</item>
+        <item>ඉවත් කරන්න</item>
+        <item>කිසිවක් නොකරන්න</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>සෙමින්</item>
+        <item>සාමාන්‍ය</item>
+        <item>ශබ්ද නගා</item>
+        <item>අභිරුචි කරන්න</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>ඉරිදා</item>
+        <item>සඳුදා</item>
+        <item>අඟහරුවාදා</item>
+        <item>බදාදා</item>
+        <item>බ්‍රහස්පතින්දා</item>
+        <item>සිකුරාදා</item>
+        <item>සෙනසුරාදා</item>
+    </string-array>
+</resources>

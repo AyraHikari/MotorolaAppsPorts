@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/plugin_cli_card_bg" app:cardCornerRadius="@dimen/cli_adapt_22dp" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/cli_adapt_10dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/plugin_cli_content_text_0" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@android:color/transparent" style="@style/CliCard.Text16" />
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/cli_adapt_8dp" android:layout_weight="1.0" app:cardBackgroundColor="@color/plugin_cli_inner_card_color_list" app:cardCornerRadius="@dimen/cli_adapt_26dp" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/img_weather_icon" android:layout_width="@dimen/cli_adapt_60dp" android:layout_height="@dimen/cli_adapt_60dp" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/layout_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_adapt_8dp">
+                    <TextView android:id="@id/weather_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CliCard.Text14" />
+                    <TextView android:textColor="@color/plugin_cli_text_color_2" android:id="@id/weather_low_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cli_adapt_4dp" style="@style/CliCard.Text14" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

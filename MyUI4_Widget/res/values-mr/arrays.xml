@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forecast_update_period">
+        <item>१ तास</item>
+        <item>२ तास</item>
+        <item>३ तास</item>
+    </string-array>
+    <string-array name="panel_type_array">
+        <item>वेळ आणि हवामान</item>
+        <item>हवामान</item>
+        <item>वेळ</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>फॅरनहाइट</item>
+        <item>सेल्सिअस</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>मार्शल आयलंड</item>
+        <item>मिडवे आयलँड</item>
+        <item>हवाई</item>
+        <item>अलास्का</item>
+        <item>पॅसिफिक वेळ</item>
+        <item>तिजुआना</item>
+        <item>ऍरिझोना</item>
+        <item>चिहुआहुआ</item>
+        <item>माउंटन वेळ</item>
+        <item>मध्य अमेरिका</item>
+        <item>मध्यवर्ती वेळ</item>
+        <item>मेक्सिको शहर</item>
+        <item>सास्काचेवान</item>
+        <item>बोगोटा</item>
+        <item>पूर्व वेळ</item>
+        <item>व्हेनेझुएला</item>
+        <item>अटलांटिक वेळ (बार्बाडोस)</item>
+        <item>अटलांटिक वेळ (कॅनडा)</item>
+        <item>मॅनॉस</item>
+        <item>सॅंटियागो</item>
+        <item>न्यूफाउंडलँड</item>
+        <item>ब्राझीलिया</item>
+        <item>बुएनोस आइरेस</item>
+        <item>ग्रीनलँड</item>
+        <item>मॉन्टेविडियो</item>
+        <item>मध्य-अटलांटिक</item>
+        <item>अझोरेस</item>
+        <item>केप वर्डे आयलँड</item>
+        <item>कॅसाब्लांका</item>
+        <item>लंडन, डब्लिन</item>
+        <item>आम्सटरडॅम, बर्लिन</item>
+        <item>बेलग्रेड</item>
+        <item>ब्रुसेल्स</item>
+        <item>साराजेव्हो</item>
+        <item>विन्डहोक</item>
+        <item>प. आफ्रिका वेळ</item>
+        <item>अम्मान, जॉर्डन</item>
+        <item>अथेन्स, इस्तंबूल</item>
+        <item>बैरूत, लेबनॉन</item>
+        <item>कैरो</item>
+        <item>हेलसिंकी</item>
+        <item>जेरुसलेम</item>
+        <item>मिंस्क</item>
+        <item>हरारे</item>
+        <item>बगदाद</item>
+        <item>मॉस्को</item>
+        <item>कुवेत</item>
+        <item>नैरोबी</item>
+        <item>तेहरान</item>
+        <item>बाकू</item>
+        <item>तिबिलिसी</item>
+        <item>येरेवन</item>
+        <item>दुबई</item>
+        <item>काबुल</item>
+        <item>इस्लामाबाद, कराची</item>
+        <item>उराल्स्क</item>
+        <item>येकाटरिनबर्ग</item>
+        <item>कोलकाता</item>
+        <item>श्रीलंका</item>
+        <item>काठमांडू</item>
+        <item>अस्ताना</item>
+        <item>यांगून</item>
+        <item>क्रास्नोयार्स्क</item>
+        <item>बँकॉक</item>
+        <item>बीजिंग</item>
+        <item>हाँगकाँग</item>
+        <item>इर्कुत्स्क</item>
+        <item>कुआला लंपूर</item>
+        <item>पर्थ</item>
+        <item>तैपेई</item>
+        <item>सोल</item>
+        <item>टोकियो, ओसाका</item>
+        <item>याकुत्स्क</item>
+        <item>अॅडिलेड</item>
+        <item>डार्विन</item>
+        <item>ब्रिस्बेन</item>
+        <item>हॉबर्ट</item>
+        <item>सिडनी, कॅनबेरा</item>
+        <item>व्लादिवोस्तोक</item>
+        <item>ग्वॉम</item>
+        <item>मगदान</item>
+        <item>ऑकलँड</item>
+        <item>फिजी</item>
+        <item>टोंगा</item>
+        <item>जकार्ता</item>
+    </string-array>
+</resources>

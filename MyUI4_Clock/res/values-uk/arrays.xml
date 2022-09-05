@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Сигнал пролунає менше ніж за 1 хвилину.</item>
+        <item>Сигнал пролунає через %1$s.</item>
+        <item>Сигнал пролунає через %2$s.</item>
+        <item>Сигнал пролунає через %1$s %2$s.</item>
+        <item>Сигнал пролунає через %3$s.</item>
+        <item>Сигнал пролунає через %1$s %3$s.</item>
+        <item>Сигнал пролунає через %2$s %3$s.</item>
+        <item>Сигнал пролунає через %1$s %2$s та %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>25 хвилин</item>
+        <item>30 хвилин</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Аналоговий</item>
+        <item>Цифровий</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>аналоговий</item>
+        <item>цифровий</item>
+    </string-array>
+    <string-array name="cta_info_list_message">
+        <item>Підключення до Інтернету для відображення місцевої погоди під час сигналу</item>
+        <item>Щоб відображати місцеву погоду під час сигналу, потрібен доступ до даних розташування.</item>
+    </string-array>
+    <string-array name="cta_info_list_title">
+        <item>Доступ до мобільної мережі</item>
+        <item>Доступ до даних розташування</item>
+    </string-array>
+    <string-array name="dayStatus">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="days_of_week_month">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </string-array>
+    <string-array name="flip_setting_entries">
+        <item>Відхилити</item>
+        <item>Відкласти</item>
+    </string-array>
+    <string-array name="flip_setting_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Стандартний</item>
+        <item>Планшет</item>
+        <item>Куб усередину</item>
+        <item>Куб назовні</item>
+        <item>Вертикальне гортання</item>
+        <item>Горизонтальне гортання</item>
+        <item>Накладання</item>
+        <item>Наближення</item>
+        <item>Віддалення</item>
+        <item>Повертання вгору</item>
+        <item>Повертання вниз</item>
+        <item>Гармошка</item>
+    </string-array>
+    <string-array name="repeat_content">
+        <item>Один раз</item>
+        <item>Щодня</item>
+        <item>Робочі дні (не спрацьовує у вихідні)</item>
+        <item>Користувацький</item>
+    </string-array>
+    <string-array name="repeat_content_cannot_use_net">
+        <item>Один раз</item>
+        <item>Щодня</item>
+        <item>Користувацький</item>
+    </string-array>
+    <string-array name="shared_laps_format_set">
+        <item>%6$d%5$c ‎%2$d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$02d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+        <item>%6$d%5$c ‎%1$03d ‎%2$02d ‎%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="short_weekday_names">
+        <item>Нд</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="snooze_interval">
+        <item>Ніколи</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+    </string-array>
+    <string-array name="stopwatch_format_set">
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$02d:%2$02d:%3$02d%5$c%4$02d</item>
+        <item>%1$03d:%2$02d:%3$02d%5$c%4$02d</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Залишилося менше 1 хвилини</item>
+        <item>Залишилося %1$s</item>
+        <item>Залишилося %2$s</item>
+        <item>Залишилося %1$s %2$s</item>
+    </string-array>
+    <string-array name="timer_ring_dialog_content">
+        <item>Дзвінок</item>
+        <item>Вібросигнал</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршаллові острови</item>
+        <item>Острів Мідвей</item>
+        <item>Гаваї</item>
+        <item>Аляска</item>
+        <item>Тихоокеанський час</item>
+        <item>Тіхуана</item>
+        <item>Аризона</item>
+        <item>Чіуауа</item>
+        <item>Гірський час</item>
+        <item>Центральна Америка</item>
+        <item>Центральний час</item>
+        <item>Мехіко</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Східний час</item>
+        <item>Венесуела</item>
+        <item>Атлантичний час (Барбадос)</item>
+        <item>Атлантичний час (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантьяго</item>
+        <item>Ньюфаундленд</item>
+        <item>Бразилія</item>
+        <item>Буенос-Айрес</item>
+        <item>Гренландія</item>
+        <item>Монтевідео</item>
+        <item>Середньоатлантичний</item>
+        <item>Азорські острови</item>
+        <item>Острови Кабо Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублін</item>
+        <item>Амстердам, Берлін</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараєво</item>
+        <item>Віндгук</item>
+        <item>Західноафриканський час</item>
+        <item>Амман, Йорданія</item>
+        <item>Афіни, Стамбул</item>
+        <item>Бейрут, Ліван</item>
+        <item>Каїр</item>
+        <item>Гельсінкі</item>
+        <item>Єрусалим</item>
+        <item>Мінськ</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найробі</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбілісі</item>
+        <item>Єреван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Ісламабад, Карачі</item>
+        <item>Уральськ</item>
+        <item>Єкатеринбург</item>
+        <item>Колката</item>
+        <item>Шрі-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярськ</item>
+        <item>Бангкок</item>
+        <item>Пекін</item>
+        <item>Гонконг</item>
+        <item>Іркутськ</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбей</item>
+        <item>Сеул</item>
+        <item>Токіо, Осака</item>
+        <item>Якутськ</item>
+        <item>Аделаїда</item>
+        <item>Дарвін</item>
+        <item>Брисбен</item>
+        <item>Гобарт</item>
+        <item>Сідней, Канберра</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окленд</item>
+        <item>Фіджі</item>
+        <item>Тонга</item>
+        <item>Джакарта</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Тихий океан, Маджуро</item>
+        <item>Тихий океан, Мідвей</item>
+        <item>Тихий океан, Гонолулу</item>
+        <item>Америка, Анкоридж</item>
+        <item>Америка, Лос-Анджелес</item>
+        <item>Америка, Тіхуана</item>
+        <item>Америка, Фенікс</item>
+        <item>Америка, Чіуауа</item>
+        <item>Америка, Денвер</item>
+        <item>Америка, Коста-Рика</item>
+        <item>Америка, Чикаго</item>
+        <item>Америка, Мехіко</item>
+        <item>Америка, Реджайна</item>
+        <item>Америка, Богота</item>
+        <item>Америка, Нью-Йорк</item>
+        <item>Америка, Каракас</item>
+        <item>Америка, Барбадос</item>
+        <item>Америка, Галіфакс</item>
+        <item>Америка, Манаус</item>
+        <item>Америка, Сантьяго</item>
+        <item>Америка, Сент-Джонс</item>
+        <item>Америка, Сан-Паулу</item>
+        <item>Америка, Аргентина, Буенос-Айрес</item>
+        <item>Америка, Готхоб</item>
+        <item>Америка, Монтевідео</item>
+        <item>Атлантичний, Південна Джорджія</item>
+        <item>Атлантичний, Азорські острови</item>
+        <item>Атлантика, Кабо Верде</item>
+        <item>Африка, Касабланка</item>
+        <item>Європа, Лондон</item>
+        <item>Європа, Амстердам</item>
+        <item>Європа, Белград</item>
+        <item>Європа, Брюссель</item>
+        <item>Європа, Сараєво</item>
+        <item>Африка, Віндгук</item>
+        <item>Африка, Браззавіль</item>
+        <item>Азія, Амман</item>
+        <item>Європа, Афіни</item>
+        <item>Азія, Бейрут</item>
+        <item>Африка, Каїр</item>
+        <item>Європа, Гельсінкі</item>
+        <item>Азія, Єрусалим</item>
+        <item>Європа, Мінськ</item>
+        <item>Африка, Хараре</item>
+        <item>Азія, Багдад</item>
+        <item>Європа, Москва</item>
+        <item>Азія, Кувейт</item>
+        <item>Африка, Найробі</item>
+        <item>Азія, Тегеран</item>
+        <item>Азія, Баку</item>
+        <item>Азія, Тбілісі</item>
+        <item>Азія, Єреван</item>
+        <item>Азія, Дубай</item>
+        <item>Азія, Кабул</item>
+        <item>Азія, Карачі</item>
+        <item>Азія, Уральськ</item>
+        <item>Азія, Єкатеринбург</item>
+        <item>Азія, Калькутта</item>
+        <item>Азія, Коломбо</item>
+        <item>Азія, Катманду</item>
+        <item>Азія, Алмати</item>
+        <item>Азія, Рангун</item>
+        <item>Азія, Красноярськ</item>
+        <item>Азія, Бангкок</item>
+        <item>Азія, Шанхай</item>
+        <item>Азія, Гонконг</item>
+        <item>Азія, Іркутськ</item>
+        <item>Азія, Куала-Лумпур</item>
+        <item>Австралія, Перт</item>
+        <item>Азія, Тайбей</item>
+        <item>Азія, Сеул</item>
+        <item>Азія, Токіо</item>
+        <item>Азія, Якутськ</item>
+        <item>Австралія, Аделаїда</item>
+        <item>Австралія, Дарвін</item>
+        <item>Австралія, Брисбен</item>
+        <item>Австралія, Гобарт</item>
+        <item>Австралія, Сідней</item>
+        <item>Азія, Владивосток</item>
+        <item>Тихий океан, Гуам</item>
+        <item>Азія, Магадан</item>
+        <item>Тихий океан, Окленд</item>
+        <item>Тихий океан, Фіджі</item>
+        <item>Тихий океан, Тонгатапу</item>
+        <item>Азія, Джакарта</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Відкласти</item>
+        <item>Відхилити</item>
+        <item>Не робити нічого</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="volume_mode_array">
+        <item>Тихий</item>
+        <item>Звичайний</item>
+        <item>Гучний</item>
+        <item>Користувацький</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>"П'ятниця"</item>
+        <item>Субота</item>
+    </string-array>
+</resources>

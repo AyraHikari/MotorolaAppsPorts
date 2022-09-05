@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/translucent_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoMediumFont.Text12" android:textColor="@color/widget_adapt_done_text_color" android:gravity="center_horizontal" android:id="@id/text_seekbar_progress" android:background="@drawable/ic_seekbar_pop" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" />
+    <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/setting_seekbar_track" android:thumb="@drawable/setting_seekbar_thumb" android:layout_marginHorizontal="10.0dip" />
+</LinearLayout>

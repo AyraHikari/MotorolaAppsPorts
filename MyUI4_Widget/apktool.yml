@@ -1,0 +1,36 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MyUI4_Widget_4.07.29.apk
+compressionType: false
+doNotCompress:
+- AndroidManifest.xml
+- classes.dex
+- resources.arsc
+- png
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '29'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-fitness.properties: '8'
+  play-services-tasks.properties: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '407029'
+  versionName: 4.07.29

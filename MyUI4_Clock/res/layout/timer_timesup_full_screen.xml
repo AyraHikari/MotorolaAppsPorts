@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:clock="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/timer_timesup_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_marginTop="156.0dip">
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="350.0dip" android:layout_height="350.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" clock:lottie_autoPlay="true" clock:lottie_fileName="timer.json" clock:lottie_loop="true" />
+            <TextView android:textSize="82.0sp" android:textColor="@color/full_screen_timer_time" android:id="@id/full_screen_timer_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_up_full_text" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/full_screen_time" android:id="@id/full_screen_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/full_screen_timer_time" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/full_screen_stop" android:background="@drawable/shape_oval_select_disable" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginBottom="108.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginEnd="@dimen/icon_play_margin">
+            <ImageView android:id="@id/imageView_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stop" android:contentDescription="@string/app_label" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

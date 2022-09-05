@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_notification_bg" android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_14" android:textStyle="bold" android:textColor="@color/notification_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="@dimen/text_size_14" android:textColor="@color/notification_content" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <TextView android:textStyle="bold" android:textColor="@color/notification_text_color" android:gravity="center" android:id="@id/tv_snooze" android:background="@drawable/selector_notification_text" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_remind_later" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textStyle="bold" android:textColor="@color/notification_text_color" android:gravity="center" android:id="@id/tv_dismiss" android:background="@drawable/selector_notification_text" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alert_dismiss_text" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

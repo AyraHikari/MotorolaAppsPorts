@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_bg_stopwatch_height">352.0dip</dimen>
+    <dimen name="header_bg_timer_height">479.0dip</dimen>
+    <dimen name="stop_watch_counter_time_top_margin">60.0dip</dimen>
+    <dimen name="stop_watch_history_bottom_padding">130.0dip</dimen>
+    <dimen name="stop_watch_panel_top_margin">79.0dip</dimen>
+    <dimen name="stop_watch_play_top_padding">10.0dip</dimen>
+    <dimen name="timer_history_top_margin">40.0dip</dimen>
+    <dimen name="timer_view_top_margin">50.0dip</dimen>
+</resources>

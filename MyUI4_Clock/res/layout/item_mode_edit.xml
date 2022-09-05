@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/card_click" android:background="@drawable/mode_edit_shape" android:layout_width="fill_parent" android:layout_height="82.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_delete" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_remove" android:layout_centerVertical="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="16.0dip" />
+            <RelativeLayout android:id="@id/ral_mode" android:background="@drawable/timer_item_circle" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/img_delete">
+                <ImageView android:id="@id/img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_egg" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/ral_mode">
+                <TextView android:textSize="16.0sp" android:textColor="@color/timer_fragment_vt_edit" android:id="@id/vt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/timer_fragment_vt_timer" android:id="@id/vt_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/item_drag" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_drag_mode" android:layout_centerVertical="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

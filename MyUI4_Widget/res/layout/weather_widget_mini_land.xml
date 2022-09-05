@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/img_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/widget_weather_small_card_bg" android:scaleType="fitXY" android:adjustViewBounds="true" android:maxHeight="@dimen/widget_adapt_106dp" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/layout_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/widget_adapt_18dp">
+        <ImageView android:id="@id/weather_icon" android:layout_width="@dimen/widget_adapt_72dp" android:layout_height="@dimen/widget_adapt_72dp" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/widget_weather_accent_color" android:gravity="center" android:id="@id/tv_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/AdaptTime.Text64" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/widget_adapt_190dp" android:layout_marginStart="@dimen/widget_adapt_8dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_adapt_4dp">
+                <TextView android:textAppearance="@style/RobotoMediumFont.Text14" android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:ellipsize="end" android:id="@id/city" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@style/RobotoMediumFont.Text14" android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="｜" />
+                <TextView android:textAppearance="@style/RobotoMediumFont.Text14" android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:ellipsize="end" android:id="@id/tv_phrase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/layout_alter" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/RobotoMediumFont.Text14" android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:ellipsize="end" android:id="@id/alter_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+                <ProgressBar android:id="@id/alter_icon" android:layout_width="@dimen/widget_adapt_16dp" android:layout_height="@dimen/widget_adapt_16dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/widget_warning_anim" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_aqi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/RobotoMediumFont.Text14" android:textStyle="bold" android:textColor="@color/widget_weather_text_color_1" android:ellipsize="end" android:id="@id/aqi_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/widget_adapt_161dp" android:lines="1" android:layout_weight="1.0" />
+                <ImageView android:id="@id/aqi_icon" android:layout_width="@dimen/widget_adapt_10dp" android:layout_height="@dimen/widget_adapt_10dp" android:scaleType="fitXY" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/layout_empty" android:visibility="gone" android:layout_width="@dimen/widget_weather_min_width" android:layout_height="wrap_content">
+        <include layout="@layout/weather_widget_empty" />
+    </FrameLayout>
+</FrameLayout>

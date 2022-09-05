@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/plugin_root" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/single_hourly" android:visibility="gone" layout="@layout/plugin_weather_layout" />
+    <include android:id="@id/single_daily" android:visibility="gone" layout="@layout/plugin_weather_layout_daily" />
+    <TextView android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/plugin_margin_12" android:text="@string/label_weather_setting" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/plugin_margin_22" android:layout_alignParentStart="true" style="@style/CardTitle" />
+    <ImageButton android:id="@id/menu_btn" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/plugin_margin_12" android:src="@drawable/plugin_ic_list" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/plugin_margin_16" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/guide_layout" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_below="@id/menu_btn" android:layout_marginStart="48.0dip" android:layout_alignParentEnd="true">
+        <TextView android:id="@id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/card_menu_guide" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_marginHorizontal="9.0dip" style="@style/TipText" />
+        <TextView android:id="@id/guide_got_it" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plugin_btn_got_it" android:layout_below="@id/guide_text" android:layout_alignParentEnd="true" android:layout_marginHorizontal="9.0dip" android:layout_marginVertical="8.0dip" style="@style/TipButton" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/view_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_title">
+        <include android:id="@id/empty" layout="@layout/plugin_weather_empty" />
+        <LinearLayout android:orientation="vertical" android:id="@id/cities_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/plugin_margin_10" android:layout_marginBottom="@dimen/plugin_margin_4" android:layout_marginHorizontal="@dimen/plugin_margin_16">
+            <include android:id="@id/city_0" layout="@layout/plugin_double_city_item" />
+            <include android:id="@id/city_1" layout="@layout/plugin_double_city_item" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_card" android:background="@drawable/small_mode_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:id="@id/ral_mode" android:background="@drawable/timer_item_circle" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip">
+                <ImageView android:id="@id/img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_egg" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/ral_mode">
+                <TextView android:textSize="20.0sp" android:textColor="@color/timer_small_time_color" android:id="@id/vt_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="Roboto-Medium" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/timer_small_title_color" android:id="@id/vt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

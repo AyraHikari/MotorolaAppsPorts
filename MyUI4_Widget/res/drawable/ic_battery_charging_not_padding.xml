@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="8.899994dip" android:viewportWidth="8.9" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_adapt_analog_date_color" android:pathData="M0.4,9.7h3.3l-1.2,5.1c-0.1,0.4 0.4,0.6 0.6,0.3l5.7,-8.2c0.2,-0.2 0,-0.6 -0.3,-0.6H5.2l1.2,-5.1C6.5,0.8 6,0.6 5.8,0.9L0.1,9.2C-0.1,9.4 0.1,9.7 0.4,9.7z" />
+</vector>

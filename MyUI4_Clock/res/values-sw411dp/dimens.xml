@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="desk_tab_item_rl_top">11.416687dip</dimen>
+    <dimen name="desk_tab_item_text_top">4.566681dip</dimen>
+    <dimen name="desk_tab_layout_height">79.91669dip</dimen>
+    <dimen name="desk_tab_layout_img_size">22.833282dip</dimen>
+    <dimen name="desk_tab_layout_text_size">13.699982sp</dimen>
+    <dimen name="radius_18">20.549988dip</dimen>
+    <dimen name="screen_activity_line_width">156.4083dip</dimen>
+    <dimen name="screen_line_all_width">1094.8516dip</dimen>
+    <dimen name="small_desk_clock_item_rl_top">11.414978dip</dimen>
+    <dimen name="small_desk_clock_tab_out_height">45.666687dip</dimen>
+    <dimen name="stop_watch_history_bottom_padding">150.0dip</dimen>
+    <dimen name="stop_watch_history_top_margin">10.0dip</dimen>
+    <dimen name="stop_watch_panel_top_margin">79.0dip</dimen>
+    <dimen name="timer_list_height_size">520.0dip</dimen>
+    <dimen name="timer_view_height">193.0dip</dimen>
+    <dimen name="timer_view_top_margin2">23.0dip</dimen>
+    <item type="dimen" name="view_right">130.0</item>
+</resources>

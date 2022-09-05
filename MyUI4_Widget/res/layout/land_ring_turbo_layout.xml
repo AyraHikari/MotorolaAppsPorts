@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/transition_logo" android:visibility="visible" android:layout_width="@dimen/ring_turbo_icon_width_land" android:layout_height="@dimen/ring_turbo_icon_height_land" android:src="@drawable/turbo_power_logo" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <TextView android:id="@id/transition_battery_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ring_turbo_item_margin_b_land" android:layout_above="@id/transition_logo" android:layout_centerHorizontal="true" style="@style/RingTextWhite.Number3.Land" />
+    <TextView android:id="@id/transition_text_connected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ring_turbo_item_margin_t_land" android:text="@string/connected" android:layout_below="@id/transition_logo" android:layout_centerHorizontal="true" style="@style/RingTextWhite.TEXT3.Land" />
+</RelativeLayout>
